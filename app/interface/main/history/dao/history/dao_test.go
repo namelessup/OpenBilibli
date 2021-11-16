@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"go-common/app/interface/main/history/conf"
+	"github.com/namelessup/bilibili/app/interface/main/history/conf"
 )
 
 var (

@@ -3,7 +3,7 @@
 //  - https://developers.google.com/protocol-buffers/
 //  - http://info.bilibili.co/display/documentation/gRPC+Proto
 // protobuf 生成 HTTP 工具:
-//  - http://git.bilibili.co/platform/go-common/tree/master/app/tool/protoc-gen-bm
+//  - http://git.bilibili.co/platform/github.com/namelessup/bilibili/tree/master/app/tool/protoc-gen-bm
 syntax = "proto3";
 
 // package 命名使用 {discovery_id}.{version} 的方式, version 形如 v1, v2, v1beta ..

@@ -7,10 +7,10 @@ import (
 	"fmt"
 	"net/http"
 
-	appDao "go-common/app/job/main/tv/dao/app"
-	ugcmdl "go-common/app/job/main/tv/model/ugc"
-	"go-common/library/log"
-	"go-common/library/xstr"
+	appDao "github.com/namelessup/bilibili/app/job/main/tv/dao/app"
+	ugcmdl "github.com/namelessup/bilibili/app/job/main/tv/model/ugc"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 const (

@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	secmodel "go-common/app/service/main/secure/model"
+	secmodel "github.com/namelessup/bilibili/app/service/main/secure/model"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

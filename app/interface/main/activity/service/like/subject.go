@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
-	ldao "go-common/app/interface/main/activity/dao/like"
-	"go-common/app/interface/main/activity/model/like"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
+	ldao "github.com/namelessup/bilibili/app/interface/main/activity/dao/like"
+	"github.com/namelessup/bilibili/app/interface/main/activity/model/like"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 // SubjectInitialize act_subject data initialize .

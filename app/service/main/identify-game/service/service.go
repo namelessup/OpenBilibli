@@ -3,12 +3,12 @@ package service
 import (
 	"context"
 
-	"go-common/app/service/main/identify-game/conf"
-	"go-common/app/service/main/identify-game/dao"
-	"go-common/app/service/main/identify-game/model"
-	"go-common/library/log"
-	"go-common/library/stat"
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/app/service/main/identify-game/conf"
+	"github.com/namelessup/bilibili/app/service/main/identify-game/dao"
+	"github.com/namelessup/bilibili/app/service/main/identify-game/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/stat"
+	"github.com/namelessup/bilibili/library/stat/prom"
 )
 
 // Service is a identify service.

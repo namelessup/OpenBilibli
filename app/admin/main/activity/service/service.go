@@ -2,12 +2,12 @@ package service
 
 import (
 	"context"
-	"go-common/app/admin/main/activity/conf"
-	"go-common/app/admin/main/activity/dao"
-	tagrpc "go-common/app/interface/main/tag/rpc/client"
-	artrpc "go-common/app/interface/openplatform/article/rpc/client"
-	acccli "go-common/app/service/main/account/api"
-	arcclient "go-common/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/app/admin/main/activity/conf"
+	"github.com/namelessup/bilibili/app/admin/main/activity/dao"
+	tagrpc "github.com/namelessup/bilibili/app/interface/main/tag/rpc/client"
+	artrpc "github.com/namelessup/bilibili/app/interface/openplatform/article/rpc/client"
+	acccli "github.com/namelessup/bilibili/app/service/main/account/api"
+	arcclient "github.com/namelessup/bilibili/app/service/main/archive/api"
 
 	"github.com/jinzhu/gorm"
 )

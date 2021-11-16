@@ -6,10 +6,10 @@ import (
 	"os/signal"
 	"syscall"
 
-	"go-common/app/admin/main/bfs/conf"
-	"go-common/app/admin/main/bfs/http"
-	"go-common/app/admin/main/bfs/service"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/bfs/conf"
+	"github.com/namelessup/bilibili/app/admin/main/bfs/http"
+	"github.com/namelessup/bilibili/app/admin/main/bfs/service"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func main() {

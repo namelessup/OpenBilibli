@@ -18,7 +18,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["parser.go"],
-    importpath = "go-common/app/admin/main/up/util/hbaseutil",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/up/util/hbaseutil",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

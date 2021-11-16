@@ -9,12 +9,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go-common/app/interface/main/dm2/lib/xregex"
-	"go-common/app/interface/main/dm2/model"
-	arcMdl "go-common/app/service/main/archive/model/archive"
-	assmdl "go-common/app/service/main/assist/model/assist"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/dm2/lib/xregex"
+	"github.com/namelessup/bilibili/app/interface/main/dm2/model"
+	arcMdl "github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	assmdl "github.com/namelessup/bilibili/app/service/main/assist/model/assist"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/zhenjl/cityhash"
 )

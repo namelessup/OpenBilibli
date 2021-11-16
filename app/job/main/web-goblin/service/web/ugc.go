@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/job/main/web-goblin/model/web"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/web-goblin/model/web"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

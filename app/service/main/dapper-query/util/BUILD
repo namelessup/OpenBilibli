@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["sessionid.go"],
-    importpath = "go-common/app/service/main/dapper-query/util",
+    importpath = "github.com/namelessup/bilibili/app/service/main/dapper-query/util",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

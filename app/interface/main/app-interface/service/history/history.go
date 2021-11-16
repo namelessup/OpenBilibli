@@ -4,15 +4,15 @@ import (
 	"context"
 	"strconv"
 
-	"go-common/app/interface/main/app-interface/model"
-	"go-common/app/interface/main/app-interface/model/history"
-	livemdl "go-common/app/interface/main/app-interface/model/live"
-	hismodle "go-common/app/interface/main/history/model"
-	artmodle "go-common/app/interface/openplatform/article/model"
-	arcmdl "go-common/app/service/main/archive/model/archive"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/model/history"
+	livemdl "github.com/namelessup/bilibili/app/interface/main/app-interface/model/live"
+	hismodle "github.com/namelessup/bilibili/app/interface/main/history/model"
+	artmodle "github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	arcmdl "github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 const (

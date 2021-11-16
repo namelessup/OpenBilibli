@@ -6,7 +6,7 @@ import (
 	"encoding/json"
 	"sync"
 
-	smsmdl "go-common/app/service/main/sms/model"
+	smsmdl "github.com/namelessup/bilibili/app/service/main/sms/model"
 )
 
 const (

@@ -11,7 +11,7 @@ go_library(
         "infoc.go",
         "reporter.go",
     ],
-    importpath = "go-common/app/infra/canal/infoc",
+    importpath = "github.com/namelessup/bilibili/app/infra/canal/infoc",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

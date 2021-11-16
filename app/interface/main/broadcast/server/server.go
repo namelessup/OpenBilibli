@@ -7,12 +7,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go-common/app/interface/main/broadcast/conf"
-	pb "go-common/app/service/main/broadcast/api/grpc/v1"
-	"go-common/library/conf/env"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/netutil"
+	"github.com/namelessup/bilibili/app/interface/main/broadcast/conf"
+	pb "github.com/namelessup/bilibili/app/service/main/broadcast/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/conf/env"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/netutil"
 
 	"github.com/google/uuid"
 	"github.com/zhenjl/cityhash"

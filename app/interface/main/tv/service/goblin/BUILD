@@ -16,7 +16,7 @@ go_library(
         "splash.go",
         "upgrade.go",
     ],
-    importpath = "go-common/app/interface/main/tv/service/goblin",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/tv/service/goblin",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

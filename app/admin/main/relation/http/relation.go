@@ -3,8 +3,8 @@ package http
 import (
 	"time"
 
-	"go-common/app/admin/main/relation/model"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/relation/model"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func followers(c *bm.Context) {

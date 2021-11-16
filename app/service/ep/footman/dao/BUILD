@@ -15,7 +15,7 @@ go_library(
         "mysql_bugly.go",
         "tapd.go",
     ],
-    importpath = "go-common/app/service/ep/footman/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/ep/footman/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

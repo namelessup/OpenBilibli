@@ -170,7 +170,7 @@
 
 ##### Version 2.1.1
 
-1. 移除对 go-common/business/identify,xweb/router,xhttp/router 的依赖
+1. 移除对 github.com/namelessup/bilibili/business/identify,xweb/router,xhttp/router 的依赖
 2. 新增mset命令，同时设置多个partition 的 offset 进行消息回滚
 3. 修改第三方库sarama-cluster，设置partition 的offset后动态回滚到指定offset位置
 4. offset提交改为标记方式，databus自动提交（提交间隔为一秒）

@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"time"
 
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 const maxSize = 1024 * 1024 * 20

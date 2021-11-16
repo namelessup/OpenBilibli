@@ -7,10 +7,10 @@ import (
 	"reflect"
 	"testing"
 
-	memrpc "go-common/app/service/main/member/api/gorpc"
-	memmdl "go-common/app/service/main/member/model"
-	"go-common/app/service/main/vip/model"
-	"go-common/library/ecode"
+	memrpc "github.com/namelessup/bilibili/app/service/main/member/api/gorpc"
+	memmdl "github.com/namelessup/bilibili/app/service/main/member/model"
+	"github.com/namelessup/bilibili/app/service/main/vip/model"
+	"github.com/namelessup/bilibili/library/ecode"
 
 	"github.com/bouk/monkey"
 	. "github.com/smartystreets/goconvey/convey"

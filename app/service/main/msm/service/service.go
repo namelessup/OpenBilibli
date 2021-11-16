@@ -5,10 +5,10 @@ import (
 	"sync"
 	"sync/atomic"
 
-	confrpc "go-common/app/infra/config/rpc/client"
-	"go-common/app/service/main/msm/conf"
-	"go-common/app/service/main/msm/dao"
-	"go-common/app/service/main/msm/model"
+	confrpc "github.com/namelessup/bilibili/app/infra/config/rpc/client"
+	"github.com/namelessup/bilibili/app/service/main/msm/conf"
+	"github.com/namelessup/bilibili/app/service/main/msm/dao"
+	"github.com/namelessup/bilibili/app/service/main/msm/model"
 )
 
 const (

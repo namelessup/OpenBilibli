@@ -19,7 +19,7 @@ go_library(
         "player-example.toml",
         "player-test.toml",
     ],
-    importpath = "go-common/app/interface/main/player/cmd",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/player/cmd",
     tags = ["automanaged"],
     deps = [
         "//app/interface/main/player/conf:go_default_library",

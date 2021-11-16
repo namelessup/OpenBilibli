@@ -5,9 +5,9 @@ import (
 	"fmt"
 
 	"encoding/json"
-	"go-common/app/admin/openplatform/sug/model"
-	"go-common/library/database/sql"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/openplatform/sug/model"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 	"time"
 )
 

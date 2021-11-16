@@ -40,7 +40,7 @@ go_library(
         "tag_up_info.go",
         "up_tag_income.go",
     ],
-    importpath = "go-common/app/job/main/growup/dao/tag",
+    importpath = "github.com/namelessup/bilibili/app/job/main/growup/dao/tag",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

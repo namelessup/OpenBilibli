@@ -4,13 +4,13 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/interface/main/dm/conf"
-	"go-common/app/interface/main/dm/dao"
-	"go-common/app/interface/main/dm/model"
-	dmCli "go-common/app/interface/main/dm2/rpc/client"
-	accoutCli "go-common/app/service/main/account/api"
-	arcCli "go-common/app/service/main/archive/api/gorpc"
-	assCli "go-common/app/service/main/assist/rpc/client"
+	"github.com/namelessup/bilibili/app/interface/main/dm/conf"
+	"github.com/namelessup/bilibili/app/interface/main/dm/dao"
+	"github.com/namelessup/bilibili/app/interface/main/dm/model"
+	dmCli "github.com/namelessup/bilibili/app/interface/main/dm2/rpc/client"
+	accoutCli "github.com/namelessup/bilibili/app/service/main/account/api"
+	arcCli "github.com/namelessup/bilibili/app/service/main/archive/api/gorpc"
+	assCli "github.com/namelessup/bilibili/app/service/main/assist/rpc/client"
 )
 
 // Service define Service struct

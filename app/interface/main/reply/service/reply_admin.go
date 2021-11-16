@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"time"
 
-	"go-common/app/interface/main/reply/conf"
-	"go-common/app/interface/main/reply/model/reply"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
-	"go-common/library/queue/databus/report"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/interface/main/reply/conf"
+	"github.com/namelessup/bilibili/app/interface/main/reply/model/reply"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/queue/databus/report"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // AdminGetSubject get subject state

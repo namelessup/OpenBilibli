@@ -4,11 +4,11 @@ import (
 	"context"
 	"strconv"
 
-	"go-common/app/interface/main/app-interface/model"
-	"go-common/app/interface/main/app-interface/model/space"
-	"go-common/library/cache/redis"
-	"go-common/library/log"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/model/space"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	"github.com/pkg/errors"
 )

@@ -37,7 +37,7 @@ go install ./vendor/github.com/hawkingrei/kazel
 # gazelle won't follow the symlinks in vendor/, so we can't just exclude
 # staging/. Instead we just fix the bad paths with sed.
 if ! kazel; then
-    kratos::log::info "Please remember to run the 'make update' in the root directory of go-common, or run 'kratos update' in any position of go-common.
+    kratos::log::info "Please remember to run the 'make update' in the root directory of github.com/namelessup/bilibili, or run 'kratos update' in any position of github.com/namelessup/bilibili.
     For more information.Please read this document http://info.bilibili.co/pages/viewpage.action?pageId=8466415" >&2
     exit 1
 fi

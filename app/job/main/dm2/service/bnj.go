@@ -8,15 +8,15 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/job/main/dm2/model"
-	"go-common/app/service/main/archive/api"
-	arcMdl "go-common/app/service/main/archive/model/archive"
-	filterMdl "go-common/app/service/main/filter/api/grpc/v1"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
-	"go-common/library/queue/databus"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/job/main/dm2/model"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	arcMdl "github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	filterMdl "github.com/namelessup/bilibili/app/service/main/filter/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/queue/databus"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 var (

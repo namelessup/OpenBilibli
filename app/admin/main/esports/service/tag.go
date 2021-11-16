@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"go-common/app/admin/main/esports/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/esports/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 var _emptyTagList = make([]*model.Tag, 0)

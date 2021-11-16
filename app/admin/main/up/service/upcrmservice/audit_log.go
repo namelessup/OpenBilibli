@@ -3,8 +3,8 @@ package upcrmservice
 import (
 	"time"
 
-	"go-common/library/log"
-	manager "go-common/library/queue/databus/report"
+	"github.com/namelessup/bilibili/library/log"
+	manager "github.com/namelessup/bilibili/library/queue/databus/report"
 )
 
 // AddAuditLog .

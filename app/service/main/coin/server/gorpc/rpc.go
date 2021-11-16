@@ -3,12 +3,12 @@ package rpc
 import (
 	"time"
 
-	pb "go-common/app/service/main/coin/api"
-	"go-common/app/service/main/coin/conf"
-	coin "go-common/app/service/main/coin/model"
-	"go-common/app/service/main/coin/service"
-	"go-common/library/net/rpc"
-	"go-common/library/net/rpc/context"
+	pb "github.com/namelessup/bilibili/app/service/main/coin/api"
+	"github.com/namelessup/bilibili/app/service/main/coin/conf"
+	coin "github.com/namelessup/bilibili/app/service/main/coin/model"
+	"github.com/namelessup/bilibili/app/service/main/coin/service"
+	"github.com/namelessup/bilibili/library/net/rpc"
+	"github.com/namelessup/bilibili/library/net/rpc/context"
 )
 
 // RPC define rpc.

@@ -3,8 +3,8 @@ package archive
 import (
 	"context"
 
-	"go-common/app/service/main/archive/api"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // SetStat3 set all stat

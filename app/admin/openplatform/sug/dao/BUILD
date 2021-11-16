@@ -27,7 +27,7 @@ go_library(
         "redis.go",
         "season_es.go",
     ],
-    importpath = "go-common/app/admin/openplatform/sug/dao",
+    importpath = "github.com/namelessup/bilibili/app/admin/openplatform/sug/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

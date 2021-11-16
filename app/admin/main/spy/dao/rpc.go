@@ -3,10 +3,10 @@ package dao
 import (
 	"context"
 
-	accmdl "go-common/app/service/main/account/model"
-	spymdl "go-common/app/service/main/spy/model"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	accmdl "github.com/namelessup/bilibili/app/service/main/account/model"
+	spymdl "github.com/namelessup/bilibili/app/service/main/spy/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 // UserScore get userscore by id , will init score if score not exist.

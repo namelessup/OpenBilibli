@@ -3,7 +3,7 @@ package service
 import (
 	"flag"
 	_ "github.com/davecgh/go-spew/spew"
-	"go-common/app/service/main/upcredit/conf"
+	"github.com/namelessup/bilibili/app/service/main/upcredit/conf"
 	"path/filepath"
 	"testing"
 	"time"

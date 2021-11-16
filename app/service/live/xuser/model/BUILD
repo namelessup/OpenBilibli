@@ -11,7 +11,7 @@ go_library(
         "model.go",
         "roomAdmin.go",
     ],
-    importpath = "go-common/app/service/live/xuser/model",
+    importpath = "github.com/namelessup/bilibili/app/service/live/xuser/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -29,7 +29,7 @@ func expKey(mid int64) (key string) {
 	return
 }
 
-//go:generate $GOPATH/src/go-common/app/tool/cache/mc
+//go:generate $GOPATH/src/github.com/namelessup/bilibili/app/tool/cache/mc
 type _mc interface {
 	// get user coin count.
 	// mc: -key=countKey
@@ -47,7 +47,7 @@ type _mc interface {
 	SetTodayExpCache(c context.Context, mid int64, exp int64) (err error)
 }
 
-//go:generate $GOPATH/src/go-common/app/tool/cache/gen
+//go:generate $GOPATH/src/github.com/namelessup/bilibili/app/tool/cache/gen
 type _cache interface {
 	// cache: -nullcache=-1 -check_null_code=$==-1 -singleflight=true
 	UserCoin(c context.Context, mid int64) (count float64, err error)

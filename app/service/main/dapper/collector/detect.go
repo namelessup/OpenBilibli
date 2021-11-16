@@ -3,7 +3,7 @@ package collector
 import (
 	"sync"
 
-	"go-common/app/service/main/dapper/model"
+	"github.com/namelessup/bilibili/app/service/main/dapper/model"
 )
 
 type peerServiceDetect struct {

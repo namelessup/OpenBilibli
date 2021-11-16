@@ -3,7 +3,7 @@ package model
 import (
 	"time"
 
-	xtime "go-common/library/time"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	"github.com/pkg/errors"
 )

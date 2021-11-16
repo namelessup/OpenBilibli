@@ -12,7 +12,7 @@ go_library(
         "service.go",
         "task.go",
     ],
-    importpath = "go-common/app/interface/main/laser/service",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/laser/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

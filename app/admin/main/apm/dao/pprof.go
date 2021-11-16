@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"net/url"
 
-	"go-common/app/admin/main/apm/model/pprof"
-	"go-common/library/conf/env"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/apm/model/pprof"
+	"github.com/namelessup/bilibili/library/conf/env"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Instances get instances

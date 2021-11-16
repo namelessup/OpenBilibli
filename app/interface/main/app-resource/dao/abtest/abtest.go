@@ -7,13 +7,13 @@ import (
 	"net/url"
 	"strconv"
 
-	"go-common/app/interface/main/app-resource/conf"
-	"go-common/app/interface/main/app-resource/model/experiment"
-	"go-common/library/database/sql"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/interface/main/app-resource/conf"
+	"github.com/namelessup/bilibili/app/interface/main/app-resource/model/experiment"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/xstr"
 
 	"github.com/pkg/errors"
 )

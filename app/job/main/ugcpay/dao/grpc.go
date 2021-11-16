@@ -3,7 +3,7 @@ package dao
 import (
 	"context"
 
-	ugcpay_rank "go-common/app/service/main/ugcpay-rank/api/v1"
+	ugcpay_rank "github.com/namelessup/bilibili/app/service/main/ugcpay-rank/api/v1"
 )
 
 // RankElecUpdateOrder .

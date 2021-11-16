@@ -6,9 +6,9 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/interface/main/videoup/model/mission"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/videoup/model/mission"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

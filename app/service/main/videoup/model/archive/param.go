@@ -3,7 +3,7 @@ package archive
 import (
 	"encoding/json"
 
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 // ArcVideos 稿件及其所属视频

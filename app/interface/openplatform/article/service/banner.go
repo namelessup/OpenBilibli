@@ -6,10 +6,10 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/interface/openplatform/article/dao"
-	"go-common/app/interface/openplatform/article/model"
-	resmdl "go-common/app/service/main/resource/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/openplatform/article/dao"
+	"github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	resmdl "github.com/namelessup/bilibili/app/service/main/resource/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) loadBannersproc() {

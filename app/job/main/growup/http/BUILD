@@ -18,7 +18,7 @@ go_library(
         "task_status.go",
         "web.go",
     ],
-    importpath = "go-common/app/job/main/growup/http",
+    importpath = "github.com/namelessup/bilibili/app/job/main/growup/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

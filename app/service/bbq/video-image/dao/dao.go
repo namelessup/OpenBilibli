@@ -3,7 +3,7 @@ package dao
 import (
 	"context"
 
-	"go-common/app/service/bbq/video-image/conf"
+	"github.com/namelessup/bilibili/app/service/bbq/video-image/conf"
 )
 
 // Dao dao

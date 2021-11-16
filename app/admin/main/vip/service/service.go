@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"go-common/app/admin/main/vip/conf"
-	"go-common/app/admin/main/vip/dao"
+	"github.com/namelessup/bilibili/app/admin/main/vip/conf"
+	"github.com/namelessup/bilibili/app/admin/main/vip/dao"
 )
 
 var (

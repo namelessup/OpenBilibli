@@ -3,15 +3,15 @@ package dao
 import (
 	"context"
 
-	"go-common/app/admin/main/creative/conf"
-	article "go-common/app/interface/openplatform/article/rpc/client"
-	accapi "go-common/app/service/main/account/api"
-	archive "go-common/app/service/main/archive/api/gorpc"
-	"go-common/library/database/elastic"
-	"go-common/library/database/orm"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/creative/conf"
+	article "github.com/namelessup/bilibili/app/interface/openplatform/article/rpc/client"
+	accapi "github.com/namelessup/bilibili/app/service/main/account/api"
+	archive "github.com/namelessup/bilibili/app/service/main/archive/api/gorpc"
+	"github.com/namelessup/bilibili/library/database/elastic"
+	"github.com/namelessup/bilibili/library/database/orm"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 
 	"github.com/jinzhu/gorm"
 )

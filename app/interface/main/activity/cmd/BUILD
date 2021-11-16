@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["activity-test.toml"],
-    importpath = "go-common/app/interface/main/activity/cmd",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/activity/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

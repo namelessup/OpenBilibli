@@ -24,7 +24,7 @@ go_library(
         "dao.go",
         "databus.go",
     ],
-    importpath = "go-common/app/interface/main/push/dao",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/push/dao",
     tags = ["automanaged"],
     deps = [
         "//app/interface/main/push/conf:go_default_library",

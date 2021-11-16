@@ -5,9 +5,9 @@ import (
 	"database/sql"
 	"time"
 
-	"go-common/app/service/main/antispam/conf"
-	"go-common/library/cache/redis"
-	xsql "go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/service/main/antispam/conf"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
 )
 
 // Executer .

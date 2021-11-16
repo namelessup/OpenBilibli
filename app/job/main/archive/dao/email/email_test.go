@@ -1,8 +1,8 @@
 package email
 
 import (
-	"go-common/app/job/main/archive/model/result"
-	"go-common/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/app/job/main/archive/model/result"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
 	"testing"
 
 	. "github.com/smartystreets/goconvey/convey"

@@ -7,11 +7,11 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/job/main/dm2/model"
-	filterMdl "go-common/app/service/main/filter/api/grpc/v1"
-	"go-common/library/database/sql"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/dm2/model"
+	filterMdl "github.com/namelessup/bilibili/app/service/main/filter/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

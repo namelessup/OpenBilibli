@@ -3,7 +3,7 @@ package web
 import (
 	"context"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const _ugcIncre = "web_goblin"

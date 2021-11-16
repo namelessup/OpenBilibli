@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 // Config codel config.

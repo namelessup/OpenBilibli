@@ -4,9 +4,9 @@ import (
 	"context"
 	xsql "database/sql"
 
-	"go-common/app/service/main/point/model"
-	"go-common/library/database/sql"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/service/main/point/model"
+	"github.com/namelessup/bilibili/library/database/sql"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	"github.com/pkg/errors"
 )

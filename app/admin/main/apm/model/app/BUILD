@@ -11,7 +11,7 @@ go_library(
         "app.go",
         "auth.go",
     ],
-    importpath = "go-common/app/admin/main/apm/model/app",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/apm/model/app",
     tags = ["automanaged"],
     deps = ["//library/time:go_default_library"],
 )

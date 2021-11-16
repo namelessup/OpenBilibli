@@ -2,12 +2,12 @@ package datadao
 
 import (
 	"context"
-	"go-common/app/interface/main/mcn/tool/datacenter"
+	"github.com/namelessup/bilibili/app/interface/main/mcn/tool/datacenter"
 	"testing"
 	"time"
 
 	"github.com/smartystreets/goconvey/convey"
-	"go-common/app/interface/main/mcn/model/datamodel"
+	"github.com/namelessup/bilibili/app/interface/main/mcn/model/datamodel"
 )
 
 func TestDatadaocallDataAPI(t *testing.T) {

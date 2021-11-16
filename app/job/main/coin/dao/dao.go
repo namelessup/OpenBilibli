@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"time"
 
-	"go-common/app/job/main/coin/conf"
-	"go-common/library/cache/redis"
-	"go-common/library/database/sql"
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/app/job/main/coin/conf"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/stat/prom"
 )
 
 // Dao define dao.

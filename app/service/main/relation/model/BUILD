@@ -23,7 +23,7 @@ go_library(
         "stat.go",
     ],
     embed = [":model_go_proto"],
-    importpath = "go-common/app/service/main/relation/model",
+    importpath = "github.com/namelessup/bilibili/app/service/main/relation/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [
@@ -48,7 +48,7 @@ proto_library(
 go_proto_library(
     name = "model_go_proto",
     compilers = ["@io_bazel_rules_go//proto:gogo_proto"],
-    importpath = "go-common/app/service/main/relation/model",
+    importpath = "github.com/namelessup/bilibili/app/service/main/relation/model",
     proto = ":model_proto",
     tags = ["manual"],
     visibility = ["//visibility:public"],

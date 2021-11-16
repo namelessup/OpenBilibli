@@ -8,14 +8,14 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/app/service/bbq/video-image/conf"
-	"go-common/app/service/bbq/video-image/server/grpc"
-	"go-common/app/service/bbq/video-image/server/http"
-	"go-common/app/service/bbq/video-image/service"
+	"github.com/namelessup/bilibili/app/service/bbq/video-image/conf"
+	"github.com/namelessup/bilibili/app/service/bbq/video-image/server/grpc"
+	"github.com/namelessup/bilibili/app/service/bbq/video-image/server/http"
+	"github.com/namelessup/bilibili/app/service/bbq/video-image/service"
 
-	// ecode "go-common/library/ecode/tip"
-	"go-common/library/log"
-	// "go-common/library/net/trace"
+	// ecode "github.com/namelessup/bilibili/library/ecode/tip"
+	"github.com/namelessup/bilibili/library/log"
+	// "github.com/namelessup/bilibili/library/net/trace"
 )
 
 func main() {

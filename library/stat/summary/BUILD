@@ -18,7 +18,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["summary.go"],
-    importpath = "go-common/library/stat/summary",
+    importpath = "github.com/namelessup/bilibili/library/stat/summary",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

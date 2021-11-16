@@ -5,9 +5,9 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/interface/main/app-feed/model/tag"
-	"go-common/library/log"
-	binfoc "go-common/library/log/infoc"
+	"github.com/namelessup/bilibili/app/interface/main/app-feed/model/tag"
+	"github.com/namelessup/bilibili/library/log"
+	binfoc "github.com/namelessup/bilibili/library/log/infoc"
 )
 
 type tagsInfoc struct {

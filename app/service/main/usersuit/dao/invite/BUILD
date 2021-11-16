@@ -34,7 +34,7 @@ go_library(
         "mysql.go",
         "redis.go",
     ],
-    importpath = "go-common/app/service/main/usersuit/dao/invite",
+    importpath = "github.com/namelessup/bilibili/app/service/main/usersuit/dao/invite",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

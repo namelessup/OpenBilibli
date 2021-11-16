@@ -1,10 +1,10 @@
 package http
 
 import (
-	"go-common/app/job/main/block/conf"
-	"go-common/app/job/main/block/service"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/job/main/block/conf"
+	"github.com/namelessup/bilibili/app/job/main/block/service"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 var (

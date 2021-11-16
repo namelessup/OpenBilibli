@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"strconv"
 
-	"go-common/app/interface/main/app-view/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-view/model"
 )
 
 type Ad struct {

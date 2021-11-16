@@ -1,10 +1,10 @@
 package growup
 
 import (
-	"go-common/app/interface/main/creative/conf"
-	"go-common/app/interface/main/creative/dao/archive"
-	"go-common/app/interface/main/creative/dao/growup"
-	"go-common/app/interface/main/creative/service"
+	"github.com/namelessup/bilibili/app/interface/main/creative/conf"
+	"github.com/namelessup/bilibili/app/interface/main/creative/dao/archive"
+	"github.com/namelessup/bilibili/app/interface/main/creative/dao/growup"
+	"github.com/namelessup/bilibili/app/interface/main/creative/service"
 )
 
 //Service struct.

@@ -9,8 +9,8 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["main.go"],
-    importmap = "go-common/app/tool/rider/sendEmail/cmd",
-    importpath = "go-common/app/tool/ci/cmd/mail",
+    importmap = "github.com/namelessup/bilibili/app/tool/rider/sendEmail/cmd",
+    importpath = "github.com/namelessup/bilibili/app/tool/ci/cmd/mail",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

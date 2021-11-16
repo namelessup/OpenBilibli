@@ -5,12 +5,12 @@ import (
 	"net/http"
 	"time"
 
-	"go-common/app/admin/main/growup/model"
+	"github.com/namelessup/bilibili/app/admin/main/growup/model"
 
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/binding"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/binding"
 )
 
 func awardAdd(c *blademaster.Context) {

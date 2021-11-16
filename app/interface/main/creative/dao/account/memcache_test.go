@@ -2,8 +2,8 @@ package account
 
 import (
 	"context"
-	accmdl "go-common/app/interface/main/creative/model/account"
-	"go-common/library/cache/memcache"
+	accmdl "github.com/namelessup/bilibili/app/interface/main/creative/model/account"
+	"github.com/namelessup/bilibili/library/cache/memcache"
 	"reflect"
 	"testing"
 

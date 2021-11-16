@@ -22,7 +22,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["dao.go"],
-    importpath = "go-common/app/admin/main/videoup/dao/search",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/videoup/dao/search",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

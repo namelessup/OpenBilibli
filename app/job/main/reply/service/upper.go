@@ -4,9 +4,9 @@ import (
 	"context"
 	"encoding/json"
 
-	model "go-common/app/job/main/reply/model/reply"
-	"go-common/library/log"
-	xtime "go-common/library/time"
+	model "github.com/namelessup/bilibili/app/job/main/reply/model/reply"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 func (s *Service) actionUp(c context.Context, msg *consumerMsg) {

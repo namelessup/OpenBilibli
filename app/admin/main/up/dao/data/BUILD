@@ -44,7 +44,7 @@ go_library(
         "phase_three.go",
         "utils.go",
     ],
-    importpath = "go-common/app/admin/main/up/dao/data",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/up/dao/data",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

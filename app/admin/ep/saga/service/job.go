@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"time"
 
-	"go-common/app/admin/ep/saga/model"
-	"go-common/app/admin/ep/saga/service/utils"
-	"go-common/library/cache/redis"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/ep/saga/model"
+	"github.com/namelessup/bilibili/app/admin/ep/saga/service/utils"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/xanzy/go-gitlab"
 )

@@ -1,7 +1,7 @@
 package income
 
 import (
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 // AvChargeStatis av charge statistics

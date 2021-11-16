@@ -5,9 +5,9 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/service/main/sms/conf"
-	"go-common/app/service/main/sms/dao"
-	"go-common/app/service/main/sms/model"
+	"github.com/namelessup/bilibili/app/service/main/sms/conf"
+	"github.com/namelessup/bilibili/app/service/main/sms/dao"
+	"github.com/namelessup/bilibili/app/service/main/sms/model"
 )
 
 // Service struct of service.

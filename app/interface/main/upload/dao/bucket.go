@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"strings"
 
-	"go-common/app/interface/main/upload/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/upload/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Buckets all bucket info from database.

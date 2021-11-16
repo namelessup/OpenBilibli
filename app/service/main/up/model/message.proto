@@ -10,9 +10,9 @@ message UpSpecial {
     string GroupTag = 4 [(gogoproto.jsontag) = "group_tag"];
     int64 Mid = 5 [(gogoproto.jsontag) = "mid"];
     string Note = 6 [(gogoproto.jsontag) = "note"];
-    int64 CTime = 7 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int64 CTime = 7 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
     int64 UID = 8 [(gogoproto.jsontag) = "uid"];
-    int64 MTime = 9 [(gogoproto.jsontag) = "mtime", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int64 MTime = 9 [(gogoproto.jsontag) = "mtime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
     string FontColor = 10 [(gogoproto.jsontag) = "font_color"];
     string BgColor = 11 [(gogoproto.jsontag) = "bg_color"];
 }

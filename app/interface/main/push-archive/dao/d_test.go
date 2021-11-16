@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"go-common/app/interface/main/push-archive/conf"
+	"github.com/namelessup/bilibili/app/interface/main/push-archive/conf"
 
 	"github.com/smartystreets/goconvey/convey"
 )

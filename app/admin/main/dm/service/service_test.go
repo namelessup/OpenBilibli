@@ -7,10 +7,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"go-common/app/admin/main/dm/conf"
-	"go-common/app/admin/main/dm/model/oplog"
-	"go-common/library/log"
-	manager "go-common/library/queue/databus/report"
+	"github.com/namelessup/bilibili/app/admin/main/dm/conf"
+	"github.com/namelessup/bilibili/app/admin/main/dm/model/oplog"
+	"github.com/namelessup/bilibili/library/log"
+	manager "github.com/namelessup/bilibili/library/queue/databus/report"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

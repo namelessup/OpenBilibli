@@ -1,8 +1,8 @@
 package share
 
 import (
-	suitmdl "go-common/app/service/main/usersuit/model"
-	xtime "go-common/library/time"
+	suitmdl "github.com/namelessup/bilibili/app/service/main/usersuit/model"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // Share share .

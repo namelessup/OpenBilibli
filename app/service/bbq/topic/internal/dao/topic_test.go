@@ -3,10 +3,10 @@ package dao
 import (
 	"context"
 	"fmt"
-	"go-common/app/service/bbq/topic/api"
-	"go-common/app/service/bbq/topic/internal/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/bbq/topic/api"
+	"github.com/namelessup/bilibili/app/service/bbq/topic/internal/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 	"math/rand"
 	"testing"
 

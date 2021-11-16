@@ -32,7 +32,7 @@ go_library(
         "push.go",
         "redis.go",
     ],
-    importpath = "go-common/app/job/main/appstatic/dao/push",
+    importpath = "github.com/namelessup/bilibili/app/job/main/appstatic/dao/push",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

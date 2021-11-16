@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/job/main/aegis/model"
+	"github.com/namelessup/bilibili/app/job/main/aegis/model"
 )
 
 func (s *Service) taskProc() {

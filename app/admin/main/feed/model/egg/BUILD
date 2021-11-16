@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["egg.go"],
-    importpath = "go-common/app/admin/main/feed/model/egg",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/feed/model/egg",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

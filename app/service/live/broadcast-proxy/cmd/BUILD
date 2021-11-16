@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["live-broadcast-proxy.toml"],
-    importpath = "go-common/app/service/live/broadcast-proxy/cmd",
+    importpath = "github.com/namelessup/bilibili/app/service/live/broadcast-proxy/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

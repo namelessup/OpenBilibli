@@ -6,11 +6,11 @@ import (
 	"strconv"
 	"sync"
 
-	"go-common/app/admin/main/credit/conf"
-	"go-common/app/admin/main/credit/model"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/admin/main/credit/conf"
+	"github.com/namelessup/bilibili/app/admin/main/credit/model"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 const (

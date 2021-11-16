@@ -7,12 +7,12 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/app/service/live/fans_medal/conf"
-	"go-common/app/service/live/fans_medal/server/http"
-	"go-common/app/service/live/fans_medal/service"
-	ecode "go-common/library/ecode/tip"
-	"go-common/library/log"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/app/service/live/fans_medal/conf"
+	"github.com/namelessup/bilibili/app/service/live/fans_medal/server/http"
+	"github.com/namelessup/bilibili/app/service/live/fans_medal/service"
+	ecode "github.com/namelessup/bilibili/library/ecode/tip"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
 )
 
 func main() {

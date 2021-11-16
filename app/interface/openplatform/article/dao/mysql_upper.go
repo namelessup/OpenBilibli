@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/app/interface/openplatform/article/model"
-	"go-common/library/log"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 // UpperPassed upper passed articles

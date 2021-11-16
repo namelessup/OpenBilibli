@@ -3,8 +3,8 @@ package goblin
 import (
 	"context"
 
-	"go-common/app/interface/main/tv/model"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/interface/main/tv/model"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 // VerUpdate .

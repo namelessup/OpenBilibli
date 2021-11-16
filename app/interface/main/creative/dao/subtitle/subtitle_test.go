@@ -2,9 +2,9 @@ package subtitle
 
 import (
 	"context"
-	"go-common/app/interface/main/dm2/model"
-	"go-common/app/interface/main/dm2/rpc/client"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/interface/main/dm2/model"
+	"github.com/namelessup/bilibili/app/interface/main/dm2/rpc/client"
+	"github.com/namelessup/bilibili/library/ecode"
 	"reflect"
 	"testing"
 

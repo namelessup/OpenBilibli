@@ -7,9 +7,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"go-common/app/tool/gengo/cmd/deepcopy-gen/examples/api/v1"
-	"go-common/app/tool/gengo/cmd/deepcopy-gen/examples/model"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/tool/gengo/cmd/deepcopy-gen/examples/api/v1"
+	"github.com/namelessup/bilibili/app/tool/gengo/cmd/deepcopy-gen/examples/model"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 func TestCopyFromAllBuitin(t *testing.T) {

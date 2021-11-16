@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	searchMdl "go-common/app/interface/main/tv/model/search"
+	searchMdl "github.com/namelessup/bilibili/app/interface/main/tv/model/search"
 
 	"github.com/smartystreets/goconvey/convey"
 )

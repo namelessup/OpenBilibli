@@ -2,10 +2,10 @@ package language
 
 import (
 	"context"
-	"go-common/app/admin/main/app/conf"
-	"go-common/app/admin/main/app/model/language"
-	"go-common/library/database/orm"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/app/conf"
+	"github.com/namelessup/bilibili/app/admin/main/app/model/language"
+	"github.com/namelessup/bilibili/library/database/orm"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/jinzhu/gorm"
 )

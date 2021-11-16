@@ -18,7 +18,7 @@ proto_library(
 go_proto_library(
     name = "v1_go_proto",
     compilers = ["@io_bazel_rules_go//proto:gogofast_grpc"],
-    importpath = "go-common/app/service/main/identify/api/grpc",
+    importpath = "github.com/namelessup/bilibili/app/service/main/identify/api/grpc",
     proto = ":v1_proto",
     tags = ["manual"],
     deps = ["@com_github_gogo_protobuf//gogoproto:go_default_library"],
@@ -31,7 +31,7 @@ go_library(
         "string.go",
     ],
     embed = [":v1_go_proto"],
-    importpath = "go-common/app/service/main/identify/api/grpc",
+    importpath = "github.com/namelessup/bilibili/app/service/main/identify/api/grpc",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

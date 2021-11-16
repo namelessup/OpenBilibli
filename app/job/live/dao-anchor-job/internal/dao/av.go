@@ -3,8 +3,8 @@ package dao
 import (
 	"context"
 
-	"go-common/app/service/live/av/api/liverpc/v1"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/live/av/api/liverpc/v1"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // GetFansMedalInfo 获取粉丝勋章信息

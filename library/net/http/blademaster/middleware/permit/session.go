@@ -9,9 +9,9 @@ import (
 	"sync"
 	"time"
 
-	"go-common/library/cache/memcache"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // Session http session.

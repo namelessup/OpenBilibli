@@ -11,8 +11,8 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/job/main/member/conf"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/member/conf"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/pkg/errors"
 )

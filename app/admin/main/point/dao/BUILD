@@ -26,7 +26,7 @@ go_library(
         "point.go",
         "search.go",
     ],
-    importpath = "go-common/app/admin/main/point/dao",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/point/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

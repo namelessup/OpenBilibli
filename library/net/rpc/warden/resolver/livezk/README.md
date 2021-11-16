@@ -6,8 +6,8 @@
 
 ```go
 import (
-    "go-common/conf"
-    "go-common/business/warden/livezk"
+    "github.com/namelessup/bilibili/conf"
+    "github.com/namelessup/bilibili/business/warden/livezk"
 )
 
 func main() {

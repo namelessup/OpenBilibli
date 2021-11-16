@@ -7,10 +7,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	item "go-common/app/service/openplatform/ticket-item/api/grpc/v1"
-	"go-common/app/service/openplatform/ticket-item/conf"
-	"go-common/app/service/openplatform/ticket-item/model"
-	"go-common/app/service/openplatform/ticket-item/service"
+	item "github.com/namelessup/bilibili/app/service/openplatform/ticket-item/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-item/conf"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-item/model"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-item/service"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

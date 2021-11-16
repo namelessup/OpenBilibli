@@ -13,7 +13,7 @@ go_library(
         "search.go",
         "service.go",
     ],
-    importpath = "go-common/app/service/main/riot-search/service",
+    importpath = "github.com/namelessup/bilibili/app/service/main/riot-search/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

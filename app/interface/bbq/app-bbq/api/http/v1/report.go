@@ -1,6 +1,6 @@
 package v1
 
-import "go-common/app/interface/bbq/app-bbq/model"
+import "github.com/namelessup/bilibili/app/interface/bbq/app-bbq/model"
 
 // ReportConfigResponse .
 type ReportConfigResponse struct {

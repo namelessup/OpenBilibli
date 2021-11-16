@@ -8,10 +8,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"go-common/app/admin/main/apm/conf"
-	"go-common/app/admin/main/apm/service"
-	"go-common/library/log"
-	xhttp "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/apm/conf"
+	"github.com/namelessup/bilibili/app/admin/main/apm/service"
+	"github.com/namelessup/bilibili/library/log"
+	xhttp "github.com/namelessup/bilibili/library/net/http/blademaster"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

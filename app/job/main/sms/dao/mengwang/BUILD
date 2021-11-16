@@ -22,7 +22,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["client.go"],
-    importpath = "go-common/app/job/main/sms/dao/mengwang",
+    importpath = "github.com/namelessup/bilibili/app/job/main/sms/dao/mengwang",
     tags = ["automanaged"],
     deps = [
         "//app/job/main/sms/conf:go_default_library",

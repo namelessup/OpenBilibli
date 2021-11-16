@@ -4,12 +4,12 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/interface/main/creative/model/academy"
-	"go-common/app/interface/openplatform/article/model"
-	"go-common/app/service/main/archive/api"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/academy"
+	"github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	"github.com/davecgh/go-spew/spew"
 )

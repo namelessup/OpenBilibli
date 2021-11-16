@@ -40,7 +40,7 @@ go_library(
         "setting.go",
         "statistics.go",
     ],
-    importpath = "go-common/app/interface/main/push-archive/service",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/push-archive/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -2,8 +2,8 @@ package weeklyhonor
 
 import (
 	"context"
-	model "go-common/app/interface/main/creative/model/weeklyhonor"
-	upgrpc "go-common/app/service/main/up/api/v1"
+	model "github.com/namelessup/bilibili/app/interface/main/creative/model/weeklyhonor"
+	upgrpc "github.com/namelessup/bilibili/app/service/main/up/api/v1"
 	"reflect"
 
 	"github.com/bouk/monkey"

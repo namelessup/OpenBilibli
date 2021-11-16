@@ -5,13 +5,13 @@ import (
 	"runtime"
 	"time"
 
-	hisrpc "go-common/app/interface/main/history/rpc/client"
-	"go-common/app/interface/main/tv/conf"
-	arcwar "go-common/app/service/main/archive/api"
-	"go-common/library/cache/memcache"
-	"go-common/library/database/sql"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	hisrpc "github.com/namelessup/bilibili/app/interface/main/history/rpc/client"
+	"github.com/namelessup/bilibili/app/interface/main/tv/conf"
+	arcwar "github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // Dao is archive dao.

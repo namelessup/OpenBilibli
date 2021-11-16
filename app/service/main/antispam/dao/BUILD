@@ -41,7 +41,7 @@ go_library(
         "rule.go",
         "transaction.go",
     ],
-    importpath = "go-common/app/service/main/antispam/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/main/antispam/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

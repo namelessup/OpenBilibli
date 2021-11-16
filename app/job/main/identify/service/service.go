@@ -3,12 +3,12 @@ package service
 import (
 	"context"
 
-	"go-common/app/job/main/identify/conf"
-	"go-common/app/job/main/identify/dao"
-	"go-common/app/job/main/identify/model"
-	"go-common/library/cache/memcache"
-	"go-common/library/queue/databus"
-	"go-common/library/queue/databus/databusutil"
+	"github.com/namelessup/bilibili/app/job/main/identify/conf"
+	"github.com/namelessup/bilibili/app/job/main/identify/dao"
+	"github.com/namelessup/bilibili/app/job/main/identify/model"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/queue/databus"
+	"github.com/namelessup/bilibili/library/queue/databus/databusutil"
 )
 
 const (

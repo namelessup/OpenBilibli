@@ -6,9 +6,9 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/job/main/member/model"
-	smodel "go-common/app/service/main/member/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/member/model"
+	smodel "github.com/namelessup/bilibili/app/service/main/member/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) recoverMoral(c context.Context, mid int64) (err error) {

@@ -41,7 +41,7 @@ go_library(
         "sub_sort.go",
         "tag.go",
     ],
-    importpath = "go-common/app/service/main/tag/service",
+    importpath = "github.com/namelessup/bilibili/app/service/main/tag/service",
     tags = ["automanaged"],
     deps = [
         "//app/service/main/archive/api:go_default_library",

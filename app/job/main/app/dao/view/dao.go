@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/job/main/app/conf"
-	"go-common/library/cache/memcache"
-	"go-common/library/cache/redis"
+	"github.com/namelessup/bilibili/app/job/main/app/conf"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/cache/redis"
 
-	httpx "go-common/library/net/http/blademaster"
+	httpx "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 const (

@@ -6,8 +6,8 @@ import (
 	"net/url"
 	"time"
 
-	"go-common/app/job/main/usersuit/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/usersuit/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // UpInfoData .

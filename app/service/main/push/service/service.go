@@ -7,13 +7,13 @@ import (
 	"sync"
 	"time"
 
-	filterrpc "go-common/app/service/main/filter/rpc/client"
-	"go-common/app/service/main/push/conf"
-	"go-common/app/service/main/push/dao"
-	"go-common/app/service/main/push/model"
-	"go-common/library/cache"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	filterrpc "github.com/namelessup/bilibili/app/service/main/filter/rpc/client"
+	"github.com/namelessup/bilibili/app/service/main/push/conf"
+	"github.com/namelessup/bilibili/app/service/main/push/dao"
+	"github.com/namelessup/bilibili/app/service/main/push/model"
+	"github.com/namelessup/bilibili/library/cache"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // Service push service.

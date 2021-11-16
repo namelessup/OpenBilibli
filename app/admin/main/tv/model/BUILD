@@ -27,7 +27,7 @@ go_library(
         "video.go",
         "water_mark.go",
     ],
-    importpath = "go-common/app/admin/main/tv/model",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/tv/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -3,8 +3,8 @@ package vip
 import (
 	"context"
 
-	"go-common/app/service/main/vip/api"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/vip/api"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // WelfareList get welfare list

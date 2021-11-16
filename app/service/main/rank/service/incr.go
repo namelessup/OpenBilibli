@@ -4,8 +4,8 @@ import (
 	"context"
 	"encoding/json"
 
-	"go-common/app/service/main/rank/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/rank/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) consumeStatView() {

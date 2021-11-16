@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"testing"
 
-	"go-common/app/job/main/app-wall/conf"
+	"github.com/namelessup/bilibili/app/job/main/app-wall/conf"
 
 	cluster "github.com/bsm/sarama-cluster"
 	. "github.com/smartystreets/goconvey/convey"

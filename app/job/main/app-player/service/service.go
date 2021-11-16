@@ -7,14 +7,14 @@ import (
 	"sync"
 	"time"
 
-	appmdl "go-common/app/interface/main/app-player/model/archive"
-	"go-common/app/job/main/app-player/conf"
-	"go-common/app/job/main/app-player/dao"
-	"go-common/app/job/main/app-player/model"
-	arcrpc "go-common/app/service/main/archive/api"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
+	appmdl "github.com/namelessup/bilibili/app/interface/main/app-player/model/archive"
+	"github.com/namelessup/bilibili/app/job/main/app-player/conf"
+	"github.com/namelessup/bilibili/app/job/main/app-player/dao"
+	"github.com/namelessup/bilibili/app/job/main/app-player/model"
+	arcrpc "github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 const (

@@ -6,13 +6,13 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/interface/main/creative/dao/tool"
-	"go-common/app/interface/main/creative/model/academy"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/interface/main/creative/dao/tool"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/academy"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 
-	"go-common/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
 
 	"github.com/davecgh/go-spew/spew"
 )

@@ -2,7 +2,7 @@ package monitor
 
 import (
 	"flag"
-	"go-common/app/admin/main/videoup/conf"
+	"github.com/namelessup/bilibili/app/admin/main/videoup/conf"
 	"os"
 	"testing"
 )

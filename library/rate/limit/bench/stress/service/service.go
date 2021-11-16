@@ -1,7 +1,7 @@
 package service
 
 import (
-	"go-common/library/rate/limit/bench/stress/conf"
+	"github.com/namelessup/bilibili/library/rate/limit/bench/stress/conf"
 )
 
 // Service struct

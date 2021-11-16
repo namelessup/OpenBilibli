@@ -10,8 +10,8 @@ import (
 	"strings"
 	"testing"
 
-	"go-common/app/admin/main/apm/conf"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/apm/conf"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

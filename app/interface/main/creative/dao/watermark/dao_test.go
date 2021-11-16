@@ -2,7 +2,7 @@ package watermark
 
 import (
 	"flag"
-	"go-common/app/interface/main/creative/conf"
+	"github.com/namelessup/bilibili/app/interface/main/creative/conf"
 	"os"
 	"testing"
 )

@@ -1,9 +1,9 @@
 package http
 
 import (
-	mdlSearch "go-common/app/interface/main/tv/model/search"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
+	mdlSearch "github.com/namelessup/bilibili/app/interface/main/tv/model/search"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 const (

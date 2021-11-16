@@ -5,10 +5,10 @@ import (
 	"database/sql"
 	"encoding/json"
 	"fmt"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/library/xstr"
 
-	"go-common/app/interface/main/push-archive/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/push-archive/model"
+	"github.com/namelessup/bilibili/library/log"
 	"strconv"
 )
 

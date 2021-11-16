@@ -3,7 +3,7 @@ package search
 import (
 	"time"
 
-	"go-common/app/admin/main/workflow/model"
+	"github.com/namelessup/bilibili/app/admin/main/workflow/model"
 )
 
 // business id const

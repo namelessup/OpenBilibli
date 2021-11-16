@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	"go-common/app/service/main/vipinfo/model"
+	"github.com/namelessup/bilibili/app/service/main/vipinfo/model"
 
 	"github.com/smartystreets/goconvey/convey"
 )

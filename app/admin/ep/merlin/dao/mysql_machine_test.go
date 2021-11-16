@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/admin/ep/merlin/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/ep/merlin/model"
+	"github.com/namelessup/bilibili/library/log"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

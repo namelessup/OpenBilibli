@@ -1,8 +1,8 @@
 package http
 
 import (
-	"go-common/app/admin/main/app/model/language"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/app/model/language"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // languages select language all

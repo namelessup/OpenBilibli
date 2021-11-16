@@ -9,11 +9,11 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/job/main/growup/model"
+	"github.com/namelessup/bilibili/app/job/main/growup/model"
 
-	"go-common/library/log"
-	xtime "go-common/library/time"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 const (

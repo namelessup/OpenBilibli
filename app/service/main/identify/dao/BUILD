@@ -31,7 +31,7 @@ go_library(
         "memcache.go",
         "passport.go",
     ],
-    importpath = "go-common/app/service/main/identify/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/main/identify/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -40,7 +40,7 @@ go_library(
         "up_tag.go",
         "up_tag_income.go",
     ],
-    importpath = "go-common/app/job/main/growup/service/tag",
+    importpath = "github.com/namelessup/bilibili/app/job/main/growup/service/tag",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

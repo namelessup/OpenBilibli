@@ -1,6 +1,6 @@
 package notice
 
-import xtime "go-common/library/time"
+import xtime "github.com/namelessup/bilibili/library/time"
 
 // Notice is notice type.
 type Notice struct {

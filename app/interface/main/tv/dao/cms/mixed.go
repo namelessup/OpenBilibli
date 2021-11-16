@@ -3,9 +3,9 @@ package cms
 import (
 	"context"
 
-	"go-common/app/interface/main/tv/model"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/interface/main/tv/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 // MixedFilter filters ugc and pgc data to get the allowed data

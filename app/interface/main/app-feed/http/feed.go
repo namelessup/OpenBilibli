@@ -4,14 +4,14 @@ import (
 	"strconv"
 	"time"
 
-	cdm "go-common/app/interface/main/app-card/model"
-	"go-common/app/interface/main/app-card/model/card"
-	"go-common/app/interface/main/app-card/model/card/ai"
-	"go-common/app/interface/main/app-card/model/card/operate"
-	"go-common/app/interface/main/app-feed/model"
-	"go-common/app/interface/main/app-feed/model/feed"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
+	cdm "github.com/namelessup/bilibili/app/interface/main/app-card/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-card/model/card"
+	"github.com/namelessup/bilibili/app/interface/main/app-card/model/card/ai"
+	"github.com/namelessup/bilibili/app/interface/main/app-card/model/card/operate"
+	"github.com/namelessup/bilibili/app/interface/main/app-feed/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-feed/model/feed"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 const (

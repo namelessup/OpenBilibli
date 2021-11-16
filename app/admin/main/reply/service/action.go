@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/app/admin/main/reply/model"
-	thumbup "go-common/app/service/main/thumbup/api"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/reply/model"
+	thumbup "github.com/namelessup/bilibili/app/service/main/thumbup/api"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // ActionCount return action exact count.

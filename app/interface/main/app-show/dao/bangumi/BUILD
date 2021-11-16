@@ -24,7 +24,7 @@ go_library(
         "bangumi.go",
         "grpc.go",
     ],
-    importpath = "go-common/app/interface/main/app-show/dao/bangumi",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-show/dao/bangumi",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

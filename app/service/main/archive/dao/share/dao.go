@@ -3,10 +3,10 @@ package share
 import (
 	"context"
 
-	"go-common/library/cache/redis"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/queue/databus"
 
-	"go-common/app/service/main/archive/conf"
+	"github.com/namelessup/bilibili/app/service/main/archive/conf"
 )
 
 // Dao is share dao.

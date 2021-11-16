@@ -12,7 +12,7 @@ go_library(
         "push.go",
         "user.go",
     ],
-    importpath = "go-common/app/service/bbq/notice-service/internal/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/bbq/notice-service/internal/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

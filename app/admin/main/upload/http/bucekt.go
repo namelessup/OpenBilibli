@@ -3,11 +3,11 @@ package http
 import (
 	"net/http"
 
-	"go-common/app/admin/main/upload/model"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/binding"
-	"go-common/library/net/http/blademaster/render"
+	"github.com/namelessup/bilibili/app/admin/main/upload/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/binding"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/render"
 )
 
 func addBucket(c *bm.Context) {

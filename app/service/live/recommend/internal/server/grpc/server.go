@@ -1,11 +1,11 @@
 package grpc
 
 import (
-	v1pb "go-common/app/service/live/recommend/api/grpc/v1"
-	"go-common/app/service/live/recommend/internal/conf"
-	svc "go-common/app/service/live/recommend/internal/service/v1"
-	"go-common/library/log"
-	"go-common/library/net/rpc/warden"
+	v1pb "github.com/namelessup/bilibili/app/service/live/recommend/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/live/recommend/internal/conf"
+	svc "github.com/namelessup/bilibili/app/service/live/recommend/internal/service/v1"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 )
 
 // Init grpc server

@@ -2,9 +2,9 @@ package dao
 
 import (
 	"context"
-	"go-common/app/admin/main/creative/model/academy"
-	"go-common/library/database/elastic"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/creative/model/academy"
+	"github.com/namelessup/bilibili/library/database/elastic"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // ArchivesWithES search archives by es.

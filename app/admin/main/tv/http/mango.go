@@ -1,8 +1,8 @@
 package http
 
 import (
-	"go-common/app/admin/main/tv/model"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/tv/model"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func mangoList(c *bm.Context) {

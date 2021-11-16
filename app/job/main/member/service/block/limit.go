@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	model "go-common/app/job/main/member/model/block"
-	xsql "go-common/library/database/sql"
-	"go-common/library/log"
+	model "github.com/namelessup/bilibili/app/job/main/member/model/block"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/pkg/errors"
 )

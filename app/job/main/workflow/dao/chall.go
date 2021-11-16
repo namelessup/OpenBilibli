@@ -3,7 +3,7 @@ package dao
 import (
 	"context"
 
-	"go-common/app/job/main/workflow/model"
+	"github.com/namelessup/bilibili/app/job/main/workflow/model"
 )
 
 // ChallByIDs get chall list by ids.

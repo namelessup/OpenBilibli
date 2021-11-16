@@ -7,10 +7,10 @@ import (
 	"sync"
 	"time"
 
-	"go-common/app/service/main/ugcpay-rank/internal/conf"
-	"go-common/app/service/main/ugcpay-rank/internal/model"
-	"go-common/app/service/main/ugcpay-rank/internal/service/rank"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/ugcpay-rank/internal/conf"
+	"github.com/namelessup/bilibili/app/service/main/ugcpay-rank/internal/model"
+	"github.com/namelessup/bilibili/app/service/main/ugcpay-rank/internal/service/rank"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/pkg/errors"
 )

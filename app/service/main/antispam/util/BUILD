@@ -28,7 +28,7 @@ go_library(
         "string.go",
         "time.go",
     ],
-    importpath = "go-common/app/service/main/antispam/util",
+    importpath = "github.com/namelessup/bilibili/app/service/main/antispam/util",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

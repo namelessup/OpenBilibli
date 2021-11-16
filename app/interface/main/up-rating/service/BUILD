@@ -12,7 +12,7 @@ go_library(
         "rating.go",
         "service.go",
     ],
-    importpath = "go-common/app/interface/main/up-rating/service",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/up-rating/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

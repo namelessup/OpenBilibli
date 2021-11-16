@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 
-	v2pb "go-common/app/interface/live/app-interface/api/http/v2"
+	v2pb "github.com/namelessup/bilibili/app/interface/live/app-interface/api/http/v2"
 )
 
 // 获取分区入口

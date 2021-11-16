@@ -25,7 +25,7 @@ go_library(
         "ip.go",
         "service.go",
     ],
-    importpath = "go-common/app/interface/main/report-click/service",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/report-click/service",
     tags = ["automanaged"],
     deps = [
         "//app/interface/main/history/model:go_default_library",

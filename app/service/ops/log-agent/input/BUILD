@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["input.go"],
-    importpath = "go-common/app/service/ops/log-agent/input",
+    importpath = "github.com/namelessup/bilibili/app/service/ops/log-agent/input",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

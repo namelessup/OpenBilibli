@@ -1,6 +1,6 @@
 package model
 
-import "go-common/library/time"
+import "github.com/namelessup/bilibili/library/time"
 
 // Upper corresponds to the structure of upper in our DB
 type Upper struct {

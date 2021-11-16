@@ -11,7 +11,7 @@ go_library(
         "TargetsWithMedal.go",
         "dao.go",
     ],
-    importpath = "go-common/app/interface/live/app-interface/dao/fans_medal",
+    importpath = "github.com/namelessup/bilibili/app/interface/live/app-interface/dao/fans_medal",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

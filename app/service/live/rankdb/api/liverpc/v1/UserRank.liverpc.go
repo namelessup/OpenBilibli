@@ -6,7 +6,7 @@ package v1
 import context "context"
 
 import proto "github.com/golang/protobuf/proto"
-import "go-common/library/net/rpc/liverpc"
+import "github.com/namelessup/bilibili/library/net/rpc/liverpc"
 
 var _ proto.Message // generate to suppress unused imports
 

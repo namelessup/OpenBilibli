@@ -14,7 +14,7 @@ go_library(
         "msg.go",
         "newcomer.go",
     ],
-    importpath = "go-common/app/job/main/creative/model",
+    importpath = "github.com/namelessup/bilibili/app/job/main/creative/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

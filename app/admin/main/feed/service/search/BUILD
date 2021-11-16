@@ -12,7 +12,7 @@ go_library(
         "search.go",
         "search_web.go",
     ],
-    importpath = "go-common/app/admin/main/feed/service/search",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/feed/service/search",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

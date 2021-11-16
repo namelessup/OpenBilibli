@@ -1,8 +1,8 @@
 package gorpc
 
 import (
-	rpcmodel "go-common/app/service/main/member/model/block"
-	"go-common/library/net/rpc/context"
+	rpcmodel "github.com/namelessup/bilibili/app/service/main/member/model/block"
+	"github.com/namelessup/bilibili/library/net/rpc/context"
 )
 
 // BlockInfo is

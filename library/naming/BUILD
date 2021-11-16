@@ -24,7 +24,7 @@ filegroup(
 go_library(
     name = "go_default_library",
     srcs = ["naming.go"],
-    importpath = "go-common/library/naming",
+    importpath = "github.com/namelessup/bilibili/library/naming",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

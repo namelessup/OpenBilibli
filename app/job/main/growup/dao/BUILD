@@ -64,7 +64,7 @@ go_library(
         "up_info_video.go",
         "up_quality_info.go",
     ],
-    importpath = "go-common/app/job/main/growup/dao",
+    importpath = "github.com/namelessup/bilibili/app/job/main/growup/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

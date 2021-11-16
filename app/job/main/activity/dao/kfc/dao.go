@@ -1,8 +1,8 @@
 package kfc
 
 import (
-	"go-common/app/job/main/activity/conf"
-	"go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/job/main/activity/conf"
+	"github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // Dao .

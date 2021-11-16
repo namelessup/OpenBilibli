@@ -27,7 +27,7 @@ go_library(
         "dao.go",
         "monitor.go",
     ],
-    importpath = "go-common/app/job/main/archive/dao/monitor",
+    importpath = "github.com/namelessup/bilibili/app/job/main/archive/dao/monitor",
     tags = ["automanaged"],
     deps = [
         "//app/job/main/archive/conf:go_default_library",

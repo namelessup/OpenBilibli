@@ -35,7 +35,7 @@ go_library(
         "redis.go",
         "wechat.go",
     ],
-    importpath = "go-common/app/service/main/push-strategy/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/main/push-strategy/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

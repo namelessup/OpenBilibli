@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"go-common/app/interface/main/ugcpay/conf"
-	"go-common/app/interface/main/ugcpay/dao"
+	"github.com/namelessup/bilibili/app/interface/main/ugcpay/conf"
+	"github.com/namelessup/bilibili/app/interface/main/ugcpay/dao"
 )
 
 // Service struct

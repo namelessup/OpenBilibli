@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"go-common/library/naming/discovery"
-	"go-common/library/queue/databus"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/library/naming/discovery"
+	"github.com/namelessup/bilibili/library/queue/databus"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 var (

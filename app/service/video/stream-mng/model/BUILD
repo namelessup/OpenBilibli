@@ -15,7 +15,7 @@ go_library(
         "official-stream.go",
         "upstream-info.go",
     ],
-    importpath = "go-common/app/service/video/stream-mng/model",
+    importpath = "github.com/namelessup/bilibili/app/service/video/stream-mng/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/time:go_default_library"],

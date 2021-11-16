@@ -3,7 +3,7 @@ package dao
 import (
 	"context"
 	"fmt"
-	"go-common/app/service/live/wallet/model"
+	"github.com/namelessup/bilibili/app/service/live/wallet/model"
 )
 
 const (

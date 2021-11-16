@@ -2,8 +2,8 @@ package weeklyhonor
 
 import (
 	"context"
-	up "go-common/app/service/main/up/api/v1"
-	"go-common/library/log"
+	up "github.com/namelessup/bilibili/app/service/main/up/api/v1"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const fromWeeklyHonor = 1

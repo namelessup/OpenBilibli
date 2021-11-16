@@ -8,13 +8,13 @@ import (
 
 	"github.com/ipipdotnet/ipdb-go"
 
-	avService "go-common/app/service/live/av/api/liverpc/v1"
-	bannedService "go-common/app/service/live/banned_service/api/liverpc/v1"
-	"go-common/app/service/live/live-dm/dao"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
-	"go-common/library/sync/errgroup"
+	avService "github.com/namelessup/bilibili/app/service/live/av/api/liverpc/v1"
+	bannedService "github.com/namelessup/bilibili/app/service/live/banned_service/api/liverpc/v1"
+	"github.com/namelessup/bilibili/app/service/live/live-dm/dao"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 
 	"github.com/pkg/errors"
 )

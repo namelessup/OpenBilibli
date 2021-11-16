@@ -1,13 +1,13 @@
 package common
 
 import (
-	"go-common/app/admin/main/feed/conf"
-	accdao "go-common/app/admin/main/feed/dao/account"
-	arcdao "go-common/app/admin/main/feed/dao/archive"
-	pgcdao "go-common/app/admin/main/feed/dao/pgc"
-	showdao "go-common/app/admin/main/feed/dao/show"
-	"go-common/library/log"
-	httpx "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/feed/conf"
+	accdao "github.com/namelessup/bilibili/app/admin/main/feed/dao/account"
+	arcdao "github.com/namelessup/bilibili/app/admin/main/feed/dao/archive"
+	pgcdao "github.com/namelessup/bilibili/app/admin/main/feed/dao/pgc"
+	showdao "github.com/namelessup/bilibili/app/admin/main/feed/dao/show"
+	"github.com/namelessup/bilibili/library/log"
+	httpx "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // Service is search service

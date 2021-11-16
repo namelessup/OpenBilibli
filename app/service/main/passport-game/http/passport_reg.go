@@ -1,9 +1,9 @@
 package http
 
 import (
-	"go-common/app/service/main/passport-game/model"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/service/main/passport-game/model"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 func regV3(c *bm.Context) {

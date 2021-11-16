@@ -3,7 +3,7 @@ package order
 import (
 	"context"
 	"flag"
-	"go-common/app/interface/main/videoup/conf"
+	"github.com/namelessup/bilibili/app/interface/main/videoup/conf"
 	"os"
 	"strings"
 	"testing"

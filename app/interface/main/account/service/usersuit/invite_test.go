@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/library/ecode"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

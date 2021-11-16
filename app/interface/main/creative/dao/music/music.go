@@ -4,9 +4,9 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"go-common/app/interface/main/creative/model/music"
-	"go-common/library/log"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/music"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/xstr"
 	"sort"
 	"strings"
 )

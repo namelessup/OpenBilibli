@@ -6,11 +6,11 @@ import (
 	"sort"
 	"time"
 
-	"go-common/app/interface/main/growup/model"
+	"github.com/namelessup/bilibili/app/interface/main/growup/model"
 
-	"go-common/library/ecode"
-	"go-common/library/log"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 const (

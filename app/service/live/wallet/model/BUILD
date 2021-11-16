@@ -20,7 +20,7 @@ proto_library(
 go_proto_library(
     name = "model_go_proto",
     compilers = ["@io_bazel_rules_go//proto:gogofast_proto"],
-    importpath = "go-common/app/service/live/wallet/model",
+    importpath = "github.com/namelessup/bilibili/app/service/live/wallet/model",
     proto = ":model_proto",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
@@ -31,7 +31,7 @@ go_library(
     name = "go_default_library",
     srcs = ["helper.go"],
     embed = [":model_go_proto"],
-    importpath = "go-common/app/service/live/wallet/model",
+    importpath = "github.com/namelessup/bilibili/app/service/live/wallet/model",
     tags = ["automanaged"],
     deps = [
         "//library/ecode:go_default_library",

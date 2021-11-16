@@ -2,7 +2,7 @@
 
 version = "1.0.0"
 user = "root"
-dir = "/root/golang/go-project/src/go-common/business/service/live-wallet"
+dir = "/root/golang/go-project/src/github.com/namelessup/bilibili/business/service/live-wallet"
 family = "live-wallet"
 address = ""
 trace = false

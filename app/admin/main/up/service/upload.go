@@ -5,10 +5,10 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/admin/main/up/conf"
-	"go-common/app/admin/main/up/dao"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/up/conf"
+	"github.com/namelessup/bilibili/app/admin/main/up/dao"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Upload upload.

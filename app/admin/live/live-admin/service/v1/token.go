@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
-	v1pb "go-common/app/admin/live/live-admin/api/http/v1"
-	"go-common/app/admin/live/live-admin/conf"
-	"go-common/app/admin/live/live-admin/dao"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	v1pb "github.com/namelessup/bilibili/app/admin/live/live-admin/api/http/v1"
+	"github.com/namelessup/bilibili/app/admin/live/live-admin/conf"
+	"github.com/namelessup/bilibili/app/admin/live/live-admin/dao"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // TokenService struct

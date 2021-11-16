@@ -9,15 +9,15 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/app/service/main/account/conf"
-	rpc "go-common/app/service/main/account/rpc/server"
-	"go-common/app/service/main/account/server/grpc"
-	"go-common/app/service/main/account/server/http"
-	"go-common/app/service/main/account/service"
-	"go-common/library/log"
-	"go-common/library/net/rpc/warden"
-	"go-common/library/net/rpc/warden/resolver/livezk"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/app/service/main/account/conf"
+	rpc "github.com/namelessup/bilibili/app/service/main/account/rpc/server"
+	"github.com/namelessup/bilibili/app/service/main/account/server/grpc"
+	"github.com/namelessup/bilibili/app/service/main/account/server/http"
+	"github.com/namelessup/bilibili/app/service/main/account/service"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
+	"github.com/namelessup/bilibili/library/net/rpc/warden/resolver/livezk"
+	"github.com/namelessup/bilibili/library/net/trace"
 )
 
 const (

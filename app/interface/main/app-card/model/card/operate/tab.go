@@ -5,9 +5,9 @@ import (
 	"sort"
 	"strconv"
 
-	"go-common/app/interface/main/app-card/model"
-	"go-common/library/log"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/interface/main/app-card/model"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 type Menu struct {

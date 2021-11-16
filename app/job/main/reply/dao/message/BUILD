@@ -21,7 +21,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["message.go"],
-    importpath = "go-common/app/job/main/reply/dao/message",
+    importpath = "github.com/namelessup/bilibili/app/job/main/reply/dao/message",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

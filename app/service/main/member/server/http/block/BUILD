@@ -11,7 +11,7 @@ go_library(
         "block.go",
         "http.go",
     ],
-    importpath = "go-common/app/service/main/member/server/http/block",
+    importpath = "github.com/namelessup/bilibili/app/service/main/member/server/http/block",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

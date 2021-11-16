@@ -18,8 +18,8 @@ message Match {
     string Name = 5 [(gogoproto.jsontag) = "name"];
     string Url = 6 [(gogoproto.jsontag) = "url"];
     string Cover = 7 [(gogoproto.jsontag) = "cover"];
-    int64 Ctime = 8 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "go-common/library/time.Time"];
-    int64 Mtime = 9 [(gogoproto.jsontag) = "mtime", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int64 Ctime = 8 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
+    int64 Mtime = 9 [(gogoproto.jsontag) = "mtime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
 }
 
 message MatchList {
@@ -37,12 +37,12 @@ message Object {
     string AwayLogo = 8 [(gogoproto.jsontag) = "away_logo"];
     int64 AwayScore = 9 [(gogoproto.jsontag) = "away_score"];
     int64 Result = 10 [(gogoproto.jsontag) = "result"];
-    int64 Ctime = 11 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "go-common/library/time.Time"];
-    int64 Mtime = 12 [(gogoproto.jsontag) = "mtime", (gogoproto.casttype) = "go-common/library/time.Time"];
-    int64 Stime = 13 [(gogoproto.jsontag) = "stime", (gogoproto.casttype) = "go-common/library/time.Time"];
-    int64 Etime = 14 [(gogoproto.jsontag) = "etime", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int64 Ctime = 11 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
+    int64 Mtime = 12 [(gogoproto.jsontag) = "mtime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
+    int64 Stime = 13 [(gogoproto.jsontag) = "stime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
+    int64 Etime = 14 [(gogoproto.jsontag) = "etime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
     int64 UserResult = 15 [(gogoproto.jsontag) = "user_result"];
-    int64 GameStime = 16 [(gogoproto.jsontag) = "game_stime", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int64 GameStime = 16 [(gogoproto.jsontag) = "game_stime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
     string MatchName = 17 [(gogoproto.jsontag) = "match_name,omitempty"];
 }
 
@@ -54,12 +54,12 @@ message UserLog {
     int64 Mid = 5 [(gogoproto.jsontag) = "mid"];
     int64 Result = 6 [(gogoproto.jsontag) = "result"];
     int64 Stake = 7 [(gogoproto.jsontag) = "stake"];
-    int64 Ctime = 8 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "go-common/library/time.Time"];
-    int64 Mtime = 9 [(gogoproto.jsontag) = "mtime", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int64 Ctime = 8 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
+    int64 Mtime = 9 [(gogoproto.jsontag) = "mtime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
     int64 ObjResult = 10 [(gogoproto.jsontag) = "obj_result"];
     string HomeName = 11 [(gogoproto.jsontag) = "home_name"];
     string AwayName = 12 [(gogoproto.jsontag) = "away_name"];
-    int64 GameStime = 13 [(gogoproto.jsontag) = "game_stime", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int64 GameStime = 13 [(gogoproto.jsontag) = "game_stime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
 }
 
 message UserGuess {

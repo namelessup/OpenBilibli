@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"go-common/app/admin/main/manager/model"
+	"github.com/namelessup/bilibili/app/admin/main/manager/model"
 
 	"github.com/jinzhu/gorm"
 )

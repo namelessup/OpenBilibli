@@ -6,10 +6,10 @@ import (
 
 	"google.golang.org/grpc/status"
 
-	v1pb "go-common/app/admin/live/live-admin/api/http/v1"
-	"go-common/app/admin/live/live-admin/conf"
-	client "go-common/app/service/live/resource/api/grpc/v1"
-	"go-common/library/ecode"
+	v1pb "github.com/namelessup/bilibili/app/admin/live/live-admin/api/http/v1"
+	"github.com/namelessup/bilibili/app/admin/live/live-admin/conf"
+	client "github.com/namelessup/bilibili/app/service/live/resource/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 // GaeaService struct

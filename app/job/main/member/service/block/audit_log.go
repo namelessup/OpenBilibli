@@ -5,9 +5,9 @@ import (
 	"strconv"
 	"time"
 
-	model "go-common/app/job/main/member/model/block"
-	"go-common/library/log"
-	manager "go-common/library/queue/databus/report"
+	model "github.com/namelessup/bilibili/app/job/main/member/model/block"
+	"github.com/namelessup/bilibili/library/log"
+	manager "github.com/namelessup/bilibili/library/queue/databus/report"
 )
 
 // AddAuditLog .

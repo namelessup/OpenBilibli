@@ -3,9 +3,9 @@ package v1
 import (
 	"context"
 
-	"go-common/library/log"
-	"go-common/library/net/rpc/warden"
-	"go-common/library/net/rpc/warden/balancer/wrr"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
+	"github.com/namelessup/bilibili/library/net/rpc/warden/balancer/wrr"
 
 	"google.golang.org/grpc"
 )

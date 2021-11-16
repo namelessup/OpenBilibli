@@ -2,10 +2,10 @@ package grpc
 
 import (
 	"context"
-	"go-common/app/service/main/member/api"
-	"go-common/app/service/main/member/service"
-	"go-common/app/service/main/member/service/block"
-	"go-common/library/net/rpc/warden"
+	"github.com/namelessup/bilibili/app/service/main/member/api"
+	"github.com/namelessup/bilibili/app/service/main/member/service"
+	"github.com/namelessup/bilibili/app/service/main/member/service/block"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 )
 
 // New Member warden rpc server

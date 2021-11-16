@@ -4,10 +4,10 @@ import (
 	"context"
 	"encoding/json"
 
-	"go-common/app/interface/main/account/model"
-	vol "go-common/app/service/main/vip/model"
+	"github.com/namelessup/bilibili/app/interface/main/account/model"
+	vol "github.com/namelessup/bilibili/app/service/main/vip/model"
 
-	v1 "go-common/app/service/main/vip/api"
+	v1 "github.com/namelessup/bilibili/app/service/main/vip/api"
 )
 
 // BindInfoByMid bind info by mid[bilibili->third].

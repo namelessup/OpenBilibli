@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/service/main/member/conf"
-	model "go-common/app/service/main/member/model/block"
+	"github.com/namelessup/bilibili/app/service/main/member/conf"
+	model "github.com/namelessup/bilibili/app/service/main/member/model/block"
 
 	"github.com/smartystreets/goconvey/convey"
 )

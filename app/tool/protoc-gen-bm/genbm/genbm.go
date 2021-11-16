@@ -11,7 +11,7 @@ import (
 	"github.com/golang/protobuf/protoc-gen-go/descriptor"
 	plugin "github.com/golang/protobuf/protoc-gen-go/plugin"
 
-	"go-common/app/tool/protoc-gen-bm/generator"
+	"github.com/namelessup/bilibili/app/tool/protoc-gen-bm/generator"
 )
 
 // New blademaster server code generator

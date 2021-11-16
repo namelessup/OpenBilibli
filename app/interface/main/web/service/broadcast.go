@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 
-	"go-common/app/interface/main/web/model"
-	warden "go-common/app/service/main/broadcast/api/grpc/v1"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/web/model"
+	warden "github.com/namelessup/bilibili/app/service/main/broadcast/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // BroadServers broadcast server list.

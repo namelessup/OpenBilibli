@@ -3,9 +3,9 @@ package dao
 import (
 	"context"
 
-	"go-common/library/cache/memcache"
-	"go-common/library/log"
-	"go-common/library/net/http/blademaster/middleware/permit"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/permit"
 )
 
 // Session .

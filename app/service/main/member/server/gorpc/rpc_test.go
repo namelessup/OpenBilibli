@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/service/main/member/conf"
-	"go-common/app/service/main/member/model"
-	"go-common/app/service/main/member/service"
+	"github.com/namelessup/bilibili/app/service/main/member/conf"
+	"github.com/namelessup/bilibili/app/service/main/member/model"
+	"github.com/namelessup/bilibili/app/service/main/member/service"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

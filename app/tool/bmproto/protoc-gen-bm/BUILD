@@ -37,7 +37,7 @@ go_library(
         "helper.go",
         "main.go",
     ],
-    importpath = "go-common/app/tool/bmproto/protoc-gen-bm",
+    importpath = "github.com/namelessup/bilibili/app/tool/bmproto/protoc-gen-bm",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

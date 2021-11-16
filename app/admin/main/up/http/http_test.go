@@ -15,7 +15,7 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/admin/main/up/conf"
+	"github.com/namelessup/bilibili/app/admin/main/up/conf"
 
 	"github.com/davecgh/go-spew/spew"
 	. "github.com/smartystreets/goconvey/convey"

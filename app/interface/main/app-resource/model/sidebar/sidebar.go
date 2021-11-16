@@ -1,8 +1,8 @@
 package sidebar
 
 import (
-	resource "go-common/app/service/main/resource/model"
-	"go-common/library/time"
+	resource "github.com/namelessup/bilibili/app/service/main/resource/model"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 type SideBar struct {

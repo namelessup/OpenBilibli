@@ -29,7 +29,7 @@ go_library(
         "web.go",
         "wechat.go",
     ],
-    importpath = "go-common/app/interface/main/web/model",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/web/model",
     tags = ["automanaged"],
     deps = [
         "//app/interface/main/dm2/model:go_default_library",

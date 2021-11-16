@@ -5,11 +5,11 @@ import (
 	"encoding/json"
 	"time"
 
-	pb "go-common/app/service/main/coin/api"
-	"go-common/app/service/main/coin/model"
-	"go-common/library/database/elastic"
-	"go-common/library/log"
-	"go-common/library/queue/databus/report"
+	pb "github.com/namelessup/bilibili/app/service/main/coin/api"
+	"github.com/namelessup/bilibili/app/service/main/coin/model"
+	"github.com/namelessup/bilibili/library/database/elastic"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus/report"
 )
 
 // AddLog .

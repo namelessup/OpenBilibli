@@ -4,14 +4,14 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/service/main/up/conf"
-	"go-common/app/service/main/up/dao/global"
-	"go-common/library/cache/memcache"
-	"go-common/library/database/sql"
-	httpx "go-common/library/net/http/blademaster"
-	"go-common/library/sync/pipeline/fanout"
+	"github.com/namelessup/bilibili/app/service/main/up/conf"
+	"github.com/namelessup/bilibili/app/service/main/up/dao/global"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/database/sql"
+	httpx "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/sync/pipeline/fanout"
 
-	article "go-common/app/interface/openplatform/article/rpc/client"
+	article "github.com/namelessup/bilibili/app/interface/openplatform/article/rpc/client"
 )
 
 // DateLayout date layout

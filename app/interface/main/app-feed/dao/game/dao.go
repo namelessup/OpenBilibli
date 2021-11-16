@@ -3,9 +3,9 @@ package game
 import (
 	"context"
 
-	"go-common/app/interface/main/app-card/model/card/operate"
-	"go-common/app/interface/main/app-feed/conf"
-	"go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/interface/main/app-card/model/card/operate"
+	"github.com/namelessup/bilibili/app/interface/main/app-feed/conf"
+	"github.com/namelessup/bilibili/library/database/sql"
 )
 
 const (

@@ -1,8 +1,8 @@
 package manager
 
 import (
-	"go-common/app/job/main/videoup/conf"
-	xsql "go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/job/main/videoup/conf"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
 )
 
 // Dao is manager dao.

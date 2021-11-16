@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/service/main/usersuit/conf"
-	"go-common/app/service/main/usersuit/service"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/usersuit/conf"
+	"github.com/namelessup/bilibili/app/service/main/usersuit/service"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"sync"
 
-	"go-common/app/interface/main/report-click/conf"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/interface/main/report-click/conf"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 // Dao report-click dao

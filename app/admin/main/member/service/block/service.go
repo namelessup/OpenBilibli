@@ -4,14 +4,14 @@ import (
 	"context"
 	"runtime/debug"
 
-	"go-common/app/admin/main/member/conf"
-	"go-common/app/admin/main/member/dao/block"
-	account "go-common/app/service/main/account/api"
-	rpcfigure "go-common/app/service/main/figure/rpc/client"
-	rpcspy "go-common/app/service/main/spy/rpc/client"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
-	"go-common/library/sync/pipeline/fanout"
+	"github.com/namelessup/bilibili/app/admin/main/member/conf"
+	"github.com/namelessup/bilibili/app/admin/main/member/dao/block"
+	account "github.com/namelessup/bilibili/app/service/main/account/api"
+	rpcfigure "github.com/namelessup/bilibili/app/service/main/figure/rpc/client"
+	rpcspy "github.com/namelessup/bilibili/app/service/main/spy/rpc/client"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
+	"github.com/namelessup/bilibili/library/sync/pipeline/fanout"
 )
 
 // Service struct

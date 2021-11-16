@@ -27,7 +27,7 @@ go_library(
         "rpc.go",
         "rpc2.go",
     ],
-    importpath = "go-common/app/interface/main/tag/rpc/server",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/tag/rpc/server",
     tags = ["automanaged"],
     deps = [
         "//app/interface/main/tag/conf:go_default_library",

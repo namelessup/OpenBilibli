@@ -7,12 +7,12 @@ import (
 	"strconv"
 	"strings"
 
-	"go-common/app/interface/main/app-show/model"
-	"go-common/app/interface/main/app-show/model/region"
-	locmdl "go-common/app/service/main/location/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/model/region"
+	locmdl "github.com/namelessup/bilibili/app/service/main/location/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 
 	farm "github.com/dgryski/go-farm"
 )

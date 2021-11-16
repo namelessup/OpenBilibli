@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 
 	"database/sql"
-	"go-common/app/interface/main/creative/model/app"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/app"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

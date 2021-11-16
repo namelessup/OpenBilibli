@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	upgrpc "go-common/app/service/main/up/api/v1"
-	"go-common/app/service/main/up/model/data"
-	xtime "go-common/library/time"
+	upgrpc "github.com/namelessup/bilibili/app/service/main/up/api/v1"
+	"github.com/namelessup/bilibili/app/service/main/up/model/data"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // UpBaseStats .

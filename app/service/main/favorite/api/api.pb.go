@@ -6,7 +6,7 @@ package api
 import proto "github.com/gogo/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import model "go-common/app/service/main/favorite/model"
+import model "github.com/namelessup/bilibili/app/service/main/favorite/model"
 import _ "github.com/gogo/protobuf/gogoproto"
 import empty "github.com/golang/protobuf/ptypes/empty"
 

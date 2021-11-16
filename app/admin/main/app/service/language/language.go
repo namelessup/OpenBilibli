@@ -3,10 +3,10 @@ package language
 import (
 	"context"
 
-	"go-common/app/admin/main/app/conf"
-	langdao "go-common/app/admin/main/app/dao/language"
-	"go-common/app/admin/main/app/model/language"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/app/conf"
+	langdao "github.com/namelessup/bilibili/app/admin/main/app/dao/language"
+	"github.com/namelessup/bilibili/app/admin/main/app/model/language"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Service language service

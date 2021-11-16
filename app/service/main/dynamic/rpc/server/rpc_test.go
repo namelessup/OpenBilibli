@@ -4,8 +4,8 @@ import (
 	"net/rpc"
 	"testing"
 
-	"go-common/app/service/main/archive/api"
-	"go-common/app/service/main/dynamic/model"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/app/service/main/dynamic/model"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

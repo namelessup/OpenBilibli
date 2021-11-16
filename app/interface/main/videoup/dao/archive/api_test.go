@@ -2,9 +2,9 @@ package archive
 
 import (
 	"context"
-	"go-common/app/interface/main/videoup/model/archive"
-	upapi "go-common/app/service/main/up/api/v1"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/interface/main/videoup/model/archive"
+	upapi "github.com/namelessup/bilibili/app/service/main/up/api/v1"
+	"github.com/namelessup/bilibili/library/ecode"
 	"testing"
 
 	"github.com/golang/mock/gomock"

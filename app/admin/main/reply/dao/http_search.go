@@ -11,10 +11,10 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/admin/main/reply/conf"
-	"go-common/app/admin/main/reply/model"
-	"go-common/library/database/elastic"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/reply/conf"
+	"github.com/namelessup/bilibili/app/admin/main/reply/model"
+	"github.com/namelessup/bilibili/library/database/elastic"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

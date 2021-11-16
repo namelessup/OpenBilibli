@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"encoding/json"
-	"go-common/app/service/main/resource/model"
+	"github.com/namelessup/bilibili/app/service/main/resource/model"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

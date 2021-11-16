@@ -11,7 +11,7 @@ go_library(
         "apply.go",
         "canal.go",
     ],
-    importpath = "go-common/app/admin/main/apm/model/canal",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/apm/model/canal",
     tags = ["automanaged"],
     deps = ["//library/time:go_default_library"],
 )

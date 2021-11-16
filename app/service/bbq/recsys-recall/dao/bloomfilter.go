@@ -2,7 +2,7 @@ package dao
 
 import (
 	"context"
-	"go-common/library/cache/redis"
+	"github.com/namelessup/bilibili/library/cache/redis"
 
 	"github.com/Dai0522/go-hash/bloomfilter"
 )

@@ -4,7 +4,7 @@ import (
 	"sync"
 	"time"
 
-	xtime "go-common/library/time"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // Config broker config.

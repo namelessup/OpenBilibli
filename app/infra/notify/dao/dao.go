@@ -3,8 +3,8 @@ package dao
 import (
 	"context"
 
-	"go-common/app/infra/notify/conf"
-	xsql "go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/infra/notify/conf"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
 )
 
 // Dao dao

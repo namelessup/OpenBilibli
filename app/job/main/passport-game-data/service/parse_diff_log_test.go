@@ -5,7 +5,7 @@ import (
 
 	"encoding/json"
 	. "github.com/smartystreets/goconvey/convey"
-	"go-common/app/job/main/passport-game-data/model"
+	"github.com/namelessup/bilibili/app/job/main/passport-game-data/model"
 )
 
 func TestParseDiffLog(t *testing.T) {

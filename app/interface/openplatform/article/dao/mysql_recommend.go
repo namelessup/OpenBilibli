@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	artmdl "go-common/app/interface/openplatform/article/model"
-	"go-common/library/database/sql"
-	"go-common/library/log"
+	artmdl "github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // RecommendByCategory find recommend by category

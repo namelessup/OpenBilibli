@@ -37,7 +37,7 @@ filegroup(
 go_library(
     name = "go_default_library",
     srcs = ["client.go"],
-    importpath = "go-common/library/net/rpc/liverpc/test",
+    importpath = "github.com/namelessup/bilibili/library/net/rpc/liverpc/test",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

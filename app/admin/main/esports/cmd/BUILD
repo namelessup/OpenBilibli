@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["esports-admin-test.toml"],
-    importpath = "go-common/app/admin/main/esports/cmd",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/esports/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -3,9 +3,9 @@ package grpc
 import (
 	"context"
 
-	v1 "go-common/app/service/main/archive/api"
-	"go-common/app/service/main/archive/service"
-	"go-common/library/net/rpc/warden"
+	v1 "github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/app/service/main/archive/service"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 )
 
 type server struct {

@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/admin/main/upload/conf"
-	"go-common/app/admin/main/upload/dao"
-	"go-common/app/admin/main/upload/model"
-	"go-common/library/database/orm"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/upload/conf"
+	"github.com/namelessup/bilibili/app/admin/main/upload/dao"
+	"github.com/namelessup/bilibili/app/admin/main/upload/model"
+	"github.com/namelessup/bilibili/library/database/orm"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/jinzhu/gorm"
 )

@@ -7,11 +7,11 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/app/admin/ep/merlin/conf"
-	"go-common/app/admin/ep/merlin/http"
-	"go-common/app/admin/ep/merlin/service"
-	ecode "go-common/library/ecode/tip"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/ep/merlin/conf"
+	"github.com/namelessup/bilibili/app/admin/ep/merlin/http"
+	"github.com/namelessup/bilibili/app/admin/ep/merlin/service"
+	ecode "github.com/namelessup/bilibili/library/ecode/tip"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

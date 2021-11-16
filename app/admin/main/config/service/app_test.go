@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"go-common/app/admin/main/config/conf"
+	"github.com/namelessup/bilibili/app/admin/main/config/conf"
 
 	"github.com/BurntSushi/toml"
 	. "github.com/smartystreets/goconvey/convey"

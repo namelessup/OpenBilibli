@@ -1,7 +1,7 @@
 package model
 
 import (
-	"go-common/app/service/live/xuser/api/grpc"
+	"github.com/namelessup/bilibili/app/service/live/xuser/api/grpc"
 	"time"
 )
 

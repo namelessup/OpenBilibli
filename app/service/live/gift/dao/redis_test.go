@@ -2,8 +2,8 @@ package dao
 
 import (
 	"context"
-	v1pb "go-common/app/service/live/gift/api/grpc/v1"
-	"go-common/app/service/live/gift/model"
+	v1pb "github.com/namelessup/bilibili/app/service/live/gift/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/live/gift/model"
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"

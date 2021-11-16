@@ -15,7 +15,7 @@ go_library(
         "passport_reg.go",
         "sign.go",
     ],
-    importpath = "go-common/app/service/main/passport-game/http",
+    importpath = "github.com/namelessup/bilibili/app/service/main/passport-game/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

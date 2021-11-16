@@ -3,10 +3,10 @@ package thumbup
 import (
 	"context"
 
-	"go-common/app/interface/main/app-intl/conf"
-	thumbup "go-common/app/service/main/thumbup/model"
-	thumbuprpc "go-common/app/service/main/thumbup/rpc/client"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/main/app-intl/conf"
+	thumbup "github.com/namelessup/bilibili/app/service/main/thumbup/model"
+	thumbuprpc "github.com/namelessup/bilibili/app/service/main/thumbup/rpc/client"
+	"github.com/namelessup/bilibili/library/net/metadata"
 
 	"github.com/pkg/errors"
 )

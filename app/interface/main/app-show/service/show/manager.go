@@ -3,7 +3,7 @@ package show
 import (
 	"context"
 
-	"go-common/app/interface/main/app-card/model/card/operate"
+	"github.com/namelessup/bilibili/app/interface/main/app-card/model/card/operate"
 )
 
 func (s *Service) cardSetChange(c context.Context, ids ...int64) (cardm map[int64]*operate.Card, aids []int64, upid int64) {

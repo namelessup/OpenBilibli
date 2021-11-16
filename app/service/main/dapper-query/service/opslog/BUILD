@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["opslog.go"],
-    importpath = "go-common/app/service/main/dapper-query/service/opslog",
+    importpath = "github.com/namelessup/bilibili/app/service/main/dapper-query/service/opslog",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

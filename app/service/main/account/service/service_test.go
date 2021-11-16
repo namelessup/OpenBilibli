@@ -3,7 +3,7 @@ package service
 import (
 	"flag"
 
-	"go-common/app/service/main/account/conf"
+	"github.com/namelessup/bilibili/app/service/main/account/conf"
 )
 
 var s *Service

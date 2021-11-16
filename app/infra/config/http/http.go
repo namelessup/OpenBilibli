@@ -5,14 +5,14 @@ import (
 	"strconv"
 	"strings"
 
-	"go-common/app/infra/config/conf"
-	"go-common/app/infra/config/service/v1"
-	"go-common/app/infra/config/service/v2"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/antispam"
-	v "go-common/library/net/http/blademaster/middleware/verify"
+	"github.com/namelessup/bilibili/app/infra/config/conf"
+	"github.com/namelessup/bilibili/app/infra/config/service/v1"
+	"github.com/namelessup/bilibili/app/infra/config/service/v2"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/antispam"
+	v "github.com/namelessup/bilibili/library/net/http/blademaster/middleware/verify"
 
 	"github.com/dgryski/go-farm"
 )

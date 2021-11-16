@@ -3,13 +3,13 @@ package dao
 import (
 	"context"
 
-	"go-common/app/service/video/stream-mng/conf"
-	"go-common/library/cache"
-	"go-common/library/cache/memcache"
-	"go-common/library/cache/redis"
-	xsql "go-common/library/database/sql"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/sync/pipeline/fanout"
+	"github.com/namelessup/bilibili/app/service/video/stream-mng/conf"
+	"github.com/namelessup/bilibili/library/cache"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/sync/pipeline/fanout"
 
 	"github.com/bluele/gcache"
 )

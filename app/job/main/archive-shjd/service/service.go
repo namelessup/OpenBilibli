@@ -6,14 +6,14 @@ import (
 	"sync"
 	"time"
 
-	"go-common/app/job/main/archive-shjd/conf"
-	"go-common/app/job/main/archive-shjd/model"
-	accrpc "go-common/app/service/main/account/rpc/client"
-	"go-common/app/service/main/archive/api"
-	arcrpc "go-common/app/service/main/archive/api/gorpc"
-	"go-common/library/cache/redis"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/job/main/archive-shjd/conf"
+	"github.com/namelessup/bilibili/app/job/main/archive-shjd/model"
+	accrpc "github.com/namelessup/bilibili/app/service/main/account/rpc/client"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	arcrpc "github.com/namelessup/bilibili/app/service/main/archive/api/gorpc"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
 
 	"github.com/pkg/errors"
 )

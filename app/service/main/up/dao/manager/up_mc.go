@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	upgrpc "go-common/app/service/main/up/api/v1"
+	upgrpc "github.com/namelessup/bilibili/app/service/main/up/api/v1"
 )
 
 const (
@@ -16,7 +16,7 @@ func upSpecialCacheKey(mid int64) string {
 	return fmt.Sprintf(_upSpecialKey, mid)
 }
 
-//go:generate $GOPATH/src/go-common/app/tool/cache/gen
+//go:generate $GOPATH/src/github.com/namelessup/bilibili/app/tool/cache/gen
 type _cache interface {
 	// cache: -nullcache=&upgrpc.UpSpecial{GroupIDs:[]int64{-1}} -check_null_code=$!=nil&&len($.GroupIDs)>0&&$.GroupIDs[0]==-1
 	UpSpecial(c context.Context, mid int64) (us *upgrpc.UpSpecial, err error)
@@ -24,7 +24,7 @@ type _cache interface {
 	UpsSpecial(c context.Context, mids []int64) (map[int64]*upgrpc.UpSpecial, error)
 }
 
-//go:generate $GOPATH/src/go-common/app/tool/cache/mc
+//go:generate $GOPATH/src/github.com/namelessup/bilibili/app/tool/cache/mc
 type _mc interface {
 	// mc: -key=upSpecialCacheKey -expire=d.upSpecialExpire -encode=pb
 	AddCacheUpSpecial(c context.Context, mid int64, us *upgrpc.UpSpecial) (err error)

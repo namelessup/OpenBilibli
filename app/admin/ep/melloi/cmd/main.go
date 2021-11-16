@@ -7,11 +7,11 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/app/admin/ep/melloi/conf"
-	"go-common/app/admin/ep/melloi/http"
-	"go-common/app/admin/ep/melloi/service"
-	ecode "go-common/library/ecode/tip"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/ep/melloi/conf"
+	"github.com/namelessup/bilibili/app/admin/ep/melloi/http"
+	"github.com/namelessup/bilibili/app/admin/ep/melloi/service"
+	ecode "github.com/namelessup/bilibili/library/ecode/tip"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

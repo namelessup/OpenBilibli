@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 
-	"go-common/app/service/main/antispam/model"
+	"github.com/namelessup/bilibili/app/service/main/antispam/model"
 )
 
 const (

@@ -1,7 +1,7 @@
 package conf
 
 import (
-	xtime "go-common/library/time"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // UgcSync defines the params for ugc sync

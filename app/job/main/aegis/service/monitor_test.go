@@ -4,8 +4,8 @@ import (
 	"context"
 	"github.com/golang/mock/gomock"
 	. "github.com/smartystreets/goconvey/convey"
-	"go-common/app/job/main/aegis/model/monitor"
-	accApi "go-common/app/service/main/account/api"
+	"github.com/namelessup/bilibili/app/job/main/aegis/model/monitor"
+	accApi "github.com/namelessup/bilibili/app/service/main/account/api"
 	"testing"
 )
 

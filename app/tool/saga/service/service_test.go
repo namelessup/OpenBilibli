@@ -4,8 +4,8 @@ import (
 	"flag"
 	"testing"
 
-	"go-common/app/tool/saga/conf"
-	"go-common/app/tool/saga/model"
+	"github.com/namelessup/bilibili/app/tool/saga/conf"
+	"github.com/namelessup/bilibili/app/tool/saga/model"
 
 	. "github.com/smartystreets/goconvey/convey"
 )
@@ -164,7 +164,7 @@ func TestContributor(t *testing.T) {
 		err  error
 		repo = &model.RepoInfo{
 			Group:  "platform",
-			Name:   "go-common",
+			Name:   "github.com/namelessup/bilibili",
 			Branch: "master",
 		}
 	)
@@ -180,7 +180,7 @@ func TestMergeRequest(t *testing.T) {
 		err          error
 		ok           bool
 		repo         *model.Repo
-		url          = "git@gitlab.bilibili.co:platform/go-common.git"
+		url          = "git@gitlab.bilibili.co:platform/github.com/namelessup/bilibili.git"
 		projID       = 23
 		mrIID        = 130
 		sourceBranch = "ci/test-7"

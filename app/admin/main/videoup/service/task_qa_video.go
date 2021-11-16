@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"strconv"
 
-	"go-common/app/admin/main/videoup/model/archive"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/videoup/model/archive"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) fetchQAVideo(c context.Context, vp *archive.VideoParam) (task *archive.QAVideo, err error) {

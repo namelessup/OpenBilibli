@@ -4,7 +4,7 @@ import (
 	"context"
 	"github.com/bouk/monkey"
 	"github.com/tsuna/gohbase/hrpc"
-	"go-common/library/database/hbase.v2"
+	"github.com/namelessup/bilibili/library/database/hbase.v2"
 	"reflect"
 	"testing"
 

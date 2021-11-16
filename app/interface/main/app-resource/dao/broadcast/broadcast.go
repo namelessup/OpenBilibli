@@ -4,11 +4,11 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/app/interface/main/app-resource/conf"
-	pb "go-common/app/service/main/broadcast/api/grpc/v1"
-	warden "go-common/app/service/main/broadcast/api/grpc/v1"
-	wardenclient "go-common/app/service/main/broadcast/api/grpc/v1"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/app-resource/conf"
+	pb "github.com/namelessup/bilibili/app/service/main/broadcast/api/grpc/v1"
+	warden "github.com/namelessup/bilibili/app/service/main/broadcast/api/grpc/v1"
+	wardenclient "github.com/namelessup/bilibili/app/service/main/broadcast/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 type Dao struct {

@@ -81,7 +81,7 @@ go_library(
         "view_redis.go",
         "wechat.go",
     ],
-    importpath = "go-common/app/interface/main/web/dao",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/web/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

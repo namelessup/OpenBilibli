@@ -1,4 +1,4 @@
-### go-common/queue
+### github.com/namelessup/bilibili/queue
 #### V1.0.1
 > 1.添加sdk监控  
 

@@ -5,11 +5,11 @@ import (
 	"strconv"
 	"sync"
 
-	"go-common/app/service/main/archive/api"
-	feedmdl "go-common/app/service/main/feed/model"
-	"go-common/library/cache/memcache"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	feedmdl "github.com/namelessup/bilibili/app/service/main/feed/model"
+	"github.com/namelessup/bilibili/library/cache/memcache"
 
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 const (

@@ -3,10 +3,10 @@ package service
 import (
 	"context"
 	"encoding/json"
-	"go-common/app/job/main/videoup/model/archive"
-	"go-common/app/job/main/videoup/model/message"
-	"go-common/app/job/main/videoup/model/redis"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/videoup/model/archive"
+	"github.com/namelessup/bilibili/app/job/main/videoup/model/message"
+	"github.com/namelessup/bilibili/app/job/main/videoup/model/redis"
+	"github.com/namelessup/bilibili/library/log"
 	"strconv"
 	"time"
 )

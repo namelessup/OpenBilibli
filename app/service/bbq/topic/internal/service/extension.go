@@ -4,9 +4,9 @@ import (
 	"context"
 	"encoding/json"
 	"github.com/golang/protobuf/ptypes/empty"
-	"go-common/app/service/bbq/topic/api"
-	"go-common/app/service/bbq/topic/internal/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/bbq/topic/api"
+	"github.com/namelessup/bilibili/app/service/bbq/topic/internal/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Register 注册extension信息，包括关联话题等

@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/service/main/member/model"
+	"github.com/namelessup/bilibili/app/service/main/member/model"
 )
 
 func notifyKey(mid int64) string {

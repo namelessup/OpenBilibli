@@ -3,12 +3,12 @@ package dao
 import (
 	"time"
 
-	"go-common/app/interface/main/tv/conf"
-	"go-common/library/cache/memcache"
-	"go-common/library/cache/redis"
-	"go-common/library/database/sql"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/app/interface/main/tv/conf"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/database/sql"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/stat/prom"
 )
 
 // Dao .

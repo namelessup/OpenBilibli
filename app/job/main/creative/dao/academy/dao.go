@@ -2,8 +2,8 @@ package academy
 
 import (
 	"context"
-	"go-common/app/job/main/creative/conf"
-	"go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/job/main/creative/conf"
+	"github.com/namelessup/bilibili/library/database/sql"
 )
 
 // Dao is creative dao.

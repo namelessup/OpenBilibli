@@ -8,11 +8,11 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/admin/main/filter/conf"
-	"go-common/app/admin/main/filter/model"
-	"go-common/app/admin/main/filter/service"
-	"go-common/library/log"
-	xhttp "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/filter/conf"
+	"github.com/namelessup/bilibili/app/admin/main/filter/model"
+	"github.com/namelessup/bilibili/app/admin/main/filter/service"
+	"github.com/namelessup/bilibili/library/log"
+	xhttp "github.com/namelessup/bilibili/library/net/http/blademaster"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

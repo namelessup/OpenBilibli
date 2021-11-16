@@ -2,11 +2,11 @@ package dao
 
 import (
 	"encoding/json"
-	"go-common/app/service/live/live-dm/conf"
-	titansSdk "go-common/app/service/live/resource/sdk"
-	"go-common/library/log"
-	"go-common/library/log/infoc"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/service/live/live-dm/conf"
+	titansSdk "github.com/namelessup/bilibili/app/service/live/resource/sdk"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/log/infoc"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 var (

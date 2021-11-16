@@ -1,9 +1,9 @@
 package dao
 
 import (
-	"go-common/app/job/live/xlottery/internal/conf"
-	rcApi "go-common/app/service/live/rc/api/liverpc"
-	"go-common/library/net/rpc/liverpc"
+	"github.com/namelessup/bilibili/app/job/live/xlottery/internal/conf"
+	rcApi "github.com/namelessup/bilibili/app/service/live/rc/api/liverpc"
+	"github.com/namelessup/bilibili/library/net/rpc/liverpc"
 )
 
 // RcApi liverpc reward-service api

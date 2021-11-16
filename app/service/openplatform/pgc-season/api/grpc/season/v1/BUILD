@@ -22,7 +22,7 @@ proto_library(
 go_proto_library(
     name = "v1_go_proto",
     compilers = ["@io_bazel_rules_go//proto:go_grpc"],
-    importpath = "go-common/app/service/openplatform/pgc-season/api/grpc/season/v1",
+    importpath = "github.com/namelessup/bilibili/app/service/openplatform/pgc-season/api/grpc/season/v1",
     proto = ":v1_proto",
     tags = ["automanaged"],
 )
@@ -31,7 +31,7 @@ go_library(
     name = "go_default_library",
     srcs = ["client.go"],
     embed = [":v1_go_proto"],
-    importpath = "go-common/app/service/openplatform/pgc-season/api/grpc/season/v1",
+    importpath = "github.com/namelessup/bilibili/app/service/openplatform/pgc-season/api/grpc/season/v1",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

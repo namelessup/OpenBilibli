@@ -8,16 +8,16 @@ import (
 	"syscall"
 	"time"
 
-	server "go-common/app/service/main/broadcast/server/grpc"
-	"go-common/app/service/main/broadcast/server/http"
-	"go-common/app/service/main/broadcast/service"
-	"go-common/library/conf/env"
-	"go-common/library/conf/paladin"
-	ecode "go-common/library/ecode/tip"
-	"go-common/library/log"
-	"go-common/library/naming"
-	"go-common/library/naming/discovery"
-	"go-common/library/net/ip"
+	server "github.com/namelessup/bilibili/app/service/main/broadcast/server/grpc"
+	"github.com/namelessup/bilibili/app/service/main/broadcast/server/http"
+	"github.com/namelessup/bilibili/app/service/main/broadcast/service"
+	"github.com/namelessup/bilibili/library/conf/env"
+	"github.com/namelessup/bilibili/library/conf/paladin"
+	ecode "github.com/namelessup/bilibili/library/ecode/tip"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/naming"
+	"github.com/namelessup/bilibili/library/naming/discovery"
+	"github.com/namelessup/bilibili/library/net/ip"
 )
 
 const (

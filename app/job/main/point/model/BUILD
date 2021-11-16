@@ -11,7 +11,7 @@ go_library(
         "msg.go",
         "point.go",
     ],
-    importpath = "go-common/app/job/main/point/model",
+    importpath = "github.com/namelessup/bilibili/app/job/main/point/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/time:go_default_library"],

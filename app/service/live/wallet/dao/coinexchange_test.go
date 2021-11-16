@@ -2,7 +2,7 @@ package dao
 
 import (
 	. "github.com/smartystreets/goconvey/convey"
-	"go-common/app/service/live/wallet/model"
+	"github.com/namelessup/bilibili/app/service/live/wallet/model"
 	"testing"
 	"time"
 )

@@ -52,7 +52,7 @@ go_library(
         "upload.go",
         "white.go",
     ],
-    importpath = "go-common/app/admin/main/growup/service",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/growup/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

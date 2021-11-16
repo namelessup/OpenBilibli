@@ -3,11 +3,11 @@ package http
 import (
 	"strconv"
 
-	model "go-common/app/interface/main/credit/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/xstr"
+	model "github.com/namelessup/bilibili/app/interface/main/credit/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 func getQs(c *bm.Context) {

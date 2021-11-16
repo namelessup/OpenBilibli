@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	"go-common/app/admin/main/spy/model"
+	"github.com/namelessup/bilibili/app/admin/main/spy/model"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

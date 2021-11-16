@@ -14,7 +14,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["appstatic-job-test.toml"],
-    importpath = "go-common/app/job/main/appstatic/cmd",
+    importpath = "github.com/namelessup/bilibili/app/job/main/appstatic/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

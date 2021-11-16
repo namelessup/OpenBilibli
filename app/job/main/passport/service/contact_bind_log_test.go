@@ -6,9 +6,9 @@ import (
 	"time"
 
 	"encoding/json"
-	"go-common/app/job/main/passport/model"
-	"go-common/library/queue/databus"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/job/main/passport/model"
+	"github.com/namelessup/bilibili/library/queue/databus"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 var (

@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/app/tool/protoc-gen-bm/examples/helloworld/api"
+	"github.com/namelessup/bilibili/app/tool/protoc-gen-bm/examples/helloworld/api"
 )
 
 // Service .

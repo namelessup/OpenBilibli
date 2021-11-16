@@ -27,7 +27,7 @@ go_library(
         "point.go",
         "service.go",
     ],
-    importpath = "go-common/app/job/main/point/service",
+    importpath = "github.com/namelessup/bilibili/app/job/main/point/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

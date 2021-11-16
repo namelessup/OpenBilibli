@@ -5,9 +5,9 @@ import (
 	"math/rand"
 	"strconv"
 
-	"go-common/app/service/main/passport-game/model"
-	"go-common/library/cache/memcache"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/passport-game/model"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

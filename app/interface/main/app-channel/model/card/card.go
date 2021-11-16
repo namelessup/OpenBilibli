@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"strconv"
 
-	"go-common/app/interface/main/app-card/model/card/ai"
-	"go-common/app/interface/main/app-channel/model"
-	"go-common/app/interface/main/app-channel/model/recommend"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/app-card/model/card/ai"
+	"github.com/namelessup/bilibili/app/interface/main/app-channel/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-channel/model/recommend"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 type Card struct {

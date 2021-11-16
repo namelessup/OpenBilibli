@@ -6,12 +6,12 @@ import (
 	"net/url"
 	"strconv"
 
-	"go-common/app/interface/main/app-view/conf"
-	"go-common/app/interface/main/app-view/model/ad"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/metadata"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/interface/main/app-view/conf"
+	"github.com/namelessup/bilibili/app/interface/main/app-view/model/ad"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/xstr"
 
 	"github.com/pkg/errors"
 )

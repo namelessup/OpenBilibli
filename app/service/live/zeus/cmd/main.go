@@ -8,14 +8,14 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/app/service/live/zeus/internal/conf"
-	"go-common/app/service/live/zeus/internal/server/grpc"
-	"go-common/app/service/live/zeus/internal/server/http"
-	"go-common/app/service/live/zeus/internal/service"
-	ecode "go-common/library/ecode/tip"
-	"go-common/library/log"
-	"go-common/library/net/trace"
-	v1srv "go-common/app/service/live/zeus/internal/service/v1"
+	"github.com/namelessup/bilibili/app/service/live/zeus/internal/conf"
+	"github.com/namelessup/bilibili/app/service/live/zeus/internal/server/grpc"
+	"github.com/namelessup/bilibili/app/service/live/zeus/internal/server/http"
+	"github.com/namelessup/bilibili/app/service/live/zeus/internal/service"
+	ecode "github.com/namelessup/bilibili/library/ecode/tip"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
+	v1srv "github.com/namelessup/bilibili/app/service/live/zeus/internal/service/v1"
 )
 
 func main() {

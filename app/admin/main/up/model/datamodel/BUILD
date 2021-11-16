@@ -12,7 +12,7 @@ go_library(
         "upinfo.go",
         "viewer.go",
     ],
-    importpath = "go-common/app/admin/main/up/model/datamodel",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/up/model/datamodel",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

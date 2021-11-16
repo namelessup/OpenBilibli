@@ -3,14 +3,14 @@ package service
 import (
 	"time"
 
-	"go-common/app/admin/main/creative/model/academy"
-	"go-common/app/admin/main/creative/model/logcli"
-	"go-common/app/admin/main/creative/model/music"
-	"go-common/app/admin/main/creative/model/task"
-	"go-common/library/conf/env"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/queue/databus/report"
+	"github.com/namelessup/bilibili/app/admin/main/creative/model/academy"
+	"github.com/namelessup/bilibili/app/admin/main/creative/model/logcli"
+	"github.com/namelessup/bilibili/app/admin/main/creative/model/music"
+	"github.com/namelessup/bilibili/app/admin/main/creative/model/task"
+	"github.com/namelessup/bilibili/library/conf/env"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/queue/databus/report"
 )
 
 // SendAcademyLog academy log to manager.

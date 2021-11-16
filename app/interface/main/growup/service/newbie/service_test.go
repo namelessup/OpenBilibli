@@ -2,7 +2,7 @@ package newbie
 
 import (
 	"flag"
-	"go-common/app/interface/main/growup/conf"
+	"github.com/namelessup/bilibili/app/interface/main/growup/conf"
 	"os"
 	"testing"
 )

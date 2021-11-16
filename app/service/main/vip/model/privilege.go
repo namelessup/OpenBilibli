@@ -1,8 +1,8 @@
 package model
 
 import (
-	"go-common/app/admin/main/vip/model"
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/app/admin/main/vip/model"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 // Privilege info.

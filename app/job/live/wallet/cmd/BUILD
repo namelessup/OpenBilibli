@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["live-wallet-test.toml"],
-    importpath = "go-common/app/job/live/wallet/cmd",
+    importpath = "github.com/namelessup/bilibili/app/job/live/wallet/cmd",
     tags = ["automanaged"],
     deps = [
         "//app/job/live/wallet/conf:go_default_library",

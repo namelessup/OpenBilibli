@@ -5,12 +5,12 @@ import (
 	"sync"
 	"time"
 
-	"go-common/app/admin/main/usersuit/conf"
-	"go-common/app/admin/main/usersuit/dao"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/admin/main/usersuit/conf"
+	"github.com/namelessup/bilibili/app/admin/main/usersuit/dao"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
 
-	account "go-common/app/service/main/account/api"
+	account "github.com/namelessup/bilibili/app/service/main/account/api"
 )
 
 // Service struct of service.

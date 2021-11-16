@@ -5,9 +5,9 @@ import (
 	"database/sql"
 	"fmt"
 
-	"go-common/app/job/main/member/model"
-	smodel "go-common/app/service/main/member/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/member/model"
+	smodel "github.com/namelessup/bilibili/app/service/main/member/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

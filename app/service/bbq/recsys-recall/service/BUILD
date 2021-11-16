@@ -16,7 +16,7 @@ go_library(
         "service.go",
         "task.go",
     ],
-    importpath = "go-common/app/service/bbq/recsys-recall/service",
+    importpath = "github.com/namelessup/bilibili/app/service/bbq/recsys-recall/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

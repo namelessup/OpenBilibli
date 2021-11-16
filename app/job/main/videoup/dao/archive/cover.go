@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	"go-common/app/job/main/videoup/model/archive"
-	"go-common/library/cache/redis"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/videoup/model/archive"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func vcoverKey(filename string) string {

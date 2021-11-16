@@ -3,7 +3,7 @@ package event
 import (
 	"sync"
 	"time"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 var pool sync.Pool

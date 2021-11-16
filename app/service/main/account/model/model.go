@@ -1,7 +1,7 @@
 package model
 
 import (
-	v1 "go-common/app/service/main/account/api"
+	v1 "github.com/namelessup/bilibili/app/service/main/account/api"
 )
 
 // VipInfo is the type alias v1.VipInfo

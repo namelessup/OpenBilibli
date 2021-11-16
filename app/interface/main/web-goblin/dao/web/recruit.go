@@ -6,9 +6,9 @@ import (
 	xhttp "net/http"
 	"net/url"
 
-	"go-common/app/interface/main/web-goblin/model/web"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/web-goblin/model/web"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Recruit .

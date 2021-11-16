@@ -27,8 +27,8 @@ message Report {
     int32 Reason = 9 [(gogoproto.jsontag) = "reason"];
     string Content = 10 [(gogoproto.jsontag) = "content"];
     int32 State = 11 [(gogoproto.jsontag) = "state"];
-    int64 CTime = 12 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "go-common/library/time.Time"];
-    int64 MTime = 13 [(gogoproto.jsontag) = "-", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int64 CTime = 12 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
+    int64 MTime = 13 [(gogoproto.jsontag) = "-", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
     int32 Score = 14 [(gogoproto.jsontag) = "score"];
 }
 
@@ -39,8 +39,8 @@ message ReportUser {
     int32 Attr = 4 [(gogoproto.jsontag) = "Attr"];    
     string Content = 5 [(gogoproto.jsontag) = "content"];
     int32 State = 6 [(gogoproto.jsontag) = "state"];
-    int64 CTime = 7 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "go-common/library/time.Time"];
-    int64 MTime = 8 [(gogoproto.jsontag) = "-", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int64 CTime = 7 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
+    int64 MTime = 8 [(gogoproto.jsontag) = "-", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
 }
 
 /*
@@ -59,8 +59,8 @@ message Tag {
     int32 Attr = 7 [(gogoproto.jsontag) = "-"];
     int32 Attention = 8 [(gogoproto.jsontag) = "attention"];
     int32 State = 9 [(gogoproto.jsontag) = "-"];
-    int64 CTime = 10 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "go-common/library/time.Time"];
-    int64 MTime = 11 [(gogoproto.jsontag) = "-", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int64 CTime = 10 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
+    int64 MTime = 11 [(gogoproto.jsontag) = "-", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
     string head_cover = 12 [(gogoproto.jsontag) = "head_cover"];
     string short_content = 13 [(gogoproto.jsontag) = "short_content"];
 }
@@ -81,8 +81,8 @@ message Count {
     int64 Tid = 2 [(gogoproto.jsontag) = "tid,omitempty"];
     int64 Bind = 3 [(gogoproto.jsontag) = "bind,omitempty"];
     int64 Sub = 4 [(gogoproto.jsontag) = "sub,omitempty"];
-    int64 CTime = 5 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "go-common/library/time.Time"];
-    int64 MTime = 6 [(gogoproto.jsontag) = "-", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int64 CTime = 5 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
+    int64 MTime = 6 [(gogoproto.jsontag) = "-", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
 }
 
 
@@ -97,8 +97,8 @@ message Count {
     int64 Tid = 2 [(gogoproto.jsontag) = "tid"];
     int64 Mid = 3 [(gogoproto.jsontag) = "mid"];
     int64 State = 4 [(gogoproto.jsontag) = "state"];
-    int64 CTime = 5 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "go-common/library/time.Time"];
-    int64 MTime = 6 [(gogoproto.jsontag) = "-", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int64 CTime = 5 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
+    int64 MTime = 6 [(gogoproto.jsontag) = "-", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
 }
  
 
@@ -119,9 +119,9 @@ message Count {
     int32 Hate = 8 [(gogoproto.jsontag) = "hate"];
     int32 State = 9 [(gogoproto.jsontag) = "state"];
     int32 Attr = 10 [(gogoproto.jsontag) = "attr"];
-    int64 CTime = 11 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "go-common/library/time.Time"];
-    int64 MTime = 12 [(gogoproto.jsontag) = "mtime", (gogoproto.casttype) = "go-common/library/time.Time"];
-    int64 PubDate = 13 [(gogoproto.jsontag) = "-", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int64 CTime = 11 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
+    int64 MTime = 12 [(gogoproto.jsontag) = "mtime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
+    int64 PubDate = 13 [(gogoproto.jsontag) = "-", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
     Tag   Tag = 14 [(gogoproto.jsontag) = "-"];
 }
  
@@ -132,8 +132,8 @@ message ResourceAction {
     int64 Tid = 4 [(gogoproto.jsontag) = "tid"];
     int64 Mid = 5 [(gogoproto.jsontag) = "mid"];
     int32 Action = 6 [(gogoproto.jsontag) = "action"];
-    int64 CTime = 7 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "go-common/library/time.Time"];
-    int64 MTime = 8 [(gogoproto.jsontag) = "-", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int64 CTime = 7 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
+    int64 MTime = 8 [(gogoproto.jsontag) = "-", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
 }
  
 message ResourceLimit {
@@ -142,8 +142,8 @@ message ResourceLimit {
     int32 Type = 3 [(gogoproto.jsontag) = "type"];
     int32 State = 4 [(gogoproto.jsontag) = "state"];
     int32 Attr = 5 [(gogoproto.jsontag) = "attr"];
-    int64 CTime = 6 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "go-common/library/time.Time"];
-    int64 MTime = 7 [(gogoproto.jsontag) = "-", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int64 CTime = 6 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
+    int64 MTime = 7 [(gogoproto.jsontag) = "-", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
 }
  
 message ResourceLog {
@@ -156,8 +156,8 @@ message ResourceLog {
     int32 Action = 7 [(gogoproto.jsontag) = "action"];
     string Remark = 8 [(gogoproto.jsontag) = "remark"];
     int32 State = 9 [(gogoproto.jsontag) = "state"];
-    int64 CTime = 10 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "go-common/library/time.Time"];
-    int64 MTime = 11 [(gogoproto.jsontag) = "-", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int64 CTime = 10 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
+    int64 MTime = 11 [(gogoproto.jsontag) = "-", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
 }
 
 /*
@@ -173,8 +173,8 @@ message ResourceLog {
     int32 Rank =4 [(gogoproto.jsontag) = "rank"];
     int32 Attr = 5 [(gogoproto.jsontag) = "attr"];
     int32 State = 6 [(gogoproto.jsontag) = "state"];
-    int64 CTime = 7 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "go-common/library/time.Time"];
-    int64 MTime = 8 [(gogoproto.jsontag) = "-", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int64 CTime = 7 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
+    int64 MTime = 8 [(gogoproto.jsontag) = "-", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
     int32 TopRank =9 [(gogoproto.jsontag) = "top_rank"];
 }
 
@@ -182,8 +182,8 @@ message ChannelCategory {
     int64 ID = 1 [(gogoproto.jsontag) = "id"];
     string Name = 2 [(gogoproto.jsontag) = "name"];
     int32 State = 3 [(gogoproto.jsontag) = "-"];
-    int64 CTime = 4 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "go-common/library/time.Time"];
-    int64 MTime = 5 [(gogoproto.jsontag) = "-", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int64 CTime = 4 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
+    int64 MTime = 5 [(gogoproto.jsontag) = "-", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
     int32 Order = 6 [(gogoproto.jsontag) = "order"];
     int32 Attr = 7 [(gogoproto.jsontag) = "attr"];
 }
@@ -205,6 +205,6 @@ message ChannelGroup {
     int64 tid = 3 [(gogoproto.jsontag) = "tid"];
     string alias = 4 [(gogoproto.jsontag) = "alias"];
     string rank = 5 [(gogoproto.jsontag) = "rank"];
-    int64 CTime = 6 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "go-common/library/time.Time"];
-    int64 MTime = 7 [(gogoproto.jsontag) = "-", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int64 CTime = 6 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
+    int64 MTime = 7 [(gogoproto.jsontag) = "-", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
 }

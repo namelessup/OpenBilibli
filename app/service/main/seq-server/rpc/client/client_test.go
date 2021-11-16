@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/service/main/seq-server/model"
+	"github.com/namelessup/bilibili/app/service/main/seq-server/model"
 )
 
 func TestDynamic(t *testing.T) {

@@ -5,9 +5,9 @@ import (
 	"strings"
 	"unicode"
 
-	"go-common/app/admin/main/filter/model"
-	xsql "go-common/library/database/sql"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/admin/main/filter/model"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 // AreaGroupList 获得当前所有area分组信息

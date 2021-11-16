@@ -23,7 +23,7 @@ proto_library(
 go_proto_library(
     name = "v1_go_proto",
     compilers = ["@io_bazel_rules_go//proto:gogofast_grpc"],
-    importpath = "go-common/app/tool/bmproto/protoc-gen-bm/example",
+    importpath = "github.com/namelessup/bilibili/app/tool/bmproto/protoc-gen-bm/example",
     proto = ":v1_proto",
     tags = ["automanaged"],
     deps = [
@@ -36,7 +36,7 @@ go_library(
     name = "go_default_library",
     srcs = ["demo.bm.go"],
     embed = [":v1_go_proto"],
-    importpath = "go-common/app/tool/bmproto/protoc-gen-bm/example",
+    importpath = "github.com/namelessup/bilibili/app/tool/bmproto/protoc-gen-bm/example",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

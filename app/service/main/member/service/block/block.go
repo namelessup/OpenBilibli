@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	member "go-common/app/service/main/member/model"
-	model "go-common/app/service/main/member/model/block"
-	"go-common/library/database/sql"
-	"go-common/library/log"
+	member "github.com/namelessup/bilibili/app/service/main/member/model"
+	model "github.com/namelessup/bilibili/app/service/main/member/model/block"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/pkg/errors"
 )

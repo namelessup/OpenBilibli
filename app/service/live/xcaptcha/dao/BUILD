@@ -14,7 +14,7 @@ go_library(
         "liveCaptcha.go",
         "redis.go",
     ],
-    importpath = "go-common/app/service/live/xcaptcha/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/live/xcaptcha/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

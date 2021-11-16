@@ -15,7 +15,7 @@ go_library(
         "subject.go",
         "transfer.go",
     ],
-    importpath = "go-common/app/interface/main/dm/model",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/dm/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/time:go_default_library"],

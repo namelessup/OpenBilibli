@@ -3,7 +3,7 @@ package operate
 import (
 	"strconv"
 
-	"go-common/app/interface/main/app-card/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-card/model"
 )
 
 type Special struct {

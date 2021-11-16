@@ -6,13 +6,13 @@ import (
 	"hash/crc32"
 	"sort"
 
-	"go-common/app/interface/main/app-interface/model/live"
-	model "go-common/app/interface/main/app-interface/model/relation"
-	account "go-common/app/service/main/account/model"
-	relation "go-common/app/service/main/relation/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/model/live"
+	model "github.com/namelessup/bilibili/app/interface/main/app-interface/model/relation"
+	account "github.com/namelessup/bilibili/app/service/main/account/model"
+	relation "github.com/namelessup/bilibili/app/service/main/relation/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 var (

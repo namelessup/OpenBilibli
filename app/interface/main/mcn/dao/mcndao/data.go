@@ -3,9 +3,9 @@ package mcndao
 import (
 	"time"
 
-	"go-common/app/interface/main/mcn/model"
-	"go-common/app/interface/main/mcn/model/mcnmodel"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/mcn/model"
+	"github.com/namelessup/bilibili/app/interface/main/mcn/model/mcnmodel"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/jinzhu/gorm"
 )

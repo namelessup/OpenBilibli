@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["messages.go"],
-    importpath = "go-common/app/admin/main/aegis/model/databus",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/aegis/model/databus",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

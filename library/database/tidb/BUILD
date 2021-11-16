@@ -27,7 +27,7 @@ go_library(
         "sql.go",
         "tidb.go",
     ],
-    importpath = "go-common/library/database/tidb",
+    importpath = "github.com/namelessup/bilibili/library/database/tidb",
     tags = ["automanaged"],
     deps = [
         "//library/conf/env:go_default_library",

@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"time"
 
-	"go-common/app/job/main/block/conf"
-	"go-common/app/job/main/block/dao"
-	"go-common/library/cache"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/job/main/block/conf"
+	"github.com/namelessup/bilibili/app/job/main/block/dao"
+	"github.com/namelessup/bilibili/library/cache"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
 
 	"github.com/pkg/errors"
 )

@@ -8,11 +8,11 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/job/main/reply/conf"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	xhttp "go-common/library/net/http/blademaster"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/job/main/reply/conf"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	xhttp "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 const (

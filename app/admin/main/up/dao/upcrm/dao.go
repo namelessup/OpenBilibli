@@ -3,9 +3,9 @@ package upcrm
 import (
 	"context"
 
-	"go-common/app/admin/main/up/conf"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/up/conf"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 
 	"github.com/jinzhu/gorm"
 )

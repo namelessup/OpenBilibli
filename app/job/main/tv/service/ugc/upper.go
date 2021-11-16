@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
-	appDao "go-common/app/job/main/tv/dao/app"
-	ugcMdl "go-common/app/job/main/tv/model/ugc"
-	account "go-common/app/service/main/account/model"
-	"go-common/library/database/sql"
-	"go-common/library/log"
+	appDao "github.com/namelessup/bilibili/app/job/main/tv/dao/app"
+	ugcMdl "github.com/namelessup/bilibili/app/job/main/tv/model/ugc"
+	account "github.com/namelessup/bilibili/app/service/main/account/model"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

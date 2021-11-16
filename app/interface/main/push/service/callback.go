@@ -7,13 +7,13 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/interface/main/push/dao"
-	"go-common/app/service/main/push/dao/huawei"
-	"go-common/app/service/main/push/dao/jpush"
-	"go-common/app/service/main/push/dao/mi"
-	"go-common/app/service/main/push/dao/oppo"
-	pushmdl "go-common/app/service/main/push/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/push/dao"
+	"github.com/namelessup/bilibili/app/service/main/push/dao/huawei"
+	"github.com/namelessup/bilibili/app/service/main/push/dao/jpush"
+	"github.com/namelessup/bilibili/app/service/main/push/dao/mi"
+	"github.com/namelessup/bilibili/app/service/main/push/dao/oppo"
+	pushmdl "github.com/namelessup/bilibili/app/service/main/push/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) callbackproc() {

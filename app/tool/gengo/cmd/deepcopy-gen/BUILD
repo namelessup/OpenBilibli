@@ -15,7 +15,7 @@ go_binary(
 go_library(
     name = "go_default_library",
     srcs = ["main.go"],
-    importpath = "go-common/app/tool/gengo/cmd/deepcopy-gen",
+    importpath = "github.com/namelessup/bilibili/app/tool/gengo/cmd/deepcopy-gen",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

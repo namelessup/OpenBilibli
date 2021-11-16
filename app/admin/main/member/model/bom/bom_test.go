@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"go-common/app/admin/main/member/model/bom"
+	"github.com/namelessup/bilibili/app/admin/main/member/model/bom"
 
 	"github.com/stretchr/testify/assert"
 )

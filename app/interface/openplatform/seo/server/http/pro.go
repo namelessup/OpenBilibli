@@ -1,8 +1,8 @@
 package http
 
 import (
-	"go-common/app/interface/openplatform/seo/model"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/interface/openplatform/seo/model"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func proList(c *bm.Context) {

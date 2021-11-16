@@ -3,10 +3,10 @@ package dao
 import (
 	"context"
 	"fmt"
-	"go-common/app/service/video/stream-mng/model"
+	"github.com/namelessup/bilibili/app/service/video/stream-mng/model"
 )
 
-//go:generate $GOPATH/src/go-common/app/tool/cache/gen
+//go:generate $GOPATH/src/github.com/namelessup/bilibili/app/tool/cache/gen
 type _cache interface {
 	// 获取流完整信息
 	// cache: -singleflight=true -ignores=||id,sname -nullcache=&model.StreamFullInfo{RoomID:-1} -check_null_code=$!=nil&&$.RoomID<=0

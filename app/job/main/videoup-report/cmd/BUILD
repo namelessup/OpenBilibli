@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["videoup-report-job.toml"],
-    importpath = "go-common/app/job/main/videoup-report/cmd",
+    importpath = "github.com/namelessup/bilibili/app/job/main/videoup-report/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

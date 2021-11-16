@@ -1,17 +1,17 @@
 package service
 
 import (
-	"go-common/app/service/main/upcredit/model/upcrmmodel"
+	"github.com/namelessup/bilibili/app/service/main/upcredit/model/upcrmmodel"
 	"time"
 
 	"fmt"
 	"github.com/jinzhu/gorm"
 	"github.com/pkg/errors"
 	"github.com/siddontang/go-mysql/mysql"
-	"go-common/app/service/main/upcredit/conf"
-	"go-common/app/service/main/upcredit/dao/upcrmdao"
-	"go-common/app/service/main/upcredit/model/calculator"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/upcredit/conf"
+	"github.com/namelessup/bilibili/app/service/main/upcredit/dao/upcrmdao"
+	"github.com/namelessup/bilibili/app/service/main/upcredit/model/calculator"
+	"github.com/namelessup/bilibili/library/log"
 	"sync"
 )
 

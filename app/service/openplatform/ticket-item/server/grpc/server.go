@@ -3,11 +3,11 @@ package server
 import (
 	"context"
 
-	item "go-common/app/service/openplatform/ticket-item/api/grpc/v1"
-	"go-common/app/service/openplatform/ticket-item/conf"
-	"go-common/app/service/openplatform/ticket-item/service"
-	"go-common/library/log"
-	"go-common/library/net/rpc/warden"
+	item "github.com/namelessup/bilibili/app/service/openplatform/ticket-item/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-item/conf"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-item/service"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 
 	"google.golang.org/grpc"
 )

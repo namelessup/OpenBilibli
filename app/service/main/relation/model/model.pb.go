@@ -8,7 +8,7 @@ import fmt "fmt"
 import math "math"
 import _ "github.com/gogo/protobuf/gogoproto"
 
-import go_common_library_time "go-common/library/time"
+import go_common_library_time "github.com/namelessup/bilibili/library/time"
 
 import io "io"
 
@@ -27,8 +27,8 @@ type Tag struct {
 	Id                   int64                       `protobuf:"varint,1,opt,name=id,proto3" json:"id"`
 	Name                 string                      `protobuf:"bytes,2,opt,name=name,proto3" json:"name"`
 	Status               int64                       `protobuf:"varint,3,opt,name=status,proto3" json:"status"`
-	CTime                go_common_library_time.Time `protobuf:"varint,4,opt,name=ctime,proto3,casttype=go-common/library/time.Time" json:"-"`
-	MTime                go_common_library_time.Time `protobuf:"varint,5,opt,name=mtime,proto3,casttype=go-common/library/time.Time" json:"mtime"`
+	CTime                go_common_library_time.Time `protobuf:"varint,4,opt,name=ctime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"-"`
+	MTime                go_common_library_time.Time `protobuf:"varint,5,opt,name=mtime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"mtime"`
 	XXX_NoUnkeyedLiteral struct{}                    `json:"-"`
 	XXX_unrecognized     []byte                      `json:"-"`
 	XXX_sizecache        int32                       `json:"-"`
@@ -110,8 +110,8 @@ var xxx_messageInfo_Tags proto.InternalMessageInfo
 type TagUser struct {
 	Fid                  int64                       `protobuf:"varint,1,opt,name=fid,proto3" json:"fid"`
 	Tag                  []int64                     `protobuf:"varint,2,rep,packed,name=tag,proto3" json:"tag"`
-	CTime                go_common_library_time.Time `protobuf:"varint,3,opt,name=ctime,proto3,casttype=go-common/library/time.Time" json:"-"`
-	MTime                go_common_library_time.Time `protobuf:"varint,4,opt,name=mtime,proto3,casttype=go-common/library/time.Time" json:"mtime"`
+	CTime                go_common_library_time.Time `protobuf:"varint,3,opt,name=ctime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"-"`
+	MTime                go_common_library_time.Time `protobuf:"varint,4,opt,name=mtime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"mtime"`
 	XXX_NoUnkeyedLiteral struct{}                    `json:"-"`
 	XXX_unrecognized     []byte                      `json:"-"`
 	XXX_sizecache        int32                       `json:"-"`
@@ -236,8 +236,8 @@ type Following struct {
 	Mid                  int64                       `protobuf:"varint,1,opt,name=mid,proto3" json:"mid"`
 	Attribute            uint32                      `protobuf:"varint,2,opt,name=attribute,proto3" json:"attribute"`
 	Source               uint32                      `protobuf:"varint,3,opt,name=source,proto3" json:"-"`
-	CTime                go_common_library_time.Time `protobuf:"varint,4,opt,name=ctime,proto3,casttype=go-common/library/time.Time" json:"-"`
-	MTime                go_common_library_time.Time `protobuf:"varint,5,opt,name=mtime,proto3,casttype=go-common/library/time.Time" json:"mtime"`
+	CTime                go_common_library_time.Time `protobuf:"varint,4,opt,name=ctime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"-"`
+	MTime                go_common_library_time.Time `protobuf:"varint,5,opt,name=mtime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"mtime"`
 	Tag                  []int64                     `protobuf:"varint,6,rep,packed,name=tag,proto3" json:"tag"`
 	Special              int32                       `protobuf:"varint,7,opt,name=special,proto3" json:"special"`
 	XXX_NoUnkeyedLiteral struct{}                    `json:"-"`
@@ -324,8 +324,8 @@ type Stat struct {
 	Whisper              int64                       `protobuf:"varint,3,opt,name=whisper,proto3" json:"whisper"`
 	Black                int64                       `protobuf:"varint,4,opt,name=black,proto3" json:"black"`
 	Follower             int64                       `protobuf:"varint,5,opt,name=follower,proto3" json:"follower"`
-	CTime                go_common_library_time.Time `protobuf:"varint,6,opt,name=ctime,proto3,casttype=go-common/library/time.Time" json:"-"`
-	MTime                go_common_library_time.Time `protobuf:"varint,7,opt,name=mtime,proto3,casttype=go-common/library/time.Time" json:"-"`
+	CTime                go_common_library_time.Time `protobuf:"varint,6,opt,name=ctime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"-"`
+	MTime                go_common_library_time.Time `protobuf:"varint,7,opt,name=mtime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"-"`
 	XXX_NoUnkeyedLiteral struct{}                    `json:"-"`
 	XXX_unrecognized     []byte                      `json:"-"`
 	XXX_sizecache        int32                       `json:"-"`
@@ -366,7 +366,7 @@ var xxx_messageInfo_Stat proto.InternalMessageInfo
 
 type FollowingTags struct {
 	Attr                 uint32                      `protobuf:"varint,1,opt,name=attr,proto3" json:"attr"`
-	Ts                   go_common_library_time.Time `protobuf:"varint,2,opt,name=ts,proto3,casttype=go-common/library/time.Time" json:"ts"`
+	Ts                   go_common_library_time.Time `protobuf:"varint,2,opt,name=ts,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"ts"`
 	TagIds               []int64                     `protobuf:"varint,3,rep,packed,name=tag_ids,json=tagIds,proto3" json:"tag"`
 	Special              int32                       `protobuf:"varint,4,opt,name=special,proto3" json:"special"`
 	XXX_NoUnkeyedLiteral struct{}                    `json:"-"`

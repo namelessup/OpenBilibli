@@ -1,8 +1,8 @@
 package configcenter
 
 import (
-	"go-common/library/log"
-	"go-common/library/conf"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/conf"
 )
 
 var (

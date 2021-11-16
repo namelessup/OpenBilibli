@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"go-common/app/infra/databus/conf"
+	"github.com/namelessup/bilibili/app/infra/databus/conf"
 )
 
 var (

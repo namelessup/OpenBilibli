@@ -2,8 +2,8 @@ package service
 
 import (
 	"context"
-	"go-common/app/service/openplatform/ticket-sales/conf"
-	"go-common/app/service/openplatform/ticket-sales/dao"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/conf"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/dao"
 )
 
 // Service http service

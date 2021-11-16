@@ -7,10 +7,10 @@ import (
 	"hash/crc32"
 	"time"
 
-	"go-common/app/job/main/creative/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/job/main/creative/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 //commitTask for commit task

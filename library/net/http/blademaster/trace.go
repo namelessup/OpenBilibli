@@ -6,8 +6,8 @@ import (
 	"net/http/httptrace"
 	"strconv"
 
-	"go-common/library/net/metadata"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/net/trace"
 )
 
 const _defaultComponentName = "net/http"

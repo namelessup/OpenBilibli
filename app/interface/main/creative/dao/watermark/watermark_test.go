@@ -2,7 +2,7 @@ package watermark
 
 import (
 	"context"
-	"go-common/app/interface/main/creative/model/watermark"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/watermark"
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"

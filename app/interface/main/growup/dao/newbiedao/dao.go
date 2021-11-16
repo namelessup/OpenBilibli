@@ -4,13 +4,13 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/interface/main/growup/conf"
-	"go-common/app/interface/main/growup/model"
-	accApi "go-common/app/service/main/account/api"
+	"github.com/namelessup/bilibili/app/interface/main/growup/conf"
+	"github.com/namelessup/bilibili/app/interface/main/growup/model"
+	accApi "github.com/namelessup/bilibili/app/service/main/account/api"
 
-	"go-common/library/database/sql"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 var (

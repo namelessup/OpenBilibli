@@ -21,7 +21,7 @@ go_library(
         "request_example.go",
         "statistics.go",
     ],
-    importpath = "go-common/app/admin/main/mcn/model",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/mcn/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

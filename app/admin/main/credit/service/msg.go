@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	blkmodel "go-common/app/admin/main/credit/model/blocked"
-	"go-common/library/log"
+	blkmodel "github.com/namelessup/bilibili/app/admin/main/credit/model/blocked"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) msgproc() {

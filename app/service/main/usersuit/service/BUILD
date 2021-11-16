@@ -40,7 +40,7 @@ go_library(
         "service.go",
         "third_pendant.go",
     ],
-    importpath = "go-common/app/service/main/usersuit/service",
+    importpath = "github.com/namelessup/bilibili/app/service/main/usersuit/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

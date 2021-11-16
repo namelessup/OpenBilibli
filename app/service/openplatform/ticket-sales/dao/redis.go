@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // RedisDecr 指定 key 减去 num

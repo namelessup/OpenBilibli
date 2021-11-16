@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["types.go"],
-    importpath = "go-common/app/tool/warden/types",
+    importpath = "github.com/namelessup/bilibili/app/tool/warden/types",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

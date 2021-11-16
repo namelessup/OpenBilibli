@@ -2,8 +2,8 @@ package article
 
 import (
 	"context"
-	"go-common/app/interface/main/app-feed/conf"
-	article "go-common/app/interface/openplatform/article/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-feed/conf"
+	article "github.com/namelessup/bilibili/app/interface/openplatform/article/model"
 	"reflect"
 	"testing"
 

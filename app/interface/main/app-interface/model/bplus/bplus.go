@@ -1,6 +1,6 @@
 package bplus
 
-import xtime "go-common/library/time"
+import xtime "github.com/namelessup/bilibili/library/time"
 
 const (
 	CLIPS  = 1

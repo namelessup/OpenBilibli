@@ -5,7 +5,7 @@ import (
 	"flag"
 	"github.com/bouk/monkey"
 	"github.com/smartystreets/goconvey/convey"
-	"go-common/app/interface/main/creative/conf"
+	"github.com/namelessup/bilibili/app/interface/main/creative/conf"
 	"gopkg.in/h2non/gock.v1"
 	"io/ioutil"
 	"net"

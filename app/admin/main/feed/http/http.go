@@ -1,17 +1,17 @@
 package http
 
 import (
-	"go-common/app/admin/main/feed/conf"
-	bfssvr "go-common/app/admin/main/feed/service/bfs"
-	"go-common/app/admin/main/feed/service/channel"
-	"go-common/app/admin/main/feed/service/common"
-	"go-common/app/admin/main/feed/service/egg"
-	pgcsvr "go-common/app/admin/main/feed/service/pgc"
-	"go-common/app/admin/main/feed/service/popular"
-	"go-common/app/admin/main/feed/service/search"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/permit"
+	"github.com/namelessup/bilibili/app/admin/main/feed/conf"
+	bfssvr "github.com/namelessup/bilibili/app/admin/main/feed/service/bfs"
+	"github.com/namelessup/bilibili/app/admin/main/feed/service/channel"
+	"github.com/namelessup/bilibili/app/admin/main/feed/service/common"
+	"github.com/namelessup/bilibili/app/admin/main/feed/service/egg"
+	pgcsvr "github.com/namelessup/bilibili/app/admin/main/feed/service/pgc"
+	"github.com/namelessup/bilibili/app/admin/main/feed/service/popular"
+	"github.com/namelessup/bilibili/app/admin/main/feed/service/search"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/permit"
 )
 
 var (

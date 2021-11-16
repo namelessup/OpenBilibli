@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/app/service/main/search/conf"
-	"go-common/library/log"
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/app/service/main/search/conf"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/stat/prom"
 
 	elastic "gopkg.in/olivere/elastic.v5"
 )

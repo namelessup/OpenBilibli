@@ -25,7 +25,7 @@ go_library(
         "dao.go",
         "redis.go",
     ],
-    importpath = "go-common/app/interface/main/app-intl/dao/black",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-intl/dao/black",
     tags = ["automanaged"],
     deps = [
         "//app/interface/main/app-intl/conf:go_default_library",

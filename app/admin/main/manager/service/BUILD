@@ -32,7 +32,7 @@ go_library(
         "tag.go",
         "user.go",
     ],
-    importpath = "go-common/app/admin/main/manager/service",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/manager/service",
     tags = ["automanaged"],
     deps = [
         "//app/admin/main/manager/conf:go_default_library",

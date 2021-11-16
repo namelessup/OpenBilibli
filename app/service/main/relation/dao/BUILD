@@ -19,7 +19,7 @@ go_library(
         "redis.go",
         "relation_log.go",
     ],
-    importpath = "go-common/app/service/main/relation/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/main/relation/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

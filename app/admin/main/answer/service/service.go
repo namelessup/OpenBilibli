@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 
-	"go-common/app/admin/main/answer/conf"
-	"go-common/app/admin/main/answer/dao"
-	"go-common/library/cache"
+	"github.com/namelessup/bilibili/app/admin/main/answer/conf"
+	"github.com/namelessup/bilibili/app/admin/main/answer/dao"
+	"github.com/namelessup/bilibili/library/cache"
 )
 
 // Service struct of service.

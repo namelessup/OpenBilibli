@@ -1,8 +1,8 @@
 package article
 
 import (
-	model "go-common/app/interface/openplatform/article/model"
-	"go-common/library/time"
+	model "github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 // ArtParam param  for article info input.

@@ -2,7 +2,7 @@ package creative
 
 import (
 	"context"
-	"go-common/app/interface/main/videoup/model/archive"
+	"github.com/namelessup/bilibili/app/interface/main/videoup/model/archive"
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"

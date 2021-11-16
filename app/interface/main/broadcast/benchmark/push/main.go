@@ -16,9 +16,9 @@ import (
 	"strconv"
 	"time"
 
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/netutil/breaker"
-	xtime "go-common/library/time"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/netutil/breaker"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 var (

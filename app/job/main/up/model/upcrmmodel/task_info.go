@@ -2,7 +2,7 @@ package upcrmmodel
 
 import (
 	"github.com/siddontang/go-mysql/mysql"
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 const (

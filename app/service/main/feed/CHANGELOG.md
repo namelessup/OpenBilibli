@@ -73,7 +73,7 @@
 > 1.支持文章动态    
 
 ##### Version 1.9.0
-> 1.更新go-common、go-busines,以及更新关注接口    
+> 1.更新github.com/namelessup/bilibili、go-busines,以及更新关注接口    
 
 ##### Version 1.8.2
 > 1.加回up主缓存    

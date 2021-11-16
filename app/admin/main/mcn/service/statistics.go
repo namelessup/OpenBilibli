@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"time"
 
-	"go-common/app/admin/main/mcn/model"
-	dtmdl "go-common/app/interface/main/mcn/model/datamodel"
-	accgrpc "go-common/app/service/main/account/api"
-	arcgrpc "go-common/app/service/main/archive/api"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/admin/main/mcn/model"
+	dtmdl "github.com/namelessup/bilibili/app/interface/main/mcn/model/datamodel"
+	accgrpc "github.com/namelessup/bilibili/app/service/main/account/api"
+	arcgrpc "github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	"github.com/pkg/errors"
 )

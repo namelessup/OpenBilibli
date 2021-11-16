@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["databushandler.go"],
-    importpath = "go-common/app/admin/main/up/util/databusutil",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/up/util/databusutil",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

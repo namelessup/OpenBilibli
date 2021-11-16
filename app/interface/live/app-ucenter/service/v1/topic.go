@@ -3,10 +3,10 @@ package v1
 import (
 	"context"
 
-	v1pb "go-common/app/interface/live/app-ucenter/api/http/v1"
-	"go-common/app/interface/live/app-ucenter/conf"
-	"go-common/app/interface/live/app-ucenter/dao"
-	"go-common/library/ecode"
+	v1pb "github.com/namelessup/bilibili/app/interface/live/app-ucenter/api/http/v1"
+	"github.com/namelessup/bilibili/app/interface/live/app-ucenter/conf"
+	"github.com/namelessup/bilibili/app/interface/live/app-ucenter/dao"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 // TopicService struct

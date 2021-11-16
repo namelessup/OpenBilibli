@@ -20,7 +20,7 @@ import fmt "fmt"
 import math "math"
 import _ "github.com/gogo/protobuf/gogoproto"
 
-import go_common_library_time "go-common/library/time"
+import go_common_library_time "github.com/namelessup/bilibili/library/time"
 
 import io "io"
 
@@ -44,8 +44,8 @@ type ModelTemplate struct {
 	Approver  string                      `protobuf:"bytes,6,opt,name=approver,proto3" json:"approver,omitempty" json:"approver"`
 	Submitter string                      `protobuf:"bytes,7,opt,name=submitter,proto3" json:"submitter,omitempty" json:"submitter"`
 	Param     []string                    `protobuf:"bytes,8,rep,name=param" json:"param,omitempty" json:"param" gorm:"-"`
-	Ctime     go_common_library_time.Time `protobuf:"varint,9,opt,name=ctime,proto3,casttype=go-common/library/time.Time" json:"ctime,omitempty" json:"ctime" gorm:"column:ctime"`
-	Mtime     go_common_library_time.Time `protobuf:"varint,10,opt,name=mtime,proto3,casttype=go-common/library/time.Time" json:"mtime,omitempty" json:"mtime" gorm:"column:mtime"`
+	Ctime     go_common_library_time.Time `protobuf:"varint,9,opt,name=ctime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"ctime,omitempty" json:"ctime" gorm:"column:ctime"`
+	Mtime     go_common_library_time.Time `protobuf:"varint,10,opt,name=mtime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"mtime,omitempty" json:"mtime" gorm:"column:mtime"`
 }
 
 func (m *ModelTemplate) Reset()                    { *m = ModelTemplate{} }
@@ -292,10 +292,10 @@ type ModelTask struct {
 	Desc            string                      `protobuf:"bytes,6,opt,name=desc,proto3" json:"desc,omitempty"`
 	FileName        string                      `protobuf:"bytes,7,opt,name=file_name,json=fileName,proto3" json:"file_name,omitempty"`
 	FilePath        string                      `protobuf:"bytes,8,opt,name=file_path,json=filePath,proto3" json:"file_path,omitempty"`
-	SendTime        go_common_library_time.Time `protobuf:"varint,9,opt,name=send_time,json=sendTime,proto3,casttype=go-common/library/time.Time" json:"send_time,omitempty"`
+	SendTime        go_common_library_time.Time `protobuf:"varint,9,opt,name=send_time,json=sendTime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"send_time,omitempty"`
 	Status          int32                       `protobuf:"varint,10,opt,name=status,proto3" json:"status,omitempty"`
-	Ctime           go_common_library_time.Time `protobuf:"varint,11,opt,name=ctime,proto3,casttype=go-common/library/time.Time" json:"ctime,omitempty" gorm:"column:ctime"`
-	Mtime           go_common_library_time.Time `protobuf:"varint,12,opt,name=mtime,proto3,casttype=go-common/library/time.Time" json:"mtime,omitempty" gorm:"column:mtime"`
+	Ctime           go_common_library_time.Time `protobuf:"varint,11,opt,name=ctime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"ctime,omitempty" gorm:"column:ctime"`
+	Mtime           go_common_library_time.Time `protobuf:"varint,12,opt,name=mtime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"mtime,omitempty" gorm:"column:mtime"`
 }
 
 func (m *ModelTask) Reset()                    { *m = ModelTask{} }

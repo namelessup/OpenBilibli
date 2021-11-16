@@ -21,7 +21,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["service.go"],
-    importpath = "go-common/app/infra/databus/service",
+    importpath = "github.com/namelessup/bilibili/app/infra/databus/service",
     tags = ["automanaged"],
     deps = [
         "//app/infra/databus/conf:go_default_library",

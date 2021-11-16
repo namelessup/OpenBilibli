@@ -49,7 +49,7 @@ go_library(
         "up_info.go",
         "up_switch.go",
     ],
-    importpath = "go-common/app/service/main/up/dao/up",
+    importpath = "github.com/namelessup/bilibili/app/service/main/up/dao/up",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

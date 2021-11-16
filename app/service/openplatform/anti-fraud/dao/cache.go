@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"time"
 
-	"go-common/app/service/openplatform/anti-fraud/model"
-	"go-common/library/cache/redis"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/service/openplatform/anti-fraud/model"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 const (

@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["audio.go"],
-    importpath = "go-common/app/interface/main/app-card/model/card/audio",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-card/model/card/audio",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

@@ -3,9 +3,9 @@ package point
 import (
 	"context"
 
-	"go-common/app/interface/main/account/conf"
-	"go-common/app/service/main/point/model"
-	pointrpc "go-common/app/service/main/point/rpc/client"
+	"github.com/namelessup/bilibili/app/interface/main/account/conf"
+	"github.com/namelessup/bilibili/app/service/main/point/model"
+	pointrpc "github.com/namelessup/bilibili/app/service/main/point/rpc/client"
 )
 
 // Service struct of service.

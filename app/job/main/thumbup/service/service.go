@@ -5,12 +5,12 @@ import (
 	"sync"
 	"time"
 
-	"go-common/app/job/main/thumbup/conf"
-	"go-common/app/job/main/thumbup/dao"
-	"go-common/app/job/main/thumbup/model"
-	"go-common/library/queue/databus"
-	"go-common/library/queue/databus/databusutil"
-	"go-common/library/sync/pipeline"
+	"github.com/namelessup/bilibili/app/job/main/thumbup/conf"
+	"github.com/namelessup/bilibili/app/job/main/thumbup/dao"
+	"github.com/namelessup/bilibili/app/job/main/thumbup/model"
+	"github.com/namelessup/bilibili/library/queue/databus"
+	"github.com/namelessup/bilibili/library/queue/databus/databusutil"
+	"github.com/namelessup/bilibili/library/sync/pipeline"
 )
 
 const (

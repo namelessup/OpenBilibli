@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/job/main/credit/model"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/job/main/credit/model"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

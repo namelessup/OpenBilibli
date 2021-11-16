@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"go-common/app/service/main/thumbup/model"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/service/main/thumbup/model"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 // UserLikes .

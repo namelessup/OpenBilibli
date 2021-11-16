@@ -3,10 +3,10 @@ package http
 import (
 	"strconv"
 
-	api "go-common/app/interface/main/ugcpay/api/http"
-	"go-common/app/interface/main/ugcpay/model"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
+	api "github.com/namelessup/bilibili/app/interface/main/ugcpay/api/http"
+	"github.com/namelessup/bilibili/app/interface/main/ugcpay/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func incomeAssetOverview(ctx *bm.Context) {

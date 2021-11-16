@@ -3,7 +3,7 @@ package service
 import (
 	"container/heap"
 
-	"go-common/app/job/main/up-rating/model"
+	"github.com/namelessup/bilibili/app/job/main/up-rating/model"
 )
 
 // Heap for diff topK

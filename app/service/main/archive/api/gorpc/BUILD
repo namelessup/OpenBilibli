@@ -25,7 +25,7 @@ go_library(
         "archive2.go",
         "archive3.go",
     ],
-    importpath = "go-common/app/service/main/archive/api/gorpc",
+    importpath = "github.com/namelessup/bilibili/app/service/main/archive/api/gorpc",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

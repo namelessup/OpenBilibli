@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"net"
 
-	"go-common/library/naming"
-	lz "go-common/library/naming/livezk"
-	"go-common/library/net/ip"
+	"github.com/namelessup/bilibili/library/naming"
+	lz "github.com/namelessup/bilibili/library/naming/livezk"
+	"github.com/namelessup/bilibili/library/net/ip"
 )
 
 // Register self grpc service to live zookeeper

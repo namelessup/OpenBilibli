@@ -4,10 +4,10 @@ import (
 	"context"
 	"sync"
 
-	"go-common/app/admin/ep/marthe/conf"
-	"go-common/app/admin/ep/marthe/dao"
-	"go-common/app/admin/ep/marthe/model"
-	"go-common/library/sync/pipeline/fanout"
+	"github.com/namelessup/bilibili/app/admin/ep/marthe/conf"
+	"github.com/namelessup/bilibili/app/admin/ep/marthe/dao"
+	"github.com/namelessup/bilibili/app/admin/ep/marthe/model"
+	"github.com/namelessup/bilibili/library/sync/pipeline/fanout"
 
 	"github.com/robfig/cron"
 )

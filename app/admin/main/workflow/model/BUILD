@@ -54,7 +54,7 @@ go_library(
         "tag.go",
         "wlog.go",
     ],
-    importpath = "go-common/app/admin/main/workflow/model",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/workflow/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

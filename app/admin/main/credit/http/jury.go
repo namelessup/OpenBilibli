@@ -10,14 +10,14 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/admin/main/credit/model"
-	"go-common/app/admin/main/credit/model/blocked"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/metadata"
-	xtime "go-common/library/time"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/admin/main/credit/model"
+	"github.com/namelessup/bilibili/app/admin/main/credit/model/blocked"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	xtime "github.com/namelessup/bilibili/library/time"
+	"github.com/namelessup/bilibili/library/xstr"
 
 	"github.com/jinzhu/gorm"
 )

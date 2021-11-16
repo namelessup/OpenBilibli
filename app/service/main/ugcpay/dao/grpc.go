@@ -3,8 +3,8 @@ package dao
 import (
 	"context"
 
-	arc "go-common/app/service/main/archive/api"
-	"go-common/library/ecode"
+	arc "github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 // ArchiveUGCPay get archive ugcpay flag.

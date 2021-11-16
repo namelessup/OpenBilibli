@@ -4,7 +4,7 @@ import (
 	"context"
 	"strconv"
 
-	"go-common/app/service/main/favorite/model"
+	"github.com/namelessup/bilibili/app/service/main/favorite/model"
 )
 
 func (d *Dao) send(c context.Context, mid int64, msg *model.Message) error {

@@ -2,7 +2,7 @@ package dao
 
 import (
 	"context"
-	"go-common/app/service/main/history/model"
+	"github.com/namelessup/bilibili/app/service/main/history/model"
 	"testing"
 	"time"
 

@@ -15,7 +15,7 @@ go_library(
         "property_review.go",
         "realname.go",
     ],
-    importpath = "go-common/app/service/main/member/server/grpc",
+    importpath = "github.com/namelessup/bilibili/app/service/main/member/server/grpc",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

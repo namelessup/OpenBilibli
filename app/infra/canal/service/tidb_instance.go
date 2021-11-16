@@ -7,12 +7,12 @@ import (
 	"sync"
 	"time"
 
-	"go-common/app/infra/canal/conf"
-	"go-common/app/infra/canal/infoc"
-	"go-common/app/infra/canal/model"
-	"go-common/app/infra/canal/service/reader"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/infra/canal/conf"
+	"github.com/namelessup/bilibili/app/infra/canal/infoc"
+	"github.com/namelessup/bilibili/app/infra/canal/model"
+	"github.com/namelessup/bilibili/app/infra/canal/service/reader"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
 
 	pb "github.com/pingcap/tidb-tools/tidb_binlog/slave_binlog_proto/go-binlog"
 )

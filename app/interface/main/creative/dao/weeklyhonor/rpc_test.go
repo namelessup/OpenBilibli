@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"testing"
 
-	whmdl "go-common/app/interface/main/creative/model/weeklyhonor"
-	up "go-common/app/service/main/up/api/v1"
+	whmdl "github.com/namelessup/bilibili/app/interface/main/creative/model/weeklyhonor"
+	up "github.com/namelessup/bilibili/app/service/main/up/api/v1"
 
 	"github.com/golang/mock/gomock"
 	"github.com/smartystreets/goconvey/convey"

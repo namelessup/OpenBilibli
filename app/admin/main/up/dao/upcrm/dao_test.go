@@ -5,8 +5,8 @@ import (
 	"os"
 	"testing"
 
-	"go-common/app/admin/main/up/conf"
-	"go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/up/conf"
+	"github.com/namelessup/bilibili/library/net/http/blademaster"
 
 	"gopkg.in/h2non/gock.v1"
 )

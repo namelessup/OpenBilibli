@@ -8,12 +8,12 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/interface/main/app-card/model/card/audio"
-	"go-common/app/interface/main/app-card/model/card/live"
-	article "go-common/app/interface/openplatform/article/model"
-	account "go-common/app/service/main/account/model"
-	"go-common/app/service/main/archive/model/archive"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/app-card/model/card/audio"
+	"github.com/namelessup/bilibili/app/interface/main/app-card/model/card/live"
+	article "github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	account "github.com/namelessup/bilibili/app/service/main/account/model"
+	"github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // CardGt is

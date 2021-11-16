@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"time"
 
-	"go-common/app/interface/main/history/conf"
-	"go-common/library/cache/redis"
+	"github.com/namelessup/bilibili/app/interface/main/history/conf"
+	"github.com/namelessup/bilibili/library/cache/redis"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

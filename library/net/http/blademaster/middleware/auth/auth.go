@@ -1,11 +1,11 @@
 package auth
 
 import (
-	idtv1 "go-common/app/service/main/identify/api/grpc"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/metadata"
-	"go-common/library/net/rpc/warden"
+	idtv1 "github.com/namelessup/bilibili/app/service/main/identify/api/grpc"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 
 	"github.com/pkg/errors"
 )

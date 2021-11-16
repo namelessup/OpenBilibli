@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"go-common/app/interface/main/web-goblin/conf"
+	"github.com/namelessup/bilibili/app/interface/main/web-goblin/conf"
 )
 
 var (

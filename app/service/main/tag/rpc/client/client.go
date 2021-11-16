@@ -3,8 +3,8 @@ package tag
 import (
 	"context"
 
-	"go-common/app/service/main/tag/model"
-	"go-common/library/net/rpc"
+	"github.com/namelessup/bilibili/app/service/main/tag/model"
+	"github.com/namelessup/bilibili/library/net/rpc"
 )
 
 const (

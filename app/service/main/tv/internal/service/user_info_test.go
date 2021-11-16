@@ -2,7 +2,7 @@ package service
 
 import (
 	"context"
-	"go-common/app/service/main/tv/internal/model"
+	"github.com/namelessup/bilibili/app/service/main/tv/internal/model"
 	"testing"
 	"time"
 

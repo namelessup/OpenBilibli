@@ -25,7 +25,7 @@ go_library(
         "vip.go",
         "welfare.go",
     ],
-    importpath = "go-common/app/admin/main/vip/model",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/vip/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/time:go_default_library"],

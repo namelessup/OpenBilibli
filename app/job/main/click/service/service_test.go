@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/job/main/click/conf"
-	"go-common/app/job/main/click/model"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/job/main/click/conf"
+	"github.com/namelessup/bilibili/app/job/main/click/model"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

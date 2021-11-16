@@ -17,7 +17,7 @@ go_library(
         "room.go",
         "user.go",
     ],
-    importpath = "go-common/app/interface/live/app-ucenter/dao",
+    importpath = "github.com/namelessup/bilibili/app/interface/live/app-ucenter/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

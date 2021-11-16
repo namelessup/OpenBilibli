@@ -1,7 +1,7 @@
 package service
 
 import (
-	"go-common/app/job/bbq/video/model"
+	"github.com/namelessup/bilibili/app/job/bbq/video/model"
 
 	gomail "gopkg.in/gomail.v2"
 )

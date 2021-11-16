@@ -9,9 +9,9 @@ import (
 	"strings"
 	"time"
 
-	"go-common/library/ecode"
-	httpx "go-common/library/net/http/blademaster"
-	timex "go-common/library/time"
+	"github.com/namelessup/bilibili/library/ecode"
+	httpx "github.com/namelessup/bilibili/library/net/http/blademaster"
+	timex "github.com/namelessup/bilibili/library/time"
 
 	"github.com/pkg/errors"
 )

@@ -1,7 +1,7 @@
 package app
 
 import (
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 // platMap and Article vars

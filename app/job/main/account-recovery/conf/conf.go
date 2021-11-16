@@ -4,12 +4,12 @@ import (
 	"errors"
 	"flag"
 
-	"go-common/library/conf"
-	"go-common/library/database/sql"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/trace"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/library/conf"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/trace"
+	"github.com/namelessup/bilibili/library/queue/databus"
 
 	"github.com/BurntSushi/toml"
 )

@@ -3,16 +3,16 @@ package http
 import (
 	"net/http"
 
-	"go-common/library/net/http/blademaster/middleware/auth"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/auth"
 
-	"go-common/app/interface/live/app-blink/api/http/v1"
-	"go-common/app/interface/live/app-blink/conf"
-	"go-common/app/interface/live/app-blink/service"
-	spSrv "go-common/app/interface/live/app-blink/service/v1"
-	resRpc "go-common/app/service/live/resource/api/grpc/v1"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/verify"
+	"github.com/namelessup/bilibili/app/interface/live/app-blink/api/http/v1"
+	"github.com/namelessup/bilibili/app/interface/live/app-blink/conf"
+	"github.com/namelessup/bilibili/app/interface/live/app-blink/service"
+	spSrv "github.com/namelessup/bilibili/app/interface/live/app-blink/service/v1"
+	resRpc "github.com/namelessup/bilibili/app/service/live/resource/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/verify"
 )
 
 var (

@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	"go-common/app/service/openplatform/anti-fraud/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/openplatform/anti-fraud/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // GetQusBankInfo 获取题库信息

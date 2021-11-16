@@ -3,8 +3,8 @@ package v1
 import (
 	"context"
 
-	"go-common/library/net/metadata"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 func getDMconfig(ctx context.Context, sdm *SendMsg) error {

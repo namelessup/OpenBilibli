@@ -3,10 +3,10 @@ package dao
 import (
 	"context"
 	"encoding/json"
-	"go-common/library/cache/redis"
+	"github.com/namelessup/bilibili/library/cache/redis"
 
-	"go-common/app/service/openplatform/ticket-item/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-item/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // RawItems 取项目信息

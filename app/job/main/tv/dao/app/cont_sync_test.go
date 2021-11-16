@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	model "go-common/app/job/main/tv/model/pgc"
-	"go-common/library/database/sql"
+	model "github.com/namelessup/bilibili/app/job/main/tv/model/pgc"
+	"github.com/namelessup/bilibili/library/database/sql"
 
 	"github.com/smartystreets/goconvey/convey"
 )

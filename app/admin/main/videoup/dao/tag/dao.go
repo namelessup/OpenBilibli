@@ -5,11 +5,11 @@ import (
 	"net/url"
 	"strconv"
 
-	"go-common/app/admin/main/videoup/conf"
-	tagr "go-common/app/interface/main/tag/rpc/client"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	xhttp "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/videoup/conf"
+	tagr "github.com/namelessup/bilibili/app/interface/main/tag/rpc/client"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	xhttp "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // Dao is message dao.

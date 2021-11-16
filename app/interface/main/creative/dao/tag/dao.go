@@ -1,8 +1,8 @@
 package tag
 
 import (
-	"go-common/app/interface/main/creative/conf"
-	httpx "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/interface/main/creative/conf"
+	httpx "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 const (

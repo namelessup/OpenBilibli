@@ -4,7 +4,7 @@ import (
 	"flag"
 	"sync"
 
-	"go-common/app/job/main/passport-encrypt/conf"
+	"github.com/namelessup/bilibili/app/job/main/passport-encrypt/conf"
 )
 
 var (

@@ -3,10 +3,10 @@ package history
 import (
 	"context"
 
-	hismdl "go-common/app/interface/main/history/model"
-	"go-common/app/interface/main/tv/model"
-	"go-common/app/interface/main/tv/model/history"
-	"go-common/library/log"
+	hismdl "github.com/namelessup/bilibili/app/interface/main/history/model"
+	"github.com/namelessup/bilibili/app/interface/main/tv/model"
+	"github.com/namelessup/bilibili/app/interface/main/tv/model/history"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) pgcHisRes(ctx context.Context, res []*hismdl.Resource) (resMap map[int64]*history.HisRes, err error) {

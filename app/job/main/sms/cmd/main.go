@@ -6,12 +6,12 @@ import (
 	"os/signal"
 	"syscall"
 
-	"go-common/app/job/main/sms/conf"
-	"go-common/app/job/main/sms/http"
-	"go-common/app/job/main/sms/service"
-	"go-common/library/log"
-	"go-common/library/net/trace"
-	"go-common/library/queue/databus/report"
+	"github.com/namelessup/bilibili/app/job/main/sms/conf"
+	"github.com/namelessup/bilibili/app/job/main/sms/http"
+	"github.com/namelessup/bilibili/app/job/main/sms/service"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
+	"github.com/namelessup/bilibili/library/queue/databus/report"
 )
 
 var (

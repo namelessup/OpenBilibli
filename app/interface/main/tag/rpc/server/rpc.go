@@ -1,14 +1,14 @@
 package rpc
 
 import (
-	"go-common/app/interface/main/tag/conf"
-	"go-common/app/interface/main/tag/model"
-	"go-common/app/interface/main/tag/service"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/rpc"
-	"go-common/library/net/rpc/context"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/interface/main/tag/conf"
+	"github.com/namelessup/bilibili/app/interface/main/tag/model"
+	"github.com/namelessup/bilibili/app/interface/main/tag/service"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/rpc"
+	"github.com/namelessup/bilibili/library/net/rpc/context"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 // RPC represent rpc server

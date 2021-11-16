@@ -3,13 +3,13 @@ package http
 import (
 	"net/http"
 
-	"go-common/app/interface/main/player/conf"
-	"go-common/app/interface/main/player/service"
-	"go-common/library/log"
-	"go-common/library/log/infoc"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/auth"
-	"go-common/library/net/http/blademaster/middleware/verify"
+	"github.com/namelessup/bilibili/app/interface/main/player/conf"
+	"github.com/namelessup/bilibili/app/interface/main/player/service"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/log/infoc"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/auth"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/verify"
 )
 
 var (

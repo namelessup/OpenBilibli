@@ -141,7 +141,7 @@ func actionGenerate(ctx *cli.Context) (err error) {
 	filesToGenerate := []string{f}
 	iPath := ctx.String("i")
 	if iPath != "" {
-		iPath = goPath + "/src/go-common/app/interface/" + iPath
+		iPath = goPath + "/src/github.com/namelessup/bilibili/app/interface/" + iPath
 		if !fileExist(iPath) {
 			return cli.NewExitError(fmt.Sprintf("interface project not found: "+iPath), 1)
 		}
@@ -204,20 +204,20 @@ func generateForFile(f string, goPath string) {
 	}
 	if !strings.Contains(relativePath, "api/http") {
 		//非http 生成grpc和http的代码
-		isInsideGoCommon := strings.Contains(fileFolder, "go-common")
+		isInsideGoCommon := strings.Contains(fileFolder, "github.com/namelessup/bilibili")
 		if !protocShRunned && isInsideGoCommon {
 			//protoc.sh 只能在大仓库中使用
 			protocShRunned = true
-			cmd = fmt.Sprintf(`cd "%s" && "%s/src/go-common/app/tool/warden/protoc.sh"`, fileFolder, goPath)
+			cmd = fmt.Sprintf(`cd "%s" && "%s/src/github.com/namelessup/bilibili/app/tool/warden/protoc.sh"`, fileFolder, goPath)
 			runCmd(cmd)
 		}
 		genGrpcArg := "--gogofast_out=plugins=grpc:."
 		if isInsideGoCommon {
-			// go-common中已经用上述命令生成过了
+			// github.com/namelessup/bilibili中已经用上述命令生成过了
 			genGrpcArg = ""
 		}
 		cmd = fmt.Sprintf(`cd "%s" && protoc --bm_out=tpl=%d:. `+
-			`%s -I. -I%s/src -I"%s/src/go-common" -I"%s/src/go-common/vendor" "%s"`,
+			`%s -I. -I%s/src -I"%s/src/github.com/namelessup/bilibili" -I"%s/src/github.com/namelessup/bilibili/vendor" "%s"`,
 			fileFolder, genTpl, genGrpcArg, goPath, goPath, goPath, base)
 	} else {
 		// 只生成http的代码
@@ -232,7 +232,7 @@ func generateForFile(f string, goPath string) {
 			pbOutArg = "--gogofast_out=."
 		}
 		cmd = fmt.Sprintf(`cd "%s" && protoc --bm_out=tpl=%d:. `+
-			pbOutArg+` -I. -I"%s/src" -I"%s/src/go-common" -I"%s/src/go-common/vendor" "%s"`,
+			pbOutArg+` -I. -I"%s/src" -I"%s/src/github.com/namelessup/bilibili" -I"%s/src/github.com/namelessup/bilibili/vendor" "%s"`,
 			fileFolder, genTpl, goPath, goPath, goPath, base)
 	}
 
@@ -342,11 +342,11 @@ func actionSyncLiveDoc(ctx *cli.Context) (err error) {
 func actionUpdate(ctx *cli.Context) (err error) {
 	log.Print("Updating bmgen.....")
 	goPath := initGopath()
-	goCommonPath := goPath + "/src/go-common"
+	goCommonPath := goPath + "/src/github.com/namelessup/bilibili"
 	if !fileExist(goCommonPath) {
-		return cli.NewExitError("go-common not exist : "+goCommonPath, 1)
+		return cli.NewExitError("github.com/namelessup/bilibili not exist : "+goCommonPath, 1)
 	}
-	cmd := fmt.Sprintf(`go install "go-common/app/tool/bmproto/..."`)
+	cmd := fmt.Sprintf(`go install "github.com/namelessup/bilibili/app/tool/bmproto/..."`)
 	if err = runCmd(cmd); err != nil {
 		err = cli.NewExitError(err.Error(), 1)
 		return
@@ -412,7 +412,7 @@ func goPath() (string, error) {
 		if err != nil {
 			return "", err
 		}
-		if fileExist(absgp + "/src/go-common") {
+		if fileExist(absgp + "/src/github.com/namelessup/bilibili") {
 			return absgp, nil
 		}
 	}

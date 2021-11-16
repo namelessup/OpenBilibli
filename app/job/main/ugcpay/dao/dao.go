@@ -3,11 +3,11 @@ package dao
 import (
 	"context"
 
-	"go-common/app/job/main/ugcpay/conf"
-	ugcpay_rank "go-common/app/service/main/ugcpay-rank/api/v1"
-	"go-common/library/cache/memcache"
-	"go-common/library/cache/redis"
-	xsql "go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/job/main/ugcpay/conf"
+	ugcpay_rank "github.com/namelessup/bilibili/app/service/main/ugcpay-rank/api/v1"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
 )
 
 // Dao dao

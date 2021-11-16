@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/interface/main/push-archive/dao"
+	"github.com/namelessup/bilibili/app/interface/main/push-archive/dao"
 
 	"github.com/smartystreets/goconvey/convey"
 )

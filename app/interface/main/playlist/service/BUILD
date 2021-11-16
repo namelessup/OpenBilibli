@@ -30,7 +30,7 @@ go_library(
         "stat.go",
         "video.go",
     ],
-    importpath = "go-common/app/interface/main/playlist/service",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/playlist/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

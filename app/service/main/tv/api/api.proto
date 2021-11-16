@@ -1,4 +1,4 @@
-//  - http://git.bilibili.co/platform/go-common/tree/master/app/tool/protoc-gen-bm
+//  - http://git.bilibili.co/platform/github.com/namelessup/bilibili/tree/master/app/tool/protoc-gen-bm
 // +bili:type=service
 syntax = "proto3";
 
@@ -15,14 +15,14 @@ message UserInfoReq {
 }
 
 // +bili:deepcopy-gen=true
-// +bili:deepcopy-gen:structs=go-common/app/service/main/tv/internal/model.UserInfo
+// +bili:deepcopy-gen:structs=github.com/namelessup/bilibili/app/service/main/tv/internal/model.UserInfo
 message UserInfoReply {
     int64 mid = 1 [(gogoproto.jsontag) = "mid"];
     int32 vip_type = 2 [(gogoproto.jsontag) = "vip_type", (gogoproto.casttype) = "int8"];
     int32 pay_type = 3 [(gogoproto.jsontag) = "pay_type", (gogoproto.casttype) = "int8"];
     string pay_channel_id = 4 [(gogoproto.jsontag) = "pay_channel_id"];
     int32 status = 5 [(gogoproto.jsontag) = "status", (gogoproto.casttype) = "int8"];
-    int64 overdue_time = 6 [(gogoproto.jsontag) = "overdue_time", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int64 overdue_time = 6 [(gogoproto.jsontag) = "overdue_time", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
 }
 
 message ChangeHistoryReq {
@@ -30,17 +30,17 @@ message ChangeHistoryReq {
 }
 
 // +bili:deepcopy-gen=true
-// +bili:deepcopy-gen:structs=go-common/app/service/main/tv/internal/model.UserChangeHistory
+// +bili:deepcopy-gen:structs=github.com/namelessup/bilibili/app/service/main/tv/internal/model.UserChangeHistory
 message ChangeHistoryReply {
     int32 id = 1 [(gogoproto.jsontag) = "id"];
     int64 mid = 2 [(gogoproto.jsontag) = "mid"];
     int32 change_type = 3 [(gogoproto.jsontag) = "change_type", (gogoproto.casttype) = "int8"];
-    int32 change_time = 4 [(gogoproto.jsontag) = "change_time", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int32 change_time = 4 [(gogoproto.jsontag) = "change_time", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
     string order_no = 5 [(gogoproto.jsontag) = "order_no"];
     int32 days = 6 [(gogoproto.jsontag) = "days"];
     string operator_id = 7 [(gogoproto.jsontag) = "operator_id"];
-    int32 ctime = 8 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "go-common/library/time.Time"];
-    int32 mtime = 9 [(gogoproto.jsontag) = "mtime", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int32 ctime = 8 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
+    int32 mtime = 9 [(gogoproto.jsontag) = "mtime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
 }
 
 message ChangeHistorysReq {
@@ -61,7 +61,7 @@ message PanelInfoReq {
 }
 
 // +bili:deepcopy-gen=true
-// +bili:deepcopy-gen:structs=go-common/app/service/main/tv/internal/model.PanelPriceConfig
+// +bili:deepcopy-gen:structs=github.com/namelessup/bilibili/app/service/main/tv/internal/model.PanelPriceConfig
 message PanelPriceConfig {
     int32 id = 1 [(gogoproto.jsontag) = "id"];
     int32 pid = 2 [(gogoproto.jsontag) = "pid"];
@@ -100,7 +100,7 @@ message PayOrderReq {
 }
 
 // +bili:deepcopy-gen=true
-// +bili:deepcopy-gen:structs=go-common/app/service/main/tv/internal/model.PayOrder
+// +bili:deepcopy-gen:structs=github.com/namelessup/bilibili/app/service/main/tv/internal/model.PayOrder
 message PayOrderReply {
     int32 id = 1 [(gogoproto.jsontag) = "id"];
     string order_no = 2 [(gogoproto.jsontag) = "order_no"];
@@ -115,9 +115,9 @@ message PayOrderReply {
     string third_trade_no = 11 [(gogoproto.jsontag) = "third_trade_no"];
     int32 payment_money = 12 [(gogoproto.jsontag) = "payment_money"];
     string payment_type = 13 [(gogoproto.jsontag) = "payment_type"];
-    int32 payment_time = 14 [(gogoproto.jsontag) = "payment_time", (gogoproto.casttype) = "go-common/library/time.Time"];
-    int32 ctime = 15 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "go-common/library/time.Time"];
-    int32 mtime = 16 [(gogoproto.jsontag) = "mtime", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int32 payment_time = 14 [(gogoproto.jsontag) = "payment_time", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
+    int32 ctime = 15 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
+    int32 mtime = 16 [(gogoproto.jsontag) = "mtime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
 }
 
 message CreateQrReq {
@@ -129,9 +129,9 @@ message CreateQrReq {
 }
 
 // +bili:deepcopy-gen=true
-// +bili:deepcopy-gen:structs=go-common/app/service/main/tv/internal/model.QR
+// +bili:deepcopy-gen:structs=github.com/namelessup/bilibili/app/service/main/tv/internal/model.QR
 message CreateQrReply {
-    int32 expire_at = 1 [(gogoproto.jsontag) = "expire_at", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int32 expire_at = 1 [(gogoproto.jsontag) = "expire_at", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
     string url = 2 [(gogoproto.jsontag) = "url"];
     string token = 3 [(gogoproto.jsontag) = "token"];
 }
@@ -144,15 +144,15 @@ message CreateGuestQrReq {
 }
 
 // +bili:deepcopy-gen=true
-// +bili:deepcopy-gen:structs=go-common/app/service/main/tv/internal/model.QR
+// +bili:deepcopy-gen:structs=github.com/namelessup/bilibili/app/service/main/tv/internal/model.QR
 message CreateGuestQrReply {
-    int32 expire_at = 1 [(gogoproto.jsontag) = "expire_at", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int32 expire_at = 1 [(gogoproto.jsontag) = "expire_at", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
     string url = 2 [(gogoproto.jsontag) = "url"];
     string token = 3 [(gogoproto.jsontag) = "token"];
 }
 
 // +bili:deepcopy-gen=true
-// +bili:deepcopy-gen:structs=go-common/app/service/main/tv/internal/model.YstPayCallbackReq
+// +bili:deepcopy-gen:structs=github.com/namelessup/bilibili/app/service/main/tv/internal/model.YstPayCallbackReq
 message PayCallbackReq {
     string seq_no = 1;
     string trace_no = 2;
@@ -162,7 +162,7 @@ message PayCallbackReq {
 }
 
 // +bili:deepcopy-gen=true
-// +bili:deepcopy-gen:structs=go-common/app/service/main/tv/internal/model.YstPayCallbackReply
+// +bili:deepcopy-gen:structs=github.com/namelessup/bilibili/app/service/main/tv/internal/model.YstPayCallbackReply
 message PayCallbackReply {
     string trace_no = 1 [(gogoproto.jsontag) = "traceno"];
     string result = 2 [(gogoproto.jsontag) = "result"];
@@ -177,7 +177,7 @@ message CreateOrderReq {
 }
 
 // +bili:deepcopy-gen=true
-// +bili:deepcopy-gen:structs=go-common/app/service/main/tv/internal/model.PayInfo
+// +bili:deepcopy-gen:structs=github.com/namelessup/bilibili/app/service/main/tv/internal/model.PayInfo
 message CreateOrderReply {
     string order_no = 1 [(gogoproto.jsontag) = "order_no"];
     string payment_type = 2 [(gogoproto.jsontag) = "payment_type"];
@@ -209,7 +209,7 @@ message RenewVipReply {
 }
 
 // +bili:deepcopy-gen=true
-// +bili:deepcopy-gen:structs=go-common/app/service/main/tv/internal/model.WxContractCallbackReq
+// +bili:deepcopy-gen:structs=github.com/namelessup/bilibili/app/service/main/tv/internal/model.WxContractCallbackReq
 message WxContractCallbackReq {
     string contract_id = 1;
     string contract_code = 2;
@@ -219,7 +219,7 @@ message WxContractCallbackReq {
 }
 
 // +bili:deepcopy-gen=true
-// +bili:deepcopy-gen:structs=go-common/app/service/main/tv/internal/model.WxContractCallbackReply
+// +bili:deepcopy-gen:structs=github.com/namelessup/bilibili/app/service/main/tv/internal/model.WxContractCallbackReply
 message WxContractCallbackReply {
     string contract_id = 1 [(gogoproto.jsontag) = "contract_id"];
     string result = 2 [(gogoproto.jsontag) = "result"];
@@ -231,7 +231,7 @@ message TokenInfoReq {
 }
 
 // +bili:deepcopy-gen=true
-// +bili:deepcopy-gen:structs=go-common/app/service/main/tv/internal/model.TokenInfo
+// +bili:deepcopy-gen:structs=github.com/namelessup/bilibili/app/service/main/tv/internal/model.TokenInfo
 message TokenInfo {
     string order_no = 1 [(gogoproto.jsontag) = "order_no"];
     int32 status = 2 [(gogoproto.jsontag) = "status", (gogoproto.casttype) = "int8"];
@@ -255,7 +255,7 @@ message YstUserInfoReply {
     int32 pay_type = 3 [(gogoproto.jsontag) = "pay_type", (gogoproto.casttype) = "int8"];
     string pay_channel_id = 4 [(gogoproto.jsontag) = "pay_channel_id"];
     int32 status = 5 [(gogoproto.jsontag) = "status", (gogoproto.casttype) = "int8"];
-    int64 overdue_time = 6 [(gogoproto.jsontag) = "overdue_time", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int64 overdue_time = 6 [(gogoproto.jsontag) = "overdue_time", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
 
     string result = 7 [(gogoproto.jsontag) = "result"];
     string msg = 8 [(gogoproto.jsontag) = "msg"];

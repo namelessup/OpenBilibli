@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/admin/main/member/model"
-	"go-common/library/cache/memcache"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/member/model"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/pkg/errors"
 )

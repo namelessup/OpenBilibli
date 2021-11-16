@@ -2,7 +2,7 @@ package upper
 
 import (
 	"context"
-	upMdl "go-common/app/interface/main/tv/model/upper"
+	upMdl "github.com/namelessup/bilibili/app/interface/main/tv/model/upper"
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"

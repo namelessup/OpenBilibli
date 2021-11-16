@@ -70,12 +70,12 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/app/{{.Type}}/{{.Department}}/{{.Name}}/internal/server/grpc"
-	"go-common/app/{{.Type}}/{{.Department}}/{{.Name}}/internal/server/http"
-	"go-common/app/{{.Type}}/{{.Department}}/{{.Name}}/internal/service"
-	"go-common/library/conf/paladin"
-	ecode "go-common/library/ecode/tip"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/{{.Type}}/{{.Department}}/{{.Name}}/internal/server/grpc"
+	"github.com/namelessup/bilibili/app/{{.Type}}/{{.Department}}/{{.Name}}/internal/server/http"
+	"github.com/namelessup/bilibili/app/{{.Type}}/{{.Department}}/{{.Name}}/internal/service"
+	"github.com/namelessup/bilibili/library/conf/paladin"
+	ecode "github.com/namelessup/bilibili/library/ecode/tip"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func main() {
@@ -125,12 +125,12 @@ import (
 	"context"
 	"time"
 
-	"go-common/library/cache/memcache"
-	"go-common/library/cache/redis"
-	"go-common/library/conf/paladin"
-	"go-common/library/database/sql"
-	"go-common/library/log"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/conf/paladin"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // Dao dao.
@@ -234,8 +234,8 @@ func (d *Dao) pingRedis(ctx context.Context) (err error) {
 import (
 	"context"
 
-	"go-common/app/{{.Type}}/{{.Department}}/{{.Name}}/internal/dao"
-	"go-common/library/conf/paladin"
+	"github.com/namelessup/bilibili/app/{{.Type}}/{{.Department}}/{{.Name}}/internal/dao"
+	"github.com/namelessup/bilibili/library/conf/paladin"
 )
 
 // Service service.
@@ -274,9 +274,9 @@ import (
 	"context"
 	"fmt"
 
-	pb "go-common/app/{{.Type}}/{{.Department}}/{{.Name}}/api"
-	"go-common/app/{{.Type}}/{{.Department}}/{{.Name}}/internal/dao"
-	"go-common/library/conf/paladin"
+	pb "github.com/namelessup/bilibili/app/{{.Type}}/{{.Department}}/{{.Name}}/api"
+	"github.com/namelessup/bilibili/app/{{.Type}}/{{.Department}}/{{.Name}}/internal/dao"
+	"github.com/namelessup/bilibili/library/conf/paladin"
 
 	"github.com/golang/protobuf/ptypes/empty"
 )
@@ -322,11 +322,11 @@ func (s *Service) Close() {
 import (
 	"net/http"
 
-	"go-common/app/{{.Type}}/{{.Department}}/{{.Name}}/internal/service"
-	"go-common/library/conf/paladin"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/verify"
+	"github.com/namelessup/bilibili/app/{{.Type}}/{{.Department}}/{{.Name}}/internal/service"
+	"github.com/namelessup/bilibili/library/conf/paladin"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/verify"
 )
 
 var (
@@ -384,7 +384,7 @@ func howToStart(c *bm.Context) {
 //  - https://developers.google.com/protocol-buffers/
 //  - http://info.bilibili.co/display/documentation/gRPC+Proto
 // protobuf 生成 HTTP 工具:
-//  - http://git.bilibili.co/platform/go-common/tree/master/app/tool/protoc-gen-bm
+//  - http://git.bilibili.co/platform/github.com/namelessup/bilibili/tree/master/app/tool/protoc-gen-bm
 // gRPC Golang Model:
 //  - http://info.bilibili.co/display/documentation/gRPC+Golang+Model
 // gRPC Golang Warden Gen:
@@ -420,17 +420,17 @@ message HelloReq {
 	_tplAPIGenerate = `package api
 
 // 生成 gRPC 代码
-//go:generate $GOPATH/src/go-common/app/tool/warden/protoc.sh
+//go:generate $GOPATH/src/github.com/namelessup/bilibili/app/tool/warden/protoc.sh
 `
 	_tplModel = `package model
 `
 	_tplGRPCServer = `package grpc
 
 import (
-	pb "go-common/app/{{.Type}}/{{.Department}}/{{.Name}}/api"
-	"go-common/app/{{.Type}}/{{.Department}}/{{.Name}}/internal/service"
-	"go-common/library/net/rpc/warden"
-	"go-common/library/conf/paladin"
+	pb "github.com/namelessup/bilibili/app/{{.Type}}/{{.Department}}/{{.Name}}/api"
+	"github.com/namelessup/bilibili/app/{{.Type}}/{{.Department}}/{{.Name}}/internal/service"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
+	"github.com/namelessup/bilibili/library/conf/paladin"
 )
 
 // New new a grpc server.

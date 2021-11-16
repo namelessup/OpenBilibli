@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"fmt"
 
-	eggModel "go-common/app/admin/main/feed/model/egg"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	eggModel "github.com/namelessup/bilibili/app/admin/main/feed/model/egg"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 
 	"github.com/jinzhu/gorm"
 )

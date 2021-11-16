@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func TestTimer(t *testing.T) {

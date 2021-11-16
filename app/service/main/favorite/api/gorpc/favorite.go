@@ -3,8 +3,8 @@ package favorite
 import (
 	"context"
 
-	"go-common/app/service/main/favorite/model"
-	"go-common/library/net/rpc"
+	"github.com/namelessup/bilibili/app/service/main/favorite/model"
+	"github.com/namelessup/bilibili/library/net/rpc"
 )
 
 const (

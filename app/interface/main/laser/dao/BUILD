@@ -14,7 +14,7 @@ go_library(
         "task.go",
         "task_log.go",
     ],
-    importpath = "go-common/app/interface/main/laser/dao",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/laser/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

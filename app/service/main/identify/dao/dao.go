@@ -3,10 +3,10 @@ package dao
 import (
 	"context"
 
-	"go-common/app/service/main/identify/conf"
-	"go-common/library/cache/memcache"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/app/service/main/identify/conf"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/stat/prom"
 )
 
 const (

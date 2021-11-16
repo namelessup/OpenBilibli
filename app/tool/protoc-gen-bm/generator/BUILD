@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["generator.go"],
-    importpath = "go-common/app/tool/protoc-gen-bm/generator",
+    importpath = "github.com/namelessup/bilibili/app/tool/protoc-gen-bm/generator",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["@com_github_golang_protobuf//protoc-gen-go/plugin:go_default_library"],

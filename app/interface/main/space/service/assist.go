@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 
-	"go-common/app/service/main/assist/model/assist"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/service/main/assist/model/assist"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 var _emptyAssists = make([]*assist.AssistUp, 0)

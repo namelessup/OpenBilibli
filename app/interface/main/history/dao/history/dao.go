@@ -4,13 +4,13 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/interface/main/history/conf"
-	eprpc "go-common/app/service/openplatform/pgc-season/api/grpc/episode/v1"
-	"go-common/library/cache"
-	"go-common/library/cache/redis"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/interface/main/history/conf"
+	eprpc "github.com/namelessup/bilibili/app/service/openplatform/pgc-season/api/grpc/episode/v1"
+	"github.com/namelessup/bilibili/library/cache"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/queue/databus"
 
-	"go-common/library/database/hbase.v2"
+	"github.com/namelessup/bilibili/library/database/hbase.v2"
 )
 
 // Dao dao.

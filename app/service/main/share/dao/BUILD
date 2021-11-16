@@ -35,7 +35,7 @@ go_library(
         "redis.go",
         "share.go",
     ],
-    importpath = "go-common/app/service/main/share/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/main/share/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"net/url"
 
-	"go-common/app/service/main/videoup/conf"
-	"go-common/library/log"
-	xhttp "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/service/main/videoup/conf"
+	"github.com/namelessup/bilibili/library/log"
+	xhttp "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // Dao is message dao.

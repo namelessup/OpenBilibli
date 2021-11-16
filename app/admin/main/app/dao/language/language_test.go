@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/admin/main/app/conf"
-	"go-common/app/admin/main/app/model/language"
+	"github.com/namelessup/bilibili/app/admin/main/app/conf"
+	"github.com/namelessup/bilibili/app/admin/main/app/model/language"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

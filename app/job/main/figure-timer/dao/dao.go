@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/job/main/figure-timer/conf"
-	"go-common/app/job/main/figure-timer/model"
-	"go-common/library/cache/redis"
-	"go-common/library/database/hbase.v2"
-	"go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/job/main/figure-timer/conf"
+	"github.com/namelessup/bilibili/app/job/main/figure-timer/model"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/database/hbase.v2"
+	"github.com/namelessup/bilibili/library/database/sql"
 )
 
 // Int is dao interface

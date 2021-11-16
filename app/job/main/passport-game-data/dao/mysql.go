@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/job/main/passport-game-data/model"
-	xsql "go-common/library/database/sql"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/passport-game-data/model"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

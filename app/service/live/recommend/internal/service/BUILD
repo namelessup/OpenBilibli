@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["service.go"],
-    importpath = "go-common/app/service/live/recommend/internal/service",
+    importpath = "github.com/namelessup/bilibili/app/service/live/recommend/internal/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

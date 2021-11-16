@@ -3,10 +3,10 @@ package dao
 import (
 	"context"
 
-	"go-common/app/admin/main/push/conf"
-	"go-common/library/database/orm"
-	sqlx "go-common/library/database/sql"
-	xhttp "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/push/conf"
+	"github.com/namelessup/bilibili/library/database/orm"
+	sqlx "github.com/namelessup/bilibili/library/database/sql"
+	xhttp "github.com/namelessup/bilibili/library/net/http/blademaster"
 
 	"github.com/jinzhu/gorm"
 )

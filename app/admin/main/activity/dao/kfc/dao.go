@@ -3,8 +3,8 @@ package kfc
 import (
 	"context"
 
-	"go-common/app/admin/main/activity/conf"
-	"go-common/library/database/orm"
+	"github.com/namelessup/bilibili/app/admin/main/activity/conf"
+	"github.com/namelessup/bilibili/library/database/orm"
 
 	"github.com/jinzhu/gorm"
 )

@@ -3,7 +3,7 @@ package goblin
 import (
 	"context"
 
-	gbmdl "go-common/app/interface/main/tv/model/goblin"
+	gbmdl "github.com/namelessup/bilibili/app/interface/main/tv/model/goblin"
 )
 
 const (

@@ -1,5 +1,5 @@
 presubmits:
-  platform/go-common:
+  platform/github.com/namelessup/bilibili:
   - name: __bazel_test_job_name__
     always_run: true 
     namespace: default

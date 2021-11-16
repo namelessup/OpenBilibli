@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"strconv"
 
-	"go-common/app/service/openplatform/anti-fraud/model"
-	"go-common/library/database/sql"
-	"go-common/library/log"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/service/openplatform/anti-fraud/model"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 const (

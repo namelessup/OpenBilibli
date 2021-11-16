@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"go-common/app/service/main/tv/internal/model"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/service/main/tv/internal/model"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 func (s *Service) MakePayParam(c context.Context, mid int64, pid int32, buyNum int32, guid string, appChannel string) (p *model.PayParam) {

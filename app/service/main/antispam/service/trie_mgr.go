@@ -8,10 +8,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go-common/app/service/main/antispam/model"
-	"go-common/app/service/main/antispam/util/trie"
+	"github.com/namelessup/bilibili/app/service/main/antispam/model"
+	"github.com/namelessup/bilibili/app/service/main/antispam/util/trie"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 var (

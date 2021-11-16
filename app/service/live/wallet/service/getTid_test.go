@@ -3,9 +3,9 @@ package service
 import (
 	"encoding/json"
 	. "github.com/smartystreets/goconvey/convey"
-	"go-common/app/service/live/wallet/conf"
-	"go-common/app/service/live/wallet/model"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/service/live/wallet/conf"
+	"github.com/namelessup/bilibili/app/service/live/wallet/model"
+	"github.com/namelessup/bilibili/library/ecode"
 	"sync"
 	"testing"
 	"time"

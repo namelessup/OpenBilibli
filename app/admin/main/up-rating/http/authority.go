@@ -1,8 +1,8 @@
 package http
 
 import (
-	"go-common/library/log"
-	"go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func addAuthority(c *blademaster.Context) {

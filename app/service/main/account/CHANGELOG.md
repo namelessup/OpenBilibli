@@ -199,7 +199,7 @@
 > 1. 修复syslog panic error  
 
 #### Version 5.12.4
-> 1.修复go-common memcache stat err 
+> 1.修复github.com/namelessup/bilibili memcache stat err 
 
 #### Version 5.12.3
 > 1.添加memcache错误监控
@@ -297,8 +297,8 @@
 
 #### Version 5.4.0
 
-> 1.go-common stat小包合并大包  
-> 2.go-common修复base64编码bug  
+> 1.github.com/namelessup/bilibili stat小包合并大包  
+> 2.github.com/namelessup/bilibili修复base64编码bug  
 
 #### Version 5.3.0
 
@@ -306,7 +306,7 @@
 
 #### Version 5.2.1
 
-> 1.go-common修复trace race bug  
+> 1.github.com/namelessup/bilibili修复trace race bug  
 
 #### Version 5.2.0
 
@@ -439,7 +439,7 @@
 
 ##### Version 3.1.0  
 
-> 1.使用go-common/xlog  
+> 1.使用github.com/namelessup/bilibili/xlog  
 > 2.修改删除cache接口为get  
 
 ##### Version 3.0.1
@@ -482,7 +482,7 @@
 
 ##### Version 1.1.0
 
-> 1.基于go-common重构  
+> 1.基于github.com/namelessup/bilibili重构  
 
 ##### Version 1.0.0
 

@@ -3,8 +3,8 @@ package gorpc
 import (
 	"context"
 
-	"go-common/app/service/main/sms/model"
-	"go-common/library/net/rpc"
+	"github.com/namelessup/bilibili/app/service/main/sms/model"
+	"github.com/namelessup/bilibili/library/net/rpc"
 )
 
 const (

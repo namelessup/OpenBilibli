@@ -4,13 +4,13 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/interface/live/push-live/conf"
-	"go-common/library/cache/redis"
-	"go-common/library/database/hbase.v2"
-	xsql "go-common/library/database/sql"
-	"go-common/library/log"
-	xhttp "go-common/library/net/http/blademaster"
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/app/interface/live/push-live/conf"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/database/hbase.v2"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	xhttp "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/stat/prom"
 )
 
 // Dao dao

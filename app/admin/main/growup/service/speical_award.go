@@ -9,15 +9,15 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/admin/main/growup/dao"
-	"go-common/app/admin/main/growup/dao/resource"
-	"go-common/app/admin/main/growup/model"
-	"go-common/app/admin/main/growup/util"
+	"github.com/namelessup/bilibili/app/admin/main/growup/dao"
+	"github.com/namelessup/bilibili/app/admin/main/growup/dao/resource"
+	"github.com/namelessup/bilibili/app/admin/main/growup/model"
+	"github.com/namelessup/bilibili/app/admin/main/growup/util"
 
-	"go-common/library/database/sql"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 const (

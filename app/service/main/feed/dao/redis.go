@@ -5,15 +5,15 @@ import (
 	"fmt"
 	"strconv"
 
-	artmdl "go-common/app/interface/openplatform/article/model"
-	"go-common/app/service/main/archive/api"
-	"go-common/app/service/main/archive/model/archive"
-	"go-common/app/service/main/feed/model"
-	feedmdl "go-common/app/service/main/feed/model"
-	"go-common/library/cache/redis"
-	"go-common/library/log"
-	"go-common/library/time"
-	"go-common/library/xstr"
+	artmdl "github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/app/service/main/feed/model"
+	feedmdl "github.com/namelessup/bilibili/app/service/main/feed/model"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/time"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 const (

@@ -28,8 +28,8 @@ message Folder {
     int32 Attr = 8 [(gogoproto.jsontag) = "attr"];
     int32 State = 9 [(gogoproto.jsontag) = "state",(gogoproto.casttype) = "int8"];    
     int32 Favored = 10 [(gogoproto.jsontag) = "favored",(gogoproto.casttype) = "int8"]; 
-    int64 CTime = 11 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "go-common/library/time.Time"];
-    int64 MTime = 12 [(gogoproto.jsontag) = "mtime", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int64 CTime = 11 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
+    int64 MTime = 12 [(gogoproto.jsontag) = "mtime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
     repeated int64 RecentOids = 13 [(gogoproto.jsontag) = "recent_oids"];
 	int32 FavedCount  = 14 [(gogoproto.jsontag) = "faved_count"];
 	int32 PlayCount  = 15 [(gogoproto.jsontag) = "play_count"];

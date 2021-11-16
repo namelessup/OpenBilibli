@@ -67,7 +67,7 @@ import fmt "fmt"
 import math "math"
 import _ "github.com/gogo/protobuf/gogoproto"
 
-import go_common_library_time "go-common/library/time"
+import go_common_library_time "github.com/namelessup/bilibili/library/time"
 
 import context "golang.org/x/net/context"
 import grpc "google.golang.org/grpc"
@@ -121,10 +121,10 @@ type TicketItem struct {
 	SkuID           int64                       `protobuf:"varint,11,opt,name=sku_id,json=skuId,proto3" json:"sku_id,omitempty"`
 	SeatID          int64                       `protobuf:"varint,12,opt,name=seat_id,json=seatId,proto3" json:"seat_id,omitempty"`
 	Seat            string                      `protobuf:"bytes,13,opt,name=seat,proto3" json:"seat,omitempty"`
-	RefundApplyTime go_common_library_time.Time `protobuf:"varint,14,opt,name=refund_apply_time,json=refundApplyTime,proto3,casttype=go-common/library/time.Time" json:"refund_apply_time,omitempty"`
-	ETime           go_common_library_time.Time `protobuf:"varint,15,opt,name=etime,proto3,casttype=go-common/library/time.Time" json:"etime,omitempty"`
-	CTime           go_common_library_time.Time `protobuf:"varint,16,opt,name=ctime,proto3,casttype=go-common/library/time.Time" json:"ctime,omitempty"`
-	MTime           go_common_library_time.Time `protobuf:"varint,17,opt,name=mtime,proto3,casttype=go-common/library/time.Time" json:"mtime,omitempty"`
+	RefundApplyTime go_common_library_time.Time `protobuf:"varint,14,opt,name=refund_apply_time,json=refundApplyTime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"refund_apply_time,omitempty"`
+	ETime           go_common_library_time.Time `protobuf:"varint,15,opt,name=etime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"etime,omitempty"`
+	CTime           go_common_library_time.Time `protobuf:"varint,16,opt,name=ctime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"ctime,omitempty"`
+	MTime           go_common_library_time.Time `protobuf:"varint,17,opt,name=mtime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"mtime,omitempty"`
 }
 
 func (m *TicketItem) Reset()                    { *m = TicketItem{} }
@@ -157,8 +157,8 @@ type TicketSendItem struct {
 	RecvUID int64                       `protobuf:"varint,6,opt,name=recv_uid,json=recvUid,proto3" json:"recv_uid,omitempty"`
 	RecvTel string                      `protobuf:"bytes,7,opt,name=recv_tel,json=recvTel,proto3" json:"recv_tel,omitempty"`
 	Status  int16                       `protobuf:"varint,8,opt,name=status,proto3,casttype=int16" json:"status,omitempty"`
-	CTime   go_common_library_time.Time `protobuf:"varint,9,opt,name=ctime,proto3,casttype=go-common/library/time.Time" json:"ctime,omitempty"`
-	MTime   go_common_library_time.Time `protobuf:"varint,10,opt,name=mtime,proto3,casttype=go-common/library/time.Time" json:"mtime,omitempty"`
+	CTime   go_common_library_time.Time `protobuf:"varint,9,opt,name=ctime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"ctime,omitempty"`
+	MTime   go_common_library_time.Time `protobuf:"varint,10,opt,name=mtime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"mtime,omitempty"`
 	OID     int64                       `protobuf:"varint,11,opt,name=oid,proto3" json:"oid,omitempty"`
 }
 

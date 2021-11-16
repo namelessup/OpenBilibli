@@ -5,10 +5,10 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/admin/main/videoup/model/archive"
-	"go-common/app/admin/main/videoup/model/message"
-	"go-common/app/admin/main/videoup/model/up"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/videoup/model/archive"
+	"github.com/namelessup/bilibili/app/admin/main/videoup/model/message"
+	"github.com/namelessup/bilibili/app/admin/main/videoup/model/up"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) busFirstRound(aid int64, fn, encodePurpose string, videoDesign *message.VideoDesign, status int16, encoding int8, regionID, typeID int16, fans int64, adminChange bool) (err error) {

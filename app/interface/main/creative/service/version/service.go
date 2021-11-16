@@ -2,11 +2,11 @@ package version
 
 import (
 	"context"
-	"go-common/app/interface/main/creative/conf"
-	"go-common/app/interface/main/creative/dao/creative"
-	vsMdl "go-common/app/interface/main/creative/model/version"
-	"go-common/app/interface/main/creative/service"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/creative/conf"
+	"github.com/namelessup/bilibili/app/interface/main/creative/dao/creative"
+	vsMdl "github.com/namelessup/bilibili/app/interface/main/creative/model/version"
+	"github.com/namelessup/bilibili/app/interface/main/creative/service"
+	"github.com/namelessup/bilibili/library/log"
 	"time"
 )
 

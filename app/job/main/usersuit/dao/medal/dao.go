@@ -1,11 +1,11 @@
 package medal
 
 import (
-	"go-common/app/job/main/usersuit/conf"
-	"go-common/app/service/main/usersuit/rpc/client"
-	"go-common/library/cache/memcache"
-	"go-common/library/database/sql"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/job/main/usersuit/conf"
+	"github.com/namelessup/bilibili/app/service/main/usersuit/rpc/client"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/database/sql"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 var (

@@ -6,10 +6,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/library/ecode"
 
 	. "github.com/smartystreets/goconvey/convey"
-	"go-common/app/job/main/up/conf"
+	"github.com/namelessup/bilibili/app/job/main/up/conf"
 )
 
 var (

@@ -1,8 +1,8 @@
 package dao
 
 import (
-	"go-common/app/service/openplatform/ticket-item/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-item/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // StockChanged 检查票价下库存是否有变动

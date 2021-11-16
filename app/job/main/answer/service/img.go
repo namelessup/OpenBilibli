@@ -10,9 +10,9 @@ import (
 	"image/jpeg"
 	"strconv"
 
-	"go-common/app/job/main/answer/model"
-	"go-common/library/log"
-	"go-common/library/text/translate/chinese"
+	"github.com/namelessup/bilibili/app/job/main/answer/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/text/translate/chinese"
 
 	"github.com/golang/freetype"
 )

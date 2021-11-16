@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/interface/openplatform/article/model"
+	"github.com/namelessup/bilibili/app/interface/openplatform/article/model"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

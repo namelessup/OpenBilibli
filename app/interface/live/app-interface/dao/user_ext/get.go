@@ -3,10 +3,10 @@ package user_ext
 import (
 	"context"
 	"github.com/pkg/errors"
-	"go-common/app/interface/live/app-interface/dao"
-	userExV1 "go-common/app/service/live/userext/api/liverpc/v1"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/live/app-interface/dao"
+	userExV1 "github.com/namelessup/bilibili/app/service/live/userext/api/liverpc/v1"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // GetGrayRule 获取灰度配置

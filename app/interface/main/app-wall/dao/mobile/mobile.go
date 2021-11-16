@@ -5,11 +5,11 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/interface/main/app-wall/conf"
-	"go-common/app/interface/main/app-wall/model/mobile"
-	"go-common/library/cache/memcache"
-	xsql "go-common/library/database/sql"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/app-wall/conf"
+	"github.com/namelessup/bilibili/app/interface/main/app-wall/model/mobile"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

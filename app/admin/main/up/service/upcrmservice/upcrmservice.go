@@ -5,17 +5,17 @@ import (
 	"fmt"
 	"time"
 
-	"go-common/app/admin/main/up/conf"
-	"go-common/app/admin/main/up/dao/email"
-	"go-common/app/admin/main/up/dao/manager"
-	"go-common/app/admin/main/up/dao/upcrm"
-	"go-common/app/admin/main/up/model/upcrmmodel"
-	"go-common/app/admin/main/up/service/cache"
-	"go-common/app/admin/main/up/service/data"
-	"go-common/app/admin/main/up/util"
-	"go-common/app/admin/main/up/util/timerqueue"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/up/conf"
+	"github.com/namelessup/bilibili/app/admin/main/up/dao/email"
+	"github.com/namelessup/bilibili/app/admin/main/up/dao/manager"
+	"github.com/namelessup/bilibili/app/admin/main/up/dao/upcrm"
+	"github.com/namelessup/bilibili/app/admin/main/up/model/upcrmmodel"
+	"github.com/namelessup/bilibili/app/admin/main/up/service/cache"
+	"github.com/namelessup/bilibili/app/admin/main/up/service/data"
+	"github.com/namelessup/bilibili/app/admin/main/up/util"
+	"github.com/namelessup/bilibili/app/admin/main/up/util/timerqueue"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 //Service upcrm service

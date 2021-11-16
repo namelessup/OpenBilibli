@@ -3,10 +3,10 @@ package grpc
 import (
 	"context"
 
-	pb "go-common/app/service/main/thumbup/api"
-	"go-common/app/service/main/thumbup/model"
-	"go-common/app/service/main/thumbup/service"
-	"go-common/library/net/rpc/warden"
+	pb "github.com/namelessup/bilibili/app/service/main/thumbup/api"
+	"github.com/namelessup/bilibili/app/service/main/thumbup/model"
+	"github.com/namelessup/bilibili/app/service/main/thumbup/service"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 
 	"github.com/golang/protobuf/ptypes/empty"
 )

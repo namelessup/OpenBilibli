@@ -3,15 +3,15 @@ package dao
 import (
 	"context"
 
-	"go-common/app/service/live/xrewardcenter/conf"
-	"go-common/library/cache/memcache"
-	"go-common/library/cache/redis"
-	xsql "go-common/library/database/sql"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/live/xrewardcenter/conf"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 
-	gift_api "go-common/app/service/live/gift/api/liverpc"
-	room_api "go-common/app/service/live/room/api/liverpc"
-	"go-common/library/net/rpc/liverpc"
+	gift_api "github.com/namelessup/bilibili/app/service/live/gift/api/liverpc"
+	room_api "github.com/namelessup/bilibili/app/service/live/room/api/liverpc"
+	"github.com/namelessup/bilibili/library/net/rpc/liverpc"
 )
 
 // Dao dao

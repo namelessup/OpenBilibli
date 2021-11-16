@@ -6,13 +6,13 @@ import (
 	"github.com/BurntSushi/toml"
 	"github.com/pkg/errors"
 
-	"go-common/library/cache/memcache"
-	"go-common/library/conf"
-	"go-common/library/database/sql"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/conf"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/time"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 var (

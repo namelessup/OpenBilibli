@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"time"
 
-	"go-common/app/admin/main/spy/conf"
-	account "go-common/app/service/main/account/rpc/client"
-	spy "go-common/app/service/main/spy/rpc/client"
-	"go-common/library/cache/memcache"
-	"go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/admin/main/spy/conf"
+	account "github.com/namelessup/bilibili/app/service/main/account/rpc/client"
+	spy "github.com/namelessup/bilibili/app/service/main/spy/rpc/client"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/database/sql"
 )
 
 // Dao struct user of Dao.

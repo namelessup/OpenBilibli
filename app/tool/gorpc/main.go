@@ -32,9 +32,9 @@ import (
 	"log"
 	"path"
 
-	"go-common/app/tool/gorpc/goparser"
-	"go-common/app/tool/gorpc/input"
-	"go-common/app/tool/gorpc/model"
+	"github.com/namelessup/bilibili/app/tool/gorpc/goparser"
+	"github.com/namelessup/bilibili/app/tool/gorpc/input"
+	"github.com/namelessup/bilibili/app/tool/gorpc/model"
 
 	"golang.org/x/tools/imports"
 )

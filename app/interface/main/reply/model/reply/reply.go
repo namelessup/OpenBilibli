@@ -6,9 +6,9 @@ import (
 	"strings"
 	"text/template"
 
-	accmdl "go-common/app/service/main/account/api"
-	"go-common/library/ecode"
-	xtime "go-common/library/time"
+	accmdl "github.com/namelessup/bilibili/app/service/main/account/api"
+	"github.com/namelessup/bilibili/library/ecode"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // subtype

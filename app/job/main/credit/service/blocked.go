@@ -6,10 +6,10 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/job/main/credit/model"
-	blkmdl "go-common/app/service/main/member/model/block"
-	"go-common/library/log"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/job/main/credit/model"
+	blkmdl "github.com/namelessup/bilibili/app/service/main/member/model/block"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // InvalidJury invalid juryer.

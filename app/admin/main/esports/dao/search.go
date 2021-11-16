@@ -3,9 +3,9 @@ package dao
 import (
 	"context"
 
-	"go-common/app/admin/main/esports/model"
-	"go-common/library/database/elastic"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/esports/model"
+	"github.com/namelessup/bilibili/library/database/elastic"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // SearchArc search archive.

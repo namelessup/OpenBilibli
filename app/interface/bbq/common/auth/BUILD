@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["banned.go"],
-    importpath = "go-common/app/interface/bbq/common/auth",
+    importpath = "github.com/namelessup/bilibili/app/interface/bbq/common/auth",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

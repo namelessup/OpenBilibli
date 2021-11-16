@@ -17,7 +17,7 @@ go_library(
         "statistics.go",
         "up_base_Info.go",
     ],
-    importpath = "go-common/app/admin/main/mcn/dao/up",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/mcn/dao/up",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

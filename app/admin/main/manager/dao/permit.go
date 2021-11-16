@@ -6,8 +6,8 @@ import (
 	"encoding/hex"
 	"net/url"
 
-	"go-common/library/ecode"
-	"go-common/library/net/http/blademaster/middleware/permit"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/permit"
 )
 
 const (

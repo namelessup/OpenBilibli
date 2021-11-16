@@ -8,9 +8,9 @@ import (
 	"math/rand"
 	"expvar"
 
-	"go-common/library/log"
-	"go-common/app/service/ops/log-agent/pkg/bufio"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/app/service/ops/log-agent/pkg/bufio"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 var (

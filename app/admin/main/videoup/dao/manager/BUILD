@@ -34,7 +34,7 @@ go_library(
         "reason_log.go",
         "up.go",
     ],
-    importpath = "go-common/app/admin/main/videoup/dao/manager",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/videoup/dao/manager",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

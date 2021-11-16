@@ -3,12 +3,12 @@ package service
 import (
 	"context"
 
-	"go-common/app/interface/main/web/conf"
-	"go-common/app/interface/main/web/model"
-	artmdl "go-common/app/interface/openplatform/article/model"
-	accmdl "go-common/app/service/main/account/api"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/main/web/conf"
+	"github.com/namelessup/bilibili/app/interface/main/web/model"
+	artmdl "github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	accmdl "github.com/namelessup/bilibili/app/service/main/account/api"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 const (

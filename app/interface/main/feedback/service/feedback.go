@@ -9,14 +9,14 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"go-common/app/interface/main/feedback/model"
-	locmdl "go-common/app/service/main/location/model"
-	"go-common/library/database/sql"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
-	xtime "go-common/library/time"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/interface/main/feedback/model"
+	locmdl "github.com/namelessup/bilibili/app/service/main/location/model"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	xtime "github.com/namelessup/bilibili/library/time"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 const (

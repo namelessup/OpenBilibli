@@ -3,12 +3,12 @@ package http
 import (
 	"net/http"
 
-	"go-common/app/job/main/coupon/conf"
-	"go-common/app/job/main/coupon/model"
-	"go-common/app/job/main/coupon/service"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/job/main/coupon/conf"
+	"github.com/namelessup/bilibili/app/job/main/coupon/model"
+	"github.com/namelessup/bilibili/app/job/main/coupon/service"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 var (

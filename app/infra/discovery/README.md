@@ -1,4 +1,4 @@
-# go-common/app/infra/discoveryovery
+# github.com/namelessup/bilibili/app/infra/discoveryovery
 
 ##### 项目简介
 > 1. 服务注册发现

@@ -5,11 +5,11 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/service/main/videoup/model/archive"
-	"go-common/app/service/main/videoup/model/dede"
-	"go-common/app/service/main/videoup/model/message"
-	"go-common/app/service/main/videoup/model/prom"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/videoup/model/archive"
+	"github.com/namelessup/bilibili/app/service/main/videoup/model/dede"
+	"github.com/namelessup/bilibili/app/service/main/videoup/model/message"
+	"github.com/namelessup/bilibili/app/service/main/videoup/model/prom"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) busSyncCid(pad *dede.PadInfo) (err error) {

@@ -11,7 +11,7 @@ go_library(
         "passport-user-job.toml",
         "passport-user-job-uat.toml",
     ],
-    importpath = "go-common/app/job/main/passport-user/cmd",
+    importpath = "github.com/namelessup/bilibili/app/job/main/passport-user/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:private"],
     deps = [

@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"net/url"
 
-	searchMdl "go-common/app/interface/main/tv/model/search"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	searchMdl "github.com/namelessup/bilibili/app/interface/main/tv/model/search"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/pkg/errors"
 )

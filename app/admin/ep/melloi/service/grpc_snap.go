@@ -1,6 +1,6 @@
 package service
 
-import "go-common/app/admin/ep/melloi/model"
+import "github.com/namelessup/bilibili/app/admin/ep/melloi/model"
 
 // QueryGRPCSnapByID  query grpcsnap by id
 func (s *Service) QueryGRPCSnapByID(id int) (*model.GRPCSnap, error) {

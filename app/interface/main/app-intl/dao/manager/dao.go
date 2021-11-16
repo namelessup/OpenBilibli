@@ -3,9 +3,9 @@ package manager
 import (
 	"context"
 
-	"go-common/app/interface/main/app-intl/conf"
-	"go-common/app/interface/main/app-intl/model/manager"
-	xsql "go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/interface/main/app-intl/conf"
+	"github.com/namelessup/bilibili/app/interface/main/app-intl/model/manager"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
 )
 
 const (

@@ -4,8 +4,8 @@ import (
 	"context"
 	"encoding/json"
 
-	"go-common/app/job/main/answer/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/answer/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // AddLabourQuestion  add labour question.

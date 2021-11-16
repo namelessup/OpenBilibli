@@ -6,9 +6,9 @@ import (
 	"strconv"
 	"sync"
 
-	"go-common/app/service/main/favorite/model"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/service/main/favorite/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 // Relations return relations info by fid.

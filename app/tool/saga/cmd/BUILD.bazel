@@ -8,7 +8,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["saga-test.toml"],
-    importpath = "go-common/app/tool/saga/cmd",
+    importpath = "github.com/namelessup/bilibili/app/tool/saga/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:private"],
     deps = [

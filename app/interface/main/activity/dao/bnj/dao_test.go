@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"go-common/app/interface/main/activity/conf"
+	"github.com/namelessup/bilibili/app/interface/main/activity/conf"
 
 	"gopkg.in/h2non/gock.v1"
 )

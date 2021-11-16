@@ -3,11 +3,11 @@ package share
 import (
 	"context"
 
-	"go-common/app/interface/main/web-goblin/conf"
-	"go-common/library/cache/redis"
-	"go-common/library/database/sql"
-	"go-common/library/log"
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/app/interface/main/web-goblin/conf"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/stat/prom"
 )
 
 // Dao dao struct.

@@ -2,8 +2,8 @@ package grpc
 
 import (
 	"context"
-	"go-common/app/service/main/member/api"
-	"go-common/app/service/main/member/model"
+	"github.com/namelessup/bilibili/app/service/main/member/api"
+	"github.com/namelessup/bilibili/app/service/main/member/model"
 )
 
 // Exp get member exp info

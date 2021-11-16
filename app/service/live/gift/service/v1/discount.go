@@ -5,16 +5,16 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"go-common/app/service/live/gift/dao"
-	"go-common/app/service/live/gift/model"
-	v1liveuser "go-common/app/service/live/live_user/api/liverpc/v1"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/live/gift/dao"
+	"github.com/namelessup/bilibili/app/service/live/gift/model"
+	v1liveuser "github.com/namelessup/bilibili/app/service/live/live_user/api/liverpc/v1"
+	"github.com/namelessup/bilibili/library/log"
 	"strconv"
 	"strings"
 	"sync/atomic"
 	"time"
 
-	v1pb "go-common/app/service/live/gift/api/grpc/v1"
+	v1pb "github.com/namelessup/bilibili/app/service/live/gift/api/grpc/v1"
 )
 
 // DiscountCache DiscountCache

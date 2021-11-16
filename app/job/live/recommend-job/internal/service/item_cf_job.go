@@ -17,12 +17,12 @@ import (
 
 	"github.com/siddontang/go/ioutil2"
 
-	"go-common/app/service/live/recommend/recconst"
+	"github.com/namelessup/bilibili/app/service/live/recommend/recconst"
 
-	"go-common/app/job/live/recommend-job/internal/conf"
-	"go-common/library/cache/redis"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/job/live/recommend-job/internal/conf"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 
 	"github.com/pkg/errors"
 )

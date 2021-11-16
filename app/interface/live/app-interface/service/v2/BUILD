@@ -26,7 +26,7 @@ go_library(
         "sky_horse.go",
         "tools.go",
     ],
-    importpath = "go-common/app/interface/live/app-interface/service/v2",
+    importpath = "github.com/namelessup/bilibili/app/interface/live/app-interface/service/v2",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

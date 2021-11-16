@@ -2,8 +2,8 @@ package http
 
 import (
 	"context"
-	"go-common/app/admin/main/up/model"
-	"go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/up/model"
+	"github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func commandRefreshUpRank(c *blademaster.Context) {

@@ -3,11 +3,11 @@ package service
 import (
 	"context"
 
-	"go-common/app/job/live/push-search/conf"
-	"go-common/app/job/live/push-search/dao"
-	accountApi "go-common/app/service/main/account/api"
+	"github.com/namelessup/bilibili/app/job/live/push-search/conf"
+	"github.com/namelessup/bilibili/app/job/live/push-search/dao"
+	accountApi "github.com/namelessup/bilibili/app/service/main/account/api"
 
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/library/queue/databus"
 	"sync"
 )
 

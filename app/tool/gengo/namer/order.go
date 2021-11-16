@@ -3,7 +3,7 @@ package namer
 import (
 	"sort"
 
-	"go-common/app/tool/gengo/types"
+	"github.com/namelessup/bilibili/app/tool/gengo/types"
 )
 
 // Orderer produces an ordering of types given a Namer.

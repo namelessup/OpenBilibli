@@ -6,7 +6,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["conf.go"],
-    importpath = "go-common/app/service/bbq/recsys-recall/conf",
+    importpath = "github.com/namelessup/bilibili/app/service/bbq/recsys-recall/conf",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -1,12 +1,12 @@
 package http
 
 import (
-	"go-common/app/service/main/upcredit/conf"
-	"go-common/app/service/main/upcredit/service"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/permit"
-	"go-common/library/net/http/blademaster/middleware/verify"
+	"github.com/namelessup/bilibili/app/service/main/upcredit/conf"
+	"github.com/namelessup/bilibili/app/service/main/upcredit/service"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/permit"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/verify"
 )
 
 var (

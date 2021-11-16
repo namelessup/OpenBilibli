@@ -6,13 +6,13 @@ import (
 	"sync"
 	"time"
 
-	"go-common/app/job/main/web-goblin/conf"
-	mdlweb "go-common/app/job/main/web-goblin/dao/web"
-	"go-common/app/job/main/web-goblin/model/web"
-	dymdl "go-common/app/service/main/dynamic/model"
-	dyrpc "go-common/app/service/main/dynamic/rpc/client"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/job/main/web-goblin/conf"
+	mdlweb "github.com/namelessup/bilibili/app/job/main/web-goblin/dao/web"
+	"github.com/namelessup/bilibili/app/job/main/web-goblin/model/web"
+	dymdl "github.com/namelessup/bilibili/app/service/main/dynamic/model"
+	dyrpc "github.com/namelessup/bilibili/app/service/main/dynamic/rpc/client"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 // Service struct .

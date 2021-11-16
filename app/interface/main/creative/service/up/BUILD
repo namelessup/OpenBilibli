@@ -12,7 +12,7 @@ go_library(
         "service.go",
         "up.go",
     ],
-    importpath = "go-common/app/interface/main/creative/service/up",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/creative/service/up",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

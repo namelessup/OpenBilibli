@@ -3,12 +3,12 @@ package search
 import (
 	"context"
 	"fmt"
-	"go-common/app/interface/main/creative/dao/tool"
-	resMdl "go-common/app/interface/main/creative/model/resource"
-	"go-common/app/interface/main/creative/model/search"
-	"go-common/library/database/elastic"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/creative/dao/tool"
+	resMdl "github.com/namelessup/bilibili/app/interface/main/creative/model/resource"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/search"
+	"github.com/namelessup/bilibili/library/database/elastic"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 	"time"
 )
 

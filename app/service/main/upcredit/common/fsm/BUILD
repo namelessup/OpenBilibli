@@ -25,7 +25,7 @@ go_library(
         "fsm.go",
         "utils.go",
     ],
-    importpath = "go-common/app/service/main/upcredit/common/fsm",
+    importpath = "github.com/namelessup/bilibili/app/service/main/upcredit/common/fsm",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

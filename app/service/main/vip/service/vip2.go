@@ -6,10 +6,10 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/service/main/vip/model"
-	"go-common/library/database/sql"
-	"go-common/library/ecode"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/service/main/vip/model"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/ecode"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 func changeType(hv *model.HandlerVip) (r int) {

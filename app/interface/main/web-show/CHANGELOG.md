@@ -163,7 +163,7 @@
 
 ##### Version 1.7.0
 
-> 1.更新go-common依赖
+> 1.更新github.com/namelessup/bilibili依赖
 
 ##### Version 1.6.8
 

@@ -15,7 +15,7 @@ go_library(
         "date_statis.go",
         "up_charge.go",
     ],
-    importpath = "go-common/app/job/main/growup/model/charge",
+    importpath = "github.com/namelessup/bilibili/app/job/main/growup/model/charge",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/time:go_default_library"],

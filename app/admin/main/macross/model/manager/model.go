@@ -1,6 +1,6 @@
 package manager
 
-import "go-common/library/time"
+import "github.com/namelessup/bilibili/library/time"
 
 // Model for manager.
 type Model struct {

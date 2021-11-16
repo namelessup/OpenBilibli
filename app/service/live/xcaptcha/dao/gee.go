@@ -5,7 +5,7 @@ import (
 	"crypto/tls"
 	"encoding/json"
 	"errors"
-	"go-common/app/service/live/xcaptcha/conf"
+	"github.com/namelessup/bilibili/app/service/live/xcaptcha/conf"
 	"io/ioutil"
 	"net"
 	"net/http"

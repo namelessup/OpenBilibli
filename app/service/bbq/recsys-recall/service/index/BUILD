@@ -13,7 +13,7 @@ go_library(
         "inverted_index.go",
         "loader.go",
     ],
-    importpath = "go-common/app/service/bbq/recsys-recall/service/index",
+    importpath = "github.com/namelessup/bilibili/app/service/bbq/recsys-recall/service/index",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -3,9 +3,9 @@ package redis
 import (
 	"context"
 	"fmt"
-	"go-common/app/admin/main/aegis/model/monitor"
-	"go-common/library/cache/redis"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model/monitor"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/log"
 	"strconv"
 	"time"
 )

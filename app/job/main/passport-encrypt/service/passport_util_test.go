@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"go-common/app/job/main/passport-encrypt/model"
+	"github.com/namelessup/bilibili/app/job/main/passport-encrypt/model"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

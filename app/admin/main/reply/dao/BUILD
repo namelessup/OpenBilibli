@@ -74,7 +74,7 @@ go_library(
         "subject.go",
         "workflow.go",
     ],
-    importpath = "go-common/app/admin/main/reply/dao",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/reply/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

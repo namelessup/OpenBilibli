@@ -8,8 +8,8 @@ import (
 	"context"
 	"time"
 
-	spy "go-common/app/service/main/spy/model"
-	"go-common/library/log"
+	spy "github.com/namelessup/bilibili/app/service/main/spy/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

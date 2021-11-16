@@ -11,7 +11,7 @@ go_library(
         "rpc.go",
         "thumbup.go",
     ],
-    importpath = "go-common/app/service/main/thumbup/model",
+    importpath = "github.com/namelessup/bilibili/app/service/main/thumbup/model",
     tags = ["automanaged"],
     deps = ["//library/time:go_default_library"],
 )

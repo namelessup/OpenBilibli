@@ -7,15 +7,15 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/library/ecode"
 
 	"github.com/pkg/errors"
 
-	"go-common/app/interface/live/web-ucenter/conf"
-	"go-common/app/interface/live/web-ucenter/model"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/live/web-ucenter/conf"
+	"github.com/namelessup/bilibili/app/interface/live/web-ucenter/model"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 // Dao dao

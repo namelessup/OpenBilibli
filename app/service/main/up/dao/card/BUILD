@@ -14,7 +14,7 @@ go_library(
         "rpc.go",
         "up_base.go",
     ],
-    importpath = "go-common/app/service/main/up/dao/card",
+    importpath = "github.com/namelessup/bilibili/app/service/main/up/dao/card",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

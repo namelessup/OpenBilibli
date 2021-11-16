@@ -5,7 +5,7 @@ import (
 	"flag"
 	"testing"
 
-	"go-common/app/job/main/videoup/conf"
+	"github.com/namelessup/bilibili/app/job/main/videoup/conf"
 
 	. "github.com/smartystreets/goconvey/convey"
 	"path/filepath"

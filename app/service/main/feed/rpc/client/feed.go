@@ -3,9 +3,9 @@ package client
 import (
 	"context"
 
-	artmdl "go-common/app/interface/openplatform/article/model"
-	feedmdl "go-common/app/service/main/feed/model"
-	"go-common/library/net/rpc"
+	artmdl "github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	feedmdl "github.com/namelessup/bilibili/app/service/main/feed/model"
+	"github.com/namelessup/bilibili/library/net/rpc"
 )
 
 const (

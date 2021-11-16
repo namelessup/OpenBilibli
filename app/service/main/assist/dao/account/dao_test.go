@@ -3,9 +3,9 @@ package account
 import (
 	"context"
 	"flag"
-	accapi "go-common/app/service/main/account/api"
-	"go-common/app/service/main/assist/conf"
-	"go-common/library/ecode"
+	accapi "github.com/namelessup/bilibili/app/service/main/account/api"
+	"github.com/namelessup/bilibili/app/service/main/assist/conf"
+	"github.com/namelessup/bilibili/library/ecode"
 	"os"
 	"testing"
 

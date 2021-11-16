@@ -4,7 +4,7 @@ import (
 	iaes "crypto/aes"
 	"testing"
 
-	"go-common/app/interface/main/report-click/service/crypto/cipher"
+	"github.com/namelessup/bilibili/app/interface/main/report-click/service/crypto/cipher"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

@@ -3,8 +3,8 @@ package dao
 import (
 	"context"
 	"fmt"
-	"go-common/app/service/video/stream-mng/model"
-	"go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/service/video/stream-mng/model"
+	"github.com/namelessup/bilibili/library/database/sql"
 	"time"
 
 	"github.com/pkg/errors"

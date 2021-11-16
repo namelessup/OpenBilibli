@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/admin/main/growup/model"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/admin/main/growup/model"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	"github.com/smartystreets/goconvey/convey"
 )

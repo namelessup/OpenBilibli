@@ -2,11 +2,11 @@ package feed
 
 import (
 	"context"
-	resource "go-common/app/service/main/resource/model"
+	resource "github.com/namelessup/bilibili/app/service/main/resource/model"
 	"strconv"
 
-	"go-common/app/interface/main/app-card/model/card/banner"
-	"go-common/app/interface/main/app-feed/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-card/model/card/banner"
+	"github.com/namelessup/bilibili/app/interface/main/app-feed/model"
 )
 
 var (

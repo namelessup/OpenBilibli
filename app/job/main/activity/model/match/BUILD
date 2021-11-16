@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["match.go"],
-    importpath = "go-common/app/job/main/activity/model/match",
+    importpath = "github.com/namelessup/bilibili/app/job/main/activity/model/match",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

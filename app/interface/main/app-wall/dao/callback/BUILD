@@ -21,7 +21,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["callback.go"],
-    importpath = "go-common/app/interface/main/app-wall/dao/callback",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-wall/dao/callback",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

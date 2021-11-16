@@ -3,10 +3,10 @@ package dao
 import (
 	"context"
 
-	archive "go-common/app/service/main/archive/api"
-	ugcpay "go-common/app/service/main/ugcpay/api/grpc/v1"
+	archive "github.com/namelessup/bilibili/app/service/main/archive/api"
+	ugcpay "github.com/namelessup/bilibili/app/service/main/ugcpay/api/grpc/v1"
 
-	"go-common/app/interface/main/ugcpay/model"
+	"github.com/namelessup/bilibili/app/interface/main/ugcpay/model"
 )
 
 // TradeCreate create trade order for mid

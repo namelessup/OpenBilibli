@@ -1,6 +1,6 @@
 package param
 
-import "go-common/app/interface/main/app-resource/model"
+import "github.com/namelessup/bilibili/app/interface/main/app-resource/model"
 
 // Param struct
 type Param struct {

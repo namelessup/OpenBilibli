@@ -6,10 +6,10 @@ import (
 	"os/signal"
 	"syscall"
 
-	"go-common/app/admin/main/vip/conf"
-	"go-common/app/admin/main/vip/http"
-	ecode "go-common/library/ecode/tip"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/vip/conf"
+	"github.com/namelessup/bilibili/app/admin/main/vip/http"
+	ecode "github.com/namelessup/bilibili/library/ecode/tip"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func main() {

@@ -2,8 +2,8 @@ package http
 
 import (
 	"context"
-	"go-common/app/admin/main/up/model/datamodel"
-	"go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/up/model/datamodel"
+	"github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func dataGetFanSummary(c *blademaster.Context) {

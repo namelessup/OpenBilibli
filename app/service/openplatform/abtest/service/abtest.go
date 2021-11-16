@@ -8,10 +8,10 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/service/openplatform/abtest/model"
-	"go-common/app/service/openplatform/abtest/model/jump"
-	"go-common/library/cache/redis"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/openplatform/abtest/model"
+	"github.com/namelessup/bilibili/app/service/openplatform/abtest/model/jump"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 //resetGroupCache 使用数据库信息重置分组缓存

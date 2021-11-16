@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/job/main/tv/dao/lic"
-	model "go-common/app/job/main/tv/model/pgc"
-	ugcmdl "go-common/app/job/main/tv/model/ugc"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/tv/dao/lic"
+	model "github.com/namelessup/bilibili/app/job/main/tv/model/pgc"
+	ugcmdl "github.com/namelessup/bilibili/app/job/main/tv/model/ugc"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // syncLic: sync our arc data to License owner

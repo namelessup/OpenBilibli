@@ -9,14 +9,14 @@ import (
 	"strings"
 	"time"
 
-	coupinv1 "go-common/app/service/main/coupon/api"
-	"go-common/app/service/main/coupon/model"
-	v1 "go-common/app/service/main/vipinfo/api"
-	vimdl "go-common/app/service/main/vipinfo/model"
-	"go-common/library/database/sql"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	xtime "go-common/library/time"
+	coupinv1 "github.com/namelessup/bilibili/app/service/main/coupon/api"
+	"github.com/namelessup/bilibili/app/service/main/coupon/model"
+	v1 "github.com/namelessup/bilibili/app/service/main/vipinfo/api"
+	vimdl "github.com/namelessup/bilibili/app/service/main/vipinfo/model"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	"github.com/pkg/errors"
 )

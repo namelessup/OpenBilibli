@@ -5,11 +5,11 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/interface/main/upload/model"
-	"go-common/library/cache/redis"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/binding"
+	"github.com/namelessup/bilibili/app/interface/main/upload/model"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/binding"
 )
 
 const (

@@ -5,15 +5,15 @@ import (
 	"encoding/json"
 	"time"
 
-	"go-common/app/interface/main/activity/conf"
-	"go-common/app/interface/main/activity/dao/like"
-	"go-common/app/interface/main/activity/dao/timemachine"
-	model "go-common/app/interface/main/activity/model/timemachine"
-	tagclient "go-common/app/interface/main/tag/api"
-	artrpc "go-common/app/interface/openplatform/article/rpc/client"
-	accclient "go-common/app/service/main/account/api"
-	arcclient "go-common/app/service/main/archive/api"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/activity/conf"
+	"github.com/namelessup/bilibili/app/interface/main/activity/dao/like"
+	"github.com/namelessup/bilibili/app/interface/main/activity/dao/timemachine"
+	model "github.com/namelessup/bilibili/app/interface/main/activity/model/timemachine"
+	tagclient "github.com/namelessup/bilibili/app/interface/main/tag/api"
+	artrpc "github.com/namelessup/bilibili/app/interface/openplatform/article/rpc/client"
+	accclient "github.com/namelessup/bilibili/app/service/main/account/api"
+	arcclient "github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

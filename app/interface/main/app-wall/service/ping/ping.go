@@ -3,8 +3,8 @@ package ping
 import (
 	"context"
 
-	"go-common/app/interface/main/app-wall/conf"
-	walldao "go-common/app/interface/main/app-wall/dao/wall"
+	"github.com/namelessup/bilibili/app/interface/main/app-wall/conf"
+	walldao "github.com/namelessup/bilibili/app/interface/main/app-wall/dao/wall"
 )
 
 type Service struct {

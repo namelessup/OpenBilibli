@@ -11,7 +11,7 @@ go_library(
         "figure.go",
         "http.go",
     ],
-    importpath = "go-common/app/service/main/figure/http",
+    importpath = "github.com/namelessup/bilibili/app/service/main/figure/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

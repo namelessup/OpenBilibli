@@ -5,9 +5,9 @@ import (
 	"encoding/json"
 	"strconv"
 
-	"go-common/app/interface/main/web-feed/model"
-	"go-common/library/cache/memcache"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/web-feed/model"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

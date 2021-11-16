@@ -1,4 +1,4 @@
-### Go-Common
+### github.com/namelessup/bilibili
 ### Version 7.19
 1. 更新vendor下github.com/xanzy/go-gitlab包
 
@@ -103,7 +103,7 @@
 2. 修复了databus sdk Commit的饥饿问题
 
 ### Version 7.7.0
-1. 迁移golang库里的redigo到go-common里的cache/redis
+1. 迁移golang库里的redigo到github.com/namelessup/bilibili里的cache/redis
 2. 修复了cache/redis 普罗米修斯耗时、异常上报
 
 ### Version 7.6.0
@@ -190,13 +190,13 @@
 
 喜欢windows开发的同学，可以
 
-syslog -> go-common/syslog（syslog日志收集）；
+syslog -> github.com/namelessup/bilibili/syslog（syslog日志收集）；
 
-os/Signal ->go-common/os/signal，syscall -> go-common/syscall（信号处理）；
+os/Signal ->github.com/namelessup/bilibili/os/signal，syscall -> github.com/namelessup/bilibili/syscall（信号处理）；
 
 
 ### Version 6.20.0
-> 1.迁移golang库中的gomemcache，交由go-common/cache/memcache维护；
+> 1.迁移golang库中的gomemcache，交由github.com/namelessup/bilibili/cache/memcache维护；
 > 2.优化了net/trace包内私有方法；
 
 ### Version 6.19.2

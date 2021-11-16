@@ -6,11 +6,11 @@ import (
 	"testing"
 	"time"
 
-	pb "go-common/app/service/main/location/api"
-	"go-common/app/service/main/location/conf"
-	"go-common/app/service/main/location/service"
-	"go-common/library/net/rpc/warden"
-	xtime "go-common/library/time"
+	pb "github.com/namelessup/bilibili/app/service/main/location/api"
+	"github.com/namelessup/bilibili/app/service/main/location/conf"
+	"github.com/namelessup/bilibili/app/service/main/location/service"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // rpc server const

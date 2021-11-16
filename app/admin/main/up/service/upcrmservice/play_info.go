@@ -3,9 +3,9 @@ package upcrmservice
 import (
 	"context"
 	"errors"
-	"go-common/app/admin/main/up/model/upcrmmodel"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/up/model/upcrmmodel"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 //PlayQueryInfo handle PlayQueryInfo

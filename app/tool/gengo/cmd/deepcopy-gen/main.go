@@ -43,8 +43,8 @@ package main
 import (
 	"flag"
 
-	"go-common/app/tool/gengo/args"
-	"go-common/app/tool/gengo/cmd/deepcopy-gen/generators"
+	"github.com/namelessup/bilibili/app/tool/gengo/args"
+	"github.com/namelessup/bilibili/app/tool/gengo/cmd/deepcopy-gen/generators"
 
 	"github.com/golang/glog"
 )

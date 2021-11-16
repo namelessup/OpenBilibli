@@ -3,10 +3,10 @@ package http
 import (
 	"strconv"
 
-	rsmdl "go-common/app/interface/main/web-show/model/resource"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	rsmdl "github.com/namelessup/bilibili/app/interface/main/web-show/model/resource"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 const (

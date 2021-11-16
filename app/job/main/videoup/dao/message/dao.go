@@ -6,9 +6,9 @@ import (
 	"net/url"
 	"strconv"
 
-	"go-common/app/job/main/videoup/conf"
-	"go-common/library/log"
-	xhttp "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/job/main/videoup/conf"
+	"github.com/namelessup/bilibili/library/log"
+	xhttp "github.com/namelessup/bilibili/library/net/http/blademaster"
 	"strings"
 	"time"
 )

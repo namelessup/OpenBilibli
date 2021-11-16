@@ -4,10 +4,10 @@ import (
 	"context"
 	"runtime"
 
-	"go-common/app/job/main/mcn/conf"
-	"go-common/app/job/main/mcn/dao"
-	accgrpc "go-common/app/service/main/account/api"
-	"go-common/library/sync/pipeline/fanout"
+	"github.com/namelessup/bilibili/app/job/main/mcn/conf"
+	"github.com/namelessup/bilibili/app/job/main/mcn/dao"
+	accgrpc "github.com/namelessup/bilibili/app/service/main/account/api"
+	"github.com/namelessup/bilibili/library/sync/pipeline/fanout"
 
 	"github.com/pkg/errors"
 	"github.com/robfig/cron"

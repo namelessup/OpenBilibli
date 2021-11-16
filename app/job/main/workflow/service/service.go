@@ -4,10 +4,10 @@ import (
 	"context"
 	"sync"
 
-	"go-common/app/job/main/workflow/conf"
-	"go-common/app/job/main/workflow/dao"
-	"go-common/app/job/main/workflow/model"
-	"go-common/library/sync/pipeline/fanout"
+	"github.com/namelessup/bilibili/app/job/main/workflow/conf"
+	"github.com/namelessup/bilibili/app/job/main/workflow/dao"
+	"github.com/namelessup/bilibili/app/job/main/workflow/model"
+	"github.com/namelessup/bilibili/library/sync/pipeline/fanout"
 )
 
 // Service struct of service.

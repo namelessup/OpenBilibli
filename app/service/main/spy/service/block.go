@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"time"
 
-	accmdl "go-common/app/service/main/account/model"
-	"go-common/app/service/main/spy/model"
-	"go-common/library/log"
+	accmdl "github.com/namelessup/bilibili/app/service/main/account/model"
+	"github.com/namelessup/bilibili/app/service/main/spy/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // HandlerFunc block filter handler function.

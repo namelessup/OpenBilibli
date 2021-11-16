@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"net/url"
 
-	"go-common/app/admin/main/tv/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/tv/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const _type = "mp4"

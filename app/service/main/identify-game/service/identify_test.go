@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/service/main/identify-game/conf"
-	"go-common/app/service/main/identify-game/model"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/service/main/identify-game/conf"
+	"github.com/namelessup/bilibili/app/service/main/identify-game/model"
+	"github.com/namelessup/bilibili/library/ecode"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

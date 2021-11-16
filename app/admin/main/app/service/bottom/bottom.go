@@ -6,10 +6,10 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/admin/main/app/conf"
-	bottomdao "go-common/app/admin/main/app/dao/bottom"
-	"go-common/app/admin/main/app/model/bottom"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/app/conf"
+	bottomdao "github.com/namelessup/bilibili/app/admin/main/app/dao/bottom"
+	"github.com/namelessup/bilibili/app/admin/main/app/model/bottom"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Service bottom dao

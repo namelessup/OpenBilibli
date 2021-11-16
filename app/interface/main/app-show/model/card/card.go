@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"strconv"
 
-	"go-common/app/interface/main/app-card/model/card/ai"
-	"go-common/app/interface/main/app-show/model"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/interface/main/app-card/model/card/ai"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/model"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 type Column struct {

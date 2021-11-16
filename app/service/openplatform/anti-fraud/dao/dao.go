@@ -2,12 +2,12 @@ package dao
 
 import (
 	"context"
-	"go-common/app/service/openplatform/anti-fraud/conf"
-	"go-common/app/service/openplatform/anti-fraud/model"
-	"go-common/library/cache/redis"
-	"go-common/library/database/sql"
-	"go-common/library/log"
-	httpx "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/service/openplatform/anti-fraud/conf"
+	"github.com/namelessup/bilibili/app/service/openplatform/anti-fraud/model"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	httpx "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // Dao init dao

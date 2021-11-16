@@ -4,8 +4,8 @@ import (
 	"context"
 	"sort"
 
-	"go-common/app/service/main/feed/dao"
-	feedmdl "go-common/app/service/main/feed/model"
+	"github.com/namelessup/bilibili/app/service/main/feed/dao"
+	feedmdl "github.com/namelessup/bilibili/app/service/main/feed/model"
 )
 
 // BangumiFeed get feed of bangumi.

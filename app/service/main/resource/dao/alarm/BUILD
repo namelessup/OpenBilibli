@@ -29,7 +29,7 @@ go_library(
         "dao.go",
         "wechat.go",
     ],
-    importpath = "go-common/app/service/main/resource/dao/alarm",
+    importpath = "github.com/namelessup/bilibili/app/service/main/resource/dao/alarm",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

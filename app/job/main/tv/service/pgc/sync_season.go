@@ -4,10 +4,10 @@ import (
 	"database/sql"
 	"time"
 
-	"go-common/app/job/main/tv/dao/lic"
-	model "go-common/app/job/main/tv/model/pgc"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/tv/dao/lic"
+	model "github.com/namelessup/bilibili/app/job/main/tv/model/pgc"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Sync modified season data to the license owner

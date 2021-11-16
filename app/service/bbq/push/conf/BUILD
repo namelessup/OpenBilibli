@@ -11,7 +11,7 @@ go_library(
         "conf.go",
         "jpush.go",
     ],
-    importpath = "go-common/app/service/bbq/push/conf",
+    importpath = "github.com/namelessup/bilibili/app/service/bbq/push/conf",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

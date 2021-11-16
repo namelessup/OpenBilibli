@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["growup-interface.toml"],
-    importpath = "go-common/app/interface/main/growup/cmd",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/growup/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

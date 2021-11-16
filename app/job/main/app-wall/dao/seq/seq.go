@@ -3,10 +3,10 @@ package seq
 import (
 	"context"
 
-	"go-common/app/job/main/app-wall/conf"
-	seq "go-common/app/service/main/seq-server/model"
-	seqrpc "go-common/app/service/main/seq-server/rpc/client"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/app-wall/conf"
+	seq "github.com/namelessup/bilibili/app/service/main/seq-server/model"
+	seqrpc "github.com/namelessup/bilibili/app/service/main/seq-server/rpc/client"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 type Dao struct {

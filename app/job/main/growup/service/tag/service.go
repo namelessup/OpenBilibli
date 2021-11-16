@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"time"
 
-	"go-common/app/job/main/growup/conf"
-	"go-common/app/job/main/growup/dao/email"
-	dao "go-common/app/job/main/growup/dao/tag"
-	"go-common/app/job/main/growup/service"
-	"go-common/app/job/main/growup/service/ctrl"
+	"github.com/namelessup/bilibili/app/job/main/growup/conf"
+	"github.com/namelessup/bilibili/app/job/main/growup/dao/email"
+	dao "github.com/namelessup/bilibili/app/job/main/growup/dao/tag"
+	"github.com/namelessup/bilibili/app/job/main/growup/service"
+	"github.com/namelessup/bilibili/app/job/main/growup/service/ctrl"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Service struct

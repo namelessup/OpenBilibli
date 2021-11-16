@@ -19,7 +19,7 @@ go_library(
         "convey-test.toml",
         "feedback-test.toml",
     ],
-    importpath = "go-common/app/interface/main/feedback/cmd",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/feedback/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -2,9 +2,9 @@ package archive
 
 import (
 	"context"
-	"go-common/app/admin/main/videoup/model/archive"
-	"go-common/library/database/sql"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/videoup/model/archive"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const _mosaic = "SELECT id, aid, cid, coordinate,ctime FROM archive_video_mosaic WHERE cid=?"

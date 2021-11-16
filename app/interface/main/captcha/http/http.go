@@ -3,12 +3,12 @@ package http
 import (
 	"net/http"
 
-	"go-common/app/interface/main/captcha/conf"
-	"go-common/app/interface/main/captcha/service"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/rate"
-	verifyx "go-common/library/net/http/blademaster/middleware/verify"
+	"github.com/namelessup/bilibili/app/interface/main/captcha/conf"
+	"github.com/namelessup/bilibili/app/interface/main/captcha/service"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/rate"
+	verifyx "github.com/namelessup/bilibili/library/net/http/blademaster/middleware/verify"
 )
 
 var (

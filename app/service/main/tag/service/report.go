@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
-	v1 "go-common/app/service/main/tag/api"
-	"go-common/app/service/main/tag/model"
-	"go-common/library/database/sql"
-	"go-common/library/ecode"
-	xtime "go-common/library/time"
+	v1 "github.com/namelessup/bilibili/app/service/main/tag/api"
+	"github.com/namelessup/bilibili/app/service/main/tag/model"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/ecode"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 func (s *Service) checkRepeatReport(c context.Context, oid, tid, mid, rptMid int64, typ, action int32) (rptID int64, err error) {

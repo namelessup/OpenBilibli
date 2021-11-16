@@ -7,9 +7,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"go-common/app/service/main/push/conf"
-	"go-common/app/service/main/push/model"
-	"go-common/library/cache/redis"
+	"github.com/namelessup/bilibili/app/service/main/push/conf"
+	"github.com/namelessup/bilibili/app/service/main/push/model"
+	"github.com/namelessup/bilibili/library/cache/redis"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

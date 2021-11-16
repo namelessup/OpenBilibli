@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["workflow-service.toml"],
-    importpath = "go-common/app/service/main/workflow/cmd",
+    importpath = "github.com/namelessup/bilibili/app/service/main/workflow/cmd",
     tags = ["automanaged"],
     deps = [
         "//app/service/main/workflow/conf:go_default_library",

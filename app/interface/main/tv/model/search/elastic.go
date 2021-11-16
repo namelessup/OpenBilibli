@@ -3,9 +3,9 @@ package search
 import (
 	"encoding/json"
 
-	"go-common/app/interface/main/tv/model"
-	"go-common/app/interface/main/tv/model/thirdp"
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/app/interface/main/tv/model"
+	"github.com/namelessup/bilibili/app/interface/main/tv/model/thirdp"
+	"github.com/namelessup/bilibili/library/time"
 
 	"github.com/siddontang/go-mysql/mysql"
 )

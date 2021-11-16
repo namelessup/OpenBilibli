@@ -11,7 +11,7 @@ go_library(
         "http.go",
         "stat.go",
     ],
-    importpath = "go-common/app/job/main/passport-game-data/http",
+    importpath = "github.com/namelessup/bilibili/app/job/main/passport-game-data/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

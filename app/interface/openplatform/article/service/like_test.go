@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	thumbupMdl "go-common/app/service/main/thumbup/model"
-	thumbup "go-common/app/service/main/thumbup/rpc/client"
+	thumbupMdl "github.com/namelessup/bilibili/app/service/main/thumbup/model"
+	thumbup "github.com/namelessup/bilibili/app/service/main/thumbup/rpc/client"
 
 	"github.com/golang/mock/gomock"
 	. "github.com/smartystreets/goconvey/convey"

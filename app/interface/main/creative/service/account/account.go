@@ -2,15 +2,15 @@ package account
 
 import (
 	"context"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 	"time"
 
-	accmdl "go-common/app/interface/main/creative/model/account"
-	account "go-common/app/service/main/account/model"
-	"go-common/library/ecode"
-	xtime "go-common/library/time"
+	accmdl "github.com/namelessup/bilibili/app/interface/main/creative/model/account"
+	account "github.com/namelessup/bilibili/app/service/main/account/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	xtime "github.com/namelessup/bilibili/library/time"
 	"sync"
 )
 

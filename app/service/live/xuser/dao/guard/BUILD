@@ -13,7 +13,7 @@ go_library(
         "mysql.go",
         "redis.go",
     ],
-    importpath = "go-common/app/service/live/xuser/dao/guard",
+    importpath = "github.com/namelessup/bilibili/app/service/live/xuser/dao/guard",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -1,12 +1,12 @@
 package gorpc
 
 import (
-	"go-common/app/interface/main/history/conf"
-	"go-common/app/interface/main/history/model"
-	"go-common/app/interface/main/history/service"
-	"go-common/library/ecode"
-	"go-common/library/net/rpc"
-	"go-common/library/net/rpc/context"
+	"github.com/namelessup/bilibili/app/interface/main/history/conf"
+	"github.com/namelessup/bilibili/app/interface/main/history/model"
+	"github.com/namelessup/bilibili/app/interface/main/history/service"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/net/rpc"
+	"github.com/namelessup/bilibili/library/net/rpc/context"
 )
 
 // RPC represent rpc server

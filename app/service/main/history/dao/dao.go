@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/service/main/history/conf"
-	"go-common/app/service/main/history/model"
-	"go-common/library/cache/redis"
-	"go-common/library/database/tidb"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/service/main/history/conf"
+	"github.com/namelessup/bilibili/app/service/main/history/model"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/database/tidb"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 // Dao dao

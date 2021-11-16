@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	bm "go-common/library/net/http/blademaster"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func TestLimiterUrl(t *testing.T) {

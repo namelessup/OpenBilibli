@@ -8,9 +8,9 @@ import (
 	"encoding/json"
 	"net"
 
-	"go-common/library/log"
-	"go-common/app/service/ops/log-agent/pkg/flowmonitor/counter"
-	"go-common/app/service/ops/log-agent/event"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/app/service/ops/log-agent/pkg/flowmonitor/counter"
+	"github.com/namelessup/bilibili/app/service/ops/log-agent/event"
 )
 
 type FlowMonitor struct {

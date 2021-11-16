@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["admin_log.go"],
-    importpath = "go-common/app/interface/main/reply/model/adminlog",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/reply/model/adminlog",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

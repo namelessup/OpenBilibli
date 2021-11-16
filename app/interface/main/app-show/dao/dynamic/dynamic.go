@@ -3,11 +3,11 @@ package dynamic
 import (
 	"context"
 
-	"go-common/app/interface/main/app-show/conf"
-	"go-common/app/service/main/archive/api"
-	dynarc "go-common/app/service/main/dynamic/model"
-	dynrpc "go-common/app/service/main/dynamic/rpc/client"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/conf"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	dynarc "github.com/namelessup/bilibili/app/service/main/dynamic/model"
+	dynrpc "github.com/namelessup/bilibili/app/service/main/dynamic/rpc/client"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Dao is rpc dao.

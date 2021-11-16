@@ -6,11 +6,11 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/job/live/wallet/conf"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/live/wallet/conf"
+	"github.com/namelessup/bilibili/library/log"
 
 	. "github.com/smartystreets/goconvey/convey"
-	"go-common/app/job/live/wallet/model"
+	"github.com/namelessup/bilibili/app/job/live/wallet/model"
 )
 
 var (

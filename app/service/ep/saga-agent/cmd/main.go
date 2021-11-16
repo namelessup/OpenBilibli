@@ -5,9 +5,9 @@ import (
 	"os/signal"
 	"syscall"
 
-	"go-common/app/service/ep/saga-agent/conf"
-	"go-common/app/service/ep/saga-agent/service/agent"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/ep/saga-agent/conf"
+	"github.com/namelessup/bilibili/app/service/ep/saga-agent/service/agent"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func listenSignal() {

@@ -10,13 +10,13 @@ import (
 
 	"github.com/pkg/errors"
 
-	"go-common/app/service/live/recommend/internal/conf"
-	"go-common/app/service/live/recommend/recconst"
-	relation_api "go-common/app/service/live/relation/api/liverpc"
-	room_api "go-common/app/service/live/room/api/liverpc"
-	"go-common/library/cache/redis"
-	"go-common/library/log"
-	"go-common/library/net/rpc/liverpc"
+	"github.com/namelessup/bilibili/app/service/live/recommend/internal/conf"
+	"github.com/namelessup/bilibili/app/service/live/recommend/recconst"
+	relation_api "github.com/namelessup/bilibili/app/service/live/relation/api/liverpc"
+	room_api "github.com/namelessup/bilibili/app/service/live/room/api/liverpc"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/rpc/liverpc"
 )
 
 var _userRecCandidateKey = "rec_candidate_%d"

@@ -1,13 +1,13 @@
 package http
 
 import (
-	grpc "go-common/app/service/bbq/push/api/grpc/v1"
-	"go-common/app/service/bbq/push/api/http/v1"
-	"go-common/app/service/bbq/push/conf"
-	"go-common/app/service/bbq/push/service"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/verify"
+	grpc "github.com/namelessup/bilibili/app/service/bbq/push/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/bbq/push/api/http/v1"
+	"github.com/namelessup/bilibili/app/service/bbq/push/conf"
+	"github.com/namelessup/bilibili/app/service/bbq/push/service"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/verify"
 
 	"github.com/json-iterator/go"
 

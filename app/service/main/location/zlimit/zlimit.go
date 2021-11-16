@@ -4,14 +4,14 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/service/main/location/model"
-	"go-common/library/cache/redis"
-	"go-common/library/database/sql"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	xip "go-common/library/net/ip"
-	xtime "go-common/library/time"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/service/main/location/model"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	xip "github.com/namelessup/bilibili/library/net/ip"
+	xtime "github.com/namelessup/bilibili/library/time"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 const (

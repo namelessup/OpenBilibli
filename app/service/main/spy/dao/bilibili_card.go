@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"net/url"
 
-	"go-common/app/service/main/spy/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/spy/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // UnicomGiftState get unicom gift state by mid from account service.

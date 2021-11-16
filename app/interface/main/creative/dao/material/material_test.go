@@ -3,7 +3,7 @@ package material
 import (
 	"context"
 	"fmt"
-	xsql "go-common/library/database/sql"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
 	"reflect"
 	"testing"
 

@@ -3,16 +3,16 @@ package http
 import (
 	"net/http"
 
-	webucenter_http "go-common/app/interface/live/web-ucenter/api/http"
-	"go-common/app/interface/live/web-ucenter/api/http/v1"
+	webucenter_http "github.com/namelessup/bilibili/app/interface/live/web-ucenter/api/http"
+	"github.com/namelessup/bilibili/app/interface/live/web-ucenter/api/http/v1"
 
-	"go-common/app/interface/live/web-ucenter/conf"
-	"go-common/app/interface/live/web-ucenter/dao"
-	webcenterSvc "go-common/app/interface/live/web-ucenter/service/v1"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/auth"
-	"go-common/library/net/http/blademaster/middleware/verify"
+	"github.com/namelessup/bilibili/app/interface/live/web-ucenter/conf"
+	"github.com/namelessup/bilibili/app/interface/live/web-ucenter/dao"
+	webcenterSvc "github.com/namelessup/bilibili/app/interface/live/web-ucenter/service/v1"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/auth"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/verify"
 )
 
 var (

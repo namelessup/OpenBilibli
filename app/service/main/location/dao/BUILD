@@ -30,7 +30,7 @@ go_library(
         "redis.go",
         "zlimit.go",
     ],
-    importpath = "go-common/app/service/main/location/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/main/location/dao",
     tags = ["automanaged"],
     deps = [
         "//app/service/main/location/conf:go_default_library",

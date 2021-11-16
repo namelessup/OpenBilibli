@@ -1,7 +1,7 @@
 package upcrmmodel
 
 import (
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 const (

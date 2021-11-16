@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"context"
 
-	"go-common/app/admin/main/feed/conf"
-	bfsdao "go-common/app/admin/main/feed/dao/bfs"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/feed/conf"
+	bfsdao "github.com/namelessup/bilibili/app/admin/main/feed/dao/bfs"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Service bfs service.

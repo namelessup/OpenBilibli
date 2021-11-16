@@ -6,9 +6,9 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/admin/main/creative/model/task"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/creative/model/task"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 //TaskGroupRewards for task group & rewards.

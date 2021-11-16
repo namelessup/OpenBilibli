@@ -5,14 +5,14 @@ import (
 	"encoding/json"
 	"time"
 
-	"go-common/library/cache/redis"
+	"github.com/namelessup/bilibili/library/cache/redis"
 
-	"go-common/app/service/live/dao-anchor/api/grpc/v0"
-	"go-common/app/service/live/dao-anchor/conf"
+	"github.com/namelessup/bilibili/app/service/live/dao-anchor/api/grpc/v0"
+	"github.com/namelessup/bilibili/app/service/live/dao-anchor/conf"
 
-	"go-common/app/service/live/dao-anchor/api/grpc/v1"
-	"go-common/app/service/live/dao-anchor/dao"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/live/dao-anchor/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/live/dao-anchor/dao"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // CreateDataService struct

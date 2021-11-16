@@ -14,7 +14,7 @@ go_library(
         "token_proxy.go",
         "user_proxy.go",
     ],
-    importpath = "go-common/app/interface/main/passport-login/server/http",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/passport-login/server/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

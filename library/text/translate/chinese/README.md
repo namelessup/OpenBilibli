@@ -14,7 +14,7 @@ import (
 	"log"
 	"context"
 
-	"go-common/library/text/translate/chinese"
+	"github.com/namelessup/bilibili/library/text/translate/chinese"
 )
 
 func main() {

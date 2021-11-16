@@ -11,7 +11,7 @@ go_library(
         "like.go",
         "subject.go",
     ],
-    importpath = "go-common/app/job/main/activity/model/like",
+    importpath = "github.com/namelessup/bilibili/app/job/main/activity/model/like",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

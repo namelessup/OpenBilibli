@@ -83,7 +83,7 @@ go_library(
         "top_dy.go",
         "top_photo.go",
     ],
-    importpath = "go-common/app/interface/main/space/dao",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/space/dao",
     tags = ["automanaged"],
     deps = [
         "//app/interface/main/space/conf:go_default_library",

@@ -12,7 +12,7 @@ go_library(
         "service.go",
         "verify.go",
     ],
-    importpath = "go-common/app/service/main/open/service",
+    importpath = "github.com/namelessup/bilibili/app/service/main/open/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

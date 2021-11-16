@@ -1,6 +1,6 @@
 package model
 
-import xtime "go-common/library/time"
+import xtime "github.com/namelessup/bilibili/library/time"
 
 // Kv baidu kv struct.
 type Kv struct {

@@ -26,7 +26,7 @@ go_library(
         "kpi_func.go",
         "service.go",
     ],
-    importpath = "go-common/app/job/main/credit-timer/service",
+    importpath = "github.com/namelessup/bilibili/app/job/main/credit-timer/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

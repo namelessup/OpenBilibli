@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["bufio.go"],
-    importpath = "go-common/app/service/main/broadcast/libs/bufio",
+    importpath = "github.com/namelessup/bilibili/app/service/main/broadcast/libs/bufio",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

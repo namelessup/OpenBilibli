@@ -5,7 +5,7 @@ import (
 	"sort"
 	"strings"
 
-	"go-common/app/service/main/broadcast/model"
+	"github.com/namelessup/bilibili/app/service/main/broadcast/model"
 )
 
 var (

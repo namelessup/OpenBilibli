@@ -184,7 +184,7 @@
 
 ##### Version 2.5.11
 
-> 1.升级go-common，go-business(去掉panic)  
+> 1.升级github.com/namelessup/bilibili，go-business(去掉panic)  
 > 2.接入prom  
 > 3.增加对m域名的区分上报  
 

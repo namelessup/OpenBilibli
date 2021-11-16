@@ -31,8 +31,8 @@ go_library(
         "upcrm.go",
         "upload.go",
     ],
-    importmap = "go-common/app/admin/main/up/http",
-    importpath = "go-common/app/admin/main/up/http",
+    importmap = "github.com/namelessup/bilibili/app/admin/main/up/http",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/up/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -3,8 +3,8 @@ package gorpc
 import (
 	"context"
 
-	rpcmodel "go-common/app/service/main/member/model/block"
-	"go-common/library/ecode"
+	rpcmodel "github.com/namelessup/bilibili/app/service/main/member/model/block"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 const (

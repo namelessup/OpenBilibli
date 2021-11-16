@@ -6,9 +6,9 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/app/job/bbq/recall/proto"
-	"go-common/app/service/bbq/recsys-recall/conf"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/bbq/recall/proto"
+	"github.com/namelessup/bilibili/app/service/bbq/recsys-recall/conf"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 var (

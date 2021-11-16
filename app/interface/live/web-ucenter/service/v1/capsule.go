@@ -9,16 +9,16 @@ import (
 
 	"google.golang.org/grpc/status"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/pkg/errors"
 
-	v1pb "go-common/app/interface/live/web-ucenter/api/http/v1"
-	"go-common/app/interface/live/web-ucenter/conf"
-	capsuledao "go-common/app/interface/live/web-ucenter/dao/capsule"
-	"go-common/library/log/infoc"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/metadata"
+	v1pb "github.com/namelessup/bilibili/app/interface/live/web-ucenter/api/http/v1"
+	"github.com/namelessup/bilibili/app/interface/live/web-ucenter/conf"
+	capsuledao "github.com/namelessup/bilibili/app/interface/live/web-ucenter/dao/capsule"
+	"github.com/namelessup/bilibili/library/log/infoc"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 // CapsuleService struct

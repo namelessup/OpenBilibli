@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 func TestService_Oauth(t *testing.T) {

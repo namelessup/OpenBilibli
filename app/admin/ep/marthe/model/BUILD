@@ -15,7 +15,7 @@ go_library(
         "tapd.go",
         "wechat.go",
     ],
-    importpath = "go-common/app/admin/ep/marthe/model",
+    importpath = "github.com/namelessup/bilibili/app/admin/ep/marthe/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/ecode:go_default_library"],

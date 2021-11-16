@@ -27,7 +27,7 @@ filegroup(
 go_library(
     name = "go_default_library",
     srcs = ["main.go"],
-    importpath = "go-common/app/tool/gorpc",
+    importpath = "github.com/namelessup/bilibili/app/tool/gorpc",
     tags = ["automanaged"],
     deps = [
         "//app/tool/gorpc/goparser:go_default_library",

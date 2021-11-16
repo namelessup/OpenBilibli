@@ -15,7 +15,7 @@ go_library(
         "local.go",
         "region.go",
     ],
-    importpath = "go-common/app/interface/main/app-feed/http",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-feed/http",
     tags = ["automanaged"],
     deps = [
         "//app/interface/main/app-card/model:go_default_library",

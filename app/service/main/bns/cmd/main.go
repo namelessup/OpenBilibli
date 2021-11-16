@@ -7,11 +7,11 @@ import (
 	"os/signal"
 	"syscall"
 
-	"go-common/app/service/main/bns/agent"
-	"go-common/app/service/main/bns/conf"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/bns/agent"
+	"github.com/namelessup/bilibili/app/service/main/bns/conf"
+	"github.com/namelessup/bilibili/library/log"
 
-	_ "go-common/app/service/main/bns/agent/backend/discovery"
+	_ "github.com/namelessup/bilibili/app/service/main/bns/agent/backend/discovery"
 )
 
 var confPath string

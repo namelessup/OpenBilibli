@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/job/openplatform/open-market/conf"
-	"go-common/library/database/sql"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/job/openplatform/open-market/conf"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 
 	elastic "gopkg.in/olivere/elastic.v5"
 )

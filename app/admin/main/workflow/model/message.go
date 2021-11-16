@@ -3,7 +3,7 @@ package model
 import (
 	"fmt"
 
-	"go-common/app/admin/main/workflow/model/param"
+	"github.com/namelessup/bilibili/app/admin/main/workflow/model/param"
 )
 
 // message mc

@@ -2,7 +2,7 @@ package gorm
 
 import (
 	"context"
-	"go-common/app/admin/main/aegis/model/business"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model/business"
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"

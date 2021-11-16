@@ -23,7 +23,7 @@ import proto "github.com/gogo/protobuf/proto"
 import fmt "fmt"
 import math "math"
 import _ "github.com/gogo/protobuf/gogoproto"
-import main_account_ugcpay_service_model "go-common/app/service/main/ugcpay-rank/internal/model"
+import main_account_ugcpay_service_model "github.com/namelessup/bilibili/app/service/main/ugcpay-rank/internal/model"
 import google_protobuf1 "github.com/golang/protobuf/ptypes/empty"
 
 import context "golang.org/x/net/context"

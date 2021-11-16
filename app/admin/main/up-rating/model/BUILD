@@ -12,7 +12,7 @@ go_library(
         "score.go",
         "statistics.go",
     ],
-    importpath = "go-common/app/admin/main/up-rating/model",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/up-rating/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/time:go_default_library"],

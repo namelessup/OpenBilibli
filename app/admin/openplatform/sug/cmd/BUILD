@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["local-sug-test.toml"],
-    importpath = "go-common/app/admin/openplatform/sug/cmd",
+    importpath = "github.com/namelessup/bilibili/app/admin/openplatform/sug/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

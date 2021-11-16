@@ -2,8 +2,8 @@ package roomAdmin
 
 import (
 	"context"
-	"go-common/app/service/live/xuser/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/live/xuser/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // GetByUserMysql get admins by user .

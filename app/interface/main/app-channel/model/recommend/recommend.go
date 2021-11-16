@@ -3,8 +3,8 @@ package recommend
 import (
 	"encoding/json"
 
-	tag "go-common/app/interface/main/tag/model"
-	"go-common/app/service/main/archive/api"
+	tag "github.com/namelessup/bilibili/app/interface/main/tag/model"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
 )
 
 type Item struct {

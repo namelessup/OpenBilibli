@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["push-live-test.toml"],
-    importpath = "go-common/app/interface/live/push-live/cmd",
+    importpath = "github.com/namelessup/bilibili/app/interface/live/push-live/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

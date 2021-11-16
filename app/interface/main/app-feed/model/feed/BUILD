@@ -11,7 +11,7 @@ go_library(
         "feed.go",
         "player.go",
     ],
-    importpath = "go-common/app/interface/main/app-feed/model/feed",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-feed/model/feed",
     tags = ["automanaged"],
     deps = [
         "//app/interface/main/app-card/model:go_default_library",

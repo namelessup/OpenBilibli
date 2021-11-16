@@ -3,7 +3,7 @@ package lancergrpc
 import (
 	"bytes"
 	"time"
-	"go-common/app/service/ops/log-agent/event"
+	"github.com/namelessup/bilibili/app/service/ops/log-agent/event"
 )
 
 const (

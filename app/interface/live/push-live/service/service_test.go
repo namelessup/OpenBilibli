@@ -4,8 +4,8 @@ import (
 	"context"
 	"flag"
 	. "github.com/smartystreets/goconvey/convey"
-	"go-common/app/interface/live/push-live/conf"
-	"go-common/library/cache/redis"
+	"github.com/namelessup/bilibili/app/interface/live/push-live/conf"
+	"github.com/namelessup/bilibili/library/cache/redis"
 	"path/filepath"
 	"testing"
 )

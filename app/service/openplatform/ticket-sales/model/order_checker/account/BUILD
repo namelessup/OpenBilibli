@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["account.go"],
-    importpath = "go-common/app/service/openplatform/ticket-sales/model/order_checker/account",
+    importpath = "github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/model/order_checker/account",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

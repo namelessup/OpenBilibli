@@ -33,7 +33,7 @@ go_library(
         "pub.go",
         "sub.go",
     ],
-    importpath = "go-common/app/infra/notify/notify",
+    importpath = "github.com/namelessup/bilibili/app/infra/notify/notify",
     tags = ["automanaged"],
     deps = [
         "//app/infra/notify/conf:go_default_library",

@@ -1,7 +1,7 @@
 package server
 
 import (
-	"go-common/app/interface/main/broadcast/conf"
+	"github.com/namelessup/bilibili/app/interface/main/broadcast/conf"
 	"log"
 	"os"
 )

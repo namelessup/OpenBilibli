@@ -8,10 +8,10 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/job/main/sms/conf"
-	"go-common/app/job/main/sms/model"
-	smsmdl "go-common/app/service/main/sms/model"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/app/job/main/sms/conf"
+	"github.com/namelessup/bilibili/app/job/main/sms/model"
+	smsmdl "github.com/namelessup/bilibili/app/service/main/sms/model"
+	"github.com/namelessup/bilibili/library/net/trace"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

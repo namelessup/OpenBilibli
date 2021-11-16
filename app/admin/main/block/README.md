@@ -7,4 +7,4 @@
 1.golang 1.8 以上
 
 # 依赖包
-go-common
+github.com/namelessup/bilibili

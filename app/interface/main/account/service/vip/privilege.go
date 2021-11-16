@@ -3,7 +3,7 @@ package vip
 import (
 	"context"
 
-	"go-common/app/service/main/vip/model"
+	"github.com/namelessup/bilibili/app/service/main/vip/model"
 )
 
 // PrivilegebySid privilege by sid.

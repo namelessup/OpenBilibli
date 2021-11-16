@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/interface/main/app-channel/conf"
-	tag "go-common/app/interface/main/tag/model"
-	tagrpc "go-common/app/interface/main/tag/rpc/client"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/interface/main/app-channel/conf"
+	tag "github.com/namelessup/bilibili/app/interface/main/tag/model"
+	tagrpc "github.com/namelessup/bilibili/app/interface/main/tag/rpc/client"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // Dao tag

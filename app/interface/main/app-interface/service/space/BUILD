@@ -32,7 +32,7 @@ go_library(
         "service.go",
         "space.go",
     ],
-    importpath = "go-common/app/interface/main/app-interface/service/space",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-interface/service/space",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

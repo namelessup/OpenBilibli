@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/job/main/thumbup/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/thumbup/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // PubStatDatabus .

@@ -4,9 +4,9 @@ package dao
 // 	"context"
 // 	"fmt"
 
-// 	"go-common/app/job/main/account-summary/model"
-// 	member "go-common/app/service/main/member/model"
-// 	"go-common/library/log"
+// 	"github.com/namelessup/bilibili/app/job/main/account-summary/model"
+// 	member "github.com/namelessup/bilibili/app/service/main/member/model"
+// 	"github.com/namelessup/bilibili/library/log"
 
 // 	"github.com/pkg/errors"
 // )

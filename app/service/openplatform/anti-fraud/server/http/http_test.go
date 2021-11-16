@@ -4,8 +4,8 @@ import (
 	"flag"
 	"fmt"
 
-	"go-common/app/service/openplatform/anti-fraud/conf"
-	httpx "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/service/openplatform/anti-fraud/conf"
+	httpx "github.com/namelessup/bilibili/library/net/http/blademaster"
 
 	_ "github.com/smartystreets/goconvey/convey"
 )

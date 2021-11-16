@@ -1,12 +1,12 @@
 package http
 
 import (
-	"go-common/app/service/main/member/conf"
-	"go-common/app/service/main/member/server/http/block"
-	"go-common/app/service/main/member/service"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	v "go-common/library/net/http/blademaster/middleware/verify"
+	"github.com/namelessup/bilibili/app/service/main/member/conf"
+	"github.com/namelessup/bilibili/app/service/main/member/server/http/block"
+	"github.com/namelessup/bilibili/app/service/main/member/service"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	v "github.com/namelessup/bilibili/library/net/http/blademaster/middleware/verify"
 	"net/http"
 )
 

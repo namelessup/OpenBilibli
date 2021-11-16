@@ -9,7 +9,7 @@ import math "math"
 import _ "github.com/gogo/protobuf/gogoproto"
 import empty "github.com/golang/protobuf/ptypes/empty"
 
-import go_common_library_time "go-common/library/time"
+import go_common_library_time "github.com/namelessup/bilibili/library/time"
 
 import (
 	context "golang.org/x/net/context"
@@ -248,7 +248,7 @@ type NoticeBase struct {
 	NoticeType           int32                       `protobuf:"varint,8,opt,name=notice_type,json=noticeType,proto3" json:"notice_type" form:"notice_type" validate:"required"`
 	BizType              int32                       `protobuf:"varint,9,opt,name=biz_type,json=bizType,proto3" json:"biz_type" form:"biz_type"`
 	BizId                int64                       `protobuf:"varint,10,opt,name=biz_id,json=bizId,proto3" json:"biz_id" form:"biz_id"`
-	NoticeTime           go_common_library_time.Time `protobuf:"varint,11,opt,name=notice_time,json=noticeTime,proto3,casttype=go-common/library/time.Time" json:"notice_time"`
+	NoticeTime           go_common_library_time.Time `protobuf:"varint,11,opt,name=notice_time,json=noticeTime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"notice_time"`
 	Buvid                string                      `protobuf:"bytes,12,opt,name=buvid,proto3" json:"buvid" form:"buvid"`
 	XXX_NoUnkeyedLiteral struct{}                    `json:"-"`
 	XXX_unrecognized     []byte                      `json:"-"`
@@ -420,9 +420,9 @@ type UserPushDev struct {
 	Sdk                  int8                        `protobuf:"varint,5,opt,name=sdk,proto3,casttype=int8" json:"sdk" form:"sdk"`
 	Platform             int8                        `protobuf:"varint,6,opt,name=platform,proto3,casttype=int8" json:"platform" form:"platform"`
 	State                int8                        `protobuf:"varint,7,opt,name=state,proto3,casttype=int8" json:"state" form:"state"`
-	LastLoginTime        go_common_library_time.Time `protobuf:"varint,8,opt,name=last_login_time,json=lastLoginTime,proto3,casttype=go-common/library/time.Time" json:"last_login_time" form:"last_login_time"`
-	Ctime                go_common_library_time.Time `protobuf:"varint,9,opt,name=ctime,proto3,casttype=go-common/library/time.Time" json:"ctime"`
-	Mtime                go_common_library_time.Time `protobuf:"varint,10,opt,name=mtime,proto3,casttype=go-common/library/time.Time" json:"mtime"`
+	LastLoginTime        go_common_library_time.Time `protobuf:"varint,8,opt,name=last_login_time,json=lastLoginTime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"last_login_time" form:"last_login_time"`
+	Ctime                go_common_library_time.Time `protobuf:"varint,9,opt,name=ctime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"ctime"`
+	Mtime                go_common_library_time.Time `protobuf:"varint,10,opt,name=mtime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"mtime"`
 	XXX_NoUnkeyedLiteral struct{}                    `json:"-"`
 	XXX_unrecognized     []byte                      `json:"-"`
 	XXX_sizecache        int32                       `json:"-"`

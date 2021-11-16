@@ -4,11 +4,11 @@ import (
 	"context"
 	"fmt"
 
-	v2pb "go-common/app/interface/live/app-interface/api/http/v2"
-	"go-common/app/interface/live/app-interface/dao"
-	roomV2 "go-common/app/service/live/room/api/liverpc/v2"
-	"go-common/library/log"
-	"go-common/library/xstr"
+	v2pb "github.com/namelessup/bilibili/app/interface/live/app-interface/api/http/v2"
+	"github.com/namelessup/bilibili/app/interface/live/app-interface/dao"
+	roomV2 "github.com/namelessup/bilibili/app/service/live/room/api/liverpc/v2"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 type multiModuleInfo struct {

@@ -16,14 +16,14 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go-common/library/conf/env"
-	"go-common/library/ecode"
-	xlog "go-common/library/log"
-	"go-common/library/net/metadata"
-	"go-common/library/net/netutil/breaker"
-	"go-common/library/net/trace"
-	"go-common/library/stat"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/library/conf/env"
+	"github.com/namelessup/bilibili/library/ecode"
+	xlog "github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/net/netutil/breaker"
+	"github.com/namelessup/bilibili/library/net/trace"
+	"github.com/namelessup/bilibili/library/stat"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	perr "github.com/pkg/errors"
 )

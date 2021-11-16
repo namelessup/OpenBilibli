@@ -13,7 +13,7 @@ go_library(
         "music.go",
         "video.go",
     ],
-    importpath = "go-common/app/job/main/favorite/model",
+    importpath = "github.com/namelessup/bilibili/app/job/main/favorite/model",
     tags = ["automanaged"],
     deps = ["//library/time:go_default_library"],
 )

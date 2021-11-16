@@ -13,7 +13,7 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // wechatResp 企业微信的响应

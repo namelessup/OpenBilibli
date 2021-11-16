@@ -4,8 +4,8 @@ import (
 	"flag"
 	"os"
 
-	"go-common/library/conf"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/conf"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/BurntSushi/toml"
 	"github.com/pkg/errors"

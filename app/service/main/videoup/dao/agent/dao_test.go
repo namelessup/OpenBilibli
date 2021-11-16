@@ -2,7 +2,7 @@ package agent
 
 import (
 	"flag"
-	"go-common/app/service/main/videoup/conf"
+	"github.com/namelessup/bilibili/app/service/main/videoup/conf"
 	"gopkg.in/h2non/gock.v1"
 	"os"
 	"testing"

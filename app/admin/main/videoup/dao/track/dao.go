@@ -3,9 +3,9 @@ package track
 import (
 	"time"
 
-	"go-common/app/admin/main/videoup/conf"
-	"go-common/library/cache/redis"
-	"go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/admin/main/videoup/conf"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/database/sql"
 )
 
 // Dao is track dao.

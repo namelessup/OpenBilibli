@@ -13,7 +13,7 @@ go_library(
         "parallel.go",
         "service.go",
     ],
-    importpath = "go-common/app/service/bbq/push/service",
+    importpath = "github.com/namelessup/bilibili/app/service/bbq/push/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

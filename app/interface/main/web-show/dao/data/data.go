@@ -6,10 +6,10 @@ import (
 	"net/url"
 	"strconv"
 
-	"go-common/app/interface/main/web-show/conf"
-	"go-common/library/log"
-	httpx "go-common/library/net/http/blademaster"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/interface/main/web-show/conf"
+	"github.com/namelessup/bilibili/library/log"
+	httpx "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 // Dao struct

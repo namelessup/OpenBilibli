@@ -3,9 +3,9 @@ package pgc
 import (
 	"time"
 
-	"go-common/app/job/main/tv/model/common"
-	"go-common/app/job/main/tv/model/pgc"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/tv/model/common"
+	"github.com/namelessup/bilibili/app/job/main/tv/model/pgc"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) addRetryEp(in *pgc.Content) {

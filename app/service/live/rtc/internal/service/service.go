@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"go-common/app/service/live/rtc/internal/conf"
-	"go-common/app/service/live/rtc/internal/dao"
+	"github.com/namelessup/bilibili/app/service/live/rtc/internal/conf"
+	"github.com/namelessup/bilibili/app/service/live/rtc/internal/dao"
 )
 
 // Service struct

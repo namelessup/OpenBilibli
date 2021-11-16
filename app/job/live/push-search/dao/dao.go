@@ -3,9 +3,9 @@ package dao
 import (
 	"context"
 
-	"go-common/app/job/live/push-search/conf"
-	"go-common/library/queue/databus"
-	"go-common/library/database/hbase.v2"
+	"github.com/namelessup/bilibili/app/job/live/push-search/conf"
+	"github.com/namelessup/bilibili/library/queue/databus"
+	"github.com/namelessup/bilibili/library/database/hbase.v2"
 )
 
 // Dao dao

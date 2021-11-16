@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sync"
 
-	"go-common/app/job/main/passport-game-data/conf"
+	"github.com/namelessup/bilibili/app/job/main/passport-game-data/conf"
 )
 
 var (

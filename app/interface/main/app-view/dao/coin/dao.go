@@ -3,10 +3,10 @@ package coin
 import (
 	"context"
 
-	"go-common/app/interface/main/app-view/conf"
-	coinrpc "go-common/app/service/main/coin/api/gorpc"
-	"go-common/app/service/main/coin/model"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/main/app-view/conf"
+	coinrpc "github.com/namelessup/bilibili/app/service/main/coin/api/gorpc"
+	"github.com/namelessup/bilibili/app/service/main/coin/model"
+	"github.com/namelessup/bilibili/library/net/metadata"
 
 	"github.com/pkg/errors"
 )

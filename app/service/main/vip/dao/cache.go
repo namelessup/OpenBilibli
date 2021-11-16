@@ -3,10 +3,10 @@ package dao
 import (
 	"context"
 
-	"go-common/app/service/main/vip/model"
+	"github.com/namelessup/bilibili/app/service/main/vip/model"
 )
 
-//go:generate $GOPATH/src/go-common/app/tool/cache/gen
+//go:generate $GOPATH/src/github.com/namelessup/bilibili/app/tool/cache/gen
 type _cache interface {
 	// cache: -nullcache=&model.OpenBindInfo{Mid:-1} -check_null_code=$!=nil&&$.Mid==-1
 	BindInfoByMid(c context.Context, mid int64, appID int64) (*model.OpenBindInfo, error)

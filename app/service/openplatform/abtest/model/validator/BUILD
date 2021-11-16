@@ -11,7 +11,7 @@ go_library(
         "group.go",
         "stra.go",
     ],
-    importpath = "go-common/app/service/openplatform/abtest/model/validator",
+    importpath = "github.com/namelessup/bilibili/app/service/openplatform/abtest/model/validator",
     tags = ["automanaged"],
 )
 

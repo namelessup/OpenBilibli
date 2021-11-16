@@ -6,10 +6,10 @@ import (
 	"math/rand"
 	"time"
 
-	"go-common/library/log"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/xstr"
 
-	pb "go-common/app/service/live/xroom-feed/api"
+	pb "github.com/namelessup/bilibili/app/service/live/xroom-feed/api"
 )
 
 // GetList implementation

@@ -4,12 +4,12 @@ import (
 	"context"
 	"crypto/rsa"
 
-	"go-common/app/service/main/passport-game/conf"
-	"go-common/app/service/main/passport-game/dao"
-	"go-common/app/service/main/passport-game/model"
-	"go-common/library/log"
-	"go-common/library/stat"
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/app/service/main/passport-game/conf"
+	"github.com/namelessup/bilibili/app/service/main/passport-game/dao"
+	"github.com/namelessup/bilibili/app/service/main/passport-game/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/stat"
+	"github.com/namelessup/bilibili/library/stat/prom"
 )
 
 // Service service.

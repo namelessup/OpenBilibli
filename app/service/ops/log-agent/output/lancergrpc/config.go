@@ -3,9 +3,9 @@ package lancergrpc
 import (
 	"errors"
 	"time"
-	"go-common/app/service/ops/log-agent/output/cache/file"
-	streamEvent "go-common/app/service/ops/log-agent/output/lancergrpc/lancergateway"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/service/ops/log-agent/output/cache/file"
+	streamEvent "github.com/namelessup/bilibili/app/service/ops/log-agent/output/lancergrpc/lancergateway"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	"github.com/BurntSushi/toml"
 )

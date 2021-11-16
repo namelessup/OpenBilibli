@@ -21,7 +21,7 @@ import fmt "fmt"
 import math "math"
 import _ "github.com/gogo/protobuf/gogoproto"
 
-import go_common_library_time "go-common/library/time"
+import go_common_library_time "github.com/namelessup/bilibili/library/time"
 
 import io "io"
 
@@ -40,8 +40,8 @@ type Users struct {
 	ID    int64                       `protobuf:"varint,1,opt,name=ID,proto3" json:"id"`
 	Mid   int64                       `protobuf:"varint,2,opt,name=Mid,proto3" json:"mid"`
 	Key   string                      `protobuf:"bytes,3,opt,name=Key,proto3" json:"key"`
-	Ctime go_common_library_time.Time `protobuf:"varint,4,opt,name=Ctime,proto3,casttype=go-common/library/time.Time" json:"ctime"`
-	Mtime go_common_library_time.Time `protobuf:"varint,5,opt,name=Mtime,proto3,casttype=go-common/library/time.Time" json:"mtime"`
+	Ctime go_common_library_time.Time `protobuf:"varint,4,opt,name=Ctime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"ctime"`
+	Mtime go_common_library_time.Time `protobuf:"varint,5,opt,name=Mtime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"mtime"`
 	Bid   int64                       `protobuf:"varint,6,opt,name=Bid,proto3" json:"bid"`
 }
 
@@ -64,8 +64,8 @@ type Point struct {
 	LoseUnlocked int64                       `protobuf:"varint,11,opt,name=LoseUnlocked,proto3" json:"lose_unlocked"`
 	OtherIp      string                      `protobuf:"bytes,12,opt,name=OtherIp,proto3" json:"other_ip"`
 	Ower         int64                       `protobuf:"varint,13,opt,name=Ower,proto3" json:"ower"`
-	Ctime        go_common_library_time.Time `protobuf:"varint,14,opt,name=Ctime,proto3,casttype=go-common/library/time.Time" json:"ctime"`
-	Mtime        go_common_library_time.Time `protobuf:"varint,15,opt,name=Mtime,proto3,casttype=go-common/library/time.Time" json:"mtime"`
+	Ctime        go_common_library_time.Time `protobuf:"varint,14,opt,name=Ctime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"ctime"`
+	Mtime        go_common_library_time.Time `protobuf:"varint,15,opt,name=Mtime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"mtime"`
 }
 
 func (m *Point) Reset()                    { *m = Point{} }
@@ -95,8 +95,8 @@ type Achievement struct {
 	IconActiveBig string                      `protobuf:"bytes,10,opt,name=IconActiveBig,proto3" json:"icon_active_big"`
 	Award         int64                       `protobuf:"varint,11,opt,name=Award,proto3" json:"award"`
 	UserCount     int64                       `protobuf:"varint,12,opt,name=UserCount,proto3" json:"user_count"`
-	Ctime         go_common_library_time.Time `protobuf:"varint,13,opt,name=Ctime,proto3,casttype=go-common/library/time.Time" json:"ctime"`
-	Mtime         go_common_library_time.Time `protobuf:"varint,14,opt,name=Mtime,proto3,casttype=go-common/library/time.Time" json:"mtime"`
+	Ctime         go_common_library_time.Time `protobuf:"varint,13,opt,name=Ctime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"ctime"`
+	Mtime         go_common_library_time.Time `protobuf:"varint,14,opt,name=Mtime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"mtime"`
 	Image         string                      `protobuf:"bytes,15,opt,name=Image,proto3" json:"image"`
 	SuitID        int64                       `protobuf:"varint,16,opt,name=SuitID,proto3" json:"suit_id"`
 }

@@ -4,12 +4,12 @@ import (
 	"context"
 	"sync"
 
-	"go-common/app/job/main/account-summary/model"
-	member "go-common/app/service/main/member/model"
-	"go-common/app/service/main/member/model/block"
-	relation "go-common/app/service/main/relation/model"
-	"go-common/library/log"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/job/main/account-summary/model"
+	member "github.com/namelessup/bilibili/app/service/main/member/model"
+	"github.com/namelessup/bilibili/app/service/main/member/model/block"
+	relation "github.com/namelessup/bilibili/app/service/main/relation/model"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 func (s *Service) block(ctx context.Context, mid int64) (*model.BlockSummary, error) {

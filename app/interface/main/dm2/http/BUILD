@@ -29,7 +29,7 @@ go_library(
         "thumbup.go",
         "view.go",
     ],
-    importpath = "go-common/app/interface/main/dm2/http",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/dm2/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

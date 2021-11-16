@@ -24,7 +24,7 @@ go_library(
         "dao.go",
         "operation.go",
     ],
-    importpath = "go-common/app/interface/main/web-show/dao/operation",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/web-show/dao/operation",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

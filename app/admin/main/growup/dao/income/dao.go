@@ -3,8 +3,8 @@ package income
 import (
 	"context"
 
-	"go-common/app/admin/main/growup/conf"
-	"go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/admin/main/growup/conf"
+	"github.com/namelessup/bilibili/library/database/sql"
 )
 
 // Dao dao

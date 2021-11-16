@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 
-	"go-common/app/service/main/account/model"
-	relation "go-common/app/service/main/relation/model"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/service/main/account/model"
+	relation "github.com/namelessup/bilibili/app/service/main/relation/model"
+	"github.com/namelessup/bilibili/library/net/metadata"
 
 	"github.com/pkg/errors"
 )

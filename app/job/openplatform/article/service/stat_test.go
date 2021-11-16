@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	artmdl "go-common/app/interface/openplatform/article/model"
+	artmdl "github.com/namelessup/bilibili/app/interface/openplatform/article/model"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

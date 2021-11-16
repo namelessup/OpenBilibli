@@ -2,7 +2,7 @@ package notice
 
 import (
 	"flag"
-	"go-common/app/job/main/reply/conf"
+	"github.com/namelessup/bilibili/app/job/main/reply/conf"
 	"os"
 	"testing"
 )

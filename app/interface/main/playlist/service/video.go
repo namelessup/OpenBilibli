@@ -5,16 +5,16 @@ import (
 	"html/template"
 	"sync"
 
-	"go-common/app/interface/main/playlist/conf"
-	"go-common/app/interface/main/playlist/dao"
-	"go-common/app/interface/main/playlist/model"
-	arcmdl "go-common/app/service/main/archive/api"
-	"go-common/app/service/main/archive/model/archive"
-	favmdl "go-common/app/service/main/favorite/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/interface/main/playlist/conf"
+	"github.com/namelessup/bilibili/app/interface/main/playlist/dao"
+	"github.com/namelessup/bilibili/app/interface/main/playlist/model"
+	arcmdl "github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	favmdl "github.com/namelessup/bilibili/app/service/main/favorite/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 const (

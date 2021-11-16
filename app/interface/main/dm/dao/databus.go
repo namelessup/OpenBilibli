@@ -3,9 +3,9 @@ package dao
 import (
 	"context"
 
-	"go-common/app/interface/main/dm/model"
+	"github.com/namelessup/bilibili/app/interface/main/dm/model"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // SendAction send action to job.

@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	coin "go-common/app/service/main/coin/model"
+	coin "github.com/namelessup/bilibili/app/service/main/coin/model"
 )
 
 const (

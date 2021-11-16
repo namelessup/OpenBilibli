@@ -4,12 +4,12 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/job/main/playlist/conf"
-	"go-common/library/cache/redis"
-	xsql "go-common/library/database/sql"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/app/job/main/playlist/conf"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/stat/prom"
 )
 
 // Dao .

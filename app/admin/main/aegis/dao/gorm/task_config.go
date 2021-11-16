@@ -3,8 +3,8 @@ package gorm
 import (
 	"context"
 
-	taskmod "go-common/app/admin/main/aegis/model/task"
-	"go-common/library/log"
+	taskmod "github.com/namelessup/bilibili/app/admin/main/aegis/model/task"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // AddConfig add config

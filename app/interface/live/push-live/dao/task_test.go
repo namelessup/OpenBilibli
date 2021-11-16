@@ -2,7 +2,7 @@ package dao
 
 import (
 	"context"
-	"go-common/app/interface/live/push-live/model"
+	"github.com/namelessup/bilibili/app/interface/live/push-live/model"
 	"math/rand"
 	"testing"
 

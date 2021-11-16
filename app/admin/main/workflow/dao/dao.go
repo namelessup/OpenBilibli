@@ -3,15 +3,15 @@ package dao
 import (
 	"context"
 
-	account "go-common/app/service/main/account/api"
-	archive "go-common/app/service/main/archive/api"
-	"go-common/library/cache/memcache"
-	"go-common/library/cache/redis"
-	"go-common/library/conf/paladin"
-	"go-common/library/database/elastic"
-	"go-common/library/database/orm"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/rpc/warden"
+	account "github.com/namelessup/bilibili/app/service/main/account/api"
+	archive "github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/conf/paladin"
+	"github.com/namelessup/bilibili/library/database/elastic"
+	"github.com/namelessup/bilibili/library/database/orm"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 
 	"github.com/jinzhu/gorm"
 )

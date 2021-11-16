@@ -2,8 +2,8 @@ package reply
 
 import (
 	"context"
-	"go-common/app/interface/main/reply/conf"
-	model "go-common/app/interface/main/reply/model/reply"
+	"github.com/namelessup/bilibili/app/interface/main/reply/conf"
+	model "github.com/namelessup/bilibili/app/interface/main/reply/model/reply"
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"

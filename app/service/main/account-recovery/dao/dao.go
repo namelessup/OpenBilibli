@@ -6,14 +6,14 @@ import (
 	"crypto/cipher"
 	"crypto/tls"
 
-	"go-common/app/service/main/account-recovery/conf"
-	account "go-common/app/service/main/account/api"
-	location "go-common/app/service/main/location/rpc/client"
-	member "go-common/app/service/main/member/api"
-	"go-common/library/cache/redis"
-	"go-common/library/database/elastic"
-	xsql "go-common/library/database/sql"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/service/main/account-recovery/conf"
+	account "github.com/namelessup/bilibili/app/service/main/account/api"
+	location "github.com/namelessup/bilibili/app/service/main/location/rpc/client"
+	member "github.com/namelessup/bilibili/app/service/main/member/api"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/database/elastic"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 
 	"gopkg.in/gomail.v2"
 )

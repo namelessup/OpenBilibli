@@ -2,7 +2,7 @@ package dao
 
 import (
 	"context"
-	xtime "go-common/library/time"
+	xtime "github.com/namelessup/bilibili/library/time"
 	"testing"
 	"time"
 

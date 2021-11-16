@@ -27,7 +27,7 @@ go_library(
         "dao.go",
         "mysql.go",
     ],
-    importpath = "go-common/app/infra/databus/dao",
+    importpath = "github.com/namelessup/bilibili/app/infra/databus/dao",
     tags = ["automanaged"],
     deps = [
         "//app/infra/databus/conf:go_default_library",

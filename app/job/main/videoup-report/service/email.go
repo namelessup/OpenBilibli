@@ -7,12 +7,12 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/job/main/videoup-report/model/archive"
-	emailmdl "go-common/app/job/main/videoup-report/model/email"
-	"go-common/app/job/main/videoup-report/model/manager"
-	account "go-common/app/service/main/account/api"
-	"go-common/library/cache/redis"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/videoup-report/model/archive"
+	emailmdl "github.com/namelessup/bilibili/app/job/main/videoup-report/model/email"
+	"github.com/namelessup/bilibili/app/job/main/videoup-report/model/manager"
+	account "github.com/namelessup/bilibili/app/service/main/account/api"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 //一审备注中有"私单报备"， 则发送邮件

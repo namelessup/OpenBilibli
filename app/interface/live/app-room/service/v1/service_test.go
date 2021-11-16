@@ -1,8 +1,8 @@
 package v1
 
 import (
-	"go-common/app/interface/live/app-room/conf"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/live/app-room/conf"
+	"github.com/namelessup/bilibili/library/log"
 	"os"
 	"testing"
 )

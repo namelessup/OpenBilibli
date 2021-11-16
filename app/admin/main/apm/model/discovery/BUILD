@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["discovery.go"],
-    importpath = "go-common/app/admin/main/apm/model/discovery",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/apm/model/discovery",
     tags = ["automanaged"],
 )
 

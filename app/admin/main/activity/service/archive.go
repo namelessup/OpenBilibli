@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 
-	lmdl "go-common/app/admin/main/activity/model"
-	arcmdl "go-common/app/service/main/archive/api"
-	"go-common/library/log"
+	lmdl "github.com/namelessup/bilibili/app/admin/main/activity/model"
+	arcmdl "github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Archives get achives info .

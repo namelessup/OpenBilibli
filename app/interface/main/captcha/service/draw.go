@@ -9,7 +9,7 @@ import (
 	"math/rand"
 	"time"
 
-	"go-common/app/interface/main/captcha/conf"
+	"github.com/namelessup/bilibili/app/interface/main/captcha/conf"
 
 	"github.com/golang/freetype"
 	"github.com/golang/freetype/truetype"

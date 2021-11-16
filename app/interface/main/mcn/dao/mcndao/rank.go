@@ -6,14 +6,14 @@ import (
 	"sort"
 	"time"
 
-	"go-common/app/admin/main/up/util"
-	"go-common/app/admin/main/up/util/mathutil"
-	"go-common/app/interface/main/mcn/conf"
-	"go-common/app/interface/main/mcn/dao/cache"
-	"go-common/app/interface/main/mcn/dao/global"
-	"go-common/app/interface/main/mcn/model/mcnmodel"
-	arcgrpc "go-common/app/service/main/archive/api"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/up/util"
+	"github.com/namelessup/bilibili/app/admin/main/up/util/mathutil"
+	"github.com/namelessup/bilibili/app/interface/main/mcn/conf"
+	"github.com/namelessup/bilibili/app/interface/main/mcn/dao/cache"
+	"github.com/namelessup/bilibili/app/interface/main/mcn/dao/global"
+	"github.com/namelessup/bilibili/app/interface/main/mcn/model/mcnmodel"
+	arcgrpc "github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/bluele/gcache"
 )

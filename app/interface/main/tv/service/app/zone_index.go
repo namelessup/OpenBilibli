@@ -4,10 +4,10 @@ import (
 	"context"
 	"math"
 
-	"go-common/app/interface/main/tv/model"
-	"go-common/app/interface/main/tv/model/search"
-	arcwar "go-common/app/service/main/archive/api"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/tv/model"
+	"github.com/namelessup/bilibili/app/interface/main/tv/model/search"
+	arcwar "github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // LoadZoneIdx loads zone index page data

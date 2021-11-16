@@ -11,7 +11,7 @@ go_library(
         "add_ver.go",
         "publish.go",
     ],
-    importpath = "go-common/app/admin/main/appstatic/model",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/appstatic/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/time:go_default_library"],

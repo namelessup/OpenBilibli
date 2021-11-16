@@ -47,7 +47,7 @@ go_library(
         "review_audit.go",
         "service.go",
     ],
-    importpath = "go-common/app/admin/main/member/service",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/member/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

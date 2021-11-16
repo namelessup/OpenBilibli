@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["ai.go"],
-    importpath = "go-common/app/service/main/filter/service/ai",
+    importpath = "github.com/namelessup/bilibili/app/service/main/filter/service/ai",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

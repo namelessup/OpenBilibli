@@ -5,9 +5,9 @@ import (
 	"database/sql"
 	"fmt"
 
-	"go-common/app/interface/main/space/model"
-	"go-common/library/cache/memcache"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/space/model"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

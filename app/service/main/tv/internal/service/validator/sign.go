@@ -1,8 +1,8 @@
 package validator
 
 import (
-	"go-common/app/service/main/tv/internal/pkg"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/service/main/tv/internal/pkg"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 type SignerValidator struct {

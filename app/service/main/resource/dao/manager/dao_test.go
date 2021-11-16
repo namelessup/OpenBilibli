@@ -2,7 +2,7 @@ package manager
 
 import (
 	"flag"
-	"go-common/app/service/main/resource/conf"
+	"github.com/namelessup/bilibili/app/service/main/resource/conf"
 	"os"
 	"testing"
 )

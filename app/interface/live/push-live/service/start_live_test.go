@@ -3,7 +3,7 @@ package service
 import (
 	"context"
 	. "github.com/smartystreets/goconvey/convey"
-	"go-common/app/interface/live/push-live/model"
+	"github.com/namelessup/bilibili/app/interface/live/push-live/model"
 	"math/rand"
 	"strconv"
 	"testing"

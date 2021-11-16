@@ -3,9 +3,9 @@ package sidebar
 import (
 	"context"
 
-	"go-common/app/interface/main/app-interface/conf"
-	resmodel "go-common/app/service/main/resource/model"
-	resrpc "go-common/app/service/main/resource/rpc/client"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/conf"
+	resmodel "github.com/namelessup/bilibili/app/service/main/resource/model"
+	resrpc "github.com/namelessup/bilibili/app/service/main/resource/rpc/client"
 
 	"github.com/pkg/errors"
 )

@@ -1,7 +1,7 @@
 package model
 
 import (
-	pushmdl "go-common/app/service/main/push/model"
+	pushmdl "github.com/namelessup/bilibili/app/service/main/push/model"
 )
 
 // MidChan .

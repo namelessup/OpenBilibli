@@ -1,8 +1,8 @@
 package http
 
 import (
-	"go-common/app/job/main/account-summary/model"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/job/main/account-summary/model"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func syncOne(ctx *bm.Context) {

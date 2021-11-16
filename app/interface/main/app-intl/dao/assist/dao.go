@@ -3,9 +3,9 @@ package assist
 import (
 	"context"
 
-	"go-common/app/interface/main/app-intl/conf"
-	"go-common/app/service/main/assist/model/assist"
-	assistrpc "go-common/app/service/main/assist/rpc/client"
+	"github.com/namelessup/bilibili/app/interface/main/app-intl/conf"
+	"github.com/namelessup/bilibili/app/service/main/assist/model/assist"
+	assistrpc "github.com/namelessup/bilibili/app/service/main/assist/rpc/client"
 
 	"github.com/pkg/errors"
 )

@@ -1,10 +1,10 @@
 package dao
 
 import (
-	"go-common/app/admin/main/appstatic/conf"
-	"go-common/library/cache/redis"
-	"go-common/library/database/orm"
-	httpx "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/appstatic/conf"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/database/orm"
+	httpx "github.com/namelessup/bilibili/library/net/http/blademaster"
 
 	"github.com/jinzhu/gorm"
 )

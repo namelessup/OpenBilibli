@@ -4,13 +4,13 @@ import (
 	"context"
 	"sort"
 
-	"go-common/app/interface/openplatform/article/dao"
-	"go-common/app/interface/openplatform/article/model"
-	"go-common/library/database/sql"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/openplatform/article/dao"
+	"github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 const (

@@ -3,9 +3,9 @@ package dao
 // import (
 // 	"context"
 
-// 	"go-common/app/job/main/search/model"
-// 	"go-common/database/sql"
-// 	"go-common/xstr"
+// 	"github.com/namelessup/bilibili/app/job/main/search/model"
+// 	"github.com/namelessup/bilibili/database/sql"
+// 	"github.com/namelessup/bilibili/xstr"
 // )
 
 // const (

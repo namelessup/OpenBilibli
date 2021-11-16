@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
-	"go-common/app/admin/main/apm/model/ut"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/apm/model/ut"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 var (
@@ -150,7 +150,7 @@ func (s *Service) UTApps(c context.Context, v *ut.AppReq) (result []*ut.App, cou
 	return
 }
 
-// "go-common/app/service/main/share" to  "go-common/tree/master/app/service/main/share"
+// "github.com/namelessup/bilibili/app/service/main/share" to  "github.com/namelessup/bilibili/tree/master/app/service/main/share"
 func parsePath(path string) (link string) {
 	temp := strings.SplitN(path, "/", 2)
 	link = fmt.Sprintf("%s%s%s", temp[0], "/tree/master/", temp[1])

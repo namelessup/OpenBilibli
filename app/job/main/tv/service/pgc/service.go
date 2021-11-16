@@ -6,16 +6,16 @@ import (
 	"sync"
 	"time"
 
-	"go-common/app/job/main/tv/conf"
-	"go-common/app/job/main/tv/dao/app"
-	"go-common/app/job/main/tv/dao/cms"
-	"go-common/app/job/main/tv/dao/lic"
-	playdao "go-common/app/job/main/tv/dao/playurl"
-	model "go-common/app/job/main/tv/model/pgc"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/job/main/tv/conf"
+	"github.com/namelessup/bilibili/app/job/main/tv/dao/app"
+	"github.com/namelessup/bilibili/app/job/main/tv/dao/cms"
+	"github.com/namelessup/bilibili/app/job/main/tv/dao/lic"
+	playdao "github.com/namelessup/bilibili/app/job/main/tv/dao/playurl"
+	model "github.com/namelessup/bilibili/app/job/main/tv/model/pgc"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
 
-	"go-common/app/job/main/tv/dao/ftp"
+	"github.com/namelessup/bilibili/app/job/main/tv/dao/ftp"
 
 	"github.com/robfig/cron"
 )

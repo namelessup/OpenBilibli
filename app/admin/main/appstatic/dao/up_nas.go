@@ -16,9 +16,9 @@ import (
 
 	"crypto/md5"
 	"encoding/hex"
-	"go-common/app/admin/main/appstatic/conf"
-	"go-common/app/admin/main/appstatic/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/appstatic/conf"
+	"github.com/namelessup/bilibili/app/admin/main/appstatic/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Sign fn

@@ -27,7 +27,7 @@ import (
 	"sync"
 	"time"
 
-	"go-common/library/stat"
+	"github.com/namelessup/bilibili/library/stat"
 
 	"github.com/pkg/errors"
 )

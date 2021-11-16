@@ -3,10 +3,10 @@ package relation
 import (
 	"context"
 
-	"go-common/app/admin/main/credit/conf"
-	relationmdl "go-common/app/service/main/relation/model"
-	relationrpc "go-common/app/service/main/relation/rpc/client"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/credit/conf"
+	relationmdl "github.com/namelessup/bilibili/app/service/main/relation/model"
+	relationrpc "github.com/namelessup/bilibili/app/service/main/relation/rpc/client"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Dao is account dao.

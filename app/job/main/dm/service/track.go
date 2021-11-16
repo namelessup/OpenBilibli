@@ -4,8 +4,8 @@ import (
 	"context"
 	"encoding/json"
 
-	"go-common/app/job/main/dm/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/dm/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // trackDMMeta 顶弹幕逻辑  保持pool0的弹幕池只有maxlimt*2的数量

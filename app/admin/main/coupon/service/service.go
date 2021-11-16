@@ -5,12 +5,12 @@ import (
 	"math/rand"
 	"time"
 
-	"go-common/app/admin/main/coupon/conf"
-	"go-common/app/admin/main/coupon/dao"
-	"go-common/app/admin/main/coupon/model"
-	courpc "go-common/app/service/main/coupon/rpc/client"
-	"go-common/library/log"
-	"go-common/library/sync/pipeline/fanout"
+	"github.com/namelessup/bilibili/app/admin/main/coupon/conf"
+	"github.com/namelessup/bilibili/app/admin/main/coupon/dao"
+	"github.com/namelessup/bilibili/app/admin/main/coupon/model"
+	courpc "github.com/namelessup/bilibili/app/service/main/coupon/rpc/client"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/pipeline/fanout"
 )
 
 const (

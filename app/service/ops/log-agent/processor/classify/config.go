@@ -5,8 +5,8 @@ import (
 	"errors"
 	"time"
 
-	"go-common/app/service/ops/log-agent/conf/configcenter"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/ops/log-agent/conf/configcenter"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/BurntSushi/toml"
 )

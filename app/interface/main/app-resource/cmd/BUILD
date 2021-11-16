@@ -19,7 +19,7 @@ go_library(
         "app-resource-example.toml",
         "app-resource-test.toml",
     ],
-    importpath = "go-common/app/interface/main/app-resource/cmd",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-resource/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -42,7 +42,7 @@ go_library(
         "monitor.go",
         "service.go",
     ],
-    importpath = "go-common/app/interface/openplatform/monitor-end/service",
+    importpath = "github.com/namelessup/bilibili/app/interface/openplatform/monitor-end/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

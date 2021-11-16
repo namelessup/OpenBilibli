@@ -16,7 +16,7 @@ go_library(
         "stat.go",
         "statistics.go",
     ],
-    importpath = "go-common/app/job/main/reply-feed/service",
+    importpath = "github.com/namelessup/bilibili/app/job/main/reply-feed/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

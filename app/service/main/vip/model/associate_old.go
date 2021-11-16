@@ -1,6 +1,6 @@
 package model
 
-import "go-common/library/time"
+import "github.com/namelessup/bilibili/library/time"
 
 // VipOrderActivityRecord vip order activity record.
 type VipOrderActivityRecord struct {

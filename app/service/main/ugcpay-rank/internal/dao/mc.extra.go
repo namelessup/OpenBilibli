@@ -3,8 +3,8 @@ package dao
 import (
 	"context"
 
-	"go-common/app/service/main/ugcpay-rank/internal/conf"
-	"go-common/library/cache/memcache"
+	"github.com/namelessup/bilibili/app/service/main/ugcpay-rank/internal/conf"
+	"github.com/namelessup/bilibili/library/cache/memcache"
 )
 
 // CASCacheElecPrepRank cas的方式存储预备榜单，防止分布式脏写

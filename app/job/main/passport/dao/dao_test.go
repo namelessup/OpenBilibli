@@ -9,12 +9,12 @@ import (
 	"reflect"
 	"testing"
 
-	"go-common/app/job/main/passport/conf"
-	"go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/job/main/passport/conf"
+	"github.com/namelessup/bilibili/library/database/sql"
 
 	"github.com/bouk/monkey"
 	"github.com/smartystreets/goconvey/convey"
-	"go-common/library/database/hbase.v2"
+	"github.com/namelessup/bilibili/library/database/hbase.v2"
 )
 
 var (

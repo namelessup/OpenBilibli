@@ -5,11 +5,11 @@ import (
 	"encoding/json"
 	"time"
 
-	"go-common/app/interface/main/activity/model/like"
-	"go-common/app/job/main/activity/model/match"
-	"go-common/app/service/main/coin/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/activity/model/like"
+	"github.com/namelessup/bilibili/app/job/main/activity/model/match"
+	"github.com/namelessup/bilibili/app/service/main/coin/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

@@ -6,7 +6,7 @@ import (
 	"net/url"
 	"strconv"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Drawyoo return link.

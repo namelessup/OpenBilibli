@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"go-common/app/job/main/figure/model"
-	repmol "go-common/app/job/main/reply/model/reply"
+	"github.com/namelessup/bilibili/app/job/main/figure/model"
+	repmol "github.com/namelessup/bilibili/app/job/main/reply/model/reply"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

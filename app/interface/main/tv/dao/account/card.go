@@ -3,10 +3,10 @@ package account
 import (
 	"context"
 
-	accwar "go-common/app/service/main/account/api"
-	accmdl "go-common/app/service/main/account/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	accwar "github.com/namelessup/bilibili/app/service/main/account/api"
+	accmdl "github.com/namelessup/bilibili/app/service/main/account/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Card3 get card info by mid

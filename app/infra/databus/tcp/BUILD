@@ -29,7 +29,7 @@ go_library(
         "pubsub.go",
         "tcp.go",
     ],
-    importpath = "go-common/app/infra/databus/tcp",
+    importpath = "github.com/namelessup/bilibili/app/infra/databus/tcp",
     tags = ["automanaged"],
     deps = [
         "//app/infra/databus/conf:go_default_library",

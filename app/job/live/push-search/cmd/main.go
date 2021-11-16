@@ -2,17 +2,17 @@ package main
 
 import (
 	"flag"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/library/net/trace"
 	"os"
 	"os/signal"
 	"syscall"
 	"time"
 
-	"go-common/app/job/live/push-search/conf"
-	"go-common/app/job/live/push-search/http"
-	"go-common/app/job/live/push-search/service/migrate"
-	ecode "go-common/library/ecode/tip"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/live/push-search/conf"
+	"github.com/namelessup/bilibili/app/job/live/push-search/http"
+	"github.com/namelessup/bilibili/app/job/live/push-search/service/migrate"
+	ecode "github.com/namelessup/bilibili/library/ecode/tip"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func main() {

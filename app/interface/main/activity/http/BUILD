@@ -18,7 +18,7 @@ go_library(
         "sports.go",
         "timemachine.go",
     ],
-    importpath = "go-common/app/interface/main/activity/http",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/activity/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -1,14 +1,14 @@
 package card
 
 import (
-	"go-common/app/interface/main/app-card/model"
-	"go-common/app/interface/main/app-card/model/card/ai"
-	"go-common/app/interface/main/app-card/model/card/operate"
-	tag "go-common/app/interface/main/tag/model"
-	account "go-common/app/service/main/account/model"
-	"go-common/app/service/main/archive/model/archive"
-	relation "go-common/app/service/main/relation/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/app-card/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-card/model/card/ai"
+	"github.com/namelessup/bilibili/app/interface/main/app-card/model/card/operate"
+	tag "github.com/namelessup/bilibili/app/interface/main/tag/model"
+	account "github.com/namelessup/bilibili/app/service/main/account/model"
+	"github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	relation "github.com/namelessup/bilibili/app/service/main/relation/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func ipadHandle(cardGoto model.CardGt, cardType model.CardType, rcmd *ai.Item, tagm map[int64]*tag.Tag, isAttenm map[int64]int8, statm map[int64]*relation.Stat, cardm map[int64]*account.Card) (hander Handler) {

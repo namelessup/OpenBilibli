@@ -2,11 +2,11 @@ package lottery
 
 import (
 	"context"
-	"go-common/app/interface/main/creative/conf"
-	"go-common/app/interface/main/creative/model/lottery"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/interface/main/creative/conf"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/lottery"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 	"net/url"
 	"strconv"
 )

@@ -6,17 +6,17 @@ import (
 	"sync"
 	"time"
 
-	"go-common/app/job/main/coin/conf"
-	"go-common/app/job/main/coin/dao"
-	"go-common/app/job/main/coin/model"
-	accrpc "go-common/app/service/main/account/api"
-	arcrpc "go-common/app/service/main/archive/api/gorpc"
-	coinrpc "go-common/app/service/main/coin/api/gorpc"
-	coinmdl "go-common/app/service/main/coin/model"
-	memrpc "go-common/app/service/main/member/api"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
-	"go-common/library/queue/databus/databusutil"
+	"github.com/namelessup/bilibili/app/job/main/coin/conf"
+	"github.com/namelessup/bilibili/app/job/main/coin/dao"
+	"github.com/namelessup/bilibili/app/job/main/coin/model"
+	accrpc "github.com/namelessup/bilibili/app/service/main/account/api"
+	arcrpc "github.com/namelessup/bilibili/app/service/main/archive/api/gorpc"
+	coinrpc "github.com/namelessup/bilibili/app/service/main/coin/api/gorpc"
+	coinmdl "github.com/namelessup/bilibili/app/service/main/coin/model"
+	memrpc "github.com/namelessup/bilibili/app/service/main/member/api"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
+	"github.com/namelessup/bilibili/library/queue/databus/databusutil"
 )
 
 // Service coin job service.

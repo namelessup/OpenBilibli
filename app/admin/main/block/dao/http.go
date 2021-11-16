@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/admin/main/block/conf"
-	"go-common/app/admin/main/block/model"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/admin/main/block/conf"
+	"github.com/namelessup/bilibili/app/admin/main/block/model"
+	"github.com/namelessup/bilibili/library/ecode"
 
 	"github.com/pkg/errors"
 )

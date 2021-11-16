@@ -2,8 +2,8 @@ package grpc
 
 import (
 	"context"
-	"go-common/app/service/openplatform/anti-fraud/service"
-	"go-common/library/net/rpc/warden"
+	"github.com/namelessup/bilibili/app/service/openplatform/anti-fraud/service"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 	"google.golang.org/grpc"
 )
 

@@ -11,9 +11,9 @@ import (
 	"strconv"
 	"strings"
 
-	"go-common/app/admin/main/apm/conf"
-	"go-common/app/admin/main/apm/model/ut"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/apm/conf"
+	"github.com/namelessup/bilibili/app/admin/main/apm/model/ut"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/jinzhu/gorm"
 )
@@ -43,7 +43,7 @@ func (d *Dao) ParseUTFiles(c context.Context, url string) (pkgs []*ut.PkgAnls, e
 	for _, file := range files {
 		cov, _ := strconv.ParseFloat(file[strings.Index(file, "(")+1:strings.Index(file, "%)")], 64)
 		pkg := &ut.PkgAnls{
-			PKG:      file[strings.Index(file, "go-common") : strings.Index(file, ".go")+3],
+			PKG:      file[strings.Index(file, "github.com/namelessup/bilibili") : strings.Index(file, ".go")+3],
 			Coverage: cov,
 			HTMLURL:  url + "#" + file[strings.Index(file, `="`)+2:strings.Index(file, `">`)],
 		}

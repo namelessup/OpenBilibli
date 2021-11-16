@@ -1,9 +1,9 @@
 package search
 
 import (
-	"go-common/app/interface/main/tv/conf"
-	"go-common/library/database/elastic"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/interface/main/tv/conf"
+	"github.com/namelessup/bilibili/library/database/elastic"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 const (

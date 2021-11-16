@@ -37,7 +37,7 @@ go_library(
         "nodes.go",
         "registry.go",
     ],
-    importpath = "go-common/app/infra/discovery/dao",
+    importpath = "github.com/namelessup/bilibili/app/infra/discovery/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

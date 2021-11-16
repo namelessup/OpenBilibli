@@ -27,7 +27,7 @@ filegroup(
 go_library(
     name = "go_default_library",
     srcs = ["model.go"],
-    importpath = "go-common/app/admin/main/sms/model",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/sms/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

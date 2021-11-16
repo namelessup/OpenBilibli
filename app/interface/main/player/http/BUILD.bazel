@@ -13,7 +13,7 @@ go_library(
         "player.go",
         "playurl.go",
     ],
-    importpath = "go-common/app/interface/main/player/http",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/player/http",
     tags = ["automanaged"],
     deps = [
         "//app/interface/main/player/conf:go_default_library",

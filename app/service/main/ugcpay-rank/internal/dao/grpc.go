@@ -3,8 +3,8 @@ package dao
 import (
 	"context"
 
-	acc "go-common/app/service/main/account/api"
-	accmdl "go-common/app/service/main/account/model"
+	acc "github.com/namelessup/bilibili/app/service/main/account/api"
+	accmdl "github.com/namelessup/bilibili/app/service/main/account/model"
 )
 
 // AccountCards get cards by mids

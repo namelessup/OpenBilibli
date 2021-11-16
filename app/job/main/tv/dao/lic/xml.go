@@ -4,7 +4,7 @@ import (
 	"encoding/xml"
 	"net/url"
 
-	model "go-common/app/job/main/tv/model/pgc"
+	model "github.com/namelessup/bilibili/app/job/main/tv/model/pgc"
 )
 
 // PrepareXML combine the xml data to sync

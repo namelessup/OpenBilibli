@@ -35,7 +35,7 @@ go_library(
         "labour.go",
         "service.go",
     ],
-    importpath = "go-common/app/interface/main/credit/service",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/credit/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

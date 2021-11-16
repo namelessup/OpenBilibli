@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"sync"
 
-	"go-common/app/job/main/dm2/model"
-	"go-common/library/database/sql"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/job/main/dm2/model"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 const (

@@ -3,7 +3,7 @@ package dao
 import (
 	"context"
 
-	"go-common/app/job/main/upload/conf"
+	"github.com/namelessup/bilibili/app/job/main/upload/conf"
 )
 
 // Dao dao

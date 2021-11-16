@@ -15,7 +15,7 @@ go_library(
         "stock.go",
         "ticket.go",
     ],
-    importpath = "go-common/app/service/openplatform/ticket-sales/model/consts",
+    importpath = "github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/model/consts",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

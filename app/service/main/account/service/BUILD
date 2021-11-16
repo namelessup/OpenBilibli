@@ -16,7 +16,7 @@ go_library(
         "service.go",
         "vip.go",
     ],
-    importpath = "go-common/app/service/main/account/service",
+    importpath = "github.com/namelessup/bilibili/app/service/main/account/service",
     tags = ["automanaged"],
     deps = [
         "//app/service/main/account/api:go_default_library",

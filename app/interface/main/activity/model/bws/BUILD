@@ -19,7 +19,7 @@ go_library(
         "user.go",
     ],
     embed = [":bws_go_proto"],
-    importpath = "go-common/app/interface/main/activity/model/bws",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/activity/model/bws",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [
@@ -53,7 +53,7 @@ proto_library(
 go_proto_library(
     name = "bws_go_proto",
     compilers = ["@io_bazel_rules_go//proto:gogofast_proto"],
-    importpath = "go-common/app/interface/main/activity/model/bws",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/activity/model/bws",
     proto = ":bws_proto",
     tags = ["automanaged"],
     deps = [

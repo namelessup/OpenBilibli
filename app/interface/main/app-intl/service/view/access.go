@@ -3,13 +3,13 @@ package view
 import (
 	"context"
 
-	"go-common/app/interface/main/app-intl/model"
-	account "go-common/app/service/main/account/model"
-	"go-common/app/service/main/archive/model/archive"
-	locmdl "go-common/app/service/main/location/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/main/app-intl/model"
+	account "github.com/namelessup/bilibili/app/service/main/account/model"
+	"github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	locmdl "github.com/namelessup/bilibili/app/service/main/location/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 // ipLimit ip limit

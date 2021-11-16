@@ -11,7 +11,7 @@ go_library(
         "config.go",
         "file.go",
     ],
-    importpath = "go-common/app/service/ops/log-agent/pipeline/hostlogcollector",
+    importpath = "github.com/namelessup/bilibili/app/service/ops/log-agent/pipeline/hostlogcollector",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

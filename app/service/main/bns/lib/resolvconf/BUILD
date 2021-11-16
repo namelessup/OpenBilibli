@@ -17,7 +17,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["resolvconf_unix.go"],
-    importpath = "go-common/app/service/main/bns/lib/resolvconf",
+    importpath = "github.com/namelessup/bilibili/app/service/main/bns/lib/resolvconf",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

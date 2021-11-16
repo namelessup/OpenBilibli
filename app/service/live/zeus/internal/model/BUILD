@@ -11,7 +11,7 @@ go_library(
         "matcher.go",
         "model.go",
     ],
-    importpath = "go-common/app/service/live/zeus/internal/model",
+    importpath = "github.com/namelessup/bilibili/app/service/live/zeus/internal/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

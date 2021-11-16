@@ -18,7 +18,7 @@ go_library(
         "tapd.go",
         "util.go",
     ],
-    importpath = "go-common/app/service/ep/footman/service",
+    importpath = "github.com/namelessup/bilibili/app/service/ep/footman/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

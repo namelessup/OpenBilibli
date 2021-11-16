@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["guide.go"],
-    importpath = "go-common/app/interface/main/app-resource/model/guide",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-resource/model/guide",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

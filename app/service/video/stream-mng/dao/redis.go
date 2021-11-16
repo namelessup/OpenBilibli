@@ -3,9 +3,9 @@ package dao
 import (
 	"context"
 	"fmt"
-	"go-common/app/service/video/stream-mng/model"
-	"go-common/library/cache/redis"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/video/stream-mng/model"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/log"
 	"strconv"
 	"strings"
 )

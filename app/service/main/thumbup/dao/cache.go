@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/app/service/main/thumbup/model"
+	"github.com/namelessup/bilibili/app/service/main/thumbup/model"
 )
 
-//go:generate $GOPATH/src/go-common/app/tool/cache/gen
+//go:generate $GOPATH/src/github.com/namelessup/bilibili/app/tool/cache/gen
 type _cache interface {
 	// 用户点赞列表
 	// cache: -singleflight=true -ignores=||start,end

@@ -4,7 +4,7 @@ import (
 	"flag"
 	"path/filepath"
 
-	"go-common/app/job/main/playlist/conf"
+	"github.com/namelessup/bilibili/app/job/main/playlist/conf"
 )
 
 var d *Dao

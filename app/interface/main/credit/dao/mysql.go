@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"time"
 
-	model "go-common/app/interface/main/credit/model"
-	"go-common/library/database/sql"
-	"go-common/library/log"
-	ctime "go-common/library/time"
-	"go-common/library/xstr"
+	model "github.com/namelessup/bilibili/app/interface/main/credit/model"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	ctime "github.com/namelessup/bilibili/library/time"
+	"github.com/namelessup/bilibili/library/xstr"
 
 	"github.com/pkg/errors"
 )

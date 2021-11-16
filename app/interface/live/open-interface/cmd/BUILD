@@ -15,7 +15,7 @@ go_binary(
 go_library(
     name = "go_default_library",
     srcs = ["main.go"],
-    importpath = "go-common/app/interface/live/open-interface/cmd",
+    importpath = "github.com/namelessup/bilibili/app/interface/live/open-interface/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

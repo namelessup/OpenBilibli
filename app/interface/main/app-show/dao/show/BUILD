@@ -25,7 +25,7 @@ go_library(
         "redis.go",
         "show.go",
     ],
-    importpath = "go-common/app/interface/main/app-show/dao/show",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-show/dao/show",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

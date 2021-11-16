@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strconv"
 
-	"go-common/app/job/main/videoup-report/model/email"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/videoup-report/model/email"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 //NotifyEmailTemplate 优质UP主/时政UP主/企业UP主/十万粉丝报备邮件

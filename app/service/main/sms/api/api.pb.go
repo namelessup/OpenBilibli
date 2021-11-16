@@ -34,7 +34,7 @@ package v1
 import proto "github.com/gogo/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import sms_service_model "go-common/app/service/main/sms/model"
+import sms_service_model "github.com/namelessup/bilibili/app/service/main/sms/model"
 import _ "github.com/gogo/protobuf/gogoproto"
 
 import context "golang.org/x/net/context"

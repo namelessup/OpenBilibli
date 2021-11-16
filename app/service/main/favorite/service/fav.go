@@ -6,12 +6,12 @@ import (
 	"sync"
 	"time"
 
-	"go-common/app/service/main/favorite/conf"
-	"go-common/app/service/main/favorite/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/service/main/favorite/conf"
+	"github.com/namelessup/bilibili/app/service/main/favorite/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 var (

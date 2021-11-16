@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 	. "github.com/smartystreets/goconvey/convey"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/library/ecode"
 	"net/url"
 	"testing"
 )

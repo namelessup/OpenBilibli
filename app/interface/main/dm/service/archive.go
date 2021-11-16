@@ -4,9 +4,9 @@ import (
 	"context"
 	"math"
 
-	"go-common/app/service/main/archive/api"
-	arcMdl "go-common/app/service/main/archive/model/archive"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	arcMdl "github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) archiveInfos(c context.Context, aids []int64) (archiveInfos map[int64]*api.Arc) {

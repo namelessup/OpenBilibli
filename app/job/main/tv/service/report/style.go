@@ -5,8 +5,8 @@ import (
 	"strings"
 	"time"
 
-	mdlpgc "go-common/app/job/main/tv/model/pgc"
-	"go-common/library/log"
+	mdlpgc "github.com/namelessup/bilibili/app/job/main/tv/model/pgc"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) showStyle() {

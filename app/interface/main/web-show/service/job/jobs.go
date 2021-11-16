@@ -3,7 +3,7 @@ package job
 import (
 	"context"
 
-	jobmdl "go-common/app/interface/main/web-show/model/job"
+	jobmdl "github.com/namelessup/bilibili/app/interface/main/web-show/model/job"
 )
 
 // Jobs get job infos

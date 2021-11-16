@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["model.go"],
-    importpath = "go-common/app/interface/bbq/notice/internal/model",
+    importpath = "github.com/namelessup/bilibili/app/interface/bbq/notice/internal/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

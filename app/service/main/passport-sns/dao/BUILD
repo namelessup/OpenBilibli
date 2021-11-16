@@ -36,7 +36,7 @@ go_library(
         "sns.go",
         "weibo.go",
     ],
-    importpath = "go-common/app/service/main/passport-sns/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/main/passport-sns/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/service/main/coupon/conf"
-	"go-common/library/cache/memcache"
-	xsql "go-common/library/database/sql"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/app/service/main/coupon/conf"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/stat/prom"
 )
 
 // Dao dao

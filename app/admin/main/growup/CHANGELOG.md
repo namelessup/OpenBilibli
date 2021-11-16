@@ -140,7 +140,7 @@
 > 1. 添加tag/update/activity接口
 
 ##### Version 0.5.2
-> 1. 迁移go-common/net/http/router => blademaster
+> 1. 迁移github.com/namelessup/bilibili/net/http/router => blademaster
 > 2. 添加测试代码
 
 ##### Version 0.5.3

@@ -39,7 +39,7 @@ go_library(
         "session.go",
         "tag.go",
     ],
-    importpath = "go-common/app/interface/main/feedback/dao",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/feedback/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

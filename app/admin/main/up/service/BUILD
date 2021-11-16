@@ -30,8 +30,8 @@ go_library(
         "service.go",
         "upload.go",
     ],
-    importmap = "go-common/app/admin/main/up/service",
-    importpath = "go-common/app/admin/main/up/service",
+    importmap = "github.com/namelessup/bilibili/app/admin/main/up/service",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/up/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

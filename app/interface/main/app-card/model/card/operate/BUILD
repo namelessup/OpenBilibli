@@ -17,7 +17,7 @@ go_library(
         "special.go",
         "tab.go",
     ],
-    importpath = "go-common/app/interface/main/app-card/model/card/operate",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-card/model/card/operate",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

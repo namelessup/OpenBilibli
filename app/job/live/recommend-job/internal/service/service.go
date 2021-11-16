@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"go-common/app/job/live/recommend-job/internal/conf"
-	"go-common/app/job/live/recommend-job/internal/dao"
+	"github.com/namelessup/bilibili/app/job/live/recommend-job/internal/conf"
+	"github.com/namelessup/bilibili/app/job/live/recommend-job/internal/dao"
 
 	"github.com/robfig/cron"
 )

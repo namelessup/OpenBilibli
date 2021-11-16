@@ -4,9 +4,9 @@ import (
 	"context"
 	"net/url"
 
-	"go-common/app/job/main/aegis/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/aegis/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

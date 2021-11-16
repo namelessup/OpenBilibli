@@ -29,7 +29,7 @@ go_library(
         "rpc.go",
         "service.go",
     ],
-    importpath = "go-common/app/admin/main/member/service/block",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/member/service/block",
     tags = ["automanaged"],
     deps = [
         "//app/admin/main/member/conf:go_default_library",

@@ -13,7 +13,7 @@ go_library(
         "queue.go",
         "ring.go",
     ],
-    importpath = "go-common/app/job/main/member/model/queue",
+    importpath = "github.com/namelessup/bilibili/app/job/main/member/model/queue",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

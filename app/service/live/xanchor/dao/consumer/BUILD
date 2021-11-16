@@ -11,7 +11,7 @@ go_library(
         "dao.go",
         "redis.go",
     ],
-    importpath = "go-common/app/service/live/xanchor/dao/consumer",
+    importpath = "github.com/namelessup/bilibili/app/service/live/xanchor/dao/consumer",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

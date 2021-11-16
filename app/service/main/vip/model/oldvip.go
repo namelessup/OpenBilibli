@@ -1,6 +1,6 @@
 package model
 
-import "go-common/library/time"
+import "github.com/namelessup/bilibili/library/time"
 
 //VipUserInfo vip_user_info table for vip java
 type VipUserInfo struct {

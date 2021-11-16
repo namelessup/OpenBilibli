@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"testing"
 
-	"go-common/app/admin/main/activity/model"
+	"github.com/namelessup/bilibili/app/admin/main/activity/model"
 
-	xtime "go-common/library/time"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	"time"
 

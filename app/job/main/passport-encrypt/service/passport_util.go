@@ -1,6 +1,6 @@
 package service
 
-import "go-common/app/job/main/passport-encrypt/model"
+import "github.com/namelessup/bilibili/app/job/main/passport-encrypt/model"
 
 // EncryptAccount Encrypt Account
 func EncryptAccount(a *model.OriginAccount) (res *model.EncryptAccount) {

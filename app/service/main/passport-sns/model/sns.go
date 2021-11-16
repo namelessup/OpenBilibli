@@ -1,7 +1,7 @@
 package model
 
 import (
-	"go-common/app/service/main/passport-sns/api"
+	"github.com/namelessup/bilibili/app/service/main/passport-sns/api"
 )
 
 // SnsApps .

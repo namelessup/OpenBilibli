@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["saga-admin-test.toml"],
-    importpath = "go-common/app/admin/ep/saga/cmd",
+    importpath = "github.com/namelessup/bilibili/app/admin/ep/saga/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

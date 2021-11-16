@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/interface/main/tag/conf"
-	accrpc "go-common/app/service/main/account/api"
-	tagrpc "go-common/app/service/main/tag/api"
-	"go-common/library/cache/redis"
+	"github.com/namelessup/bilibili/app/interface/main/tag/conf"
+	accrpc "github.com/namelessup/bilibili/app/service/main/account/api"
+	tagrpc "github.com/namelessup/bilibili/app/service/main/tag/api"
+	"github.com/namelessup/bilibili/library/cache/redis"
 )
 
 // Dao Dao.

@@ -8,8 +8,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"go-common/library/conf/dsn"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/library/conf/dsn"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 var _traceDSN = "unixgram:///var/run/dapper-collect/dapper-collect.sock"

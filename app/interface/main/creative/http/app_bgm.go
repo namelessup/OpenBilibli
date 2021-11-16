@@ -1,10 +1,10 @@
 package http
 
 import (
-	"go-common/app/interface/main/creative/model/app"
-	mMdl "go-common/app/interface/main/creative/model/music"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/app"
+	mMdl "github.com/namelessup/bilibili/app/interface/main/creative/model/music"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 	"strconv"
 )
 

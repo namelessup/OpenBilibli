@@ -23,7 +23,7 @@ go_library(
         "upgrade.go",
         "zone_index.go",
     ],
-    importpath = "go-common/app/interface/main/tv/model",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/tv/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -1,8 +1,8 @@
 package like
 
 import (
-	garcmdl "go-common/app/service/main/archive/api"
-	xtime "go-common/library/time"
+	garcmdl "github.com/namelessup/bilibili/app/service/main/archive/api"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // Like struct

@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["service.go"],
-    importpath = "go-common/app/service/bbq/cms/internal/service",
+    importpath = "github.com/namelessup/bilibili/app/service/bbq/cms/internal/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

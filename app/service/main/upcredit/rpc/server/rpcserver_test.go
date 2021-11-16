@@ -7,10 +7,10 @@ import (
 	"time"
 	_ "time"
 
-	"go-common/app/service/main/upcredit/conf"
-	"go-common/app/service/main/upcredit/service"
-	"go-common/library/net/rpc"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/service/main/upcredit/conf"
+	"github.com/namelessup/bilibili/app/service/main/upcredit/service"
+	"github.com/namelessup/bilibili/library/net/rpc"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 func init() {

@@ -3,7 +3,7 @@ package server
 import (
 	"context"
 	"encoding/json"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 	"io/ioutil"
 	"net/http"
 	"strconv"

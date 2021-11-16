@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"testing"
 
-	"go-common/app/service/main/secure/model"
-	"go-common/library/cache/memcache"
+	"github.com/namelessup/bilibili/app/service/main/secure/model"
+	"github.com/namelessup/bilibili/library/cache/memcache"
 
 	"github.com/bouk/monkey"
 	. "github.com/smartystreets/goconvey/convey"

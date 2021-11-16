@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"go-common/app/admin/main/relation/conf"
-	"go-common/app/admin/main/relation/dao"
+	"github.com/namelessup/bilibili/app/admin/main/relation/conf"
+	"github.com/namelessup/bilibili/app/admin/main/relation/dao"
 )
 
 // Service struct

@@ -93,7 +93,7 @@ go_library(
         "view.go",
         "xss.go",
     ],
-    importpath = "go-common/app/interface/openplatform/article/service",
+    importpath = "github.com/namelessup/bilibili/app/interface/openplatform/article/service",
     tags = ["automanaged"],
     deps = [
         "//app/interface/main/history/model:go_default_library",

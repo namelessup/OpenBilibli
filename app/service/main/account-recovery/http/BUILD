@@ -12,7 +12,7 @@ go_library(
         "bfs.go",
         "http.go",
     ],
-    importpath = "go-common/app/service/main/account-recovery/http",
+    importpath = "github.com/namelessup/bilibili/app/service/main/account-recovery/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

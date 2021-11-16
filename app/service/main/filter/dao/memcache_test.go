@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"
-	"go-common/app/service/main/filter/model"
+	"github.com/namelessup/bilibili/app/service/main/filter/model"
 )
 
 func TestDaoMCFilterKey(t *testing.T) {

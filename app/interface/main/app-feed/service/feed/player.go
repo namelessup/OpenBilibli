@@ -3,8 +3,8 @@ package feed
 import (
 	"context"
 
-	"go-common/app/service/main/archive/model/archive"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // ArchivesWithPlayer archives witch player

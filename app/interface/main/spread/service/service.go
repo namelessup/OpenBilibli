@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"go-common/app/interface/main/spread/conf"
-	"go-common/app/interface/main/spread/dao"
+	"github.com/namelessup/bilibili/app/interface/main/spread/conf"
+	"github.com/namelessup/bilibili/app/interface/main/spread/dao"
 )
 
 // Service struct

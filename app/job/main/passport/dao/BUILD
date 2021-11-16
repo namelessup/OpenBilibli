@@ -13,7 +13,7 @@ go_library(
         "hbase_pwd_log.go",
         "mysql.go",
     ],
-    importpath = "go-common/app/job/main/passport/dao",
+    importpath = "github.com/namelessup/bilibili/app/job/main/passport/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

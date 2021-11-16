@@ -12,7 +12,7 @@ go_library(
         "user.go",
         "user_face.go",
     ],
-    importpath = "go-common/app/service/bbq/user/internal/model",
+    importpath = "github.com/namelessup/bilibili/app/service/bbq/user/internal/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

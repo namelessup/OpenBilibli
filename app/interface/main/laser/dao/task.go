@@ -6,9 +6,9 @@ import (
 	"github.com/pkg/errors"
 
 	"database/sql"
-	"go-common/app/interface/main/laser/model"
-	xsql "go-common/library/database/sql"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/laser/model"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

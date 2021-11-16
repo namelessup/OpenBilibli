@@ -1,11 +1,11 @@
 package server
 
 import (
-	"go-common/app/service/main/usersuit/conf"
-	"go-common/app/service/main/usersuit/model"
-	"go-common/app/service/main/usersuit/service"
-	"go-common/library/net/rpc"
-	"go-common/library/net/rpc/context"
+	"github.com/namelessup/bilibili/app/service/main/usersuit/conf"
+	"github.com/namelessup/bilibili/app/service/main/usersuit/model"
+	"github.com/namelessup/bilibili/app/service/main/usersuit/service"
+	"github.com/namelessup/bilibili/library/net/rpc"
+	"github.com/namelessup/bilibili/library/net/rpc/context"
 )
 
 // RPC server struct

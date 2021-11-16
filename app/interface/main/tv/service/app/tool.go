@@ -4,8 +4,8 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/interface/main/tv/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/tv/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // mergeSlice merges two slices and return a new slice

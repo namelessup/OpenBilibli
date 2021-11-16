@@ -34,7 +34,7 @@ go_library(
         "upbfs.go",
         "whitelist.go",
     ],
-    importpath = "go-common/app/admin/main/creative/service",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/creative/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

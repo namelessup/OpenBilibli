@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strings"
 
-	"go-common/app/tool/saga/model"
-	"go-common/app/tool/saga/service/notification"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/tool/saga/model"
+	"github.com/namelessup/bilibili/app/tool/saga/service/notification"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (c *Command) runPlusOne(ctx context.Context, event *model.HookComment, repo *model.Repo) (err error) {

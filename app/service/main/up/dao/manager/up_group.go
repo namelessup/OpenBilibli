@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"strings"
 
-	upgrpc "go-common/app/service/main/up/api/v1"
-	"go-common/app/service/main/up/dao"
-	"go-common/app/service/main/up/model"
-	xsql "go-common/library/database/sql"
-	"go-common/library/log"
+	upgrpc "github.com/namelessup/bilibili/app/service/main/up/api/v1"
+	"github.com/namelessup/bilibili/app/service/main/up/dao"
+	"github.com/namelessup/bilibili/app/service/main/up/model"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

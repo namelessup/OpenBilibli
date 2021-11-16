@@ -37,7 +37,7 @@ go_library(
         "service.go",
         "subject.go",
     ],
-    importpath = "go-common/app/interface/main/activity/service/like",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/activity/service/like",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

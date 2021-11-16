@@ -3,9 +3,9 @@ package dao
 import (
 	"context"
 
-	"go-common/app/interface/main/spread/conf"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/app/interface/main/spread/conf"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/stat/prom"
 )
 
 // Dao dao

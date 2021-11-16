@@ -24,7 +24,7 @@ go_library(
         "user_proxy.go",
         "utils.go",
     ],
-    importpath = "go-common/app/interface/main/passport-login/service",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/passport-login/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

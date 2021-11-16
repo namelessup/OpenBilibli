@@ -11,7 +11,7 @@ go_library(
         "agentconfig.go",
         "config.go",
     ],
-    importpath = "go-common/app/service/main/dapper/conf",
+    importpath = "github.com/namelessup/bilibili/app/service/main/dapper/conf",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

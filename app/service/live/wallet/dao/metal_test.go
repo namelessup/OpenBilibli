@@ -2,7 +2,7 @@ package dao
 
 import (
 	. "github.com/smartystreets/goconvey/convey"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/library/ecode"
 	"testing"
 )
 

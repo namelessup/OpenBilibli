@@ -5,10 +5,10 @@ import (
 	"mime/multipart"
 	"time"
 
-	"go-common/app/admin/main/coupon/model"
-	"go-common/library/database/sql"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/coupon/model"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/pkg/errors"
 )

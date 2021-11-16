@@ -2,7 +2,7 @@ package account
 
 import (
 	"context"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/library/ecode"
 	"net/url"
 	"testing"
 

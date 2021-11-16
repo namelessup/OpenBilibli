@@ -6,9 +6,9 @@ import (
 	"encoding/hex"
 	"strconv"
 
-	arcmdl "go-common/app/interface/main/creative/model/archive"
-	"go-common/library/cache/memcache"
-	"go-common/library/log"
+	arcmdl "github.com/namelessup/bilibili/app/interface/main/creative/model/archive"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

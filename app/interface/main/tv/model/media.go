@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/url"
 
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 const (

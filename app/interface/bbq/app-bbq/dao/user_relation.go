@@ -3,9 +3,9 @@ package dao
 import (
 	"context"
 	"fmt"
-	"go-common/app/interface/bbq/app-bbq/api/http/v1"
-	user "go-common/app/service/bbq/user/api"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/bbq/app-bbq/api/http/v1"
+	user "github.com/namelessup/bilibili/app/service/bbq/user/api"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // ModifyRelation .

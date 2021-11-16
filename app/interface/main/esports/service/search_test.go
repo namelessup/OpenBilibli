@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"go-common/app/interface/main/esports/model"
+	"github.com/namelessup/bilibili/app/interface/main/esports/model"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

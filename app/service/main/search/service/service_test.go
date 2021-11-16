@@ -4,7 +4,7 @@ import (
 	"flag"
 	"path/filepath"
 
-	"go-common/app/service/main/search/conf"
+	"github.com/namelessup/bilibili/app/service/main/search/conf"
 )
 
 func WithService(f func(s *Service)) func() {

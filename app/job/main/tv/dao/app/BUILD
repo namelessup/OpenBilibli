@@ -54,7 +54,7 @@ go_library(
         "sync_retry.go",
         "zone_index.go",
     ],
-    importpath = "go-common/app/job/main/tv/dao/app",
+    importpath = "github.com/namelessup/bilibili/app/job/main/tv/dao/app",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

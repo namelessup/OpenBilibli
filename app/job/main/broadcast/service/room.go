@@ -3,9 +3,9 @@ package service
 import (
 	"time"
 
-	"go-common/app/service/main/broadcast/libs/bytes"
-	"go-common/app/service/main/broadcast/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/broadcast/libs/bytes"
+	"github.com/namelessup/bilibili/app/service/main/broadcast/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // RoomOptions room options.

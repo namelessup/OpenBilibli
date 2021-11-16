@@ -1,14 +1,14 @@
 package http
 
 import (
-	"go-common/app/service/live/xcaptcha/service/v1"
+	"github.com/namelessup/bilibili/app/service/live/xcaptcha/service/v1"
 	"net/http"
 
-	"go-common/app/service/live/xcaptcha/conf"
-	"go-common/app/service/live/xcaptcha/service"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/verify"
+	"github.com/namelessup/bilibili/app/service/live/xcaptcha/conf"
+	"github.com/namelessup/bilibili/app/service/live/xcaptcha/service"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/verify"
 )
 
 var (

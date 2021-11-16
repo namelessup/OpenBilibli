@@ -34,7 +34,7 @@ go_library(
         "net.go",
         "task.go",
     ],
-    importpath = "go-common/app/admin/main/aegis/dao/redis",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/aegis/dao/redis",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

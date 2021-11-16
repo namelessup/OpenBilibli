@@ -13,11 +13,11 @@ import (
 	"path/filepath"
 	"strings"
 
-	"go-common/app/admin/ep/melloi/conf"
-	"go-common/app/admin/ep/melloi/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/ep/melloi/conf"
+	"github.com/namelessup/bilibili/app/admin/ep/melloi/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 
 	"github.com/pkg/errors"
 )

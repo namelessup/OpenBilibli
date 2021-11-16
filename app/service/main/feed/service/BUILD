@@ -48,7 +48,7 @@ go_library(
         "service.go",
         "unread_count.go",
     ],
-    importpath = "go-common/app/service/main/feed/service",
+    importpath = "github.com/namelessup/bilibili/app/service/main/feed/service",
     tags = ["automanaged"],
     deps = [
         "//app/interface/openplatform/article/model:go_default_library",

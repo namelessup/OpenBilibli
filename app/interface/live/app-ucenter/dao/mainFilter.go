@@ -6,11 +6,11 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/interface/live/app-ucenter/conf"
-	"go-common/app/service/live/room/api/liverpc/v1"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/live/app-ucenter/conf"
+	"github.com/namelessup/bilibili/app/service/live/room/api/liverpc/v1"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 //FILTER_MPOST_URL 主站屏蔽词url

@@ -18,7 +18,7 @@ go_library(
         "package.go",
         "publish.go",
     ],
-    importpath = "go-common/app/admin/main/macross/http",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/macross/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

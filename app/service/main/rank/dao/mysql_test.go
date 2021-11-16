@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	xtime "go-common/library/time"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	"github.com/smartystreets/goconvey/convey"
 )

@@ -27,7 +27,7 @@ go_library(
         "tree.go",
         "user.go",
     ],
-    importpath = "go-common/app/admin/ep/melloi/http",
+    importpath = "github.com/namelessup/bilibili/app/admin/ep/melloi/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

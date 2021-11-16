@@ -9,7 +9,7 @@ import (
 
 	. "github.com/smartystreets/goconvey/convey"
 
-	"go-common/app/job/main/app-wall/conf"
+	"github.com/namelessup/bilibili/app/job/main/app-wall/conf"
 )
 
 var (

@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["click-job-test.toml"],
-    importpath = "go-common/app/job/main/click/cmd",
+    importpath = "github.com/namelessup/bilibili/app/job/main/click/cmd",
     tags = ["automanaged"],
     deps = [
         "//app/job/main/click/conf:go_default_library",

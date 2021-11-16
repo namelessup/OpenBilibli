@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	cml "go-common/app/admin/main/apm/model/canal"
+	cml "github.com/namelessup/bilibili/app/admin/main/apm/model/canal"
 
 	"github.com/bouk/monkey"
 	"github.com/jinzhu/gorm"

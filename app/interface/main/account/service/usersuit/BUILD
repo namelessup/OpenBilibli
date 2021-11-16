@@ -14,7 +14,7 @@ go_library(
         "pendant_new.go",
         "service.go",
     ],
-    importpath = "go-common/app/interface/main/account/service/usersuit",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/account/service/usersuit",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -6,8 +6,8 @@ import (
 	"os"
 	"testing"
 
-	"go-common/app/admin/ep/saga/conf"
-	"go-common/app/admin/ep/saga/model"
+	"github.com/namelessup/bilibili/app/admin/ep/saga/conf"
+	"github.com/namelessup/bilibili/app/admin/ep/saga/model"
 
 	. "github.com/smartystreets/goconvey/convey"
 	"github.com/xanzy/go-gitlab"
@@ -36,8 +36,8 @@ func TestInsertDB(t *testing.T) {
 			ID:            11,
 			Name:          "test",
 			Description:   "[主站 android java] test",
-			WebURL:        "http://gitlab.bilibili.co/platform/go-common",
-			SSHURLToRepo:  "git@gitlab.bilibili.co:platform/go-common.git",
+			WebURL:        "http://gitlab.bilibili.co/platform/github.com/namelessup/bilibili",
+			SSHURLToRepo:  "git@gitlab.bilibili.co:platform/github.com/namelessup/bilibili.git",
 			DefaultBranch: "master",
 			Namespace: &gitlab.ProjectNamespace{
 				Name: "mytest",
@@ -52,8 +52,8 @@ func TestInsertDB(t *testing.T) {
 		So(err, ShouldBeNil)
 		So(projectInfo.ProjectID, ShouldEqual, 11)
 		So(projectInfo.Name, ShouldEqual, "test")
-		So(projectInfo.WebURL, ShouldEqual, "http://gitlab.bilibili.co/platform/go-common")
-		So(projectInfo.Repo, ShouldEqual, "git@gitlab.bilibili.co:platform/go-common.git")
+		So(projectInfo.WebURL, ShouldEqual, "http://gitlab.bilibili.co/platform/github.com/namelessup/bilibili")
+		So(projectInfo.Repo, ShouldEqual, "git@gitlab.bilibili.co:platform/github.com/namelessup/bilibili.git")
 		So(projectInfo.DefaultBranch, ShouldEqual, "master")
 		So(projectInfo.Department, ShouldEqual, "主站")
 		So(projectInfo.Business, ShouldEqual, "android")

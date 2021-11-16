@@ -3,9 +3,9 @@ package dao
 import (
 	"context"
 
-	relmod "go-common/app/service/main/relation/model"
-	uprpc "go-common/app/service/main/up/api/v1"
-	"go-common/library/log"
+	relmod "github.com/namelessup/bilibili/app/service/main/relation/model"
+	uprpc "github.com/namelessup/bilibili/app/service/main/up/api/v1"
+	"github.com/namelessup/bilibili/library/log"
 
 	terrors "github.com/pkg/errors"
 )

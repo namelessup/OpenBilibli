@@ -3,10 +3,10 @@ package service
 import (
 	"context"
 
-	"go-common/app/service/bbq/recsys-recall/api/grpc/v1"
-	"go-common/app/service/bbq/recsys-recall/model"
-	"go-common/app/service/bbq/recsys-recall/service/index"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/bbq/recsys-recall/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/bbq/recsys-recall/model"
+	"github.com/namelessup/bilibili/app/service/bbq/recsys-recall/service/index"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/Dai0522/workpool"
 )

@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/interface/main/app-show/conf"
-	"go-common/library/cache/redis"
-	"go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/conf"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/database/sql"
 )
 
 // Dao is show dao.

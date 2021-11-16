@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["endian.go"],
-    importpath = "go-common/app/service/main/broadcast/libs/encoding/binary",
+    importpath = "github.com/namelessup/bilibili/app/service/main/broadcast/libs/encoding/binary",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

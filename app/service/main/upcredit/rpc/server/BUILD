@@ -23,8 +23,8 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["rpcserver.go"],
-    importmap = "go-common/app/service/main/upcredit/rpc/server",
-    importpath = "go-common/app/service/main/upcredit/rpc/server",
+    importmap = "github.com/namelessup/bilibili/app/service/main/upcredit/rpc/server",
+    importpath = "github.com/namelessup/bilibili/app/service/main/upcredit/rpc/server",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -2,7 +2,7 @@ package dao
 
 import (
 	"context"
-	"go-common/app/admin/main/creative/conf"
+	"github.com/namelessup/bilibili/app/admin/main/creative/conf"
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"

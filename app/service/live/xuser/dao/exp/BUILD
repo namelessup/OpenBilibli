@@ -12,7 +12,7 @@ go_library(
         "memcache.go",
         "mysql.go",
     ],
-    importpath = "go-common/app/service/live/xuser/dao/exp",
+    importpath = "github.com/namelessup/bilibili/app/service/live/xuser/dao/exp",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

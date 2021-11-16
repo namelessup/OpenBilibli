@@ -16,7 +16,7 @@ go_library(
         "ugc_playurl.go",
         "upgrade.go",
     ],
-    importpath = "go-common/app/interface/main/tv/dao/goblin",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/tv/dao/goblin",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

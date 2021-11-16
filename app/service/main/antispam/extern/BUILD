@@ -13,7 +13,7 @@ go_library(
         "mock.go",
         "reply_service.go",
     ],
-    importpath = "go-common/app/service/main/antispam/extern",
+    importpath = "github.com/namelessup/bilibili/app/service/main/antispam/extern",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -18,7 +18,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["tip.go"],
-    importpath = "go-common/library/ecode/tip",
+    importpath = "github.com/namelessup/bilibili/library/ecode/tip",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

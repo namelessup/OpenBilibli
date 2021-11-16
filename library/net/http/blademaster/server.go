@@ -13,12 +13,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go-common/library/conf/dsn"
-	"go-common/library/log"
-	"go-common/library/net/ip"
-	"go-common/library/net/metadata"
-	"go-common/library/stat"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/library/conf/dsn"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/ip"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/stat"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	"github.com/pkg/errors"
 )

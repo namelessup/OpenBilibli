@@ -39,7 +39,7 @@ go_library(
         "reason.go",
         "tag.go",
     ],
-    importpath = "go-common/app/admin/main/manager/dao",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/manager/dao",
     tags = ["automanaged"],
     deps = [
         "//app/admin/main/manager/conf:go_default_library",

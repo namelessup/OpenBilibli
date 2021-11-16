@@ -5,10 +5,10 @@ import (
 	"net/url"
 	"strconv"
 
-	"go-common/app/interface/main/creative/model/tag"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/tag"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 // TagList get tag list.

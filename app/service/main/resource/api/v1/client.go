@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/library/net/rpc/warden"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 
 	"google.golang.org/grpc"
 )
@@ -22,4 +22,4 @@ func NewClient(cfg *warden.ClientConfig, opts ...grpc.DialOption) (ResourceClien
 	return NewResourceClient(cc), nil
 }
 
-//go:generate $GOPATH/src/go-common/app/tool/warden/protoc.sh
+//go:generate $GOPATH/src/github.com/namelessup/bilibili/app/tool/warden/protoc.sh

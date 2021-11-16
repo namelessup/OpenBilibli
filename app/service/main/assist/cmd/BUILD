@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["assist-service.toml"],
-    importpath = "go-common/app/service/main/assist/cmd",
+    importpath = "github.com/namelessup/bilibili/app/service/main/assist/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

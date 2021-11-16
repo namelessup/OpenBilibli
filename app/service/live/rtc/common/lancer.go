@@ -5,7 +5,7 @@ import (
 	"encoding/binary"
 	"errors"
 	"fmt"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 	"net"
 	"runtime"
 	"strconv"

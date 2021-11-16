@@ -25,7 +25,7 @@ go_library(
         "dsn.go",
         "query.go",
     ],
-    importpath = "go-common/library/conf/dsn",
+    importpath = "github.com/namelessup/bilibili/library/conf/dsn",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//vendor/gopkg.in/go-playground/validator.v9:go_default_library"],

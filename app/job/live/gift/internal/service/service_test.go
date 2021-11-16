@@ -2,7 +2,7 @@ package service
 
 import (
 	"flag"
-	"go-common/app/job/live/gift/internal/conf"
+	"github.com/namelessup/bilibili/app/job/live/gift/internal/conf"
 	"os"
 	"testing"
 )

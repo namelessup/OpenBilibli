@@ -6,15 +6,15 @@ import (
 	"errors"
 	"time"
 
-	"go-common/app/service/main/push/dao/apns2"
-	"go-common/app/service/main/push/dao/fcm"
-	"go-common/app/service/main/push/dao/huawei"
-	"go-common/app/service/main/push/dao/jpush"
-	"go-common/app/service/main/push/dao/mi"
-	"go-common/app/service/main/push/dao/oppo"
-	"go-common/app/service/main/push/model"
-	"go-common/library/conf/env"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/push/dao/apns2"
+	"github.com/namelessup/bilibili/app/service/main/push/dao/fcm"
+	"github.com/namelessup/bilibili/app/service/main/push/dao/huawei"
+	"github.com/namelessup/bilibili/app/service/main/push/dao/jpush"
+	"github.com/namelessup/bilibili/app/service/main/push/dao/mi"
+	"github.com/namelessup/bilibili/app/service/main/push/dao/oppo"
+	"github.com/namelessup/bilibili/app/service/main/push/model"
+	"github.com/namelessup/bilibili/library/conf/env"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 var errNoClinets = errors.New("no clients")

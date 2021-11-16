@@ -5,11 +5,11 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/interface/bbq/common/model"
-	"go-common/library/log"
-	"go-common/library/log/infoc"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/app/interface/bbq/common/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/log/infoc"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/trace"
 
 	jsoniter "github.com/json-iterator/go"
 )

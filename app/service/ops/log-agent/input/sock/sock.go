@@ -13,12 +13,12 @@ import (
 	"context"
 	"strings"
 
-	"go-common/library/log"
-	"go-common/app/service/ops/log-agent/input"
-	"go-common/app/service/ops/log-agent/event"
-	"go-common/app/service/ops/log-agent/pkg/flowmonitor"
-	"go-common/app/service/ops/log-agent/pkg/lancermonitor"
-	"go-common/app/service/ops/log-agent/pkg/lancerroute"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/app/service/ops/log-agent/input"
+	"github.com/namelessup/bilibili/app/service/ops/log-agent/event"
+	"github.com/namelessup/bilibili/app/service/ops/log-agent/pkg/flowmonitor"
+	"github.com/namelessup/bilibili/app/service/ops/log-agent/pkg/lancermonitor"
+	"github.com/namelessup/bilibili/app/service/ops/log-agent/pkg/lancerroute"
 
 	"github.com/BurntSushi/toml"
 )

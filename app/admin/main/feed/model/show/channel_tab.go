@@ -1,6 +1,6 @@
 package show
 
-import "go-common/app/admin/main/feed/model/common"
+import "github.com/namelessup/bilibili/app/admin/main/feed/model/common"
 
 //ChannelTab channel tab
 type ChannelTab struct {

@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"go-common/app/admin/main/upload/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/upload/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // ListBucket .

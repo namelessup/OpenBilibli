@@ -23,7 +23,7 @@ go_library(
         "http_client.go",
         "sqltool.go",
     ],
-    importpath = "go-common/app/interface/main/mcn/tool/datacenter",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/mcn/tool/datacenter",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

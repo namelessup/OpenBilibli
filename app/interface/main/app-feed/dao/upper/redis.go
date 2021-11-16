@@ -4,12 +4,12 @@ import (
 	"context"
 	"strconv"
 
-	"go-common/app/service/main/archive/api"
-	feed "go-common/app/service/main/feed/model"
-	"go-common/library/log"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	feed "github.com/namelessup/bilibili/app/service/main/feed/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/xstr"
 
-	"go-common/library/cache/redis"
+	"github.com/namelessup/bilibili/library/cache/redis"
 
 	"github.com/pkg/errors"
 )

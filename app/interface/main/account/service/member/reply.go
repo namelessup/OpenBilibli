@@ -4,12 +4,12 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/app/interface/main/account/model"
-	artMdl "go-common/app/interface/openplatform/article/model"
-	"go-common/app/service/main/archive/api"
-	arcMdl "go-common/app/service/main/archive/model/archive"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/main/account/model"
+	artMdl "github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	arcMdl "github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 var (

@@ -7,11 +7,11 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 
-	"go-common/app/job/main/videoup/conf"
-	"go-common/app/job/main/videoup/http"
-	"go-common/app/job/main/videoup/service"
+	"github.com/namelessup/bilibili/app/job/main/videoup/conf"
+	"github.com/namelessup/bilibili/app/job/main/videoup/http"
+	"github.com/namelessup/bilibili/app/job/main/videoup/service"
 )
 
 var (

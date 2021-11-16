@@ -6,11 +6,11 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/admin/main/growup/dao"
-	"go-common/app/admin/main/growup/dao/resource"
-	"go-common/app/admin/main/growup/model"
+	"github.com/namelessup/bilibili/app/admin/main/growup/dao"
+	"github.com/namelessup/bilibili/app/admin/main/growup/dao/resource"
+	"github.com/namelessup/bilibili/app/admin/main/growup/model"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

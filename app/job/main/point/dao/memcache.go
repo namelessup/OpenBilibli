@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/cache/memcache"
 
 	"github.com/pkg/errors"
 )

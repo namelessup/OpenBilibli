@@ -3,8 +3,8 @@ package databus
 import (
 	"context"
 	. "github.com/smartystreets/goconvey/convey"
-	"go-common/app/admin/main/videoup/model/archive"
-	"go-common/app/admin/main/videoup/model/message"
+	"github.com/namelessup/bilibili/app/admin/main/videoup/model/archive"
+	"github.com/namelessup/bilibili/app/admin/main/videoup/model/message"
 	"testing"
 )
 

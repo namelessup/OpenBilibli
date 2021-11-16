@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/admin/main/open/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/open/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // AddApp represents add an app.

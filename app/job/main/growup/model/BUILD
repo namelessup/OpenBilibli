@@ -23,7 +23,7 @@ go_library(
         "upload.go",
         "video.go",
     ],
-    importpath = "go-common/app/job/main/growup/model",
+    importpath = "github.com/namelessup/bilibili/app/job/main/growup/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/time:go_default_library"],

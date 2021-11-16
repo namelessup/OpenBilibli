@@ -7,13 +7,13 @@ import (
 	"strings"
 	"time"
 
-	iModel "go-common/app/interface/main/broadcast/model"
-	"go-common/app/service/main/broadcast/libs/bufio"
-	"go-common/app/service/main/broadcast/libs/bytes"
-	itime "go-common/app/service/main/broadcast/libs/time"
-	"go-common/app/service/main/broadcast/model"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	iModel "github.com/namelessup/bilibili/app/interface/main/broadcast/model"
+	"github.com/namelessup/bilibili/app/service/main/broadcast/libs/bufio"
+	"github.com/namelessup/bilibili/app/service/main/broadcast/libs/bytes"
+	itime "github.com/namelessup/bilibili/app/service/main/broadcast/libs/time"
+	"github.com/namelessup/bilibili/app/service/main/broadcast/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 // InitTCP listen all tcp.bind and start accept connections.

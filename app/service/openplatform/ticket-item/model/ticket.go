@@ -1,7 +1,7 @@
 package model
 
 import (
-	item "go-common/app/service/openplatform/ticket-item/api/grpc/v1"
+	item "github.com/namelessup/bilibili/app/service/openplatform/ticket-item/api/grpc/v1"
 	"strconv"
 )
 

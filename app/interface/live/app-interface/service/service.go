@@ -2,8 +2,8 @@ package service
 
 import (
 	"context"
-	"go-common/app/interface/live/app-interface/conf"
-	"go-common/app/interface/live/app-interface/dao"
+	"github.com/namelessup/bilibili/app/interface/live/app-interface/conf"
+	"github.com/namelessup/bilibili/app/interface/live/app-interface/dao"
 )
 
 // Service struct

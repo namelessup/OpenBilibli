@@ -5,12 +5,12 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/service/main/push/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	xtime "go-common/library/time"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/service/main/push/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	xtime "github.com/namelessup/bilibili/library/time"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 func push(c *bm.Context) {

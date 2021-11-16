@@ -38,7 +38,7 @@ go_library(
         "search.go",
         "stat_redis.go",
     ],
-    importpath = "go-common/app/interface/main/playlist/dao",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/playlist/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

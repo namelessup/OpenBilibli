@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 
-	"go-common/app/service/main/archive/api"
-	rpcModel "go-common/app/service/main/tag/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	rpcModel "github.com/namelessup/bilibili/app/service/main/tag/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // newArcs .

@@ -612,7 +612,7 @@
 > 1.修改Version endor中的Shopify依赖冲突
 
 #### Version 4.8.6
-> 1.升级go-common,go-business依赖（普罗米修斯，logagent）
+> 1.升级github.com/namelessup/bilibili,go-business依赖（普罗米修斯，logagent）
 
 #### Version 4.8.5
 > 1.添加文章类型
@@ -716,7 +716,7 @@
 > 1.本地TW docker.
 
 #### Version 4.3.2
-> 1.更新golang/go-common/go-business
+> 1.更新golang/github.com/namelessup/bilibili/go-business
 
 #### Version 4.3.1
 > 1.修复监控评论错误码
@@ -778,7 +778,7 @@
 
 #### Version 3.3.0
 > 1.接入新的过滤服务
-> 2.更新go-common依赖
+> 2.更新github.com/namelessup/bilibili依赖
 
 #### Version 3.2.1
 > 1.更新Version endor依赖

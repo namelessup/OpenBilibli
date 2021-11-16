@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"go-common/app/tool/saga/model"
+	"github.com/namelessup/bilibili/app/tool/saga/model"
 
 	"github.com/smartystreets/goconvey/convey"
 )

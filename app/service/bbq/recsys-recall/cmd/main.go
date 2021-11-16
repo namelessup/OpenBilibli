@@ -6,14 +6,14 @@ import (
 	"os/signal"
 	"syscall"
 
-	"go-common/app/service/bbq/recsys-recall/conf"
-	"go-common/app/service/bbq/recsys-recall/server/grpc"
-	"go-common/app/service/bbq/recsys-recall/server/http"
-	"go-common/app/service/bbq/recsys-recall/service"
-	"go-common/app/service/bbq/recsys-recall/service/index"
-	ecode "go-common/library/ecode/tip"
-	"go-common/library/log"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/app/service/bbq/recsys-recall/conf"
+	"github.com/namelessup/bilibili/app/service/bbq/recsys-recall/server/grpc"
+	"github.com/namelessup/bilibili/app/service/bbq/recsys-recall/server/http"
+	"github.com/namelessup/bilibili/app/service/bbq/recsys-recall/service"
+	"github.com/namelessup/bilibili/app/service/bbq/recsys-recall/service/index"
+	ecode "github.com/namelessup/bilibili/library/ecode/tip"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
 )
 
 func main() {

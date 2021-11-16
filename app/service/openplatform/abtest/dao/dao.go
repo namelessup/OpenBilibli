@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/service/openplatform/abtest/conf"
-	"go-common/library/cache/redis"
-	"go-common/library/database/sql"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/openplatform/abtest/conf"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Dao struct answer history of Dao

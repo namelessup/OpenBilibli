@@ -3,8 +3,8 @@ package input
 import (
 	"fmt"
 	"context"
-	"go-common/library/log"
-	"go-common/app/service/ops/log-agent/event"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/app/service/ops/log-agent/event"
 )
 
 type Input interface {

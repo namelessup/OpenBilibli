@@ -19,7 +19,7 @@ go_library(
         "antispam-integration.toml",
         "antispam-test.toml",
     ],
-    importpath = "go-common/app/service/main/antispam/cmd",
+    importpath = "github.com/namelessup/bilibili/app/service/main/antispam/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -8,7 +8,7 @@ import fmt "fmt"
 import math "math"
 import _ "github.com/gogo/protobuf/gogoproto"
 
-import go_common_library_time "go-common/library/time"
+import go_common_library_time "github.com/namelessup/bilibili/library/time"
 
 import (
 	context "golang.org/x/net/context"
@@ -270,7 +270,7 @@ type Profile struct {
 	Pendant              PendantInfo                 `protobuf:"bytes,15,opt,name=pendant" json:"pendant"`
 	Nameplate            NameplateInfo               `protobuf:"bytes,16,opt,name=nameplate" json:"nameplate"`
 	Official             OfficialInfo                `protobuf:"bytes,17,opt,name=official" json:"official"`
-	Birthday             go_common_library_time.Time `protobuf:"varint,18,opt,name=birthday,proto3,casttype=go-common/library/time.Time" json:"birthday"`
+	Birthday             go_common_library_time.Time `protobuf:"varint,18,opt,name=birthday,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"birthday"`
 	IsTourist            int32                       `protobuf:"varint,19,opt,name=is_tourist,json=isTourist,proto3" json:"is_tourist"`
 	XXX_NoUnkeyedLiteral struct{}                    `json:"-"`
 	XXX_unrecognized     []byte                      `json:"-"`
@@ -444,7 +444,7 @@ func (m *Profile) GetIsTourist() int32 {
 }
 
 // +bili:deepcopy-gen=true
-// +bili:deepcopy-gen:structs=go-common/app/service/main/member/model.LevelInfo
+// +bili:deepcopy-gen:structs=github.com/namelessup/bilibili/app/service/main/member/model.LevelInfo
 type LevelInfo struct {
 	Cur                  int32    `protobuf:"varint,1,opt,name=cur,proto3" json:"current_level"`
 	Min                  int32    `protobuf:"varint,2,opt,name=min,proto3" json:"current_min"`
@@ -746,7 +746,7 @@ func (m *NameplateInfo) GetCondition() string {
 }
 
 // +bili:deepcopy-gen=true
-// +bili:deepcopy-gen:structs=go-common/app/service/main/member/model.OfficialInfo
+// +bili:deepcopy-gen:structs=github.com/namelessup/bilibili/app/service/main/member/model.OfficialInfo
 type OfficialInfo struct {
 	Role                 int8     `protobuf:"varint,1,opt,name=role,proto3,casttype=int8" json:"role"`
 	Title                string   `protobuf:"bytes,2,opt,name=title,proto3" json:"title"`
@@ -1888,7 +1888,7 @@ func (m *RichRelationsReply) GetRichRelations() map[int64]int32 {
 }
 
 // +bili:deepcopy-gen=true
-// +bili:deepcopy-gen:structs=go-common/app/service/main/account/api.VipInfo
+// +bili:deepcopy-gen:structs=github.com/namelessup/bilibili/app/service/main/account/api.VipInfo
 type VipReply struct {
 	Type                 int32    `protobuf:"varint,1,opt,name=type,proto3" json:"type,omitempty"`
 	Status               int32    `protobuf:"varint,2,opt,name=status,proto3" json:"status,omitempty"`

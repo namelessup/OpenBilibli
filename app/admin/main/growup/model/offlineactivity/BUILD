@@ -11,7 +11,7 @@ go_library(
         "offlineactivity.go",
         "request.go",
     ],
-    importpath = "go-common/app/admin/main/growup/model/offlineactivity",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/growup/model/offlineactivity",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/time:go_default_library"],

@@ -2,7 +2,7 @@ package service
 
 import (
 	"context"
-	"go-common/app/admin/main/growup/model"
+	"github.com/namelessup/bilibili/app/admin/main/growup/model"
 	"testing"
 	"time"
 

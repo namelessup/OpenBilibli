@@ -9,11 +9,11 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/job/main/app-wall/model/unicom"
-	"go-common/library/cache/memcache"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/queue/databus/report"
+	"github.com/namelessup/bilibili/app/job/main/app-wall/model/unicom"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus/report"
 )
 
 const (

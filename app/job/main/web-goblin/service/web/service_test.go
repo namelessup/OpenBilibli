@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"go-common/app/job/main/web-goblin/conf"
+	"github.com/namelessup/bilibili/app/job/main/web-goblin/conf"
 )
 
 var (

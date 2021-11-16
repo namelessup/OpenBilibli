@@ -1,13 +1,13 @@
 package http
 
 import (
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/library/net/metadata"
 	"net/http"
 
-	"go-common/app/service/live/userexp/conf"
-	"go-common/app/service/live/userexp/service"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/service/live/userexp/conf"
+	"github.com/namelessup/bilibili/app/service/live/userexp/service"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 var (

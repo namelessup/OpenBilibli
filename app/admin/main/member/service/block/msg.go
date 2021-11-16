@@ -3,8 +3,8 @@ package block
 import (
 	"fmt"
 
-	model "go-common/app/admin/main/member/model/block"
-	"go-common/library/log"
+	model "github.com/namelessup/bilibili/app/admin/main/member/model/block"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

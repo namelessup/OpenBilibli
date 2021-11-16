@@ -1,9 +1,9 @@
 package v1
 
 import (
-	"go-common/app/interface/bbq/app-bbq/model"
-	video "go-common/app/service/bbq/video/api/grpc/v1"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/interface/bbq/app-bbq/model"
+	video "github.com/namelessup/bilibili/app/service/bbq/video/api/grpc/v1"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // HotReply 热评

@@ -3,8 +3,8 @@ package dao
 import (
 	"context"
 	. "github.com/smartystreets/goconvey/convey"
-	model "go-common/app/interface/main/shorturl/model"
-	xtime "go-common/library/time"
+	model "github.com/namelessup/bilibili/app/interface/main/shorturl/model"
+	xtime "github.com/namelessup/bilibili/library/time"
 	"testing"
 	"time"
 )

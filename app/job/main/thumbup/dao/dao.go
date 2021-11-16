@@ -4,12 +4,12 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/job/main/thumbup/conf"
-	"go-common/library/cache/memcache"
-	xredis "go-common/library/cache/redis"
-	"go-common/library/database/tidb"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/job/main/thumbup/conf"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	xredis "github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/database/tidb"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 // Dao .

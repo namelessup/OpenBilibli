@@ -14,7 +14,7 @@ go_library(
     name = "go_default_library",
     srcs = ["ecode.go"],
     embed = [":pb_go_proto"],
-    importpath = "go-common/library/ecode/pb",
+    importpath = "github.com/namelessup/bilibili/library/ecode/pb",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [
@@ -48,7 +48,7 @@ proto_library(
 go_proto_library(
     name = "pb_go_proto",
     compilers = ["@io_bazel_rules_go//proto:go_proto"],
-    importpath = "go-common/library/ecode/pb",
+    importpath = "github.com/namelessup/bilibili/library/ecode/pb",
     proto = ":pb_proto",
     tags = ["automanaged"],
     deps = ["@io_bazel_rules_go//proto/wkt:any_go_proto"],

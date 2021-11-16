@@ -11,7 +11,7 @@ go_library(
         "service.go",
         "share.go",
     ],
-    importpath = "go-common/app/interface/main/web-goblin/service/share",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/web-goblin/service/share",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

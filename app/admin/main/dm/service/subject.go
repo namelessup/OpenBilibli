@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/admin/main/dm/model"
-	"go-common/app/service/main/archive/api"
-	"go-common/app/service/main/archive/model/archive"
-	"go-common/library/log"
-	manager "go-common/library/queue/databus/report"
+	"github.com/namelessup/bilibili/app/admin/main/dm/model"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/library/log"
+	manager "github.com/namelessup/bilibili/library/queue/databus/report"
 )
 
 // ArchiveList get archive list.

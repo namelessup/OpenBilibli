@@ -3,9 +3,9 @@ package xuser
 import (
 	"context"
 	"github.com/pkg/errors"
-	xuserM "go-common/app/service/live/xuser/api/grpc/v1"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	xuserM "github.com/namelessup/bilibili/app/service/live/xuser/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // GetUserExpData ...

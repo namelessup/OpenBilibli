@@ -11,9 +11,9 @@ import (
 	"github.com/pkg/errors"
 	"github.com/prometheus/common/log"
 
-	"go-common/app/service/live/dao-anchor/conf"
-	"go-common/app/service/live/dao-anchor/dao"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/service/live/dao-anchor/conf"
+	"github.com/namelessup/bilibili/app/service/live/dao-anchor/dao"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 type attrInfo struct {

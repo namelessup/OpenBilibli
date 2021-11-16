@@ -12,7 +12,7 @@ go_library(
         "http.go",
         "video.go",
     ],
-    importpath = "go-common/app/interface/main/playlist/http",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/playlist/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

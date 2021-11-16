@@ -3,10 +3,10 @@ package service
 import (
 	"context"
 
-	pb "go-common/app/service/main/resource/api/v1"
-	"go-common/app/service/main/resource/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	pb "github.com/namelessup/bilibili/app/service/main/resource/api/v1"
+	"github.com/namelessup/bilibili/app/service/main/resource/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 //Relate Relate card grpc

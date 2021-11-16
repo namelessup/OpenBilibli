@@ -40,7 +40,7 @@ go_library(
         "prize_log.go",
         "storm.go",
     ],
-    importpath = "go-common/app/service/live/xlottery/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/live/xlottery/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

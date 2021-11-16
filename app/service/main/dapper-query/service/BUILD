@@ -12,7 +12,7 @@ go_library(
         "service.go",
         "util.go",
     ],
-    importpath = "go-common/app/service/main/dapper-query/service",
+    importpath = "github.com/namelessup/bilibili/app/service/main/dapper-query/service",
     tags = ["manual"],
     visibility = ["//visibility:public"],
     deps = [

@@ -8,12 +8,12 @@ import (
 	"sync"
 	"time"
 
-	"go-common/app/interface/main/tag/model"
-	taGrpcModel "go-common/app/service/main/tag/api"
-	rpcModel "go-common/app/service/main/tag/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/interface/main/tag/model"
+	taGrpcModel "github.com/namelessup/bilibili/app/service/main/tag/api"
+	rpcModel "github.com/namelessup/bilibili/app/service/main/tag/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 // get channel caches.

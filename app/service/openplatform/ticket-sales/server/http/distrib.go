@@ -3,9 +3,9 @@ package http
 import (
 	"github.com/pkg/errors"
 
-	"go-common/app/service/openplatform/ticket-sales/model"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func syncOrder(c *bm.Context) {

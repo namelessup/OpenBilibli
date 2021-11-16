@@ -2,13 +2,13 @@ package service
 
 import (
 	"context"
-	"go-common/app/job/bbq/video/dao"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/job/bbq/video/dao"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 	"sync/atomic"
 	"time"
 
-	notice "go-common/app/service/bbq/notice-service/api/v1"
+	notice "github.com/namelessup/bilibili/app/service/bbq/notice-service/api/v1"
 )
 
 // 信号量，为了避免task执行超过周期，连续执行两个任务会出现问题

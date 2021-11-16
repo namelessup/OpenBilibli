@@ -3,10 +3,10 @@ package service
 import (
 	"context"
 	"encoding/json"
-	"go-common/app/interface/bbq/app-bbq/api/http/v1"
-	topic "go-common/app/service/bbq/topic/api"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/bbq/app-bbq/api/http/v1"
+	topic "github.com/namelessup/bilibili/app/service/bbq/topic/api"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 	"net/http"
 	"net/url"
 )

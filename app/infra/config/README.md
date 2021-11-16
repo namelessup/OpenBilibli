@@ -1,4 +1,4 @@
-# go-common/business/main/service/config
+# github.com/namelessup/bilibili/business/main/service/config
 
 ##### 项目简介
 > 1. 配置中心服务端，提供配置文件的管理和拉取

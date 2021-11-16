@@ -7,11 +7,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go-common/app/service/main/ugcpay-rank/internal/conf"
-	"go-common/app/service/main/ugcpay-rank/internal/dao"
-	"go-common/app/service/main/ugcpay-rank/internal/model"
-	"go-common/library/log"
-	"go-common/library/sync/pipeline/fanout"
+	"github.com/namelessup/bilibili/app/service/main/ugcpay-rank/internal/conf"
+	"github.com/namelessup/bilibili/app/service/main/ugcpay-rank/internal/dao"
+	"github.com/namelessup/bilibili/app/service/main/ugcpay-rank/internal/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/pipeline/fanout"
 )
 
 // Service struct

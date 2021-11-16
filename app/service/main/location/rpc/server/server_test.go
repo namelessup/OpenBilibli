@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/service/main/location/conf"
-	"go-common/app/service/main/location/model"
-	"go-common/app/service/main/location/service"
+	"github.com/namelessup/bilibili/app/service/main/location/conf"
+	"github.com/namelessup/bilibili/app/service/main/location/model"
+	"github.com/namelessup/bilibili/app/service/main/location/service"
 )
 
 // rpc server const

@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"time"
 
-	"go-common/app/admin/main/workflow/model"
-	"go-common/app/admin/main/workflow/model/search"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/queue/databus/report"
+	"github.com/namelessup/bilibili/app/admin/main/workflow/model"
+	"github.com/namelessup/bilibili/app/admin/main/workflow/model/search"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus/report"
 )
 
 const (

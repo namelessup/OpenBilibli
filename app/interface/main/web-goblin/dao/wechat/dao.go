@@ -1,10 +1,10 @@
 package wechat
 
 import (
-	"go-common/app/interface/main/web-goblin/conf"
-	"go-common/library/cache"
-	"go-common/library/cache/redis"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/interface/main/web-goblin/conf"
+	"github.com/namelessup/bilibili/library/cache"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // Dao dao struct.

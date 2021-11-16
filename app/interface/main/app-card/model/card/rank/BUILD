@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["rank.go"],
-    importpath = "go-common/app/interface/main/app-card/model/card/rank",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-card/model/card/rank",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

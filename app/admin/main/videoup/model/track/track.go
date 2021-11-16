@@ -1,8 +1,8 @@
 package track
 
 import (
-	"go-common/app/admin/main/videoup/model/archive"
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/app/admin/main/videoup/model/archive"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 const ()

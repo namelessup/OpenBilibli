@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	filterconf "go-common/app/service/main/filter/conf"
-	rpcmodel "go-common/app/service/main/filter/model/rpc"
+	filterconf "github.com/namelessup/bilibili/app/service/main/filter/conf"
+	rpcmodel "github.com/namelessup/bilibili/app/service/main/filter/model/rpc"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

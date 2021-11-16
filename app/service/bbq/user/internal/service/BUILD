@@ -15,7 +15,7 @@ go_library(
         "user.go",
         "user_face.go",
     ],
-    importpath = "go-common/app/service/bbq/user/internal/service",
+    importpath = "github.com/namelessup/bilibili/app/service/bbq/user/internal/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -4,12 +4,12 @@ import (
 	"context"
 	"fmt"
 	"github.com/pkg/errors"
-	"go-common/app/interface/live/app-interface/conf"
-	cDao "go-common/app/interface/live/app-interface/dao"
-	liveUserV1 "go-common/app/service/live/live_user/api/liverpc/v1"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	rpcCtx "go-common/library/net/rpc/liverpc/context"
+	"github.com/namelessup/bilibili/app/interface/live/app-interface/conf"
+	cDao "github.com/namelessup/bilibili/app/interface/live/app-interface/dao"
+	liveUserV1 "github.com/namelessup/bilibili/app/service/live/live_user/api/liverpc/v1"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	rpcCtx "github.com/namelessup/bilibili/library/net/rpc/liverpc/context"
 	"time"
 )
 

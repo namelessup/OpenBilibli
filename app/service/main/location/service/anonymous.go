@@ -3,8 +3,8 @@ package service
 import (
 	"net"
 
-	"go-common/app/service/main/location/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/location/model"
+	"github.com/namelessup/bilibili/library/log"
 
 	maxminddb "github.com/oschwald/maxminddb-golang"
 )

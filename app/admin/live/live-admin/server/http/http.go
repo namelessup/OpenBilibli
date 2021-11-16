@@ -1,19 +1,19 @@
 package http
 
 import (
-	"go-common/app/admin/live/live-admin/dao"
-	"go-common/library/net/http/blademaster/middleware/auth"
+	"github.com/namelessup/bilibili/app/admin/live/live-admin/dao"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/auth"
 	"net/http"
 
-	v1API "go-common/app/admin/live/live-admin/api/http/v1"
-	v2API "go-common/app/admin/live/live-admin/api/http/v2"
-	"go-common/app/admin/live/live-admin/conf"
-	"go-common/app/admin/live/live-admin/service"
-	v1Service "go-common/app/admin/live/live-admin/service/v1"
-	v2Service "go-common/app/admin/live/live-admin/service/v2"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/verify"
+	v1API "github.com/namelessup/bilibili/app/admin/live/live-admin/api/http/v1"
+	v2API "github.com/namelessup/bilibili/app/admin/live/live-admin/api/http/v2"
+	"github.com/namelessup/bilibili/app/admin/live/live-admin/conf"
+	"github.com/namelessup/bilibili/app/admin/live/live-admin/service"
+	v1Service "github.com/namelessup/bilibili/app/admin/live/live-admin/service/v1"
+	v2Service "github.com/namelessup/bilibili/app/admin/live/live-admin/service/v2"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/verify"
 )
 
 var (

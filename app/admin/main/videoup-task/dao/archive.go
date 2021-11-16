@@ -4,9 +4,9 @@ import (
 	"context"
 	"database/sql"
 
-	"go-common/app/admin/main/videoup-task/model"
-	xsql "go-common/library/database/sql"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/videoup-task/model"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

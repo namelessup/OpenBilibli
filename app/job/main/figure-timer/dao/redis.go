@@ -5,9 +5,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"go-common/app/job/main/figure-timer/model"
-	"go-common/library/cache/redis"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/figure-timer/model"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/pkg/errors"
 )

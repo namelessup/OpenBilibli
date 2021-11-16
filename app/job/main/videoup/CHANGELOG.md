@@ -494,7 +494,7 @@
 > 3.分区点击量阈值和待审分区使用新表archive_config  
 > 4.一级分区使用新表archive_type  
 > 5.接入log agent  
-> 6.go-common从v6.11.0更新到v6.17.1  
+> 6.github.com/namelessup/bilibili从v6.11.0更新到v6.17.1  
 > 7.评论开关判断：如果是修复待审(-6)、用户提交(-30)、用户删除(-100),不调评论接口(保持原状态)  
 > 8.二审去掉聚合forbidden attribute的逻辑  
 
@@ -691,7 +691,7 @@
 > 4.增加firstround时的aid判断  
 
 #### Version 1.2.6
-> 1.update go-common  
+> 1.update github.com/namelessup/bilibili  
 > 2.merge archive history  
 
 #### Version 1.2.5

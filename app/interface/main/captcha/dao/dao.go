@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/interface/main/captcha/conf"
-	"go-common/library/cache/memcache"
+	"github.com/namelessup/bilibili/app/interface/main/captcha/conf"
+	"github.com/namelessup/bilibili/library/cache/memcache"
 )
 
 // Dao captcha service Dao.

@@ -13,7 +13,7 @@ go_library(
         "memcache.go",
         "redis.go",
     ],
-    importpath = "go-common/app/service/main/secure/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/main/secure/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

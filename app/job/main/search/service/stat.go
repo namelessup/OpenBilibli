@@ -1,7 +1,7 @@
 package service
 
 import (
-	"go-common/app/job/main/search/model"
+	"github.com/namelessup/bilibili/app/job/main/search/model"
 )
 
 // stat get stat

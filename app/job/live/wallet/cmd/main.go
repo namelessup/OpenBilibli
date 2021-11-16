@@ -6,9 +6,9 @@ import (
 	"os/signal"
 	"syscall"
 
-	"go-common/app/job/live/wallet/conf"
-	"go-common/app/job/live/wallet/service"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/live/wallet/conf"
+	"github.com/namelessup/bilibili/app/job/live/wallet/service"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func main() {

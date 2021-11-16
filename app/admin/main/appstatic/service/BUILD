@@ -32,7 +32,7 @@ go_library(
         "service.go",
         "upbfs.go",
     ],
-    importpath = "go-common/app/admin/main/appstatic/service",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/appstatic/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

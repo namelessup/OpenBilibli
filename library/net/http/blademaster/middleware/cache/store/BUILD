@@ -12,7 +12,7 @@ go_library(
         "memcache.go",
         "store.go",
     ],
-    importpath = "go-common/library/net/http/blademaster/middleware/cache/store",
+    importpath = "github.com/namelessup/bilibili/library/net/http/blademaster/middleware/cache/store",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

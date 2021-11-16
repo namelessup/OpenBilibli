@@ -6,11 +6,11 @@ import (
 	"math/rand"
 	"time"
 
-	"go-common/app/interface/main/app-card/model/card/ai"
-	"go-common/app/interface/main/app-card/model/card/live"
-	"go-common/app/interface/main/app-feed/model"
-	"go-common/app/service/main/archive/model/archive"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/app-card/model/card/ai"
+	"github.com/namelessup/bilibili/app/interface/main/app-card/model/card/live"
+	"github.com/namelessup/bilibili/app/interface/main/app-feed/model"
+	"github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) indexCache(c context.Context, mid int64, count int) (rs []*ai.Item, err error) {

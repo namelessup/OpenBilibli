@@ -45,7 +45,7 @@ go_library(
         "report.go",
         "subject.go",
     ],
-    importpath = "go-common/app/job/main/reply/dao/reply",
+    importpath = "github.com/namelessup/bilibili/app/job/main/reply/dao/reply",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

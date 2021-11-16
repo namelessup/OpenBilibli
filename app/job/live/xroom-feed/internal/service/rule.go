@@ -7,13 +7,13 @@ import (
 	"strings"
 	"time"
 
-	"go-common/library/conf/env"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/library/conf/env"
+	"github.com/namelessup/bilibili/library/net/metadata"
 
-	"go-common/app/job/live/xroom-feed/internal/model"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/job/live/xroom-feed/internal/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 const (

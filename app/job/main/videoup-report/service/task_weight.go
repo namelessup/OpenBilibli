@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/job/main/videoup-report/model/archive"
-	"go-common/app/job/main/videoup-report/model/task"
-	"go-common/app/job/main/videoup-report/model/utils"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/videoup-report/model/archive"
+	"github.com/namelessup/bilibili/app/job/main/videoup-report/model/task"
+	"github.com/namelessup/bilibili/app/job/main/videoup-report/model/utils"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

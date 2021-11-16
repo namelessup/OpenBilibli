@@ -16,7 +16,7 @@ go_library(
         "publish.go",
         "service.go",
     ],
-    importpath = "go-common/app/admin/main/macross/service",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/macross/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

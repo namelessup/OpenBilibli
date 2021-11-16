@@ -22,7 +22,7 @@ go_library(
         "up_bill.go",
         "withdraw.go",
     ],
-    importpath = "go-common/app/interface/main/growup/model",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/growup/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/time:go_default_library"],

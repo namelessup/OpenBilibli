@@ -15,7 +15,7 @@ go_library(
         "up.go",
         "up_storage.go",
     ],
-    importpath = "go-common/app/service/main/ugcpay-rank/internal/service/rank",
+    importpath = "github.com/namelessup/bilibili/app/service/main/ugcpay-rank/internal/service/rank",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

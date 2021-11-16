@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["seq-server-test.toml"],
-    importpath = "go-common/app/service/main/seq-server/cmd",
+    importpath = "github.com/namelessup/bilibili/app/service/main/seq-server/cmd",
     tags = ["automanaged"],
     deps = [
         "//app/service/main/seq-server/conf:go_default_library",

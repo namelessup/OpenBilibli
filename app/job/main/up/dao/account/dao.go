@@ -3,11 +3,11 @@ package account
 import (
 	"context"
 
-	"go-common/app/job/main/up/conf"
-	"go-common/app/service/main/account/model"
-	account "go-common/app/service/main/account/rpc/client"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/up/conf"
+	"github.com/namelessup/bilibili/app/service/main/account/model"
+	account "github.com/namelessup/bilibili/app/service/main/account/rpc/client"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Dao dao is account dao.

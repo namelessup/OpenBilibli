@@ -6,10 +6,10 @@ import (
 	"os/signal"
 	"syscall"
 
-	"go-common/app/admin/main/passport/conf"
-	"go-common/app/admin/main/passport/http"
-	"go-common/library/log"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/app/admin/main/passport/conf"
+	"github.com/namelessup/bilibili/app/admin/main/passport/http"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
 )
 
 func main() {

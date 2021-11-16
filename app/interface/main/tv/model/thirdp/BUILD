@@ -12,7 +12,7 @@ go_library(
         "mango.go",
         "mango_recom.go",
     ],
-    importpath = "go-common/app/interface/main/tv/model/thirdp",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/tv/model/thirdp",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

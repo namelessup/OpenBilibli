@@ -1,8 +1,8 @@
 package abtest
 
 import (
-	"go-common/app/service/main/resource/conf"
-	httpx "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/service/main/resource/conf"
+	httpx "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // Dao define db struct

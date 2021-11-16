@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["relation.go"],
-    importpath = "go-common/app/interface/main/account/dao/relation",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/account/dao/relation",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

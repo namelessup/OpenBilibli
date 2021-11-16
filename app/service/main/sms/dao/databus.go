@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/service/main/sms/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/sms/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const _retry = 3

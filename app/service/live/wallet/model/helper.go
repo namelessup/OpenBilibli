@@ -2,7 +2,7 @@ package model
 
 import (
 	"fmt"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/library/ecode"
 	"time"
 )
 

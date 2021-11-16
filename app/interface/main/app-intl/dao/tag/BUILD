@@ -27,7 +27,7 @@ go_library(
         "api.go",
         "dao.go",
     ],
-    importpath = "go-common/app/interface/main/app-intl/dao/tag",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-intl/dao/tag",
     tags = ["automanaged"],
     deps = [
         "//app/interface/main/app-interface/model/tag:go_default_library",

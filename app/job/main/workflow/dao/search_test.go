@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/job/main/workflow/model"
+	"github.com/namelessup/bilibili/app/job/main/workflow/model"
 
 	"github.com/smartystreets/goconvey/convey"
 )

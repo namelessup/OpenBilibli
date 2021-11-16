@@ -11,7 +11,7 @@ go_library(
         "archive.go",
         "model.go",
     ],
-    importpath = "go-common/app/job/main/feed/model",
+    importpath = "github.com/namelessup/bilibili/app/job/main/feed/model",
     tags = ["automanaged"],
     deps = ["//app/service/main/archive/api:go_default_library"],
 )

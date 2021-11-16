@@ -11,9 +11,9 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/interface/openplatform/article/model"
-	"go-common/library/log"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 var _queryStr = `{"select":[{"name":"tid"},{"name":"oid"},{"name":"log_date"}],"where":{"tid":{"in":[%s]}},"page":{"limit":10,"skip":0}}`

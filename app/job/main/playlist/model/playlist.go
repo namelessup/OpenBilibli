@@ -3,7 +3,7 @@ package model
 import (
 	"fmt"
 
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 const (

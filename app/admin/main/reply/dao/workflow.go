@@ -2,11 +2,11 @@ package dao
 
 import (
 	"context"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/library/ecode"
 	"net/url"
 	"strconv"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

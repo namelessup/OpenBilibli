@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"go-common/app/interface/main/app-view/conf"
+	"github.com/namelessup/bilibili/app/interface/main/app-view/conf"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

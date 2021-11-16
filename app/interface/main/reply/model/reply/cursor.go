@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"sort"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // RootReplyListHeader RootReplyListHeader

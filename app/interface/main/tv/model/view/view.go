@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"strconv"
 
-	arcwar "go-common/app/service/main/archive/api"
+	arcwar "github.com/namelessup/bilibili/app/service/main/archive/api"
 )
 
 // View view+relates

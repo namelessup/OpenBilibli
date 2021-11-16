@@ -5,10 +5,10 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"go-common/app/admin/main/apm/conf"
-	"go-common/app/admin/main/apm/model/databus"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/apm/conf"
+	"github.com/namelessup/bilibili/app/admin/main/apm/model/databus"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 	"net/http"
 )
 

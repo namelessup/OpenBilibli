@@ -6,11 +6,11 @@ import (
 	"net/url"
 	"strconv"
 
-	"go-common/app/interface/main/growup/model"
-	account "go-common/app/service/main/account/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/interface/main/growup/model"
+	account "github.com/namelessup/bilibili/app/service/main/account/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/xstr"
 
 	"github.com/pkg/errors"
 )

@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"strings"
 
-	account "go-common/app/service/main/account/model"
-	xtime "go-common/library/time"
+	account "github.com/namelessup/bilibili/app/service/main/account/model"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // Const .

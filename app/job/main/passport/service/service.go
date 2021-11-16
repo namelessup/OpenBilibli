@@ -6,10 +6,10 @@ import (
 	"crypto/cipher"
 	"sync"
 
-	"go-common/app/job/main/passport/conf"
-	"go-common/app/job/main/passport/dao"
-	igrpc "go-common/app/service/main/identify-game/rpc/client"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/job/main/passport/conf"
+	"github.com/namelessup/bilibili/app/job/main/passport/dao"
+	igrpc "github.com/namelessup/bilibili/app/service/main/identify-game/rpc/client"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 const (

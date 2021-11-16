@@ -1,8 +1,8 @@
 package http
 
 import (
-	"go-common/app/interface/main/space/model"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/interface/main/space/model"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func tagSub(c *bm.Context) {

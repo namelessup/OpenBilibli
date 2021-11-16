@@ -1,9 +1,9 @@
 package server
 
 import (
-	"go-common/app/service/main/vip/model"
-	"go-common/library/log"
-	"go-common/library/net/rpc/context"
+	"github.com/namelessup/bilibili/app/service/main/vip/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/rpc/context"
 )
 
 // VipPanelInfo rpc user vip panel info.

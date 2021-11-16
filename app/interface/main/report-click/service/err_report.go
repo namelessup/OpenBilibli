@@ -3,7 +3,7 @@ package service
 import (
 	"context"
 
-	"go-common/app/interface/main/report-click/model"
+	"github.com/namelessup/bilibili/app/interface/main/report-click/model"
 )
 
 // ErrReport reports the failures of calling the api "heartbeat/mobile"

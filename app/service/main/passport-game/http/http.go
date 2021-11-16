@@ -3,10 +3,10 @@ package http
 import (
 	"net/http"
 
-	"go-common/app/service/main/passport-game/conf"
-	"go-common/app/service/main/passport-game/service"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/service/main/passport-game/conf"
+	"github.com/namelessup/bilibili/app/service/main/passport-game/service"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 var (

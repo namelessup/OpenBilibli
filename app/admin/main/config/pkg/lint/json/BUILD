@@ -16,7 +16,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["jsonlint.go"],
-    importpath = "go-common/app/admin/main/config/pkg/lint/json",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/config/pkg/lint/json",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//app/admin/main/config/pkg/lint:go_default_library"],

@@ -12,7 +12,7 @@ go_library(
         "conf.go",
         "resource.go",
     ],
-    importpath = "go-common/app/admin/main/aegis/server/databus",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/aegis/server/databus",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

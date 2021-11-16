@@ -6,9 +6,9 @@ import (
 	"net/url"
 	"strings"
 
-	"go-common/app/service/bbq/user/internal/model"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/service/bbq/user/internal/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
 
 	"github.com/json-iterator/go"
 )

@@ -8,16 +8,16 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/interface/main/app-resource/conf"
-	locdao "go-common/app/interface/main/app-resource/dao/location"
-	ntcdao "go-common/app/interface/main/app-resource/dao/notice"
-	"go-common/app/interface/main/app-resource/model"
-	"go-common/app/interface/main/app-resource/model/notice"
-	locmdl "go-common/app/service/main/location/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/app-resource/conf"
+	locdao "github.com/namelessup/bilibili/app/interface/main/app-resource/dao/location"
+	ntcdao "github.com/namelessup/bilibili/app/interface/main/app-resource/dao/notice"
+	"github.com/namelessup/bilibili/app/interface/main/app-resource/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-resource/model/notice"
+	locmdl "github.com/namelessup/bilibili/app/service/main/location/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/library/net/metadata"
 
 	"github.com/dgryski/go-farm"
 )

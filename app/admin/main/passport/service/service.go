@@ -5,8 +5,8 @@ import (
 	"crypto/aes"
 	"crypto/cipher"
 
-	"go-common/app/admin/main/passport/conf"
-	"go-common/app/admin/main/passport/dao"
+	"github.com/namelessup/bilibili/app/admin/main/passport/conf"
+	"github.com/namelessup/bilibili/app/admin/main/passport/dao"
 )
 
 // Service struct

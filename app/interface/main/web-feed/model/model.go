@@ -1,8 +1,8 @@
 package model
 
 import (
-	accv1 "go-common/app/service/main/account/api"
-	feedmdl "go-common/app/service/main/feed/model"
+	accv1 "github.com/namelessup/bilibili/app/service/main/account/api"
+	feedmdl "github.com/namelessup/bilibili/app/service/main/feed/model"
 )
 
 // Feed feed

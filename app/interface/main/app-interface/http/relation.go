@@ -3,9 +3,9 @@ package http
 import (
 	"strconv"
 
-	model "go-common/app/interface/main/app-interface/model/relation"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
+	model "github.com/namelessup/bilibili/app/interface/main/app-interface/model/relation"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // followings get user's following list.

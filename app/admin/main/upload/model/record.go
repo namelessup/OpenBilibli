@@ -1,6 +1,6 @@
 package model
 
-import xtime "go-common/library/time"
+import xtime "github.com/namelessup/bilibili/library/time"
 
 // Record .
 type Record struct {

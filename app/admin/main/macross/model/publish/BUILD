@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["publish.go"],
-    importpath = "go-common/app/admin/main/macross/model/publish",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/macross/model/publish",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

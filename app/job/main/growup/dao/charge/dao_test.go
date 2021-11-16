@@ -2,7 +2,7 @@ package charge
 
 import (
 	"flag"
-	"go-common/app/job/main/growup/conf"
+	"github.com/namelessup/bilibili/app/job/main/growup/conf"
 	"os"
 	"testing"
 )

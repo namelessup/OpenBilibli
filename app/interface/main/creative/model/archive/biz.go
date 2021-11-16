@@ -1,6 +1,6 @@
 package archive
 
-import "go-common/library/time"
+import "github.com/namelessup/bilibili/library/time"
 
 // VoteType 投票业务
 const VoteType int8 = 2

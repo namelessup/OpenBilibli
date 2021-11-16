@@ -50,7 +50,7 @@ import (
 	"strconv"
 	"strings"
 
-	"go-common/app/tool/liverpc/protoc-gen-liverpc/gen/stringutils"
+	"github.com/namelessup/bilibili/app/tool/liverpc/protoc-gen-liverpc/gen/stringutils"
 
 	"github.com/golang/protobuf/protoc-gen-go/descriptor"
 	plugin "github.com/golang/protobuf/protoc-gen-go/plugin"

@@ -3,8 +3,8 @@ package channel
 import (
 	"context"
 
-	"go-common/app/interface/main/app-channel/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/app-channel/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 var (

@@ -12,7 +12,7 @@ go_library(
         "monitor.go",
         "stat.go",
     ],
-    importpath = "go-common/app/job/main/stat/model",
+    importpath = "github.com/namelessup/bilibili/app/job/main/stat/model",
     tags = ["automanaged"],
     deps = ["//app/service/main/archive/api:go_default_library"],
 )

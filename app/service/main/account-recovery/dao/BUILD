@@ -19,7 +19,7 @@ go_library(
         "req_rpc.go",
         "user_act_log.go",
     ],
-    importpath = "go-common/app/service/main/account-recovery/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/main/account-recovery/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

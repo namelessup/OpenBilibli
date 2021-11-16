@@ -1,6 +1,6 @@
 package http
 
-import bm "go-common/library/net/http/blademaster"
+import bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 
 func previewInfo(c *bm.Context) {
 	var loginMid int64

@@ -7,10 +7,10 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/infra/config/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/infra/config/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // versions client versions which the configuration is complete

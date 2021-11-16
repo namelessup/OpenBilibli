@@ -5,22 +5,22 @@ import (
 	"sync"
 	"time"
 
-	upgrpc "go-common/app/service/main/up/api/v1"
-	"go-common/app/service/main/up/conf"
-	"go-common/app/service/main/up/dao/archive"
-	"go-common/app/service/main/up/dao/card"
-	"go-common/app/service/main/up/dao/data"
-	"go-common/app/service/main/up/dao/global"
-	"go-common/app/service/main/up/dao/manager"
-	"go-common/app/service/main/up/dao/monitor"
-	"go-common/app/service/main/up/dao/up"
-	"go-common/library/conf/env"
-	"go-common/library/log"
-	"go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/permit"
-	"go-common/library/queue/databus"
-	"go-common/library/stat/prom"
-	"go-common/library/sync/pipeline/fanout"
+	upgrpc "github.com/namelessup/bilibili/app/service/main/up/api/v1"
+	"github.com/namelessup/bilibili/app/service/main/up/conf"
+	"github.com/namelessup/bilibili/app/service/main/up/dao/archive"
+	"github.com/namelessup/bilibili/app/service/main/up/dao/card"
+	"github.com/namelessup/bilibili/app/service/main/up/dao/data"
+	"github.com/namelessup/bilibili/app/service/main/up/dao/global"
+	"github.com/namelessup/bilibili/app/service/main/up/dao/manager"
+	"github.com/namelessup/bilibili/app/service/main/up/dao/monitor"
+	"github.com/namelessup/bilibili/app/service/main/up/dao/up"
+	"github.com/namelessup/bilibili/library/conf/env"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/permit"
+	"github.com/namelessup/bilibili/library/queue/databus"
+	"github.com/namelessup/bilibili/library/stat/prom"
+	"github.com/namelessup/bilibili/library/sync/pipeline/fanout"
 )
 
 // Service is service.
@@ -62,7 +62,7 @@ type Service struct {
 	spGroupsMidsCache map[int64][]int64
 }
 
-// New is go-common/app/service/videoup service implementation.
+// New is github.com/namelessup/bilibili/app/service/videoup service implementation.
 func New(c *conf.Config) (s *Service) {
 	if c.UpSub.SpecialAddDBLimit <= 0 {
 		c.UpSub.SpecialAddDBLimit = 100

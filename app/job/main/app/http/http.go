@@ -3,12 +3,12 @@ package http
 import (
 	"net/http"
 
-	"go-common/app/job/main/app/conf"
-	"go-common/app/job/main/app/service"
-	"go-common/app/job/main/app/service/feed"
-	"go-common/app/job/main/app/service/show"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/job/main/app/conf"
+	"github.com/namelessup/bilibili/app/job/main/app/service"
+	"github.com/namelessup/bilibili/app/job/main/app/service/feed"
+	"github.com/namelessup/bilibili/app/job/main/app/service/show"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 var (

@@ -20,7 +20,7 @@ go_library(
         "season.go",
         "service.go",
     ],
-    importpath = "go-common/app/admin/openplatform/sug/service",
+    importpath = "github.com/namelessup/bilibili/app/admin/openplatform/sug/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -4,12 +4,12 @@ import (
 	"context"
 
 	"github.com/robfig/cron"
-	location "go-common/app/service/main/location/api"
-	"go-common/app/service/video/stream-mng/conf"
-	"go-common/app/service/video/stream-mng/dao"
-	"go-common/library/net/rpc/warden"
-	"go-common/library/sync/pipeline/fanout"
-	xtime "go-common/library/time"
+	location "github.com/namelessup/bilibili/app/service/main/location/api"
+	"github.com/namelessup/bilibili/app/service/video/stream-mng/conf"
+	"github.com/namelessup/bilibili/app/service/video/stream-mng/dao"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
+	"github.com/namelessup/bilibili/library/sync/pipeline/fanout"
+	xtime "github.com/namelessup/bilibili/library/time"
 	"time"
 )
 

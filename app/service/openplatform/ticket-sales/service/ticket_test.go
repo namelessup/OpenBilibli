@@ -3,7 +3,7 @@ package service
 import (
 	"testing"
 
-	"go-common/app/service/openplatform/ticket-sales/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/api/grpc/v1"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

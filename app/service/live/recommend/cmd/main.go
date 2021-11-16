@@ -7,14 +7,14 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/app/service/live/recommend/internal/conf"
-	"go-common/app/service/live/recommend/internal/dao"
-	"go-common/app/service/live/recommend/internal/server/grpc"
-	"go-common/app/service/live/recommend/internal/server/http"
-	"go-common/app/service/live/recommend/internal/service"
-	ecode "go-common/library/ecode/tip"
-	"go-common/library/log"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/app/service/live/recommend/internal/conf"
+	"github.com/namelessup/bilibili/app/service/live/recommend/internal/dao"
+	"github.com/namelessup/bilibili/app/service/live/recommend/internal/server/grpc"
+	"github.com/namelessup/bilibili/app/service/live/recommend/internal/server/http"
+	"github.com/namelessup/bilibili/app/service/live/recommend/internal/service"
+	ecode "github.com/namelessup/bilibili/library/ecode/tip"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
 )
 
 var runJob = false

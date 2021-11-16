@@ -7,13 +7,13 @@ import (
 	"path/filepath"
 	"testing"
 
-	activityService "go-common/app/service/live/activity/api/liverpc"
-	"go-common/app/service/live/live-dm/conf"
-	rankdbService "go-common/app/service/live/rankdb/api/liverpc"
-	rcService "go-common/app/service/live/rc/api/liverpc"
-	userextService "go-common/app/service/live/userext/api/liverpc"
-	acctountService "go-common/app/service/main/account/api"
-	"go-common/library/net/metadata"
+	activityService "github.com/namelessup/bilibili/app/service/live/activity/api/liverpc"
+	"github.com/namelessup/bilibili/app/service/live/live-dm/conf"
+	rankdbService "github.com/namelessup/bilibili/app/service/live/rankdb/api/liverpc"
+	rcService "github.com/namelessup/bilibili/app/service/live/rc/api/liverpc"
+	userextService "github.com/namelessup/bilibili/app/service/live/userext/api/liverpc"
+	acctountService "github.com/namelessup/bilibili/app/service/main/account/api"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 func init() {

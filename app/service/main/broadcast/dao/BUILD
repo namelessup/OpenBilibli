@@ -13,7 +13,7 @@ go_library(
         "databus.go",
         "redis.go",
     ],
-    importpath = "go-common/app/service/main/broadcast/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/main/broadcast/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

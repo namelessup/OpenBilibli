@@ -65,7 +65,7 @@ import fmt "fmt"
 import math "math"
 import _ "github.com/gogo/protobuf/gogoproto"
 
-import go_common_library_time "go-common/library/time"
+import go_common_library_time "github.com/namelessup/bilibili/library/time"
 
 import (
 	context "golang.org/x/net/context"
@@ -571,9 +571,9 @@ type Arc struct {
 	// 稿件标题
 	Title string `protobuf:"bytes,7,opt,name=Title,proto3" json:"title"`
 	// 稿件发布时间 对外展示的标准时间  时间戳格式
-	PubDate go_common_library_time.Time `protobuf:"varint,8,opt,name=PubDate,proto3,casttype=go-common/library/time.Time" json:"pubdate"`
+	PubDate go_common_library_time.Time `protobuf:"varint,8,opt,name=PubDate,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"pubdate"`
 	// 用户提交稿件的时间 一般不对外展示 时间戳格式
-	Ctime go_common_library_time.Time `protobuf:"varint,9,opt,name=Ctime,proto3,casttype=go-common/library/time.Time" json:"ctime"`
+	Ctime go_common_library_time.Time `protobuf:"varint,9,opt,name=Ctime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"ctime"`
 	// 稿件简介
 	Desc string `protobuf:"bytes,10,opt,name=Desc,proto3" json:"desc"`
 	// 稿件状态，>=0为前台用户可见状态，其他值详见 http://info.bilibili.co/pages/viewpage.action?pageId=3686597#id-%E7%A8%BF%E4%BB%B6%E5%AD%97%E6%AE%B5%E6%9E%9A%E4%B8%BE%E5%80%BC%E5%B1%9E%E6%80%A7%E8%AF%B4%E6%98%8E-%E7%A8%BF%E4%BB%B6%E7%8A%B6%E6%80%81state&access

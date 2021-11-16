@@ -36,7 +36,7 @@ go_library(
         "hbase.go",
         "redis.go",
     ],
-    importpath = "go-common/app/interface/main/history/dao/history",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/history/dao/history",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

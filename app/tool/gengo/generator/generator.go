@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"io"
 
-	"go-common/app/tool/gengo/namer"
-	"go-common/app/tool/gengo/parser"
-	"go-common/app/tool/gengo/types"
+	"github.com/namelessup/bilibili/app/tool/gengo/namer"
+	"github.com/namelessup/bilibili/app/tool/gengo/parser"
+	"github.com/namelessup/bilibili/app/tool/gengo/types"
 )
 
 // Package contains the contract for generating a package.

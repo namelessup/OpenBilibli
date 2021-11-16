@@ -3,10 +3,10 @@ package http
 import (
 	"time"
 
-	"go-common/app/interface/main/web-goblin/conf"
-	webmdl "go-common/app/interface/main/web-goblin/model/web"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/interface/main/web-goblin/conf"
+	webmdl "github.com/namelessup/bilibili/app/interface/main/web-goblin/model/web"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 const (

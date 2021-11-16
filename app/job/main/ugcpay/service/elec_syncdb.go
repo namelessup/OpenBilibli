@@ -5,8 +5,8 @@ import (
 	"runtime/debug"
 	"time"
 
-	"go-common/app/job/main/ugcpay/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/ugcpay/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // SyncElecOrderList 同步老充电订单

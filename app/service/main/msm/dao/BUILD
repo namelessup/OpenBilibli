@@ -45,7 +45,7 @@ go_library(
         "mysql.go",
         "tree.go",
     ],
-    importpath = "go-common/app/service/main/msm/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/main/msm/dao",
     tags = ["automanaged"],
     deps = [
         "//app/service/main/msm/conf:go_default_library",

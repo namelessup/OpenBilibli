@@ -1,11 +1,11 @@
 package http
 
 import (
-	"go-common/app/service/bbq/video/api/grpc/v1"
-	grpc "go-common/app/service/bbq/video/api/grpc/v1"
-	httpV1 "go-common/app/service/bbq/video/api/http/v1"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/service/bbq/video/api/grpc/v1"
+	grpc "github.com/namelessup/bilibili/app/service/bbq/video/api/grpc/v1"
+	httpV1 "github.com/namelessup/bilibili/app/service/bbq/video/api/http/v1"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 
 	"github.com/pkg/errors"
 )

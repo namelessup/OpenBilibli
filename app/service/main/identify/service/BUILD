@@ -29,7 +29,7 @@ go_library(
         "identify.go",
         "service.go",
     ],
-    importpath = "go-common/app/service/main/identify/service",
+    importpath = "github.com/namelessup/bilibili/app/service/main/identify/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

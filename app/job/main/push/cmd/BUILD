@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["push-job-test.toml"],
-    importpath = "go-common/app/job/main/push/cmd",
+    importpath = "github.com/namelessup/bilibili/app/job/main/push/cmd",
     tags = ["automanaged"],
     deps = [
         "//app/job/main/push/conf:go_default_library",

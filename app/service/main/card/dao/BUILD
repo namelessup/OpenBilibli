@@ -15,7 +15,7 @@ go_library(
         "mc.cache.go",
         "mysql.go",
     ],
-    importpath = "go-common/app/service/main/card/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/main/card/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

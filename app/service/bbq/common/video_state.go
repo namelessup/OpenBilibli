@@ -1,6 +1,6 @@
 package common
 
-import "go-common/library/xstr"
+import "github.com/namelessup/bilibili/library/xstr"
 
 /*
 https://www.tapd.cn/66539426/prong/stories/view/1166539426001102539

@@ -3,9 +3,9 @@ package reply
 import (
 	"context"
 
-	"go-common/app/interface/main/reply/model/reply"
-	"go-common/library/database/sql"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/reply/model/reply"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

@@ -1,7 +1,7 @@
 package http
 
 import (
-	"go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func regions(c *blademaster.Context) {

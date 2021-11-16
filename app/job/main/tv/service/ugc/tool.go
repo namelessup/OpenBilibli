@@ -1,9 +1,9 @@
 package ugc
 
 import (
-	appDao "go-common/app/job/main/tv/dao/app"
-	arccli "go-common/app/service/main/archive/api"
-	"go-common/library/log"
+	appDao "github.com/namelessup/bilibili/app/job/main/tv/dao/app"
+	arccli "github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // call ArcRPC for types data

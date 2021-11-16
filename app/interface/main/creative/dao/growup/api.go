@@ -6,9 +6,9 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/interface/main/creative/model/growup"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/growup"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // UpStatus get up info.

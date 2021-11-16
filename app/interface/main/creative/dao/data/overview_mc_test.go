@@ -2,9 +2,9 @@ package data
 
 import (
 	"context"
-	"go-common/app/interface/main/creative/model/data"
-	artmdl "go-common/app/interface/openplatform/article/model"
-	"go-common/library/cache/memcache"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/data"
+	artmdl "github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	"github.com/namelessup/bilibili/library/cache/memcache"
 	"reflect"
 	"testing"
 

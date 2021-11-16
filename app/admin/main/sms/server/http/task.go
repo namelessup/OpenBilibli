@@ -7,11 +7,11 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/admin/main/sms/conf"
-	pb "go-common/app/service/main/sms/api"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/sms/conf"
+	pb "github.com/namelessup/bilibili/app/service/main/sms/api"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func addTask(ctx *bm.Context) {

@@ -6,11 +6,11 @@ import (
 	"sort"
 	"time"
 
-	"go-common/app/job/main/favorite/model"
-	favmdl "go-common/app/service/main/favorite/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/job/main/favorite/model"
+	favmdl "github.com/namelessup/bilibili/app/service/main/favorite/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 const gap uint64 = 1 << 47

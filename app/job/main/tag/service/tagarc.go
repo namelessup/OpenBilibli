@@ -4,9 +4,9 @@ import (
 	"context"
 	"encoding/json"
 
-	arcModel "go-common/app/job/main/archive/model/archive"
-	"go-common/app/job/main/tag/model"
-	"go-common/library/log"
+	arcModel "github.com/namelessup/bilibili/app/job/main/archive/model/archive"
+	"github.com/namelessup/bilibili/app/job/main/tag/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // 稿件更新

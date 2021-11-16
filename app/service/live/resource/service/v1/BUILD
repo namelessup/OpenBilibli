@@ -33,7 +33,7 @@ go_library(
         "titans.go",
         "tree.go",
     ],
-    importpath = "go-common/app/service/live/resource/service/v1",
+    importpath = "github.com/namelessup/bilibili/app/service/live/resource/service/v1",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

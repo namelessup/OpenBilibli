@@ -12,7 +12,7 @@ go_library(
         "model.go",
         "rpc.go",
     ],
-    importpath = "go-common/app/service/main/figure/model",
+    importpath = "github.com/namelessup/bilibili/app/service/main/figure/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

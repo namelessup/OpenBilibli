@@ -6,11 +6,11 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/interface/main/app-resource/conf"
-	moduledao "go-common/app/interface/main/app-resource/dao/module"
-	"go-common/app/interface/main/app-resource/model/module"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/app-resource/conf"
+	moduledao "github.com/namelessup/bilibili/app/interface/main/app-resource/dao/module"
+	"github.com/namelessup/bilibili/app/interface/main/app-resource/model/module"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 var (

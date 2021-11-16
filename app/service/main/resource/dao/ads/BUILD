@@ -32,7 +32,7 @@ go_library(
         "redis.go",
         "vdoad.go",
     ],
-    importpath = "go-common/app/service/main/resource/dao/ads",
+    importpath = "github.com/namelessup/bilibili/app/service/main/resource/dao/ads",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

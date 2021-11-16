@@ -4,9 +4,9 @@ import (
 	"context"
 	"crypto/tls"
 
-	"go-common/app/job/main/mcn/conf"
-	"go-common/library/cache/memcache"
-	xsql "go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/job/main/mcn/conf"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
 
 	gomail "gopkg.in/gomail.v2"
 )

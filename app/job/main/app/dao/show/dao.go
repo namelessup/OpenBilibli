@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/job/main/app/conf"
-	"go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/job/main/app/conf"
+	"github.com/namelessup/bilibili/library/database/sql"
 )
 
 const (

@@ -18,7 +18,7 @@ go_library(
         "search.go",
         "style.go",
     ],
-    importpath = "go-common/app/job/main/tv/model/pgc",
+    importpath = "github.com/namelessup/bilibili/app/job/main/tv/model/pgc",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/time:go_default_library"],

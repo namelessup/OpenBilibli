@@ -4,12 +4,12 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/app/service/main/videoup/conf"
-	"go-common/app/service/main/videoup/model/archive"
-	"go-common/library/cache/memcache"
-	"go-common/library/cache/redis"
-	"go-common/library/database/sql"
-	"go-common/library/sync/pipeline/fanout"
+	"github.com/namelessup/bilibili/app/service/main/videoup/conf"
+	"github.com/namelessup/bilibili/app/service/main/videoup/model/archive"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/sync/pipeline/fanout"
 )
 
 // Dao is redis dao.
@@ -63,13 +63,13 @@ func (d *Dao) cacheSFStaffData(aid int64) string {
 	return fmt.Sprintf("staff_aid_sf_%d", aid)
 }
 
-//go:generate $GOPATH/src/go-common/app/tool/cache/gen
+//go:generate $GOPATH/src/github.com/namelessup/bilibili/app/tool/cache/gen
 type _cache interface {
 	// cache: -singleflight=true -nullcache=[]*archive.Staff{{ID:-1}} -check_null_code=len($)==1&&$[0].ID==-1
 	StaffData(c context.Context, aid int64) ([]*archive.Staff, error)
 }
 
-//go:generate $GOPATH/src/go-common/app/tool/cache/mc
+//go:generate $GOPATH/src/github.com/namelessup/bilibili/app/tool/cache/mc
 type _mc interface {
 	// mc: -key=staffKey
 	CacheStaffData(c context.Context, key int64) ([]*archive.Staff, error)

@@ -20,7 +20,7 @@ proto_library(
 go_proto_library(
     name = "v3_go_proto",
     compilers = ["@io_bazel_rules_go//proto:gogofast_grpc"],
-    importpath = "go-common/app/service/live/user/api/liverpc/v3",
+    importpath = "github.com/namelessup/bilibili/app/service/live/user/api/liverpc/v3",
     proto = ":v3_proto",
     tags = ["automanaged"],
     deps = ["@com_github_gogo_protobuf//gogoproto:go_default_library"],
@@ -30,7 +30,7 @@ go_library(
     name = "go_default_library",
     srcs = ["User.liverpc.go"],
     embed = [":v3_go_proto"],
-    importpath = "go-common/app/service/live/user/api/liverpc/v3",
+    importpath = "github.com/namelessup/bilibili/app/service/live/user/api/liverpc/v3",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

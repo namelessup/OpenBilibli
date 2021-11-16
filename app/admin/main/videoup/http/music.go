@@ -3,11 +3,11 @@ package http
 import (
 	"github.com/jinzhu/gorm"
 	"github.com/pkg/errors"
-	"go-common/app/admin/main/videoup/model/archive"
-	"go-common/app/admin/main/videoup/model/music"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/binding"
+	"github.com/namelessup/bilibili/app/admin/main/videoup/model/archive"
+	"github.com/namelessup/bilibili/app/admin/main/videoup/model/music"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/binding"
 )
 
 const ()

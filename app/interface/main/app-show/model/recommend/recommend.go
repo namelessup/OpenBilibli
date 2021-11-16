@@ -1,7 +1,7 @@
 package recommend
 
 import (
-	"go-common/app/interface/main/app-show/model/card"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/model/card"
 )
 
 // Arc is index show recommend.

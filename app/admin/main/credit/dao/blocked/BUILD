@@ -23,7 +23,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["dao.go"],
-    importpath = "go-common/app/admin/main/credit/dao/blocked",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/credit/dao/blocked",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -4,7 +4,7 @@ import (
 	"context"
 	"encoding/json"
 
-	"go-common/app/infra/notify/model"
+	"github.com/namelessup/bilibili/app/infra/notify/model"
 )
 
 const (

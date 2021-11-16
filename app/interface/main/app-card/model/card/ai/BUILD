@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["ai.go"],
-    importpath = "go-common/app/interface/main/app-card/model/card/ai",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-card/model/card/ai",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

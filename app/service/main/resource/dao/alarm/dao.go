@@ -6,10 +6,10 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/service/main/resource/conf"
-	"go-common/app/service/main/resource/model"
-	"go-common/library/log"
-	httpx "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/service/main/resource/conf"
+	"github.com/namelessup/bilibili/app/service/main/resource/model"
+	"github.com/namelessup/bilibili/library/log"
+	httpx "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // Dao is redis dao.

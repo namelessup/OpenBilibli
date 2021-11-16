@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"go-common/app/admin/main/point/conf"
-	"go-common/app/admin/main/point/model"
+	"github.com/namelessup/bilibili/app/admin/main/point/conf"
+	"github.com/namelessup/bilibili/app/admin/main/point/model"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

@@ -41,10 +41,10 @@ message TicketItem {
     int64 sku_id = 11 [(gogoproto.customname) = "SkuID"];
     int64 seat_id = 12 [(gogoproto.customname) = "SeatID"];
     string seat = 13;
-    int64 refund_apply_time = 14 [(gogoproto.casttype) = "go-common/library/time.Time"];
-    int64 etime = 15 [(gogoproto.customname) = "ETime", (gogoproto.casttype) = "go-common/library/time.Time"];
-    int64 ctime = 16 [(gogoproto.customname) = "CTime", (gogoproto.casttype) = "go-common/library/time.Time"];
-    int64 mtime = 17 [(gogoproto.customname) = "MTime", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int64 refund_apply_time = 14 [(gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
+    int64 etime = 15 [(gogoproto.customname) = "ETime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
+    int64 ctime = 16 [(gogoproto.customname) = "CTime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
+    int64 mtime = 17 [(gogoproto.customname) = "MTime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
 }
 
 message TicketSendRequest {
@@ -65,7 +65,7 @@ message TicketSendItem {
     int64 recv_uid = 6 [(gogoproto.customname) = "RecvUID"];
     string recv_tel = 7 [(gogoproto.customname) = "RecvTel"];
     int32 status = 8 [(gogoproto.casttype) = "int16"];
-    int64 ctime = 9 [(gogoproto.customname) = "CTime", (gogoproto.casttype) = "go-common/library/time.Time"];
-    int64 mtime = 10 [(gogoproto.customname) = "MTime", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int64 ctime = 9 [(gogoproto.customname) = "CTime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
+    int64 mtime = 10 [(gogoproto.customname) = "MTime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
     int64 oid = 11 [(gogoproto.customname) = "OID"];
 }

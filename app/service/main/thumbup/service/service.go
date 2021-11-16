@@ -4,9 +4,9 @@ import (
 	"context"
 	"sync"
 
-	"go-common/app/service/main/thumbup/conf"
-	"go-common/app/service/main/thumbup/dao"
-	"go-common/library/sync/pipeline/fanout"
+	"github.com/namelessup/bilibili/app/service/main/thumbup/conf"
+	"github.com/namelessup/bilibili/app/service/main/thumbup/dao"
+	"github.com/namelessup/bilibili/library/sync/pipeline/fanout"
 )
 
 // Service service

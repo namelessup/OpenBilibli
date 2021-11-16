@@ -37,7 +37,7 @@ go_library(
         "user_relation.go",
         "video.go",
     ],
-    importpath = "go-common/app/interface/bbq/app-bbq/dao",
+    importpath = "github.com/namelessup/bilibili/app/interface/bbq/app-bbq/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

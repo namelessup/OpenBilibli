@@ -2,10 +2,10 @@ package service
 
 import (
 	"context"
-	"go-common/app/service/bbq/common/db/bbq"
-	"go-common/app/service/bbq/video/api/grpc/v1"
-	"go-common/app/service/bbq/video/model/grpc"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/bbq/common/db/bbq"
+	"github.com/namelessup/bilibili/app/service/bbq/video/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/bbq/video/model/grpc"
+	"github.com/namelessup/bilibili/library/log"
 	"time"
 )
 

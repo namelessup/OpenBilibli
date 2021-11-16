@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/job/main/tv/dao/lic"
-	model "go-common/app/job/main/tv/model/pgc"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/tv/dao/lic"
+	model "github.com/namelessup/bilibili/app/job/main/tv/model/pgc"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // pick the data from DB to audit and combine the XML for the license owner

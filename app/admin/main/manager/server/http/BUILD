@@ -17,7 +17,7 @@ go_library(
         "tag.go",
         "user.go",
     ],
-    importpath = "go-common/app/admin/main/manager/server/http",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/manager/server/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"go-common/app/service/main/push/dao/huawei"
-	"go-common/app/service/main/push/model"
+	"github.com/namelessup/bilibili/app/service/main/push/dao/huawei"
+	"github.com/namelessup/bilibili/app/service/main/push/model"
 )
 
 // AddCallback adds callback.

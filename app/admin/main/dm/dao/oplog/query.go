@@ -13,9 +13,9 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/admin/main/dm/model/oplog"
-	"go-common/library/conf/env"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/dm/model/oplog"
+	"github.com/namelessup/bilibili/library/conf/env"
+	"github.com/namelessup/bilibili/library/log"
 
 	xhttp "net/http"
 

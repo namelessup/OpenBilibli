@@ -4,8 +4,8 @@ import (
 	"strconv"
 	"strings"
 
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // relation get relation between mid and fid.

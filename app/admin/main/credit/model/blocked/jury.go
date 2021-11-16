@@ -2,11 +2,11 @@ package blocked
 
 import (
 	"encoding/json"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 	"strconv"
 
-	"go-common/app/admin/main/credit/model"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/admin/main/credit/model"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // const jury

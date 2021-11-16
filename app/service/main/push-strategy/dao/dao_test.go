@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"go-common/app/service/main/push-strategy/conf"
+	"github.com/namelessup/bilibili/app/service/main/push-strategy/conf"
 
 	"gopkg.in/h2non/gock.v1"
 )

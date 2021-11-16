@@ -3,9 +3,9 @@ package passport
 import (
 	"context"
 
-	"go-common/app/interface/main/account/conf"
-	"go-common/app/interface/main/account/dao/passport"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/main/account/conf"
+	"github.com/namelessup/bilibili/app/interface/main/account/dao/passport"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 // Service struct of service.

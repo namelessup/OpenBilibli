@@ -2,8 +2,8 @@ package dao
 
 import (
 	"context"
-	image "go-common/app/service/bbq/video-image/api/grpc/v1"
-	"go-common/library/log"
+	image "github.com/namelessup/bilibili/app/service/bbq/video-image/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 //Upload .

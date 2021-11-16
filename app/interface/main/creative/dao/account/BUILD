@@ -37,7 +37,7 @@ go_library(
         "memcache.go",
         "up.go",
     ],
-    importpath = "go-common/app/interface/main/creative/dao/account",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/creative/dao/account",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -6,10 +6,10 @@ import (
 	"strings"
 	"time"
 
-	"go-common/library/conf/env"
-	"go-common/library/log"
-	"go-common/library/naming"
-	"go-common/library/naming/discovery"
+	"github.com/namelessup/bilibili/library/conf/env"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/naming"
+	"github.com/namelessup/bilibili/library/naming/discovery"
 )
 
 var _schema = "tidb://"

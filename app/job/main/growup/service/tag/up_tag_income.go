@@ -6,10 +6,10 @@ import (
 	"strconv"
 	"time"
 
-	model "go-common/app/job/main/growup/model/tag"
-	"go-common/library/database/sql"
-	"go-common/library/log"
-	xtime "go-common/library/time"
+	model "github.com/namelessup/bilibili/app/job/main/growup/model/tag"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // TagUps cal tag effect up count

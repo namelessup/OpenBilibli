@@ -3,11 +3,11 @@ package module
 import (
 	"context"
 
-	"go-common/app/interface/main/app-resource/conf"
-	"go-common/app/interface/main/app-resource/model"
-	"go-common/app/interface/main/app-resource/model/module"
-	"go-common/library/database/sql"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/app-resource/conf"
+	"github.com/namelessup/bilibili/app/interface/main/app-resource/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-resource/model/module"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

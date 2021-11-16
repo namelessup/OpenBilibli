@@ -5,10 +5,10 @@ import (
 	"net/url"
 	"strconv"
 
-	"go-common/app/interface/main/creative/model/danmu"
-	dmMdl "go-common/app/interface/main/dm/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/danmu"
+	dmMdl "github.com/namelessup/bilibili/app/interface/main/dm/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

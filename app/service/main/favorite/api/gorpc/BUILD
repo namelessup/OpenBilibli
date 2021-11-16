@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["favorite.go"],
-    importpath = "go-common/app/service/main/favorite/api/gorpc",
+    importpath = "github.com/namelessup/bilibili/app/service/main/favorite/api/gorpc",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -5,10 +5,10 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/service/main/archive/api"
-	"go-common/app/service/main/archive/model/archive"
-	"go-common/app/service/main/resource/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/app/service/main/resource/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // loadCardCache load all card cache

@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"go-common/app/service/main/passport-game/model"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/service/main/passport-game/model"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 // MyInfo get user's info by token.

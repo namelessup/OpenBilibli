@@ -3,8 +3,8 @@ package dao
 import (
 	"context"
 	"github.com/pkg/errors"
-	"go-common/app/service/video/stream-mng/model"
-	"go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/service/video/stream-mng/model"
+	"github.com/namelessup/bilibili/library/database/sql"
 )
 
 // 存储上行调度信息

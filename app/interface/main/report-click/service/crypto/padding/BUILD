@@ -24,7 +24,7 @@ go_library(
         "padding.go",
         "pkcs5.go",
     ],
-    importpath = "go-common/app/interface/main/report-click/service/crypto/padding",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/report-click/service/crypto/padding",
     tags = ["automanaged"],
 )
 

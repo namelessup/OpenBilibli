@@ -8,13 +8,13 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/app/service/main/sms/conf"
-	gorpc "go-common/app/service/main/sms/server/gorpc"
-	grpc "go-common/app/service/main/sms/server/grpc"
-	"go-common/app/service/main/sms/server/http"
-	"go-common/app/service/main/sms/service"
-	"go-common/library/log"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/app/service/main/sms/conf"
+	gorpc "github.com/namelessup/bilibili/app/service/main/sms/server/gorpc"
+	grpc "github.com/namelessup/bilibili/app/service/main/sms/server/grpc"
+	"github.com/namelessup/bilibili/app/service/main/sms/server/http"
+	"github.com/namelessup/bilibili/app/service/main/sms/service"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
 )
 
 func main() {

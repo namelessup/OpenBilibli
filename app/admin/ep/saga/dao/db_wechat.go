@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"strings"
 
-	"go-common/app/admin/ep/saga/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/ep/saga/model"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/pkg/errors"
 	pkgerr "github.com/pkg/errors"

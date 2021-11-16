@@ -40,7 +40,7 @@ go_library(
         "tag.go",
         "viewpoint.go",
     ],
-    importpath = "go-common/app/interface/main/creative/service/archive",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/creative/service/archive",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

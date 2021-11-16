@@ -1,8 +1,8 @@
 package model
 
 import (
-	"go-common/app/interface/main/creative/model/data"
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/data"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 // const

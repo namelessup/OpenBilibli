@@ -13,7 +13,7 @@ go_library(
         "parse_log.go",
         "stat.go",
     ],
-    importpath = "go-common/app/job/main/passport-game-data/model",
+    importpath = "github.com/namelessup/bilibili/app/job/main/passport-game-data/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

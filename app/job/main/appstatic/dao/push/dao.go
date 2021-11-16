@@ -1,11 +1,11 @@
 package push
 
 import (
-	appres "go-common/app/interface/main/app-resource/api/v1"
-	"go-common/app/job/main/appstatic/conf"
-	"go-common/library/cache/redis"
-	xsql "go-common/library/database/sql"
-	bm "go-common/library/net/http/blademaster"
+	appres "github.com/namelessup/bilibili/app/interface/main/app-resource/api/v1"
+	"github.com/namelessup/bilibili/app/job/main/appstatic/conf"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // Dao .

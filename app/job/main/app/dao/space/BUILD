@@ -29,7 +29,7 @@ go_library(
         "dao.go",
         "redis.go",
     ],
-    importpath = "go-common/app/job/main/app/dao/space",
+    importpath = "github.com/namelessup/bilibili/app/job/main/app/dao/space",
     tags = ["automanaged"],
     deps = [
         "//app/interface/openplatform/article/model:go_default_library",

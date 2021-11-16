@@ -8,14 +8,14 @@ import (
 	"sort"
 	"sync"
 
-	"go-common/app/admin/main/apm/conf"
-	"go-common/app/admin/main/apm/model/discovery"
-	"go-common/library/conf/env"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/naming"
+	"github.com/namelessup/bilibili/app/admin/main/apm/conf"
+	"github.com/namelessup/bilibili/app/admin/main/apm/model/discovery"
+	"github.com/namelessup/bilibili/library/conf/env"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/naming"
 
-	errgroup "go-common/library/sync/errgroup.v2"
+	errgroup "github.com/namelessup/bilibili/library/sync/errgroup.v2"
 )
 
 // DiscoveryProxy discovery proxy.

@@ -16,7 +16,7 @@ go_library(
         "service.go",
         "wechat.go",
     ],
-    importpath = "go-common/app/tool/saga/service",
+    importpath = "github.com/namelessup/bilibili/app/tool/saga/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -1,9 +1,9 @@
 package grpc
 
 import (
-	pb "go-common/app/service/main/history/api/grpc"
-	"go-common/app/service/main/history/service"
-	"go-common/library/net/rpc/warden"
+	pb "github.com/namelessup/bilibili/app/service/main/history/api/grpc"
+	"github.com/namelessup/bilibili/app/service/main/history/service"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 )
 
 // New Coin warden rpc server

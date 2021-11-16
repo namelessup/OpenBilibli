@@ -7,13 +7,13 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/app/service/main/secure/conf"
-	"go-common/app/service/main/secure/http"
-	rpc "go-common/app/service/main/secure/rpc/server"
-	"go-common/app/service/main/secure/service"
-	"go-common/library/log"
-	xrpc "go-common/library/net/rpc"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/app/service/main/secure/conf"
+	"github.com/namelessup/bilibili/app/service/main/secure/http"
+	rpc "github.com/namelessup/bilibili/app/service/main/secure/rpc/server"
+	"github.com/namelessup/bilibili/app/service/main/secure/service"
+	"github.com/namelessup/bilibili/library/log"
+	xrpc "github.com/namelessup/bilibili/library/net/rpc"
+	"github.com/namelessup/bilibili/library/net/trace"
 )
 
 var (

@@ -2,8 +2,8 @@ package service
 
 import (
 	"context"
-	"go-common/app/service/main/videoup/model/archive"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/videoup/model/archive"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) isWhiteMid(mid int64) (uid int64, ok bool) {

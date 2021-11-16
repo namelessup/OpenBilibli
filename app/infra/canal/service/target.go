@@ -8,11 +8,11 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/infra/canal/conf"
-	"go-common/app/infra/canal/infoc"
-	"go-common/app/infra/canal/model"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/infra/canal/conf"
+	"github.com/namelessup/bilibili/app/infra/canal/infoc"
+	"github.com/namelessup/bilibili/app/infra/canal/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
 
 	"github.com/pkg/errors"
 	"github.com/siddontang/go-mysql/canal"

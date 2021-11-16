@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 
-	"go-common/app/tool/saga/model"
-	"go-common/app/tool/saga/service/notification"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/tool/saga/model"
+	"github.com/namelessup/bilibili/app/tool/saga/service/notification"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // PipelineChanged handle pipeline changed webhook

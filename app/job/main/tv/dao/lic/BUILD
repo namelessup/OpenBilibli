@@ -14,7 +14,7 @@ go_library(
         "lic.go",
         "xml.go",
     ],
-    importpath = "go-common/app/job/main/tv/dao/lic",
+    importpath = "github.com/namelessup/bilibili/app/job/main/tv/dao/lic",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

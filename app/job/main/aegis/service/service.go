@@ -5,15 +5,15 @@ import (
 	"strings"
 	"sync"
 
-	"go-common/app/job/main/aegis/conf"
-	"go-common/app/job/main/aegis/dao"
-	"go-common/app/job/main/aegis/dao/email"
-	"go-common/app/job/main/aegis/dao/monitor"
-	"go-common/app/job/main/aegis/model"
-	accApi "go-common/app/service/main/account/api"
-	upApi "go-common/app/service/main/up/api/v1"
-	"go-common/library/queue/databus"
-	"go-common/library/queue/databus/databusutil"
+	"github.com/namelessup/bilibili/app/job/main/aegis/conf"
+	"github.com/namelessup/bilibili/app/job/main/aegis/dao"
+	"github.com/namelessup/bilibili/app/job/main/aegis/dao/email"
+	"github.com/namelessup/bilibili/app/job/main/aegis/dao/monitor"
+	"github.com/namelessup/bilibili/app/job/main/aegis/model"
+	accApi "github.com/namelessup/bilibili/app/service/main/account/api"
+	upApi "github.com/namelessup/bilibili/app/service/main/up/api/v1"
+	"github.com/namelessup/bilibili/library/queue/databus"
+	"github.com/namelessup/bilibili/library/queue/databus/databusutil"
 )
 
 // Service struct

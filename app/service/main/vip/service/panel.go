@@ -6,12 +6,12 @@ import (
 	"sort"
 	"time"
 
-	colapi "go-common/app/service/main/coupon/api"
-	coumol "go-common/app/service/main/coupon/model"
-	v1 "go-common/app/service/main/vip/api"
-	"go-common/app/service/main/vip/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	colapi "github.com/namelessup/bilibili/app/service/main/coupon/api"
+	coumol "github.com/namelessup/bilibili/app/service/main/coupon/model"
+	v1 "github.com/namelessup/bilibili/app/service/main/vip/api"
+	"github.com/namelessup/bilibili/app/service/main/vip/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/pkg/errors"
 )

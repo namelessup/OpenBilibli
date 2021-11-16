@@ -5,8 +5,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go-common/app/service/live/room/api/liverpc/v1"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/live/room/api/liverpc/v1"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 var onlineRoomIdValue atomic.Value

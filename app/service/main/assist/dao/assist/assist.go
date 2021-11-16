@@ -3,9 +3,9 @@ package assist
 import (
 	"context"
 
-	"go-common/app/service/main/assist/model/assist"
-	"go-common/library/database/sql"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/assist/model/assist"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

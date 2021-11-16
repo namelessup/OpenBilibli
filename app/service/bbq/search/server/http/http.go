@@ -3,11 +3,11 @@ package http
 import (
 	"net/http"
 
-	"go-common/app/service/bbq/search/api/grpc/v1"
-	"go-common/app/service/bbq/search/conf"
-	"go-common/app/service/bbq/search/service"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/service/bbq/search/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/bbq/search/conf"
+	"github.com/namelessup/bilibili/app/service/bbq/search/service"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 var (

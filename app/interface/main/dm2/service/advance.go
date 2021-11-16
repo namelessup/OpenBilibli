@@ -4,13 +4,13 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/app/interface/main/dm2/model"
-	account "go-common/app/service/main/account/api"
-	arcMdl "go-common/app/service/main/archive/model/archive"
-	coinmdl "go-common/app/service/main/coin/model"
-	relation "go-common/app/service/main/relation/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/dm2/model"
+	account "github.com/namelessup/bilibili/app/service/main/account/api"
+	arcMdl "github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	coinmdl "github.com/namelessup/bilibili/app/service/main/coin/model"
+	relation "github.com/namelessup/bilibili/app/service/main/relation/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // BuyAdvance 购买高级弹幕

@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"go-common/app/admin/main/laser/conf"
-	"go-common/app/admin/main/laser/dao"
+	"github.com/namelessup/bilibili/app/admin/main/laser/conf"
+	"github.com/namelessup/bilibili/app/admin/main/laser/dao"
 )
 
 // Service struct

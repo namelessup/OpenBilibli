@@ -31,7 +31,7 @@ go_library(
         "dao.go",
         "qrcode.go",
     ],
-    importpath = "go-common/app/interface/main/web-goblin/dao/wechat",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/web-goblin/dao/wechat",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

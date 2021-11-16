@@ -87,7 +87,7 @@
 #### Version 1.4.0
 
 >1. 接入普罗米修斯监控
->2. 更新go-common和go-business 为最新的
+>2. 更新github.com/namelessup/bilibili和go-business 为最新的
 >3. file.so 接口添加日志返回，配置内容本地缓存
 
 #### Version 1.3.0

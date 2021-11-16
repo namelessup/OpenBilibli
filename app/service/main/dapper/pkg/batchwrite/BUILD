@@ -18,7 +18,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["batchwrite.go"],
-    importpath = "go-common/app/service/main/dapper/pkg/batchwrite",
+    importpath = "github.com/namelessup/bilibili/app/service/main/dapper/pkg/batchwrite",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

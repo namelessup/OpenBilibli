@@ -54,7 +54,7 @@ go_library(
         "ups.go",
         "video.go",
     ],
-    importpath = "go-common/app/job/main/videoup-report/service",
+    importpath = "github.com/namelessup/bilibili/app/job/main/videoup-report/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

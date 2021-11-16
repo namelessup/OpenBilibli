@@ -1,10 +1,10 @@
 package http
 
 import (
-	"go-common/app/interface/main/player/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/interface/main/player/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func playurl(c *blademaster.Context) {

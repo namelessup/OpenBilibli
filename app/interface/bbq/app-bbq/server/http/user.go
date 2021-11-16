@@ -1,11 +1,11 @@
 package http
 
 import (
-	"go-common/app/interface/bbq/app-bbq/api/http/v1"
-	"go-common/app/interface/bbq/app-bbq/model"
-	user "go-common/app/service/bbq/user/api"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/interface/bbq/app-bbq/api/http/v1"
+	"github.com/namelessup/bilibili/app/interface/bbq/app-bbq/model"
+	user "github.com/namelessup/bilibili/app/service/bbq/user/api"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 
 	"github.com/pkg/errors"
 )

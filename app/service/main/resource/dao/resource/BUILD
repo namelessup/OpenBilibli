@@ -31,7 +31,7 @@ go_library(
         "dao.go",
         "resource.go",
     ],
-    importpath = "go-common/app/service/main/resource/dao/resource",
+    importpath = "github.com/namelessup/bilibili/app/service/main/resource/dao/resource",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

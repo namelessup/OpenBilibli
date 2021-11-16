@@ -2,8 +2,8 @@ package dao
 
 import (
 	"context"
-	"go-common/app/service/main/account/api"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/account/api"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // AccountInfo queries account info by user id.

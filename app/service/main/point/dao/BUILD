@@ -31,7 +31,7 @@ go_library(
         "memcache.go",
         "mysql.go",
     ],
-    importpath = "go-common/app/service/main/point/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/main/point/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

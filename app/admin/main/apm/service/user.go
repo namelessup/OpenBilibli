@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 
-	"go-common/app/admin/main/apm/model/user"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/apm/model/user"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/jinzhu/gorm"
 )

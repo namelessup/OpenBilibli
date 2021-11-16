@@ -28,7 +28,7 @@ go_library(
         "abtest.go",
         "dao.go",
     ],
-    importpath = "go-common/app/service/main/resource/dao/abtest",
+    importpath = "github.com/namelessup/bilibili/app/service/main/resource/dao/abtest",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

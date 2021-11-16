@@ -3,10 +3,10 @@ package ugc
 import (
 	"context"
 
-	ugcmdl "go-common/app/job/main/tv/model/ugc"
-	arccli "go-common/app/service/main/archive/api"
-	"go-common/library/database/sql"
-	"go-common/library/log"
+	ugcmdl "github.com/namelessup/bilibili/app/job/main/tv/model/ugc"
+	arccli "github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

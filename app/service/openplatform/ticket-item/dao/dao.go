@@ -6,15 +6,15 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/service/openplatform/ticket-item/conf"
-	"go-common/app/service/openplatform/ticket-item/model"
-	"go-common/library/cache/redis"
-	"go-common/library/database/orm"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-item/conf"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-item/model"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/database/orm"
+	"github.com/namelessup/bilibili/library/log"
 
-	"go-common/library/database/elastic"
+	"github.com/namelessup/bilibili/library/database/elastic"
 
-	"go-common/library/sync/pipeline/fanout"
+	"github.com/namelessup/bilibili/library/sync/pipeline/fanout"
 
 	"github.com/jinzhu/gorm"
 )
@@ -76,7 +76,7 @@ func keyBannerInfo(bannerID int64) string {
 	return fmt.Sprintf("%d:BANNERINFOV2", bannerID)
 }
 
-//go:generate $GOPATH/src/go-common/app/tool/cache/gen
+//go:generate $GOPATH/src/github.com/namelessup/bilibili/app/tool/cache/gen
 type _cache interface {
 	// cache: -nullcache=&model.Item{ID:-1} -check_null_code=$!=nil&&$.ID==-1
 	Items(c context.Context, pid []int64) (info map[int64]*model.Item, err error)

@@ -11,7 +11,7 @@ go_library(
         "const.go",
         "view.go",
     ],
-    importpath = "go-common/app/interface/main/tv/model/view",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/tv/model/view",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//app/service/main/archive/api:go_default_library"],

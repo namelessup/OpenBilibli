@@ -4,16 +4,16 @@ import (
 	"strconv"
 
 	"encoding/json"
-	"go-common/app/interface/main/app-interface/model"
-	"go-common/app/interface/main/app-interface/model/audio"
-	"go-common/app/interface/main/app-interface/model/bangumi"
-	"go-common/app/interface/main/app-interface/model/community"
-	"go-common/app/interface/main/app-interface/model/elec"
-	"go-common/app/interface/main/app-interface/model/favorite"
-	tag "go-common/app/interface/main/tag/model"
-	article "go-common/app/interface/openplatform/article/model"
-	"go-common/app/service/main/archive/api"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/model/audio"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/model/bangumi"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/model/community"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/model/elec"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/model/favorite"
+	tag "github.com/namelessup/bilibili/app/interface/main/tag/model"
+	article "github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // Space struct

@@ -3,8 +3,8 @@ package gorpc
 import (
 	"context"
 
-	"go-common/app/service/main/archive/api"
-	model "go-common/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	model "github.com/namelessup/bilibili/app/service/main/archive/model/archive"
 )
 
 const (

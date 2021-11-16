@@ -24,7 +24,7 @@ go_library(
         "track.go",
         "video.go",
     ],
-    importpath = "go-common/app/admin/main/videoup/http",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/videoup/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

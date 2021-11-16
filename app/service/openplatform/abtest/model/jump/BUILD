@@ -18,7 +18,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["jump.go"],
-    importpath = "go-common/app/service/openplatform/abtest/model/jump",
+    importpath = "github.com/namelessup/bilibili/app/service/openplatform/abtest/model/jump",
     tags = ["automanaged"],
 )
 

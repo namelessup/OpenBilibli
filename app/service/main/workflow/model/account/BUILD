@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["user.go"],
-    importpath = "go-common/app/service/main/workflow/model/account",
+    importpath = "github.com/namelessup/bilibili/app/service/main/workflow/model/account",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

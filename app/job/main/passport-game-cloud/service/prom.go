@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"go-common/library/log"
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/stat/prom"
 )
 
 const (

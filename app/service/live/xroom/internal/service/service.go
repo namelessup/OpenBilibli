@@ -3,10 +3,10 @@ package service
 import (
 	"context"
 
-	dav1 "go-common/app/service/live/dao-anchor/api/grpc/v1"
-	"go-common/app/service/live/xroom/internal/dao"
-	"go-common/library/conf/paladin"
-	"go-common/library/net/rpc/warden"
+	dav1 "github.com/namelessup/bilibili/app/service/live/dao-anchor/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/live/xroom/internal/dao"
+	"github.com/namelessup/bilibili/library/conf/paladin"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 )
 
 // Service service.

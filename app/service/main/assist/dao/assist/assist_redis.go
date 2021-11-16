@@ -2,10 +2,10 @@ package assist
 
 import (
 	"context"
-	"go-common/app/service/main/assist/model/assist"
-	"go-common/library/cache/redis"
-	"go-common/library/log"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/service/main/assist/model/assist"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
 	"strconv"
 	"time"
 )

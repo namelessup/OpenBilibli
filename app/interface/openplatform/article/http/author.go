@@ -3,7 +3,7 @@ package http
 import (
 	"strconv"
 
-	bm "go-common/library/net/http/blademaster"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func authors(c *bm.Context) {

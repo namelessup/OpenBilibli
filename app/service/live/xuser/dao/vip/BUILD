@@ -32,7 +32,7 @@ go_library(
         "dao.go",
         "mysql.go",
     ],
-    importpath = "go-common/app/service/live/xuser/dao/vip",
+    importpath = "github.com/namelessup/bilibili/app/service/live/xuser/dao/vip",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

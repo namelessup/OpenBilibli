@@ -5,9 +5,9 @@ import (
 	"math/rand"
 	"time"
 
-	"go-common/app/service/openplatform/anti-fraud/conf"
-	"go-common/app/service/openplatform/anti-fraud/dao"
-	"go-common/library/cache/redis"
+	"github.com/namelessup/bilibili/app/service/openplatform/anti-fraud/conf"
+	"github.com/namelessup/bilibili/app/service/openplatform/anti-fraud/dao"
+	"github.com/namelessup/bilibili/library/cache/redis"
 )
 
 // Service struct of service.

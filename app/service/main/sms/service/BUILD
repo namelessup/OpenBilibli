@@ -27,7 +27,7 @@ go_library(
         "sms.go",
         "task.go",
     ],
-    importpath = "go-common/app/service/main/sms/service",
+    importpath = "github.com/namelessup/bilibili/app/service/main/sms/service",
     tags = ["automanaged"],
     deps = [
         "//app/service/main/sms/api:go_default_library",

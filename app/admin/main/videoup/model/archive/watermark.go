@@ -1,6 +1,6 @@
 package archive
 
-import "go-common/app/admin/main/videoup/model/utils"
+import "github.com/namelessup/bilibili/app/admin/main/videoup/model/utils"
 
 //Watermark 水印
 type Watermark struct {

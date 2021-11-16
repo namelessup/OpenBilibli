@@ -7,10 +7,10 @@ import (
 	"strconv"
 	"strings"
 
-	"go-common/app/interface/bbq/app-bbq/model"
-	user "go-common/app/service/bbq/user/api"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/bbq/app-bbq/model"
+	user "github.com/namelessup/bilibili/app/service/bbq/user/api"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 
 	"github.com/json-iterator/go"
 )

@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["time.go"],
-    importpath = "go-common/app/admin/main/videoup/model/utils",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/videoup/model/utils",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

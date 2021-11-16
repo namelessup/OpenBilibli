@@ -2,12 +2,12 @@ package v1
 
 import (
 	"context"
-	v1pb "go-common/app/service/live/xuser/api/grpc/v1"
-	"go-common/library/net/metadata"
+	v1pb "github.com/namelessup/bilibili/app/service/live/xuser/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/net/metadata"
 
-	expModel "go-common/app/service/live/xuser/model/exp"
+	expModel "github.com/namelessup/bilibili/app/service/live/xuser/model/exp"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *UserExpService) asyncCLearExpCache(ctx context.Context, req *v1pb.UserExpChunk) (err error) {

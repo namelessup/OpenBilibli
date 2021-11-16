@@ -23,7 +23,7 @@ go_library(
         "stat.go",
         "userinfo.go",
     ],
-    importpath = "go-common/app/admin/main/spy/model",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/spy/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/time:go_default_library"],

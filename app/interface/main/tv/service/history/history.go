@@ -2,10 +2,10 @@ package history
 
 import (
 	"context"
-	hismodel "go-common/app/interface/main/history/model"
-	"go-common/app/interface/main/tv/model/history"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
+	hismodel "github.com/namelessup/bilibili/app/interface/main/history/model"
+	"github.com/namelessup/bilibili/app/interface/main/tv/model/history"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 const (

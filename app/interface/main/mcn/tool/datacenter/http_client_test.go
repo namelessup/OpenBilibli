@@ -4,7 +4,7 @@ import (
 	"context"
 	"crypto/md5"
 	"fmt"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 	"net/url"
 	"os"
 	"testing"

@@ -1,12 +1,12 @@
 package v1
 
 import (
-	v1pb "go-common/app/interface/live/web-room/api/http/v1"
-	"go-common/app/interface/live/web-room/conf"
-	xCaptcha "go-common/app/service/live/xcaptcha/api/grpc/v1"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	v1pb "github.com/namelessup/bilibili/app/interface/live/web-room/api/http/v1"
+	"github.com/namelessup/bilibili/app/interface/live/web-room/conf"
+	xCaptcha "github.com/namelessup/bilibili/app/service/live/xcaptcha/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 
 	"context"
 )

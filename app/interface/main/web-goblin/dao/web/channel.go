@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/interface/main/web-goblin/model/web"
+	"github.com/namelessup/bilibili/app/interface/main/web-goblin/model/web"
 )
 
 const _cardSQL = "SELECT id,title,tag_id,card_type,card_value,recommand_reason,recommand_state,priority FROM channel_card WHERE stime<? AND etime>? AND `check`=2 AND is_delete=0 ORDER BY priority DESC"

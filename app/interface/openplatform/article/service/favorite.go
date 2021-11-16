@@ -3,10 +3,10 @@ package service
 import (
 	"context"
 
-	"go-common/app/interface/openplatform/article/dao"
-	artmdl "go-common/app/interface/openplatform/article/model"
-	favmdl "go-common/app/service/main/favorite/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/openplatform/article/dao"
+	artmdl "github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	favmdl "github.com/namelessup/bilibili/app/service/main/favorite/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // AddFavorite add article favorite .

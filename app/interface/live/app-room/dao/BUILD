@@ -33,7 +33,7 @@ go_library(
         "paycenter.go",
         "userext.go",
     ],
-    importpath = "go-common/app/interface/live/app-room/dao",
+    importpath = "github.com/namelessup/bilibili/app/interface/live/app-room/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

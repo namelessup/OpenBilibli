@@ -16,7 +16,7 @@ go_library(
         "spanref.go",
         "util.go",
     ],
-    importpath = "go-common/app/service/main/dapper-query/model",
+    importpath = "github.com/namelessup/bilibili/app/service/main/dapper-query/model",
     tags = ["manual"],
     visibility = ["//visibility:public"],
     deps = [

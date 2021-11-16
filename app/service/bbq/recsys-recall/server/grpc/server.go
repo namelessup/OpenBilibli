@@ -5,10 +5,10 @@ import (
 	"flag"
 	"time"
 
-	v1 "go-common/app/service/bbq/recsys-recall/api/grpc/v1"
-	"go-common/app/service/bbq/recsys-recall/service"
-	"go-common/library/net/rpc/warden"
-	xtime "go-common/library/time"
+	v1 "github.com/namelessup/bilibili/app/service/bbq/recsys-recall/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/bbq/recsys-recall/service"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	"google.golang.org/grpc"
 )

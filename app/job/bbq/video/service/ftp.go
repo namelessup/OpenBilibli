@@ -16,8 +16,8 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/app/job/bbq/video/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/bbq/video/model"
+	"github.com/namelessup/bilibili/library/log"
 
 	ftp "github.com/ftp-master"
 )
@@ -34,7 +34,7 @@ const (
 	sugSrcTermIdx    = 1
 	sugSrcTypeIdx    = 2
 	sugSrcScoreIdx   = 3
-	defaultSugPath   = "/src/go-common/app/job/bbq/video/cmd/sug"
+	defaultSugPath   = "/src/github.com/namelessup/bilibili/app/job/bbq/video/cmd/sug"
 )
 
 // writeSug .

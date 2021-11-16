@@ -3,9 +3,9 @@ package grpc
 import (
 	"context"
 
-	pb "go-common/app/interface/main/tag/api"
-	"go-common/app/interface/main/tag/model"
-	"go-common/library/ecode"
+	pb "github.com/namelessup/bilibili/app/interface/main/tag/api"
+	"github.com/namelessup/bilibili/app/interface/main/tag/model"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 // Channel get a channel info, include tags, and channel synonyms.

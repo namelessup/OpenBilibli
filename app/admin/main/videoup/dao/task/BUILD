@@ -12,7 +12,7 @@ go_library(
         "dao.go",
         "weight.go",
     ],
-    importpath = "go-common/app/admin/main/videoup/dao/task",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/videoup/dao/task",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

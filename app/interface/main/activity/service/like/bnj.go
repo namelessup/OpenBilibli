@@ -4,11 +4,11 @@ import (
 	"context"
 	"strconv"
 
-	"go-common/app/interface/main/activity/model/bnj"
-	"go-common/app/interface/main/activity/model/like"
-	suitmdl "go-common/app/service/main/usersuit/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/activity/model/bnj"
+	"github.com/namelessup/bilibili/app/interface/main/activity/model/like"
+	suitmdl "github.com/namelessup/bilibili/app/service/main/usersuit/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Reward get bnj preview reward.

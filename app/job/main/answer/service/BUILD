@@ -26,7 +26,7 @@ go_library(
         "question.go",
         "service.go",
     ],
-    importpath = "go-common/app/job/main/answer/service",
+    importpath = "github.com/namelessup/bilibili/app/job/main/answer/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -13,7 +13,7 @@ go_library(
         "version.go",
         "wrappers.go",
     ],
-    importpath = "go-common/app/tool/liverpc/protoc-gen-liverpc/gen",
+    importpath = "github.com/namelessup/bilibili/app/tool/liverpc/protoc-gen-liverpc/gen",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

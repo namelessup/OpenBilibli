@@ -3,15 +3,15 @@ package conf
 import (
 	"flag"
 
-	"go-common/library/conf"
-	"go-common/library/log"
-	"go-common/library/log/infoc"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/auth"
-	"go-common/library/net/http/blademaster/middleware/verify"
-	"go-common/library/net/rpc"
-	"go-common/library/net/trace"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/library/conf"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/log/infoc"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/auth"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/verify"
+	"github.com/namelessup/bilibili/library/net/rpc"
+	"github.com/namelessup/bilibili/library/net/trace"
+	"github.com/namelessup/bilibili/library/queue/databus"
 
 	"github.com/BurntSushi/toml"
 )

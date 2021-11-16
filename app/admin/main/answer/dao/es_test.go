@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"go-common/app/admin/main/answer/model"
+	"github.com/namelessup/bilibili/app/admin/main/answer/model"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

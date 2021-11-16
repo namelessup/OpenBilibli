@@ -8,9 +8,9 @@ import (
 	"os"
 	"testing"
 
-	"go-common/app/infra/notify/conf"
-	"go-common/app/infra/notify/dao"
-	"go-common/app/infra/notify/model"
+	"github.com/namelessup/bilibili/app/infra/notify/conf"
+	"github.com/namelessup/bilibili/app/infra/notify/dao"
+	"github.com/namelessup/bilibili/app/infra/notify/model"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

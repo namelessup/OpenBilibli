@@ -10,9 +10,9 @@ import (
 	"io/ioutil"
 	"strconv"
 
-	"go-common/app/interface/main/dm2/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/dm2/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) gzip(input []byte) ([]byte, error) {

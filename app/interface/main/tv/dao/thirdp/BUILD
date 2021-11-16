@@ -32,7 +32,7 @@ go_library(
         "mango_mc.go",
         "mango_recom.go",
     ],
-    importpath = "go-common/app/interface/main/tv/dao/thirdp",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/tv/dao/thirdp",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

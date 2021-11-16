@@ -11,7 +11,7 @@ go_library(
         "http.go",
         "pub.go",
     ],
-    importpath = "go-common/app/infra/databus/http",
+    importpath = "github.com/namelessup/bilibili/app/infra/databus/http",
     tags = ["automanaged"],
     deps = [
         "//app/infra/databus/conf:go_default_library",

@@ -6,10 +6,10 @@ package v1
 import proto "github.com/gogo/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import ticket_service_sales_v1 "go-common/app/service/openplatform/ticket-sales/api/grpc/type"
+import ticket_service_sales_v1 "github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/api/grpc/type"
 import _ "github.com/gogo/protobuf/gogoproto"
 
-import go_common_library_time "go-common/library/time"
+import go_common_library_time "github.com/namelessup/bilibili/library/time"
 
 import context "golang.org/x/net/context"
 import grpc "google.golang.org/grpc"
@@ -71,8 +71,8 @@ type OrderResponse struct {
 	SKUs         []*ticket_service_sales_v1.OrderSKU     `protobuf:"bytes,15,rep,name=skus" json:"order_sku"`
 	Detail       *OrderResponseMore                      `protobuf:"bytes,16,opt,name=detail" json:"detail"`
 	PayCharge    *ticket_service_sales_v1.OrderPayCharge `protobuf:"bytes,17,opt,name=pay_charge,json=payCharge" json:"pay_charge"`
-	CTime        go_common_library_time.Time             `protobuf:"varint,18,opt,name=ctime,proto3,casttype=go-common/library/time.Time" json:"ctime"`
-	MTime        go_common_library_time.Time             `protobuf:"varint,19,opt,name=mtime,proto3,casttype=go-common/library/time.Time" json:"mtime"`
+	CTime        go_common_library_time.Time             `protobuf:"varint,18,opt,name=ctime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"ctime"`
+	MTime        go_common_library_time.Time             `protobuf:"varint,19,opt,name=mtime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"mtime"`
 }
 
 func (m *OrderResponse) Reset()                    { *m = OrderResponse{} }
@@ -203,8 +203,8 @@ type OrderLog struct {
 	Remark   string                      `protobuf:"bytes,6,opt,name=remark,proto3" json:"remark,omitempty"`
 	OpObject string                      `protobuf:"bytes,7,opt,name=op_object,json=opObject,proto3" json:"op_object,omitempty"`
 	OpName   string                      `protobuf:"bytes,8,opt,name=op_name,json=opName,proto3" json:"op_name,omitempty"`
-	CTime    go_common_library_time.Time `protobuf:"varint,9,opt,name=ctime,proto3,casttype=go-common/library/time.Time" json:"ctime,omitempty"`
-	MTime    go_common_library_time.Time `protobuf:"varint,10,opt,name=mtime,proto3,casttype=go-common/library/time.Time" json:"mtime,omitempty"`
+	CTime    go_common_library_time.Time `protobuf:"varint,9,opt,name=ctime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"ctime,omitempty"`
+	MTime    go_common_library_time.Time `protobuf:"varint,10,opt,name=mtime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"mtime,omitempty"`
 }
 
 func (m *OrderLog) Reset()                    { *m = OrderLog{} }

@@ -3,9 +3,9 @@ package dao
 import (
 	"context"
 	"fmt"
-	"go-common/app/interface/bbq/app-bbq/model"
-	"go-common/library/cache/redis"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/bbq/app-bbq/model"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 var (

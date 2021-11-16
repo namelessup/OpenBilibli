@@ -1,6 +1,6 @@
 package data
 
-import "go-common/app/interface/main/creative/model/archive"
+import "github.com/namelessup/bilibili/app/interface/main/creative/model/archive"
 
 // ArchiveStat for archive stat.
 type ArchiveStat struct {

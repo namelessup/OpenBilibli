@@ -2,8 +2,8 @@ package anchorReward
 
 import (
 	"context"
-	model "go-common/app/service/live/xrewardcenter/model/anchorTask"
-	"go-common/library/log"
+	model "github.com/namelessup/bilibili/app/service/live/xrewardcenter/model/anchorTask"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // RawRewardConf return reward config from db.

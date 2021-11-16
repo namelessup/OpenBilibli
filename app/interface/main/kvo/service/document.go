@@ -5,12 +5,12 @@ import (
 	"encoding/json"
 	"time"
 
-	"go-common/app/interface/main/kvo/model"
-	"go-common/app/interface/main/kvo/model/module"
+	"github.com/namelessup/bilibili/app/interface/main/kvo/model"
+	"github.com/namelessup/bilibili/app/interface/main/kvo/model/module"
 
-	"go-common/library/database/sql"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Document get document

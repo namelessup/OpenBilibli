@@ -27,7 +27,7 @@ go_library(
         "ai.go",
         "bigdata.go",
     ],
-    importpath = "go-common/app/interface/main/reply/dao/bigdata",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/reply/dao/bigdata",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

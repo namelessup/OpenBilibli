@@ -10,7 +10,7 @@ func timeLessKey() string {
 	return "time_less"
 }
 
-//go:generate $GOPATH/src/go-common/app/tool/cache/mc
+//go:generate $GOPATH/src/github.com/namelessup/bilibili/app/tool/cache/mc
 type _mc interface {
 	// mc: -key=timeFinishKey
 	CacheTimeFinish(c context.Context) (int64, error)

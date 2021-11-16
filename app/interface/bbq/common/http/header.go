@@ -3,8 +3,8 @@ package http
 import (
 	"fmt"
 
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/trace"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/trace"
 )
 
 // WrapHeader 为返回头添加自定义字段

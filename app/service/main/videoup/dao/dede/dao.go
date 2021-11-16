@@ -1,8 +1,8 @@
 package dede
 
 import (
-	"go-common/app/service/main/videoup/conf"
-	"go-common/library/cache/redis"
+	"github.com/namelessup/bilibili/app/service/main/videoup/conf"
+	"github.com/namelessup/bilibili/library/cache/redis"
 )
 
 // Dao is redis dao.

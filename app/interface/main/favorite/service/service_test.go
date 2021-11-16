@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"go-common/app/interface/main/favorite/conf"
+	"github.com/namelessup/bilibili/app/interface/main/favorite/conf"
 )
 
 var (

@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	pb "go-common/app/interface/main/broadcast/api/grpc/v1"
-	"go-common/app/service/main/broadcast/model"
-	"go-common/library/log"
+	pb "github.com/namelessup/bilibili/app/interface/main/broadcast/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/main/broadcast/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

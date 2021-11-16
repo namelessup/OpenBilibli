@@ -3,12 +3,12 @@ package service
 import (
 	"context"
 
-	"go-common/app/interface/main/dm2/model"
-	account "go-common/app/service/main/account/api"
-	thumbUpApi "go-common/app/service/main/thumbup/api"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/main/dm2/model"
+	account "github.com/namelessup/bilibili/app/service/main/account/api"
+	thumbUpApi "github.com/namelessup/bilibili/app/service/main/thumbup/api"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 // ThumbupDM like or cancel like a dm

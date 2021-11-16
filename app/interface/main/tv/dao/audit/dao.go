@@ -1,9 +1,9 @@
 package audit
 
 import (
-	"go-common/app/interface/main/tv/conf"
-	"go-common/library/cache/memcache"
-	"go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/interface/main/tv/conf"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/database/sql"
 )
 
 // Dao is account dao.

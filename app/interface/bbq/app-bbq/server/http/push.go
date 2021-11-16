@@ -1,10 +1,10 @@
 package http
 
 import (
-	"go-common/app/interface/bbq/app-bbq/api/http/v1"
-	"go-common/app/interface/bbq/app-bbq/model"
-	notice "go-common/app/service/bbq/notice-service/api/v1"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/interface/bbq/app-bbq/api/http/v1"
+	"github.com/namelessup/bilibili/app/interface/bbq/app-bbq/model"
+	notice "github.com/namelessup/bilibili/app/service/bbq/notice-service/api/v1"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 
 	"github.com/pkg/errors"
 )

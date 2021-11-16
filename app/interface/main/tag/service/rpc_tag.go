@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/app/interface/main/tag/model"
-	rpcModel "go-common/app/service/main/tag/model"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/main/tag/model"
+	rpcModel "github.com/namelessup/bilibili/app/service/main/tag/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 func (s *Service) tag(c context.Context, tid, mid int64) (res *rpcModel.Tag, err error) {

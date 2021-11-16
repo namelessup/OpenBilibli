@@ -2,7 +2,7 @@ package service
 
 import (
 	"context"
-	"go-common/app/service/video/stream-mng/model"
+	"github.com/namelessup/bilibili/app/service/video/stream-mng/model"
 )
 
 // GetSummaryUpStreamRtmp 统计上行调度信息

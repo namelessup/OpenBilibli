@@ -1,8 +1,8 @@
 package http
 
 import (
-	"go-common/app/interface/main/tv/model"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/interface/main/tv/model"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 //ugcPlayurl is used for getting ugc play url

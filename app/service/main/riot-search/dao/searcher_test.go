@@ -1,7 +1,7 @@
 package dao
 
 import (
-	"go-common/app/service/main/riot-search/model"
+	"github.com/namelessup/bilibili/app/service/main/riot-search/model"
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"

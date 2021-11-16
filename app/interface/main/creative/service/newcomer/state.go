@@ -5,10 +5,10 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/interface/main/creative/model/newcomer"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/newcomer"
+	"github.com/namelessup/bilibili/library/log"
 
-	"go-common/library/sync/errgroup.v2"
+	"github.com/namelessup/bilibili/library/sync/errgroup.v2"
 )
 
 //DriveStateByUser drive new hand & advanced task state

@@ -5,7 +5,7 @@ import (
 	"flag"
 	"path/filepath"
 
-	"go-common/app/admin/ep/marthe/conf"
+	"github.com/namelessup/bilibili/app/admin/ep/marthe/conf"
 
 	_ "github.com/go-sql-driver/mysql"
 	"gopkg.in/h2non/gock.v1"

@@ -1168,8 +1168,8 @@
 
 ##### Version 2.0.0
 
-> 1.go-common/businese 替换go-business
-> 2.go-common/ecode 替换go-business/ecode
+> 1.github.com/namelessup/bilibili/businese 替换go-business
+> 2.github.com/namelessup/bilibili/ecode 替换go-business/ecode
 > 3.tag最新视频列表接tag接口
 
 ##### Version 1.9.11
@@ -1315,7 +1315,7 @@
 ##### Version 1.3.0
 
 > 1.使用gohbase查询hbase, 去掉thrift
-> 2.兼容go-common相关包用法
+> 2.兼容github.com/namelessup/bilibili相关包用法
 > 3.完成region相关接口
 > 4.生日闪屏 splash birth
 > 5.版本管理 version update

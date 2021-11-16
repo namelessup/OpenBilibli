@@ -4,13 +4,13 @@ import (
 	"context"
 	"time"
 
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/library/ecode"
 
 	"fmt"
 
-	daoAnchorV0 "go-common/app/service/live/dao-anchor/api/grpc/v0"
-	"go-common/app/service/live/dao-anchor/api/grpc/v1"
-	"go-common/library/log"
+	daoAnchorV0 "github.com/namelessup/bilibili/app/service/live/dao-anchor/api/grpc/v0"
+	"github.com/namelessup/bilibili/app/service/live/dao-anchor/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 //LIVE_OPEN 开播

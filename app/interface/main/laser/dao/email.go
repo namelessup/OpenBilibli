@@ -1,7 +1,7 @@
 package dao
 
 import (
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 	"gopkg.in/gomail.v2"
 )
 

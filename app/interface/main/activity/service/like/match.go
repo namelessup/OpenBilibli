@@ -5,15 +5,15 @@ import (
 	"encoding/json"
 	"time"
 
-	"go-common/app/interface/main/activity/conf"
-	dao "go-common/app/interface/main/activity/dao/like"
-	match "go-common/app/interface/main/activity/model/like"
-	coinmdl "go-common/app/service/main/coin/model"
-	suitmdl "go-common/app/service/main/usersuit/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/interface/main/activity/conf"
+	dao "github.com/namelessup/bilibili/app/interface/main/activity/dao/like"
+	match "github.com/namelessup/bilibili/app/interface/main/activity/model/like"
+	coinmdl "github.com/namelessup/bilibili/app/service/main/coin/model"
+	suitmdl "github.com/namelessup/bilibili/app/service/main/usersuit/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 const (

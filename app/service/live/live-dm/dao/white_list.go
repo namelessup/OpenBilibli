@@ -3,8 +3,8 @@ package dao
 import (
 	"context"
 
-	"go-common/library/cache/redis"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 //IsWhietListUID 通过UID判读是否是白名单用户

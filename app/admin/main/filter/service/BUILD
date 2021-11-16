@@ -31,7 +31,7 @@ go_library(
         "service.go",
         "white.go",
     ],
-    importpath = "go-common/app/admin/main/filter/service",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/filter/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

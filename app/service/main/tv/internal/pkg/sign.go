@@ -9,7 +9,7 @@ import (
 	"sort"
 	"strings"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/google/go-querystring/query"
 )

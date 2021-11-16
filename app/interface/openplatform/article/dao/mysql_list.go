@@ -8,12 +8,12 @@ import (
 	"sync"
 	"time"
 
-	"go-common/app/interface/openplatform/article/model"
-	xsql "go-common/library/database/sql"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
-	xtime "go-common/library/time"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
+	xtime "github.com/namelessup/bilibili/library/time"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 const (

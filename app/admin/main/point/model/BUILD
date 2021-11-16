@@ -12,7 +12,7 @@ go_library(
         "point.go",
         "search.go",
     ],
-    importpath = "go-common/app/admin/main/point/model",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/point/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

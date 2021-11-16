@@ -2,7 +2,7 @@ package manager
 
 import (
 	"context"
-	upgrpc "go-common/app/service/main/up/api/v1"
+	upgrpc "github.com/namelessup/bilibili/app/service/main/up/api/v1"
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"

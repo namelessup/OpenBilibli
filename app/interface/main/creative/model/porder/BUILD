@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["porder.go"],
-    importpath = "go-common/app/interface/main/creative/model/porder",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/creative/model/porder",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

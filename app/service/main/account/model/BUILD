@@ -14,7 +14,7 @@ go_library(
         "passport.go",
         "rpc.go",
     ],
-    importpath = "go-common/app/service/main/account/model",
+    importpath = "github.com/namelessup/bilibili/app/service/main/account/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

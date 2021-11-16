@@ -2,10 +2,10 @@ package service
 
 import (
 	"context"
-	"go-common/app/job/main/videoup-report/dao/data"
-	"go-common/app/job/main/videoup-report/model/archive"
-	"go-common/app/job/main/videoup-report/model/manager"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/videoup-report/dao/data"
+	"github.com/namelessup/bilibili/app/job/main/videoup-report/model/archive"
+	"github.com/namelessup/bilibili/app/job/main/videoup-report/model/manager"
+	"github.com/namelessup/bilibili/library/log"
 	"time"
 )
 

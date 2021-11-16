@@ -14,7 +14,7 @@ go_library(
         "model.go",
     ],
     embed = [":model_go_proto"],
-    importpath = "go-common/app/job/live-userexp/model",
+    importpath = "github.com/namelessup/bilibili/app/job/live-userexp/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [
@@ -48,7 +48,7 @@ proto_library(
 go_proto_library(
     name = "model_go_proto",
     compilers = ["@io_bazel_rules_go//proto:gogofast_proto"],
-    importpath = "go-common/app/job/live-userexp/model",
+    importpath = "github.com/namelessup/bilibili/app/job/live-userexp/model",
     proto = ":model_proto",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],

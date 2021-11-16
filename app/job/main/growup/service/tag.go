@@ -6,9 +6,9 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/job/main/growup/conf"
-	"go-common/app/job/main/growup/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/growup/conf"
+	"github.com/namelessup/bilibili/app/job/main/growup/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // DeleteAvRatio clean the av_charge_ratio

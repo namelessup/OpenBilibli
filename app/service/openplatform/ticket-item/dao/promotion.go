@@ -1,7 +1,7 @@
 package dao
 
 import (
-	"go-common/app/service/openplatform/ticket-item/model"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-item/model"
 	"time"
 )
 

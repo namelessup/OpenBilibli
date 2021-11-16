@@ -2,9 +2,9 @@ package service
 
 import (
 	"context"
-	"go-common/app/admin/main/vip/model"
-	"go-common/library/ecode"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/admin/main/vip/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	xtime "github.com/namelessup/bilibili/library/time"
 	"testing"
 	"time"
 

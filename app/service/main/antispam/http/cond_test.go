@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	"go-common/app/service/main/antispam/http"
+	"github.com/namelessup/bilibili/app/service/main/antispam/http"
 
 	"github.com/stretchr/testify/assert"
 )

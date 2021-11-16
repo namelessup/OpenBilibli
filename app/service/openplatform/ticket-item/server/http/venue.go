@@ -1,9 +1,9 @@
 package http
 
 import (
-	item "go-common/app/service/openplatform/ticket-item/api/grpc/v1"
-	"go-common/app/service/openplatform/ticket-item/model"
-	bm "go-common/library/net/http/blademaster"
+	item "github.com/namelessup/bilibili/app/service/openplatform/ticket-item/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-item/model"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 
 	"github.com/pkg/errors"
 )

@@ -8,9 +8,9 @@ import (
 	"io"
 	"net/http"
 
-	"go-common/app/admin/main/creative/model/bfs"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/creative/model/bfs"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Upload to bfs

@@ -12,7 +12,7 @@ go_library(
         "dao.go",
         "news.go",
     ],
-    importpath = "go-common/app/interface/live/app-interface/dao/room_ex",
+    importpath = "github.com/namelessup/bilibili/app/interface/live/app-interface/dao/room_ex",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

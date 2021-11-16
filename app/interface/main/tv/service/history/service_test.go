@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/interface/main/tv/conf"
+	"github.com/namelessup/bilibili/app/interface/main/tv/conf"
 
 	"context"
 

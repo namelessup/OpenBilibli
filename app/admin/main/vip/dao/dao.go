@@ -4,12 +4,12 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/admin/main/vip/conf"
-	"go-common/library/cache/memcache"
-	"go-common/library/database/orm"
-	xsql "go-common/library/database/sql"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/app/admin/main/vip/conf"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/database/orm"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/stat/prom"
 
 	"github.com/jinzhu/gorm"
 )

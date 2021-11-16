@@ -5,11 +5,11 @@ import (
 	"encoding/json"
 	"net/url"
 
-	"go-common/app/service/openplatform/ticket-sales/api/grpc/v1"
-	"go-common/app/service/openplatform/ticket-sales/model"
-	"go-common/app/service/openplatform/ticket-sales/model/consts"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/model"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/model/consts"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // PayNotify 支付回调通知接口

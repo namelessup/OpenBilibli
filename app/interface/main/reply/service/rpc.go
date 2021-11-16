@@ -3,10 +3,10 @@ package service
 import (
 	"context"
 
-	accmdl "go-common/app/service/main/account/api"
-	feedmdl "go-common/app/service/main/reply-feed/api"
+	accmdl "github.com/namelessup/bilibili/app/service/main/account/api"
+	feedmdl "github.com/namelessup/bilibili/app/service/main/reply-feed/api"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // nextID return next reply id.

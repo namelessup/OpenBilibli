@@ -6,10 +6,10 @@ import (
 
 	"time"
 
-	"go-common/app/admin/main/laser/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/admin/main/laser/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/xstr"
 	"net/url"
 )
 

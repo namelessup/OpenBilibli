@@ -12,7 +12,7 @@ go_library(
         "dao.go",
         "req_http.go",
     ],
-    importpath = "go-common/app/job/main/account-recovery/dao",
+    importpath = "github.com/namelessup/bilibili/app/job/main/account-recovery/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["oplog.go"],
-    importpath = "go-common/app/admin/main/dm/model/oplog",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/dm/model/oplog",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/log:go_default_library"],

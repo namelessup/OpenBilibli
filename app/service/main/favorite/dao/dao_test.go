@@ -2,7 +2,7 @@ package dao
 
 import (
 	"flag"
-	"go-common/app/service/main/favorite/conf"
+	"github.com/namelessup/bilibili/app/service/main/favorite/conf"
 	"os"
 	"testing"
 )

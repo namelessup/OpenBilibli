@@ -1,7 +1,7 @@
 package bfs
 
 import (
-	"go-common/app/interface/main/mcn/conf"
+	"github.com/namelessup/bilibili/app/interface/main/mcn/conf"
 )
 
 // Dao dao

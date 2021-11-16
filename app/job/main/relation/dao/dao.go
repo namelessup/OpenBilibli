@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/job/main/relation/conf"
-	"go-common/library/cache/memcache"
-	"go-common/library/cache/redis"
-	xsql "go-common/library/database/sql"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/job/main/relation/conf"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // Dao struct info of Dao.

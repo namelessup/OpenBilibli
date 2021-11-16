@@ -12,7 +12,7 @@ go_library(
         "stream_forwarding_conf.go",
         "stream_source_station.go",
     ],
-    importpath = "go-common/app/interface/video/portal/server/http",
+    importpath = "github.com/namelessup/bilibili/app/interface/video/portal/server/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

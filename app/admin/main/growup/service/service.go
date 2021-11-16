@@ -3,13 +3,13 @@ package service
 import (
 	"context"
 
-	"go-common/app/admin/main/growup/conf"
-	"go-common/app/admin/main/growup/dao"
-	"go-common/app/admin/main/growup/dao/message"
-	"go-common/app/admin/main/growup/dao/resource"
-	"go-common/app/admin/main/growup/dao/shell"
-	"go-common/app/admin/main/growup/model/offlineactivity"
-	"go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/growup/conf"
+	"github.com/namelessup/bilibili/app/admin/main/growup/dao"
+	"github.com/namelessup/bilibili/app/admin/main/growup/dao/message"
+	"github.com/namelessup/bilibili/app/admin/main/growup/dao/resource"
+	"github.com/namelessup/bilibili/app/admin/main/growup/dao/shell"
+	"github.com/namelessup/bilibili/app/admin/main/growup/model/offlineactivity"
+	"github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // Service struct

@@ -6,8 +6,8 @@ import (
 	"os"
 	"testing"
 
-	"go-common/app/admin/main/credit/conf"
-	_ "go-common/library/database/orm"
+	"github.com/namelessup/bilibili/app/admin/main/credit/conf"
+	_ "github.com/namelessup/bilibili/library/database/orm"
 
 	_ "github.com/jinzhu/gorm"
 	. "github.com/smartystreets/goconvey/convey"

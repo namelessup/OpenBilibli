@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/service/main/figure/conf"
-	figureDao "go-common/app/service/main/figure/dao"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/figure/conf"
+	figureDao "github.com/namelessup/bilibili/app/service/main/figure/dao"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Service biz service def.

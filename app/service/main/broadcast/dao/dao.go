@@ -3,9 +3,9 @@ package dao
 import (
 	"context"
 
-	"go-common/library/cache/redis"
-	"go-common/library/conf/paladin"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/conf/paladin"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 // Dao dao.

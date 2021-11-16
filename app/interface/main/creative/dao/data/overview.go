@@ -5,9 +5,9 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/interface/main/creative/model/data"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/data"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/tsuna/gohbase/hrpc"
 	"golang.org/x/net/context"

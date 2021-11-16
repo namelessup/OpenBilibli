@@ -5,7 +5,7 @@ import (
 	"net/url"
 	"testing"
 
-	"go-common/app/interface/main/web-goblin/model/web"
+	"github.com/namelessup/bilibili/app/interface/main/web-goblin/model/web"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/app/admin/main/relation/model"
-	relationPB "go-common/app/service/main/relation/api"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/admin/main/relation/model"
+	relationPB "github.com/namelessup/bilibili/app/service/main/relation/api"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 const (

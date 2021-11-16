@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 
-	"go-common/app/interface/openplatform/article/dao"
-	coin "go-common/app/service/main/coin/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/openplatform/article/dao"
+	coin "github.com/namelessup/bilibili/app/service/main/coin/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Coin get user coin number

@@ -38,7 +38,7 @@ go_library(
         "sms.go",
         "vip.go",
     ],
-    importpath = "go-common/app/interface/main/account/dao/account",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/account/dao/account",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

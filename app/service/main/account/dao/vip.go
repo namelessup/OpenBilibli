@@ -4,10 +4,10 @@ import (
 	"context"
 	"net/url"
 
-	v1 "go-common/app/service/main/account/api"
-	"go-common/library/ecode"
-	"go-common/library/net/metadata"
-	"go-common/library/xstr"
+	v1 "github.com/namelessup/bilibili/app/service/main/account/api"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/xstr"
 
 	"github.com/pkg/errors"
 )

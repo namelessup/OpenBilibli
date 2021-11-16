@@ -2,13 +2,13 @@ package newbie
 
 import (
 	"context"
-	"go-common/app/interface/main/growup/conf"
-	"go-common/app/interface/main/growup/dao/newbiedao"
-	"go-common/app/interface/main/growup/model"
-	accApi "go-common/app/service/main/account/api"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup.v2"
+	"github.com/namelessup/bilibili/app/interface/main/growup/conf"
+	"github.com/namelessup/bilibili/app/interface/main/growup/dao/newbiedao"
+	"github.com/namelessup/bilibili/app/interface/main/growup/model"
+	accApi "github.com/namelessup/bilibili/app/service/main/account/api"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup.v2"
 
 	"strconv"
 	"time"

@@ -7,11 +7,11 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/app/interface/main/push-archive/conf"
-	"go-common/app/interface/main/push-archive/http"
-	"go-common/app/interface/main/push-archive/service"
-	"go-common/library/log"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/app/interface/main/push-archive/conf"
+	"github.com/namelessup/bilibili/app/interface/main/push-archive/http"
+	"github.com/namelessup/bilibili/app/interface/main/push-archive/service"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
 )
 
 func main() {

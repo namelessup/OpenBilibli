@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/library/cache/redis"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

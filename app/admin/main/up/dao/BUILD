@@ -27,8 +27,8 @@ go_library(
         "upload.go",
         "utils.go",
     ],
-    importmap = "go-common/app/admin/main/up/dao",
-    importpath = "go-common/app/admin/main/up/dao",
+    importmap = "github.com/namelessup/bilibili/app/admin/main/up/dao",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/up/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

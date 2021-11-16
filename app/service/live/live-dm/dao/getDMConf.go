@@ -3,13 +3,13 @@ package dao
 import (
 	"context"
 
-	activityService "go-common/app/service/live/activity/api/liverpc/v1"
-	rankdbService "go-common/app/service/live/rankdb/api/liverpc/v1"
-	rcService "go-common/app/service/live/rc/api/liverpc/v1"
-	roomService "go-common/app/service/live/room/api/liverpc/v2"
-	userextService "go-common/app/service/live/userext/api/liverpc/v1"
-	acctountService "go-common/app/service/main/account/api"
-	"go-common/library/log"
+	activityService "github.com/namelessup/bilibili/app/service/live/activity/api/liverpc/v1"
+	rankdbService "github.com/namelessup/bilibili/app/service/live/rankdb/api/liverpc/v1"
+	rcService "github.com/namelessup/bilibili/app/service/live/rc/api/liverpc/v1"
+	roomService "github.com/namelessup/bilibili/app/service/live/room/api/liverpc/v2"
+	userextService "github.com/namelessup/bilibili/app/service/live/userext/api/liverpc/v1"
+	acctountService "github.com/namelessup/bilibili/app/service/main/account/api"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/pkg/errors"
 )

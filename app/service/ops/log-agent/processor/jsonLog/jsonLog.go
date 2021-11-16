@@ -5,10 +5,10 @@ import (
 	"strconv"
 	"context"
 
-	"go-common/app/service/ops/log-agent/event"
-	"go-common/app/service/ops/log-agent/processor"
-	"go-common/app/service/ops/log-agent/pkg/common"
-	"go-common/app/service/ops/log-agent/pkg/flowmonitor"
+	"github.com/namelessup/bilibili/app/service/ops/log-agent/event"
+	"github.com/namelessup/bilibili/app/service/ops/log-agent/processor"
+	"github.com/namelessup/bilibili/app/service/ops/log-agent/pkg/common"
+	"github.com/namelessup/bilibili/app/service/ops/log-agent/pkg/flowmonitor"
 )
 
 const (

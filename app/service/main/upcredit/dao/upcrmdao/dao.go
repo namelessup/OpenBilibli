@@ -2,12 +2,12 @@ package upcrmdao
 
 import (
 	"github.com/jinzhu/gorm"
-	"go-common/app/service/main/upcredit/conf"
+	"github.com/namelessup/bilibili/app/service/main/upcredit/conf"
 
 	"context"
 	"fmt"
-	"go-common/app/service/main/upcredit/model/upcrmmodel"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/upcredit/model/upcrmmodel"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 //Dao upcrm dao

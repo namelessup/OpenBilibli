@@ -5,12 +5,12 @@ import (
 	"path"
 	"time"
 
-	accoutCli "go-common/app/service/main/account/api"
-	"go-common/app/service/main/location/conf"
-	"go-common/app/service/main/location/dao"
-	"go-common/app/service/main/location/model"
-	"go-common/library/log"
-	"go-common/library/stat/prom"
+	accoutCli "github.com/namelessup/bilibili/app/service/main/account/api"
+	"github.com/namelessup/bilibili/app/service/main/location/conf"
+	"github.com/namelessup/bilibili/app/service/main/location/dao"
+	"github.com/namelessup/bilibili/app/service/main/location/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/stat/prom"
 
 	ipdb "github.com/ipipdotnet/ipdb-go"
 	maxminddb "github.com/oschwald/maxminddb-golang"

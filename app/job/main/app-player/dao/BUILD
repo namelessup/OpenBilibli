@@ -29,7 +29,7 @@ go_library(
         "memcache.go",
         "redis.go",
     ],
-    importpath = "go-common/app/job/main/app-player/dao",
+    importpath = "github.com/namelessup/bilibili/app/job/main/app-player/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -4,11 +4,11 @@ import (
 	"context"
 	"sync"
 
-	"go-common/app/job/main/usersuit/conf"
-	medalDao "go-common/app/job/main/usersuit/dao/medal"
-	pendantDao "go-common/app/job/main/usersuit/dao/pendant"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/job/main/usersuit/conf"
+	medalDao "github.com/namelessup/bilibili/app/job/main/usersuit/dao/medal"
+	pendantDao "github.com/namelessup/bilibili/app/job/main/usersuit/dao/pendant"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
 
 	"github.com/robfig/cron"
 )

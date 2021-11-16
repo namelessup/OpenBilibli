@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"go-common/app/service/openplatform/ticket-item/conf"
-	"go-common/app/service/openplatform/ticket-item/dao"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-item/conf"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-item/dao"
 
 	validator "gopkg.in/go-playground/validator.v9"
 )

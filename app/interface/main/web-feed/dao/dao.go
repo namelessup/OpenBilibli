@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/interface/main/web-feed/conf"
-	"go-common/library/cache/memcache"
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/app/interface/main/web-feed/conf"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/stat/prom"
 )
 
 // Dao .

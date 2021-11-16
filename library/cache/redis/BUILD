@@ -36,7 +36,7 @@ go_library(
         "script.go",
         "trace.go",
     ],
-    importpath = "go-common/library/cache/redis",
+    importpath = "github.com/namelessup/bilibili/library/cache/redis",
     tags = ["automanaged"],
     deps = [
         "//library/container/pool:go_default_library",

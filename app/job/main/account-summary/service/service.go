@@ -3,10 +3,10 @@ package service
 import (
 	"context"
 
-	"go-common/app/job/main/account-summary/conf"
-	"go-common/app/job/main/account-summary/dao"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/job/main/account-summary/conf"
+	"github.com/namelessup/bilibili/app/job/main/account-summary/dao"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 // Service struct

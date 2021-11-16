@@ -8,11 +8,11 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/app/admin/ep/saga/conf"
-	"go-common/app/admin/ep/saga/http"
-	"go-common/app/admin/ep/saga/server/grpc"
-	"go-common/app/admin/ep/saga/service"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/ep/saga/conf"
+	"github.com/namelessup/bilibili/app/admin/ep/saga/http"
+	"github.com/namelessup/bilibili/app/admin/ep/saga/server/grpc"
+	"github.com/namelessup/bilibili/app/admin/ep/saga/service"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

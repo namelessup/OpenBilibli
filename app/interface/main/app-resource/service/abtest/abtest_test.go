@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/interface/main/app-resource/conf"
-	"go-common/app/service/main/resource/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-resource/conf"
+	"github.com/namelessup/bilibili/app/service/main/resource/model"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["jsonpb.go"],
-    importpath = "go-common/app/tool/protoc-gen-bm/jsonpb",
+    importpath = "github.com/namelessup/bilibili/app/tool/protoc-gen-bm/jsonpb",
     tags = ["manual"],
     visibility = ["//visibility:public"],
     deps = [

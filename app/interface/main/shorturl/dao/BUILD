@@ -30,7 +30,7 @@ go_library(
         "shorturl.go",
         "shorturl_cache.go",
     ],
-    importpath = "go-common/app/interface/main/shorturl/dao",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/shorturl/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -4,14 +4,14 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"go-common/app/admin/main/videoup/model/utils"
-	"go-common/library/sync/errgroup"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/admin/main/videoup/model/utils"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
+	"github.com/namelessup/bilibili/library/xstr"
 	"time"
 
-	"go-common/app/admin/main/videoup/model/archive"
-	accApi "go-common/app/service/main/account/api"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/videoup/model/archive"
+	accApi "github.com/namelessup/bilibili/app/service/main/account/api"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // weightConf 所有激活的配置项

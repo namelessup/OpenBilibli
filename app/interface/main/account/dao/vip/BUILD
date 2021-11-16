@@ -49,7 +49,7 @@ go_library(
         "oauth2_api.go",
         "oauth2_client.go",
     ],
-    importpath = "go-common/app/interface/main/account/dao/vip",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/account/dao/vip",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

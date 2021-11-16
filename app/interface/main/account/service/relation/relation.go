@@ -8,17 +8,17 @@ import (
 	"strconv"
 	"sync"
 
-	"go-common/app/interface/main/account/conf"
-	"go-common/app/interface/main/account/dao/relation"
-	"go-common/app/interface/main/account/model"
-	acml "go-common/app/service/main/account/model"
-	account "go-common/app/service/main/account/rpc/client"
-	archive "go-common/app/service/main/archive/api/gorpc"
-	mrl "go-common/app/service/main/relation/model"
-	rlrpc "go-common/app/service/main/relation/rpc/client"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/main/account/conf"
+	"github.com/namelessup/bilibili/app/interface/main/account/dao/relation"
+	"github.com/namelessup/bilibili/app/interface/main/account/model"
+	acml "github.com/namelessup/bilibili/app/service/main/account/model"
+	account "github.com/namelessup/bilibili/app/service/main/account/rpc/client"
+	archive "github.com/namelessup/bilibili/app/service/main/archive/api/gorpc"
+	mrl "github.com/namelessup/bilibili/app/service/main/relation/model"
+	rlrpc "github.com/namelessup/bilibili/app/service/main/relation/rpc/client"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 var (

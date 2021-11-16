@@ -3,7 +3,7 @@ package service
 import (
 	"testing"
 
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/library/queue/databus"
 
 	"github.com/smartystreets/goconvey/convey"
 )

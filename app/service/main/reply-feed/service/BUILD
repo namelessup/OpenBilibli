@@ -12,7 +12,7 @@ go_library(
         "reply.go",
         "service.go",
     ],
-    importpath = "go-common/app/service/main/reply-feed/service",
+    importpath = "github.com/namelessup/bilibili/app/service/main/reply-feed/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

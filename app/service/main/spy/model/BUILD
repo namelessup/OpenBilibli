@@ -26,7 +26,7 @@ go_library(
         "user_event_history.go",
         "user_info.go",
     ],
-    importpath = "go-common/app/service/main/spy/model",
+    importpath = "github.com/namelessup/bilibili/app/service/main/spy/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

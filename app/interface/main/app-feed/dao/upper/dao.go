@@ -4,13 +4,13 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/interface/main/app-feed/conf"
-	article "go-common/app/interface/openplatform/article/model"
-	feed "go-common/app/service/main/feed/model"
-	feedrpc "go-common/app/service/main/feed/rpc/client"
-	"go-common/library/cache/redis"
-	"go-common/library/ecode"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/main/app-feed/conf"
+	article "github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	feed "github.com/namelessup/bilibili/app/service/main/feed/model"
+	feedrpc "github.com/namelessup/bilibili/app/service/main/feed/rpc/client"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/net/metadata"
 
 	"github.com/pkg/errors"
 )

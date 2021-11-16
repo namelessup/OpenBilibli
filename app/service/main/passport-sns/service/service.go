@@ -3,13 +3,13 @@ package service
 import (
 	"context"
 
-	"go-common/app/service/main/passport-sns/conf"
-	"go-common/app/service/main/passport-sns/dao"
-	"go-common/app/service/main/passport-sns/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
-	"go-common/library/sync/pipeline/fanout"
+	"github.com/namelessup/bilibili/app/service/main/passport-sns/conf"
+	"github.com/namelessup/bilibili/app/service/main/passport-sns/dao"
+	"github.com/namelessup/bilibili/app/service/main/passport-sns/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
+	"github.com/namelessup/bilibili/library/sync/pipeline/fanout"
 )
 
 // Service struct of service

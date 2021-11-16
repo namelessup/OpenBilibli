@@ -9,8 +9,8 @@ import (
 	"time"
 	"context"
 
-	"go-common/library/log"
-	"go-common/app/service/ops/log-agent/pipeline"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/app/service/ops/log-agent/pipeline"
 )
 
 type HostLogCollector struct {

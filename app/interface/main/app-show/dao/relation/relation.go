@@ -3,10 +3,10 @@ package relation
 import (
 	"context"
 
-	"go-common/app/interface/main/app-show/conf"
-	relation "go-common/app/service/main/relation/model"
-	relrpc "go-common/app/service/main/relation/rpc/client"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/conf"
+	relation "github.com/namelessup/bilibili/app/service/main/relation/model"
+	relrpc "github.com/namelessup/bilibili/app/service/main/relation/rpc/client"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Dao is rpc dao.

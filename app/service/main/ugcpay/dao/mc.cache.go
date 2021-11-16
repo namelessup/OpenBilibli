@@ -4,11 +4,11 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/app/service/main/ugcpay/conf"
-	"go-common/app/service/main/ugcpay/model"
-	"go-common/library/cache/memcache"
-	"go-common/library/log"
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/app/service/main/ugcpay/conf"
+	"github.com/namelessup/bilibili/app/service/main/ugcpay/model"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/stat/prom"
 )
 
 var _ _mc

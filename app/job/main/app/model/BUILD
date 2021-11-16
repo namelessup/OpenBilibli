@@ -13,7 +13,7 @@ go_library(
         "model.go",
         "retry.go",
     ],
-    importpath = "go-common/app/job/main/app/model",
+    importpath = "github.com/namelessup/bilibili/app/job/main/app/model",
     tags = ["automanaged"],
     deps = [
         "//app/job/main/app/model/space:go_default_library",

@@ -9,11 +9,11 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/interface/main/app-view/conf"
-	"go-common/app/interface/main/app-view/model"
-	"go-common/app/interface/main/app-view/model/game"
-	"go-common/library/ecode"
-	httpx "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/interface/main/app-view/conf"
+	"github.com/namelessup/bilibili/app/interface/main/app-view/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-view/model/game"
+	"github.com/namelessup/bilibili/library/ecode"
+	httpx "github.com/namelessup/bilibili/library/net/http/blademaster"
 
 	"github.com/pkg/errors"
 )

@@ -2,9 +2,9 @@ package migrate
 
 import (
 	"context"
-	"go-common/app/job/live/push-search/conf"
-	"go-common/library/database/hbase.v2"
-	"go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/job/live/push-search/conf"
+	"github.com/namelessup/bilibili/library/database/hbase.v2"
+	"github.com/namelessup/bilibili/library/database/sql"
 )
 
 // Dao dao

@@ -1,6 +1,6 @@
 package model
 
-import "go-common/library/time"
+import "github.com/namelessup/bilibili/library/time"
 
 // TableName is used to identify table name in gorm
 func (cf *SundryConfig) TableName() string {

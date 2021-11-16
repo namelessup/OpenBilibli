@@ -1,9 +1,9 @@
 package http
 
 import (
-	"go-common/app/admin/main/videoup-task/model"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/videoup-task/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 	"strconv"
 )
 

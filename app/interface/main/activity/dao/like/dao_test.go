@@ -2,7 +2,7 @@ package like
 
 import (
 	"flag"
-	"go-common/app/interface/main/activity/conf"
+	"github.com/namelessup/bilibili/app/interface/main/activity/conf"
 	"os"
 	"testing"
 )

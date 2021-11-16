@@ -5,8 +5,8 @@ import (
 	"database/sql"
 	"fmt"
 
-	"go-common/app/admin/main/answer/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/answer/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/url"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

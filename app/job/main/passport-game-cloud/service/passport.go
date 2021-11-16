@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"time"
 
-	"go-common/app/job/main/passport-game-cloud/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/passport-game-cloud/model"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/go-sql-driver/mysql"
 	"github.com/pkg/errors"

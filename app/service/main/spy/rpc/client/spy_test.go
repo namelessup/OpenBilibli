@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	model "go-common/app/service/main/spy/model"
+	model "github.com/namelessup/bilibili/app/service/main/spy/model"
 )
 
 func TestSpy(t *testing.T) {

@@ -5,9 +5,9 @@ import (
 	"net/url"
 	"testing"
 
-	"go-common/app/admin/main/workflow/model"
-	"go-common/app/admin/main/workflow/model/param"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/admin/main/workflow/model"
+	"github.com/namelessup/bilibili/app/admin/main/workflow/model/param"
+	"github.com/namelessup/bilibili/library/ecode"
 
 	"github.com/smartystreets/goconvey/convey"
 )

@@ -5,11 +5,11 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/job/main/stat/model"
-	"go-common/app/service/main/archive/api"
-	"go-common/app/service/main/archive/model/archive"
-	"go-common/library/cache/memcache"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/stat/model"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

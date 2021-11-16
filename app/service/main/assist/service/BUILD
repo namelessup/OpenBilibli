@@ -29,7 +29,7 @@ go_library(
         "relation.go",
         "service.go",
     ],
-    importpath = "go-common/app/service/main/assist/service",
+    importpath = "github.com/namelessup/bilibili/app/service/main/assist/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

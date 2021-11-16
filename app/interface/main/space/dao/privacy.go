@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/app/interface/main/space/model"
-	"go-common/library/cache/memcache"
-	xsql "go-common/library/database/sql"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/space/model"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

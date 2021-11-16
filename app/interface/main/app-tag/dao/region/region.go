@@ -3,10 +3,10 @@ package region
 import (
 	"context"
 
-	"go-common/app/interface/main/app-tag/conf"
-	"go-common/app/interface/main/app-tag/model/region"
-	"go-common/library/database/sql"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/app-tag/conf"
+	"github.com/namelessup/bilibili/app/interface/main/app-tag/model/region"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

@@ -11,7 +11,7 @@ go_library(
         "conf.go",
         "flowmonitor.go",
     ],
-    importpath = "go-common/app/service/ops/log-agent/pkg/flowmonitor",
+    importpath = "github.com/namelessup/bilibili/app/service/ops/log-agent/pkg/flowmonitor",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

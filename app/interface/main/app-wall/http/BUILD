@@ -18,7 +18,7 @@ go_library(
         "unicom.go",
         "wall.go",
     ],
-    importpath = "go-common/app/interface/main/app-wall/http",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-wall/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

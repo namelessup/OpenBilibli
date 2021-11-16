@@ -6,11 +6,11 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/interface/main/app-show/model"
-	"go-common/app/interface/main/app-show/model/card"
-	"go-common/app/interface/main/app-show/model/feed"
-	"go-common/app/service/main/archive/api"
-	"go-common/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/model/card"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/model/feed"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/app/service/main/archive/model/archive"
 )
 
 var (

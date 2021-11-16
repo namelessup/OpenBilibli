@@ -1,7 +1,7 @@
 package oplog
 
 import (
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Infoc operation log for administrator

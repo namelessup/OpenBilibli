@@ -2,11 +2,11 @@ package service
 
 import (
 	"errors"
-	v1pb "go-common/app/service/live/broadcast-proxy/api/v1"
-	"go-common/app/service/live/broadcast-proxy/server"
-	v1srv "go-common/app/service/live/broadcast-proxy/service/v1"
-	"go-common/library/net/rpc/warden"
-	xtime "go-common/library/time"
+	v1pb "github.com/namelessup/bilibili/app/service/live/broadcast-proxy/api/v1"
+	"github.com/namelessup/bilibili/app/service/live/broadcast-proxy/server"
+	v1srv "github.com/namelessup/bilibili/app/service/live/broadcast-proxy/service/v1"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
+	xtime "github.com/namelessup/bilibili/library/time"
 	"google.golang.org/grpc"
 	"time"
 )

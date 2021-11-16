@@ -3,8 +3,8 @@ package newbie
 import (
 	"context"
 
-	"go-common/app/interface/main/growup/conf"
-	"go-common/app/interface/main/growup/dao/newbiedao"
+	"github.com/namelessup/bilibili/app/interface/main/growup/conf"
+	"github.com/namelessup/bilibili/app/interface/main/growup/dao/newbiedao"
 )
 
 // Service is growup service

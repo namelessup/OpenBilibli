@@ -14,7 +14,7 @@ go_library(
         "promotion_order.go",
         "settle.go",
     ],
-    importpath = "go-common/app/service/openplatform/ticket-sales/server/http",
+    importpath = "github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/server/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

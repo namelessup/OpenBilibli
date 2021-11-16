@@ -1,7 +1,7 @@
 # This is a TOML document. Boom
 
 env = "uat"
-sourcePath = "/Users/caocao/Code/go/src/go-common/app/admin/openplatform/sug/source/"
+sourcePath = "/Users/caocao/Code/go/src/github.com/namelessup/bilibili/app/admin/openplatform/sug/source/"
 
 [url]
 itemSearch = "http://fat1-mall.bilibili.co/mall-items/items/itemsListByQuery"

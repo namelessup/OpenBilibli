@@ -4,7 +4,7 @@ import (
 	"math/rand"
 	"time"
 
-	"go-common/app/interface/bbq/app-bbq/model"
+	"github.com/namelessup/bilibili/app/interface/bbq/app-bbq/model"
 )
 
 // GetRandVideoList .

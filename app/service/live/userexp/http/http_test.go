@@ -9,10 +9,10 @@ import (
 	"sync"
 	"testing"
 
-	"go-common/app/service/live/userexp/conf"
-	"go-common/app/service/live/userexp/model"
-	"go-common/app/service/live/userexp/service"
-	httpx "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/service/live/userexp/conf"
+	"github.com/namelessup/bilibili/app/service/live/userexp/model"
+	"github.com/namelessup/bilibili/app/service/live/userexp/service"
+	httpx "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 const (

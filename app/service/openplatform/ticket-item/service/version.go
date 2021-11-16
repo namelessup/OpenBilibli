@@ -3,7 +3,7 @@ package service
 import (
 	"context"
 
-	"go-common/app/service/openplatform/ticket-item/model"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-item/model"
 )
 
 // VersionSearch 项目版本查询

@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"net/url"
 
-	"go-common/app/interface/main/dm2/model"
-	"go-common/library/ecode"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/main/dm2/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/net/metadata"
 
 	"github.com/pkg/errors"
 )

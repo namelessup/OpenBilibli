@@ -5,9 +5,9 @@ import (
 	"encoding/json"
 	"sort"
 
-	"go-common/app/admin/ep/saga/model"
-	"go-common/app/admin/ep/saga/service/utils"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/ep/saga/model"
+	"github.com/namelessup/bilibili/app/admin/ep/saga/service/utils"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/xanzy/go-gitlab"
 )

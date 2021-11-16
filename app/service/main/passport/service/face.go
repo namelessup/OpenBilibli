@@ -3,7 +3,7 @@ package service
 import (
 	"context"
 
-	"go-common/app/service/main/passport/model"
+	"github.com/namelessup/bilibili/app/service/main/passport/model"
 )
 
 var (

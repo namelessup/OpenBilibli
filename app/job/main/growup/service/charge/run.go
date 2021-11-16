@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"time"
 
-	model "go-common/app/job/main/growup/model/charge"
-	task "go-common/app/job/main/growup/service"
+	model "github.com/namelessup/bilibili/app/job/main/growup/model/charge"
+	task "github.com/namelessup/bilibili/app/job/main/growup/service"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 	"golang.org/x/sync/errgroup"
 )
 

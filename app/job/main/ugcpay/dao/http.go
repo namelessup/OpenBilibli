@@ -7,10 +7,10 @@ import (
 	"net/http"
 	"strings"
 
-	"go-common/app/job/main/ugcpay/conf"
-	"go-common/app/job/main/ugcpay/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/ugcpay/conf"
+	"github.com/namelessup/bilibili/app/job/main/ugcpay/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/pkg/errors"
 )

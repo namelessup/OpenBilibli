@@ -27,7 +27,7 @@ go_library(
         "db.go",
         "zlimit.go",
     ],
-    importpath = "go-common/app/service/main/location/zlimit",
+    importpath = "github.com/namelessup/bilibili/app/service/main/location/zlimit",
     tags = ["automanaged"],
     deps = [
         "//app/service/main/location/model:go_default_library",

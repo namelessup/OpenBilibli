@@ -1,6 +1,6 @@
 package archive
 
-import "go-common/library/time"
+import "github.com/namelessup/bilibili/library/time"
 
 //ArcHistory 稿件的用户编辑历史
 type ArcHistory struct {

@@ -8,15 +8,15 @@ import (
 	"strings"
 	"time"
 
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/library/ecode"
 
-	"go-common/app/service/main/dapper-query/api/v1"
-	"go-common/app/service/main/dapper-query/conf"
-	"go-common/app/service/main/dapper-query/dao"
-	"go-common/app/service/main/dapper-query/model"
-	"go-common/app/service/main/dapper-query/pkg/cltclient"
-	"go-common/app/service/main/dapper-query/service/opslog"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/dapper-query/api/v1"
+	"github.com/namelessup/bilibili/app/service/main/dapper-query/conf"
+	"github.com/namelessup/bilibili/app/service/main/dapper-query/dao"
+	"github.com/namelessup/bilibili/app/service/main/dapper-query/model"
+	"github.com/namelessup/bilibili/app/service/main/dapper-query/pkg/cltclient"
+	"github.com/namelessup/bilibili/app/service/main/dapper-query/service/opslog"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

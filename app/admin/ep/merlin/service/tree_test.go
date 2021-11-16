@@ -3,7 +3,7 @@ package service
 import (
 	"testing"
 
-	"go-common/app/admin/ep/merlin/model"
+	"github.com/namelessup/bilibili/app/admin/ep/merlin/model"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

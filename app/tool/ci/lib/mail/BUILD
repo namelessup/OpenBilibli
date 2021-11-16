@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["sendmail.go"],
-    importpath = "go-common/app/tool/ci/lib/mail",
+    importpath = "github.com/namelessup/bilibili/app/tool/ci/lib/mail",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

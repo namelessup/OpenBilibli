@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	tmod "go-common/app/job/main/videoup-report/model/task"
+	tmod "github.com/namelessup/bilibili/app/job/main/videoup-report/model/task"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

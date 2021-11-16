@@ -11,7 +11,7 @@ go_library(
         "code_msg.go",
         "ecode.go",
     ],
-    importpath = "go-common/app/admin/main/apm/model/ecode",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/apm/model/ecode",
     tags = ["automanaged"],
     deps = ["//library/time:go_default_library"],
 )

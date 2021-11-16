@@ -7,8 +7,8 @@ import (
 	"math/rand"
 	"testing"
 
-	"go-common/app/service/openplatform/abtest/conf"
-	"go-common/library/cache/redis"
+	"github.com/namelessup/bilibili/app/service/openplatform/abtest/conf"
+	"github.com/namelessup/bilibili/library/cache/redis"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

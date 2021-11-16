@@ -2,8 +2,8 @@ package wechat
 
 import (
 	"context"
-	"go-common/app/admin/ep/saga/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/ep/saga/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Changes changes structure

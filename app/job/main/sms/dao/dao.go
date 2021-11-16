@@ -3,9 +3,9 @@ package dao
 import (
 	"context"
 
-	"go-common/app/job/main/sms/conf"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/app/job/main/sms/conf"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/stat/prom"
 )
 
 // Dao struct info of Dao.

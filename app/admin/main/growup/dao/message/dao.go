@@ -1,8 +1,8 @@
 package message
 
 import (
-	"go-common/app/admin/main/growup/conf"
-	xhttp "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/growup/conf"
+	xhttp "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // Dao is message dao

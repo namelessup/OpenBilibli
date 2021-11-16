@@ -8,12 +8,12 @@ import (
 	"net/http"
 	"time"
 
-	iModel "go-common/app/interface/main/broadcast/model"
-	pb "go-common/app/service/main/broadcast/api/grpc/v1"
-	"go-common/app/service/main/broadcast/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/http/blademaster/render"
+	iModel "github.com/namelessup/bilibili/app/interface/main/broadcast/model"
+	pb "github.com/namelessup/bilibili/app/service/main/broadcast/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/main/broadcast/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/render"
 
 	"github.com/gogo/protobuf/proto"
 	"github.com/gogo/protobuf/types"

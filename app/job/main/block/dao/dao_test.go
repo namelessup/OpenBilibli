@@ -5,8 +5,8 @@ import (
 	"flag"
 	"testing"
 
-	"go-common/app/job/main/block/conf"
-	"go-common/app/job/main/block/model"
+	"github.com/namelessup/bilibili/app/job/main/block/conf"
+	"github.com/namelessup/bilibili/app/job/main/block/model"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

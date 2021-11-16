@@ -11,7 +11,7 @@ go_library(
         "discovery.go",
         "http.go",
     ],
-    importpath = "go-common/app/infra/discovery/http",
+    importpath = "github.com/namelessup/bilibili/app/infra/discovery/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

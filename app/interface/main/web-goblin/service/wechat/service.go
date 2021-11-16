@@ -1,8 +1,8 @@
 package wechat
 
 import (
-	"go-common/app/interface/main/web-goblin/conf"
-	"go-common/app/interface/main/web-goblin/dao/wechat"
+	"github.com/namelessup/bilibili/app/interface/main/web-goblin/conf"
+	"github.com/namelessup/bilibili/app/interface/main/web-goblin/dao/wechat"
 )
 
 // Service struct .

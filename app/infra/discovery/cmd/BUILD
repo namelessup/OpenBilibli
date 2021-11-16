@@ -22,7 +22,7 @@ go_library(
         "discovery-idc2-1.toml",
         "discovery-idc2-2.toml",
     ],
-    importpath = "go-common/app/infra/discovery/cmd",
+    importpath = "github.com/namelessup/bilibili/app/infra/discovery/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

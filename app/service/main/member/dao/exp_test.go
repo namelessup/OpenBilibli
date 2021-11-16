@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"go-common/app/service/main/member/model"
+	"github.com/namelessup/bilibili/app/service/main/member/model"
 
 	"github.com/smartystreets/goconvey/convey"
 	"gopkg.in/h2non/gock.v1"

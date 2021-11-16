@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"go-common/app/infra/canal/conf"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/infra/canal/conf"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (ins *tidbInstance) proc(ch chan *msg) {

@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"path"
 
-	"go-common/app/admin/main/bfs/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/bfs/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Racks get rack infos.

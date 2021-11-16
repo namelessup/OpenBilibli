@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"
-	"go-common/app/admin/main/apm/model/need"
+	"github.com/namelessup/bilibili/app/admin/main/apm/model/need"
 )
 
 var (

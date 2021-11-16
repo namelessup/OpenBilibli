@@ -2,9 +2,9 @@ package service
 
 import (
 	"context"
-	"go-common/app/service/live/wallet/model"
-	mc "go-common/library/cache/memcache"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/service/live/wallet/model"
+	mc "github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 // DelCacheHandler del cache handler

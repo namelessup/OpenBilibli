@@ -5,14 +5,14 @@ import (
 	"fmt"
 	"time"
 
-	"go-common/app/admin/main/tag/conf"
-	"go-common/app/admin/main/tag/model"
-	accwarden "go-common/app/service/main/account/api"
-	"go-common/library/cache/memcache"
-	"go-common/library/cache/redis"
-	"go-common/library/database/elastic"
-	"go-common/library/database/sql"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/tag/conf"
+	"github.com/namelessup/bilibili/app/admin/main/tag/model"
+	accwarden "github.com/namelessup/bilibili/app/service/main/account/api"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/database/elastic"
+	"github.com/namelessup/bilibili/library/database/sql"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 const (

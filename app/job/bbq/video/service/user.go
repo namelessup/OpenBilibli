@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 	"fmt"
-	video "go-common/app/service/bbq/video/api/grpc/v1"
-	"go-common/library/log"
+	video "github.com/namelessup/bilibili/app/service/bbq/video/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/log"
 	"os"
 	"time"
 )

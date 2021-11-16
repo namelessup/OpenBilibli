@@ -19,7 +19,7 @@ go_library(
         "relation.pbg.go",
     ],
     embed = [":v1_go_proto"],
-    importpath = "go-common/app/interface/live/app-interface/api/http/v1",
+    importpath = "github.com/namelessup/bilibili/app/interface/live/app-interface/api/http/v1",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [
@@ -57,7 +57,7 @@ proto_library(
 go_proto_library(
     name = "v1_go_proto",
     compilers = ["@io_bazel_rules_go//proto:gogofast_grpc"],
-    importpath = "go-common/app/interface/live/app-interface/api/http/v1",
+    importpath = "github.com/namelessup/bilibili/app/interface/live/app-interface/api/http/v1",
     proto = ":v1_proto",
     tags = ["automanaged"],
     deps = ["@com_github_gogo_protobuf//gogoproto:go_default_library"],

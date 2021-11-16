@@ -1,9 +1,9 @@
 package http
 
 import (
-	"go-common/app/interface/main/activity/model/sports"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/interface/main/activity/model/sports"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func qq(c *bm.Context) {

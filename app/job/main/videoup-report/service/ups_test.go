@@ -2,7 +2,7 @@ package service
 
 import (
 	. "github.com/smartystreets/goconvey/convey"
-	"go-common/app/job/main/videoup-report/model/manager"
+	"github.com/namelessup/bilibili/app/job/main/videoup-report/model/manager"
 	"testing"
 )
 

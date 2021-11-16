@@ -2,7 +2,7 @@ package dao
 
 import (
 	"flag"
-	"go-common/app/interface/live/push-live/conf"
+	"github.com/namelessup/bilibili/app/interface/live/push-live/conf"
 	"path/filepath"
 )
 

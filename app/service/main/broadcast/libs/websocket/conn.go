@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io"
 
-	"go-common/app/service/main/broadcast/libs/bufio"
+	"github.com/namelessup/bilibili/app/service/main/broadcast/libs/bufio"
 )
 
 const (

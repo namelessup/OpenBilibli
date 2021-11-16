@@ -1,9 +1,9 @@
 package pgc
 
 import (
-	"go-common/app/interface/main/tv/conf"
-	"go-common/library/cache/memcache"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/interface/main/tv/conf"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // Dao is account dao.

@@ -1,9 +1,9 @@
 package search
 
 import (
-	"go-common/app/interface/main/creative/model/archive"
-	"go-common/app/interface/main/creative/model/music"
-	"go-common/app/interface/main/creative/model/reply"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/archive"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/music"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/reply"
 )
 
 const (

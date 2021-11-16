@@ -2,7 +2,7 @@ package service
 
 import (
 	"flag"
-	"go-common/app/service/main/tv/internal/conf"
+	"github.com/namelessup/bilibili/app/service/main/tv/internal/conf"
 	"os"
 	"testing"
 )

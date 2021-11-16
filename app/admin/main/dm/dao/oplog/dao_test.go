@@ -3,8 +3,8 @@ package oplog
 import (
 	"testing"
 
-	"go-common/app/admin/main/dm/conf"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/dm/conf"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 var (

@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/service/main/ugcpay-rank/internal/conf"
-	"go-common/app/service/main/ugcpay-rank/internal/model"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/service/main/ugcpay-rank/internal/conf"
+	"github.com/namelessup/bilibili/app/service/main/ugcpay-rank/internal/model"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	"github.com/smartystreets/goconvey/convey"
 )

@@ -1,7 +1,7 @@
 package external
 
 import (
-	"go-common/app/interface/main/app-feed/conf"
+	"github.com/namelessup/bilibili/app/interface/main/app-feed/conf"
 	"reflect"
 	"testing"
 )

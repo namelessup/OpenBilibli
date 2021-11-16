@@ -3,11 +3,11 @@ package dao
 import (
 	"context"
 
-	"go-common/app/job/main/workflow/conf"
-	"go-common/library/cache/redis"
-	"go-common/library/database/elastic"
-	"go-common/library/database/orm"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/job/main/workflow/conf"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/database/elastic"
+	"github.com/namelessup/bilibili/library/database/orm"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 
 	"github.com/jinzhu/gorm"
 )

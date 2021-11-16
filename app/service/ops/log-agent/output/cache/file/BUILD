@@ -11,7 +11,7 @@ go_library(
         "config.go",
         "file.go",
     ],
-    importpath = "go-common/app/service/ops/log-agent/output/cache/file",
+    importpath = "github.com/namelessup/bilibili/app/service/ops/log-agent/output/cache/file",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

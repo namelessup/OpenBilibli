@@ -11,7 +11,7 @@ go_library(
         "http.go",
         "titans.go",
     ],
-    importpath = "go-common/app/service/live/resource/server/http",
+    importpath = "github.com/namelessup/bilibili/app/service/live/resource/server/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

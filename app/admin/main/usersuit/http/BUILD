@@ -25,7 +25,7 @@ go_library(
         "pendant.go",
         "upload.go",
     ],
-    importpath = "go-common/app/admin/main/usersuit/http",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/usersuit/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -1,7 +1,7 @@
 package income
 
 import (
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 // ArchiveIncome include av income and column income

@@ -1,10 +1,10 @@
 package server
 
 import (
-	"go-common/app/service/main/assist/conf"
-	"go-common/app/service/main/assist/service"
-	"go-common/library/net/rpc"
-	"go-common/library/net/rpc/context"
+	"github.com/namelessup/bilibili/app/service/main/assist/conf"
+	"github.com/namelessup/bilibili/app/service/main/assist/service"
+	"github.com/namelessup/bilibili/library/net/rpc"
+	"github.com/namelessup/bilibili/library/net/rpc/context"
 )
 
 // RPC rpc.

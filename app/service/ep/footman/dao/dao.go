@@ -7,12 +7,12 @@ import (
 	"net/http"
 	"time"
 
-	"go-common/app/service/ep/footman/conf"
-	"go-common/library/cache/memcache"
-	"go-common/library/database/orm"
-	"go-common/library/log"
-	xhttp "go-common/library/net/http/blademaster"
-	"go-common/library/sync/pipeline/fanout"
+	"github.com/namelessup/bilibili/app/service/ep/footman/conf"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/database/orm"
+	"github.com/namelessup/bilibili/library/log"
+	xhttp "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/sync/pipeline/fanout"
 
 	"github.com/jinzhu/gorm"
 	"gopkg.in/gomail.v2"

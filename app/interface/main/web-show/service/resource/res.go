@@ -7,13 +7,13 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/interface/main/web-show/dao/resource"
-	rsmdl "go-common/app/interface/main/web-show/model/resource"
-	"go-common/app/service/main/archive/api"
-	arcmdl "go-common/app/service/main/archive/model/archive"
-	locmdl "go-common/app/service/main/location/model"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/main/web-show/dao/resource"
+	rsmdl "github.com/namelessup/bilibili/app/interface/main/web-show/model/resource"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	arcmdl "github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	locmdl "github.com/namelessup/bilibili/app/service/main/location/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 const (

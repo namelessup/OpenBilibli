@@ -4,9 +4,9 @@ import (
 	"context"
 	"encoding/json"
 
-	actmdl "go-common/app/interface/main/activity/model/like"
-	l "go-common/app/job/main/activity/model/like"
-	"go-common/library/log"
+	actmdl "github.com/namelessup/bilibili/app/interface/main/activity/model/like"
+	l "github.com/namelessup/bilibili/app/job/main/activity/model/like"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // AddLike like add data update cache .

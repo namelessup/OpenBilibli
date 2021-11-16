@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/service/main/resource/model"
-	"go-common/library/log"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/service/main/resource/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 //loadRelateCache load relate card cache

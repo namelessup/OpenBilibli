@@ -3,17 +3,17 @@ package v1
 import (
 	"context"
 	"github.com/pkg/errors"
-	v1pb "go-common/app/service/live/xuser/api/grpc/v1"
-	"go-common/app/service/live/xuser/dao/exp"
-	"go-common/library/ecode"
+	v1pb "github.com/namelessup/bilibili/app/service/live/xuser/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/live/xuser/dao/exp"
+	"github.com/namelessup/bilibili/library/ecode"
 	"strconv"
 	"time"
 
-	confm "go-common/app/service/live/xuser/conf"
-	dhhm "go-common/app/service/live/xuser/model/dhh"
-	"go-common/library/log"
+	confm "github.com/namelessup/bilibili/app/service/live/xuser/conf"
+	dhhm "github.com/namelessup/bilibili/app/service/live/xuser/model/dhh"
+	"github.com/namelessup/bilibili/library/log"
 
-	dahanghaiModel "go-common/app/service/live/xuser/model/dhh"
+	dahanghaiModel "github.com/namelessup/bilibili/app/service/live/xuser/model/dhh"
 )
 
 const (

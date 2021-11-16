@@ -7,10 +7,10 @@ import (
 	"sync"
 	"time"
 
-	accmdl "go-common/app/service/main/account/model"
-	"go-common/app/service/main/archive/api"
-	"go-common/library/log"
-	xtime "go-common/library/time"
+	accmdl "github.com/namelessup/bilibili/app/service/main/account/model"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 const (

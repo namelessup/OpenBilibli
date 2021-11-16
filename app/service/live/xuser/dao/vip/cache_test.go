@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 	. "github.com/smartystreets/goconvey/convey"
-	"go-common/app/service/live/xuser/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/live/xuser/model"
+	"github.com/namelessup/bilibili/library/log"
 	"testing"
 	"time"
 )

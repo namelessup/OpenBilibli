@@ -1,14 +1,14 @@
 package http
 
 import (
-	v12 "go-common/app/interface/live/web-room/api/http/v1"
-	"go-common/app/interface/live/web-room/conf"
-	"go-common/app/interface/live/web-room/service"
-	"go-common/app/interface/live/web-room/service/v1"
-	v1index "go-common/app/interface/live/web-room/service/v1/dm"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/auth"
+	v12 "github.com/namelessup/bilibili/app/interface/live/web-room/api/http/v1"
+	"github.com/namelessup/bilibili/app/interface/live/web-room/conf"
+	"github.com/namelessup/bilibili/app/interface/live/web-room/service"
+	"github.com/namelessup/bilibili/app/interface/live/web-room/service/v1"
+	v1index "github.com/namelessup/bilibili/app/interface/live/web-room/service/v1/dm"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/auth"
 	"net/http"
 )
 

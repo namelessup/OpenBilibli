@@ -5,11 +5,11 @@ import (
 	"math/rand"
 	"time"
 
-	"go-common/app/service/main/ugcpay/conf"
-	"go-common/app/service/main/ugcpay/dao"
-	"go-common/app/service/main/ugcpay/service/pay"
-	"go-common/library/cache"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/ugcpay/conf"
+	"github.com/namelessup/bilibili/app/service/main/ugcpay/dao"
+	"github.com/namelessup/bilibili/app/service/main/ugcpay/service/pay"
+	"github.com/namelessup/bilibili/library/cache"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Service struct

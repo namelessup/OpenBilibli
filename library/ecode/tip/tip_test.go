@@ -4,7 +4,7 @@ import (
 	"sync"
 	"testing"
 
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 var (

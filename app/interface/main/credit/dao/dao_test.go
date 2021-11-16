@@ -8,7 +8,7 @@ import (
 
 	gock "gopkg.in/h2non/gock.v1"
 
-	"go-common/app/interface/main/credit/conf"
+	"github.com/namelessup/bilibili/app/interface/main/credit/conf"
 
 	_ "github.com/go-sql-driver/mysql"
 	// . "github.com/smartystreets/goconvey/convey"

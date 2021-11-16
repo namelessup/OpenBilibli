@@ -13,7 +13,7 @@ go_library(
         "v1.go",
         "v2.go",
     ],
-    importpath = "go-common/app/service/main/account/server/http",
+    importpath = "github.com/namelessup/bilibili/app/service/main/account/server/http",
     tags = ["automanaged"],
     deps = [
         "//app/service/main/account/api:go_default_library",

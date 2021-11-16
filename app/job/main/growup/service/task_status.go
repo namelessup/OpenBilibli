@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"go-common/app/job/main/growup/dao"
-	"go-common/app/job/main/growup/dao/dataplatform"
+	"github.com/namelessup/bilibili/app/job/main/growup/dao"
+	"github.com/namelessup/bilibili/app/job/main/growup/dao/dataplatform"
 )
 
 const (

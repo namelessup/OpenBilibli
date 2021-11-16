@@ -5,9 +5,9 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"go-common/app/admin/ep/merlin/conf"
-	"go-common/app/admin/ep/merlin/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/ep/merlin/conf"
+	"github.com/namelessup/bilibili/app/admin/ep/merlin/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

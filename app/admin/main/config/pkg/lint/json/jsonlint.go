@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"io"
 
-	"go-common/app/admin/main/config/pkg/lint"
+	"github.com/namelessup/bilibili/app/admin/main/config/pkg/lint"
 )
 
 const filetype = "json"

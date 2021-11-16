@@ -1,6 +1,6 @@
 package task
 
-import "go-common/app/job/main/videoup-report/model/utils"
+import "github.com/namelessup/bilibili/app/job/main/videoup-report/model/utils"
 
 const (
 	// PoolForFirst 一审

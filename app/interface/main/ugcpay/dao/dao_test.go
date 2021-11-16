@@ -3,7 +3,7 @@ package dao
 import (
 	"context"
 	"flag"
-	"go-common/app/interface/main/ugcpay/conf"
+	"github.com/namelessup/bilibili/app/interface/main/ugcpay/conf"
 	"os"
 	"testing"
 )

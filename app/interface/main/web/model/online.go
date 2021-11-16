@@ -1,6 +1,6 @@
 package model
 
-import v1 "go-common/app/service/main/archive/api"
+import v1 "github.com/namelessup/bilibili/app/service/main/archive/api"
 
 // Online struct of online api response
 type Online struct {

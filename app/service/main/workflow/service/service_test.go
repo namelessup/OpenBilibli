@@ -5,7 +5,7 @@ import (
 	"flag"
 	"testing"
 
-	"go-common/app/service/main/workflow/conf"
+	"github.com/namelessup/bilibili/app/service/main/workflow/conf"
 
 	"github.com/smartystreets/goconvey/convey"
 )

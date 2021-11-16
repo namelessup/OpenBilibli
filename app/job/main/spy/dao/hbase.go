@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/job/main/spy/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/spy/model"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/pkg/errors"
 	"github.com/tsuna/gohbase/hrpc"

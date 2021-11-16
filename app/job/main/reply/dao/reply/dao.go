@@ -3,9 +3,9 @@ package reply
 import (
 	"context"
 
-	"go-common/app/job/main/reply/conf"
-	"go-common/library/database/sql"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/job/main/reply/conf"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 // Dao define mysql info

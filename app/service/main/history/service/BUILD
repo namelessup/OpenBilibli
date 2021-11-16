@@ -13,7 +13,7 @@ go_library(
         "service.go",
         "user.go",
     ],
-    importpath = "go-common/app/service/main/history/service",
+    importpath = "github.com/namelessup/bilibili/app/service/main/history/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

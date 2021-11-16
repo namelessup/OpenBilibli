@@ -7,12 +7,12 @@ import (
 	"os/signal"
 	"syscall"
 
-	apiv1 "go-common/app/service/main/dapper-query/api/v1"
-	"go-common/app/service/main/dapper-query/conf"
-	"go-common/app/service/main/dapper-query/service"
-	"go-common/app/service/main/dapper-query/util"
-	xlog "go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	apiv1 "github.com/namelessup/bilibili/app/service/main/dapper-query/api/v1"
+	"github.com/namelessup/bilibili/app/service/main/dapper-query/conf"
+	"github.com/namelessup/bilibili/app/service/main/dapper-query/service"
+	"github.com/namelessup/bilibili/app/service/main/dapper-query/util"
+	xlog "github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func main() {

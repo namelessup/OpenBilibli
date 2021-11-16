@@ -26,7 +26,7 @@ go_library(
         "service.go",
         "subtitle.go",
     ],
-    importpath = "go-common/app/interface/main/creative/service/danmu",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/creative/service/danmu",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -15,7 +15,7 @@ go_binary(
 go_library(
     name = "go_default_library",
     srcs = ["main.go"],
-    importpath = "go-common/app/service/live/xuser/api/grpc/client",
+    importpath = "github.com/namelessup/bilibili/app/service/live/xuser/api/grpc/client",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

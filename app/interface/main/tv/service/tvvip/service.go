@@ -1,9 +1,9 @@
 package tvvip
 
 import (
-	"go-common/app/interface/main/tv/conf"
-	"go-common/app/service/main/tv/api"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/tv/conf"
+	"github.com/namelessup/bilibili/app/service/main/tv/api"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Service .

@@ -12,10 +12,10 @@ import (
 	"sync"
 	"time"
 
-	"go-common/library/log"
-	"go-common/library/net/metadata"
-	"go-common/library/net/netutil"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/net/netutil"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 const (

@@ -1,8 +1,8 @@
 package http
 
 import (
-	opmdl "go-common/app/interface/main/web-show/model/operation"
-	bm "go-common/library/net/http/blademaster"
+	opmdl "github.com/namelessup/bilibili/app/interface/main/web-show/model/operation"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // notice

@@ -1,9 +1,9 @@
 package http
 
 import (
-	"go-common/app/service/main/identify/api/grpc"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/service/main/identify/api/grpc"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // const (

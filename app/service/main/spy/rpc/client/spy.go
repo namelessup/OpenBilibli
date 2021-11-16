@@ -3,8 +3,8 @@ package spy
 import (
 	"context"
 
-	"go-common/app/service/main/spy/model"
-	"go-common/library/net/rpc"
+	"github.com/namelessup/bilibili/app/service/main/spy/model"
+	"github.com/namelessup/bilibili/library/net/rpc"
 )
 
 const (

@@ -5,8 +5,8 @@ import (
 	"os"
 	"strings"
 
-	"go-common/app/tool/ci/lib/mail"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/tool/ci/lib/mail"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/BurntSushi/toml"
 )

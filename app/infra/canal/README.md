@@ -1,4 +1,4 @@
-# go-common/app/infra/canal
+# github.com/namelessup/bilibili/app/infra/canal
 
 ##### 项目简介
 > 1. 实现MySQL slave协议，充当伪从库

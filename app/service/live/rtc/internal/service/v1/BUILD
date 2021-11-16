@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["rtc.go"],
-    importpath = "go-common/app/service/live/rtc/internal/service/v1",
+    importpath = "github.com/namelessup/bilibili/app/service/live/rtc/internal/service/v1",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

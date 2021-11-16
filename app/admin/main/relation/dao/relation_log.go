@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/admin/main/relation/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/relation/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // reverse returns its argument string reversed rune-wise left to right.

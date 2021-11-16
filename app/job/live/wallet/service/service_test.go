@@ -2,7 +2,7 @@ package Service
 
 import (
 	"context"
-	"go-common/app/job/live/wallet/conf"
+	"github.com/namelessup/bilibili/app/job/live/wallet/conf"
 	"os"
 	"testing"
 	"time"

@@ -3,9 +3,9 @@ package history
 import (
 	"context"
 
-	"go-common/app/interface/main/history/model"
-	epmdl "go-common/app/service/openplatform/pgc-season/api/grpc/episode/v1"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/history/model"
+	epmdl "github.com/namelessup/bilibili/app/service/openplatform/pgc-season/api/grpc/episode/v1"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Bangumis .

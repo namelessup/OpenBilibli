@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // checkDiff check diff between ads and ads_active

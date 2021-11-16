@@ -5,14 +5,14 @@ import (
 	"time"
 
 	"fmt"
-	"go-common/app/interface/main/creative/conf"
-	arcMdl "go-common/app/interface/main/creative/model/archive"
-	archive "go-common/app/service/main/archive/api/gorpc"
-	"go-common/library/cache/memcache"
-	"go-common/library/cache/redis"
-	"go-common/library/database/sql"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/sync/pipeline/fanout"
+	"github.com/namelessup/bilibili/app/interface/main/creative/conf"
+	arcMdl "github.com/namelessup/bilibili/app/interface/main/creative/model/archive"
+	archive "github.com/namelessup/bilibili/app/service/main/archive/api/gorpc"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/database/sql"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/sync/pipeline/fanout"
 )
 
 // Dao is archive dao.
@@ -120,14 +120,14 @@ func (d *Dao) cacheSFStaffData(aid int64) string {
 	return fmt.Sprintf("staff_aid_sf_%d", aid)
 }
 
-//go:generate $GOPATH/src/go-common/app/tool/cache/gen
+//go:generate $GOPATH/src/github.com/namelessup/bilibili/app/tool/cache/gen
 type _cache interface {
 	// cache: -singleflight=true -nullcache=[]*arcMdl.Staff{{ID:-1}} -check_null_code=len($)==1&&$[0].ID==-1
 	StaffData(c context.Context, aid int64) ([]*arcMdl.Staff, error)
 	ViewPoint(c context.Context, aid int64, cid int64) (vp *arcMdl.ViewPointRow, err error)
 }
 
-//go:generate $GOPATH/src/go-common/app/tool/cache/mc
+//go:generate $GOPATH/src/github.com/namelessup/bilibili/app/tool/cache/mc
 type _mc interface {
 	// mc: -key=staffKey
 	CacheStaffData(c context.Context, key int64) ([]*arcMdl.Staff, error)

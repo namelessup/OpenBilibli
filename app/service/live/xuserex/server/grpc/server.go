@@ -1,9 +1,9 @@
 package grpc
 
 import (
-	v1pb "go-common/app/service/live/xuserex/api/grpc/v1"
-	"go-common/app/service/live/xuserex/service"
-	"go-common/library/net/rpc/warden"
+	v1pb "github.com/namelessup/bilibili/app/service/live/xuserex/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/live/xuserex/service"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 )
 
 // New new grpc server

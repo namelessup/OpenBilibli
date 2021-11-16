@@ -29,7 +29,7 @@ go_library(
         "creative.go",
         "dao.go",
     ],
-    importpath = "go-common/app/interface/main/videoup/dao/creative",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/videoup/dao/creative",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

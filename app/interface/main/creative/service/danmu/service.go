@@ -1,13 +1,13 @@
 package danmu
 
 import (
-	"go-common/app/interface/main/creative/conf"
-	"go-common/app/interface/main/creative/dao/account"
-	"go-common/app/interface/main/creative/dao/archive"
-	"go-common/app/interface/main/creative/dao/danmu"
-	"go-common/app/interface/main/creative/dao/elec"
-	"go-common/app/interface/main/creative/dao/subtitle"
-	"go-common/app/interface/main/creative/service"
+	"github.com/namelessup/bilibili/app/interface/main/creative/conf"
+	"github.com/namelessup/bilibili/app/interface/main/creative/dao/account"
+	"github.com/namelessup/bilibili/app/interface/main/creative/dao/archive"
+	"github.com/namelessup/bilibili/app/interface/main/creative/dao/danmu"
+	"github.com/namelessup/bilibili/app/interface/main/creative/dao/elec"
+	"github.com/namelessup/bilibili/app/interface/main/creative/dao/subtitle"
+	"github.com/namelessup/bilibili/app/interface/main/creative/service"
 )
 
 // Service danmu.

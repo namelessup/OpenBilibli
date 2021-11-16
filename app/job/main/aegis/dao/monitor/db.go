@@ -4,9 +4,9 @@ import (
 	"context"
 	"encoding/json"
 	"github.com/pkg/errors"
-	"go-common/app/job/main/aegis/model/monitor"
-	xsql "go-common/library/database/sql"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/aegis/model/monitor"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 	"time"
 )
 

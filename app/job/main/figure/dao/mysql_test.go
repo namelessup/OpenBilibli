@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/job/main/figure/model"
+	"github.com/namelessup/bilibili/app/job/main/figure/model"
 )
 
 func TestSaveFigure(t *testing.T) {

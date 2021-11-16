@@ -43,7 +43,7 @@ go_library(
         "task.go",
         "wlog.go",
     ],
-    importpath = "go-common/app/admin/main/workflow/service",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/workflow/service",
     tags = ["automanaged"],
     deps = [
         "//app/admin/main/credit/model/blocked:go_default_library",

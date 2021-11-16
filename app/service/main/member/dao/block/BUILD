@@ -14,7 +14,7 @@ go_library(
         "mc.go",
         "mysql.go",
     ],
-    importpath = "go-common/app/service/main/member/dao/block",
+    importpath = "github.com/namelessup/bilibili/app/service/main/member/dao/block",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

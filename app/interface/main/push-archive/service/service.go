@@ -5,17 +5,17 @@ import (
 	"sync"
 	"time"
 
-	"go-common/app/interface/main/push-archive/conf"
-	"go-common/app/interface/main/push-archive/dao"
-	"go-common/app/interface/main/push-archive/model"
-	accrpc "go-common/app/service/main/account/rpc/client"
-	pb "go-common/app/service/main/push/api/grpc/v1"
-	pushrpc "go-common/app/service/main/push/api/grpc/v1"
-	"go-common/library/cache"
-	"go-common/library/conf/env"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/interface/main/push-archive/conf"
+	"github.com/namelessup/bilibili/app/interface/main/push-archive/dao"
+	"github.com/namelessup/bilibili/app/interface/main/push-archive/model"
+	accrpc "github.com/namelessup/bilibili/app/service/main/account/rpc/client"
+	pb "github.com/namelessup/bilibili/app/service/main/push/api/grpc/v1"
+	pushrpc "github.com/namelessup/bilibili/app/service/main/push/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/cache"
+	"github.com/namelessup/bilibili/library/conf/env"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 // Service push service.

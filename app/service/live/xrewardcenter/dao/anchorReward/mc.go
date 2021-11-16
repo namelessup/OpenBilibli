@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/library/cache/memcache"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/log"
 
-	"go-common/app/service/live/xrewardcenter/model/anchorTask"
+	"github.com/namelessup/bilibili/app/service/live/xrewardcenter/model/anchorTask"
 
 	"github.com/pkg/errors"
 )

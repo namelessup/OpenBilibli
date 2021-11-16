@@ -29,7 +29,7 @@ go_library(
         "realname.go",
         "upload.go",
     ],
-    importpath = "go-common/app/interface/main/account/service/realname",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/account/service/realname",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

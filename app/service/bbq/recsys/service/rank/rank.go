@@ -2,11 +2,11 @@ package rank
 
 import (
 	"errors"
-	recsys "go-common/app/service/bbq/recsys/api/grpc/v1"
-	"go-common/app/service/bbq/recsys/model"
-	xgb "go-common/app/service/bbq/recsys/service/rank/treelite"
-	"go-common/app/service/bbq/recsys/service/util"
-	"go-common/library/log"
+	recsys "github.com/namelessup/bilibili/app/service/bbq/recsys/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/bbq/recsys/model"
+	xgb "github.com/namelessup/bilibili/app/service/bbq/recsys/service/rank/treelite"
+	"github.com/namelessup/bilibili/app/service/bbq/recsys/service/util"
+	"github.com/namelessup/bilibili/library/log"
 	"sort"
 	"strconv"
 )

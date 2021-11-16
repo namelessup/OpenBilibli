@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["http.go"],
-    importpath = "go-common/app/job/openplatform/open-sug/server/http",
+    importpath = "github.com/namelessup/bilibili/app/job/openplatform/open-sug/server/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

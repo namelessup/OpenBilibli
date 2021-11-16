@@ -1,8 +1,8 @@
 package mis
 
 import (
-	"go-common/app/service/openplatform/ticket-sales/conf"
-	"go-common/app/service/openplatform/ticket-sales/dao"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/conf"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/dao"
 )
 
 //Mis http server

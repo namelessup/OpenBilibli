@@ -6,13 +6,13 @@ import (
 	"fmt"
 	"sync"
 
-	"go-common/app/job/live/gift/internal/model"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/job/live/gift/internal/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
 
-	pb "go-common/app/job/live/gift/api"
-	"go-common/app/job/live/gift/internal/conf"
-	"go-common/app/job/live/gift/internal/dao"
+	pb "github.com/namelessup/bilibili/app/job/live/gift/api"
+	"github.com/namelessup/bilibili/app/job/live/gift/internal/conf"
+	"github.com/namelessup/bilibili/app/job/live/gift/internal/dao"
 
 	"github.com/golang/protobuf/ptypes/empty"
 )

@@ -5,10 +5,10 @@ import (
 	"log"
 	"os"
 
-	"go-common/app/service/main/dapper/agent"
-	"go-common/app/service/main/dapper/conf"
-	"go-common/app/service/main/dapper/pkg/util"
-	xlog "go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/dapper/agent"
+	"github.com/namelessup/bilibili/app/service/main/dapper/conf"
+	"github.com/namelessup/bilibili/app/service/main/dapper/pkg/util"
+	xlog "github.com/namelessup/bilibili/library/log"
 )
 
 var debug bool

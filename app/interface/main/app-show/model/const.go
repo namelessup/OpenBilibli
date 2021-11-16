@@ -2,7 +2,7 @@ package model
 
 import (
 	"fmt"
-	"go-common/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
 	"strconv"
 	"strings"
 )

@@ -7,10 +7,10 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/job/main/member/model"
-	share "go-common/app/service/main/share/model"
-	"go-common/library/log"
-	"go-common/library/net/ip"
+	"github.com/namelessup/bilibili/app/job/main/member/model"
+	share "github.com/namelessup/bilibili/app/service/main/share/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/ip"
 
 	"github.com/pkg/errors"
 )

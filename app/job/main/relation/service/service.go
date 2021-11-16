@@ -8,13 +8,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go-common/app/job/main/relation/conf"
-	"go-common/app/job/main/relation/dao"
-	"go-common/app/job/main/relation/model"
-	sml "go-common/app/service/main/relation/model"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/job/main/relation/conf"
+	"github.com/namelessup/bilibili/app/job/main/relation/dao"
+	"github.com/namelessup/bilibili/app/job/main/relation/model"
+	sml "github.com/namelessup/bilibili/app/service/main/relation/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 const (
@@ -69,7 +69,7 @@ func (s *Service) subproc() {
 		log.Info("received message: res: %+v", res)
 		mu := &model.Message{}
 		if err = json.Unmarshal(res.Value, mu); err != nil {
-			log.Error("go-common/app/job/main/relation,json.Unmarshal (%v) error(%v)", res.Value, err)
+			log.Error("github.com/namelessup/bilibili/app/job/main/relation,json.Unmarshal (%v) error(%v)", res.Value, err)
 			continue
 		}
 		atomic.AddInt64(&s.mo, 1)

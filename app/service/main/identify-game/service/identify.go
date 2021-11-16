@@ -5,10 +5,10 @@ import (
 	"errors"
 	"strings"
 
-	"go-common/app/service/main/identify-game/api/grpc/v1"
-	"go-common/app/service/main/identify-game/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/identify-game/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/main/identify-game/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

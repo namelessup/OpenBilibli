@@ -8,12 +8,12 @@ import (
 	"encoding/hex"
 	"time"
 
-	"go-common/app/interface/main/app-wall/conf"
-	callbackdao "go-common/app/interface/main/app-wall/dao/callback"
-	offerdao "go-common/app/interface/main/app-wall/dao/offer"
-	"go-common/app/interface/main/app-wall/dao/padding"
-	"go-common/app/interface/main/app-wall/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/app-wall/conf"
+	callbackdao "github.com/namelessup/bilibili/app/interface/main/app-wall/dao/callback"
+	offerdao "github.com/namelessup/bilibili/app/interface/main/app-wall/dao/offer"
+	"github.com/namelessup/bilibili/app/interface/main/app-wall/dao/padding"
+	"github.com/namelessup/bilibili/app/interface/main/app-wall/model"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/pkg/errors"
 )

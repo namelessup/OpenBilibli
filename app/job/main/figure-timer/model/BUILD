@@ -11,7 +11,7 @@ go_library(
         "db.go",
         "hbase.go",
     ],
-    importpath = "go-common/app/job/main/figure-timer/model",
+    importpath = "github.com/namelessup/bilibili/app/job/main/figure-timer/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

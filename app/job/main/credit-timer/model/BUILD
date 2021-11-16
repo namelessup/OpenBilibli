@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["jury.go"],
-    importpath = "go-common/app/job/main/credit-timer/model",
+    importpath = "github.com/namelessup/bilibili/app/job/main/credit-timer/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

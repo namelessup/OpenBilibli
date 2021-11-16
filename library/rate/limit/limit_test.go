@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"go-common/library/rate"
+	"github.com/namelessup/bilibili/library/rate"
 )
 
 func worker(qps int64, ch chan struct{}) {

@@ -7,10 +7,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go-common/app/service/main/tv/internal/conf"
-	"go-common/app/service/main/tv/internal/dao"
-	"go-common/app/service/main/tv/internal/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/tv/internal/conf"
+	"github.com/namelessup/bilibili/app/service/main/tv/internal/dao"
+	"github.com/namelessup/bilibili/app/service/main/tv/internal/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Service struct

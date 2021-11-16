@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"strings"
 
-	"go-common/app/service/bbq/video/conf"
-	"go-common/app/service/bbq/video/model"
-	mainAccount "go-common/app/service/main/account/api"
-	mainArchive "go-common/app/service/main/archive/api"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/bbq/video/conf"
+	"github.com/namelessup/bilibili/app/service/bbq/video/model"
+	mainAccount "github.com/namelessup/bilibili/app/service/main/account/api"
+	mainArchive "github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Filter .

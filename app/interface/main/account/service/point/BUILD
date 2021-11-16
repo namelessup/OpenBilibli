@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["point.go"],
-    importpath = "go-common/app/interface/main/account/service/point",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/account/service/point",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

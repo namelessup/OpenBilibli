@@ -7,7 +7,7 @@ import (
 	"os"
 	"sync"
 
-	"go-common/library/conf/dsn"
+	"github.com/namelessup/bilibili/library/conf/dsn"
 
 	"github.com/pkg/errors"
 )

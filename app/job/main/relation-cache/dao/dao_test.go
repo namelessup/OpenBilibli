@@ -2,7 +2,7 @@ package dao
 
 import (
 	"flag"
-	"go-common/app/job/main/relation-cache/conf"
+	"github.com/namelessup/bilibili/app/job/main/relation-cache/conf"
 	"os"
 	"testing"
 )

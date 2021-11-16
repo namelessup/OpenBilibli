@@ -31,7 +31,7 @@ go_library(
         "service.go",
         "vip.go",
     ],
-    importpath = "go-common/app/job/main/usersuit/service",
+    importpath = "github.com/namelessup/bilibili/app/job/main/usersuit/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -14,7 +14,7 @@ go_library(
         "msg.go",
         "notify.go",
     ],
-    importpath = "go-common/app/job/main/member/model/block",
+    importpath = "github.com/namelessup/bilibili/app/job/main/member/model/block",
     tags = ["automanaged"],
     deps = ["//library/time:go_default_library"],
 )

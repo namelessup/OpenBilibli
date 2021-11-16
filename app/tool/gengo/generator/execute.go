@@ -9,8 +9,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"go-common/app/tool/gengo/namer"
-	"go-common/app/tool/gengo/types"
+	"github.com/namelessup/bilibili/app/tool/gengo/namer"
+	"github.com/namelessup/bilibili/app/tool/gengo/types"
 
 	"golang.org/x/tools/imports"
 

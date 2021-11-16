@@ -42,9 +42,9 @@ message Meta {
     Author author = 9  [(gogoproto.jsontag) = "author"];
     int32 reprint  = 10  [(gogoproto.jsontag) = "reprint"];
     repeated string image_urls = 11 [(gogoproto.jsontag) = "image_urls", (gogoproto.customname) = "ImageURLs"];
-    int64 publish_time = 12 [(gogoproto.jsontag) = "publish_time", (gogoproto.casttype) = "go-common/library/time.Time"];
-    int64 ctime = 13 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "go-common/library/time.Time"];
-    int64 mtime = 14 [(gogoproto.jsontag) = "mtime,omitempty", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int64 publish_time = 12 [(gogoproto.jsontag) = "publish_time", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
+    int64 ctime = 13 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
+    int64 mtime = 14 [(gogoproto.jsontag) = "mtime,omitempty", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
     Stats stats = 15  [(gogoproto.jsontag) = "stats,omitempty"];
     repeated Tag tags = 16 [(gogoproto.jsontag) = "tags,omitempty"];
     int32 attributes  = 17 [(gogoproto.jsontag) = "attributes,omitempty"];
@@ -124,9 +124,9 @@ message List {
   int64 mid = 2[(gogoproto.jsontag) = "mid"];
   string name = 3 [(gogoproto.jsontag) = "name"];
   string image_url = 4  [(gogoproto.jsontag) = "image_url", (gogoproto.customname) = "ImageURL"];
-  int64 update_time = 5 [(gogoproto.jsontag) = "update_time", (gogoproto.casttype) = "go-common/library/time.Time"];
-  int64 ctime = 6 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "go-common/library/time.Time"];
-  int64 publish_time = 7 [(gogoproto.jsontag) = "publish_time", (gogoproto.casttype) = "go-common/library/time.Time"];
+  int64 update_time = 5 [(gogoproto.jsontag) = "update_time", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
+  int64 ctime = 6 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
+  int64 publish_time = 7 [(gogoproto.jsontag) = "publish_time", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
   string summary = 8 [(gogoproto.jsontag) = "summary"];
   int64 words = 9 [(gogoproto.jsontag) = "words"];
   int64 read = 10 [(gogoproto.jsontag) = "read"];

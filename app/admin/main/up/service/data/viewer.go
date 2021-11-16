@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"time"
 
-	"go-common/app/admin/main/up/model/datamodel"
-	"go-common/app/admin/main/up/service/cache"
-	"go-common/app/interface/main/creative/model/tag"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/admin/main/up/model/datamodel"
+	"github.com/namelessup/bilibili/app/admin/main/up/service/cache"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/tag"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 // ViewerBase get up viewer base data.

@@ -4,7 +4,7 @@ import (
 	"flag"
 	"path/filepath"
 
-	"go-common/app/job/main/app/conf"
+	"github.com/namelessup/bilibili/app/job/main/app/conf"
 )
 
 var (

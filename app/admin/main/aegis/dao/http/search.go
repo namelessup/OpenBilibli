@@ -6,10 +6,10 @@ import (
 	"net/url"
 	"strings"
 
-	"go-common/app/admin/main/aegis/model"
-	"go-common/library/database/elastic"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model"
+	"github.com/namelessup/bilibili/library/database/elastic"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

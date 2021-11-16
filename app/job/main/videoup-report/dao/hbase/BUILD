@@ -25,7 +25,7 @@ go_library(
         "dao.go",
         "weightlog.go",
     ],
-    importpath = "go-common/app/job/main/videoup-report/dao/hbase",
+    importpath = "github.com/namelessup/bilibili/app/job/main/videoup-report/dao/hbase",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"testing"
 
-	"go-common/app/service/openplatform/ticket-sales/model"
-	"go-common/app/service/openplatform/ticket-sales/model/consts"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/model"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/model/consts"
+	"github.com/namelessup/bilibili/library/ecode"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

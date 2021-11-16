@@ -4,11 +4,11 @@ import (
 	"net/http"
 	"strconv"
 
-	"go-common/app/job/main/coin/conf"
-	"go-common/app/job/main/coin/service"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/job/main/coin/conf"
+	"github.com/namelessup/bilibili/app/job/main/coin/service"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 var coinSvr *service.Service

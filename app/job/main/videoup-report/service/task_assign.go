@@ -5,10 +5,10 @@ import (
 	"math/rand"
 	"time"
 
-	"go-common/app/job/main/videoup-report/model/archive"
-	"go-common/app/job/main/videoup-report/model/task"
-	"go-common/library/log"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/job/main/videoup-report/model/archive"
+	"github.com/namelessup/bilibili/app/job/main/videoup-report/model/task"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 // 设置指派任务

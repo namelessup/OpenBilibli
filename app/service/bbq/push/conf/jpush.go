@@ -1,7 +1,7 @@
 package conf
 
 import (
-	xtime "go-common/library/time"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // JPushConfig 极光推送配置

@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	resmdl "go-common/app/service/main/resource/model"
-	"go-common/library/log"
+	resmdl "github.com/namelessup/bilibili/app/service/main/resource/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) monitorproc() {

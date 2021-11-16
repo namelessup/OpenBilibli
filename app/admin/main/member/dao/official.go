@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/admin/main/member/model"
+	"github.com/namelessup/bilibili/app/admin/main/member/model"
 
 	"github.com/jinzhu/gorm"
 	"github.com/pkg/errors"

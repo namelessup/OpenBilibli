@@ -6,9 +6,9 @@ import (
 	"strconv"
 	"time"
 
-	incomeD "go-common/app/job/main/growup/dao/income"
-	model "go-common/app/job/main/growup/model/income"
-	xtime "go-common/library/time"
+	incomeD "github.com/namelessup/bilibili/app/job/main/growup/dao/income"
+	model "github.com/namelessup/bilibili/app/job/main/growup/model/income"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // Income income service

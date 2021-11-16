@@ -13,7 +13,7 @@ go_library(
         "memcache.go",
         "template.go",
     ],
-    importpath = "go-common/app/interface/main/creative/dao/template",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/creative/dao/template",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

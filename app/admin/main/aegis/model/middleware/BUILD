@@ -27,7 +27,7 @@ go_library(
         "config.go",
         "response.go",
     ],
-    importpath = "go-common/app/admin/main/aegis/model/middleware",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/aegis/model/middleware",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/log:go_default_library"],

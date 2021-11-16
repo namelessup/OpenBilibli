@@ -8,15 +8,15 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go-common/app/job/main/tag/conf"
-	"go-common/app/job/main/tag/dao"
-	"go-common/app/job/main/tag/model"
-	"go-common/app/service/main/archive/api"
-	arcrpc "go-common/app/service/main/archive/api/gorpc"
-	"go-common/app/service/main/archive/model/archive"
-	"go-common/library/cache"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/job/main/tag/conf"
+	"github.com/namelessup/bilibili/app/job/main/tag/dao"
+	"github.com/namelessup/bilibili/app/job/main/tag/model"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	arcrpc "github.com/namelessup/bilibili/app/service/main/archive/api/gorpc"
+	"github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/library/cache"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 const (

@@ -37,7 +37,7 @@ app/tool/kratos/kratos
 
 bazel-bin
 bazel-genfiles
-bazel-go-common
+bazel-github.com/namelessup/bilibili
 bazel-out
 bazel-testlogs
 bazel-test

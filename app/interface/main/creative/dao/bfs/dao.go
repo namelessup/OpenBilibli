@@ -18,9 +18,9 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/interface/main/creative/conf"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/creative/conf"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

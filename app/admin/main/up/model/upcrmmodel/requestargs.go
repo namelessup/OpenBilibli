@@ -1,9 +1,9 @@
 package upcrmmodel
 
 import (
-	"go-common/app/admin/main/up/model/datamodel"
-	"go-common/app/admin/main/up/util"
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/app/admin/main/up/model/datamodel"
+	"github.com/namelessup/bilibili/app/admin/main/up/util"
+	"github.com/namelessup/bilibili/library/time"
 	xtime "time"
 )
 

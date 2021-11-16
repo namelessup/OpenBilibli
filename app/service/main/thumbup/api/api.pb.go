@@ -36,7 +36,7 @@ import math "math"
 import _ "github.com/gogo/protobuf/gogoproto"
 import google_protobuf1 "github.com/golang/protobuf/ptypes/empty"
 
-import go_common_library_time "go-common/library/time"
+import go_common_library_time "github.com/namelessup/bilibili/library/time"
 
 import context "golang.org/x/net/context"
 import grpc "google.golang.org/grpc"
@@ -221,7 +221,7 @@ type UserLikeState struct {
 	// mid
 	Mid int64 `protobuf:"varint,1,opt,name=mid,proto3" json:"mid,omitempty"`
 	// 点赞时间
-	Time  go_common_library_time.Time `protobuf:"varint,2,opt,name=time,proto3,casttype=go-common/library/time.Time" json:"time,omitempty"`
+	Time  go_common_library_time.Time `protobuf:"varint,2,opt,name=time,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"time,omitempty"`
 	State State                       `protobuf:"varint,3,opt,name=state,proto3,enum=community.service.thumbup.v1.State" json:"state,omitempty"`
 }
 
@@ -252,7 +252,7 @@ type ItemRecord struct {
 	// 对象id
 	MessageID int64 `protobuf:"varint,1,opt,name=message_id,json=messageId,proto3" json:"message_id,omitempty"`
 	// 点赞时间
-	Time go_common_library_time.Time `protobuf:"varint,2,opt,name=time,proto3,casttype=go-common/library/time.Time" json:"time,omitempty"`
+	Time go_common_library_time.Time `protobuf:"varint,2,opt,name=time,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"time,omitempty"`
 }
 
 func (m *ItemRecord) Reset()                    { *m = ItemRecord{} }
@@ -274,7 +274,7 @@ type UserRecord struct {
 	// mid
 	Mid int64 `protobuf:"varint,1,opt,name=mid,proto3" json:"mid,omitempty"`
 	// 点赞时间
-	Time go_common_library_time.Time `protobuf:"varint,2,opt,name=time,proto3,casttype=go-common/library/time.Time" json:"time,omitempty"`
+	Time go_common_library_time.Time `protobuf:"varint,2,opt,name=time,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"time,omitempty"`
 }
 
 func (m *UserRecord) Reset()                    { *m = UserRecord{} }

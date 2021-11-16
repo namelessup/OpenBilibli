@@ -7,12 +7,12 @@ import (
 	"sync"
 	"time"
 
-	"go-common/app/interface/openplatform/monitor-end/conf"
-	"go-common/app/interface/openplatform/monitor-end/dao"
-	"go-common/app/interface/openplatform/monitor-end/model"
-	"go-common/app/interface/openplatform/monitor-end/model/monitor"
-	"go-common/app/interface/openplatform/monitor-end/model/prom"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/openplatform/monitor-end/conf"
+	"github.com/namelessup/bilibili/app/interface/openplatform/monitor-end/dao"
+	"github.com/namelessup/bilibili/app/interface/openplatform/monitor-end/model"
+	"github.com/namelessup/bilibili/app/interface/openplatform/monitor-end/model/monitor"
+	"github.com/namelessup/bilibili/app/interface/openplatform/monitor-end/model/prom"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 var (

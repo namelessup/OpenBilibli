@@ -116,7 +116,7 @@ message BaseInfoReply {
   // 生日
   int64 birthday = 7 [
     (gogoproto.jsontag) = "birthday",
-    (gogoproto.casttype) = "go-common/library/time.Time"
+    (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"
   ];
 }
 
@@ -247,7 +247,7 @@ message UpdateBirthdayReq {
   // 生日
   int64 birthday = 2 [
     (gogoproto.jsontag) = "birthday",
-    (gogoproto.casttype) = "go-common/library/time.Time"
+    (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"
   ];
   // 远端ip
   string remote_IP = 3 [ (gogoproto.jsontag) = "remoteIP" ];
@@ -326,7 +326,7 @@ message MoralReply {
   // 上一次节操低于70时的恢复时间
   int64 last_recover_date = 5 [
     (gogoproto.jsontag) = "last_recover_date",
-    (gogoproto.casttype) = "go-common/library/time.Time"
+    (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"
   ];
 }
 

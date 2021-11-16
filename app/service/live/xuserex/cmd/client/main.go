@@ -3,13 +3,13 @@ package main
 import (
 	"context"
 	"flag"
-	"go-common/app/service/live/xuserex/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/live/xuserex/api/grpc/v1"
 	"log"
 	"time"
 
 	"fmt"
-	"go-common/library/net/rpc/warden"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 var name, addr string

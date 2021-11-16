@@ -31,7 +31,7 @@ go_library(
         "draw.go",
         "mysql.go",
     ],
-    importpath = "go-common/app/job/main/answer/dao",
+    importpath = "github.com/namelessup/bilibili/app/job/main/answer/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

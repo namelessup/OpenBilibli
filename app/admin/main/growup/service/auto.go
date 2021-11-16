@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // AutoDismiss update account state to 6

@@ -16,7 +16,7 @@ go_library(
         "hbase_scan.go",
         "mc.cache.go",
     ],
-    importpath = "go-common/app/interface/main/activity/dao/timemachine",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/activity/dao/timemachine",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

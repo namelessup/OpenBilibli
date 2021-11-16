@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"go-common/app/admin/main/apm/model/ut"
+	"github.com/namelessup/bilibili/app/admin/main/apm/model/ut"
 
 	"github.com/smartystreets/goconvey/convey"
 )
@@ -13,7 +13,7 @@ func TestServiceUtDetailList(t *testing.T) {
 	convey.Convey("UtDetailList", t, func(ctx convey.C) {
 		req := &ut.DetailReq{
 			CommitID: "4f5ca7122e023c605555ed4bddf274709635d019",
-			PKG:      "go-common/app/admin/main/apm",
+			PKG:      "github.com/namelessup/bilibili/app/admin/main/apm",
 		}
 		ctx.Convey("When everything goes positive", func(ctx convey.C) {
 			utpkgs, err := svr.UtDetailList(context.Background(), req)
@@ -78,7 +78,7 @@ func TestServiceUtHistoryCommit(t *testing.T) {
 //		pkg := &ut.PkgAnls{
 //			CommitID:   "eawfsdfeasdfe",
 //			PassRate:   64.12,
-//			PKG:        "go-common/app/server/main/coin/dao",
+//			PKG:        "github.com/namelessup/bilibili/app/server/main/coin/dao",
 //			Assertions: 10,
 //			Passed:     8,
 //		}

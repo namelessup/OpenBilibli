@@ -19,7 +19,7 @@ go_library(
         "reply.go",
         "util.go",
     ],
-    importpath = "go-common/app/admin/main/workflow/http",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/workflow/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

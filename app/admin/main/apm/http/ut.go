@@ -1,11 +1,11 @@
 package http
 
 import (
-	"go-common/app/admin/main/apm/conf"
-	"go-common/app/admin/main/apm/model/ut"
-	saga "go-common/app/tool/saga/model"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/binding"
+	"github.com/namelessup/bilibili/app/admin/main/apm/conf"
+	"github.com/namelessup/bilibili/app/admin/main/apm/model/ut"
+	saga "github.com/namelessup/bilibili/app/tool/saga/model"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/binding"
 )
 
 // @params ListReq

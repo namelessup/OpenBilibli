@@ -1,6 +1,6 @@
 package blocked
 
-import xtime "go-common/library/time"
+import xtime "github.com/namelessup/bilibili/library/time"
 
 // AutoCase is blocked_auto_case model.
 type AutoCase struct {

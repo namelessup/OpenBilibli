@@ -2,9 +2,9 @@ package service
 
 import (
 	"context"
-	"go-common/app/service/bbq/user/api"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/bbq/user/api"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 	"testing"
 	"time"
 )

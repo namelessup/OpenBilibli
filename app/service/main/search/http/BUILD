@@ -18,7 +18,7 @@ go_library(
         "reply_search.go",
         "reply_update.go",
     ],
-    importpath = "go-common/app/service/main/search/http",
+    importpath = "github.com/namelessup/bilibili/app/service/main/search/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

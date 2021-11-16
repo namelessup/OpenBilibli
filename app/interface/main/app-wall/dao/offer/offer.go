@@ -5,9 +5,9 @@ import (
 	"database/sql"
 	"time"
 
-	"go-common/app/interface/main/app-wall/conf"
-	xsql "go-common/library/database/sql"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/app-wall/conf"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

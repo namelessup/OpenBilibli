@@ -7,7 +7,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go-common/library/rate"
+	"github.com/namelessup/bilibili/library/rate"
 )
 
 const (

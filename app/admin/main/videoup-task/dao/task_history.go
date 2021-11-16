@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strings"
 
-	"go-common/app/admin/main/videoup-task/model"
-	"go-common/library/database/sql"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/videoup-task/model"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

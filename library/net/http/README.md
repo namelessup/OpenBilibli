@@ -1,4 +1,4 @@
-# go-common/net/http
+# github.com/namelessup/bilibili/net/http
 
 #### 项目简介
 > 1. 提供http模块

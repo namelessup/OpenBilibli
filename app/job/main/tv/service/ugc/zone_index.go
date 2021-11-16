@@ -3,8 +3,8 @@ package ugc
 import (
 	"context"
 
-	"go-common/app/job/main/tv/model/ugc"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/tv/model/ugc"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // ZoneIdx finds out all the passed seasons in DB and then arrange them in a sorted set in Redis

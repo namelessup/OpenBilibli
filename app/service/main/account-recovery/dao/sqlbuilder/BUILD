@@ -31,7 +31,7 @@ go_library(
         "modifiers.go",
         "select.go",
     ],
-    importpath = "go-common/app/service/main/account-recovery/dao/sqlbuilder",
+    importpath = "github.com/namelessup/bilibili/app/service/main/account-recovery/dao/sqlbuilder",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

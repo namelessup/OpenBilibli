@@ -1,5 +1,5 @@
 /*
-kratos 是go-common的工具链，提供新项目创建，bazel编译功能
+kratos 是github.com/namelessup/bilibili的工具链，提供新项目创建，bazel编译功能
 
 kartos build 本目录之下局部编译，根目录全量编译
 NAME:

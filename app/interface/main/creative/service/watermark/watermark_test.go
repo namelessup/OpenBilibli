@@ -6,7 +6,7 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 
-	"go-common/app/interface/main/creative/model/watermark"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/watermark"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

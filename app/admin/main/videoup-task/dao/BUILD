@@ -65,7 +65,7 @@ go_library(
         "video.go",
         "weight_log.go",
     ],
-    importpath = "go-common/app/admin/main/videoup-task/dao",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/videoup-task/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

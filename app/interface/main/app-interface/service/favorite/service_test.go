@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"go-common/app/interface/main/app-interface/conf"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/conf"
 )
 
 func TestMain(m *testing.M) {

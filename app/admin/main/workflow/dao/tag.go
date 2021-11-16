@@ -3,9 +3,9 @@ package dao
 import (
 	"context"
 
-	"go-common/app/admin/main/workflow/model"
-	"go-common/app/admin/main/workflow/model/search"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/workflow/model"
+	"github.com/namelessup/bilibili/app/admin/main/workflow/model/search"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // ChallTagsCount will retrive challenge tags count from group ids and group by tag id

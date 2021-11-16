@@ -7,10 +7,10 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/job/bbq/recall/internal/model"
-	"go-common/app/job/bbq/recall/proto"
-	"go-common/app/job/bbq/recall/proto/quality"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/bbq/recall/internal/model"
+	"github.com/namelessup/bilibili/app/job/bbq/recall/proto"
+	"github.com/namelessup/bilibili/app/job/bbq/recall/proto/quality"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/golang/snappy"
 )

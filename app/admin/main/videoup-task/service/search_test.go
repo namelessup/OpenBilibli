@@ -5,7 +5,7 @@ import (
 	"github.com/smartystreets/goconvey/convey"
 	"testing"
 
-	"go-common/app/admin/main/videoup-task/model"
+	"github.com/namelessup/bilibili/app/admin/main/videoup-task/model"
 )
 
 func Test_searchQAVideo(t *testing.T) {

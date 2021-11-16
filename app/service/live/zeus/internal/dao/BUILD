@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["dao.go"],
-    importpath = "go-common/app/service/live/zeus/internal/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/live/zeus/internal/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

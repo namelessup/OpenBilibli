@@ -3,8 +3,8 @@ package article
 import (
 	"context"
 	"flag"
-	"go-common/app/interface/main/creative/conf"
-	article "go-common/app/interface/openplatform/article/model"
+	"github.com/namelessup/bilibili/app/interface/main/creative/conf"
+	article "github.com/namelessup/bilibili/app/interface/openplatform/article/model"
 	"path/filepath"
 	"testing"
 	"time"
@@ -12,7 +12,7 @@ import (
 	"github.com/davecgh/go-spew/spew"
 
 	. "github.com/smartystreets/goconvey/convey"
-	"go-common/app/interface/main/creative/service"
+	"github.com/namelessup/bilibili/app/interface/main/creative/service"
 )
 
 var (

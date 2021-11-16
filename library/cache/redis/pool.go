@@ -25,9 +25,9 @@ import (
 	"sync"
 	"time"
 
-	"go-common/library/container/pool"
-	"go-common/library/net/trace"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/library/container/pool"
+	"github.com/namelessup/bilibili/library/net/trace"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 var beginTime, _ = time.Parse("2006-01-02 15:04:05", "2006-01-02 15:04:05")

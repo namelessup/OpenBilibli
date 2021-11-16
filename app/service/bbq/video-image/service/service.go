@@ -5,9 +5,9 @@ import (
 	"image"
 	"mime/multipart"
 
-	httpV1 "go-common/app/service/bbq/video-image/api/http/v1"
-	"go-common/app/service/bbq/video-image/conf"
-	"go-common/app/service/bbq/video-image/dao"
+	httpV1 "github.com/namelessup/bilibili/app/service/bbq/video-image/api/http/v1"
+	"github.com/namelessup/bilibili/app/service/bbq/video-image/conf"
+	"github.com/namelessup/bilibili/app/service/bbq/video-image/dao"
 )
 
 // Service struct

@@ -21,7 +21,7 @@ go_library(
         "args.go",
         "var.go",
     ],
-    importpath = "go-common/app/tool/gengo/args",
+    importpath = "github.com/namelessup/bilibili/app/tool/gengo/args",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

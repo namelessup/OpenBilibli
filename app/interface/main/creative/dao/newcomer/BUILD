@@ -33,7 +33,7 @@ go_library(
         "redis.go",
         "task.go",
     ],
-    importpath = "go-common/app/interface/main/creative/dao/newcomer",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/creative/dao/newcomer",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

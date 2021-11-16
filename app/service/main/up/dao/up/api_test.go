@@ -4,7 +4,7 @@ import (
 	"context"
 	"github.com/bouk/monkey"
 	"github.com/smartystreets/goconvey/convey"
-	httpx "go-common/library/net/http/blademaster"
+	httpx "github.com/namelessup/bilibili/library/net/http/blademaster"
 	"net/url"
 	"reflect"
 	"testing"

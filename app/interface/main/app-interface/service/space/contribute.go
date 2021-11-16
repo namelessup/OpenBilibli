@@ -5,15 +5,15 @@ import (
 	"sort"
 	"time"
 
-	"go-common/app/interface/main/app-interface/model"
-	"go-common/app/interface/main/app-interface/model/audio"
-	"go-common/app/interface/main/app-interface/model/bplus"
-	"go-common/app/interface/main/app-interface/model/space"
-	article "go-common/app/interface/openplatform/article/model"
-	"go-common/app/service/main/archive/api"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/model/audio"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/model/bplus"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/model/space"
+	article "github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 const (

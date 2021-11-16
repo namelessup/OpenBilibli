@@ -11,7 +11,7 @@ go_library(
         "request.go",
         "response.go",
     ],
-    importpath = "go-common/app/interface/main/broadcast/model",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/broadcast/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/ecode:go_default_library"],

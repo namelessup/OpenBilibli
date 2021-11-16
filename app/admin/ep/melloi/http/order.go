@@ -3,10 +3,10 @@ package http
 import (
 	"strconv"
 
-	"go-common/app/admin/ep/melloi/model"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/binding"
+	"github.com/namelessup/bilibili/app/admin/ep/melloi/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/binding"
 )
 
 func queryOrder(c *bm.Context) {

@@ -3,8 +3,8 @@ package archive
 import (
 	"context"
 
-	"go-common/app/job/main/videoup-report/conf"
-	"go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/job/main/videoup-report/conf"
+	"github.com/namelessup/bilibili/library/database/sql"
 )
 
 // Dao is redis dao.

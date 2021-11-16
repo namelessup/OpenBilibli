@@ -29,7 +29,7 @@ go_library(
         "api.go",
         "dao.go",
     ],
-    importpath = "go-common/app/interface/main/app-feed/dao/tag",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-feed/dao/tag",
     tags = ["automanaged"],
     deps = [
         "//app/interface/main/app-feed/conf:go_default_library",

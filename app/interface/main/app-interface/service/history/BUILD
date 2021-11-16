@@ -27,7 +27,7 @@ go_library(
         "history.go",
         "service.go",
     ],
-    importpath = "go-common/app/interface/main/app-interface/service/history",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-interface/service/history",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

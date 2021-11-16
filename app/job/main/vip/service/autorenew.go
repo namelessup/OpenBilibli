@@ -4,8 +4,8 @@ import (
 	"context"
 	"encoding/json"
 
-	"go-common/app/job/main/vip/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/vip/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) autoRenewPay(c context.Context, n *model.VipUserInfoMsg, o *model.VipUserInfoMsg) (err error) {

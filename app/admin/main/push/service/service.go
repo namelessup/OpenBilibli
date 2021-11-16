@@ -9,10 +9,10 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/admin/main/push/conf"
-	"go-common/app/admin/main/push/dao"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/push/conf"
+	"github.com/namelessup/bilibili/app/admin/main/push/dao"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 
 	"github.com/jinzhu/gorm"
 )

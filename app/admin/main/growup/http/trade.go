@@ -5,11 +5,11 @@ import (
 	"net/http"
 	"time"
 
-	"go-common/app/admin/main/growup/model"
+	"github.com/namelessup/bilibili/app/admin/main/growup/model"
 
-	"go-common/library/log"
-	"go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/render"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/render"
 )
 
 func goodsSync(c *blademaster.Context) {

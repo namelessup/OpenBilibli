@@ -7,9 +7,9 @@ option go_package = "model";
 // History model
 message History {
     // ctime
-    int64 ctime = 1  [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int64 ctime = 1  [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
     // mtime
-    int64 mtime = 2 [(gogoproto.jsontag) = "mtime", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int64 mtime = 2 [(gogoproto.jsontag) = "mtime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
     // mid
     int64 mid = 3 [(gogoproto.jsontag) = "mid", (gogoproto.moretags) = 'form:"mid" validate:"required,min=1"'];
     // business_id

@@ -17,7 +17,7 @@ go_library(
         "pay.go",
         "trade.go",
     ],
-    importpath = "go-common/app/service/main/ugcpay/model",
+    importpath = "github.com/namelessup/bilibili/app/service/main/ugcpay/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/log:go_default_library"],

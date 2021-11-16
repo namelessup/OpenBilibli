@@ -3,12 +3,12 @@ package service
 import (
 	"context"
 
-	"go-common/app/interface/main/answer/model"
-	accoutCli "go-common/app/service/main/account/api"
-	memModel "go-common/app/service/main/member/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/main/answer/model"
+	accoutCli "github.com/namelessup/bilibili/app/service/main/account/api"
+	memModel "github.com/namelessup/bilibili/app/service/main/member/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 // CheckBirthday check user had birthday info

@@ -28,7 +28,7 @@ go_library(
         "dao.go",
         "mysql.go",
     ],
-    importpath = "go-common/app/service/main/rank/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/main/rank/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

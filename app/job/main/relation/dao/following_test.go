@@ -1,7 +1,7 @@
 package dao
 
 import (
-	"go-common/app/job/main/relation/model"
+	"github.com/namelessup/bilibili/app/job/main/relation/model"
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"

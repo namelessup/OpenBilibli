@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"time"
 
-	"go-common/app/job/main/videoup-report/model/archive"
-	tmod "go-common/app/job/main/videoup-report/model/task"
-	"go-common/app/job/main/videoup-report/model/utils"
-	"go-common/library/database/sql"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/videoup-report/model/archive"
+	tmod "github.com/namelessup/bilibili/app/job/main/videoup-report/model/task"
+	"github.com/namelessup/bilibili/app/job/main/videoup-report/model/utils"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) hdlVideoTask(c context.Context, fn string) (err error) {

@@ -3,7 +3,7 @@ package dao
 import (
 	"context"
 
-	"go-common/app/interface/main/growup/model"
+	"github.com/namelessup/bilibili/app/interface/main/growup/model"
 )
 
 const (

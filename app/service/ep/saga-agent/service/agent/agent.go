@@ -7,8 +7,8 @@ import (
 	"runtime/debug"
 	"strings"
 
-	"go-common/app/service/ep/saga-agent/conf"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/ep/saga-agent/conf"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/pkg/errors"
 )

@@ -2,7 +2,7 @@ package lancerlogstream
 
 import (
 	"errors"
-	"go-common/app/service/ops/log-agent/output/cache/file"
+	"github.com/namelessup/bilibili/app/service/ops/log-agent/output/cache/file"
 
 	"github.com/BurntSushi/toml"
 )

@@ -6,10 +6,10 @@ import (
 	"os/signal"
 	"syscall"
 
-	"go-common/app/job/main/coupon/conf"
-	"go-common/app/job/main/coupon/http"
-	"go-common/app/job/main/coupon/service"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/coupon/conf"
+	"github.com/namelessup/bilibili/app/job/main/coupon/http"
+	"github.com/namelessup/bilibili/app/job/main/coupon/service"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 var (

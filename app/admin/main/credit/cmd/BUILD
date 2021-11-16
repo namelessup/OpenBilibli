@@ -19,7 +19,7 @@ go_library(
         "convey-test.toml",
         "credit-admin-test.toml",
     ],
-    importpath = "go-common/app/admin/main/credit/cmd",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/credit/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

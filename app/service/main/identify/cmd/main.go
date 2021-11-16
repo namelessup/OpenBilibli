@@ -8,13 +8,13 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/app/service/main/identify/conf"
-	"go-common/app/service/main/identify/server/grpc"
-	"go-common/app/service/main/identify/server/http"
-	"go-common/app/service/main/identify/service"
-	"go-common/library/log"
-	// "go-common/library/net/rpc/warden/resolver/livezk"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/app/service/main/identify/conf"
+	"github.com/namelessup/bilibili/app/service/main/identify/server/grpc"
+	"github.com/namelessup/bilibili/app/service/main/identify/server/http"
+	"github.com/namelessup/bilibili/app/service/main/identify/service"
+	"github.com/namelessup/bilibili/library/log"
+	// "github.com/namelessup/bilibili/library/net/rpc/warden/resolver/livezk"
+	"github.com/namelessup/bilibili/library/net/trace"
 )
 
 const (

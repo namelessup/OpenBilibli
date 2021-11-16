@@ -25,7 +25,7 @@ go_library(
         "cache.go",
         "mobile.go",
     ],
-    importpath = "go-common/app/interface/main/app-wall/dao/mobile",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-wall/dao/mobile",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

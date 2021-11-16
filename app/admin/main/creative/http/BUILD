@@ -46,7 +46,7 @@ go_library(
         "upload.go",
         "whitelist.go",
     ],
-    importpath = "go-common/app/admin/main/creative/http",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/creative/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

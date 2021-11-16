@@ -3,10 +3,10 @@ package grpc
 import (
 	"context"
 
-	v1 "go-common/app/service/main/tag/api"
-	"go-common/app/service/main/tag/model"
-	"go-common/app/service/main/tag/service"
-	"go-common/library/net/rpc/warden"
+	v1 "github.com/namelessup/bilibili/app/service/main/tag/api"
+	"github.com/namelessup/bilibili/app/service/main/tag/model"
+	"github.com/namelessup/bilibili/app/service/main/tag/service"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 )
 
 type grpcServer struct {

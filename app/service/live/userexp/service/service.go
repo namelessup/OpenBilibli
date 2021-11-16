@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 
-	"go-common/app/service/live/userexp/conf"
-	"go-common/app/service/live/userexp/dao"
-	"go-common/library/cache"
+	"github.com/namelessup/bilibili/app/service/live/userexp/conf"
+	"github.com/namelessup/bilibili/app/service/live/userexp/dao"
+	"github.com/namelessup/bilibili/library/cache"
 )
 
 // Service http service

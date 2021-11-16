@@ -1,8 +1,8 @@
 package redis
 
 import (
-	"go-common/app/job/main/videoup-report/conf"
-	"go-common/library/cache/redis"
+	"github.com/namelessup/bilibili/app/job/main/videoup-report/conf"
+	"github.com/namelessup/bilibili/library/cache/redis"
 )
 
 // Dao is redis dao.

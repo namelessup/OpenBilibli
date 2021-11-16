@@ -2,11 +2,11 @@ package whitelist
 
 import (
 	"context"
-	"go-common/app/interface/main/creative/conf"
-	"go-common/app/interface/main/creative/dao/whitelist"
-	accmdl "go-common/app/interface/main/creative/model/account"
-	"go-common/app/interface/main/creative/service"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/creative/conf"
+	"github.com/namelessup/bilibili/app/interface/main/creative/dao/whitelist"
+	accmdl "github.com/namelessup/bilibili/app/interface/main/creative/model/account"
+	"github.com/namelessup/bilibili/app/interface/main/creative/service"
+	"github.com/namelessup/bilibili/library/log"
 	"time"
 )
 

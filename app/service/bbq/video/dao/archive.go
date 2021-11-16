@@ -5,10 +5,10 @@ import (
 	"errors"
 	"fmt"
 
-	"go-common/app/service/bbq/video/model"
-	xsql "go-common/library/database/sql"
-	"go-common/library/ecode"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/service/bbq/video/model"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/queue/databus"
 
 	"github.com/json-iterator/go"
 )

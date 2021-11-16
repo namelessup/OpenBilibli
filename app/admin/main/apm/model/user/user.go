@@ -1,7 +1,7 @@
 package user
 
 import (
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 // TableName case tablename

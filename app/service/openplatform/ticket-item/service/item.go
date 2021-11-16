@@ -7,11 +7,11 @@ import (
 	"strings"
 
 	"fmt"
-	item "go-common/app/service/openplatform/ticket-item/api/grpc/v1"
-	"go-common/app/service/openplatform/ticket-item/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/time"
+	item "github.com/namelessup/bilibili/app/service/openplatform/ticket-item/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-item/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 // Info get item info

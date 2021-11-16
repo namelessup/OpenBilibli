@@ -4,8 +4,8 @@ import (
 	"context"
 	"encoding/json"
 
-	"go-common/app/service/main/assist/model/message"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/assist/model/message"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) relationConsumer() {

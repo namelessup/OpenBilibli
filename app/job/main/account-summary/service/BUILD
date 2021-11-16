@@ -17,7 +17,7 @@ go_library(
         "summary.go",
         "sync.go",
     ],
-    importpath = "go-common/app/job/main/account-summary/service",
+    importpath = "github.com/namelessup/bilibili/app/job/main/account-summary/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

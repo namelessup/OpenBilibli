@@ -6,9 +6,9 @@ import (
 
 	"github.com/golang/glog"
 
-	"go-common/app/tool/protoc-gen-bm/codegenerator"
-	"go-common/app/tool/protoc-gen-bm/genbm"
-	"go-common/app/tool/protoc-gen-bm/util"
+	"github.com/namelessup/bilibili/app/tool/protoc-gen-bm/codegenerator"
+	"github.com/namelessup/bilibili/app/tool/protoc-gen-bm/genbm"
+	"github.com/namelessup/bilibili/app/tool/protoc-gen-bm/util"
 )
 
 var useJSONPB bool

@@ -8,11 +8,11 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/app/job/main/passport-game-data/conf"
-	"go-common/app/job/main/passport-game-data/http"
-	"go-common/app/job/main/passport-game-data/service"
-	"go-common/library/log"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/app/job/main/passport-game-data/conf"
+	"github.com/namelessup/bilibili/app/job/main/passport-game-data/http"
+	"github.com/namelessup/bilibili/app/job/main/passport-game-data/service"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
 )
 
 var (

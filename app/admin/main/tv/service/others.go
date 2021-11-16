@@ -7,10 +7,10 @@ import (
 	"net/url"
 	"strconv"
 
-	"go-common/app/admin/main/tv/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/admin/main/tv/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/xstr"
 
 	"github.com/jinzhu/gorm"
 )

@@ -3,8 +3,8 @@ package ping
 import (
 	"context"
 
-	"go-common/app/admin/main/app/conf"
-	pgdao "go-common/app/admin/main/app/dao/audit"
+	"github.com/namelessup/bilibili/app/admin/main/app/conf"
+	pgdao "github.com/namelessup/bilibili/app/admin/main/app/dao/audit"
 )
 
 // Service dao

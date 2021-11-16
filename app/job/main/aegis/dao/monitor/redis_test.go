@@ -2,7 +2,7 @@ package monitor
 
 import (
 	"context"
-	"go-common/app/job/main/aegis/model/monitor"
+	"github.com/namelessup/bilibili/app/job/main/aegis/model/monitor"
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"

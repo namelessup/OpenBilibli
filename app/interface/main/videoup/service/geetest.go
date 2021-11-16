@@ -4,9 +4,9 @@ import (
 	"context"
 	"crypto/md5"
 	"encoding/hex"
-	"go-common/app/interface/main/videoup/model/archive"
-	gmdl "go-common/app/interface/main/videoup/model/geetest"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/videoup/model/archive"
+	gmdl "github.com/namelessup/bilibili/app/interface/main/videoup/model/geetest"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Validate fn

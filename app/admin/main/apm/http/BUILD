@@ -28,7 +28,7 @@ go_library(
         "ut_app.go",
         "ut_dash.go",
     ],
-    importpath = "go-common/app/admin/main/apm/http",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/apm/http",
     tags = ["automanaged"],
     deps = [
         "//app/admin/main/apm/conf:go_default_library",

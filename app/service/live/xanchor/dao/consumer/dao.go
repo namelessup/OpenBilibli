@@ -3,9 +3,9 @@ package consumer
 import (
 	"context"
 
-	"go-common/app/service/live/xanchor/conf"
-	"go-common/library/cache/redis"
-	xsql "go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/service/live/xanchor/conf"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
 )
 
 type refValue struct {

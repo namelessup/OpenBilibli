@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"testing"
 
-	"go-common/app/admin/main/config/pkg/lint"
-	_ "go-common/app/admin/main/config/pkg/lint/json"
-	_ "go-common/app/admin/main/config/pkg/lint/toml"
+	"github.com/namelessup/bilibili/app/admin/main/config/pkg/lint"
+	_ "github.com/namelessup/bilibili/app/admin/main/config/pkg/lint/json"
+	_ "github.com/namelessup/bilibili/app/admin/main/config/pkg/lint/toml"
 )
 
 func TestLint(t *testing.T) {

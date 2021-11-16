@@ -10,7 +10,7 @@ go_library(
         "aso_bin_log.go",
         "service.go",
     ],
-    importpath = "go-common/app/job/main/passport-game-local/service",
+    importpath = "github.com/namelessup/bilibili/app/job/main/passport-game-local/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

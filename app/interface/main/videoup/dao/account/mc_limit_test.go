@@ -2,7 +2,7 @@ package account
 
 import (
 	"context"
-	"go-common/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/cache/memcache"
 	"reflect"
 	"testing"
 

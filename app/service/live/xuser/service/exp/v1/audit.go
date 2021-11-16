@@ -1,11 +1,11 @@
 package v1
 
 import (
-	"go-common/app/service/live/xuser/model/exp"
-	expm "go-common/app/service/live/xuser/model/exp"
-	"go-common/library/log"
-	"go-common/library/queue/databus/report"
-	gtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/service/live/xuser/model/exp"
+	expm "github.com/namelessup/bilibili/app/service/live/xuser/model/exp"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus/report"
+	gtime "github.com/namelessup/bilibili/library/time"
 	"strconv"
 	"time"
 )

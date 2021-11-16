@@ -4,7 +4,7 @@ import (
 	"context"
 	"net/http"
 
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 // Live gets live dynamic count

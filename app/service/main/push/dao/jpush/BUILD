@@ -30,7 +30,7 @@ go_library(
         "report.go",
         "schedule.go",
     ],
-    importpath = "go-common/app/service/main/push/dao/jpush",
+    importpath = "github.com/namelessup/bilibili/app/service/main/push/dao/jpush",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

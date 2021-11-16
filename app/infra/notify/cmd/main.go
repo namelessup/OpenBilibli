@@ -6,9 +6,9 @@ import (
 	"os/signal"
 	"syscall"
 
-	"go-common/app/infra/notify/conf"
-	"go-common/app/infra/notify/http"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/infra/notify/conf"
+	"github.com/namelessup/bilibili/app/infra/notify/http"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func main() {

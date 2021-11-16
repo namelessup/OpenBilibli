@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["coupon.go"],
-    importpath = "go-common/app/service/main/coupon/rpc/client",
+    importpath = "github.com/namelessup/bilibili/app/service/main/coupon/rpc/client",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

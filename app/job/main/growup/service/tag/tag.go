@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 
-	task "go-common/app/job/main/growup/service"
+	task "github.com/namelessup/bilibili/app/job/main/growup/service"
 
-	"go-common/library/database/sql"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // TagRatioAll cal tag ratio all

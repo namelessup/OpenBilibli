@@ -3,11 +3,11 @@ package dao
 import (
 	"context"
 	"github.com/jinzhu/gorm"
-	"go-common/app/service/live/resource/api/http/v1"
-	"go-common/app/service/live/resource/model"
-	"go-common/library/database/sql"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/live/resource/api/http/v1"
+	"github.com/namelessup/bilibili/app/service/live/resource/model"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 	xtime "time"
 )
 

@@ -10,11 +10,11 @@ import (
 	"sync"
 	"time"
 
-	"go-common/app/job/main/tv/conf"
-	"go-common/app/job/main/tv/dao/report"
-	mdlrep "go-common/app/job/main/tv/model/report"
-	"go-common/library/log"
-	"go-common/library/sync/pipeline/fanout"
+	"github.com/namelessup/bilibili/app/job/main/tv/conf"
+	"github.com/namelessup/bilibili/app/job/main/tv/dao/report"
+	mdlrep "github.com/namelessup/bilibili/app/job/main/tv/model/report"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/pipeline/fanout"
 
 	"github.com/robfig/cron"
 )

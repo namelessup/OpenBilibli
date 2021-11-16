@@ -11,7 +11,7 @@ go_library(
         "pay.go",
         "sign.go",
     ],
-    importpath = "go-common/app/service/main/tv/internal/service/validator",
+    importpath = "github.com/namelessup/bilibili/app/service/main/tv/internal/service/validator",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

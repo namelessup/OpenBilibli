@@ -1,9 +1,9 @@
 package server
 
 import (
-	"go-common/app/service/main/archive/api"
-	"go-common/app/service/main/archive/model/archive"
-	"go-common/library/net/rpc/context"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/library/net/rpc/context"
 )
 
 // Types2 get all types

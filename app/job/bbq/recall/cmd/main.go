@@ -7,10 +7,10 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/app/job/bbq/recall/internal/conf"
-	"go-common/app/job/bbq/recall/internal/service"
-	"go-common/library/log"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/app/job/bbq/recall/internal/conf"
+	"github.com/namelessup/bilibili/app/job/bbq/recall/internal/service"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
 )
 
 var (

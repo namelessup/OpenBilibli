@@ -6,12 +6,12 @@ import (
 	"os/signal"
 	"syscall"
 
-	"go-common/app/interface/main/favorite/conf"
-	"go-common/app/interface/main/favorite/http"
-	"go-common/app/interface/main/favorite/service"
-	ecode "go-common/library/ecode/tip"
-	"go-common/library/log"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/app/interface/main/favorite/conf"
+	"github.com/namelessup/bilibili/app/interface/main/favorite/http"
+	"github.com/namelessup/bilibili/app/interface/main/favorite/service"
+	ecode "github.com/namelessup/bilibili/library/ecode/tip"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
 )
 
 var svc *service.Service

@@ -2,7 +2,7 @@ package timemachine
 
 import (
 	"context"
-	"go-common/app/interface/main/activity/model/timemachine"
+	"github.com/namelessup/bilibili/app/interface/main/activity/model/timemachine"
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"

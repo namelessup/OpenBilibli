@@ -32,7 +32,7 @@ import proto "github.com/gogo/protobuf/proto"
 import fmt "fmt"
 import math "math"
 import _ "github.com/gogo/protobuf/gogoproto"
-import push_service_broadcast_model "go-common/app/service/main/broadcast/model"
+import push_service_broadcast_model "github.com/namelessup/bilibili/app/service/main/broadcast/model"
 
 import context "golang.org/x/net/context"
 import grpc "google.golang.org/grpc"

@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"time"
 
-	"go-common/app/job/main/feed/dao"
-	"go-common/app/job/main/feed/model"
-	feedmdl "go-common/app/service/main/feed/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/feed/dao"
+	"github.com/namelessup/bilibili/app/job/main/feed/model"
+	feedmdl "github.com/namelessup/bilibili/app/service/main/feed/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

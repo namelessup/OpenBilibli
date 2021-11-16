@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["tables.go"],
-    importpath = "go-common/app/job/main/up/model/archivemodel",
+    importpath = "github.com/namelessup/bilibili/app/job/main/up/model/archivemodel",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

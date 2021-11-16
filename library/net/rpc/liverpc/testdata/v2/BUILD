@@ -19,7 +19,7 @@ proto_library(
 go_proto_library(
     name = "v2_go_proto",
     compilers = ["@io_bazel_rules_go//proto:go_grpc"],
-    importpath = "go-common/library/net/rpc/liverpc/testdata/v2",
+    importpath = "github.com/namelessup/bilibili/library/net/rpc/liverpc/testdata/v2",
     proto = ":v2_proto",
     tags = ["automanaged"],
 )
@@ -28,7 +28,7 @@ go_library(
     name = "go_default_library",
     srcs = ["Room.liverpc.go"],
     embed = [":v2_go_proto"],
-    importpath = "go-common/library/net/rpc/liverpc/testdata/v2",
+    importpath = "github.com/namelessup/bilibili/library/net/rpc/liverpc/testdata/v2",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

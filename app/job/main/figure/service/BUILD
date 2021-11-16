@@ -44,7 +44,7 @@ go_library(
         "sync.go",
         "vip.go",
     ],
-    importpath = "go-common/app/job/main/figure/service",
+    importpath = "github.com/namelessup/bilibili/app/job/main/figure/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

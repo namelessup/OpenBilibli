@@ -3,7 +3,7 @@ package dao
 import (
 	"testing"
 
-	"go-common/app/admin/ep/saga/model"
+	"github.com/namelessup/bilibili/app/admin/ep/saga/model"
 
 	"github.com/smartystreets/goconvey/convey"
 )

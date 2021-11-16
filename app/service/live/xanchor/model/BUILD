@@ -11,7 +11,7 @@ go_library(
         "databusMsg.go",
         "model.go",
     ],
-    importpath = "go-common/app/service/live/xanchor/model",
+    importpath = "github.com/namelessup/bilibili/app/service/live/xanchor/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

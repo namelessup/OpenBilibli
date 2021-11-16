@@ -1,8 +1,8 @@
 package history
 
 import (
-	hismodel "go-common/app/interface/main/history/model"
-	"go-common/app/interface/main/tv/model"
+	hismodel "github.com/namelessup/bilibili/app/interface/main/history/model"
+	"github.com/namelessup/bilibili/app/interface/main/tv/model"
 )
 
 // HisRes is the history resource model

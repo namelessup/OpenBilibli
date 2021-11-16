@@ -2,12 +2,12 @@ package dao
 
 import (
 	"context"
-	"go-common/app/service/live/rtc/internal/model"
-	"go-common/library/cache/redis"
+	"github.com/namelessup/bilibili/app/service/live/rtc/internal/model"
+	"github.com/namelessup/bilibili/library/cache/redis"
 	"time"
 
-	"go-common/app/service/live/rtc/internal/conf"
-	xsql "go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/service/live/rtc/internal/conf"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
 )
 
 // Dao dao

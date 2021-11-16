@@ -10,11 +10,11 @@ import (
 	"github.com/pkg/errors"
 	. "github.com/smartystreets/goconvey/convey"
 
-	"go-common/app/service/live/wallet/conf"
-	"go-common/app/service/live/wallet/model"
-	"go-common/library/database/sql"
-	"go-common/library/ecode"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/service/live/wallet/conf"
+	"github.com/namelessup/bilibili/app/service/live/wallet/model"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 func getTestExtendTid() string {

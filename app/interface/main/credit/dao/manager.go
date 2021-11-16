@@ -6,9 +6,9 @@ import (
 	"strconv"
 	"sync"
 
-	"go-common/app/interface/main/credit/model"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/interface/main/credit/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 // Managers get manager users info.

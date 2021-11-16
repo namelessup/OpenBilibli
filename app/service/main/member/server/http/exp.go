@@ -1,9 +1,9 @@
 package http
 
 import (
-	"go-common/app/service/main/member/model"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/service/main/member/model"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 func exp(ctx *bm.Context) {

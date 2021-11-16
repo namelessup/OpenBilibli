@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/service/main/up/model"
-	"go-common/library/net/rpc"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/service/main/up/model"
+	"github.com/namelessup/bilibili/library/net/rpc"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	"github.com/davecgh/go-spew/spew"
 )

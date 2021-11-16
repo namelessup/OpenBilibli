@@ -361,6 +361,6 @@ to = ["jiangdongqi@bilibili.com"]
 [vst]
 	tmpstatus = -3
 [path]
-	cids="/Users/Cheney/go/src/go-common/app/job/bbq/video/cmd/cids"
+	cids="/Users/Cheney/go/src/github.com/namelessup/bilibili/app/job/bbq/video/cmd/cids"
 [subbvccontrol]
 	control = 1

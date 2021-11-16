@@ -8,15 +8,15 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/service/openplatform/ticket-sales/api/grpc/type"
-	rpc "go-common/app/service/openplatform/ticket-sales/api/grpc/v1"
-	"go-common/app/service/openplatform/ticket-sales/dao"
-	"go-common/app/service/openplatform/ticket-sales/model"
-	"go-common/app/service/openplatform/ticket-sales/model/consts"
-	oca "go-common/app/service/openplatform/ticket-sales/model/order_checker/account"
-	oci "go-common/app/service/openplatform/ticket-sales/model/order_checker/item"
-	"go-common/library/ecode"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/api/grpc/type"
+	rpc "github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/dao"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/model"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/model/consts"
+	oca "github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/model/order_checker/account"
+	oci "github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/model/order_checker/item"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 //OrderChecker 下单前置检查器，每个检查器需要有个Check方法，接收下单请求做为参数，返回和下单请求数一样多且顺序也一样的ecode.Codes，errcode不为0的在后续流程中拦截

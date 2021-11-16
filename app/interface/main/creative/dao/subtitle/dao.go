@@ -1,8 +1,8 @@
 package subtitle
 
 import (
-	"go-common/app/interface/main/creative/conf"
-	"go-common/app/interface/main/dm2/rpc/client"
+	"github.com/namelessup/bilibili/app/interface/main/creative/conf"
+	"github.com/namelessup/bilibili/app/interface/main/dm2/rpc/client"
 )
 
 // Dao fn

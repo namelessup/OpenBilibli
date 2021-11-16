@@ -3,8 +3,8 @@ package operator
 import (
 	"time"
 
-	"go-common/library/log"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 type Reddot struct {

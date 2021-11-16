@@ -14,7 +14,7 @@ go_library(
         "service.go",
         "view.go",
     ],
-    importpath = "go-common/app/interface/main/app-intl/service/view",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-intl/service/view",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

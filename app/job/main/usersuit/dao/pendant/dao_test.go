@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"go-common/app/job/main/usersuit/conf"
+	"github.com/namelessup/bilibili/app/job/main/usersuit/conf"
 
 	_ "github.com/go-sql-driver/mysql"
 	. "github.com/smartystreets/goconvey/convey"

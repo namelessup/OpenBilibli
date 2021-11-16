@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"go-common/app/interface/main/up-rating/model"
-	"go-common/library/cache/redis"
+	"github.com/namelessup/bilibili/app/interface/main/up-rating/model"
+	"github.com/namelessup/bilibili/library/cache/redis"
 
 	"github.com/pkg/errors"
 )

@@ -7,11 +7,11 @@ import (
 	"strings"
 	"time"
 
-	dao "go-common/app/job/main/growup/dao/income"
-	model "go-common/app/job/main/growup/model/income"
+	dao "github.com/namelessup/bilibili/app/job/main/growup/dao/income"
+	model "github.com/namelessup/bilibili/app/job/main/growup/model/income"
 
-	"go-common/library/log"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	"golang.org/x/sync/errgroup"
 )

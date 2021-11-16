@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["favorite-job-test.toml"],
-    importpath = "go-common/app/job/main/favorite/cmd",
+    importpath = "github.com/namelessup/bilibili/app/job/main/favorite/cmd",
     tags = ["automanaged"],
     deps = [
         "//app/job/main/favorite/conf:go_default_library",

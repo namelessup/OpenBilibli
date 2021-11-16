@@ -37,7 +37,7 @@ go_library(
         "mc.go",
         "white.go",
     ],
-    importpath = "go-common/app/admin/main/filter/dao",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/filter/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

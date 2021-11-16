@@ -1,9 +1,9 @@
 package data
 
 import (
-	"go-common/app/interface/main/creative/model/archive"
-	upgrpc "go-common/app/service/main/up/api/v1"
-	"go-common/app/service/main/up/model"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/archive"
+	upgrpc "github.com/namelessup/bilibili/app/service/main/up/api/v1"
+	"github.com/namelessup/bilibili/app/service/main/up/model"
 )
 
 // ArchiveStat for archive stat.

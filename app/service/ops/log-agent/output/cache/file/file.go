@@ -17,9 +17,9 @@ import (
 	"bytes"
 	"io"
 	"strings"
-	"go-common/app/service/ops/log-agent/event"
-	"go-common/library/log"
-	"go-common/app/service/ops/log-agent/pkg/flowmonitor"
+	"github.com/namelessup/bilibili/app/service/ops/log-agent/event"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/app/service/ops/log-agent/pkg/flowmonitor"
 
 	"github.com/fsnotify/fsnotify"
 )

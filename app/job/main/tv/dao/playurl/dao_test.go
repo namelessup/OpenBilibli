@@ -3,7 +3,7 @@ package playurl
 import (
 	"context"
 	"flag"
-	"go-common/app/job/main/tv/conf"
+	"github.com/namelessup/bilibili/app/job/main/tv/conf"
 	"path/filepath"
 )
 

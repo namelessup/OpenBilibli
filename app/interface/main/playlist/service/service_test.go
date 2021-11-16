@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"go-common/app/interface/main/playlist/conf"
+	"github.com/namelessup/bilibili/app/interface/main/playlist/conf"
 )
 
 var (

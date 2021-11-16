@@ -7,12 +7,12 @@ import (
 	"strings"
 	"time"
 
-	dmmdl "go-common/app/interface/main/dm2/model"
-	"go-common/app/job/main/archive/model/dm"
-	"go-common/app/service/main/archive/api"
-	"go-common/app/service/main/archive/model/archive"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
+	dmmdl "github.com/namelessup/bilibili/app/interface/main/dm2/model"
+	"github.com/namelessup/bilibili/app/job/main/archive/model/dm"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 const (

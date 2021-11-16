@@ -5,9 +5,9 @@ import (
 	"sort"
 	"time"
 
-	"go-common/app/interface/main/creative/model/data"
-	artmdl "go-common/app/interface/openplatform/article/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/data"
+	artmdl "github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // ThirtyDayArticle for 30 days.

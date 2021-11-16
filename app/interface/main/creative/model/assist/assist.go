@@ -1,6 +1,6 @@
 package assist
 
-import "go-common/library/time"
+import "github.com/namelessup/bilibili/library/time"
 
 var (
 	// ActEnum action enum

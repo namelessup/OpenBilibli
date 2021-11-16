@@ -2,7 +2,7 @@ package app
 
 import (
 	"context"
-	"go-common/app/job/main/tv/model/common"
+	"github.com/namelessup/bilibili/app/job/main/tv/model/common"
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"

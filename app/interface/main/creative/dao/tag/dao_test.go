@@ -2,7 +2,7 @@ package tag
 
 import (
 	"flag"
-	"go-common/app/interface/main/creative/conf"
+	"github.com/namelessup/bilibili/app/interface/main/creative/conf"
 	"gopkg.in/h2non/gock.v1"
 	"os"
 	"strings"

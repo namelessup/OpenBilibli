@@ -5,14 +5,14 @@ import (
 	"os"
 	"time"
 
-	"go-common/app/service/main/figure/conf"
-	"go-common/app/service/main/figure/http"
-	rpc "go-common/app/service/main/figure/rpc/server"
-	"go-common/app/service/main/figure/service"
-	"go-common/library/log"
-	"go-common/library/net/trace"
-	"go-common/library/os/signal"
-	"go-common/library/syscall"
+	"github.com/namelessup/bilibili/app/service/main/figure/conf"
+	"github.com/namelessup/bilibili/app/service/main/figure/http"
+	rpc "github.com/namelessup/bilibili/app/service/main/figure/rpc/server"
+	"github.com/namelessup/bilibili/app/service/main/figure/service"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
+	"github.com/namelessup/bilibili/library/os/signal"
+	"github.com/namelessup/bilibili/library/syscall"
 )
 
 var svr *service.Service

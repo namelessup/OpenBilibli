@@ -5,11 +5,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	arcrpc "go-common/app/service/main/archive/api/gorpc"
-	"go-common/app/service/main/tag/conf"
-	"go-common/app/service/main/tag/dao"
-	"go-common/app/service/main/tag/model"
-	"go-common/library/cache"
+	arcrpc "github.com/namelessup/bilibili/app/service/main/archive/api/gorpc"
+	"github.com/namelessup/bilibili/app/service/main/tag/conf"
+	"github.com/namelessup/bilibili/app/service/main/tag/dao"
+	"github.com/namelessup/bilibili/app/service/main/tag/model"
+	"github.com/namelessup/bilibili/library/cache"
 )
 
 // Service service.

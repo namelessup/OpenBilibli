@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"time"
 
-	"go-common/app/infra/config/model"
-	"go-common/library/cache/redis"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/infra/config/model"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

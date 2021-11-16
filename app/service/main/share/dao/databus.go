@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/service/main/share/model"
+	"github.com/namelessup/bilibili/app/service/main/share/model"
 )
 
 // PubShare .

@@ -8,12 +8,12 @@ import (
 	"strconv"
 	"strings"
 
-	"go-common/app/infra/discovery/conf"
-	"go-common/app/infra/discovery/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/infra/discovery/conf"
+	"github.com/namelessup/bilibili/app/infra/discovery/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 const (

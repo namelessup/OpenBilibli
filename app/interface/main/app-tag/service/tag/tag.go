@@ -6,17 +6,17 @@ import (
 	"time"
 
 	"context"
-	"go-common/app/interface/main/app-tag/model"
-	"go-common/app/interface/main/app-tag/model/bangumi"
-	"go-common/app/interface/main/app-tag/model/feed"
-	"go-common/app/interface/main/app-tag/model/region"
-	"go-common/app/interface/main/app-tag/model/tag"
-	bustag "go-common/app/interface/main/tag/model"
-	"go-common/app/service/main/archive/api"
-	"go-common/app/service/main/archive/model/archive"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/interface/main/app-tag/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-tag/model/bangumi"
+	"github.com/namelessup/bilibili/app/interface/main/app-tag/model/feed"
+	"github.com/namelessup/bilibili/app/interface/main/app-tag/model/region"
+	"github.com/namelessup/bilibili/app/interface/main/app-tag/model/tag"
+	bustag "github.com/namelessup/bilibili/app/interface/main/tag/model"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 var (

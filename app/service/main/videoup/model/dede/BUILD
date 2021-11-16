@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["dede.go"],
-    importpath = "go-common/app/service/main/videoup/model/dede",
+    importpath = "github.com/namelessup/bilibili/app/service/main/videoup/model/dede",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

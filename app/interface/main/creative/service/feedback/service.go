@@ -3,10 +3,10 @@ package feedback
 import (
 	"context"
 
-	"go-common/app/interface/main/creative/conf"
-	"go-common/app/interface/main/creative/dao/feedback"
-	fdMdl "go-common/app/interface/main/creative/model/feedback"
-	"go-common/app/interface/main/creative/service"
+	"github.com/namelessup/bilibili/app/interface/main/creative/conf"
+	"github.com/namelessup/bilibili/app/interface/main/creative/dao/feedback"
+	fdMdl "github.com/namelessup/bilibili/app/interface/main/creative/model/feedback"
+	"github.com/namelessup/bilibili/app/interface/main/creative/service"
 )
 
 //Service struct.

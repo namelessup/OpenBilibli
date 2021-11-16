@@ -2,7 +2,7 @@ package model
 
 import (
 	"errors"
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 const (

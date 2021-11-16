@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["push-strategy-test.toml"],
-    importpath = "go-common/app/service/main/push-strategy/cmd",
+    importpath = "github.com/namelessup/bilibili/app/service/main/push-strategy/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

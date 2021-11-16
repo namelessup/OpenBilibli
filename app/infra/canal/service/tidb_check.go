@@ -3,7 +3,7 @@ package service
 import (
 	"regexp"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (ins *tidbInstance) check() (err error) {

@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/app/service/main/member/model"
-	"go-common/library/cache/redis"
+	"github.com/namelessup/bilibili/app/service/main/member/model"
+	"github.com/namelessup/bilibili/library/cache/redis"
 )
 
 const (

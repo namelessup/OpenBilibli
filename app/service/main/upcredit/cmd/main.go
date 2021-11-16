@@ -7,10 +7,10 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/app/service/main/upcredit/conf"
-	"go-common/app/service/main/upcredit/http"
-	"go-common/library/log"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/app/service/main/upcredit/conf"
+	"github.com/namelessup/bilibili/app/service/main/upcredit/http"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
 )
 
 func main() {

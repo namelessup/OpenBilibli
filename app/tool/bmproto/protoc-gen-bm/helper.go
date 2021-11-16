@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"strings"
 
-	"go-common/app/tool/bmproto/protoc-gen-bm/extensions/gogoproto"
+	"github.com/namelessup/bilibili/app/tool/bmproto/protoc-gen-bm/extensions/gogoproto"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/protoc-gen-go/descriptor"

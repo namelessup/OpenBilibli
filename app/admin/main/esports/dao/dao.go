@@ -3,10 +3,10 @@ package dao
 import (
 	"context"
 
-	"go-common/app/admin/main/esports/conf"
-	"go-common/library/database/elastic"
-	"go-common/library/database/orm"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/esports/conf"
+	"github.com/namelessup/bilibili/library/database/elastic"
+	"github.com/namelessup/bilibili/library/database/orm"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 
 	"github.com/jinzhu/gorm"
 )

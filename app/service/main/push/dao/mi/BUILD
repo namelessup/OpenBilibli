@@ -25,7 +25,7 @@ go_library(
         "constant.go",
         "notification.go",
     ],
-    importpath = "go-common/app/service/main/push/dao/mi",
+    importpath = "github.com/namelessup/bilibili/app/service/main/push/dao/mi",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

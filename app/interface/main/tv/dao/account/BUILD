@@ -29,7 +29,7 @@ go_library(
         "card.go",
         "dao.go",
     ],
-    importpath = "go-common/app/interface/main/tv/dao/account",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/tv/dao/account",
     tags = ["automanaged"],
     deps = [
         "//app/interface/main/tv/conf:go_default_library",

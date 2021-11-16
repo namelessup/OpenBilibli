@@ -1,9 +1,9 @@
 package dao
 
 import (
-	"go-common/app/interface/live/app-room/conf"
-	userextApi "go-common/app/service/live/userext/api/liverpc"
-	"go-common/library/net/rpc/liverpc"
+	"github.com/namelessup/bilibili/app/interface/live/app-room/conf"
+	userextApi "github.com/namelessup/bilibili/app/service/live/userext/api/liverpc"
+	"github.com/namelessup/bilibili/library/net/rpc/liverpc"
 )
 
 // InitAPI init all service APIs

@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"time"
 
-	hismdl "go-common/app/interface/main/history/model"
-	"go-common/app/interface/openplatform/article/dao"
-	"go-common/app/interface/openplatform/article/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	hismdl "github.com/namelessup/bilibili/app/interface/main/history/model"
+	"github.com/namelessup/bilibili/app/interface/openplatform/article/dao"
+	"github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const _historyArtType = 5

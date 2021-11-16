@@ -4,10 +4,10 @@ import (
 	"context"
 	"database/sql"
 
-	"go-common/app/service/main/tv/internal/model"
-	xsql "go-common/library/database/sql"
-	"go-common/library/log"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/service/main/tv/internal/model"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	"github.com/pkg/errors"
 )

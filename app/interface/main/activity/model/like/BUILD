@@ -22,7 +22,7 @@ go_library(
         "useractievement.go",
     ],
     embed = [":like_go_proto"],
-    importpath = "go-common/app/interface/main/activity/model/like",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/activity/model/like",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [
@@ -63,7 +63,7 @@ proto_library(
 go_proto_library(
     name = "like_go_proto",
     compilers = ["@io_bazel_rules_go//proto:gogofast_proto"],
-    importpath = "go-common/app/interface/main/activity/model/like",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/activity/model/like",
     proto = ":like_proto",
     tags = ["automanaged"],
     deps = [

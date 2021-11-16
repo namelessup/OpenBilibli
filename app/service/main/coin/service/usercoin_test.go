@@ -3,7 +3,7 @@ package service
 import (
 	"testing"
 
-	pb "go-common/app/service/main/coin/api"
+	pb "github.com/namelessup/bilibili/app/service/main/coin/api"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

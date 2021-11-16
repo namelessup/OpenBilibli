@@ -5,7 +5,7 @@ import (
 	"regexp"
 	"strings"
 
-	"go-common/app/service/main/antispam/util"
+	"github.com/namelessup/bilibili/app/service/main/antispam/util"
 )
 
 const (

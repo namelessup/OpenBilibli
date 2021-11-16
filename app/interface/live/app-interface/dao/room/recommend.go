@@ -7,11 +7,11 @@ import (
 
 	"github.com/pkg/errors"
 
-	"go-common/app/interface/live/app-interface/conf"
-	cDao "go-common/app/interface/live/app-interface/dao"
-	roomV1 "go-common/app/service/live/room/api/liverpc/v1"
-	"go-common/library/log"
-	rpcCtx "go-common/library/net/rpc/liverpc/context"
+	"github.com/namelessup/bilibili/app/interface/live/app-interface/conf"
+	cDao "github.com/namelessup/bilibili/app/interface/live/app-interface/dao"
+	roomV1 "github.com/namelessup/bilibili/app/service/live/room/api/liverpc/v1"
+	"github.com/namelessup/bilibili/library/log"
+	rpcCtx "github.com/namelessup/bilibili/library/net/rpc/liverpc/context"
 )
 
 // 获取首页推荐强推列表

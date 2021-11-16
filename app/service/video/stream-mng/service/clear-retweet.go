@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 	"fmt"
-	"go-common/app/service/video/stream-mng/model"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/service/video/stream-mng/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 // ClearStreamStatus 清理互推标记

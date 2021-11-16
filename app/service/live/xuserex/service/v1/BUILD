@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["roomNotice.go"],
-    importpath = "go-common/app/service/live/xuserex/service/v1",
+    importpath = "github.com/namelessup/bilibili/app/service/live/xuserex/service/v1",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

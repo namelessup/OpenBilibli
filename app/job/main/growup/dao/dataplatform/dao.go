@@ -1,9 +1,9 @@
 package dataplatform
 
 import (
-	"go-common/app/job/main/growup/conf"
-	"go-common/library/database/sql"
-	xhttp "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/job/main/growup/conf"
+	"github.com/namelessup/bilibili/library/database/sql"
+	xhttp "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // Dao is redis dao.

@@ -1,7 +1,7 @@
 package search
 
 import (
-	"go-common/app/admin/main/workflow/model"
+	"github.com/namelessup/bilibili/app/admin/main/workflow/model"
 )
 
 // ChallSearchCond is the condition model to send challenge search request

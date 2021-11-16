@@ -12,7 +12,7 @@ go_library(
         "addit.go",
         "relation.go",
     ],
-    importpath = "go-common/app/job/main/relation/model",
+    importpath = "github.com/namelessup/bilibili/app/job/main/relation/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//app/service/main/relation/model:go_default_library"],

@@ -3,12 +3,12 @@ package broadcast
 import (
 	"context"
 
-	"go-common/app/interface/main/app-resource/conf"
-	broaddao "go-common/app/interface/main/app-resource/dao/broadcast"
-	"go-common/app/interface/main/app-resource/model"
-	"go-common/app/interface/main/app-resource/model/broadcast"
-	warden "go-common/app/service/main/broadcast/api/grpc/v1"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/app-resource/conf"
+	broaddao "github.com/namelessup/bilibili/app/interface/main/app-resource/dao/broadcast"
+	"github.com/namelessup/bilibili/app/interface/main/app-resource/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-resource/model/broadcast"
+	warden "github.com/namelessup/bilibili/app/service/main/broadcast/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 type Service struct {

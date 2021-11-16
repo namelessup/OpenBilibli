@@ -2,8 +2,8 @@ package dao
 
 import (
 	"context"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 	xhttp "net/http"
 	"net/url"
 	"strconv"

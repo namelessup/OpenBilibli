@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["zeus.go"],
-    importpath = "go-common/app/service/live/zeus/internal/service/v1",
+    importpath = "github.com/namelessup/bilibili/app/service/live/zeus/internal/service/v1",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

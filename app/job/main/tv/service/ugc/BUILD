@@ -43,7 +43,7 @@ go_library(
         "view.go",
         "zone_index.go",
     ],
-    importpath = "go-common/app/job/main/tv/service/ugc",
+    importpath = "github.com/namelessup/bilibili/app/job/main/tv/service/ugc",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

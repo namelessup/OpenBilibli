@@ -5,11 +5,11 @@ import (
 	"database/sql"
 	"fmt"
 
-	upMdl "go-common/app/interface/main/tv/model/upper"
-	"go-common/library/cache/memcache"
-	xsql "go-common/library/database/sql"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	upMdl "github.com/namelessup/bilibili/app/interface/main/tv/model/upper"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

@@ -1,10 +1,10 @@
 package http
 
 import (
-	"go-common/app/job/main/tv/conf"
-	xreport "go-common/app/job/main/tv/service/report"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/job/main/tv/conf"
+	xreport "github.com/namelessup/bilibili/app/job/main/tv/service/report"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 var report *xreport.Service

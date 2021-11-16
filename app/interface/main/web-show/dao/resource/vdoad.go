@@ -5,10 +5,10 @@ import (
 	"database/sql"
 	"time"
 
-	"go-common/app/interface/main/web-show/model/resource"
-	xsql "go-common/library/database/sql"
-	"go-common/library/log"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/interface/main/web-show/model/resource"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 const (

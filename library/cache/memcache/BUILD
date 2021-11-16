@@ -34,7 +34,7 @@ go_library(
         "trace.go",
         "util.go",
     ],
-    importpath = "go-common/library/cache/memcache",
+    importpath = "github.com/namelessup/bilibili/library/cache/memcache",
     tags = ["automanaged"],
     deps = [
         "//library/container/pool:go_default_library",

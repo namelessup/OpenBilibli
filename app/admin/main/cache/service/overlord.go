@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"strconv"
 
-	"go-common/app/admin/main/cache/model"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/admin/main/cache/model"
+	"github.com/namelessup/bilibili/library/ecode"
 
 	"github.com/BurntSushi/toml"
 )

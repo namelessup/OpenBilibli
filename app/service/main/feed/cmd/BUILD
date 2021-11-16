@@ -19,7 +19,7 @@ go_library(
         "convey-test.toml",
         "feed-service-test.toml",
     ],
-    importpath = "go-common/app/service/main/feed/cmd",
+    importpath = "github.com/namelessup/bilibili/app/service/main/feed/cmd",
     tags = ["automanaged"],
     deps = [
         "//app/service/main/feed/conf:go_default_library",

@@ -3,10 +3,10 @@ package service
 import (
 	"context"
 
-	accApi "go-common/app/service/main/account/api"
-	"go-common/app/service/main/videoup/model/archive"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	accApi "github.com/namelessup/bilibili/app/service/main/account/api"
+	"github.com/namelessup/bilibili/app/service/main/videoup/model/archive"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 // sendMsg send msg

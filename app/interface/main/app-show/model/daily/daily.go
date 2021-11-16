@@ -1,11 +1,11 @@
 package daily
 
 import (
-	xtime "go-common/library/time"
+	xtime "github.com/namelessup/bilibili/library/time"
 	"strconv"
 
-	"go-common/app/interface/main/app-show/model"
-	"go-common/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/model"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
 )
 
 // Show is module.

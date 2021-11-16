@@ -3,12 +3,12 @@ package dao
 import (
 	"context"
 
-	"go-common/app/service/main/share/conf"
-	"go-common/library/cache"
-	"go-common/library/cache/redis"
-	"go-common/library/database/sql"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/service/main/share/conf"
+	"github.com/namelessup/bilibili/library/cache"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 // Dao is redis dao.

@@ -4,12 +4,12 @@ import (
 	"context"
 	"encoding/json"
 
-	"go-common/app/interface/main/dm2/model"
-	account "go-common/app/service/main/account/api"
-	archive "go-common/app/service/main/archive/model/archive"
-	memberMdl "go-common/app/service/main/member/model/block"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/dm2/model"
+	account "github.com/namelessup/bilibili/app/service/main/account/api"
+	archive "github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	memberMdl "github.com/namelessup/bilibili/app/service/main/member/model/block"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

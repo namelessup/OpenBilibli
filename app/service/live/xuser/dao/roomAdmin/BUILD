@@ -33,7 +33,7 @@ go_library(
         "mysql.go",
         "redis.go",
     ],
-    importpath = "go-common/app/service/live/xuser/dao/roomAdmin",
+    importpath = "github.com/namelessup/bilibili/app/service/live/xuser/dao/roomAdmin",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

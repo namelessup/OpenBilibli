@@ -3,9 +3,9 @@ package dao
 import (
 	"context"
 
-	"go-common/app/job/main/passport-user-compare/model"
-	xsql "go-common/library/database/sql"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/passport-user-compare/model"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 var (

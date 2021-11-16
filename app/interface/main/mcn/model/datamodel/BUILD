@@ -12,7 +12,7 @@ go_library(
         "api.go",
         "tables.go",
     ],
-    importpath = "go-common/app/interface/main/mcn/model/datamodel",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/mcn/model/datamodel",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/time:go_default_library"],

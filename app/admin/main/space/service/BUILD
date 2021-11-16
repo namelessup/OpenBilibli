@@ -13,7 +13,7 @@ go_library(
         "notice.go",
         "service.go",
     ],
-    importpath = "go-common/app/admin/main/space/service",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/space/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

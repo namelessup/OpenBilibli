@@ -1,4 +1,4 @@
-# go-common/net/trace
+# github.com/namelessup/bilibili/net/trace
 
 ##### 项目简介
 > 1. 提供Trace的接口规范

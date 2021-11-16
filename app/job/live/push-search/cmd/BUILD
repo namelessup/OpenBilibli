@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["push-search-test.toml"],
-    importpath = "go-common/app/job/live/push-search/cmd",
+    importpath = "github.com/namelessup/bilibili/app/job/live/push-search/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

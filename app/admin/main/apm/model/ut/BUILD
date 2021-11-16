@@ -13,7 +13,7 @@ go_library(
         "rank.go",
         "ut.go",
     ],
-    importpath = "go-common/app/admin/main/apm/model/ut",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/apm/model/ut",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/time:go_default_library"],

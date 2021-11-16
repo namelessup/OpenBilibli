@@ -7,15 +7,15 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/app/service/openplatform/ticket-sales/conf"
-	"go-common/app/service/openplatform/ticket-sales/server/grpc"
-	"go-common/app/service/openplatform/ticket-sales/server/http"
-	"go-common/app/service/openplatform/ticket-sales/service"
-	"go-common/app/service/openplatform/ticket-sales/service/mis"
-	"go-common/library/conf/paladin"
-	ecode "go-common/library/ecode/tip"
-	"go-common/library/log"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/conf"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/server/grpc"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/server/http"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/service"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/service/mis"
+	"github.com/namelessup/bilibili/library/conf/paladin"
+	ecode "github.com/namelessup/bilibili/library/ecode/tip"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
 )
 
 func main() {

@@ -15,7 +15,7 @@ go_binary(
 go_library(
     name = "go_default_library",
     srcs = ["main.go"],
-    importpath = "go-common/app/service/ep/saga-agent/path",
+    importpath = "github.com/namelessup/bilibili/app/service/ep/saga-agent/path",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//vendor/github.com/pkg/errors:go_default_library"],

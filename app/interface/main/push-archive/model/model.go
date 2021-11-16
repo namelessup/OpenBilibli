@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"time"
 
-	"go-common/app/service/main/archive/api"
-	relmdl "go-common/app/service/main/relation/model"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	relmdl "github.com/namelessup/bilibili/app/service/main/relation/model"
 )
 
 const (

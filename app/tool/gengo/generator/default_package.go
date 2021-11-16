@@ -1,7 +1,7 @@
 package generator
 
 import (
-	"go-common/app/tool/gengo/types"
+	"github.com/namelessup/bilibili/app/tool/gengo/types"
 )
 
 // DefaultPackage contains a default implementation of Package.

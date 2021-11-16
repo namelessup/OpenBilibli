@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["dao.go"],
-    importpath = "go-common/app/interface/main/favorite/dao/music",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/favorite/dao/music",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

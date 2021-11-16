@@ -1,6 +1,6 @@
 package service
 
-import "go-common/app/admin/ep/merlin/model"
+import "github.com/namelessup/bilibili/app/admin/ep/merlin/model"
 
 // AddMachineLog add machine log.
 func (s *Service) AddMachineLog(username string, machineID int64, operateType string, operateResult string) (err error) {

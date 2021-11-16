@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"strconv"
 
-	"go-common/app/admin/main/member/model"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/member/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func officials(ctx *bm.Context) {

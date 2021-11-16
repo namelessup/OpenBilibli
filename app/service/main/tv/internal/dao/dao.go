@@ -3,16 +3,16 @@ package dao
 import (
 	"context"
 
-	acclgrpc "go-common/app/service/main/account/api"
-	"go-common/app/service/main/tv/internal/conf"
-	"go-common/app/service/main/tv/internal/model"
-	"go-common/app/service/main/tv/internal/pkg"
-	mvipgrpc "go-common/app/service/main/vipinfo/api"
-	"go-common/library/cache/memcache"
-	xsql "go-common/library/database/sql"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/sync/pipeline/fanout"
+	acclgrpc "github.com/namelessup/bilibili/app/service/main/account/api"
+	"github.com/namelessup/bilibili/app/service/main/tv/internal/conf"
+	"github.com/namelessup/bilibili/app/service/main/tv/internal/model"
+	"github.com/namelessup/bilibili/app/service/main/tv/internal/pkg"
+	mvipgrpc "github.com/namelessup/bilibili/app/service/main/vipinfo/api"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/sync/pipeline/fanout"
 )
 
 // Dao dao
@@ -90,13 +90,13 @@ func (d *Dao) Signer() *pkg.Signer {
 	return d.signer
 }
 
-//go:generate $GOPATH/src/go-common/app/tool/cache/gen
+//go:generate $GOPATH/src/github.com/namelessup/bilibili/app/tool/cache/gen
 type _cache interface {
 	// cache: -nullcache=&model.UserInfo{ID:-1} -check_null_code=$.ID==-1
 	UserInfoByMid(c context.Context, key int64) (*model.UserInfo, error)
 }
 
-//go:generate $GOPATH/src/go-common/app/tool/cache/mc
+//go:generate $GOPATH/src/github.com/namelessup/bilibili/app/tool/cache/mc
 type _mc interface {
 	// mc: -key=userInfoKey
 	CacheUserInfoByMid(c context.Context, key int64) (*model.UserInfo, error)

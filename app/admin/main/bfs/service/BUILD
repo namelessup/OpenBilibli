@@ -11,7 +11,7 @@ go_library(
         "bfs.go",
         "service.go",
     ],
-    importpath = "go-common/app/admin/main/bfs/service",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/bfs/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

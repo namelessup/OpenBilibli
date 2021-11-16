@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	model "go-common/app/admin/main/member/model/block"
-	"go-common/library/ecode"
+	model "github.com/namelessup/bilibili/app/admin/main/member/model/block"
+	"github.com/namelessup/bilibili/library/ecode"
 
 	"github.com/pkg/errors"
 )

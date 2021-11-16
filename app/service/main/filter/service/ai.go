@@ -3,10 +3,10 @@ package service
 import (
 	"context"
 
-	"go-common/app/service/main/filter/conf"
-	"go-common/app/service/main/filter/model"
-	spymdl "go-common/app/service/main/spy/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/filter/conf"
+	"github.com/namelessup/bilibili/app/service/main/filter/model"
+	spymdl "github.com/namelessup/bilibili/app/service/main/spy/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // FilterAiScore get ai score .

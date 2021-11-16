@@ -1,7 +1,7 @@
 package dao
 
 import (
-	"go-common/app/service/live/xuser/conf"
+	"github.com/namelessup/bilibili/app/service/live/xuser/conf"
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"

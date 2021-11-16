@@ -5,14 +5,14 @@ import (
 	"reflect"
 	"testing"
 
-	relaMdl "go-common/app/service/main/relation/model"
-	"go-common/app/service/main/relation/rpc/client"
+	relaMdl "github.com/namelessup/bilibili/app/service/main/relation/model"
+	"github.com/namelessup/bilibili/app/service/main/relation/rpc/client"
 
 	"github.com/bouk/monkey"
 	. "github.com/smartystreets/goconvey/convey"
 
-	accapi "go-common/app/service/main/account/api"
-	"go-common/library/ecode"
+	accapi "github.com/namelessup/bilibili/app/service/main/account/api"
+	"github.com/namelessup/bilibili/library/ecode"
 
 	"github.com/golang/mock/gomock"
 )

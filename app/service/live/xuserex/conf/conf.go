@@ -3,18 +3,18 @@ package conf
 import (
 	"errors"
 	"flag"
-	"go-common/app/service/live/resource/sdk"
-	"go-common/library/cache/memcache"
-	"go-common/library/conf"
-	"go-common/library/database/hbase.v2"
-	ecode "go-common/library/ecode/tip"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/verify"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/app/service/live/resource/sdk"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/conf"
+	"github.com/namelessup/bilibili/library/database/hbase.v2"
+	ecode "github.com/namelessup/bilibili/library/ecode/tip"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/verify"
+	"github.com/namelessup/bilibili/library/net/trace"
 
 	"github.com/BurntSushi/toml"
-	"go-common/library/net/rpc/warden"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 )
 
 var (

@@ -13,8 +13,8 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/admin/main/member/conf"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/admin/main/member/conf"
+	"github.com/namelessup/bilibili/library/ecode"
 
 	"github.com/pkg/errors"
 )

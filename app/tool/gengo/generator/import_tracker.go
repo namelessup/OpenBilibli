@@ -5,8 +5,8 @@ import (
 
 	"github.com/golang/glog"
 
-	"go-common/app/tool/gengo/namer"
-	"go-common/app/tool/gengo/types"
+	"github.com/namelessup/bilibili/app/tool/gengo/namer"
+	"github.com/namelessup/bilibili/app/tool/gengo/types"
 )
 
 // NewImportTracker is

@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"testing"
 
-	usmdl "go-common/app/service/main/usersuit/model"
-	usrpc "go-common/app/service/main/usersuit/rpc/client"
+	usmdl "github.com/namelessup/bilibili/app/service/main/usersuit/model"
+	usrpc "github.com/namelessup/bilibili/app/service/main/usersuit/rpc/client"
 
 	"github.com/bouk/monkey"
 	. "github.com/smartystreets/goconvey/convey"

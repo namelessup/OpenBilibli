@@ -3,12 +3,12 @@ package appeal
 import (
 	"context"
 
-	"go-common/app/interface/main/creative/conf"
-	"go-common/app/interface/main/creative/dao/account"
-	"go-common/app/interface/main/creative/dao/appeal"
-	"go-common/app/interface/main/creative/dao/archive"
-	"go-common/app/interface/main/creative/dao/tag"
-	"go-common/app/interface/main/creative/service"
+	"github.com/namelessup/bilibili/app/interface/main/creative/conf"
+	"github.com/namelessup/bilibili/app/interface/main/creative/dao/account"
+	"github.com/namelessup/bilibili/app/interface/main/creative/dao/appeal"
+	"github.com/namelessup/bilibili/app/interface/main/creative/dao/archive"
+	"github.com/namelessup/bilibili/app/interface/main/creative/dao/tag"
+	"github.com/namelessup/bilibili/app/interface/main/creative/service"
 )
 
 //Service struct

@@ -8,16 +8,16 @@ import (
 	"sync"
 	"time"
 
-	"go-common/app/admin/main/dm/conf"
-	"go-common/app/admin/main/dm/dao"
-	oplogDao "go-common/app/admin/main/dm/dao/oplog"
-	"go-common/app/admin/main/dm/model"
-	"go-common/app/admin/main/dm/model/oplog"
-	accountApi "go-common/app/service/main/account/api"
-	archive "go-common/app/service/main/archive/api/gorpc"
-	"go-common/library/log"
-	"go-common/library/log/infoc"
-	"go-common/library/sync/pipeline/fanout"
+	"github.com/namelessup/bilibili/app/admin/main/dm/conf"
+	"github.com/namelessup/bilibili/app/admin/main/dm/dao"
+	oplogDao "github.com/namelessup/bilibili/app/admin/main/dm/dao/oplog"
+	"github.com/namelessup/bilibili/app/admin/main/dm/model"
+	"github.com/namelessup/bilibili/app/admin/main/dm/model/oplog"
+	accountApi "github.com/namelessup/bilibili/app/service/main/account/api"
+	archive "github.com/namelessup/bilibili/app/service/main/archive/api/gorpc"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/log/infoc"
+	"github.com/namelessup/bilibili/library/sync/pipeline/fanout"
 )
 
 // Service define Service struct

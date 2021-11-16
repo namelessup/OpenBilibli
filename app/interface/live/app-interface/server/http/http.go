@@ -3,18 +3,18 @@ package http
 import (
 	"net/http"
 
-	apiV1 "go-common/app/interface/live/app-interface/api/http/v1"
-	apiV2 "go-common/app/interface/live/app-interface/api/http/v2"
-	"go-common/app/interface/live/app-interface/conf"
-	"go-common/app/interface/live/app-interface/dao"
-	"go-common/app/interface/live/app-interface/service"
-	v1index "go-common/app/interface/live/app-interface/service/v1"
-	v1appConf "go-common/app/interface/live/app-interface/service/v1/app_conf"
-	v2index "go-common/app/interface/live/app-interface/service/v2"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/auth"
-	"go-common/library/net/http/blademaster/middleware/verify"
+	apiV1 "github.com/namelessup/bilibili/app/interface/live/app-interface/api/http/v1"
+	apiV2 "github.com/namelessup/bilibili/app/interface/live/app-interface/api/http/v2"
+	"github.com/namelessup/bilibili/app/interface/live/app-interface/conf"
+	"github.com/namelessup/bilibili/app/interface/live/app-interface/dao"
+	"github.com/namelessup/bilibili/app/interface/live/app-interface/service"
+	v1index "github.com/namelessup/bilibili/app/interface/live/app-interface/service/v1"
+	v1appConf "github.com/namelessup/bilibili/app/interface/live/app-interface/service/v1/app_conf"
+	v2index "github.com/namelessup/bilibili/app/interface/live/app-interface/service/v2"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/auth"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/verify"
 )
 
 var (

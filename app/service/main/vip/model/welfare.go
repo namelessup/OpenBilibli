@@ -1,8 +1,8 @@
 package model
 
 import (
-	"go-common/library/time"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/library/time"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // ArgWelfareList args for welfare list.

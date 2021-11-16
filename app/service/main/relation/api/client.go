@@ -5,7 +5,7 @@ import (
 
 	"google.golang.org/grpc"
 
-	"go-common/library/net/rpc/warden"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 )
 
 // AppID AppID

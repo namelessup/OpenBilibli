@@ -9,7 +9,7 @@ go_library(
         "sync_retry.go",
         "zone_idx.go",
     ],
-    importpath = "go-common/app/job/main/tv/model/common",
+    importpath = "github.com/namelessup/bilibili/app/job/main/tv/model/common",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/time:go_default_library"],

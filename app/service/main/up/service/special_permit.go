@@ -1,8 +1,8 @@
 package service
 
 import (
-	"go-common/library/ecode"
-	"go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 //SpecialGroupPermit check permit for special groups

@@ -6,8 +6,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go-common/library/log"
-	"go-common/library/net/ip"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/ip"
 )
 
 type reporter struct {

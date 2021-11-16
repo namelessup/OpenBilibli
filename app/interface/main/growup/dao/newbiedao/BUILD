@@ -17,7 +17,7 @@ go_library(
         "relation.go",
         "video_up.go",
     ],
-    importpath = "go-common/app/interface/main/growup/dao/newbiedao",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/growup/dao/newbiedao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

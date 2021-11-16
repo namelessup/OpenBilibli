@@ -12,16 +12,16 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go-common/library/cache/redis"
-	"go-common/library/conf/env"
-	"go-common/library/container/pool"
-	"go-common/library/log"
-	"go-common/library/naming"
-	"go-common/library/naming/discovery"
-	"go-common/library/net/netutil"
-	"go-common/library/net/trace"
-	"go-common/library/stat/prom"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/conf/env"
+	"github.com/namelessup/bilibili/library/container/pool"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/naming"
+	"github.com/namelessup/bilibili/library/naming/discovery"
+	"github.com/namelessup/bilibili/library/net/netutil"
+	"github.com/namelessup/bilibili/library/net/trace"
+	"github.com/namelessup/bilibili/library/stat/prom"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 const (

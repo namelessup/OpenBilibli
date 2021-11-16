@@ -6,14 +6,14 @@ import (
 	"os"
 	"time"
 
-	"go-common/app/admin/main/videoup-task/conf"
-	"go-common/app/admin/main/videoup-task/http"
-	"go-common/app/admin/main/videoup-task/service"
-	"go-common/library/log"
-	"go-common/library/net/trace"
-	"go-common/library/os/signal"
-	"go-common/library/queue/databus/report"
-	"go-common/library/syscall"
+	"github.com/namelessup/bilibili/app/admin/main/videoup-task/conf"
+	"github.com/namelessup/bilibili/app/admin/main/videoup-task/http"
+	"github.com/namelessup/bilibili/app/admin/main/videoup-task/service"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
+	"github.com/namelessup/bilibili/library/os/signal"
+	"github.com/namelessup/bilibili/library/queue/databus/report"
+	"github.com/namelessup/bilibili/library/syscall"
 )
 
 func main() {

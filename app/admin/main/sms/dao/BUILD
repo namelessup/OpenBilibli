@@ -21,7 +21,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["dao.go"],
-    importpath = "go-common/app/admin/main/sms/dao",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/sms/dao",
     tags = ["automanaged"],
     deps = [
         "//app/admin/main/sms/conf:go_default_library",

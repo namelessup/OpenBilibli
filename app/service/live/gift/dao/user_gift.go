@@ -5,9 +5,9 @@ import (
 	"crypto/md5"
 	"encoding/hex"
 	"fmt"
-	"go-common/app/service/live/gift/model"
-	"go-common/library/database/sql"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/live/gift/model"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 	"strconv"
 	"time"
 )

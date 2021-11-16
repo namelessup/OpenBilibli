@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["conf.go"],
-    importpath = "go-common/app/interface/main/player/conf",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/player/conf",
     tags = ["automanaged"],
     deps = [
         "//app/interface/main/player/model:go_default_library",

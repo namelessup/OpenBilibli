@@ -1,10 +1,10 @@
 package server
 
 import (
-	"go-common/app/service/main/archive/api"
-	"go-common/app/service/main/archive/model/archive"
-	"go-common/library/log"
-	"go-common/library/net/rpc/context"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/rpc/context"
 )
 
 // 3结尾的方法全都是pb格式的memcache

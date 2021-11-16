@@ -5,7 +5,7 @@ build: generator/templates/assets.go
 	go build -o warden
 
 install: generator/templates/assets.go
-	go install go-common/app/tool/warden
+	go install github.com/namelessup/bilibili/app/tool/warden
 
 clean:
 	rm warden

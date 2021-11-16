@@ -5,10 +5,10 @@ import (
 	"time"
 
 	"encoding/json"
-	"go-common/app/interface/openplatform/article/model"
-	"go-common/library/log"
-	binfoc "go-common/library/log/infoc"
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	"github.com/namelessup/bilibili/library/log"
+	binfoc "github.com/namelessup/bilibili/library/log/infoc"
+	"github.com/namelessup/bilibili/library/stat/prom"
 )
 
 type displayInfo struct {

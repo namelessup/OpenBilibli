@@ -3,7 +3,7 @@ package v1
 import (
 	"context"
 
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 //getCheckMsg 获取弹幕检查信息

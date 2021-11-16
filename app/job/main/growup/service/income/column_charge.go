@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	model "go-common/app/job/main/growup/model/income"
+	model "github.com/namelessup/bilibili/app/job/main/growup/model/income"
 )
 
 func (s *Service) columnCharges(c context.Context, date time.Time, ch chan []*model.ColumnCharge) (err error) {

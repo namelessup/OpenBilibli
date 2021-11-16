@@ -38,7 +38,7 @@ message SysMsg {
     string  jump_url    = 5 [(gogoproto.jsontag) = "jump_url", (gogoproto.moretags)='form:"jump_url"'];
     string  text        = 6 [(gogoproto.jsontag) = "text", (gogoproto.moretags)='form:"text" validate:"required"'];
     int32   state       = 7 [(gogoproto.jsontag) = "state", (gogoproto.moretags)='form:"state"'];
-    int64   ctime       = 8 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int64   ctime       = 8 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
 }
 
 

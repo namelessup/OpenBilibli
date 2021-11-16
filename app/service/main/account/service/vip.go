@@ -3,7 +3,7 @@ package service
 import (
 	"context"
 
-	v1 "go-common/app/service/main/account/api"
+	v1 "github.com/namelessup/bilibili/app/service/main/account/api"
 )
 
 // Vip get big member info

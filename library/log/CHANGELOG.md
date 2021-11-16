@@ -1,4 +1,4 @@
-### go-common/log
+### github.com/namelessup/bilibili/log
 
 ### v1.16.1
 > 1.修复文件 handler 不能删除已有老文件问题

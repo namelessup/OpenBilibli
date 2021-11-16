@@ -3,8 +3,8 @@ package filter
 import (
 	"context"
 	"flag"
-	"go-common/app/interface/main/videoup/conf"
-	"go-common/app/interface/main/videoup/model/archive"
+	"github.com/namelessup/bilibili/app/interface/main/videoup/conf"
+	"github.com/namelessup/bilibili/app/interface/main/videoup/model/archive"
 	"os"
 	"strings"
 	"testing"

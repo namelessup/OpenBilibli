@@ -7,8 +7,8 @@ import (
 
 	"database/sql"
 	"fmt"
-	"go-common/app/service/main/videoup/model/archive"
-	xsql "go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/service/main/videoup/model/archive"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
 	"reflect"
 
 	"github.com/bouk/monkey"

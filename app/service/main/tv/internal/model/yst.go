@@ -3,7 +3,7 @@ package model
 import (
 	"strconv"
 
-	"go-common/app/service/main/account/api"
+	"github.com/namelessup/bilibili/app/service/main/account/api"
 )
 
 // YstCreateOrderReq represents request of yst order creation.

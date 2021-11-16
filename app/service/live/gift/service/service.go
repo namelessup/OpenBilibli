@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"go-common/app/service/live/gift/conf"
-	"go-common/app/service/live/gift/dao"
+	"github.com/namelessup/bilibili/app/service/live/gift/conf"
+	"github.com/namelessup/bilibili/app/service/live/gift/dao"
 )
 
 // Service struct

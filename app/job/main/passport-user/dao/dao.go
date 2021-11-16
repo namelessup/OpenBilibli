@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/job/main/passport-user/conf"
-	"go-common/library/cache/memcache"
-	"go-common/library/database/sql"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/passport-user/conf"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Dao dao

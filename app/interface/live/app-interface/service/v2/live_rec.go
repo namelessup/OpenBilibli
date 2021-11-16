@@ -3,9 +3,9 @@ package v2
 import (
 	"context"
 
-	v2pb "go-common/app/interface/live/app-interface/api/http/v2"
-	recommendV1 "go-common/app/service/live/recommend/api/grpc/v1"
-	"go-common/library/log"
+	v2pb "github.com/namelessup/bilibili/app/interface/live/app-interface/api/http/v2"
+	recommendV1 "github.com/namelessup/bilibili/app/service/live/recommend/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

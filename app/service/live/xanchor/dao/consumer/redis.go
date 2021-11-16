@@ -3,7 +3,7 @@ package consumer
 import (
 	"context"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 //实时消费缓存设计，异步落地

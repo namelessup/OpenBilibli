@@ -29,7 +29,7 @@ go_library(
         "cpm.go",
         "dao.go",
     ],
-    importpath = "go-common/app/service/main/resource/dao/cpm",
+    importpath = "github.com/namelessup/bilibili/app/service/main/resource/dao/cpm",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

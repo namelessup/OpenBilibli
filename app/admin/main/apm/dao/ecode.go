@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"net/url"
 
-	"go-common/app/admin/main/apm/model/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/apm/model/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // const (

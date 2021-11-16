@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"go-common/app/service/openplatform/ticket-sales/model"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/model"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

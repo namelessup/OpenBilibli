@@ -11,7 +11,7 @@ go_library(
         "promotion_group.go",
         "service.go",
     ],
-    importpath = "go-common/app/service/openplatform/ticket-sales/service/mis",
+    importpath = "github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/service/mis",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

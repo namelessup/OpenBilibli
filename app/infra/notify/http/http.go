@@ -1,11 +1,11 @@
 package http
 
 import (
-	"go-common/app/infra/notify/conf"
-	mrl "go-common/app/infra/notify/model"
-	"go-common/app/infra/notify/service"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/infra/notify/conf"
+	mrl "github.com/namelessup/bilibili/app/infra/notify/model"
+	"github.com/namelessup/bilibili/app/infra/notify/service"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 var (

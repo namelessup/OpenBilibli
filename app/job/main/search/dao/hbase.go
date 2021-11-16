@@ -4,8 +4,8 @@ package dao
 // 	"context"
 // 	"time"
 
-// 	"go-common/app/job/main/search/model"
-// 	"go-common/log"
+// 	"github.com/namelessup/bilibili/app/job/main/search/model"
+// 	"github.com/namelessup/bilibili/log"
 // 	"golang/gohbase/hrpc"
 // )
 

@@ -3,8 +3,8 @@ package service
 import (
 	"encoding/json"
 
-	"go-common/app/service/main/riot-search/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/riot-search/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) watcherproc() {

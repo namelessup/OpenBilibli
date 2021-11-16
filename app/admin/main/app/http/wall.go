@@ -3,8 +3,8 @@ package http
 import (
 	"time"
 
-	"go-common/app/admin/main/app/model/wall"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/app/model/wall"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // walls select walls all

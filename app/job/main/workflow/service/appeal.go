@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/job/main/workflow/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/workflow/model"
+	"github.com/namelessup/bilibili/library/log"
 
-	"go-common/library/sync/errgroup.v2"
+	"github.com/namelessup/bilibili/library/sync/errgroup.v2"
 )
 
 // 工作台单条过期

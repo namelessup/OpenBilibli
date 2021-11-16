@@ -11,7 +11,7 @@ go_library(
         "dao.go",
         "filter.go",
     ],
-    importpath = "go-common/app/interface/bbq/bullet/internal/dao",
+    importpath = "github.com/namelessup/bilibili/app/interface/bbq/bullet/internal/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/interface/main/web-show/model/operation"
-	"go-common/library/log"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/interface/main/web-show/model/operation"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 const (

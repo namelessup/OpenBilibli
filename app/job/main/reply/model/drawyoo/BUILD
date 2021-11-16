@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["drawyoo.go"],
-    importpath = "go-common/app/job/main/reply/model/drawyoo",
+    importpath = "github.com/namelessup/bilibili/app/job/main/reply/model/drawyoo",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

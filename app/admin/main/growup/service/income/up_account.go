@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 
-	model "go-common/app/admin/main/growup/model/income"
+	model "github.com/namelessup/bilibili/app/admin/main/growup/model/income"
 
-	"go-common/library/database/sql"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // GetUpAccount get up_account

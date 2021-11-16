@@ -2,17 +2,17 @@ package main
 
 import (
 	"flag"
-	"go-common/app/service/main/assist/conf"
-	"go-common/app/service/main/assist/http"
-	"go-common/app/service/main/assist/rpc/server"
-	"go-common/app/service/main/assist/service"
+	"github.com/namelessup/bilibili/app/service/main/assist/conf"
+	"github.com/namelessup/bilibili/app/service/main/assist/http"
+	"github.com/namelessup/bilibili/app/service/main/assist/rpc/server"
+	"github.com/namelessup/bilibili/app/service/main/assist/service"
 	"os"
 	"os/signal"
 	"syscall"
 	"time"
 
-	"go-common/library/log"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
 )
 
 func main() {

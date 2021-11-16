@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["sven.go"],
-    importpath = "go-common/app/service/ops/log-agent/conf/configcenter",
+    importpath = "github.com/namelessup/bilibili/app/service/ops/log-agent/conf/configcenter",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -25,7 +25,7 @@ go_library(
         "dao.go",
         "staff.go",
     ],
-    importpath = "go-common/app/admin/main/videoup/dao/staff",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/videoup/dao/staff",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

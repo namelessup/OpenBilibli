@@ -1,9 +1,9 @@
 package base
 
 import (
-	"go-common/app/job/main/search/conf"
-	"go-common/app/job/main/search/dao"
-	bsn "go-common/app/job/main/search/dao/business"
+	"github.com/namelessup/bilibili/app/job/main/search/conf"
+	"github.com/namelessup/bilibili/app/job/main/search/dao"
+	bsn "github.com/namelessup/bilibili/app/job/main/search/dao/business"
 )
 
 // Base .

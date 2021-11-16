@@ -21,7 +21,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["guide.go"],
-    importpath = "go-common/app/interface/main/app-resource/service/guide",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-resource/service/guide",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

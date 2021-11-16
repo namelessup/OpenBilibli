@@ -20,7 +20,7 @@ go_library(
         "oldauth.go",
         "topic.go",
     ],
-    importpath = "go-common/app/admin/main/apm/model/databus",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/apm/model/databus",
     tags = ["automanaged"],
     deps = ["//library/time:go_default_library"],
 )

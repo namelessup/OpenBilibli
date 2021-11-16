@@ -42,7 +42,7 @@ go_library(
         "tidb.go",
         "user_likes_redis.go",
     ],
-    importpath = "go-common/app/service/main/thumbup/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/main/thumbup/dao",
     tags = ["automanaged"],
     deps = [
         "//app/service/main/thumbup/api:go_default_library",

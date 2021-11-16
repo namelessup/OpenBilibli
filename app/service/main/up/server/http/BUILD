@@ -15,7 +15,7 @@ go_library(
         "up_stat.go",
         "up_switch.go",
     ],
-    importpath = "go-common/app/service/main/up/server/http",
+    importpath = "github.com/namelessup/bilibili/app/service/main/up/server/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

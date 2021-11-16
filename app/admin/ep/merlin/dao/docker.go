@@ -8,7 +8,7 @@ import (
 	"os"
 	"strings"
 
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/library/ecode"
 
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/api/types/filters"

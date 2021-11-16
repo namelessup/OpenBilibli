@@ -1,6 +1,6 @@
 package model
 
-//go:generate $GOPATH/src/go-common/app/tool/warden/protoc.sh
+//go:generate $GOPATH/src/github.com/namelessup/bilibili/app/tool/warden/protoc.sh
 
 const (
 	// CountryChina .

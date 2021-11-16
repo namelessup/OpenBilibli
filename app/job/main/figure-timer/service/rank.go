@@ -5,8 +5,8 @@ import (
 	"sort"
 	"sync"
 
-	"go-common/app/job/main/figure-timer/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/figure-timer/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 var (

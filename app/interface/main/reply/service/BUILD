@@ -42,7 +42,7 @@ go_library(
         "subject.go",
         "xreply.go",
     ],
-    importpath = "go-common/app/interface/main/reply/service",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/reply/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

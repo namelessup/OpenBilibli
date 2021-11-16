@@ -3,12 +3,12 @@ package service
 import (
 	"context"
 
-	"go-common/app/service/main/member/conf"
-	mbDao "go-common/app/service/main/member/dao"
-	"go-common/app/service/main/member/model"
-	"go-common/app/service/main/member/service/block"
-	"go-common/app/service/main/member/service/crypto"
-	"go-common/library/sync/pipeline/fanout"
+	"github.com/namelessup/bilibili/app/service/main/member/conf"
+	mbDao "github.com/namelessup/bilibili/app/service/main/member/dao"
+	"github.com/namelessup/bilibili/app/service/main/member/model"
+	"github.com/namelessup/bilibili/app/service/main/member/service/block"
+	"github.com/namelessup/bilibili/app/service/main/member/service/crypto"
+	"github.com/namelessup/bilibili/library/sync/pipeline/fanout"
 )
 
 // Service struct of service.

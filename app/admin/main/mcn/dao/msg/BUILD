@@ -12,7 +12,7 @@ go_library(
         "dao.go",
         "msg.go",
     ],
-    importpath = "go-common/app/admin/main/mcn/dao/msg",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/mcn/dao/msg",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

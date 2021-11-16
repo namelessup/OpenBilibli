@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"go-common/app/service/live/zeus/internal/conf"
-	"go-common/app/service/live/zeus/internal/dao"
+	"github.com/namelessup/bilibili/app/service/live/zeus/internal/conf"
+	"github.com/namelessup/bilibili/app/service/live/zeus/internal/dao"
 )
 
 // Service struct

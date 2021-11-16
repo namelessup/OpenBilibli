@@ -11,7 +11,7 @@ go_library(
         "msg.go",
         "question.go",
     ],
-    importpath = "go-common/app/job/main/answer/model",
+    importpath = "github.com/namelessup/bilibili/app/job/main/answer/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

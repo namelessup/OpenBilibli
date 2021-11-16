@@ -23,7 +23,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["example.go"],
-    importpath = "go-common/app/tool/gengo/cmd/deepcopy-gen/examples/tests",
+    importpath = "github.com/namelessup/bilibili/app/tool/gengo/cmd/deepcopy-gen/examples/tests",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

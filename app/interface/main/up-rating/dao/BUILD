@@ -29,7 +29,7 @@ go_library(
         "rating.go",
         "redis.go",
     ],
-    importpath = "go-common/app/interface/main/up-rating/dao",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/up-rating/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

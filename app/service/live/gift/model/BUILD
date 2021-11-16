@@ -11,7 +11,7 @@ go_library(
         "databus.go",
         "model.go",
     ],
-    importpath = "go-common/app/service/live/gift/model",
+    importpath = "github.com/namelessup/bilibili/app/service/live/gift/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

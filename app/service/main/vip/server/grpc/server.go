@@ -6,13 +6,13 @@ import (
 	"encoding/json"
 	"net"
 
-	colv1 "go-common/app/service/main/coupon/api"
-	col "go-common/app/service/main/coupon/model"
-	v1 "go-common/app/service/main/vip/api"
-	"go-common/app/service/main/vip/model"
-	service "go-common/app/service/main/vip/service"
-	"go-common/library/log"
-	"go-common/library/net/rpc/warden"
+	colv1 "github.com/namelessup/bilibili/app/service/main/coupon/api"
+	col "github.com/namelessup/bilibili/app/service/main/coupon/model"
+	v1 "github.com/namelessup/bilibili/app/service/main/vip/api"
+	"github.com/namelessup/bilibili/app/service/main/vip/model"
+	service "github.com/namelessup/bilibili/app/service/main/vip/service"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 )
 
 // New VipInfo warden rpc server

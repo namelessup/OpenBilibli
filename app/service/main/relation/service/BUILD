@@ -23,7 +23,7 @@ go_library(
         "tag.go",
         "whisper.go",
     ],
-    importpath = "go-common/app/service/main/relation/service",
+    importpath = "github.com/namelessup/bilibili/app/service/main/relation/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

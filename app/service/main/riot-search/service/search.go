@@ -3,7 +3,7 @@ package service
 import (
 	"context"
 
-	"go-common/app/service/main/riot-search/model"
+	"github.com/namelessup/bilibili/app/service/main/riot-search/model"
 )
 
 // SearchIDOnly return ID Only

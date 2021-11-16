@@ -1,9 +1,9 @@
 package http
 
 import (
-	api "go-common/app/interface/main/ugcpay/api/http"
-	"go-common/app/interface/main/ugcpay/model"
-	bm "go-common/library/net/http/blademaster"
+	api "github.com/namelessup/bilibili/app/interface/main/ugcpay/api/http"
+	"github.com/namelessup/bilibili/app/interface/main/ugcpay/model"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func tradeCreate(ctx *bm.Context) {

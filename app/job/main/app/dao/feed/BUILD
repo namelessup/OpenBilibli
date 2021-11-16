@@ -33,7 +33,7 @@ go_library(
         "rcmd.go",
         "tag.go",
     ],
-    importpath = "go-common/app/job/main/app/dao/feed",
+    importpath = "github.com/namelessup/bilibili/app/job/main/app/dao/feed",
     tags = ["automanaged"],
     deps = [
         "//app/job/main/app/conf:go_default_library",

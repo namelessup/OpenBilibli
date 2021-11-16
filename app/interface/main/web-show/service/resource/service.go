@@ -4,17 +4,17 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/interface/main/web-show/conf"
-	"go-common/app/interface/main/web-show/dao/ad"
-	"go-common/app/interface/main/web-show/dao/bangumi"
-	"go-common/app/interface/main/web-show/dao/data"
-	resdao "go-common/app/interface/main/web-show/dao/resource"
-	rsmdl "go-common/app/interface/main/web-show/model/resource"
-	accrc "go-common/app/service/main/account/rpc/client"
-	arcrpc "go-common/app/service/main/archive/api/gorpc"
-	locrpc "go-common/app/service/main/location/rpc/client"
-	recrpc "go-common/app/service/main/resource/rpc/client"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/web-show/conf"
+	"github.com/namelessup/bilibili/app/interface/main/web-show/dao/ad"
+	"github.com/namelessup/bilibili/app/interface/main/web-show/dao/bangumi"
+	"github.com/namelessup/bilibili/app/interface/main/web-show/dao/data"
+	resdao "github.com/namelessup/bilibili/app/interface/main/web-show/dao/resource"
+	rsmdl "github.com/namelessup/bilibili/app/interface/main/web-show/model/resource"
+	accrc "github.com/namelessup/bilibili/app/service/main/account/rpc/client"
+	arcrpc "github.com/namelessup/bilibili/app/service/main/archive/api/gorpc"
+	locrpc "github.com/namelessup/bilibili/app/service/main/location/rpc/client"
+	recrpc "github.com/namelessup/bilibili/app/service/main/resource/rpc/client"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Service define web-show service

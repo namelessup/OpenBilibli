@@ -3,10 +3,10 @@ package http
 import (
 	"time"
 
-	"go-common/app/interface/main/esports/model"
-	arcmdl "go-common/app/service/main/archive/api"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/interface/main/esports/model"
+	arcmdl "github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func filterMatch(c *bm.Context) {

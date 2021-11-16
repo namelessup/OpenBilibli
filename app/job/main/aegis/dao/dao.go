@@ -3,14 +3,14 @@ package dao
 import (
 	"context"
 
-	"go-common/app/job/main/aegis/conf"
-	relrpc "go-common/app/service/main/relation/rpc/client"
-	uprpc "go-common/app/service/main/up/api/v1"
-	"go-common/library/cache/memcache"
-	"go-common/library/cache/redis"
-	"go-common/library/database/orm"
-	xsql "go-common/library/database/sql"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/job/main/aegis/conf"
+	relrpc "github.com/namelessup/bilibili/app/service/main/relation/rpc/client"
+	uprpc "github.com/namelessup/bilibili/app/service/main/up/api/v1"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/database/orm"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 
 	"github.com/jinzhu/gorm"
 )

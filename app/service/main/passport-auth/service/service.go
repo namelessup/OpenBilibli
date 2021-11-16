@@ -3,10 +3,10 @@ package service
 import (
 	"context"
 
-	"go-common/app/service/main/passport-auth/conf"
-	"go-common/app/service/main/passport-auth/dao"
-	"go-common/app/service/main/passport-auth/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/passport-auth/conf"
+	"github.com/namelessup/bilibili/app/service/main/passport-auth/dao"
+	"github.com/namelessup/bilibili/app/service/main/passport-auth/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 var (

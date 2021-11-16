@@ -65,7 +65,7 @@ go_library(
         "subject.go",
         "user_achievements.go",
     ],
-    importpath = "go-common/app/interface/main/activity/dao/like",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/activity/dao/like",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

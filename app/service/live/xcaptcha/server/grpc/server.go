@@ -1,11 +1,11 @@
 package grpc
 
 import (
-	pb "go-common/app/service/live/xcaptcha/api/grpc/v1"
-	"go-common/app/service/live/xcaptcha/conf"
-	svc "go-common/app/service/live/xcaptcha/service/v1"
-	"go-common/library/log"
-	"go-common/library/net/rpc/warden"
+	pb "github.com/namelessup/bilibili/app/service/live/xcaptcha/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/live/xcaptcha/conf"
+	svc "github.com/namelessup/bilibili/app/service/live/xcaptcha/service/v1"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 )
 
 // Init gRpc Init

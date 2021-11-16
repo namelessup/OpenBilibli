@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/interface/main/app-feed/model/tag"
+	"github.com/namelessup/bilibili/app/interface/main/app-feed/model/tag"
 )
 
 func TestService_TagsInfoc(t *testing.T) {

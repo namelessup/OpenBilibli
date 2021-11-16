@@ -4,11 +4,11 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"go-common/app/service/bbq/video/conf"
-	"go-common/app/service/bbq/video/service"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/service/bbq/video/conf"
+	"github.com/namelessup/bilibili/app/service/bbq/video/service"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 var (

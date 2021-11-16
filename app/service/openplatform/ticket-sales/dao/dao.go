@@ -4,21 +4,21 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/common/openplatform/encoding"
+	"github.com/namelessup/bilibili/app/common/openplatform/encoding"
 
-	acc "go-common/app/service/main/account/api"
-	itemv1 "go-common/app/service/openplatform/ticket-item/api/grpc/v1"
-	"go-common/app/service/openplatform/ticket-sales/conf"
-	"go-common/app/service/openplatform/ticket-sales/model"
-	"go-common/library/cache"
-	"go-common/library/cache/redis"
-	"go-common/library/database/sql"
-	"go-common/library/log"
-	"go-common/library/naming/discovery"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/rpc/warden"
-	"go-common/library/net/rpc/warden/resolver"
-	"go-common/library/queue/databus"
+	acc "github.com/namelessup/bilibili/app/service/main/account/api"
+	itemv1 "github.com/namelessup/bilibili/app/service/openplatform/ticket-item/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/conf"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/model"
+	"github.com/namelessup/bilibili/library/cache"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/naming/discovery"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
+	"github.com/namelessup/bilibili/library/net/rpc/warden/resolver"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 //Dao 数据操作层结构体
@@ -34,7 +34,7 @@ type Dao struct {
 	databus     *databus.Databus
 }
 
-//go:generate $GOPATH/src/go-common/app/tool/cache/gen
+//go:generate $GOPATH/src/github.com/namelessup/bilibili/app/tool/cache/gen
 type _cache interface {
 	// cache: -nullcache=&model.Promotion{PromoID:-1} -check_null_code=$!=nil&&$.PromoID==-1
 	Promo(c context.Context, promoID int64) (*model.Promotion, error)

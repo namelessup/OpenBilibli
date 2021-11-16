@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["local.go"],
-    importpath = "go-common/app/service/bbq/recsys-recall/dao/cache",
+    importpath = "github.com/namelessup/bilibili/app/service/bbq/recsys-recall/dao/cache",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//app/service/bbq/recsys-recall/conf:go_default_library"],

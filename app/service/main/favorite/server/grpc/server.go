@@ -3,12 +3,12 @@ package server
 
 import (
 	"context"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/library/ecode"
 
-	pb "go-common/app/service/main/favorite/api"
-	"go-common/app/service/main/favorite/model"
-	service "go-common/app/service/main/favorite/service"
-	"go-common/library/net/rpc/warden"
+	pb "github.com/namelessup/bilibili/app/service/main/favorite/api"
+	"github.com/namelessup/bilibili/app/service/main/favorite/model"
+	service "github.com/namelessup/bilibili/app/service/main/favorite/service"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 
 	empty "github.com/golang/protobuf/ptypes/empty"
 )

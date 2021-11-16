@@ -34,7 +34,7 @@ go_library(
         "user.go",
         "wechat.go",
     ],
-    importpath = "go-common/app/admin/ep/melloi/model",
+    importpath = "github.com/namelessup/bilibili/app/admin/ep/melloi/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

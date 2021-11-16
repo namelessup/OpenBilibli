@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"time"
 
-	protogen "go-common/library/net/trace/proto"
+	protogen "github.com/namelessup/bilibili/library/net/trace/proto"
 )
 
 const (

@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func encodeRoomID(aid, cid int64) string {

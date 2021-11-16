@@ -1,11 +1,11 @@
 package server
 
 import (
-	"go-common/app/service/main/passport/conf"
-	"go-common/app/service/main/passport/model"
-	"go-common/app/service/main/passport/service"
-	"go-common/library/net/rpc"
-	"go-common/library/net/rpc/context"
+	"github.com/namelessup/bilibili/app/service/main/passport/conf"
+	"github.com/namelessup/bilibili/app/service/main/passport/model"
+	"github.com/namelessup/bilibili/app/service/main/passport/service"
+	"github.com/namelessup/bilibili/library/net/rpc"
+	"github.com/namelessup/bilibili/library/net/rpc/context"
 )
 
 // RPC server struct

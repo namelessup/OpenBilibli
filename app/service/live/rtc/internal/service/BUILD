@@ -12,7 +12,7 @@ go_library(
         "service.go",
         "tool.go",
     ],
-    importpath = "go-common/app/service/live/rtc/internal/service",
+    importpath = "github.com/namelessup/bilibili/app/service/live/rtc/internal/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

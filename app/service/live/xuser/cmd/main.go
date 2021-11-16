@@ -4,19 +4,19 @@ import (
 	"context"
 	"flag"
 	"fmt"
-	"go-common/app/service/live/xuser/server/grpc"
-	"go-common/library/net/trace"
-	"go-common/library/queue/databus/report"
+	"github.com/namelessup/bilibili/app/service/live/xuser/server/grpc"
+	"github.com/namelessup/bilibili/library/net/trace"
+	"github.com/namelessup/bilibili/library/queue/databus/report"
 	"os"
 	"os/signal"
 	"syscall"
 	"time"
 
-	"go-common/app/service/live/xuser/conf"
-	"go-common/app/service/live/xuser/server/http"
-	"go-common/app/service/live/xuser/service"
-	ecode "go-common/library/ecode/tip"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/live/xuser/conf"
+	"github.com/namelessup/bilibili/app/service/live/xuser/server/http"
+	"github.com/namelessup/bilibili/app/service/live/xuser/service"
+	ecode "github.com/namelessup/bilibili/library/ecode/tip"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func main() {

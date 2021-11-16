@@ -2,8 +2,8 @@ package archive
 
 import (
 	"context"
-	"go-common/app/interface/main/creative/model/activity"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/activity"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // MissionProtocol fn

@@ -6,15 +6,15 @@ import (
 	"os"
 	"time"
 
-	"go-common/app/interface/main/push-archive/conf"
-	"go-common/app/interface/main/push-archive/model"
-	xredis "go-common/library/cache/redis"
-	xsql "go-common/library/database/sql"
-	"go-common/library/log"
-	xhttp "go-common/library/net/http/blademaster"
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/app/interface/main/push-archive/conf"
+	"github.com/namelessup/bilibili/app/interface/main/push-archive/model"
+	xredis "github.com/namelessup/bilibili/library/cache/redis"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	xhttp "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/stat/prom"
 
-	"go-common/library/database/hbase.v2"
+	"github.com/namelessup/bilibili/library/database/hbase.v2"
 )
 
 // Dao .

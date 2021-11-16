@@ -67,7 +67,7 @@ go_library(
         "tag.go",
         "tag_mc.go",
     ],
-    importpath = "go-common/app/admin/main/tag/dao",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/tag/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

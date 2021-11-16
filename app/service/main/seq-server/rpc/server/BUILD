@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["rpc.go"],
-    importpath = "go-common/app/service/main/seq-server/rpc/server",
+    importpath = "github.com/namelessup/bilibili/app/service/main/seq-server/rpc/server",
     tags = ["automanaged"],
     deps = [
         "//app/service/main/seq-server/conf:go_default_library",

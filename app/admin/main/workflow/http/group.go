@@ -1,12 +1,12 @@
 package http
 
 import (
-	"go-common/app/admin/main/workflow/model"
-	"go-common/app/admin/main/workflow/model/param"
-	"go-common/app/admin/main/workflow/model/search"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/binding"
+	"github.com/namelessup/bilibili/app/admin/main/workflow/model"
+	"github.com/namelessup/bilibili/app/admin/main/workflow/model/param"
+	"github.com/namelessup/bilibili/app/admin/main/workflow/model/search"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/binding"
 )
 
 func setGroupStateV3(ctx *bm.Context) {

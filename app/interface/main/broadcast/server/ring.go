@@ -1,9 +1,9 @@
 package server
 
 import (
-	"go-common/app/interface/main/broadcast/conf"
-	"go-common/app/service/main/broadcast/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/broadcast/conf"
+	"github.com/namelessup/bilibili/app/service/main/broadcast/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Ring .

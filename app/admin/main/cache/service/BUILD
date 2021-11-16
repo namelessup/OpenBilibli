@@ -26,7 +26,7 @@ go_library(
         "overlord.go",
         "service.go",
     ],
-    importpath = "go-common/app/admin/main/cache/service",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/cache/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

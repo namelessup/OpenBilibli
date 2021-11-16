@@ -3,7 +3,7 @@ package args
 import (
 	"testing"
 
-	"go-common/app/tool/gengo/types"
+	"github.com/namelessup/bilibili/app/tool/gengo/types"
 )
 
 func TestInputIncludes(t *testing.T) {

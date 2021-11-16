@@ -5,12 +5,12 @@ import (
 	"sync"
 	"time"
 
-	"go-common/app/interface/main/account/model"
-	accmdl "go-common/app/service/main/account/model"
-	usmdl "go-common/app/service/main/usersuit/model"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/interface/main/account/model"
+	accmdl "github.com/namelessup/bilibili/app/service/main/account/model"
+	usmdl "github.com/namelessup/bilibili/app/service/main/usersuit/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 const (

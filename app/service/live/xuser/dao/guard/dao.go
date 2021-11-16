@@ -3,9 +3,9 @@ package guard
 import (
 	"context"
 
-	"go-common/app/service/live/xuser/conf"
-	"go-common/library/cache/redis"
-	xsql "go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/service/live/xuser/conf"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
 )
 
 // GuardDao vip dao

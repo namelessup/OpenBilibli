@@ -11,10 +11,10 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/admin/main/member/conf"
-	memmdl "go-common/app/service/main/member/model"
-	"go-common/library/log"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/admin/main/member/conf"
+	memmdl "github.com/namelessup/bilibili/app/service/main/member/model"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	"github.com/pkg/errors"
 )

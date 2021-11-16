@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/service/main/vipinfo/conf"
-	"go-common/library/cache"
-	"go-common/library/cache/memcache"
-	xsql "go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/service/main/vipinfo/conf"
+	"github.com/namelessup/bilibili/library/cache"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
 )
 
 // Dao dao

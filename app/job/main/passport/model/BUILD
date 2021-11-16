@@ -13,7 +13,7 @@ go_library(
         "message.go",
         "tel_bind_log.go",
     ],
-    importpath = "go-common/app/job/main/passport/model",
+    importpath = "github.com/namelessup/bilibili/app/job/main/passport/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

@@ -7,12 +7,12 @@ import (
 	"sort"
 	"time"
 	"os"
-	"go-common/app/service/ops/log-agent/event"
-	"go-common/app/service/ops/log-agent/input"
-	"go-common/app/service/ops/log-agent/processor"
-	"go-common/app/service/ops/log-agent/output"
-	"go-common/app/service/ops/log-agent/pkg/common"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/ops/log-agent/event"
+	"github.com/namelessup/bilibili/app/service/ops/log-agent/input"
+	"github.com/namelessup/bilibili/app/service/ops/log-agent/processor"
+	"github.com/namelessup/bilibili/app/service/ops/log-agent/output"
+	"github.com/namelessup/bilibili/app/service/ops/log-agent/pkg/common"
+	"github.com/namelessup/bilibili/library/log"
 	"github.com/BurntSushi/toml"
 )
 

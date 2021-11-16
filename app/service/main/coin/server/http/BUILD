@@ -12,7 +12,7 @@ go_library(
         "http.go",
         "usercoin.go",
     ],
-    importpath = "go-common/app/service/main/coin/server/http",
+    importpath = "github.com/namelessup/bilibili/app/service/main/coin/server/http",
     tags = ["automanaged"],
     deps = [
         "//app/service/main/coin/api:go_default_library",

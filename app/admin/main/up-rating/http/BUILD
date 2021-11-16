@@ -15,7 +15,7 @@ go_library(
         "score.go",
         "statistics.go",
     ],
-    importpath = "go-common/app/admin/main/up-rating/http",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/up-rating/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

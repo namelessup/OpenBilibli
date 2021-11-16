@@ -16,7 +16,7 @@ go_library(
         "user.go",
         "wechat.go",
     ],
-    importpath = "go-common/app/job/main/passport-user-compare/dao",
+    importpath = "github.com/namelessup/bilibili/app/job/main/passport-user-compare/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

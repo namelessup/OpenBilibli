@@ -3,8 +3,8 @@ package dm
 import (
 	"context"
 	"flag"
-	"go-common/app/interface/main/app-view/conf"
-	dm "go-common/app/interface/main/dm2/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-view/conf"
+	dm "github.com/namelessup/bilibili/app/interface/main/dm2/model"
 	"path/filepath"
 	"reflect"
 	"testing"

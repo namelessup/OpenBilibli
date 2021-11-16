@@ -2,10 +2,10 @@ package titansSdk
 
 import (
 	"context"
-	"go-common/app/service/live/resource/api/grpc/v1"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/rpc/warden"
+	"github.com/namelessup/bilibili/app/service/live/resource/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 	"sync/atomic"
 	"time"
 )

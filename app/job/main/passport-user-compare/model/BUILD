@@ -13,7 +13,7 @@ go_library(
         "stat.go",
         "user.go",
     ],
-    importpath = "go-common/app/job/main/passport-user-compare/model",
+    importpath = "github.com/namelessup/bilibili/app/job/main/passport-user-compare/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/time:go_default_library"],

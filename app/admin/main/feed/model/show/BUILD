@@ -16,7 +16,7 @@ go_library(
         "search_web_card.go",
         "search_web_query.go",
     ],
-    importpath = "go-common/app/admin/main/feed/model/show",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/feed/model/show",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -6,9 +6,9 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/admin/main/up/conf"
-	"go-common/app/admin/main/up/dao"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/admin/main/up/conf"
+	"github.com/namelessup/bilibili/app/admin/main/up/dao"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // const .

@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/app/interface/main/videoup/model/archive"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/videoup/model/archive"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) dealElec(c context.Context, openElec int8, aid, mid int64, ip string) (err error) {

@@ -4,7 +4,7 @@ import (
 	"context"
 	"database/sql"
 
-	"go-common/app/service/main/up/model"
+	"github.com/namelessup/bilibili/app/service/main/up/model"
 )
 
 const (

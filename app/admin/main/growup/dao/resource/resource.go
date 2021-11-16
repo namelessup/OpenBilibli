@@ -1,10 +1,10 @@
 package resource
 
 import (
-	"go-common/app/admin/main/growup/conf"
-	accgrpc "go-common/app/service/main/account/api"
-	vip "go-common/app/service/main/vip/rpc/client"
-	httpx "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/growup/conf"
+	accgrpc "github.com/namelessup/bilibili/app/service/main/account/api"
+	vip "github.com/namelessup/bilibili/app/service/main/vip/rpc/client"
+	httpx "github.com/namelessup/bilibili/library/net/http/blademaster"
 
 	"github.com/pkg/errors"
 )

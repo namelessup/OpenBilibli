@@ -3,12 +3,12 @@ package service
 import (
 	"context"
 
-	dm2Mdl "go-common/app/interface/main/dm2/model"
-	"go-common/app/interface/main/dm2/model/oplog"
-	arcMdl "go-common/app/service/main/archive/model/archive"
-	"go-common/app/service/main/assist/model/assist"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	dm2Mdl "github.com/namelessup/bilibili/app/interface/main/dm2/model"
+	"github.com/namelessup/bilibili/app/interface/main/dm2/model/oplog"
+	arcMdl "github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/app/service/main/assist/model/assist"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // assist

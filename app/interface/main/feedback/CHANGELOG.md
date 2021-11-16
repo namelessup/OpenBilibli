@@ -199,13 +199,13 @@
 ##### Version 2.1.0
 
 > 1.配置支持从环境变量获取配置  
-> 2.更新go-common与go-business依赖  
+> 2.更新github.com/namelessup/bilibili与go-business依赖  
 
 ##### Version 2.0.0
 
 > 1.配置中心接入  
 > 2.go-business的错误码替换  
-> 3.更新go-common与go-business依赖  
+> 3.更新github.com/namelessup/bilibili与go-business依赖  
 
 ##### Version 1.0.4
 

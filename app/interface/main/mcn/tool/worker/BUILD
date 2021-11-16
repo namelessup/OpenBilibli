@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["pool.go"],
-    importpath = "go-common/app/interface/main/mcn/tool/worker",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/mcn/tool/worker",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/log:go_default_library"],

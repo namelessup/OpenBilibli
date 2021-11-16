@@ -1,7 +1,7 @@
 package bvc
 
 import (
-	"go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 type Client struct {

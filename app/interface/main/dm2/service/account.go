@@ -5,9 +5,9 @@ import (
 	"math"
 	"sync"
 
-	account "go-common/app/service/main/account/api"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
+	account "github.com/namelessup/bilibili/app/service/main/account/api"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 func (s *Service) accountInfos(c context.Context, mids []int64) (res map[int64]*account.Info, err error) {

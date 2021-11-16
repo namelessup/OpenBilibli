@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	"go-common/library/cache/redis"
-	"go-common/library/container/pool"
-	"go-common/library/database/sql"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/container/pool"
+	"github.com/namelessup/bilibili/library/database/sql"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 func TestZlimit(t *testing.T) {

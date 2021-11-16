@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"go-common/app/service/bbq/search/conf"
-	"go-common/app/service/bbq/search/dao"
+	"github.com/namelessup/bilibili/app/service/bbq/search/conf"
+	"github.com/namelessup/bilibili/app/service/bbq/search/dao"
 )
 
 // Service struct

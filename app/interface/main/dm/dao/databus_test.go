@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/interface/main/dm/model"
+	"github.com/namelessup/bilibili/app/interface/main/dm/model"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

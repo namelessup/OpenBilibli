@@ -3,7 +3,7 @@ package dao
 import (
 	"context"
 
-	recall "go-common/app/service/bbq/recsys-recall/api/grpc/v1"
+	recall "github.com/namelessup/bilibili/app/service/bbq/recsys-recall/api/grpc/v1"
 )
 
 // SetInvertedIndex 倒排写入redis

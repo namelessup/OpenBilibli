@@ -43,7 +43,7 @@ go_library(
         "qcloud.go",
         "redis.go",
     ],
-    importpath = "go-common/app/service/main/spy/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/main/spy/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

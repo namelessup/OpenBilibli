@@ -4,7 +4,7 @@ import (
 	"sync"
 	"time"
 
-	"go-common/app/service/bbq/recsys-recall/conf"
+	"github.com/namelessup/bilibili/app/service/bbq/recsys-recall/conf"
 )
 
 // Solt .

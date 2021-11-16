@@ -2,10 +2,10 @@ package service
 
 import (
 	"context"
-	"go-common/app/service/video/stream-mng/common"
-	"go-common/app/service/video/stream-mng/model"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/service/video/stream-mng/common"
+	"github.com/namelessup/bilibili/app/service/video/stream-mng/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 // ChangeSrc 切换cdn

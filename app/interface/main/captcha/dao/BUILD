@@ -27,7 +27,7 @@ go_library(
         "captcha_mc.go",
         "dao.go",
     ],
-    importpath = "go-common/app/interface/main/captcha/dao",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/captcha/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -5,9 +5,9 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"go-common/app/job/live/xlottery/internal/model"
-	"go-common/library/ecode"
-	"go-common/library/queue/databus/report"
+	"github.com/namelessup/bilibili/app/job/live/xlottery/internal/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/queue/databus/report"
 	"net/http"
 	"strconv"
 	"sync"
@@ -15,11 +15,11 @@ import (
 
 	"github.com/robfig/cron"
 
-	"go-common/app/job/live/xlottery/internal/conf"
-	"go-common/app/job/live/xlottery/internal/dao"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/job/live/xlottery/internal/conf"
+	"github.com/namelessup/bilibili/app/job/live/xlottery/internal/dao"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 // Service struct

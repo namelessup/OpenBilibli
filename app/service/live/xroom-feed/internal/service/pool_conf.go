@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/service/live/xroom-feed/internal/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/live/xroom-feed/internal/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // 保底数据源标识

@@ -3,14 +3,14 @@ package dao
 import (
 	"context"
 	"fmt"
-	"go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster"
 	"math/rand"
 	"time"
 
-	"go-common/app/service/live/resource/conf"
-	"go-common/app/service/live/resource/lrucache"
-	"go-common/library/database/orm"
-	xsql "go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/service/live/resource/conf"
+	"github.com/namelessup/bilibili/app/service/live/resource/lrucache"
+	"github.com/namelessup/bilibili/library/database/orm"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
 
 	"github.com/jinzhu/gorm"
 )

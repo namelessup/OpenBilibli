@@ -3,7 +3,7 @@ package relation
 import (
 	"context"
 	"flag"
-	"go-common/app/service/main/videoup/conf"
+	"github.com/namelessup/bilibili/app/service/main/videoup/conf"
 	"os"
 	"testing"
 

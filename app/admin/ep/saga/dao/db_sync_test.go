@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"testing"
 
-	"go-common/app/admin/ep/saga/model"
-	"go-common/app/admin/ep/saga/service/utils"
+	"github.com/namelessup/bilibili/app/admin/ep/saga/model"
+	"github.com/namelessup/bilibili/app/admin/ep/saga/service/utils"
 
 	"github.com/smartystreets/goconvey/convey"
 )

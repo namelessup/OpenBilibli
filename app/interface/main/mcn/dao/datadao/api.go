@@ -7,14 +7,14 @@ import (
 	"net/url"
 	"time"
 
-	"go-common/app/interface/main/mcn/dao/cache"
-	"go-common/app/interface/main/mcn/dao/global"
-	"go-common/app/interface/main/mcn/model/datamodel"
-	"go-common/app/interface/main/mcn/model/mcnmodel"
-	"go-common/app/interface/main/mcn/tool/datacenter"
-	tagmdl "go-common/app/interface/main/tag/api"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/interface/main/mcn/dao/cache"
+	"github.com/namelessup/bilibili/app/interface/main/mcn/dao/global"
+	"github.com/namelessup/bilibili/app/interface/main/mcn/model/datamodel"
+	"github.com/namelessup/bilibili/app/interface/main/mcn/model/mcnmodel"
+	"github.com/namelessup/bilibili/app/interface/main/mcn/tool/datacenter"
+	tagmdl "github.com/namelessup/bilibili/app/interface/main/tag/api"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 // const url for api

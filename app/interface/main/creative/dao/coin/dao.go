@@ -1,8 +1,8 @@
 package coin
 
 import (
-	"go-common/app/interface/main/creative/conf"
-	coinclient "go-common/app/service/main/coin/api"
+	"github.com/namelessup/bilibili/app/interface/main/creative/conf"
+	coinclient "github.com/namelessup/bilibili/app/service/main/coin/api"
 )
 
 // Dao str

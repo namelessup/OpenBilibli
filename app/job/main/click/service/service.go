@@ -11,16 +11,16 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go-common/app/job/main/click/conf"
-	"go-common/app/job/main/click/dao"
-	"go-common/app/job/main/click/model"
-	"go-common/app/service/main/archive/api"
-	arcrpc "go-common/app/service/main/archive/api/gorpc"
-	arcmdl "go-common/app/service/main/archive/model/archive"
-	"go-common/library/cache/redis"
-	"go-common/library/log"
-	"go-common/library/log/infoc"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/job/main/click/conf"
+	"github.com/namelessup/bilibili/app/job/main/click/dao"
+	"github.com/namelessup/bilibili/app/job/main/click/model"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	arcrpc "github.com/namelessup/bilibili/app/service/main/archive/api/gorpc"
+	arcmdl "github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/log/infoc"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 const (

@@ -7,12 +7,12 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/app/job/main/reply-feed/conf"
-	"go-common/app/job/main/reply-feed/server/http"
-	"go-common/app/job/main/reply-feed/service"
-	ecode "go-common/library/ecode/tip"
-	"go-common/library/log"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/app/job/main/reply-feed/conf"
+	"github.com/namelessup/bilibili/app/job/main/reply-feed/server/http"
+	"github.com/namelessup/bilibili/app/job/main/reply-feed/service"
+	ecode "github.com/namelessup/bilibili/library/ecode/tip"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
 )
 
 func main() {

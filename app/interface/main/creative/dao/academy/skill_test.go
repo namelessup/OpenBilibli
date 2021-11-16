@@ -2,7 +2,7 @@ package academy
 
 import (
 	"context"
-	"go-common/app/interface/main/creative/model/academy"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/academy"
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"

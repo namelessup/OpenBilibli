@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 // loadPagesproc loads the mod&zone&home pages

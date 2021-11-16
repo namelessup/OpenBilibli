@@ -17,9 +17,9 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/interface/main/upload/conf"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/upload/conf"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Bfs .

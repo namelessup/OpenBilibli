@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["clt.go"],
-    importpath = "go-common/app/service/main/dapper-query/pkg/cltclient",
+    importpath = "github.com/namelessup/bilibili/app/service/main/dapper-query/pkg/cltclient",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/sync/errgroup:go_default_library"],

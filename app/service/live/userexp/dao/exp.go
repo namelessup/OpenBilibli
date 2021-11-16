@@ -5,9 +5,9 @@ import (
 	"database/sql"
 	"fmt"
 
-	"go-common/app/service/live/userexp/model"
-	"go-common/library/log"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/service/live/userexp/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 const (

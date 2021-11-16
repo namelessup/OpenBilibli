@@ -3,11 +3,11 @@ package retrieve
 import (
 	"context"
 	"fmt"
-	recallv1 "go-common/app/service/bbq/recsys-recall/api/grpc/v1"
-	recsys "go-common/app/service/bbq/recsys/api/grpc/v1"
-	"go-common/app/service/bbq/recsys/model"
-	"go-common/app/service/bbq/recsys/service/util"
-	"go-common/library/log"
+	recallv1 "github.com/namelessup/bilibili/app/service/bbq/recsys-recall/api/grpc/v1"
+	recsys "github.com/namelessup/bilibili/app/service/bbq/recsys/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/bbq/recsys/model"
+	"github.com/namelessup/bilibili/app/service/bbq/recsys/service/util"
+	"github.com/namelessup/bilibili/library/log"
 	"strconv"
 )
 

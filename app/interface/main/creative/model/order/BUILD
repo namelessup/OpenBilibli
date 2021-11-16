@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["order.go"],
-    importpath = "go-common/app/interface/main/creative/model/order",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/creative/model/order",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

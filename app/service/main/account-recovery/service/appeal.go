@@ -9,12 +9,12 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/service/main/account-recovery/model"
-	"go-common/library/database/sql"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/service/main/account-recovery/model"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // QueryAccount is verify account is exist

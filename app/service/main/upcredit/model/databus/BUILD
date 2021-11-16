@@ -8,8 +8,8 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["upcredit_log.go"],
-    importmap = "go-common/app/service/main/upcredit/model/databus",
-    importpath = "go-common/app/service/main/upcredit/model/databus",
+    importmap = "github.com/namelessup/bilibili/app/service/main/upcredit/model/databus",
+    importpath = "github.com/namelessup/bilibili/app/service/main/upcredit/model/databus",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

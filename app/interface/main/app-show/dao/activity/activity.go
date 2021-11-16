@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"strconv"
 
-	"go-common/app/interface/main/app-show/conf"
-	"go-common/app/interface/main/app-show/model/activity"
-	"go-common/library/log"
-	httpx "go-common/library/net/http/blademaster"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/conf"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/model/activity"
+	"github.com/namelessup/bilibili/library/log"
+	httpx "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/xstr"
 	"net/url"
 )
 

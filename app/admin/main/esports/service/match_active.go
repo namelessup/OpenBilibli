@@ -5,12 +5,12 @@ import (
 	"encoding/json"
 	"sync"
 
-	"go-common/app/admin/main/esports/model"
-	arcmdl "go-common/app/service/main/archive/api"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/admin/main/esports/model"
+	arcmdl "github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
+	"github.com/namelessup/bilibili/library/xstr"
 
 	"github.com/pkg/errors"
 )

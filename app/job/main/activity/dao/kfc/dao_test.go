@@ -2,7 +2,7 @@ package kfc
 
 import (
 	"flag"
-	"go-common/app/job/main/activity/conf"
+	"github.com/namelessup/bilibili/app/job/main/activity/conf"
 	"os"
 	"testing"
 )

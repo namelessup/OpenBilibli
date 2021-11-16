@@ -3,13 +3,13 @@ package grpc
 import (
 	"fmt"
 
-	"go-common/app/service/live/xlottery/dao"
+	"github.com/namelessup/bilibili/app/service/live/xlottery/dao"
 
-	pb "go-common/app/service/live/xlottery/api/grpc/v1"
-	"go-common/app/service/live/xlottery/conf"
-	svc "go-common/app/service/live/xlottery/service/v1"
-	"go-common/library/log"
-	"go-common/library/net/rpc/warden"
+	pb "github.com/namelessup/bilibili/app/service/live/xlottery/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/live/xlottery/conf"
+	svc "github.com/namelessup/bilibili/app/service/live/xlottery/service/v1"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 )
 
 // Init .

@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["config.go"],
-    importpath = "go-common/app/service/live/broadcast-proxy/conf",
+    importpath = "github.com/namelessup/bilibili/app/service/live/broadcast-proxy/conf",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

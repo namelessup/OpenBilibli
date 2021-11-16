@@ -1,12 +1,12 @@
 package http
 
 import (
-	"go-common/app/interface/main/creative/model/newcomer"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/metadata"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/newcomer"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 func webTaskList(c *bm.Context) {

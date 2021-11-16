@@ -24,7 +24,7 @@ go_library(
         "staff.go",
         "video.go",
     ],
-    importpath = "go-common/app/service/main/videoup/model/archive",
+    importpath = "github.com/namelessup/bilibili/app/service/main/videoup/model/archive",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -4,12 +4,12 @@ import (
 	"net/http"
 	"strings"
 
-	"go-common/app/service/main/rank/conf"
-	"go-common/app/service/main/rank/model"
-	"go-common/app/service/main/rank/service"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/verify"
+	"github.com/namelessup/bilibili/app/service/main/rank/conf"
+	"github.com/namelessup/bilibili/app/service/main/rank/model"
+	"github.com/namelessup/bilibili/app/service/main/rank/service"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/verify"
 )
 
 var (

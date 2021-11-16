@@ -32,7 +32,7 @@ go_library(
         "staff.go",
         "video.go",
     ],
-    importpath = "go-common/app/job/main/archive/dao/result",
+    importpath = "github.com/namelessup/bilibili/app/job/main/archive/dao/result",
     tags = ["automanaged"],
     deps = [
         "//app/job/main/archive/conf:go_default_library",

@@ -1,10 +1,10 @@
 package server
 
 import (
-	"go-common/app/service/main/identify-game/conf"
-	"go-common/app/service/main/identify-game/service"
-	"go-common/library/net/rpc"
-	"go-common/library/net/rpc/context"
+	"github.com/namelessup/bilibili/app/service/main/identify-game/conf"
+	"github.com/namelessup/bilibili/app/service/main/identify-game/service"
+	"github.com/namelessup/bilibili/library/net/rpc"
+	"github.com/namelessup/bilibili/library/net/rpc/context"
 )
 
 // RPC define rpc.

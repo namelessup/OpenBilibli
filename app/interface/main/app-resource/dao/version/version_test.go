@@ -3,7 +3,7 @@ package version
 import (
 	"context"
 	"flag"
-	"go-common/app/interface/main/app-resource/conf"
+	"github.com/namelessup/bilibili/app/interface/main/app-resource/conf"
 	"path/filepath"
 	"testing"
 	"time"

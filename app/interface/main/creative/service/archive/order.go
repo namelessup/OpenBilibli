@@ -4,14 +4,14 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/interface/main/creative/model/archive"
-	"go-common/app/interface/main/creative/model/game"
-	"go-common/app/interface/main/creative/model/order"
-	"go-common/app/service/main/archive/api"
-	arcMdl "go-common/app/service/main/archive/model/archive"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/archive"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/game"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/order"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	arcMdl "github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // ExecuteOrders fn

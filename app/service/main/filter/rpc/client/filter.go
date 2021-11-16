@@ -3,8 +3,8 @@ package filter
 import (
 	"context"
 
-	rpcmodel "go-common/app/service/main/filter/model/rpc"
-	"go-common/library/net/rpc"
+	rpcmodel "github.com/namelessup/bilibili/app/service/main/filter/model/rpc"
+	"github.com/namelessup/bilibili/library/net/rpc"
 )
 
 const (

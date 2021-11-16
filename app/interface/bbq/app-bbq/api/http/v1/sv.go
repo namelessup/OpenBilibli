@@ -1,9 +1,9 @@
 package v1
 
 import (
-	"go-common/app/interface/bbq/app-bbq/model"
-	user "go-common/app/service/bbq/user/api"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/interface/bbq/app-bbq/model"
+	user "github.com/namelessup/bilibili/app/service/bbq/user/api"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // SvListReq 列表参数

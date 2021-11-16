@@ -3,9 +3,9 @@ package model
 import (
 	"strconv"
 
-	accmdl "go-common/app/service/main/account/model"
-	usmdl "go-common/app/service/main/usersuit/model"
-	xtime "go-common/library/time"
+	accmdl "github.com/namelessup/bilibili/app/service/main/account/model"
+	usmdl "github.com/namelessup/bilibili/app/service/main/usersuit/model"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // RichInviteStat rich invite stat.

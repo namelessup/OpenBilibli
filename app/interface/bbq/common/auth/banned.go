@@ -4,11 +4,11 @@ import (
 	"strconv"
 	"time"
 
-	xsql "go-common/library/database/sql"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	xauth "go-common/library/net/http/blademaster/middleware/auth"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	xauth "github.com/namelessup/bilibili/library/net/http/blademaster/middleware/auth"
 )
 
 const (

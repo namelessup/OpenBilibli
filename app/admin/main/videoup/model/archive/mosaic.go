@@ -1,7 +1,7 @@
 package archive
 
 import (
-	"go-common/app/admin/main/videoup/model/utils"
+	"github.com/namelessup/bilibili/app/admin/main/videoup/model/utils"
 )
 
 //Mosaic 马赛克

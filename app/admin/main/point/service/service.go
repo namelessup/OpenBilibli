@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/admin/main/point/conf"
-	"go-common/app/admin/main/point/dao"
-	"go-common/app/admin/main/point/model"
-	pointrpc "go-common/app/service/main/point/rpc/client"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/point/conf"
+	"github.com/namelessup/bilibili/app/admin/main/point/dao"
+	"github.com/namelessup/bilibili/app/admin/main/point/model"
+	pointrpc "github.com/namelessup/bilibili/app/service/main/point/rpc/client"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Service struct

@@ -12,7 +12,7 @@ go_library(
         "captcha.go",
         "roomAdmin.go",
     ],
-    importpath = "go-common/app/interface/live/web-room/service/v1",
+    importpath = "github.com/namelessup/bilibili/app/interface/live/web-room/service/v1",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

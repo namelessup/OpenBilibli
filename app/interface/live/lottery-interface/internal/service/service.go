@@ -1,10 +1,10 @@
 package service
 
 import (
-	"go-common/app/interface/live/lottery-interface/internal/conf"
-	risk "go-common/app/service/live/live_riskcontrol/api/grpc/v1"
-	storm "go-common/app/service/live/xlottery/api/grpc/v1"
-	"go-common/library/log/infoc"
+	"github.com/namelessup/bilibili/app/interface/live/lottery-interface/internal/conf"
+	risk "github.com/namelessup/bilibili/app/service/live/live_riskcontrol/api/grpc/v1"
+	storm "github.com/namelessup/bilibili/app/service/live/xlottery/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/log/infoc"
 )
 
 // Service struct

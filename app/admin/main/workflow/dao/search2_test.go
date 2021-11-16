@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/admin/main/workflow/model"
-	"go-common/app/admin/main/workflow/model/search"
+	"github.com/namelessup/bilibili/app/admin/main/workflow/model"
+	"github.com/namelessup/bilibili/app/admin/main/workflow/model/search"
 
 	"github.com/smartystreets/goconvey/convey"
 )

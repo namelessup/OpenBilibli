@@ -6,16 +6,16 @@ import (
 	"strconv"
 	"sync"
 
-	dao "go-common/app/interface/main/activity/dao/like"
-	likemdl "go-common/app/interface/main/activity/model/like"
-	tagmdl "go-common/app/interface/main/tag/model"
-	"go-common/app/service/main/archive/api"
-	"go-common/app/service/main/archive/model/archive"
-	thpmdl "go-common/app/service/main/thumbup/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
-	"go-common/library/xstr"
+	dao "github.com/namelessup/bilibili/app/interface/main/activity/dao/like"
+	likemdl "github.com/namelessup/bilibili/app/interface/main/activity/model/like"
+	tagmdl "github.com/namelessup/bilibili/app/interface/main/tag/model"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	thpmdl "github.com/namelessup/bilibili/app/service/main/thumbup/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 const (

@@ -3,10 +3,10 @@ package service
 import (
 	"context"
 
-	accoutCli "go-common/app/service/main/account/api"
-	"go-common/app/service/main/location/model"
-	"go-common/library/log"
-	"go-common/library/xstr"
+	accoutCli "github.com/namelessup/bilibili/app/service/main/account/api"
+	"github.com/namelessup/bilibili/app/service/main/location/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/xstr"
 
 	"github.com/pkg/errors"
 )

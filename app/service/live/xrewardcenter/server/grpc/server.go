@@ -1,12 +1,12 @@
 package grpc
 
 import (
-	pb "go-common/app/service/live/xrewardcenter/api/grpc/v1"
-	"go-common/app/service/live/xrewardcenter/conf"
-	"go-common/app/service/live/xrewardcenter/dao"
-	svc "go-common/app/service/live/xrewardcenter/service/v1"
-	"go-common/library/log"
-	"go-common/library/net/rpc/warden"
+	pb "github.com/namelessup/bilibili/app/service/live/xrewardcenter/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/live/xrewardcenter/conf"
+	"github.com/namelessup/bilibili/app/service/live/xrewardcenter/dao"
+	svc "github.com/namelessup/bilibili/app/service/live/xrewardcenter/service/v1"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 )
 
 // TODO

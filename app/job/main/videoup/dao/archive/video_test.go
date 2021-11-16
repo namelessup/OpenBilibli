@@ -3,7 +3,7 @@ package archive
 import (
 	"context"
 
-	"go-common/app/job/main/videoup/model/archive"
+	"github.com/namelessup/bilibili/app/job/main/videoup/model/archive"
 
 	_ "github.com/go-sql-driver/mysql"
 	. "github.com/smartystreets/goconvey/convey"

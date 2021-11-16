@@ -3,11 +3,11 @@ package service
 import (
 	"context"
 
-	"go-common/app/job/main/archive/model/archive"
-	"go-common/app/job/main/archive/model/result"
-	"go-common/app/job/main/archive/model/retry"
-	arcmdl "go-common/app/service/main/archive/model/archive"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/archive/model/archive"
+	"github.com/namelessup/bilibili/app/job/main/archive/model/result"
+	"github.com/namelessup/bilibili/app/job/main/archive/model/retry"
+	arcmdl "github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) isPGC(aid int64) bool {

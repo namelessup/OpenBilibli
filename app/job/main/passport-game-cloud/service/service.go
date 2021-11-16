@@ -5,9 +5,9 @@ import (
 	"sync"
 	"time"
 
-	"go-common/app/job/main/passport-game-cloud/conf"
-	"go-common/app/job/main/passport-game-cloud/dao"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/job/main/passport-game-cloud/conf"
+	"github.com/namelessup/bilibili/app/job/main/passport-game-cloud/dao"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 const (

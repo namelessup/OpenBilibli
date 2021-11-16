@@ -19,7 +19,7 @@ go_library(
         "test.toml",
         "ut.toml",
     ],
-    importpath = "go-common/app/service/main/riot-search/cmd",
+    importpath = "github.com/namelessup/bilibili/app/service/main/riot-search/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

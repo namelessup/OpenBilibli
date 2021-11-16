@@ -1,16 +1,16 @@
 package favorite
 
 import (
-	"go-common/app/interface/main/app-interface/conf"
-	artdao "go-common/app/interface/main/app-interface/dao/article"
-	audiodao "go-common/app/interface/main/app-interface/dao/audio"
-	bangumidao "go-common/app/interface/main/app-interface/dao/bangumi"
-	bplusdao "go-common/app/interface/main/app-interface/dao/bplus"
-	favdao "go-common/app/interface/main/app-interface/dao/favorite"
-	malldao "go-common/app/interface/main/app-interface/dao/mall"
-	spdao "go-common/app/interface/main/app-interface/dao/sp"
-	ticketdao "go-common/app/interface/main/app-interface/dao/ticket"
-	topicdao "go-common/app/interface/main/app-interface/dao/topic"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/conf"
+	artdao "github.com/namelessup/bilibili/app/interface/main/app-interface/dao/article"
+	audiodao "github.com/namelessup/bilibili/app/interface/main/app-interface/dao/audio"
+	bangumidao "github.com/namelessup/bilibili/app/interface/main/app-interface/dao/bangumi"
+	bplusdao "github.com/namelessup/bilibili/app/interface/main/app-interface/dao/bplus"
+	favdao "github.com/namelessup/bilibili/app/interface/main/app-interface/dao/favorite"
+	malldao "github.com/namelessup/bilibili/app/interface/main/app-interface/dao/mall"
+	spdao "github.com/namelessup/bilibili/app/interface/main/app-interface/dao/sp"
+	ticketdao "github.com/namelessup/bilibili/app/interface/main/app-interface/dao/ticket"
+	topicdao "github.com/namelessup/bilibili/app/interface/main/app-interface/dao/topic"
 )
 
 // Service is favorite.

@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["app-view-test.toml"],
-    importpath = "go-common/app/interface/main/app-view/cmd",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-view/cmd",
     tags = ["automanaged"],
     deps = [
         "//app/interface/main/app-view/conf:go_default_library",

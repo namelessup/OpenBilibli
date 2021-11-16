@@ -4,18 +4,18 @@ import (
 	"errors"
 	"flag"
 
-	"go-common/library/cache/redis"
-	"go-common/library/conf"
-	"go-common/library/database/orm"
-	"go-common/library/database/sql"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/conf"
+	"github.com/namelessup/bilibili/library/database/orm"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/auth"
-	"go-common/library/net/http/blademaster/middleware/verify"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/auth"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/verify"
 
-	"go-common/library/net/rpc/warden"
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
+	"github.com/namelessup/bilibili/library/time"
 
 	"github.com/BurntSushi/toml"
 )

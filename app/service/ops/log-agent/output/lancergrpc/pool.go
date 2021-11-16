@@ -8,8 +8,8 @@ import (
 	"math/rand"
 	"expvar"
 
-	"go-common/library/log"
-	"go-common/app/service/ops/log-agent/pkg/bufio"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/app/service/ops/log-agent/pkg/bufio"
 )
 
 var (

@@ -2,8 +2,8 @@ package dao
 
 import (
 	"context"
-	"go-common/app/admin/main/tv/model"
-	"go-common/library/cache/memcache"
+	"github.com/namelessup/bilibili/app/admin/main/tv/model"
+	"github.com/namelessup/bilibili/library/cache/memcache"
 )
 
 //ModulePublish is used for module status MC key

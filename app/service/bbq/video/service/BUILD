@@ -15,7 +15,7 @@ go_library(
         "upload.go",
         "video.go",
     ],
-    importpath = "go-common/app/service/bbq/video/service",
+    importpath = "github.com/namelessup/bilibili/app/service/bbq/video/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

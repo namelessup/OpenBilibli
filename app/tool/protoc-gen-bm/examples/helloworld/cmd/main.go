@@ -3,9 +3,9 @@ package main
 import (
 	"log"
 
-	"go-common/app/tool/protoc-gen-bm/examples/helloworld/api"
-	"go-common/app/tool/protoc-gen-bm/examples/helloworld/service"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/tool/protoc-gen-bm/examples/helloworld/api"
+	"github.com/namelessup/bilibili/app/tool/protoc-gen-bm/examples/helloworld/service"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func main() {

@@ -3,13 +3,13 @@ package v1
 import (
 	"encoding/json"
 
-	v1pb "go-common/app/interface/live/web-room/api/http/v1"
-	risk "go-common/app/service/live/live_riskcontrol/api/grpc/v1"
-	xcaptcha "go-common/app/service/live/xcaptcha/api/grpc/v1"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/metadata"
+	v1pb "github.com/namelessup/bilibili/app/interface/live/web-room/api/http/v1"
+	risk "github.com/namelessup/bilibili/app/service/live/live_riskcontrol/api/grpc/v1"
+	xcaptcha "github.com/namelessup/bilibili/app/service/live/xcaptcha/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 type rbody struct {

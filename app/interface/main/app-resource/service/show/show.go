@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"strconv"
 
-	"go-common/app/interface/main/app-resource/model"
-	"go-common/app/interface/main/app-resource/model/abtest"
-	"go-common/app/interface/main/app-resource/model/show"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/app-resource/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-resource/model/abtest"
+	"github.com/namelessup/bilibili/app/interface/main/app-resource/model/show"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 
 	farm "github.com/dgryski/go-farm"
 )

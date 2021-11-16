@@ -12,4 +12,4 @@
 //
 // Additionally, a "RawNamer" can optionally keep track of what needs to be
 // imported.
-package namer // import "go-common/app/tool/gengo/namer"
+package namer // import "github.com/namelessup/bilibili/app/tool/gengo/namer"

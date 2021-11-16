@@ -7,17 +7,17 @@ import (
 	"net/http"
 	"time"
 
-	"go-common/app/admin/main/aegis/model"
-	"go-common/app/admin/main/aegis/model/business"
-	"go-common/app/admin/main/aegis/model/common"
-	"go-common/app/admin/main/aegis/model/middleware"
-	"go-common/app/admin/main/aegis/model/task"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/binding"
-	"go-common/library/net/http/blademaster/render"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model/business"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model/common"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model/middleware"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model/task"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/binding"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/render"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 func listBizFlow(c *bm.Context) {

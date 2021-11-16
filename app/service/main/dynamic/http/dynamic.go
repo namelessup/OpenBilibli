@@ -3,12 +3,12 @@ package http
 import (
 	"strconv"
 
-	"go-common/app/service/main/archive/api"
-	"go-common/app/service/main/dynamic/conf"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/app/service/main/dynamic/conf"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 func regionTotal(c *bm.Context) {

@@ -3,7 +3,7 @@ package service
 import (
 	"time"
 
-	"go-common/app/service/main/antispam/util"
+	"github.com/namelessup/bilibili/app/service/main/antispam/util"
 )
 
 // Condition aggregates all query parameters

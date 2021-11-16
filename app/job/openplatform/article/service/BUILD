@@ -45,7 +45,7 @@ go_library(
         "stat.go",
         "tag.go",
     ],
-    importpath = "go-common/app/job/openplatform/article/service",
+    importpath = "github.com/namelessup/bilibili/app/job/openplatform/article/service",
     tags = ["automanaged"],
     deps = [
         "//app/interface/main/tag/model:go_default_library",

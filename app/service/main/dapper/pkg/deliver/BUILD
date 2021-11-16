@@ -17,7 +17,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["deliver.go"],
-    importpath = "go-common/app/service/main/dapper/pkg/deliver",
+    importpath = "github.com/namelessup/bilibili/app/service/main/dapper/pkg/deliver",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/log:go_default_library"],

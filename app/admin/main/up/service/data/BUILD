@@ -13,7 +13,7 @@ go_library(
         "uparchiveinfo.go",
         "viewer.go",
     ],
-    importpath = "go-common/app/admin/main/up/service/data",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/up/service/data",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

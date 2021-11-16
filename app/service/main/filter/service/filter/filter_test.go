@@ -6,9 +6,9 @@ import (
 	"os"
 	"testing"
 
-	"go-common/app/service/main/filter/conf"
-	"go-common/app/service/main/filter/model"
-	"go-common/app/service/main/filter/service/area"
+	"github.com/namelessup/bilibili/app/service/main/filter/conf"
+	"github.com/namelessup/bilibili/app/service/main/filter/model"
+	"github.com/namelessup/bilibili/app/service/main/filter/service/area"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

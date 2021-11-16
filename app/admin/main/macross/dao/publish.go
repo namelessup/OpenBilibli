@@ -5,8 +5,8 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/app/admin/main/macross/model/publish"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/macross/model/publish"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

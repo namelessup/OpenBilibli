@@ -5,13 +5,13 @@ import (
 	"os"
 	"time"
 
-	"go-common/app/tool/saga/conf"
-	"go-common/app/tool/saga/http"
-	"go-common/app/tool/saga/service"
-	"go-common/library/log"
-	"go-common/library/net/trace"
-	"go-common/library/os/signal"
-	"go-common/library/syscall"
+	"github.com/namelessup/bilibili/app/tool/saga/conf"
+	"github.com/namelessup/bilibili/app/tool/saga/http"
+	"github.com/namelessup/bilibili/app/tool/saga/service"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
+	"github.com/namelessup/bilibili/library/os/signal"
+	"github.com/namelessup/bilibili/library/syscall"
 )
 
 var (

@@ -7,8 +7,8 @@ import (
 	"testing"
 
 	. "github.com/smartystreets/goconvey/convey"
-	"go-common/app/job/main/videoup/conf"
-	"go-common/app/job/main/videoup/model/archive"
+	"github.com/namelessup/bilibili/app/job/main/videoup/conf"
+	"github.com/namelessup/bilibili/app/job/main/videoup/model/archive"
 )
 
 var (

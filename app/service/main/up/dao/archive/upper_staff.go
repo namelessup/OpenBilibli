@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/library/database/sql"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 const (

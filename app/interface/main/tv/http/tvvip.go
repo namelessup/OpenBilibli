@@ -5,14 +5,14 @@ import (
 	"net/http"
 	"strings"
 
-	"go-common/app/interface/main/tv/conf"
-	tvmdl "go-common/app/interface/main/tv/model/tvvip"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/binding"
-	"go-common/library/net/http/blademaster/render"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/main/tv/conf"
+	tvmdl "github.com/namelessup/bilibili/app/interface/main/tv/model/tvvip"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/binding"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/render"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 const (

@@ -11,7 +11,7 @@ go_library(
         "playlist.go",
         "rpc.go",
     ],
-    importpath = "go-common/app/interface/main/playlist/model",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/playlist/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

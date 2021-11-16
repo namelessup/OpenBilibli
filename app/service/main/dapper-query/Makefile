@@ -1,5 +1,5 @@
 PROTO_FILE=api/v1/api.proto
-VENDOR_DIR=$(shell echo $$GOPATH | cut -d':' -f1)/src/go-common/vendor
+VENDOR_DIR=$(shell echo $$GOPATH | cut -d':' -f1)/src/github.com/namelessup/bilibili/vendor
 GO_FILES=$(shell find . -name "*.go" -type f)
 
 rundev: build

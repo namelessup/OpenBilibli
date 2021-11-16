@@ -59,7 +59,7 @@ go_library(
         "shop.go",
         "tag.go",
     ],
-    importpath = "go-common/app/interface/main/space/service",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/space/service",
     tags = ["automanaged"],
     deps = [
         "//app/interface/main/space/conf:go_default_library",

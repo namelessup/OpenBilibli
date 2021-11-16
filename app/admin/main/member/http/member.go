@@ -4,12 +4,12 @@ import (
 	"io/ioutil"
 	"time"
 
-	"go-common/app/admin/main/member/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/metadata"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/admin/main/member/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 func members(ctx *bm.Context) {

@@ -2,7 +2,7 @@ package notice
 
 import (
 	"context"
-	"go-common/app/service/live/xuserex/model/roomNotice"
+	"github.com/namelessup/bilibili/app/service/live/xuserex/model/roomNotice"
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"

@@ -3,7 +3,7 @@ package static
 import (
 	"strings"
 
-	xtime "go-common/library/time"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // Static

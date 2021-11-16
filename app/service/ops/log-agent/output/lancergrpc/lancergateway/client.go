@@ -5,10 +5,10 @@ import (
 	"errors"
 	"fmt"
 
-	"go-common/library/net/rpc/warden/resolver"
-	"go-common/library/net/rpc/warden/balancer/wrr"
-	"go-common/library/naming/discovery"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/library/net/rpc/warden/resolver"
+	"github.com/namelessup/bilibili/library/net/rpc/warden/balancer/wrr"
+	"github.com/namelessup/bilibili/library/naming/discovery"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	"google.golang.org/grpc"
 )

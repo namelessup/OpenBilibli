@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 
-	"go-common/app/admin/main/space/conf"
-	"go-common/app/admin/main/space/dao"
-	relrpc "go-common/app/service/main/relation/rpc/client"
+	"github.com/namelessup/bilibili/app/admin/main/space/conf"
+	"github.com/namelessup/bilibili/app/admin/main/space/dao"
+	relrpc "github.com/namelessup/bilibili/app/service/main/relation/rpc/client"
 )
 
 // Service biz service def.

@@ -4,8 +4,8 @@ import (
 	"context"
 	"strconv"
 
-	"go-common/app/service/main/vipinfo/model"
-	mc "go-common/library/cache/memcache"
+	"github.com/namelessup/bilibili/app/service/main/vipinfo/model"
+	mc "github.com/namelessup/bilibili/library/cache/memcache"
 
 	"github.com/pkg/errors"
 )

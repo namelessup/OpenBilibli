@@ -7,8 +7,8 @@ import (
 	"sync"
 	"testing"
 
-	"go-common/app/service/main/push-strategy/conf"
-	pushmdl "go-common/app/service/main/push/model"
+	"github.com/namelessup/bilibili/app/service/main/push-strategy/conf"
+	pushmdl "github.com/namelessup/bilibili/app/service/main/push/model"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

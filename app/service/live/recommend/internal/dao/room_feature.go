@@ -9,12 +9,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go-common/app/service/live/recommend/internal/conf"
-	relationV1 "go-common/app/service/live/relation/api/liverpc/v1"
-	roomV1 "go-common/app/service/live/room/api/liverpc/v1"
-	roomV2 "go-common/app/service/live/room/api/liverpc/v2"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/service/live/recommend/internal/conf"
+	relationV1 "github.com/namelessup/bilibili/app/service/live/relation/api/liverpc/v1"
+	roomV1 "github.com/namelessup/bilibili/app/service/live/room/api/liverpc/v1"
+	roomV2 "github.com/namelessup/bilibili/app/service/live/room/api/liverpc/v2"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 var roomFeatureValue atomic.Value

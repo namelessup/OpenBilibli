@@ -2,10 +2,10 @@ package http
 
 import (
 	"encoding/json"
-	"go-common/app/admin/main/videoup/model/monitor"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/videoup/model/monitor"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // monitorRuleResult 获取监控规则的监控结果

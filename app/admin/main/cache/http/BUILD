@@ -12,7 +12,7 @@ go_library(
         "http.go",
         "overlord.go",
     ],
-    importpath = "go-common/app/admin/main/cache/http",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/cache/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

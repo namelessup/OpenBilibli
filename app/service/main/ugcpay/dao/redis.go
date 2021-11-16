@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/app/service/main/ugcpay/conf"
-	"go-common/library/cache/redis"
+	"github.com/namelessup/bilibili/app/service/main/ugcpay/conf"
+	"github.com/namelessup/bilibili/library/cache/redis"
 
 	"github.com/pkg/errors"
 )

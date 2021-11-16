@@ -3,13 +3,13 @@ package guard
 import (
 	"context"
 	"fmt"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/library/xstr"
 	"time"
 
-	confm "go-common/app/service/live/xuser/conf"
-	"go-common/app/service/live/xuser/model"
-	dhhm "go-common/app/service/live/xuser/model/dhh"
-	"go-common/library/log"
+	confm "github.com/namelessup/bilibili/app/service/live/xuser/conf"
+	"github.com/namelessup/bilibili/app/service/live/xuser/model"
+	dhhm "github.com/namelessup/bilibili/app/service/live/xuser/model/dhh"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/pkg/errors"
 )

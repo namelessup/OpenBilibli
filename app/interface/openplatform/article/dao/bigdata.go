@@ -8,10 +8,10 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/interface/main/creative/model/data"
-	"go-common/app/interface/openplatform/article/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/data"
+	"github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 
 	"golang.org/x/net/context"
 )

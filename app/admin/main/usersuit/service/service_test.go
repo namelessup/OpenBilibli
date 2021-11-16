@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"go-common/app/admin/main/usersuit/conf"
+	"github.com/namelessup/bilibili/app/admin/main/usersuit/conf"
 )
 
 var s *Service

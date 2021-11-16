@@ -2,8 +2,8 @@ package dao
 
 import (
 	"context"
-	"go-common/app/admin/main/growup/dao/shell"
-	"go-common/app/admin/main/growup/model/offlineactivity"
+	"github.com/namelessup/bilibili/app/admin/main/growup/dao/shell"
+	"github.com/namelessup/bilibili/app/admin/main/growup/model/offlineactivity"
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"

@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	accmdl "go-common/app/service/main/account/model"
-	"go-common/library/ecode"
+	accmdl "github.com/namelessup/bilibili/app/service/main/account/model"
+	"github.com/namelessup/bilibili/library/ecode"
 
 	"github.com/smartystreets/goconvey/convey"
 )

@@ -37,7 +37,7 @@ go_library(
         "sort.go",
     ],
     embed = [":model_go_proto"],
-    importpath = "go-common/app/interface/openplatform/article/model",
+    importpath = "github.com/namelessup/bilibili/app/interface/openplatform/article/model",
     tags = ["automanaged"],
     deps = [
         "//app/interface/main/creative/model/data:go_default_library",
@@ -59,7 +59,7 @@ proto_library(
 go_proto_library(
     name = "model_go_proto",
     compilers = ["@io_bazel_rules_go//proto:gogofast_proto"],
-    importpath = "go-common/app/interface/openplatform/article/model",
+    importpath = "github.com/namelessup/bilibili/app/interface/openplatform/article/model",
     proto = ":model_proto",
     tags = ["manual"],
     visibility = ["//visibility:public"],

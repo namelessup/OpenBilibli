@@ -4,7 +4,7 @@ import (
 	"context"
 	"database/sql"
 
-	"go-common/app/job/main/activity/model/like"
+	"github.com/namelessup/bilibili/app/job/main/activity/model/like"
 
 	"github.com/pkg/errors"
 )

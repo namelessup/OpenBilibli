@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/interface/main/mcn/model/mcnmodel"
+	"github.com/namelessup/bilibili/app/interface/main/mcn/model/mcnmodel"
 
 	"github.com/jinzhu/gorm"
 	"github.com/smartystreets/goconvey/convey"

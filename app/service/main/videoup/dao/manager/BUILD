@@ -32,7 +32,7 @@ go_library(
         "search.go",
         "up.go",
     ],
-    importpath = "go-common/app/service/main/videoup/dao/manager",
+    importpath = "github.com/namelessup/bilibili/app/service/main/videoup/dao/manager",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

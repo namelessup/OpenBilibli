@@ -2,9 +2,9 @@ package v2
 
 import (
 	"context"
-	v1pb "go-common/app/interface/live/app-interface/api/http/v1"
-	fansMedalV1 "go-common/app/service/live/fans_medal/api/liverpc/v1"
-	"go-common/library/log"
+	v1pb "github.com/namelessup/bilibili/app/interface/live/app-interface/api/http/v1"
+	fansMedalV1 "github.com/namelessup/bilibili/app/service/live/fans_medal/api/liverpc/v1"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // const (

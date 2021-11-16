@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["service.go"],
-    importpath = "go-common/app/service/live/live-dm/service",
+    importpath = "github.com/namelessup/bilibili/app/service/live/live-dm/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

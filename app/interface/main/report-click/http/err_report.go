@@ -1,8 +1,8 @@
 package http
 
 import (
-	"go-common/app/interface/main/report-click/model"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/interface/main/report-click/model"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func errReport(c *bm.Context) {

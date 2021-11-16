@@ -4,13 +4,13 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/interface/main/creative/conf"
-	"go-common/app/interface/main/creative/dao/app"
-	"go-common/app/interface/main/creative/dao/message"
-	appDML "go-common/app/interface/main/creative/model/app"
-	msgDML "go-common/app/interface/main/creative/model/message"
-	"go-common/app/interface/main/creative/service"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/creative/conf"
+	"github.com/namelessup/bilibili/app/interface/main/creative/dao/app"
+	"github.com/namelessup/bilibili/app/interface/main/creative/dao/message"
+	appDML "github.com/namelessup/bilibili/app/interface/main/creative/model/app"
+	msgDML "github.com/namelessup/bilibili/app/interface/main/creative/model/message"
+	"github.com/namelessup/bilibili/app/interface/main/creative/service"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 //Service struct.

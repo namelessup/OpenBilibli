@@ -5,10 +5,10 @@ import (
 	"strconv"
 	"time"
 
-	mdl "go-common/app/interface/main/app-resource/model/module"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	mdl "github.com/namelessup/bilibili/app/interface/main/app-resource/model/module"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func list(c *bm.Context) {

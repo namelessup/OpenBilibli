@@ -1,10 +1,10 @@
 package assist
 
 import (
-	accv1 "go-common/app/service/main/account/api"
-	accmdl "go-common/app/service/main/account/model"
-	"go-common/library/ecode"
-	"go-common/library/time"
+	accv1 "github.com/namelessup/bilibili/app/service/main/account/api"
+	accmdl "github.com/namelessup/bilibili/app/service/main/account/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 var (

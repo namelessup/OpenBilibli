@@ -11,7 +11,7 @@ go_library(
         "params.go",
         "sug.go",
     ],
-    importpath = "go-common/app/admin/openplatform/sug/model",
+    importpath = "github.com/namelessup/bilibili/app/admin/openplatform/sug/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

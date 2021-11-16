@@ -4,8 +4,8 @@ import (
 	"context"
 	"math"
 
-	"go-common/app/job/main/ugcpay/model"
-	xsql "go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/job/main/ugcpay/model"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
 )
 
 const (

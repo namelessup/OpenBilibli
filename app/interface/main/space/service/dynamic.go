@@ -5,14 +5,14 @@ import (
 	"sort"
 	"time"
 
-	"go-common/app/interface/main/space/model"
-	arcmdl "go-common/app/service/main/archive/api"
-	coinmdl "go-common/app/service/main/coin/api"
-	thumbup "go-common/app/service/main/thumbup/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/interface/main/space/model"
+	arcmdl "github.com/namelessup/bilibili/app/service/main/archive/api"
+	coinmdl "github.com/namelessup/bilibili/app/service/main/coin/api"
+	thumbup "github.com/namelessup/bilibili/app/service/main/thumbup/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 const (

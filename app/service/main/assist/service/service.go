@@ -4,12 +4,12 @@ import (
 	"context"
 	"sync"
 
-	"go-common/app/service/main/assist/conf"
-	"go-common/app/service/main/assist/dao/account"
-	"go-common/app/service/main/assist/dao/assist"
-	"go-common/app/service/main/assist/dao/message"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/service/main/assist/conf"
+	"github.com/namelessup/bilibili/app/service/main/assist/dao/account"
+	"github.com/namelessup/bilibili/app/service/main/assist/dao/assist"
+	"github.com/namelessup/bilibili/app/service/main/assist/dao/message"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 // Service assist.

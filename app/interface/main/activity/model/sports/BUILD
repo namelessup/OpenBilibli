@@ -11,7 +11,7 @@ go_library(
         "params.go",
         "sports.go",
     ],
-    importpath = "go-common/app/interface/main/activity/model/sports",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/activity/model/sports",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

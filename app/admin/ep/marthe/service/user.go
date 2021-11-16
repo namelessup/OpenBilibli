@@ -2,10 +2,10 @@ package service
 
 import (
 	"context"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 
-	"go-common/app/admin/ep/marthe/model"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/admin/ep/marthe/model"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 // QueryUserInfo query user info.

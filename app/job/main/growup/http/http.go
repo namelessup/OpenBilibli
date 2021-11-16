@@ -3,15 +3,15 @@ package http
 import (
 	"net/http"
 
-	"go-common/app/job/main/growup/conf"
-	"go-common/app/job/main/growup/service"
-	"go-common/app/job/main/growup/service/charge"
-	"go-common/app/job/main/growup/service/ctrl"
-	"go-common/app/job/main/growup/service/income"
-	"go-common/app/job/main/growup/service/tag"
+	"github.com/namelessup/bilibili/app/job/main/growup/conf"
+	"github.com/namelessup/bilibili/app/job/main/growup/service"
+	"github.com/namelessup/bilibili/app/job/main/growup/service/charge"
+	"github.com/namelessup/bilibili/app/job/main/growup/service/ctrl"
+	"github.com/namelessup/bilibili/app/job/main/growup/service/income"
+	"github.com/namelessup/bilibili/app/job/main/growup/service/tag"
 
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 var (

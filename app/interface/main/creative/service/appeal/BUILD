@@ -26,7 +26,7 @@ go_library(
         "appeal.go",
         "service.go",
     ],
-    importpath = "go-common/app/interface/main/creative/service/appeal",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/creative/service/appeal",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

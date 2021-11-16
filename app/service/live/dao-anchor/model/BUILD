@@ -12,7 +12,7 @@ go_library(
         "databusMsg.go",
         "model.go",
     ],
-    importpath = "go-common/app/service/live/dao-anchor/model",
+    importpath = "github.com/namelessup/bilibili/app/service/live/dao-anchor/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

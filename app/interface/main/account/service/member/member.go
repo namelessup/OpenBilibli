@@ -3,13 +3,13 @@ package member
 import (
 	"context"
 
-	"go-common/app/interface/main/account/model"
-	accmdl "go-common/app/service/main/account/model"
-	arcmdl "go-common/app/service/main/archive/model/archive"
-	memmdl "go-common/app/service/main/member/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/main/account/model"
+	accmdl "github.com/namelessup/bilibili/app/service/main/account/model"
+	arcmdl "github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	memmdl "github.com/namelessup/bilibili/app/service/main/member/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 const (

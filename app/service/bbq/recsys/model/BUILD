@@ -13,7 +13,7 @@ go_library(
         "model.go",
         "user.go",
     ],
-    importpath = "go-common/app/service/bbq/recsys/model",
+    importpath = "github.com/namelessup/bilibili/app/service/bbq/recsys/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//vendor/github.com/Dai0522/go-hash/bloomfilter:go_default_library"],

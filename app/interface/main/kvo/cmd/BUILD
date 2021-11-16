@@ -19,7 +19,7 @@ go_library(
         "kvo-example.toml",
         "kvo-test.toml",
     ],
-    importpath = "go-common/app/interface/main/kvo/cmd",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/kvo/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -6,7 +6,7 @@ import (
 	"net"
 	"testing"
 
-	"go-common/app/admin/main/activity/model"
+	"github.com/namelessup/bilibili/app/admin/main/activity/model"
 
 	"github.com/smartystreets/goconvey/convey"
 )

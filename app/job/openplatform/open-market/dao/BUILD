@@ -13,7 +13,7 @@ go_library(
         "market_es.go",
         "market_mysql.go",
     ],
-    importpath = "go-common/app/job/openplatform/open-market/dao",
+    importpath = "github.com/namelessup/bilibili/app/job/openplatform/open-market/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

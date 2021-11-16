@@ -32,7 +32,7 @@ go_library(
         "http.go",
         "stra.go",
     ],
-    importpath = "go-common/app/service/openplatform/abtest/http",
+    importpath = "github.com/namelessup/bilibili/app/service/openplatform/abtest/http",
     tags = ["automanaged"],
     deps = [
         "//app/service/openplatform/abtest/conf:go_default_library",

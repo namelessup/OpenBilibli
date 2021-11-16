@@ -1,7 +1,7 @@
 package realname
 
 import (
-	"go-common/app/interface/main/account/model"
+	"github.com/namelessup/bilibili/app/interface/main/account/model"
 )
 
 var (

@@ -26,7 +26,7 @@ go_library(
         "cache.go",
         "dao.go",
     ],
-    importpath = "go-common/app/job/main/app-wall/dao/unicom",
+    importpath = "github.com/namelessup/bilibili/app/job/main/app-wall/dao/unicom",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

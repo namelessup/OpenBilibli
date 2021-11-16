@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"go-common/app/interface/main/dm/model"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/interface/main/dm/model"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 func (s *Service) subject(c context.Context, tp int32, oid int64) (sub *model.Subject, err error) {

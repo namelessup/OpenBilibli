@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["open-market-job-test.toml"],
-    importpath = "go-common/app/job/openplatform/open-market/cmd",
+    importpath = "github.com/namelessup/bilibili/app/job/openplatform/open-market/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

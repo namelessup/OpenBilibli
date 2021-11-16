@@ -3,8 +3,8 @@ package ping
 import (
 	"context"
 
-	"go-common/app/interface/main/app-resource/conf"
-	pgdao "go-common/app/interface/main/app-resource/dao/plugin"
+	"github.com/namelessup/bilibili/app/interface/main/app-resource/conf"
+	pgdao "github.com/namelessup/bilibili/app/interface/main/app-resource/dao/plugin"
 )
 
 type Service struct {

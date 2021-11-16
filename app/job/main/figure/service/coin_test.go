@@ -2,7 +2,7 @@ package service
 
 import (
 	"context"
-	coinm "go-common/app/service/main/coin/model"
+	coinm "github.com/namelessup/bilibili/app/service/main/coin/model"
 	"testing"
 
 	. "github.com/smartystreets/goconvey/convey"

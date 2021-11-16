@@ -4,8 +4,8 @@ import (
 	"context"
 	"database/sql"
 
-	"go-common/app/admin/main/aegis/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 //ReportTaskMetas 任务数据统计

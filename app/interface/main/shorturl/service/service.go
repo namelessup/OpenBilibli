@@ -2,9 +2,9 @@ package service
 
 import (
 	"context"
-	"go-common/app/interface/main/shorturl/conf"
-	shortdao "go-common/app/interface/main/shorturl/dao"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/shorturl/conf"
+	shortdao "github.com/namelessup/bilibili/app/interface/main/shorturl/dao"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Service service struct

@@ -7,12 +7,12 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/interface/main/app-resource/conf"
-	"go-common/app/interface/main/app-resource/dao/param"
-	"go-common/app/interface/main/app-resource/model"
-	mparam "go-common/app/interface/main/app-resource/model/param"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/app-resource/conf"
+	"github.com/namelessup/bilibili/app/interface/main/app-resource/dao/param"
+	"github.com/namelessup/bilibili/app/interface/main/app-resource/model"
+	mparam "github.com/namelessup/bilibili/app/interface/main/app-resource/model/param"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 
 	farm "github.com/dgryski/go-farm"
 )

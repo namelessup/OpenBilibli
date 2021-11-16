@@ -16,7 +16,7 @@ go_library(
         "protect.go",
         "report.go",
     ],
-    importpath = "go-common/app/interface/main/creative/dao/danmu",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/creative/dao/danmu",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

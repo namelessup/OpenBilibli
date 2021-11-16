@@ -1,8 +1,8 @@
 package block
 
 import (
-	model "go-common/app/admin/main/member/model/block"
-	bm "go-common/library/net/http/blademaster"
+	model "github.com/namelessup/bilibili/app/admin/main/member/model/block"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func blockSearch(c *bm.Context) {

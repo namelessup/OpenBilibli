@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"go-common/app/admin/ep/saga/conf"
+	"github.com/namelessup/bilibili/app/admin/ep/saga/conf"
 )
 
 var (

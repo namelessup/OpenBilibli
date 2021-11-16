@@ -15,7 +15,7 @@ go_library(
         "mng_user.go",
         "publish.go",
     ],
-    importpath = "go-common/app/admin/main/macross/dao",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/macross/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

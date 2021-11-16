@@ -2,7 +2,7 @@ package service
 
 import (
 	"encoding/binary"
-	"go-common/app/service/bbq/recsys-recall/service/index"
+	"github.com/namelessup/bilibili/app/service/bbq/recsys-recall/service/index"
 
 	"github.com/Dai0522/go-hash/bloomfilter"
 )

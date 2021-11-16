@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"time"
 
-	arcmdl "go-common/app/service/main/archive/api"
-	"go-common/app/service/main/archive/model/archive"
+	arcmdl "github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/app/service/main/archive/model/archive"
 )
 
 var encodeTbl = []int64{

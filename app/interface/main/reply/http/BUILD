@@ -17,7 +17,7 @@ go_library(
         "reply_report.go",
         "xreply.go",
     ],
-    importpath = "go-common/app/interface/main/reply/http",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/reply/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

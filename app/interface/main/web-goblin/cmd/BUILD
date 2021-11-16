@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["web-goblin-test.toml"],
-    importpath = "go-common/app/interface/main/web-goblin/cmd",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/web-goblin/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

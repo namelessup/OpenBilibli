@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["errors.go"],
-    importpath = "go-common/app/admin/main/macross/model/errors",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/macross/model/errors",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/ecode:go_default_library"],

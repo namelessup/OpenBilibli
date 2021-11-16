@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/app/job/main/thumbup/model"
-	"go-common/library/cache/redis"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/thumbup/model"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func userLikesKey(businessID, mid int64, state int8) string {

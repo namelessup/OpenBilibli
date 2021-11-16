@@ -18,7 +18,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["limit.go"],
-    importpath = "go-common/library/rate/limit",
+    importpath = "github.com/namelessup/bilibili/library/rate/limit",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

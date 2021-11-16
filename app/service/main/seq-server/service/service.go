@@ -8,12 +8,12 @@ import (
 	"sync"
 	"time"
 
-	"go-common/app/service/main/seq-server/conf"
-	"go-common/app/service/main/seq-server/dao"
-	"go-common/app/service/main/seq-server/model"
-	"go-common/library/log"
-	"go-common/library/net/rpc"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/service/main/seq-server/conf"
+	"github.com/namelessup/bilibili/app/service/main/seq-server/dao"
+	"github.com/namelessup/bilibili/app/service/main/seq-server/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/rpc"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // Service is service.

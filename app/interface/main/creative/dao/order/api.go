@@ -7,11 +7,11 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/interface/main/creative/conf"
-	"go-common/app/interface/main/creative/dao/tool"
-	"go-common/app/interface/main/creative/model/order"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/creative/conf"
+	"github.com/namelessup/bilibili/app/interface/main/creative/dao/tool"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/order"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // UpValidate fn

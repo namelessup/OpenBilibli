@@ -2,7 +2,7 @@ package dao
 
 import (
 	"context"
-	"go-common/app/admin/main/usersuit/model"
+	"github.com/namelessup/bilibili/app/admin/main/usersuit/model"
 	"math/rand"
 	"testing"
 

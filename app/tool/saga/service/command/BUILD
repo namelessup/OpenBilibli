@@ -14,7 +14,7 @@ go_library(
         "merge.go",
         "review.go",
     ],
-    importpath = "go-common/app/tool/saga/service/command",
+    importpath = "github.com/namelessup/bilibili/app/tool/saga/service/command",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

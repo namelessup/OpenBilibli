@@ -1,13 +1,13 @@
 package http
 
 import (
-	"go-common/app/admin/main/creative/model/logcli"
-	"go-common/app/admin/main/creative/model/music"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/binding"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/admin/main/creative/model/logcli"
+	"github.com/namelessup/bilibili/app/admin/main/creative/model/music"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/binding"
+	"github.com/namelessup/bilibili/library/xstr"
 
 	"github.com/jinzhu/gorm"
 )

@@ -9,11 +9,11 @@ import (
 	"strconv"
 	"strings"
 
-	"go-common/app/interface/main/app-intl/model"
-	bgmmdl "go-common/app/interface/main/app-intl/model/bangumi"
-	article "go-common/app/interface/openplatform/article/model"
-	"go-common/app/service/main/archive/api"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/interface/main/app-intl/model"
+	bgmmdl "github.com/namelessup/bilibili/app/interface/main/app-intl/model/bangumi"
+	article "github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // search const

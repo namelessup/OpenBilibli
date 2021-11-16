@@ -60,7 +60,7 @@ go_library(
         "upload.go",
         "video.go",
     ],
-    importpath = "go-common/app/job/main/growup/service",
+    importpath = "github.com/namelessup/bilibili/app/job/main/growup/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

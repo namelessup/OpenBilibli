@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/interface/main/space/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/space/model"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/tsuna/gohbase/hrpc"
 )

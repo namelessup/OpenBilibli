@@ -12,7 +12,7 @@ go_library(
         "logger.go",
         "shorturl.go",
     ],
-    importpath = "go-common/app/interface/main/shorturl/http",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/shorturl/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

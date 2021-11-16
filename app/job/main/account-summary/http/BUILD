@@ -11,7 +11,7 @@ go_library(
         "http.go",
         "summary.go",
     ],
-    importpath = "go-common/app/job/main/account-summary/http",
+    importpath = "github.com/namelessup/bilibili/app/job/main/account-summary/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

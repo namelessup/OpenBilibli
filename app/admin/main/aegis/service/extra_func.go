@@ -6,8 +6,8 @@ import (
 	"hash/fnv"
 	"reflect"
 
-	"go-common/app/admin/main/aegis/model/common"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model/common"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 type multransFunc func(context.Context, []int64) (map[int64][]interface{}, error)

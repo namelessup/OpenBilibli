@@ -11,7 +11,7 @@ go_library(
         "bangumi.go",
         "http.go",
     ],
-    importpath = "go-common/app/interface/main/spread/http",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/spread/http",
     tags = ["automanaged"],
     deps = [
         "//app/interface/main/spread/conf:go_default_library",

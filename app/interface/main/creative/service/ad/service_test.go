@@ -3,14 +3,14 @@ package ad
 import (
 	"context"
 	"flag"
-	"go-common/app/interface/main/creative/conf"
-	gM "go-common/app/interface/main/creative/model/game"
+	"github.com/namelessup/bilibili/app/interface/main/creative/conf"
+	gM "github.com/namelessup/bilibili/app/interface/main/creative/model/game"
 	"path/filepath"
 	"testing"
 	"time"
 
 	. "github.com/smartystreets/goconvey/convey"
-	"go-common/app/interface/main/creative/service"
+	"github.com/namelessup/bilibili/app/interface/main/creative/service"
 )
 
 var (

@@ -7,12 +7,12 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/app/job/main/videoup-report/conf"
-	"go-common/app/job/main/videoup-report/http"
-	"go-common/app/job/main/videoup-report/service"
-	"go-common/library/log"
-	"go-common/library/net/trace"
-	"go-common/library/queue/databus/report"
+	"github.com/namelessup/bilibili/app/job/main/videoup-report/conf"
+	"github.com/namelessup/bilibili/app/job/main/videoup-report/http"
+	"github.com/namelessup/bilibili/app/job/main/videoup-report/service"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
+	"github.com/namelessup/bilibili/library/queue/databus/report"
 )
 
 func main() {

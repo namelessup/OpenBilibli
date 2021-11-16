@@ -8,15 +8,15 @@ import (
 	"html/template"
 	"time"
 
-	//"go-common/app/job/main/up/conf"
-	"go-common/app/admin/main/up/util"
-	"go-common/app/job/main/up/dao/upcrm"
-	"go-common/app/job/main/up/model/signmodel"
-	"go-common/app/job/main/up/model/upcrmmodel"
-	account "go-common/app/service/main/account/model"
-	"go-common/library/log"
+	//"github.com/namelessup/bilibili/app/job/main/up/conf"
+	"github.com/namelessup/bilibili/app/admin/main/up/util"
+	"github.com/namelessup/bilibili/app/job/main/up/dao/upcrm"
+	"github.com/namelessup/bilibili/app/job/main/up/model/signmodel"
+	"github.com/namelessup/bilibili/app/job/main/up/model/upcrmmodel"
+	account "github.com/namelessup/bilibili/app/service/main/account/model"
+	"github.com/namelessup/bilibili/library/log"
 
-	"go-common/app/job/main/up/conf"
+	"github.com/namelessup/bilibili/app/job/main/up/conf"
 )
 
 var (

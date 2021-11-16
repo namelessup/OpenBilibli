@@ -52,7 +52,7 @@ go_library(
         "task.go",
         "transfer.go",
     ],
-    importpath = "go-common/app/admin/main/dm/service",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/dm/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

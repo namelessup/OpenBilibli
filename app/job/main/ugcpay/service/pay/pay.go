@@ -11,7 +11,7 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Pay is.

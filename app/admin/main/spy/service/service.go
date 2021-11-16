@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/admin/main/spy/conf"
-	spydao "go-common/app/admin/main/spy/dao"
-	"go-common/app/admin/main/spy/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/spy/conf"
+	spydao "github.com/namelessup/bilibili/app/admin/main/spy/dao"
+	"github.com/namelessup/bilibili/app/admin/main/spy/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Service biz service def.

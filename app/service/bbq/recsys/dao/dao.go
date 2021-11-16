@@ -2,17 +2,17 @@ package dao
 
 import (
 	"context"
-	relation "go-common/app/service/main/relation/api"
+	relation "github.com/namelessup/bilibili/app/service/main/relation/api"
 	"time"
 
-	recallv1 "go-common/app/service/bbq/recsys-recall/api/grpc/v1"
-	"go-common/app/service/bbq/recsys/conf"
-	searchv1 "go-common/app/service/bbq/search/api/grpc/v1"
-	user "go-common/app/service/bbq/user/api"
-	"go-common/library/cache/memcache"
-	"go-common/library/cache/redis"
-	xsql "go-common/library/database/sql"
-	"go-common/library/net/rpc/warden"
+	recallv1 "github.com/namelessup/bilibili/app/service/bbq/recsys-recall/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/bbq/recsys/conf"
+	searchv1 "github.com/namelessup/bilibili/app/service/bbq/search/api/grpc/v1"
+	user "github.com/namelessup/bilibili/app/service/bbq/user/api"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 
 	"github.com/Dai0522/workpool"
 )

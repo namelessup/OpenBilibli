@@ -29,7 +29,7 @@ go_library(
         "pwd.go",
         "service.go",
     ],
-    importpath = "go-common/app/service/main/passport/service",
+    importpath = "github.com/namelessup/bilibili/app/service/main/passport/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

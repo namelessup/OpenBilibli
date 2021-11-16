@@ -7,14 +7,14 @@ import (
 	"sync"
 	"time"
 
-	plmdl "go-common/app/interface/main/playlist/model"
-	plarpc "go-common/app/interface/main/playlist/rpc/client"
-	"go-common/app/job/main/playlist/conf"
-	"go-common/app/job/main/playlist/dao"
-	"go-common/app/job/main/playlist/model"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
-	"go-common/library/stat/prom"
+	plmdl "github.com/namelessup/bilibili/app/interface/main/playlist/model"
+	plarpc "github.com/namelessup/bilibili/app/interface/main/playlist/rpc/client"
+	"github.com/namelessup/bilibili/app/job/main/playlist/conf"
+	"github.com/namelessup/bilibili/app/job/main/playlist/dao"
+	"github.com/namelessup/bilibili/app/job/main/playlist/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
+	"github.com/namelessup/bilibili/library/stat/prom"
 )
 
 const (

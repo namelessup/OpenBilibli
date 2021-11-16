@@ -3,10 +3,10 @@ package grpc
 import (
 	"context"
 
-	"go-common/app/service/main/share/api"
-	"go-common/app/service/main/share/model"
-	"go-common/app/service/main/share/service"
-	"go-common/library/net/rpc/warden"
+	"github.com/namelessup/bilibili/app/service/main/share/api"
+	"github.com/namelessup/bilibili/app/service/main/share/model"
+	"github.com/namelessup/bilibili/app/service/main/share/service"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 )
 
 // server .

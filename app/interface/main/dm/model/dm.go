@@ -4,7 +4,7 @@ import (
 	"hash/crc32"
 	"strconv"
 
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 // All const variable used in dm2

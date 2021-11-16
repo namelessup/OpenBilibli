@@ -1,11 +1,11 @@
 package grpc
 
 import (
-	dmg "go-common/app/service/live/live-dm/api/grpc/v1"
-	"go-common/app/service/live/live-dm/conf"
-	"go-common/app/service/live/live-dm/dao"
-	dms "go-common/app/service/live/live-dm/service/v1"
-	"go-common/library/net/rpc/warden"
+	dmg "github.com/namelessup/bilibili/app/service/live/live-dm/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/live/live-dm/conf"
+	"github.com/namelessup/bilibili/app/service/live/live-dm/dao"
+	dms "github.com/namelessup/bilibili/app/service/live/live-dm/service/v1"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 )
 
 //Init 弹幕grpc 初始化

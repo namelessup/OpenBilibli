@@ -5,8 +5,8 @@ import (
 	"math"
 	"time"
 
-	"go-common/app/admin/main/reply/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/reply/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // AddReplyConfig create a new administrator configuration for reply business

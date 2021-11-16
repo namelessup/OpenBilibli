@@ -3,19 +3,19 @@ package main
 import (
 	"context"
 	"flag"
-	"go-common/library/conf/paladin"
+	"github.com/namelessup/bilibili/library/conf/paladin"
 	"os"
 	"os/signal"
 	"syscall"
 	"time"
 
-	"go-common/app/service/bbq/user/internal/conf"
-	"go-common/app/service/bbq/user/internal/server/grpc"
-	"go-common/app/service/bbq/user/internal/server/http"
-	"go-common/app/service/bbq/user/internal/service"
-	ecode "go-common/library/ecode/tip"
-	"go-common/library/log"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/app/service/bbq/user/internal/conf"
+	"github.com/namelessup/bilibili/app/service/bbq/user/internal/server/grpc"
+	"github.com/namelessup/bilibili/app/service/bbq/user/internal/server/http"
+	"github.com/namelessup/bilibili/app/service/bbq/user/internal/service"
+	ecode "github.com/namelessup/bilibili/library/ecode/tip"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
 )
 
 var (

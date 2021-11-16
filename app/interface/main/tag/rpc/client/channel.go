@@ -3,7 +3,7 @@ package tag
 import (
 	"context"
 
-	"go-common/app/interface/main/tag/model"
+	"github.com/namelessup/bilibili/app/interface/main/tag/model"
 )
 
 const (

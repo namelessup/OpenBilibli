@@ -10,14 +10,14 @@ import (
 	"sync"
 	"time"
 
-	"go-common/library/conf/dsn"
-	"go-common/library/log"
-	nmd "go-common/library/net/metadata"
-	"go-common/library/net/trace"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/library/conf/dsn"
+	"github.com/namelessup/bilibili/library/log"
+	nmd "github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/net/trace"
+	xtime "github.com/namelessup/bilibili/library/time"
 	//this package is for json format response
-	_ "go-common/library/net/rpc/warden/encoding/json"
-	"go-common/library/net/rpc/warden/status"
+	_ "github.com/namelessup/bilibili/library/net/rpc/warden/encoding/json"
+	"github.com/namelessup/bilibili/library/net/rpc/warden/status"
 
 	"github.com/pkg/errors"
 	"google.golang.org/grpc"

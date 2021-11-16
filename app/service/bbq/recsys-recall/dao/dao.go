@@ -3,9 +3,9 @@ package dao
 import (
 	"context"
 
-	"go-common/app/service/bbq/recsys-recall/conf"
-	xcache "go-common/app/service/bbq/recsys-recall/dao/cache"
-	"go-common/library/cache/redis"
+	"github.com/namelessup/bilibili/app/service/bbq/recsys-recall/conf"
+	xcache "github.com/namelessup/bilibili/app/service/bbq/recsys-recall/dao/cache"
+	"github.com/namelessup/bilibili/library/cache/redis"
 )
 
 // Dao dao

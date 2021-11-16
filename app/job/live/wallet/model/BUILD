@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["model.go"],
-    importpath = "go-common/app/job/live/wallet/model",
+    importpath = "github.com/namelessup/bilibili/app/job/live/wallet/model",
     tags = ["automanaged"],
 )
 

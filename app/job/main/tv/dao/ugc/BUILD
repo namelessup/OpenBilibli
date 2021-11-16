@@ -50,7 +50,7 @@ go_library(
         "sync_arc.go",
         "sync_video.go",
     ],
-    importpath = "go-common/app/job/main/tv/dao/ugc",
+    importpath = "github.com/namelessup/bilibili/app/job/main/tv/dao/ugc",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

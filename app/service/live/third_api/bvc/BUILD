@@ -11,7 +11,7 @@ go_library(
         "client.go",
         "playurl.go",
     ],
-    importpath = "go-common/app/service/live/third_api/bvc",
+    importpath = "github.com/namelessup/bilibili/app/service/live/third_api/bvc",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

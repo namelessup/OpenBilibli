@@ -7,9 +7,9 @@ import (
 	"net/http"
 	"strings"
 
-	"go-common/app/service/main/msm/model"
-	"go-common/library/conf/env"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/msm/model"
+	"github.com/namelessup/bilibili/library/conf/env"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

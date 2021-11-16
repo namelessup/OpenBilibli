@@ -6,7 +6,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/pkg/errors"
 )

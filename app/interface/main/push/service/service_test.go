@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/interface/main/push/conf"
-	pushmdl "go-common/app/service/main/push/model"
+	"github.com/namelessup/bilibili/app/interface/main/push/conf"
+	pushmdl "github.com/namelessup/bilibili/app/service/main/push/model"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

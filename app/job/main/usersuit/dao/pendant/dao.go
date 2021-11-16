@@ -3,10 +3,10 @@ package pendant
 import (
 	"context"
 
-	"go-common/app/job/main/usersuit/conf"
-	"go-common/library/cache/redis"
-	"go-common/library/database/sql"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/job/main/usersuit/conf"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/database/sql"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // Dao struct info of Dao.

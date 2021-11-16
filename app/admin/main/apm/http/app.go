@@ -2,13 +2,13 @@ package http
 
 import (
 	"fmt"
-	"go-common/app/admin/main/apm/model/app"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/apm/model/app"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 	"strconv"
 	"strings"
 
-	bm "go-common/library/net/http/blademaster"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func appList(c *bm.Context) {

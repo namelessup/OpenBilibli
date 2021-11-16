@@ -4,7 +4,7 @@ import (
 	"errors"
 	"sync"
 
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 // ErrBusinessNotReady business is not ready.

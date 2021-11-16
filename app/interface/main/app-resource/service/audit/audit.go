@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/interface/main/app-resource/conf"
-	auditdao "go-common/app/interface/main/app-resource/dao/audit"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/app-resource/conf"
+	auditdao "github.com/namelessup/bilibili/app/interface/main/app-resource/dao/audit"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Service audit service.

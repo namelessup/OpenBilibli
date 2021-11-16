@@ -4,14 +4,14 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/interface/main/dm/conf"
-	"go-common/library/cache/redis"
-	"go-common/library/database/elastic"
-	"go-common/library/database/sql"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/queue/databus"
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/app/interface/main/dm/conf"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/database/elastic"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/queue/databus"
+	"github.com/namelessup/bilibili/library/stat/prom"
 )
 
 var (

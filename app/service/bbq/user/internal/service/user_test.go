@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 	"encoding/json"
-	"go-common/app/service/bbq/user/api"
-	"go-common/app/service/bbq/user/internal/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/bbq/user/api"
+	"github.com/namelessup/bilibili/app/service/bbq/user/internal/model"
+	"github.com/namelessup/bilibili/library/log"
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"

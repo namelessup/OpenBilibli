@@ -16,7 +16,7 @@ go_library(
         "reply.go",
         "rpc.go",
     ],
-    importpath = "go-common/app/service/main/search/model",
+    importpath = "github.com/namelessup/bilibili/app/service/main/search/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

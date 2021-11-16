@@ -6,10 +6,10 @@ import (
 	"net/url"
 	"strings"
 
-	cardlive "go-common/app/interface/main/app-card/model/card/live"
-	"go-common/app/interface/main/app-channel/model/tab"
-	"go-common/app/service/main/archive/api"
-	"go-common/app/service/main/archive/model/archive"
+	cardlive "github.com/namelessup/bilibili/app/interface/main/app-card/model/card/live"
+	"github.com/namelessup/bilibili/app/interface/main/app-channel/model/tab"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/app/service/main/archive/model/archive"
 )
 
 const (

@@ -2,7 +2,7 @@ package newcomer
 
 import (
 	"context"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/library/ecode"
 	"testing"
 
 	"strings"

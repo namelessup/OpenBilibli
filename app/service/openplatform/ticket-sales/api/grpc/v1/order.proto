@@ -50,8 +50,8 @@ message OrderResponse {
     repeated OrderSKU skus = 15 [(gogoproto.jsontag) = "order_sku", (gogoproto.customname) = "SKUs"];
     OrderResponseMore detail = 16 [(gogoproto.jsontag) = "detail"];
     OrderPayCharge pay_charge = 17 [(gogoproto.jsontag) = "pay_charge"];
-    int64 ctime = 18 [(gogoproto.jsontag) = "ctime", (gogoproto.customname) = "CTime", (gogoproto.casttype) = "go-common/library/time.Time"];
-    int64 mtime = 19 [(gogoproto.jsontag) = "mtime", (gogoproto.customname) = "MTime", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int64 ctime = 18 [(gogoproto.jsontag) = "ctime", (gogoproto.customname) = "CTime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
+    int64 mtime = 19 [(gogoproto.jsontag) = "mtime", (gogoproto.customname) = "MTime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
 }
 
 //OrderResponseMore 更详细的订单响应信息
@@ -142,8 +142,8 @@ message OrderLog {
     string remark = 6 [(gogoproto.customname) = "Remark"];
     string op_object = 7 [(gogoproto.customname) = "OpObject"];
     string op_name = 8 [(gogoproto.customname) = "OpName"];
-    int64 ctime = 9 [(gogoproto.customname) = "CTime", (gogoproto.casttype) = "go-common/library/time.Time"];
-    int64 mtime = 10 [(gogoproto.customname) = "MTime", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int64 ctime = 9 [(gogoproto.customname) = "CTime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
+    int64 mtime = 10 [(gogoproto.customname) = "MTime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
 }
 
 

@@ -19,7 +19,7 @@ go_library(
         "archive-service-example.toml",
         "archive-service-test.toml",
     ],
-    importpath = "go-common/app/service/main/archive/cmd",
+    importpath = "github.com/namelessup/bilibili/app/service/main/archive/cmd",
     tags = ["automanaged"],
     deps = [
         "//app/service/main/archive/conf:go_default_library",

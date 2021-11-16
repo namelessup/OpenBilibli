@@ -3,10 +3,10 @@ package dao
 import (
 	"context"
 
-	"go-common/app/service/main/open/conf"
-	"go-common/library/cache/memcache"
-	"go-common/library/database/orm"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/open/conf"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/database/orm"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/jinzhu/gorm"
 )

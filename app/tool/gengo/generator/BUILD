@@ -18,7 +18,7 @@ go_library(
         "import_tracker.go",
         "snippet_writer.go",
     ],
-    importpath = "go-common/app/tool/gengo/generator",
+    importpath = "github.com/namelessup/bilibili/app/tool/gengo/generator",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

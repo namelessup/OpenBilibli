@@ -18,7 +18,7 @@ go_library(
     name = "go_default_library",
     srcs = ["agent.go"],
     data = ["runners.toml"],
-    importpath = "go-common/app/service/ep/saga-agent/service/agent",
+    importpath = "github.com/namelessup/bilibili/app/service/ep/saga-agent/service/agent",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

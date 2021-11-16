@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 
-	"go-common/app/interface/main/passport-login/conf"
-	"go-common/app/interface/main/passport-login/dao"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/passport-login/conf"
+	"github.com/namelessup/bilibili/app/interface/main/passport-login/dao"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

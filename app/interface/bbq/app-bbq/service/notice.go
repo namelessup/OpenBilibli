@@ -3,13 +3,13 @@ package service
 import (
 	"context"
 	"encoding/json"
-	"go-common/app/interface/bbq/app-bbq/api/http/v1"
-	"go-common/app/interface/bbq/app-bbq/conf"
-	"go-common/app/interface/bbq/app-bbq/model"
-	"go-common/app/service/bbq/common"
-	notice "go-common/app/service/bbq/notice-service/api/v1"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/bbq/app-bbq/api/http/v1"
+	"github.com/namelessup/bilibili/app/interface/bbq/app-bbq/conf"
+	"github.com/namelessup/bilibili/app/interface/bbq/app-bbq/model"
+	"github.com/namelessup/bilibili/app/service/bbq/common"
+	notice "github.com/namelessup/bilibili/app/service/bbq/notice-service/api/v1"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 var noticeTypes map[int32]bool

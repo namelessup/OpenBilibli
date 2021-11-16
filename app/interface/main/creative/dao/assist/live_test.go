@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"testing"
 
-	"go-common/app/interface/main/creative/model/assist"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/assist"
 
 	"github.com/smartystreets/goconvey/convey"
 )

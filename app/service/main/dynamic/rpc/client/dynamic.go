@@ -3,9 +3,9 @@ package client
 import (
 	"context"
 
-	"go-common/app/service/main/archive/api"
-	"go-common/app/service/main/dynamic/model"
-	"go-common/library/net/rpc"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/app/service/main/dynamic/model"
+	"github.com/namelessup/bilibili/library/net/rpc"
 )
 
 const (

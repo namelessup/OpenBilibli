@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/job/main/credit-timer/conf"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/credit-timer/conf"
+	"github.com/namelessup/bilibili/library/log"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

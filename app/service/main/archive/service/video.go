@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 
-	"go-common/app/service/main/archive/api"
-	"go-common/library/ecode"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 // UpVideo update video by aid & cid

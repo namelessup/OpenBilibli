@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["growup.go"],
-    importpath = "go-common/app/interface/main/creative/model/growup",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/creative/model/growup",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/time:go_default_library"],

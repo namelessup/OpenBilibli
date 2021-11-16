@@ -15,7 +15,7 @@ go_binary(
 go_library(
     name = "go_default_library",
     srcs = ["bugly.go"],
-    importpath = "go-common/app/service/ep/footman/cmd/bugly",
+    importpath = "github.com/namelessup/bilibili/app/service/ep/footman/cmd/bugly",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

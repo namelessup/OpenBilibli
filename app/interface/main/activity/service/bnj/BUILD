@@ -11,7 +11,7 @@ go_library(
         "bnj.go",
         "service.go",
     ],
-    importpath = "go-common/app/interface/main/activity/service/bnj",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/activity/service/bnj",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

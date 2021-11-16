@@ -30,7 +30,7 @@ go_library(
         "policy.go",
         "service.go",
     ],
-    importpath = "go-common/app/interface/main/player/service",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/player/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -3,8 +3,8 @@ package rank
 import (
 	"context"
 
-	"go-common/app/service/main/rank/model"
-	"go-common/library/net/rpc"
+	"github.com/namelessup/bilibili/app/service/main/rank/model"
+	"github.com/namelessup/bilibili/library/net/rpc"
 )
 
 const (

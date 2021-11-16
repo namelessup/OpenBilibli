@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/admin/main/relation/model"
+	"github.com/namelessup/bilibili/app/admin/main/relation/model"
 )
 
 // RelationLog is.

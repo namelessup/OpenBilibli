@@ -26,7 +26,7 @@ go_library(
         "data.go",
         "rpc.go",
     ],
-    importpath = "go-common/app/job/main/usersuit/dao/medal",
+    importpath = "github.com/namelessup/bilibili/app/job/main/usersuit/dao/medal",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

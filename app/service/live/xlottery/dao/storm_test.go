@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/service/live/xlottery/model"
-	xsql "go-common/library/database/sql"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/service/live/xlottery/model"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 var db *xsql.DB

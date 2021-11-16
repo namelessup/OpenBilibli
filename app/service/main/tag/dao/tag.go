@@ -7,10 +7,10 @@ import (
 	"fmt"
 	"strings"
 
-	"go-common/app/service/main/tag/model"
-	"go-common/library/database/sql"
-	"go-common/library/log"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/service/main/tag/model"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 func replace(name string) string {

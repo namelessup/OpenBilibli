@@ -1,8 +1,8 @@
 package service
 
 import (
-	"go-common/library/log"
-	"go-common/library/log/infoc"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/log/infoc"
 	"strconv"
 	"time"
 )

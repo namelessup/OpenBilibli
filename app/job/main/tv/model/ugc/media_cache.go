@@ -1,6 +1,6 @@
 package ugc
 
-import "go-common/library/time"
+import "github.com/namelessup/bilibili/library/time"
 
 // ArcCMS represents the archive data structure in MC
 type ArcCMS struct {

@@ -2,7 +2,7 @@ package assist
 
 import (
 	"flag"
-	"go-common/app/service/main/assist/conf"
+	"github.com/namelessup/bilibili/app/service/main/assist/conf"
 	"os"
 	"testing"
 )

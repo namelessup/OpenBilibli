@@ -5,10 +5,10 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"go-common/app/admin/main/aegis/model/business"
-	"go-common/app/admin/main/aegis/model/middleware"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model/business"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model/middleware"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // AddBusiness .

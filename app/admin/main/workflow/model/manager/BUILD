@@ -11,7 +11,7 @@ go_library(
         "admin.go",
         "business.go",
     ],
-    importpath = "go-common/app/admin/main/workflow/model/manager",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/workflow/model/manager",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//app/admin/main/workflow/model:go_default_library"],

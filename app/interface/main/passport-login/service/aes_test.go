@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	"go-common/app/interface/main/passport-login/model"
+	"github.com/namelessup/bilibili/app/interface/main/passport-login/model"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

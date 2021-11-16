@@ -11,7 +11,7 @@ go_library(
         "folder.go",
         "result.go",
     ],
-    importpath = "go-common/app/interface/main/app-interface/model/favorite",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-interface/model/favorite",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

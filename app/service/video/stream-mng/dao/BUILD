@@ -23,7 +23,7 @@ go_library(
         "stream-change-log.go",
         "upstream-summary.go",
     ],
-    importpath = "go-common/app/service/video/stream-mng/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/video/stream-mng/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

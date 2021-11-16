@@ -13,7 +13,7 @@ go_library(
         "param.go",
         "passport.go",
     ],
-    importpath = "go-common/app/job/main/account-summary/model",
+    importpath = "github.com/namelessup/bilibili/app/job/main/account-summary/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/time:go_default_library"],

@@ -13,7 +13,7 @@ go_library(
         "match.go",
         "pointdata.go",
     ],
-    importpath = "go-common/app/interface/main/esports/http",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/esports/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

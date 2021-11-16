@@ -2,7 +2,7 @@ package errors
 
 import (
 	"fmt"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 // DependError for show like "model(%s) code(%s) error"

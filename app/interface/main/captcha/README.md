@@ -4,7 +4,7 @@
 > 验证码服务
 
 ##### 依赖包
-> 1.公共包go-common 
+> 1.公共包github.com/namelessup/bilibili 
 
 ##### 编译环境
 > 请使用golang v1.8.x以上版本编译执行。  

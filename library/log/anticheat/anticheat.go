@@ -6,10 +6,10 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/library/log"
-	"go-common/library/log/infoc"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/log/infoc"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 // AntiCheat send anti-cheating info to berserker.

@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["dm.go"],
-    importpath = "go-common/app/job/main/archive/model/dm",
+    importpath = "github.com/namelessup/bilibili/app/job/main/archive/model/dm",
     tags = ["automanaged"],
 )
 

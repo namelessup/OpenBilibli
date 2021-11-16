@@ -10,12 +10,12 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"go-common/app/interface/main/feedback/conf"
-	"go-common/app/interface/main/feedback/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/interface/main/feedback/conf"
+	"github.com/namelessup/bilibili/app/interface/main/feedback/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 const (

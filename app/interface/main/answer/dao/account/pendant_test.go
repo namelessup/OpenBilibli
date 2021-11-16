@@ -6,7 +6,7 @@ import (
 	"os"
 	"testing"
 
-	"go-common/app/interface/main/answer/conf"
+	"github.com/namelessup/bilibili/app/interface/main/answer/conf"
 
 	_ "github.com/go-sql-driver/mysql"
 	. "github.com/smartystreets/goconvey/convey"

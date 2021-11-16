@@ -3,12 +3,12 @@ package http
 import (
 	http2 "net/http"
 
-	"go-common/app/admin/main/videoup-task/conf"
-	"go-common/app/admin/main/videoup-task/service"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/permit"
-	"go-common/library/net/http/blademaster/middleware/verify"
+	"github.com/namelessup/bilibili/app/admin/main/videoup-task/conf"
+	"github.com/namelessup/bilibili/app/admin/main/videoup-task/service"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/permit"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/verify"
 )
 
 var (

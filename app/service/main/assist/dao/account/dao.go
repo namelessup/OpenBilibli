@@ -2,10 +2,10 @@ package account
 
 import (
 	"context"
-	accapi "go-common/app/service/main/account/api"
-	"go-common/app/service/main/assist/conf"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	accapi "github.com/namelessup/bilibili/app/service/main/account/api"
+	"github.com/namelessup/bilibili/app/service/main/assist/conf"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Dao is account dao.

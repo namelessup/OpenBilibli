@@ -21,7 +21,7 @@ go_library(
         "debug.go",
         "timer.go",
     ],
-    importpath = "go-common/app/service/main/broadcast/libs/time",
+    importpath = "github.com/namelessup/bilibili/app/service/main/broadcast/libs/time",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/log:go_default_library"],

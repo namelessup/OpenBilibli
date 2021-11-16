@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	"go-common/app/interface/main/app-interface/conf"
-	"go-common/app/interface/main/app-interface/model/shop"
-	httpx "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/conf"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/model/shop"
+	httpx "github.com/namelessup/bilibili/library/net/http/blademaster"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

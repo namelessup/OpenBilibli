@@ -11,7 +11,7 @@ go_library(
         "model.go",
         "params.go",
     ],
-    importpath = "go-common/app/admin/main/card/model",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/card/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

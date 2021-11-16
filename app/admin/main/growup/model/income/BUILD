@@ -15,7 +15,7 @@ go_library(
         "up_income.go",
         "up_withdraw.go",
     ],
-    importpath = "go-common/app/admin/main/growup/model/income",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/growup/model/income",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/time:go_default_library"],

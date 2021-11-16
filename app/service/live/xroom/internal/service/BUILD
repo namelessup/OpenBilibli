@@ -11,7 +11,7 @@ go_library(
         "room.go",
         "service.go",
     ],
-    importpath = "go-common/app/service/live/xroom/internal/service",
+    importpath = "github.com/namelessup/bilibili/app/service/live/xroom/internal/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

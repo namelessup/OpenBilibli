@@ -16,7 +16,7 @@ go_library(
         "assets.go",
         "template.go",
     ],
-    importpath = "go-common/app/tool/warden/generator/templates",
+    importpath = "github.com/namelessup/bilibili/app/tool/warden/generator/templates",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

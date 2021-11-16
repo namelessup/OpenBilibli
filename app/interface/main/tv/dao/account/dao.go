@@ -1,8 +1,8 @@
 package account
 
 import (
-	"go-common/app/interface/main/tv/conf"
-	accwar "go-common/app/service/main/account/api"
+	"github.com/namelessup/bilibili/app/interface/main/tv/conf"
+	accwar "github.com/namelessup/bilibili/app/service/main/account/api"
 )
 
 // Dao is account dao.

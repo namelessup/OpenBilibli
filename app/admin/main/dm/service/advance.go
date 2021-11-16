@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 
-	"go-common/app/admin/main/dm/model"
-	accountApi "go-common/app/service/main/account/api"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/dm/model"
+	accountApi "github.com/namelessup/bilibili/app/service/main/account/api"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Advances 高级弹幕列表

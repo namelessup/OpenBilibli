@@ -3,7 +3,7 @@ package model
 import (
 	"encoding/json"
 
-	accmdl "go-common/app/service/main/account/model"
+	accmdl "github.com/namelessup/bilibili/app/service/main/account/model"
 )
 
 // WxSearchType .

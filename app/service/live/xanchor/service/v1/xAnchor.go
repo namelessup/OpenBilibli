@@ -3,9 +3,9 @@ package v1
 import (
 	"context"
 
-	v1pb "go-common/app/service/live/xanchor/api/grpc/v1"
-	"go-common/app/service/live/xanchor/conf"
-	"go-common/app/service/live/xanchor/dao"
+	v1pb "github.com/namelessup/bilibili/app/service/live/xanchor/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/live/xanchor/conf"
+	"github.com/namelessup/bilibili/app/service/live/xanchor/dao"
 )
 
 // XAnchorService struct

@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/service/main/account/model/queue"
-	"go-common/library/log"
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/app/service/main/account/model/queue"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/stat/prom"
 )
 
 // Item is

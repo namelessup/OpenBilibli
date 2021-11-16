@@ -3,8 +3,8 @@ package dao
 import (
 	"context"
 
-	"go-common/app/service/live/room/api/liverpc/v1"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/live/room/api/liverpc/v1"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 //PERMANENT_LOCK_TIME 永久封禁时间

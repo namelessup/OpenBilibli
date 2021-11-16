@@ -3,13 +3,13 @@ package egg
 import (
 	"time"
 
-	"go-common/app/admin/main/feed/conf"
-	"go-common/app/admin/main/feed/dao/egg"
-	"go-common/app/admin/main/feed/model/common"
-	eggModel "go-common/app/admin/main/feed/model/egg"
-	Log "go-common/app/admin/main/feed/util"
-	"go-common/library/log"
-	libTime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/admin/main/feed/conf"
+	"github.com/namelessup/bilibili/app/admin/main/feed/dao/egg"
+	"github.com/namelessup/bilibili/app/admin/main/feed/model/common"
+	eggModel "github.com/namelessup/bilibili/app/admin/main/feed/model/egg"
+	Log "github.com/namelessup/bilibili/app/admin/main/feed/util"
+	"github.com/namelessup/bilibili/library/log"
+	libTime "github.com/namelessup/bilibili/library/time"
 )
 
 const (

@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["easyns-agent-example.toml"],
-    importpath = "go-common/app/service/main/bns/cmd",
+    importpath = "github.com/namelessup/bilibili/app/service/main/bns/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

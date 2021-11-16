@@ -8,9 +8,9 @@ import (
 	"math"
 	"sort"
 
-	"go-common/app/job/main/dm2/model"
-	arcMdl "go-common/app/service/main/archive/model/archive"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/dm2/model"
+	arcMdl "github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Gzflate flate 压缩

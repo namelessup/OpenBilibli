@@ -3,9 +3,9 @@ package dao
 import (
 	"fmt"
 
-	"go-common/app/service/ep/footman/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/ep/footman/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 
 	pkgerr "github.com/pkg/errors"
 )

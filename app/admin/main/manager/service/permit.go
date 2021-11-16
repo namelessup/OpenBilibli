@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"go-common/library/log"
-	"go-common/library/net/http/blademaster/middleware/permit"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/permit"
 )
 
 const (

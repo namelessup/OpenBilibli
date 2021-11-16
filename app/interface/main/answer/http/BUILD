@@ -14,7 +14,7 @@ go_library(
         "local.go",
         "pendant.go",
     ],
-    importpath = "go-common/app/interface/main/answer/http",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/answer/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

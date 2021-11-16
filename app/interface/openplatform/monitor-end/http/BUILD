@@ -12,7 +12,7 @@ go_library(
         "http.go",
         "monitor.go",
     ],
-    importpath = "go-common/app/interface/openplatform/monitor-end/http",
+    importpath = "github.com/namelessup/bilibili/app/interface/openplatform/monitor-end/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

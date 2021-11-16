@@ -24,7 +24,7 @@ import fmt "fmt"
 import math "math"
 import _ "github.com/gogo/protobuf/gogoproto"
 
-import go_common_library_time "go-common/library/time"
+import go_common_library_time "github.com/namelessup/bilibili/library/time"
 
 import strings "strings"
 import reflect "reflect"
@@ -53,8 +53,8 @@ type OrderSKU struct {
 	SeatIDs     []int64                     `protobuf:"varint,6,rep,packed,name=seat_ids,json=seatIds" json:"seat_ids"`
 	TicketType  int16                       `protobuf:"varint,7,opt,name=ticket_type,json=ticketType,proto3,casttype=int16" json:"ticket_type"`
 	Discounts   *OrderSKUDiscounts          `protobuf:"bytes,8,opt,name=discounts" json:"discounts"`
-	CTime       go_common_library_time.Time `protobuf:"varint,9,opt,name=ctime,proto3,casttype=go-common/library/time.Time" json:"-"`
-	MTime       go_common_library_time.Time `protobuf:"varint,10,opt,name=mtime,proto3,casttype=go-common/library/time.Time" json:"-"`
+	CTime       go_common_library_time.Time `protobuf:"varint,9,opt,name=ctime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"-"`
+	MTime       go_common_library_time.Time `protobuf:"varint,10,opt,name=mtime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"-"`
 }
 
 func (m *OrderSKU) Reset()                    { *m = OrderSKU{} }
@@ -69,8 +69,8 @@ type OrderPayCharge struct {
 	Paid     int16                       `protobuf:"varint,4,opt,name=paid,proto3,casttype=int16" json:"paid"`
 	Refunded int16                       `protobuf:"varint,5,opt,name=refunded,proto3,casttype=int16" json:"refunded"`
 	PayTime  int64                       `protobuf:"varint,6,opt,name=pay_time,json=payTime,proto3" json:"-"`
-	CTime    go_common_library_time.Time `protobuf:"varint,7,opt,name=ctime,proto3,casttype=go-common/library/time.Time" json:"-"`
-	MTime    go_common_library_time.Time `protobuf:"varint,8,opt,name=mtime,proto3,casttype=go-common/library/time.Time" json:"-"`
+	CTime    go_common_library_time.Time `protobuf:"varint,7,opt,name=ctime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"-"`
+	MTime    go_common_library_time.Time `protobuf:"varint,8,opt,name=mtime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"-"`
 }
 
 func (m *OrderPayCharge) Reset()                    { *m = OrderPayCharge{} }

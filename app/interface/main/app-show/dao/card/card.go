@@ -5,13 +5,13 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/interface/main/app-card/model/card/operate"
-	"go-common/app/interface/main/app-show/conf"
-	"go-common/app/interface/main/app-show/model"
-	"go-common/app/interface/main/app-show/model/card"
-	"go-common/library/cache/memcache"
-	"go-common/library/database/sql"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/app-card/model/card/operate"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/conf"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/model/card"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

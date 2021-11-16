@@ -17,7 +17,7 @@ go_library(
         "model.go",
         "search.go",
     ],
-    importpath = "go-common/app/job/main/workflow/model",
+    importpath = "github.com/namelessup/bilibili/app/job/main/workflow/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/time:go_default_library"],

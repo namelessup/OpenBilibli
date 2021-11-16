@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["share.go"],
-    importpath = "go-common/app/interface/main/web-goblin/model/share",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/web-goblin/model/share",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

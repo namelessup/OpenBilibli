@@ -1,9 +1,9 @@
 package grpc
 
 import (
-	pb "go-common/app/service/bbq/user/api"
-	"go-common/app/service/bbq/user/internal/service"
-	"go-common/library/net/rpc/warden"
+	pb "github.com/namelessup/bilibili/app/service/bbq/user/api"
+	"github.com/namelessup/bilibili/app/service/bbq/user/internal/service"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 )
 
 // New new warden rpc server

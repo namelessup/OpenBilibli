@@ -13,7 +13,7 @@ go_library(
         "shield_keywork.go",
         "special_gift.go",
     ],
-    importpath = "go-common/app/service/live/xlottery/model",
+    importpath = "github.com/namelessup/bilibili/app/service/live/xlottery/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

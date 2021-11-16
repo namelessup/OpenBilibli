@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/app/service/ops/log-agent/output"
-	"go-common/app/service/ops/log-agent/event"
+	"github.com/namelessup/bilibili/app/service/ops/log-agent/output"
+	"github.com/namelessup/bilibili/app/service/ops/log-agent/event"
 )
 
 type Stdout struct {

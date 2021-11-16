@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strconv"
 
-	"go-common/library/database/elastic"
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/library/database/elastic"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 const (

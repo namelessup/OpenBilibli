@@ -13,7 +13,7 @@ go_library(
         "dao.go",
         "member.go",
     ],
-    importpath = "go-common/app/job/main/member-cache/dao",
+    importpath = "github.com/namelessup/bilibili/app/job/main/member-cache/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

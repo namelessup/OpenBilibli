@@ -2,21 +2,21 @@ package notice
 
 import (
 	"context"
-	"go-common/app/service/live/xuser/api/grpc/v1"
-	v1pb "go-common/app/service/live/xuserex/api/grpc/v1"
-	"go-common/app/service/live/xuserex/conf"
-	"go-common/library/cache/memcache"
+	"github.com/namelessup/bilibili/app/service/live/xuser/api/grpc/v1"
+	v1pb "github.com/namelessup/bilibili/app/service/live/xuserex/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/live/xuserex/conf"
+	"github.com/namelessup/bilibili/library/cache/memcache"
 
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"go-common/app/service/live/resource/sdk"
-	"go-common/app/service/live/xuserex/model/roomNotice"
-	"go-common/library/database/hbase.v2"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/app/service/live/resource/sdk"
+	"github.com/namelessup/bilibili/app/service/live/xuserex/model/roomNotice"
+	"github.com/namelessup/bilibili/library/database/hbase.v2"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/stat/prom"
 	"strconv"
 	"time"
 )
@@ -94,13 +94,13 @@ func (dao *Dao) IsNotice(c context.Context, UID int64, targetID int64) (*v1pb.Ro
 	return resp, nil
 }
 
-//go:generate $GOPATH/src/go-common/app/tool/cache/gen
+//go:generate $GOPATH/src/github.com/namelessup/bilibili/app/tool/cache/gen
 type _cache interface {
 	// cache: -sync=true -nullcache=&roomNotice.MonthConsume{Amount:-1} -check_null_code=$.Amount==-1
 	MonthConsume(c context.Context, UID int64, targetID int64, date string) (*roomNotice.MonthConsume, error)
 }
 
-//go:generate $GOPATH/src/go-common/app/tool/cache/mc
+//go:generate $GOPATH/src/github.com/namelessup/bilibili/app/tool/cache/mc
 type _mc interface {
 	// 获取某个月消费
 	// mc: -key=keyShouldNotice

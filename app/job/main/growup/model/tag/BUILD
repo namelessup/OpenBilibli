@@ -12,7 +12,7 @@ go_library(
         "income.go",
         "tag.go",
     ],
-    importpath = "go-common/app/job/main/growup/model/tag",
+    importpath = "github.com/namelessup/bilibili/app/job/main/growup/model/tag",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/time:go_default_library"],

@@ -51,7 +51,7 @@ import math "math"
 import _ "github.com/gogo/protobuf/gogoproto"
 import google_protobuf1 "github.com/golang/protobuf/ptypes/empty"
 
-import go_common_library_time "go-common/library/time"
+import go_common_library_time "github.com/namelessup/bilibili/library/time"
 
 import context "golang.org/x/net/context"
 import grpc "google.golang.org/grpc"
@@ -111,7 +111,7 @@ type VideoBase struct {
 	Duration     int64                       `protobuf:"varint,7,opt,name=duration,proto3" json:"duration" form:"duration"`
 	State        int64                       `protobuf:"varint,8,opt,name=state,proto3" json:"state" form:"state"`
 	Tag          string                      `protobuf:"bytes,9,opt,name=tag,proto3" json:"tag" form:"tag"`
-	Pubtime      go_common_library_time.Time `protobuf:"varint,10,opt,name=pubtime,proto3,casttype=go-common/library/time.Time" json:"pubtime" form:"tag"`
+	Pubtime      go_common_library_time.Time `protobuf:"varint,10,opt,name=pubtime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"pubtime" form:"tag"`
 	Tid          int64                       `protobuf:"varint,11,opt,name=tid,proto3" json:"tid" form:"tid"`
 	SubTid       int64                       `protobuf:"varint,12,opt,name=sub_tid,json=subTid,proto3" json:"sub_tid" form:"sub_tid"`
 	IsFullScreen int64                       `protobuf:"varint,13,opt,name=is_full_screen,json=isFullScreen,proto3" json:"is_full_screen" form:"is_full_screen"`

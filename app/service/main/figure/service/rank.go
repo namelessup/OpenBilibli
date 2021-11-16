@@ -4,9 +4,9 @@ import (
 	"context"
 	"sync"
 
-	"go-common/app/service/main/figure/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/figure/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 var (

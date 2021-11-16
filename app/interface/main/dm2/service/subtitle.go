@@ -4,13 +4,13 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/interface/main/dm2/model"
-	account "go-common/app/service/main/account/api"
-	"go-common/app/service/main/archive/api"
-	archive "go-common/app/service/main/archive/model/archive"
-	filterCli "go-common/app/service/main/filter/api/grpc/v1"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/dm2/model"
+	account "github.com/namelessup/bilibili/app/service/main/account/api"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	archive "github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	filterCli "github.com/namelessup/bilibili/app/service/main/filter/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

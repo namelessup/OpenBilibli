@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"go-common/app/admin/main/apm/dao"
+	"github.com/namelessup/bilibili/app/admin/main/apm/dao"
 
 	"github.com/bouk/monkey"
 	"github.com/smartystreets/goconvey/convey"

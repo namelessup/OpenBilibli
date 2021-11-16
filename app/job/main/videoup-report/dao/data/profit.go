@@ -3,7 +3,7 @@ package data
 import (
 	"context"
 	"errors"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 	"net/url"
 	"strconv"
 )

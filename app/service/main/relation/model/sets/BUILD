@@ -11,7 +11,7 @@ go_library(
         "int64.go",
         "sets.go",
     ],
-    importpath = "go-common/app/service/main/relation/model/sets",
+    importpath = "github.com/namelessup/bilibili/app/service/main/relation/model/sets",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

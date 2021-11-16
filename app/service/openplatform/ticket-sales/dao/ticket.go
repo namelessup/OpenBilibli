@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"strings"
 
-	"go-common/app/service/openplatform/ticket-sales/model"
-	"go-common/app/service/openplatform/ticket-sales/model/consts"
-	"go-common/library/cache/redis"
-	"go-common/library/log"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/model"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/model/consts"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 //票号相关常量

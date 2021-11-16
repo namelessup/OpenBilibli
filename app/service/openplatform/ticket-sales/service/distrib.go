@@ -6,8 +6,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"go-common/app/service/openplatform/ticket-sales/model"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/model"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 // SyncOrder 同步订单方法

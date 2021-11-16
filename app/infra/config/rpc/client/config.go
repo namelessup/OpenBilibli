@@ -3,8 +3,8 @@ package config
 import (
 	"context"
 
-	"go-common/app/infra/config/model"
-	"go-common/library/net/rpc"
+	"github.com/namelessup/bilibili/app/infra/config/model"
+	"github.com/namelessup/bilibili/library/net/rpc"
 )
 
 const (

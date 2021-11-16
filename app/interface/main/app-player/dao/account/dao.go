@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/app/interface/main/app-player/conf"
-	accrpc "go-common/app/service/main/account/api"
+	"github.com/namelessup/bilibili/app/interface/main/app-player/conf"
+	accrpc "github.com/namelessup/bilibili/app/service/main/account/api"
 
 	"github.com/pkg/errors"
 )

@@ -19,7 +19,7 @@ go_library(
         "web-show-example.toml",
         "web-show-test.toml",
     ],
-    importpath = "go-common/app/interface/main/web-show/cmd",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/web-show/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

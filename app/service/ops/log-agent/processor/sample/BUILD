@@ -11,7 +11,7 @@ go_library(
         "conf.go",
         "sample.go",
     ],
-    importpath = "go-common/app/service/ops/log-agent/processor/sample",
+    importpath = "github.com/namelessup/bilibili/app/service/ops/log-agent/processor/sample",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

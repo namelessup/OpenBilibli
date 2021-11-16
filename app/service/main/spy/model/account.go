@@ -1,6 +1,6 @@
 package model
 
-import accmdl "go-common/app/service/main/account/model"
+import accmdl "github.com/namelessup/bilibili/app/service/main/account/model"
 
 // TelInfo def.
 type TelInfo struct {

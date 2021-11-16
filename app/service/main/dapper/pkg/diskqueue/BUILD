@@ -23,7 +23,7 @@ go_library(
         "bucket.go",
         "diskqueue.go",
     ],
-    importpath = "go-common/app/service/main/dapper/pkg/diskqueue",
+    importpath = "github.com/namelessup/bilibili/app/service/main/dapper/pkg/diskqueue",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

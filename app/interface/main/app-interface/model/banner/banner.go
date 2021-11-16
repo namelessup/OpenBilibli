@@ -3,7 +3,7 @@ package banner
 import (
 	"encoding/json"
 
-	resource "go-common/app/service/main/resource/model"
+	resource "github.com/namelessup/bilibili/app/service/main/resource/model"
 )
 
 // Banner struct

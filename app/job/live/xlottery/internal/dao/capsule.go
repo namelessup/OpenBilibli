@@ -10,13 +10,13 @@ import (
 
 	"github.com/pkg/errors"
 
-	v12 "go-common/app/service/live/rc/api/liverpc/v1"
-	"go-common/library/cache/redis"
+	v12 "github.com/namelessup/bilibili/app/service/live/rc/api/liverpc/v1"
+	"github.com/namelessup/bilibili/library/cache/redis"
 
-	"go-common/app/job/live/xlottery/internal/model"
-	"go-common/library/database/sql"
-	"go-common/library/log"
-	"go-common/library/queue/databus/report"
+	"github.com/namelessup/bilibili/app/job/live/xlottery/internal/model"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus/report"
 )
 
 // NormalCoinId 普通扭蛋id

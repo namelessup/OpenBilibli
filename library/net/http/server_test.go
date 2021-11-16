@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	bm "go-common/library/net/http/blademaster"
-	xtime "go-common/library/time"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 var once sync.Once

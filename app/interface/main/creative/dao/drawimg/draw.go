@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"strings"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/golang/freetype/truetype"
 

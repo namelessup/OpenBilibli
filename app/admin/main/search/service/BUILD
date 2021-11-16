@@ -51,7 +51,7 @@ go_library(
         "update.go",
         "upsert.go",
     ],
-    importpath = "go-common/app/admin/main/search/service",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/search/service",
     tags = ["automanaged"],
     deps = [
         "//app/admin/main/search/conf:go_default_library",

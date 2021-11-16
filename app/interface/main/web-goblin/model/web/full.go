@@ -5,8 +5,8 @@ import (
 	"math/rand"
 	"time"
 
-	"go-common/app/interface/main/web-goblin/conf"
-	"go-common/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/app/interface/main/web-goblin/conf"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
 )
 
 const (

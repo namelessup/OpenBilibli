@@ -10,12 +10,12 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/service/main/member/api"
-	"go-common/app/service/main/member/conf"
-	"go-common/app/service/main/member/model"
-	xsql "go-common/library/database/sql"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/member/api"
+	"github.com/namelessup/bilibili/app/service/main/member/conf"
+	"github.com/namelessup/bilibili/app/service/main/member/model"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/pkg/errors"
 )

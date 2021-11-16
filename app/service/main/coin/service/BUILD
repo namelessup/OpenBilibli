@@ -34,7 +34,7 @@ go_library(
         "service.go",
         "usercoin.go",
     ],
-    importpath = "go-common/app/service/main/coin/service",
+    importpath = "github.com/namelessup/bilibili/app/service/main/coin/service",
     tags = ["automanaged"],
     deps = [
         "//app/service/main/coin/api:go_default_library",

@@ -21,7 +21,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["version.go"],
-    importpath = "go-common/app/interface/main/app-resource/dao/version",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-resource/dao/version",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

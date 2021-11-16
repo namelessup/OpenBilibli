@@ -1,8 +1,8 @@
 package thirdp
 
 import (
-	"go-common/app/interface/main/tv/model"
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/app/interface/main/tv/model"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 // MangoSn is the plus version of Dangbei Season

@@ -3,8 +3,8 @@ package result
 import (
 	"context"
 
-	"go-common/app/job/main/archive/conf"
-	"go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/job/main/archive/conf"
+	"github.com/namelessup/bilibili/library/database/sql"
 )
 
 // Dao is redis dao.

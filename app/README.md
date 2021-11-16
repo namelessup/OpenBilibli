@@ -1,4 +1,4 @@
-# go-common/business
+# github.com/namelessup/bilibili/business
 
 业务仓库目录
 

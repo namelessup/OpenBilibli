@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["spy-admin-test.toml"],
-    importpath = "go-common/app/admin/main/spy/cmd",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/spy/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

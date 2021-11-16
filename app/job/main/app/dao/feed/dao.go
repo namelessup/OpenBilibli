@@ -1,10 +1,10 @@
 package feed
 
 import (
-	"go-common/app/job/main/app/conf"
-	arcrpc "go-common/app/service/main/archive/api/gorpc"
-	"go-common/library/cache/memcache"
-	httpx "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/job/main/app/conf"
+	arcrpc "github.com/namelessup/bilibili/app/service/main/archive/api/gorpc"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	httpx "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 type Dao struct {

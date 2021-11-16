@@ -1,6 +1,6 @@
 package operation
 
-import "go-common/app/service/main/archive/api"
+import "github.com/namelessup/bilibili/app/service/main/archive/api"
 
 // Promote strcuct
 type Promote struct {

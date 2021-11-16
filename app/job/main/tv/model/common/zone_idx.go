@@ -1,6 +1,6 @@
 package common
 
-import "go-common/library/time"
+import "github.com/namelessup/bilibili/library/time"
 
 // IdxRank is for index page ranking
 type IdxRank struct {

@@ -8,12 +8,12 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/app/service/openplatform/ticket-item/conf"
-	rpc "go-common/app/service/openplatform/ticket-item/server/grpc"
-	"go-common/app/service/openplatform/ticket-item/server/http"
-	"go-common/app/service/openplatform/ticket-item/service"
-	"go-common/library/log"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-item/conf"
+	rpc "github.com/namelessup/bilibili/app/service/openplatform/ticket-item/server/grpc"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-item/server/http"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-item/service"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
 )
 
 func main() {

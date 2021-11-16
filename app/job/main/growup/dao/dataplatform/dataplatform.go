@@ -11,10 +11,10 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/job/main/growup/model"
-	income "go-common/app/job/main/growup/model/income"
-	"go-common/library/conf/env"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/growup/model"
+	income "github.com/namelessup/bilibili/app/job/main/growup/model/income"
+	"github.com/namelessup/bilibili/library/conf/env"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 var (

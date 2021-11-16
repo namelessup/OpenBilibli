@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["logger.go"],
-    importpath = "go-common/app/service/video/stream-mng/middleware",
+    importpath = "github.com/namelessup/bilibili/app/service/video/stream-mng/middleware",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

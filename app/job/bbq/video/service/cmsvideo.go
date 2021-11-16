@@ -1,7 +1,7 @@
 package service
 
 import (
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 //TransToCheckBack ..

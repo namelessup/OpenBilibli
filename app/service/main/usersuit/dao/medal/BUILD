@@ -35,8 +35,8 @@ go_library(
         "memcache.go",
         "mysql.go",
     ],
-    importmap = "go-common/app/service/main/usersuit/dao/medal",
-    importpath = "go-common/app/service/main/usersuit/dao/medal",
+    importmap = "github.com/namelessup/bilibili/app/service/main/usersuit/dao/medal",
+    importpath = "github.com/namelessup/bilibili/app/service/main/usersuit/dao/medal",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

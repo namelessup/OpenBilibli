@@ -12,7 +12,7 @@ import (
 	"sync"
 	"time"
 
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/library/ecode"
 
 	uuid "github.com/satori/go.uuid"
 )

@@ -5,9 +5,9 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/job/main/credit-timer/model"
-	"go-common/library/database/sql"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/credit-timer/model"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

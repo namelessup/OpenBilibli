@@ -6,10 +6,10 @@ import (
 	"net"
 	"strconv"
 
-	"go-common/app/service/main/location/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	xip "go-common/library/net/ip"
+	"github.com/namelessup/bilibili/app/service/main/location/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	xip "github.com/namelessup/bilibili/library/net/ip"
 )
 
 // Info get ip info.

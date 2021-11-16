@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"go-common/app/interface/openplatform/monitor-end/conf"
+	"github.com/namelessup/bilibili/app/interface/openplatform/monitor-end/conf"
 
 	"github.com/prometheus/client_golang/prometheus"
 )

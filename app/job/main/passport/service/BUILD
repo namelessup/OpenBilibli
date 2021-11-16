@@ -17,7 +17,7 @@ go_library(
         "set_token.go",
         "sync_pwd_log.go",
     ],
-    importpath = "go-common/app/job/main/passport/service",
+    importpath = "github.com/namelessup/bilibili/app/job/main/passport/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

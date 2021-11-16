@@ -6,7 +6,7 @@ import (
 	"sort"
 	"strings"
 
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 const (

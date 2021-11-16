@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/admin/main/open/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/open/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Secret .

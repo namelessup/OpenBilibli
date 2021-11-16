@@ -11,10 +11,10 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/service/main/videoup/conf"
-	"go-common/app/service/main/videoup/model/archive"
-	"go-common/library/log"
-	xhttp "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/service/main/videoup/conf"
+	"github.com/namelessup/bilibili/app/service/main/videoup/model/archive"
+	"github.com/namelessup/bilibili/library/log"
+	xhttp "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // Dao is redis dao.

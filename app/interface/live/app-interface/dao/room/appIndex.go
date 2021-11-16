@@ -5,11 +5,11 @@ import (
 	"errors"
 	"time"
 
-	"go-common/app/interface/live/app-interface/conf"
-	cDao "go-common/app/interface/live/app-interface/dao"
-	roomV2 "go-common/app/service/live/room/api/liverpc/v2"
-	"go-common/library/log"
-	rpcCtx "go-common/library/net/rpc/liverpc/context"
+	"github.com/namelessup/bilibili/app/interface/live/app-interface/conf"
+	cDao "github.com/namelessup/bilibili/app/interface/live/app-interface/dao"
+	roomV2 "github.com/namelessup/bilibili/app/service/live/room/api/liverpc/v2"
+	"github.com/namelessup/bilibili/library/log"
+	rpcCtx "github.com/namelessup/bilibili/library/net/rpc/liverpc/context"
 )
 
 func (d *Dao) GetActivityCard(ctx context.Context, ids []int64, logPrefix string) (err error, data map[int64]*roomV2.AppIndexGetActivityCardResp_ActivityCard) {

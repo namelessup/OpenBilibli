@@ -3,10 +3,10 @@ package service
 import (
 	"context"
 
-	"go-common/app/admin/ep/saga/conf"
-	"go-common/app/admin/ep/saga/dao"
-	"go-common/app/admin/ep/saga/service/gitlab"
-	"go-common/app/admin/ep/saga/service/wechat"
+	"github.com/namelessup/bilibili/app/admin/ep/saga/conf"
+	"github.com/namelessup/bilibili/app/admin/ep/saga/dao"
+	"github.com/namelessup/bilibili/app/admin/ep/saga/service/gitlab"
+	"github.com/namelessup/bilibili/app/admin/ep/saga/service/wechat"
 
 	"github.com/robfig/cron"
 )

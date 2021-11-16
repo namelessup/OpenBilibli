@@ -25,7 +25,7 @@ go_library(
         "model.go",
         "script_parser.go",
     ],
-    importpath = "go-common/app/tool/bgr",
+    importpath = "github.com/namelessup/bilibili/app/tool/bgr",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

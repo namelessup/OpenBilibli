@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["storm.go"],
-    importpath = "go-common/app/interface/live/lottery-interface/internal/service/v1",
+    importpath = "github.com/namelessup/bilibili/app/interface/live/lottery-interface/internal/service/v1",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

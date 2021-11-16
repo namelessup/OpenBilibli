@@ -13,7 +13,7 @@ go_library(
         "paycenter.go",
         "userext.go",
     ],
-    importpath = "go-common/app/interface/live/app-room/model",
+    importpath = "github.com/namelessup/bilibili/app/interface/live/app-room/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

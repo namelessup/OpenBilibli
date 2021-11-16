@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"go-common/app/service/main/figure/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/figure/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) FigureBatchInfo(c context.Context, mids []int64) (fs []*model.Figure, err error) {

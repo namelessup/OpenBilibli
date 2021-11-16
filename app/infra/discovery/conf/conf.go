@@ -5,10 +5,10 @@ import (
 	"flag"
 	"net"
 
-	"go-common/library/conf"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	xip "go-common/library/net/ip"
+	"github.com/namelessup/bilibili/library/conf"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	xip "github.com/namelessup/bilibili/library/net/ip"
 
 	"github.com/BurntSushi/toml"
 )

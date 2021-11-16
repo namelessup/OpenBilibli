@@ -13,11 +13,11 @@ import (
 	"sync"
 	"time"
 
-	"go-common/library/log"
-	"go-common/library/naming"
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/naming"
+	"github.com/namelessup/bilibili/library/stat/prom"
 
-	"go-common/app/service/main/bns/agent/backend"
+	"github.com/namelessup/bilibili/app/service/main/bns/agent/backend"
 )
 
 func init() {

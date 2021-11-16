@@ -11,7 +11,7 @@ go_library(
         "task_info.go",
         "up_base_info.go",
     ],
-    importpath = "go-common/app/job/main/up/model/upcrmmodel",
+    importpath = "github.com/namelessup/bilibili/app/job/main/up/model/upcrmmodel",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

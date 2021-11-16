@@ -7,10 +7,10 @@ import (
 	"math/rand"
 	"time"
 
-	"go-common/app/job/main/aegis/model"
-	moniMdl "go-common/app/job/main/aegis/model/monitor"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/job/main/aegis/model"
+	moniMdl "github.com/namelessup/bilibili/app/job/main/aegis/model/monitor"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 var (

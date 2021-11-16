@@ -1,8 +1,8 @@
 package model
 
 import (
-	"go-common/app/service/main/filter/conf"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/service/main/filter/conf"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // Area struct .

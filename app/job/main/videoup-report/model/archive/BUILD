@@ -20,7 +20,7 @@ go_library(
         "track.go",
         "video.go",
     ],
-    importpath = "go-common/app/job/main/videoup-report/model/archive",
+    importpath = "github.com/namelessup/bilibili/app/job/main/videoup-report/model/archive",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/time:go_default_library"],

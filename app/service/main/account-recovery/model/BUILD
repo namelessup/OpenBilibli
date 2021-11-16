@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["model.go"],
-    importpath = "go-common/app/service/main/account-recovery/model",
+    importpath = "github.com/namelessup/bilibili/app/service/main/account-recovery/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

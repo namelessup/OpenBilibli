@@ -3,12 +3,12 @@ package rankdb
 import (
 	"context"
 	"github.com/pkg/errors"
-	"go-common/app/interface/live/app-interface/dao"
-	"go-common/app/service/live/rankdb/api/liverpc/v1"
-	accountM "go-common/app/service/main/account/model"
-	actmdl "go-common/app/service/main/account/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/live/app-interface/dao"
+	"github.com/namelessup/bilibili/app/service/live/rankdb/api/liverpc/v1"
+	accountM "github.com/namelessup/bilibili/app/service/main/account/model"
+	actmdl "github.com/namelessup/bilibili/app/service/main/account/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 	"time"
 )
 

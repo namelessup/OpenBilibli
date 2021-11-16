@@ -11,7 +11,7 @@ go_library(
         "builder.go",
         "server.go",
     ],
-    importpath = "go-common/app/service/main/archive/server/grpc",
+    importpath = "github.com/namelessup/bilibili/app/service/main/archive/server/grpc",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

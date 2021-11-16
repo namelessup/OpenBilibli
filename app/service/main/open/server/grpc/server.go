@@ -4,10 +4,10 @@ package grpc
 import (
 	"context"
 
-	"go-common/app/service/main/open/api/grpc/v1"
-	"go-common/app/service/main/open/service"
-	"go-common/library/ecode"
-	"go-common/library/net/rpc/warden"
+	"github.com/namelessup/bilibili/app/service/main/open/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/main/open/service"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 )
 
 // New Open warden rpc server

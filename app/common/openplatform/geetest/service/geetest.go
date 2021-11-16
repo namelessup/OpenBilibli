@@ -4,8 +4,8 @@ import (
 	"context"
 	"crypto/md5"
 	"encoding/hex"
-	"go-common/app/common/openplatform/geetest/dao"
-	"go-common/app/common/openplatform/geetest/model"
+	"github.com/namelessup/bilibili/app/common/openplatform/geetest/dao"
+	"github.com/namelessup/bilibili/app/common/openplatform/geetest/model"
 	"math/rand"
 	"strconv"
 )

@@ -21,8 +21,8 @@ message Tag {
     int32 state = 11 [(gogoproto.jsontag) = "-"];
     int64 sub = 12 [(gogoproto.jsontag) = "sub"];
     int64 bind = 13 [(gogoproto.jsontag) = "bind"];
-    int64 ctime = 14 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "go-common/library/time.Time"];
-    int64 mtime = 15 [(gogoproto.jsontag) = "-", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int64 ctime = 14 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
+    int64 mtime = 15 [(gogoproto.jsontag) = "-", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
 }
 
 message Resource {
@@ -36,6 +36,6 @@ message Resource {
     int32 hate = 8 [(gogoproto.jsontag) = "hate"];
     int32 state = 9 [(gogoproto.jsontag) = "state"];
     int32 attr = 10 [(gogoproto.jsontag) = "attr"];
-    int64 ctime = 11 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "go-common/library/time.Time"];
-    int64 mtime = 12 [(gogoproto.jsontag) = "-", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int64 ctime = 11 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
+    int64 mtime = 12 [(gogoproto.jsontag) = "-", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
 }

@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/admin/main/point/conf"
-	"go-common/app/admin/main/point/model"
-	pointmol "go-common/app/service/main/point/model"
+	"github.com/namelessup/bilibili/app/admin/main/point/conf"
+	"github.com/namelessup/bilibili/app/admin/main/point/model"
+	pointmol "github.com/namelessup/bilibili/app/service/main/point/model"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

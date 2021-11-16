@@ -8,13 +8,13 @@ import (
 	"testing"
 	"time"
 
-	"go-common/library/cache/memcache"
-	"go-common/library/container/pool"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/netutil/breaker"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/container/pool"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/netutil/breaker"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 var (

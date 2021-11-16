@@ -15,7 +15,7 @@ go_library(
         "mysql.go",
         "user.go",
     ],
-    importpath = "go-common/app/job/main/passport-user/dao",
+    importpath = "github.com/namelessup/bilibili/app/job/main/passport-user/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -10,9 +10,9 @@ import (
 	"bytes"
 	"strconv"
 	"regexp"
-	"go-common/app/service/ops/log-agent/event"
-	"go-common/library/log"
-	"go-common/app/service/ops/log-agent/pkg/lancerroute"
+	"github.com/namelessup/bilibili/app/service/ops/log-agent/event"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/app/service/ops/log-agent/pkg/lancerroute"
 )
 
 type Source interface {

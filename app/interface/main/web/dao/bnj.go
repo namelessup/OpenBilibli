@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/library/ecode"
 
 	"github.com/pkg/errors"
 )

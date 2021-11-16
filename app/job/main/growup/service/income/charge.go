@@ -1,7 +1,7 @@
 package income
 
 import (
-	incomeD "go-common/app/job/main/growup/dao/income"
+	incomeD "github.com/namelessup/bilibili/app/job/main/growup/dao/income"
 )
 
 // AvChargeSvr av charge service

@@ -8,12 +8,12 @@ import (
 	"strings"
 	xtime "time"
 
-	"go-common/app/job/bbq/video/model"
-	"go-common/app/service/bbq/search/api/grpc/v1"
-	"go-common/library/cache/redis"
-	xsql "go-common/library/database/sql"
-	"go-common/library/log"
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/app/job/bbq/video/model"
+	"github.com/namelessup/bilibili/app/service/bbq/search/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/time"
 
 	jsoniter "github.com/json-iterator/go"
 )

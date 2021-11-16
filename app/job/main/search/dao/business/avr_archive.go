@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"time"
 
-	"go-common/app/job/main/search/dao"
-	"go-common/app/job/main/search/model"
-	xsql "go-common/library/database/sql"
-	"go-common/library/log"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/job/main/search/dao"
+	"github.com/namelessup/bilibili/app/job/main/search/model"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 // AvrArchive .

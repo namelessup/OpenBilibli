@@ -11,7 +11,7 @@ go_library(
         "filter.go",
         "rpc.go",
     ],
-    importpath = "go-common/app/service/main/antispam/rpc/server",
+    importpath = "github.com/namelessup/bilibili/app/service/main/antispam/rpc/server",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

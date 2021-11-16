@@ -7,12 +7,12 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/admin/main/videoup/model/archive"
-	"go-common/app/admin/main/videoup/model/music"
-	"go-common/app/admin/main/videoup/model/oversea"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/queue/databus/report"
+	"github.com/namelessup/bilibili/app/admin/main/videoup/model/archive"
+	"github.com/namelessup/bilibili/app/admin/main/videoup/model/music"
+	"github.com/namelessup/bilibili/app/admin/main/videoup/model/oversea"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/queue/databus/report"
 )
 
 // send to log service

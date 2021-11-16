@@ -6,10 +6,10 @@ import (
 	"os/signal"
 	"syscall"
 
-	"go-common/app/service/main/riot-search/conf"
-	"go-common/app/service/main/riot-search/server/http"
-	"go-common/library/log"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/app/service/main/riot-search/conf"
+	"github.com/namelessup/bilibili/app/service/main/riot-search/server/http"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
 )
 
 func main() {

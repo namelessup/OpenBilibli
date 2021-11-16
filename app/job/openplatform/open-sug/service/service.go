@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 
-	"go-common/app/job/openplatform/open-sug/conf"
-	"go-common/app/job/openplatform/open-sug/dao"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/job/openplatform/open-sug/conf"
+	"github.com/namelessup/bilibili/app/job/openplatform/open-sug/dao"
+	"github.com/namelessup/bilibili/library/queue/databus"
 	"sync"
 	"time"
 )

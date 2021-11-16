@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
-	model "go-common/app/admin/main/member/model/block"
-	xsql "go-common/library/database/sql"
+	model "github.com/namelessup/bilibili/app/admin/main/member/model/block"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
 
 	"github.com/pkg/errors"
 )

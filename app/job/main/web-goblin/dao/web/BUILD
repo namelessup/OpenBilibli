@@ -13,7 +13,7 @@ go_library(
         "dynamic.go",
         "ugc.go",
     ],
-    importpath = "go-common/app/job/main/web-goblin/dao/web",
+    importpath = "github.com/namelessup/bilibili/app/job/main/web-goblin/dao/web",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

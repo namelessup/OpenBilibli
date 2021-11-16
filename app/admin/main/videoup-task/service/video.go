@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 
-	"go-common/app/admin/main/videoup-task/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/videoup-task/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) getVideo(ctx context.Context, aid int64, cid int64) (video *model.Video, err error) {

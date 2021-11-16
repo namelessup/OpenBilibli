@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"time"
 
-	model "go-common/app/job/main/tv/model/pgc"
-	"go-common/library/log"
+	model "github.com/namelessup/bilibili/app/job/main/tv/model/pgc"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/pkg/errors"
 )

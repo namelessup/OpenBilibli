@@ -3,8 +3,8 @@ package dao
 import (
 	"context"
 
-	"go-common/app/job/live/recommend-job/internal/conf"
-	"go-common/library/cache/redis"
+	"github.com/namelessup/bilibili/app/job/live/recommend-job/internal/conf"
+	"github.com/namelessup/bilibili/library/cache/redis"
 )
 
 // Dao dao

@@ -3,9 +3,9 @@ package like
 import (
 	"context"
 
-	lmdl "go-common/app/interface/main/activity/model/like"
-	"go-common/library/database/sql"
-	"go-common/library/log"
+	lmdl "github.com/namelessup/bilibili/app/interface/main/activity/model/like"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

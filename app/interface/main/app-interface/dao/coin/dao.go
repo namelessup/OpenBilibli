@@ -4,13 +4,13 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/interface/main/app-interface/conf"
-	"go-common/app/service/main/archive/api"
-	arcrpc "go-common/app/service/main/archive/api/gorpc"
-	"go-common/app/service/main/archive/model/archive"
-	coinclient "go-common/app/service/main/coin/api"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/conf"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	arcrpc "github.com/namelessup/bilibili/app/service/main/archive/api/gorpc"
+	"github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	coinclient "github.com/namelessup/bilibili/app/service/main/coin/api"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 // Dao is coin dao

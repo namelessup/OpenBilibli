@@ -4,9 +4,9 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"go-common/app/interface/main/mcn/conf"
-	"go-common/app/interface/main/mcn/model/mcnmodel"
-	"go-common/app/interface/main/mcn/tool/cache"
+	"github.com/namelessup/bilibili/app/interface/main/mcn/conf"
+	"github.com/namelessup/bilibili/app/interface/main/mcn/model/mcnmodel"
+	"github.com/namelessup/bilibili/app/interface/main/mcn/tool/cache"
 	"time"
 )
 

@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["wall.go"],
-    importpath = "go-common/app/admin/main/app/model/wall",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/app/model/wall",
     tags = ["automanaged"],
 )
 

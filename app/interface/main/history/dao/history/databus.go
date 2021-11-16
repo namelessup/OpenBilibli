@@ -4,7 +4,7 @@ import (
 	"context"
 	"strconv"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // PlayPro send history to databus.

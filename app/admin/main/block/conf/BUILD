@@ -18,7 +18,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["conf.go"],
-    importpath = "go-common/app/admin/main/block/conf",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/block/conf",
     tags = ["automanaged"],
     deps = [
         "//app/admin/main/block/model:go_default_library",

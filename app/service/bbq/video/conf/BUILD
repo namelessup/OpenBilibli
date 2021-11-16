@@ -11,7 +11,7 @@ go_library(
         "archive.go",
         "conf.go",
     ],
-    importpath = "go-common/app/service/bbq/video/conf",
+    importpath = "github.com/namelessup/bilibili/app/service/bbq/video/conf",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

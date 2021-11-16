@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["conf.go"],
-    importpath = "go-common/app/infra/config/conf",
+    importpath = "github.com/namelessup/bilibili/app/infra/config/conf",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

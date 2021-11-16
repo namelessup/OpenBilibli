@@ -2,9 +2,9 @@ package dao
 
 import (
 	"context"
-	"go-common/app/service/bbq/recsys/model"
-	"go-common/app/service/bbq/user/api"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/bbq/recsys/model"
+	"github.com/namelessup/bilibili/app/service/bbq/user/api"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 //GetUserFollow ...

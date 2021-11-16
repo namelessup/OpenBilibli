@@ -5,10 +5,10 @@ import (
 	"math"
 	"time"
 
-	"go-common/app/service/main/ugcpay/conf"
-	"go-common/app/service/main/ugcpay/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/ugcpay/conf"
+	"github.com/namelessup/bilibili/app/service/main/ugcpay/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // AssetRegister register a content to asset

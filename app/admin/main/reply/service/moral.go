@@ -3,12 +3,12 @@ package service
 import (
 	"context"
 	"fmt"
-	"go-common/app/admin/main/reply/model"
-	artmdl "go-common/app/interface/openplatform/article/model"
-	accmdl "go-common/app/service/main/account/api"
-	"go-common/app/service/main/archive/api"
-	arcmdl "go-common/app/service/main/archive/model/archive"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/reply/model"
+	artmdl "github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	accmdl "github.com/namelessup/bilibili/app/service/main/account/api"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	arcmdl "github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/library/log"
 	"time"
 
 	"net/url"

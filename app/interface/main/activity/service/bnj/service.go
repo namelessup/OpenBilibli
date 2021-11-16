@@ -6,13 +6,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go-common/app/interface/main/activity/conf"
-	"go-common/app/interface/main/activity/dao/bnj"
-	"go-common/app/interface/main/activity/dao/like"
-	bnjmdl "go-common/app/interface/main/activity/model/bnj"
-	arcclient "go-common/app/service/main/archive/api"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/interface/main/activity/conf"
+	"github.com/namelessup/bilibili/app/interface/main/activity/dao/bnj"
+	"github.com/namelessup/bilibili/app/interface/main/activity/dao/like"
+	bnjmdl "github.com/namelessup/bilibili/app/interface/main/activity/model/bnj"
+	arcclient "github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 // Service .

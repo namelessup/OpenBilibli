@@ -12,7 +12,7 @@ go_library(
         "http.go",
         "infoc.go",
     ],
-    importpath = "go-common/app/infra/canal/http",
+    importpath = "github.com/namelessup/bilibili/app/infra/canal/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

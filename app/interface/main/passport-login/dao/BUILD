@@ -15,7 +15,7 @@ go_library(
         "secret.go",
         "user.go",
     ],
-    importpath = "go-common/app/interface/main/passport-login/dao",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/passport-login/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

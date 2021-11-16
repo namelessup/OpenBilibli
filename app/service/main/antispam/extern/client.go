@@ -1,9 +1,9 @@
 package extern
 
 import (
-	"go-common/app/service/main/antispam/conf"
+	"github.com/namelessup/bilibili/app/service/main/antispam/conf"
 
-	bm "go-common/library/net/http/blademaster"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 type Client struct {

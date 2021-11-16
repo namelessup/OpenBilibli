@@ -21,7 +21,7 @@ go_library(
         "eval.go",
         "expr.go",
     ],
-    importpath = "go-common/app/service/live/zeus/expr",
+    importpath = "github.com/namelessup/bilibili/app/service/live/zeus/expr",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

@@ -4,8 +4,8 @@ import (
 	"context"
 	"strconv"
 
-	"go-common/app/admin/main/aegis/model/databus"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model/databus"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) sendCreateTaskMsg(c context.Context, rid, flowID, dispatchLimit, bizid int64) (err error) {

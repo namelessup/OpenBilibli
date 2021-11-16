@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/service/main/passport/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/passport/model"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/tsuna/gohbase/filter"
 	"github.com/tsuna/gohbase/hrpc"

@@ -4,12 +4,12 @@ import (
 	"context"
 	"strings"
 
-	artmdl "go-common/app/interface/openplatform/article/model"
-	"go-common/app/job/openplatform/article/dao"
-	"go-common/app/job/openplatform/article/model"
-	"go-common/library/log"
+	artmdl "github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	"github.com/namelessup/bilibili/app/job/openplatform/article/dao"
+	"github.com/namelessup/bilibili/app/job/openplatform/article/model"
+	"github.com/namelessup/bilibili/library/log"
 
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 
 	"github.com/jaytaylor/html2text"
 )

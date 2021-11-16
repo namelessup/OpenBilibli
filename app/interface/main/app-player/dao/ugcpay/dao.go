@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/app/interface/main/app-player/conf"
-	ugcpay "go-common/app/service/main/ugcpay/api/grpc/v1"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/app-player/conf"
+	ugcpay "github.com/namelessup/bilibili/app/service/main/ugcpay/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Dao is ugcpay dao.

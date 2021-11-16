@@ -7,7 +7,7 @@ import (
 	"os"
 	"strconv"
 
-	"go-common/app/job/main/growup/model"
+	"github.com/namelessup/bilibili/app/job/main/growup/model"
 )
 
 // WriteCSV write data to csv

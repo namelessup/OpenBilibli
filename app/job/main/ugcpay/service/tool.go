@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/job/main/ugcpay/conf"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/ugcpay/conf"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func dayRange(offset int) (from, to time.Time) {

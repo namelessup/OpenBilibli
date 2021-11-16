@@ -23,7 +23,7 @@ fi
 ln -fs ${CI_PROJECT_DIR} ${CI_PROJECT_DIR}/../src
 export GOPATH=${CI_PROJECT_DIR}/..
 echo "GOPATH: $GOPATH"
-cd $GOPATH/src/go-common
+cd $GOPATH/src/github.com/namelessup/bilibili
 
 exitCode=0
 echo -e "\ngometalinter:"

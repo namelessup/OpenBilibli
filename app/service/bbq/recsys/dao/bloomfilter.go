@@ -7,10 +7,10 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/service/bbq/recsys/dao/parallel"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/bbq/recsys/dao/parallel"
+	"github.com/namelessup/bilibili/library/log"
 
-	"go-common/library/cache/redis"
+	"github.com/namelessup/bilibili/library/cache/redis"
 
 	"github.com/Dai0522/go-hash/bloomfilter"
 	"github.com/Dai0522/workpool"

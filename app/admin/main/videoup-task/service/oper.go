@@ -3,7 +3,7 @@ package service
 import (
 	"context"
 
-	"go-common/app/admin/main/videoup-task/model"
+	"github.com/namelessup/bilibili/app/admin/main/videoup-task/model"
 )
 
 func (s *Service) diffVideoOper(vp *model.VideoParam) (conts []string) {

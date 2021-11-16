@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["lancer.go"],
-    importpath = "go-common/app/service/live/rtc/common",
+    importpath = "github.com/namelessup/bilibili/app/service/live/rtc/common",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/log:go_default_library"],

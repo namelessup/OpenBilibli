@@ -1,9 +1,9 @@
 package http
 
 import (
-	"go-common/app/admin/main/config/model"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/config/model"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func apmCopy(c *bm.Context) {

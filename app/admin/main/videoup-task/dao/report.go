@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/admin/main/videoup/model/archive"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/videoup/model/archive"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

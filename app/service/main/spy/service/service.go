@@ -6,12 +6,12 @@ import (
 	"strconv"
 	"time"
 
-	accrpc "go-common/app/service/main/account/rpc/client"
-	"go-common/app/service/main/spy/conf"
-	"go-common/app/service/main/spy/dao"
-	"go-common/app/service/main/spy/model"
-	"go-common/library/log"
-	"go-common/library/stat/prom"
+	accrpc "github.com/namelessup/bilibili/app/service/main/account/rpc/client"
+	"github.com/namelessup/bilibili/app/service/main/spy/conf"
+	"github.com/namelessup/bilibili/app/service/main/spy/dao"
+	"github.com/namelessup/bilibili/app/service/main/spy/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/stat/prom"
 )
 
 const (

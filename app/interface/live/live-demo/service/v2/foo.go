@@ -3,14 +3,14 @@ package v2
 import (
 	"context"
 
-	v2pb "go-common/app/interface/live/live-demo/api/http/v2"
-	"go-common/app/interface/live/live-demo/conf"
-	"go-common/app/interface/live/live-demo/dao"
-	"go-common/app/service/live/room/api/liverpc/v2"
-	"go-common/library/ecode"
-	"go-common/library/ecode/pb"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	v2pb "github.com/namelessup/bilibili/app/interface/live/live-demo/api/http/v2"
+	"github.com/namelessup/bilibili/app/interface/live/live-demo/conf"
+	"github.com/namelessup/bilibili/app/interface/live/live-demo/dao"
+	"github.com/namelessup/bilibili/app/service/live/room/api/liverpc/v2"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/ecode/pb"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 
 	"github.com/pkg/errors"
 )

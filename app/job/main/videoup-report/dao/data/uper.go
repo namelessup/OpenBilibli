@@ -2,8 +2,8 @@ package data
 
 import (
 	"context"
-	"go-common/app/job/main/videoup-report/model/manager"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/videoup-report/model/manager"
+	"github.com/namelessup/bilibili/library/log"
 	"net/url"
 	"strconv"
 )

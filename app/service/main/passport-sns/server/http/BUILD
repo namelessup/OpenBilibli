@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["server.go"],
-    importpath = "go-common/app/service/main/passport-sns/server/http",
+    importpath = "github.com/namelessup/bilibili/app/service/main/passport-sns/server/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

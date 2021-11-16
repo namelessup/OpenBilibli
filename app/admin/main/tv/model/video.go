@@ -1,8 +1,8 @@
 package model
 
 import (
-	arccli "go-common/app/service/main/archive/api"
-	"go-common/library/time"
+	arccli "github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 // Video is used from PGC video

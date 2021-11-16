@@ -33,7 +33,7 @@ go_library(
         "mysql.go",
         "redis.go",
     ],
-    importpath = "go-common/app/job/main/favorite/dao/fav",
+    importpath = "github.com/namelessup/bilibili/app/job/main/favorite/dao/fav",
     tags = ["automanaged"],
     deps = [
         "//app/job/main/favorite/conf:go_default_library",

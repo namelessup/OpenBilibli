@@ -2,12 +2,12 @@ package v1
 
 import (
 	"context"
-	v1pb "go-common/app/interface/live/app-ucenter/api/http/v1"
-	"go-common/app/interface/live/app-ucenter/conf"
-	"go-common/app/service/live/xuser/api/grpc/v1"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	v1pb "github.com/namelessup/bilibili/app/interface/live/app-ucenter/api/http/v1"
+	"github.com/namelessup/bilibili/app/interface/live/app-ucenter/conf"
+	"github.com/namelessup/bilibili/app/service/live/xuser/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 // RoomAdminService struct

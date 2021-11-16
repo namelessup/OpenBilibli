@@ -15,7 +15,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 type BroadcastProxy struct {

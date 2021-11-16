@@ -1,13 +1,13 @@
 package rpc
 
 import (
-	"go-common/app/infra/config/conf"
-	"go-common/app/infra/config/service/v1"
-	"go-common/app/infra/config/service/v2"
-	"go-common/library/net/rpc"
-	"go-common/library/net/rpc/context"
+	"github.com/namelessup/bilibili/app/infra/config/conf"
+	"github.com/namelessup/bilibili/app/infra/config/service/v1"
+	"github.com/namelessup/bilibili/app/infra/config/service/v2"
+	"github.com/namelessup/bilibili/library/net/rpc"
+	"github.com/namelessup/bilibili/library/net/rpc/context"
 
-	"go-common/app/infra/config/model"
+	"github.com/namelessup/bilibili/app/infra/config/model"
 )
 
 // RPC export rpc service

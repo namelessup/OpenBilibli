@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["check.go"],
-    importpath = "go-common/app/interface/video/portal/middleware",
+    importpath = "github.com/namelessup/bilibili/app/interface/video/portal/middleware",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

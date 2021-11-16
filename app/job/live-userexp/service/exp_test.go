@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"encoding/json"
-	"go-common/app/job/live-userexp/conf"
-	"go-common/app/job/live-userexp/model"
+	"github.com/namelessup/bilibili/app/job/live-userexp/conf"
+	"github.com/namelessup/bilibili/app/job/live-userexp/model"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

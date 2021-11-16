@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	xtime "go-common/library/time"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	"github.com/stretchr/testify/assert"
 )

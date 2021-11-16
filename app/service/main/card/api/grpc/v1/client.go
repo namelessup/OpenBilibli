@@ -3,7 +3,7 @@ package v1
 import (
 	fmt "fmt"
 
-	"go-common/library/net/rpc/warden"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 
 	context "golang.org/x/net/context"
 	grpc "google.golang.org/grpc"

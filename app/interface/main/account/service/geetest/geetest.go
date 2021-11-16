@@ -10,10 +10,10 @@ import (
 	"strconv"
 	"strings"
 
-	"go-common/app/interface/main/account/conf"
-	"go-common/app/interface/main/account/dao/geetest"
-	"go-common/app/interface/main/account/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/account/conf"
+	"github.com/namelessup/bilibili/app/interface/main/account/dao/geetest"
+	"github.com/namelessup/bilibili/app/interface/main/account/model"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/pkg/errors"
 )

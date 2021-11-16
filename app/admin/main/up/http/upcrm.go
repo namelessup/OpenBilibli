@@ -6,12 +6,12 @@ import (
 	"encoding/csv"
 	"fmt"
 	"github.com/siddontang/go-mysql/mysql"
-	"go-common/app/admin/main/up/dao/upcrm"
-	"go-common/app/admin/main/up/model/upcrmmodel"
-	"go-common/app/admin/main/up/service"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/up/dao/upcrm"
+	"github.com/namelessup/bilibili/app/admin/main/up/model/upcrmmodel"
+	"github.com/namelessup/bilibili/app/admin/main/up/service"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/http/blademaster"
 	"time"
 )
 

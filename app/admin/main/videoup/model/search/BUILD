@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["search.go"],
-    importpath = "go-common/app/admin/main/videoup/model/search",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/videoup/model/search",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

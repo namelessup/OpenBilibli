@@ -13,7 +13,7 @@ go_library(
         "pro.go",
         "sitemap.go",
     ],
-    importpath = "go-common/app/interface/openplatform/seo/dao",
+    importpath = "github.com/namelessup/bilibili/app/interface/openplatform/seo/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

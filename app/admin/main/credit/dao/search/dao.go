@@ -4,13 +4,13 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/admin/main/credit/conf"
-	"go-common/app/admin/main/credit/model"
-	"go-common/app/admin/main/credit/model/blocked"
-	"go-common/app/admin/main/credit/model/search"
-	"go-common/library/database/elastic"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/admin/main/credit/conf"
+	"github.com/namelessup/bilibili/app/admin/main/credit/model"
+	"github.com/namelessup/bilibili/app/admin/main/credit/model/blocked"
+	"github.com/namelessup/bilibili/app/admin/main/credit/model/search"
+	"github.com/namelessup/bilibili/library/database/elastic"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 
 	"github.com/pkg/errors"
 )

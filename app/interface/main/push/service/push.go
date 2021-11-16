@@ -5,8 +5,8 @@ import (
 	"net/url"
 	"strconv"
 
-	pushmdl "go-common/app/service/main/push/model"
-	"go-common/library/log"
+	pushmdl "github.com/namelessup/bilibili/app/service/main/push/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

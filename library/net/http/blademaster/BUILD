@@ -50,7 +50,7 @@ go_library(
         "trace.go",
         "utils.go",
     ],
-    importpath = "go-common/library/net/http/blademaster",
+    importpath = "github.com/namelessup/bilibili/library/net/http/blademaster",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

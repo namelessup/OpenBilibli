@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/admin/ep/merlin/conf"
+	"github.com/namelessup/bilibili/app/admin/ep/merlin/conf"
 
 	"gopkg.in/h2non/gock.v1"
 )

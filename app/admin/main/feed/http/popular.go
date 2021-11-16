@@ -6,12 +6,12 @@ import (
 	"fmt"
 	"strconv"
 
-	"go-common/app/admin/main/feed/model/common"
-	"go-common/app/admin/main/feed/model/show"
-	"go-common/app/admin/main/feed/util"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/feed/model/common"
+	"github.com/namelessup/bilibili/app/admin/main/feed/model/show"
+	"github.com/namelessup/bilibili/app/admin/main/feed/util"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func eventTopicList(c *bm.Context) {

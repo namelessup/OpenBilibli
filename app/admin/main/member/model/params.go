@@ -1,8 +1,8 @@
 package model
 
 import (
-	"go-common/app/admin/main/member/model/block"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/admin/main/member/model/block"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // ArgMid is.

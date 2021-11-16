@@ -19,7 +19,7 @@ go_library(
         "passport-auth-service.toml",
         "passport-auth-service-uat.toml",
     ],
-    importpath = "go-common/app/service/main/passport-auth/cmd",
+    importpath = "github.com/namelessup/bilibili/app/service/main/passport-auth/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

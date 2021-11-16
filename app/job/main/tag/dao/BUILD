@@ -47,7 +47,7 @@ go_library(
         "tag_resource_mc.go",
         "tag_resource_redis.go",
     ],
-    importpath = "go-common/app/job/main/tag/dao",
+    importpath = "github.com/namelessup/bilibili/app/job/main/tag/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -2,9 +2,9 @@ package dao
 
 import (
 	"context"
-	"go-common/app/service/main/tv/internal/model"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/service/main/tv/internal/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"

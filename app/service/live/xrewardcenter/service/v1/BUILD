@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["anchorReward.go"],
-    importpath = "go-common/app/service/live/xrewardcenter/service/v1",
+    importpath = "github.com/namelessup/bilibili/app/service/live/xrewardcenter/service/v1",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

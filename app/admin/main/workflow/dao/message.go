@@ -3,8 +3,8 @@ package dao
 import (
 	"context"
 
-	"go-common/app/admin/main/workflow/model/param"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/admin/main/workflow/model/param"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 const _userNotifyURI = "http://message.bilibili.co/api/notify/send.user.notify.do"

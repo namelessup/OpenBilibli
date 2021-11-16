@@ -15,7 +15,7 @@ go_binary(
 go_library(
     name = "go_default_library",
     srcs = ["main.go"],
-    importpath = "go-common/app/tool/protoc-gen-bm",
+    importpath = "github.com/namelessup/bilibili/app/tool/protoc-gen-bm",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

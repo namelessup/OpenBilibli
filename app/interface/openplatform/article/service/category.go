@@ -5,9 +5,9 @@ import (
 	"sort"
 	"time"
 
-	"go-common/app/interface/openplatform/article/conf"
-	"go-common/app/interface/openplatform/article/dao"
-	artmdl "go-common/app/interface/openplatform/article/model"
+	"github.com/namelessup/bilibili/app/interface/openplatform/article/conf"
+	"github.com/namelessup/bilibili/app/interface/openplatform/article/dao"
+	artmdl "github.com/namelessup/bilibili/app/interface/openplatform/article/model"
 )
 
 func (s *Service) loadCategoriesproc() {

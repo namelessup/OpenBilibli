@@ -7,11 +7,11 @@ import (
 	"regexp"
 	"strings"
 
-	"go-common/app/infra/canal/infoc"
-	"go-common/library/conf"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/infra/canal/infoc"
+	"github.com/namelessup/bilibili/library/conf"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	"github.com/BurntSushi/toml"
 	"github.com/siddontang/go-mysql/canal"

@@ -3,9 +3,9 @@ package http
 import (
 	"strings"
 
-	"go-common/app/admin/main/config/model"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/config/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func createBuild(c *bm.Context) {

@@ -1,8 +1,8 @@
 package http
 
 import (
-	"go-common/app/admin/openplatform/sug/model"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/openplatform/sug/model"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func matchOperate(c *bm.Context) {

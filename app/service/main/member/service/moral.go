@@ -6,12 +6,12 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/service/main/member/model"
-	"go-common/library/database/sql"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
-	ctime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/service/main/member/model"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	ctime "github.com/namelessup/bilibili/library/time"
 )
 
 // Moral get user moral from db.

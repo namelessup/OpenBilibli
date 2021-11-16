@@ -3,7 +3,7 @@ package danmu
 import (
 	"context"
 	"encoding/json"
-	"go-common/app/interface/main/creative/model/danmu"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/danmu"
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"

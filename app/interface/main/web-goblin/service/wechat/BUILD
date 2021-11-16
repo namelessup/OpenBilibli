@@ -11,7 +11,7 @@ go_library(
         "service.go",
         "wechat.go",
     ],
-    importpath = "go-common/app/interface/main/web-goblin/service/wechat",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/web-goblin/service/wechat",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

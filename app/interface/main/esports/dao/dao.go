@@ -5,12 +5,12 @@ import (
 	"net/http"
 	"time"
 
-	"go-common/app/interface/main/esports/conf"
-	"go-common/library/cache/redis"
-	"go-common/library/database/elastic"
-	"go-common/library/database/sql"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/sync/pipeline/fanout"
+	"github.com/namelessup/bilibili/app/interface/main/esports/conf"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/database/elastic"
+	"github.com/namelessup/bilibili/library/database/sql"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/sync/pipeline/fanout"
 )
 
 const (

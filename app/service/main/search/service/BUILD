@@ -34,7 +34,7 @@ go_library(
         "service.go",
         "update.go",
     ],
-    importpath = "go-common/app/service/main/search/service",
+    importpath = "github.com/namelessup/bilibili/app/service/main/search/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 
-	"go-common/app/interface/live/open-interface/internal/dao"
-	titansSdk "go-common/app/service/live/resource/sdk"
-	"go-common/library/conf/paladin"
+	"github.com/namelessup/bilibili/app/interface/live/open-interface/internal/dao"
+	titansSdk "github.com/namelessup/bilibili/app/service/live/resource/sdk"
+	"github.com/namelessup/bilibili/library/conf/paladin"
 )
 
 // Service service.

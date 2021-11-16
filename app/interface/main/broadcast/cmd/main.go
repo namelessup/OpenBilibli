@@ -12,17 +12,17 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/app/interface/main/broadcast/conf"
-	"go-common/app/interface/main/broadcast/server"
-	wardenServer "go-common/app/interface/main/broadcast/server/grpc"
-	"go-common/app/interface/main/broadcast/server/http"
-	"go-common/library/conf/env"
-	"go-common/library/conf/paladin"
-	"go-common/library/log"
-	"go-common/library/naming"
-	"go-common/library/naming/discovery"
-	"go-common/library/net/ip"
-	"go-common/library/net/rpc/warden/resolver"
+	"github.com/namelessup/bilibili/app/interface/main/broadcast/conf"
+	"github.com/namelessup/bilibili/app/interface/main/broadcast/server"
+	wardenServer "github.com/namelessup/bilibili/app/interface/main/broadcast/server/grpc"
+	"github.com/namelessup/bilibili/app/interface/main/broadcast/server/http"
+	"github.com/namelessup/bilibili/library/conf/env"
+	"github.com/namelessup/bilibili/library/conf/paladin"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/naming"
+	"github.com/namelessup/bilibili/library/naming/discovery"
+	"github.com/namelessup/bilibili/library/net/ip"
+	"github.com/namelessup/bilibili/library/net/rpc/warden/resolver"
 )
 
 const (

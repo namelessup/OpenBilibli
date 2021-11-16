@@ -3,9 +3,9 @@ package tag
 import (
 	"context"
 
-	model "go-common/app/job/main/growup/model/tag"
+	model "github.com/namelessup/bilibili/app/job/main/growup/model/tag"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // tagUpRatio update tag up_charge_ratio

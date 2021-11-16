@@ -2,14 +2,14 @@ package service
 
 import (
 	"context"
-	"go-common/library/ecode"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/xstr"
 	"net/url"
 	"strconv"
 
-	"go-common/app/admin/main/videoup-task/model"
-	"go-common/library/database/elastic"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/videoup-task/model"
+	"github.com/namelessup/bilibili/library/database/elastic"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

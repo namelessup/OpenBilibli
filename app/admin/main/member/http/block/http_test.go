@@ -4,7 +4,7 @@ import (
 	"flag"
 	"testing"
 
-	"go-common/app/admin/main/block/conf"
+	"github.com/namelessup/bilibili/app/admin/main/block/conf"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

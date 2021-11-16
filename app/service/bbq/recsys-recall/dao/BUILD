@@ -9,7 +9,7 @@ go_library(
         "bloomfilter.go",
         "dao.go",
     ],
-    importpath = "go-common/app/service/bbq/recsys-recall/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/bbq/recsys-recall/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

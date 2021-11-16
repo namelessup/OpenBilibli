@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["figure-job-test.toml"],
-    importpath = "go-common/app/job/main/figure/cmd",
+    importpath = "github.com/namelessup/bilibili/app/job/main/figure/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -7,13 +7,13 @@ import (
 	"regexp"
 	"strconv"
 
-	"go-common/app/service/main/antispam/conf"
-	"go-common/app/service/main/antispam/dao"
-	"go-common/app/service/main/antispam/model"
-	"go-common/app/service/main/antispam/util"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/service/main/antispam/conf"
+	"github.com/namelessup/bilibili/app/service/main/antispam/dao"
+	"github.com/namelessup/bilibili/app/service/main/antispam/model"
+	"github.com/namelessup/bilibili/app/service/main/antispam/util"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // GetRegexp .

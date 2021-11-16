@@ -3,9 +3,9 @@ package http
 import (
 	"strconv"
 
-	"go-common/app/interface/main/creative/model/archive"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/archive"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func webTags(c *bm.Context) {

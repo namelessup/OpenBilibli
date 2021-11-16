@@ -29,7 +29,7 @@ go_library(
         "bucket.go",
         "dao.go",
     ],
-    importpath = "go-common/app/interface/main/upload/dao",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/upload/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

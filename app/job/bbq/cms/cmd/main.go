@@ -8,11 +8,11 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/app/job/bbq/cms/internal/server/http"
-	"go-common/app/job/bbq/cms/internal/service"
-	"go-common/library/conf/paladin"
-	ecode "go-common/library/ecode/tip"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/bbq/cms/internal/server/http"
+	"github.com/namelessup/bilibili/app/job/bbq/cms/internal/service"
+	"github.com/namelessup/bilibili/library/conf/paladin"
+	ecode "github.com/namelessup/bilibili/library/ecode/tip"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func main() {

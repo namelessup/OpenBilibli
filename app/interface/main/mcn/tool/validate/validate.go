@@ -3,7 +3,7 @@ package validate
 import (
 	"regexp"
 
-	"go-common/library/net/http/blademaster/binding"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/binding"
 
 	"gopkg.in/go-playground/validator.v9"
 )

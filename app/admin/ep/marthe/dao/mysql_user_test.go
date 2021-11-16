@@ -5,7 +5,7 @@ import (
 	"time"
 
 	. "github.com/smartystreets/goconvey/convey"
-	"go-common/app/admin/ep/marthe/model"
+	"github.com/namelessup/bilibili/app/admin/ep/marthe/model"
 )
 
 var (

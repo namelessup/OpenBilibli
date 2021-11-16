@@ -2,7 +2,7 @@ package tools
 
 import (
 	"archive/zip"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 	"io"
 	"os"
 	"path/filepath"

@@ -8,10 +8,10 @@ import (
 	"net/url"
 	"path"
 
-	"go-common/app/admin/main/member/model"
-	comodel "go-common/app/service/main/coin/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/member/model"
+	comodel "github.com/namelessup/bilibili/app/service/main/coin/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 var upNameCostCoins = 6.0

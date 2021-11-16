@@ -4,9 +4,9 @@ import (
 	"context"
 	"strconv"
 
-	"go-common/app/admin/main/spy/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/spy/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // SettingList get all setting

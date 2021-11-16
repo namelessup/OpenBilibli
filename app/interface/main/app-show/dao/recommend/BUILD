@@ -22,7 +22,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["recommend.go"],
-    importpath = "go-common/app/interface/main/app-show/dao/recommend",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-show/dao/recommend",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

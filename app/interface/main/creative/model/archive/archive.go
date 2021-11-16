@@ -1,9 +1,9 @@
 package archive
 
 import (
-	"go-common/app/service/main/archive/api"
-	a "go-common/app/service/main/archive/model/archive"
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	a "github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 var (

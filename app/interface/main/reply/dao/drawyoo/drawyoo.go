@@ -5,11 +5,11 @@ import (
 	"net/url"
 	"strconv"
 
-	"go-common/app/interface/main/reply/conf"
-	"go-common/app/interface/main/reply/model/drawyoo"
-	"go-common/library/log"
-	httpx "go-common/library/net/http/blademaster"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/interface/main/reply/conf"
+	"github.com/namelessup/bilibili/app/interface/main/reply/model/drawyoo"
+	"github.com/namelessup/bilibili/library/log"
+	httpx "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 // Dao Dao

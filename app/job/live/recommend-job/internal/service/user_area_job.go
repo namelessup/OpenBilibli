@@ -6,10 +6,10 @@ import (
 	"strconv"
 	"strings"
 
-	"go-common/app/job/live/recommend-job/internal/conf"
-	"go-common/app/service/live/recommend/recconst"
-	"go-common/library/cache/redis"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/live/recommend-job/internal/conf"
+	"github.com/namelessup/bilibili/app/service/live/recommend/recconst"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // UserAreaJob 把用户分区偏好导入到redis

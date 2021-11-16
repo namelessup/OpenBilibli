@@ -3,9 +3,9 @@ package dao
 import (
 	"context"
 
-	"go-common/app/job/main/dm2/model"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/job/main/dm2/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 const (

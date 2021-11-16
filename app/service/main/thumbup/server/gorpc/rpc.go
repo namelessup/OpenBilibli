@@ -1,11 +1,11 @@
 package server
 
 import (
-	"go-common/app/service/main/thumbup/conf"
-	"go-common/app/service/main/thumbup/model"
-	"go-common/app/service/main/thumbup/service"
-	"go-common/library/net/rpc"
-	"go-common/library/net/rpc/context"
+	"github.com/namelessup/bilibili/app/service/main/thumbup/conf"
+	"github.com/namelessup/bilibili/app/service/main/thumbup/model"
+	"github.com/namelessup/bilibili/app/service/main/thumbup/service"
+	"github.com/namelessup/bilibili/library/net/rpc"
+	"github.com/namelessup/bilibili/library/net/rpc/context"
 )
 
 // RPC .

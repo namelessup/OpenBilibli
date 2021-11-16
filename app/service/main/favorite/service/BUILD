@@ -32,7 +32,7 @@ go_library(
         "search.go",
         "service.go",
     ],
-    importpath = "go-common/app/service/main/favorite/service",
+    importpath = "github.com/namelessup/bilibili/app/service/main/favorite/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

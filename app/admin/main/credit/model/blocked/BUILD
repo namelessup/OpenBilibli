@@ -24,7 +24,7 @@ go_library(
         "publish.go",
         "reason.go",
     ],
-    importpath = "go-common/app/admin/main/credit/model/blocked",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/credit/model/blocked",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

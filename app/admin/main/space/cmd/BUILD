@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["space-admin-test.toml"],
-    importpath = "go-common/app/admin/main/space/cmd",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/space/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

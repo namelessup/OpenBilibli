@@ -8,8 +8,8 @@ import (
 
 	"github.com/smartystreets/goconvey/convey"
 
-	"go-common/app/service/main/resource/conf"
-	"go-common/app/service/main/resource/model"
+	"github.com/namelessup/bilibili/app/service/main/resource/conf"
+	"github.com/namelessup/bilibili/app/service/main/resource/model"
 
 	"gopkg.in/h2non/gock.v1"
 )

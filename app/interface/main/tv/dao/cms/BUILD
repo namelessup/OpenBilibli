@@ -49,7 +49,7 @@ go_library(
         "ugc_load.go",
         "ugc_single.go",
     ],
-    importpath = "go-common/app/interface/main/tv/dao/cms",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/tv/dao/cms",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

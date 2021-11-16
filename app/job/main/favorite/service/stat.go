@@ -4,9 +4,9 @@ import (
 	"context"
 	"encoding/json"
 
-	"go-common/app/job/main/favorite/model"
-	favmdl "go-common/app/service/main/favorite/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/favorite/model"
+	favmdl "github.com/namelessup/bilibili/app/service/main/favorite/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // consumeStat consumes folder's stat.

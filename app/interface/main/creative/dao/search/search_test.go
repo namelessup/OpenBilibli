@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"go-common/app/interface/main/creative/model/search"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/search"
 
 	"github.com/smartystreets/goconvey/convey"
 )

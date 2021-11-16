@@ -21,7 +21,7 @@ go_library(
         "trend.go",
         "trend_heap.go",
     ],
-    importpath = "go-common/app/job/main/up-rating/service",
+    importpath = "github.com/namelessup/bilibili/app/job/main/up-rating/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

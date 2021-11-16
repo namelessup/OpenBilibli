@@ -6,7 +6,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["goparser.go"],
-    importpath = "go-common/app/tool/gorpc/goparser",
+    importpath = "github.com/namelessup/bilibili/app/tool/gorpc/goparser",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//app/tool/gorpc/model:go_default_library"],

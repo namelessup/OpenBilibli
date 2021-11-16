@@ -4,7 +4,7 @@ import (
 	"context"
 	"strconv"
 
-	"go-common/app/job/main/account-summary/model"
+	"github.com/namelessup/bilibili/app/job/main/account-summary/model"
 
 	"github.com/pkg/errors"
 )

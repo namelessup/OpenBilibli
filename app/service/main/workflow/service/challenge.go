@@ -8,9 +8,9 @@ import (
 	"strings"
 	"time"
 
-	arc "go-common/app/service/main/archive/api"
-	"go-common/app/service/main/workflow/model"
-	"go-common/library/log"
+	arc "github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/app/service/main/workflow/model"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/jinzhu/gorm"
 )

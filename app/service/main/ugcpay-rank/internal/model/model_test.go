@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func TestElecPrepUPRankShift(t *testing.T) {

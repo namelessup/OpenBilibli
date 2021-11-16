@@ -3,13 +3,13 @@ package favorite
 import (
 	"strconv"
 
-	"go-common/app/interface/main/app-interface/model"
-	"go-common/app/interface/main/app-interface/model/audio"
-	"go-common/app/interface/main/app-interface/model/bplus"
-	"go-common/app/interface/main/app-interface/model/sp"
-	"go-common/app/interface/main/app-interface/model/topic"
-	article "go-common/app/interface/openplatform/article/model"
-	"go-common/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/model/audio"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/model/bplus"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/model/sp"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/model/topic"
+	article "github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	"github.com/namelessup/bilibili/app/service/main/archive/model/archive"
 	"time"
 )
 

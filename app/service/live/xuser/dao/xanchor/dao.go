@@ -2,8 +2,8 @@ package xanchor
 
 import (
 	"context"
-	xanchor "go-common/app/service/live/dao-anchor/api/grpc/v1"
-	"go-common/app/service/live/xuser/conf"
+	xanchor "github.com/namelessup/bilibili/app/service/live/dao-anchor/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/live/xuser/conf"
 )
 
 // Dao dao

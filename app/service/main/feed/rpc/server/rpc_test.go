@@ -1,8 +1,8 @@
 package server
 
 import (
-	artmdl "go-common/app/interface/openplatform/article/model"
-	feed "go-common/app/service/main/feed/model"
+	artmdl "github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	feed "github.com/namelessup/bilibili/app/service/main/feed/model"
 	"net/rpc"
 	"testing"
 )

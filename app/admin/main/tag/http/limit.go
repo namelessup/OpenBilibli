@@ -1,9 +1,9 @@
 package http
 
 import (
-	"go-common/app/admin/main/tag/model"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/tag/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func limitUserList(c *bm.Context) {

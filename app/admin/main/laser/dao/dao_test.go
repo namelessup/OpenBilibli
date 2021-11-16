@@ -2,7 +2,7 @@ package dao
 
 import (
 	"flag"
-	"go-common/app/admin/main/laser/conf"
+	"github.com/namelessup/bilibili/app/admin/main/laser/conf"
 	"os"
 	"testing"
 )

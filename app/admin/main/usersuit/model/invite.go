@@ -4,8 +4,8 @@ import (
 	"net"
 	"strconv"
 
-	accmdl "go-common/app/service/main/account/model"
-	xtime "go-common/library/time"
+	accmdl "github.com/namelessup/bilibili/app/service/main/account/model"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 const (

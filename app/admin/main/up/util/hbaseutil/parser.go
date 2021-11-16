@@ -4,7 +4,7 @@ import (
 	"encoding/binary"
 	"fmt"
 	"github.com/tsuna/gohbase/hrpc"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 	"reflect"
 	"strconv"
 )

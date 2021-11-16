@@ -4,13 +4,13 @@ import (
 	"encoding/json"
 	"strconv"
 
-	clive "go-common/app/interface/main/app-card/model/card/live"
-	"go-common/app/interface/main/app-show/model"
-	"go-common/app/interface/main/app-show/model/card"
-	"go-common/app/interface/main/app-show/model/dislike"
-	"go-common/app/interface/main/app-show/model/tag"
-	"go-common/app/service/main/archive/api"
-	xtime "go-common/library/time"
+	clive "github.com/namelessup/bilibili/app/interface/main/app-card/model/card/live"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/model/card"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/model/dislike"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/model/tag"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 type Item struct {

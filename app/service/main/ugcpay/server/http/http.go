@@ -3,11 +3,11 @@ package http
 import (
 	"fmt"
 
-	"go-common/app/service/main/ugcpay/conf"
-	"go-common/app/service/main/ugcpay/server/grpc"
-	"go-common/app/service/main/ugcpay/service"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/verify"
+	"github.com/namelessup/bilibili/app/service/main/ugcpay/conf"
+	"github.com/namelessup/bilibili/app/service/main/ugcpay/server/grpc"
+	"github.com/namelessup/bilibili/app/service/main/ugcpay/service"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/verify"
 )
 
 var (

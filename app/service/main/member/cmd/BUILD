@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["member-service-example.toml"],
-    importpath = "go-common/app/service/main/member/cmd",
+    importpath = "github.com/namelessup/bilibili/app/service/main/member/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

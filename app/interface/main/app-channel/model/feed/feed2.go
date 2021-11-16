@@ -1,7 +1,7 @@
 package feed
 
 import (
-	cardm "go-common/app/interface/main/app-card/model/card"
+	cardm "github.com/namelessup/bilibili/app/interface/main/app-card/model/card"
 )
 
 type Show2 struct {

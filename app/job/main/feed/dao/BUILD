@@ -21,7 +21,7 @@ go_library(
         "dao.go",
         "sms.go",
     ],
-    importpath = "go-common/app/job/main/feed/dao",
+    importpath = "github.com/namelessup/bilibili/app/job/main/feed/dao",
     tags = ["automanaged"],
     deps = [
         "//app/job/main/feed/conf:go_default_library",

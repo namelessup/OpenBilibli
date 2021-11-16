@@ -6,9 +6,9 @@ import (
 	"strconv"
 	"time"
 
-	v1 "go-common/app/interface/bbq/app-bbq/api/http/v1"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	v1 "github.com/namelessup/bilibili/app/interface/bbq/app-bbq/api/http/v1"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 
 	"github.com/Dai0522/go-hash/murmur3"
 )

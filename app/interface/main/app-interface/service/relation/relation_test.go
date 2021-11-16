@@ -9,8 +9,8 @@ import (
 
 	. "github.com/smartystreets/goconvey/convey"
 
-	"go-common/app/interface/main/app-interface/conf"
-	model "go-common/app/interface/main/app-interface/model/relation"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/conf"
+	model "github.com/namelessup/bilibili/app/interface/main/app-interface/model/relation"
 )
 
 var (

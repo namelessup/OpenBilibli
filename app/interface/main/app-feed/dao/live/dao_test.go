@@ -7,9 +7,9 @@ import (
 	"reflect"
 	"testing"
 
-	"go-common/app/interface/main/app-card/model/card/live"
-	"go-common/app/interface/main/app-feed/conf"
-	model "go-common/app/interface/main/app-feed/model/live"
+	"github.com/namelessup/bilibili/app/interface/main/app-card/model/card/live"
+	"github.com/namelessup/bilibili/app/interface/main/app-feed/conf"
+	model "github.com/namelessup/bilibili/app/interface/main/app-feed/model/live"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

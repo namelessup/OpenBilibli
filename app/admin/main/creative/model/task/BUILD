@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["task.go"],
-    importpath = "go-common/app/admin/main/creative/model/task",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/creative/model/task",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

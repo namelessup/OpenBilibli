@@ -12,4 +12,4 @@
 // package. Additionally, all naming systems in the Context will be added as
 // functions to the parsed template, so that they can be called directly from
 // your templates!
-package generator // import "go-common/app/tool/gengo/generator"
+package generator // import "github.com/namelessup/bilibili/app/tool/gengo/generator"

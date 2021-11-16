@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/app/interface/main/growup/model"
+	"github.com/namelessup/bilibili/app/interface/main/growup/model"
 )
 
 // LatestNotice latest notice

@@ -3,7 +3,7 @@ package model
 import (
 	"time"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // LogOrder .

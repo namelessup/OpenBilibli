@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/service/main/antispam/util"
+	"github.com/namelessup/bilibili/app/service/main/antispam/util"
 )
 
 func TestRuneTrieAdd(t *testing.T) {

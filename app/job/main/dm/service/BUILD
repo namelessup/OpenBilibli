@@ -30,7 +30,7 @@ go_library(
         "service.go",
         "track.go",
     ],
-    importpath = "go-common/app/job/main/dm/service",
+    importpath = "github.com/namelessup/bilibili/app/job/main/dm/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

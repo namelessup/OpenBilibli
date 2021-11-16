@@ -1,13 +1,13 @@
 package server
 
 import (
-	col "go-common/app/service/main/coupon/model"
-	"go-common/app/service/main/vip/conf"
-	"go-common/app/service/main/vip/model"
-	"go-common/app/service/main/vip/service"
-	"go-common/library/log"
-	"go-common/library/net/rpc"
-	"go-common/library/net/rpc/context"
+	col "github.com/namelessup/bilibili/app/service/main/coupon/model"
+	"github.com/namelessup/bilibili/app/service/main/vip/conf"
+	"github.com/namelessup/bilibili/app/service/main/vip/model"
+	"github.com/namelessup/bilibili/app/service/main/vip/service"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/rpc"
+	"github.com/namelessup/bilibili/library/net/rpc/context"
 )
 
 // RPC represent rpc server

@@ -6,10 +6,10 @@ import (
 	"math/rand"
 	"time"
 
-	"go-common/app/service/openplatform/anti-fraud/model"
-	xsql "go-common/library/database/sql"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/openplatform/anti-fraud/model"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) beginTran(c context.Context) (*xsql.Tx, error) {

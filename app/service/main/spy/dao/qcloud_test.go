@@ -3,7 +3,7 @@ package dao
 import (
 	"context"
 	"fmt"
-	"go-common/app/service/main/spy/model"
+	"github.com/namelessup/bilibili/app/service/main/spy/model"
 	"net/url"
 	"testing"
 	"time"

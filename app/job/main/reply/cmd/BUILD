@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["reply-job-test.toml"],
-    importpath = "go-common/app/job/main/reply/cmd",
+    importpath = "github.com/namelessup/bilibili/app/job/main/reply/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

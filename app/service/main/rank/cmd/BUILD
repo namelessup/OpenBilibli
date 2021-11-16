@@ -33,7 +33,7 @@ go_library(
         "rank-service.toml",
         "test.toml",
     ],
-    importpath = "go-common/app/service/main/rank/cmd",
+    importpath = "github.com/namelessup/bilibili/app/service/main/rank/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 
-	"go-common/app/service/main/location/model"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/service/main/location/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 // IPZone get ip zone info by ip

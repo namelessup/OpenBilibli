@@ -21,7 +21,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["bfs.go"],
-    importpath = "go-common/app/admin/main/feed/dao/bfs",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/feed/dao/bfs",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

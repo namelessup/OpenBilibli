@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"go-common/app/interface/video/portal/conf"
-	"go-common/app/interface/video/portal/dao"
+	"github.com/namelessup/bilibili/app/interface/video/portal/conf"
+	"github.com/namelessup/bilibili/app/interface/video/portal/dao"
 )
 
 // Service struct

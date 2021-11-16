@@ -11,7 +11,7 @@ go_library(
         "infoc.go",
         "service.go",
     ],
-    importpath = "go-common/app/service/live/userexp/service",
+    importpath = "github.com/namelessup/bilibili/app/service/live/userexp/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

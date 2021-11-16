@@ -25,7 +25,7 @@ go_library(
         "dao.go",
         "mission.go",
     ],
-    importpath = "go-common/app/job/main/videoup-report/dao/mission",
+    importpath = "github.com/namelessup/bilibili/app/job/main/videoup-report/dao/mission",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

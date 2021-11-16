@@ -3,9 +3,9 @@ package databus
 import (
 	"time"
 
-	"go-common/library/conf/env"
-	"go-common/library/queue/databus"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/library/conf/env"
+	"github.com/namelessup/bilibili/library/queue/databus"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 type conf struct {

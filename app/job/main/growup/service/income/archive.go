@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	model "go-common/app/job/main/growup/model/income"
+	model "github.com/namelessup/bilibili/app/job/main/growup/model/income"
 )
 
 func (s *DateStatis) getArchiveByDate(c context.Context, archiveCh chan []*model.ArchiveIncome, startDate, endDate time.Time, typ, limit int) (err error) {

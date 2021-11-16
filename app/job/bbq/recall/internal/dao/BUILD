@@ -15,7 +15,7 @@ go_library(
         "inverted_index.go",
         "video.go",
     ],
-    importpath = "go-common/app/job/bbq/recall/internal/dao",
+    importpath = "github.com/namelessup/bilibili/app/job/bbq/recall/internal/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

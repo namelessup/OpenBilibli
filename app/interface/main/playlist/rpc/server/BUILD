@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["rpc.go"],
-    importpath = "go-common/app/interface/main/playlist/rpc/server",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/playlist/rpc/server",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -6,12 +6,12 @@ import (
 	"sync"
 	"time"
 
-	"go-common/app/infra/notify/conf"
-	"go-common/app/infra/notify/dao"
-	"go-common/app/infra/notify/model"
-	"go-common/app/infra/notify/notify"
-	"go-common/library/conf/env"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/infra/notify/conf"
+	"github.com/namelessup/bilibili/app/infra/notify/dao"
+	"github.com/namelessup/bilibili/app/infra/notify/model"
+	"github.com/namelessup/bilibili/app/infra/notify/notify"
+	"github.com/namelessup/bilibili/library/conf/env"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Service struct

@@ -3,9 +3,9 @@ package pgc
 import (
 	"context"
 
-	epgrpc "go-common/app/service/openplatform/pgc-season/api/grpc/episode/v1"
-	seasongrpc "go-common/app/service/openplatform/pgc-season/api/grpc/season/v1"
-	"go-common/library/log"
+	epgrpc "github.com/namelessup/bilibili/app/service/openplatform/pgc-season/api/grpc/episode/v1"
+	seasongrpc "github.com/namelessup/bilibili/app/service/openplatform/pgc-season/api/grpc/season/v1"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 //CardsInfoReply pgc grpc

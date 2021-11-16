@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/app/admin/main/search/dao"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/admin/main/search/dao"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 // Update update some indices.

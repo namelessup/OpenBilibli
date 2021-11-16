@@ -12,7 +12,7 @@ go_library(
         "full.go",
         "recruit.go",
     ],
-    importpath = "go-common/app/interface/main/web-goblin/model/web",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/web-goblin/model/web",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

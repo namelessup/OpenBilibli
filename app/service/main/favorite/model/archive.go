@@ -1,8 +1,8 @@
 package model
 
 import (
-	"go-common/app/service/main/archive/api"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 type Archive struct {

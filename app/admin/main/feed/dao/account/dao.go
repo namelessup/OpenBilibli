@@ -3,9 +3,9 @@ package account
 import (
 	"context"
 
-	"go-common/app/admin/main/feed/conf"
-	account "go-common/app/service/main/account/model"
-	accrpc "go-common/app/service/main/account/rpc/client"
+	"github.com/namelessup/bilibili/app/admin/main/feed/conf"
+	account "github.com/namelessup/bilibili/app/service/main/account/model"
+	accrpc "github.com/namelessup/bilibili/app/service/main/account/rpc/client"
 )
 
 // Dao is account dao.

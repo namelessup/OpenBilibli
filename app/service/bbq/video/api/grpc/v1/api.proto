@@ -43,7 +43,7 @@ message VideoBase{
     int64   duration        = 7  [(gogoproto.jsontag) = "duration",(gogoproto.moretags) = "form:\"duration\""];
     int64   state           = 8  [(gogoproto.jsontag) = "state",(gogoproto.moretags) = "form:\"state\""];
     string  tag             = 9  [(gogoproto.jsontag) = "tag",(gogoproto.moretags) = "form:\"tag\""];
-    int64   pubtime         = 10 [(gogoproto.jsontag) = "pubtime", (gogoproto.moretags) = 'form:"tag"', (gogoproto.casttype) = "go-common/library/time.Time"];
+    int64   pubtime         = 10 [(gogoproto.jsontag) = "pubtime", (gogoproto.moretags) = 'form:"tag"', (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
     int64   tid             = 11 [(gogoproto.jsontag) = "tid",(gogoproto.moretags) = "form:\"tid\""];
     int64   sub_tid         = 12 [(gogoproto.jsontag) = "sub_tid",(gogoproto.moretags) = "form:\"sub_tid\""];
     int64   is_full_screen  = 13 [(gogoproto.jsontag) = "is_full_screen",(gogoproto.moretags) = "form:\"is_full_screen\""];

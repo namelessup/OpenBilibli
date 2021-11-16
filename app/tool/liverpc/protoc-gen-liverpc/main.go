@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"os"
 
-	"go-common/app/tool/liverpc/protoc-gen-liverpc/gen"
+	"github.com/namelessup/bilibili/app/tool/liverpc/protoc-gen-liverpc/gen"
 )
 
 func main() {

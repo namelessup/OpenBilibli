@@ -5,10 +5,10 @@ import (
 	"sync"
 	"time"
 
-	model "go-common/app/admin/main/member/model/block"
-	xsql "go-common/library/database/sql"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
+	model "github.com/namelessup/bilibili/app/admin/main/member/model/block"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 
 	"github.com/pkg/errors"
 )

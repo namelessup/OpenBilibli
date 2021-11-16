@@ -13,7 +13,7 @@ go_library(
         "model.go",
         "xints.go",
     ],
-    importpath = "go-common/app/interface/main/push-archive/model",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/push-archive/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

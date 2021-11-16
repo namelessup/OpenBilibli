@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"time"
 
-	model "go-common/app/job/main/growup/model/tag"
+	model "github.com/namelessup/bilibili/app/job/main/growup/model/tag"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // TagExtraIncome get tag extra income

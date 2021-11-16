@@ -3,11 +3,11 @@ package http
 import (
 	"strconv"
 
-	"go-common/library/ecode"
-	"go-common/library/log/infoc"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/metadata"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log/infoc"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 // toView return the user toview list

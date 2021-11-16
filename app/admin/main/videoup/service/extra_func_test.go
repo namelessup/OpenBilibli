@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 	. "github.com/smartystreets/goconvey/convey"
-	"go-common/app/admin/main/videoup/conf"
+	"github.com/namelessup/bilibili/app/admin/main/videoup/conf"
 	"testing"
 )
 

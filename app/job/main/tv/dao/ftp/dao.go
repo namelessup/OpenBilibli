@@ -1,7 +1,7 @@
 package ftp
 
 import (
-	"go-common/app/job/main/tv/conf"
+	"github.com/namelessup/bilibili/app/job/main/tv/conf"
 )
 
 // Dao dao.

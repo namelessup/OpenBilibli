@@ -7,10 +7,10 @@ import (
 	"strings"
 	"time"
 
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/rpc/context"
-	"go-common/library/stat"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/rpc/context"
+	"github.com/namelessup/bilibili/library/stat"
 
 	"golang.org/x/time/rate"
 )

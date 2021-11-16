@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"testing"
 
-	"go-common/app/service/main/spy/model"
-	spy "go-common/app/service/main/spy/model"
-	"go-common/library/net/ip"
+	"github.com/namelessup/bilibili/app/service/main/spy/model"
+	spy "github.com/namelessup/bilibili/app/service/main/spy/model"
+	"github.com/namelessup/bilibili/library/net/ip"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

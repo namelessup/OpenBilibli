@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/service/live/resource/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/live/resource/model"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/siddontang/go-mysql/mysql"
 )

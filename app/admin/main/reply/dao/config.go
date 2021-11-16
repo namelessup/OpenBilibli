@@ -7,7 +7,7 @@ import (
 	"encoding/json"
 	"time"
 
-	"go-common/app/admin/main/reply/model"
+	"github.com/namelessup/bilibili/app/admin/main/reply/model"
 )
 
 const (

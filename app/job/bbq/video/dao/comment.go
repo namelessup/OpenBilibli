@@ -2,7 +2,7 @@ package dao
 
 import (
 	"context"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 //ReplyReg 评论注册/冻结

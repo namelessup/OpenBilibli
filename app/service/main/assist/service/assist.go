@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"sort"
 
-	"go-common/app/service/main/account/model"
-	"go-common/app/service/main/assist/model/assist"
-	"go-common/app/service/main/assist/model/notify"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/account/model"
+	"github.com/namelessup/bilibili/app/service/main/assist/model/assist"
+	"github.com/namelessup/bilibili/app/service/main/assist/model/notify"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // AddAssist add assist.

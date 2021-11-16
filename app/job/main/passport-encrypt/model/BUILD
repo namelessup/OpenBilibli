@@ -9,7 +9,7 @@ go_library(
         "message.go",
         "passport.go",
     ],
-    importpath = "go-common/app/job/main/passport-encrypt/model",
+    importpath = "github.com/namelessup/bilibili/app/job/main/passport-encrypt/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

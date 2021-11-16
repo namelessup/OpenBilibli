@@ -11,7 +11,7 @@ go_library(
         "berserker.go",
         "conf.go",
     ],
-    importpath = "go-common/app/job/bbq/recall/internal/conf",
+    importpath = "github.com/namelessup/bilibili/app/job/bbq/recall/internal/conf",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

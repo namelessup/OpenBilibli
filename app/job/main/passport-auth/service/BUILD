@@ -14,7 +14,7 @@ go_library(
         "syn_auth.go",
         "sync_all.go",
     ],
-    importpath = "go-common/app/job/main/passport-auth/service",
+    importpath = "github.com/namelessup/bilibili/app/job/main/passport-auth/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

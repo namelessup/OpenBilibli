@@ -1,6 +1,6 @@
 package service
 
-import "go-common/app/interface/main/answer/model"
+import "github.com/namelessup/bilibili/app/interface/main/answer/model"
 
 // RankShire struct .
 type RankShire struct {

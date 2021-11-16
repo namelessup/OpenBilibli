@@ -2,8 +2,8 @@ package service
 
 import (
 	"context"
-	"go-common/app/service/main/up/api/v1"
-	"go-common/app/service/main/up/model"
+	"github.com/namelessup/bilibili/app/service/main/up/api/v1"
+	"github.com/namelessup/bilibili/app/service/main/up/model"
 )
 
 // GetUpInfoActive get up info active

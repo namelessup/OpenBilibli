@@ -7,10 +7,10 @@ import (
 	"reflect"
 	"testing"
 
-	"go-common/app/service/main/spy/conf"
-	"go-common/app/service/main/spy/dao"
-	"go-common/app/service/main/spy/model"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/service/main/spy/conf"
+	"github.com/namelessup/bilibili/app/service/main/spy/dao"
+	"github.com/namelessup/bilibili/app/service/main/spy/model"
+	"github.com/namelessup/bilibili/library/ecode"
 
 	"github.com/bouk/monkey"
 	"github.com/smartystreets/goconvey/convey"

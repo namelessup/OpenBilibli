@@ -11,9 +11,9 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/interface/main/favorite/conf"
-	"go-common/app/interface/main/favorite/service"
-	xhttp "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/interface/main/favorite/conf"
+	"github.com/namelessup/bilibili/app/interface/main/favorite/service"
+	xhttp "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 const (

@@ -3,8 +3,8 @@ package dao
 import (
 	"time"
 
-	"go-common/app/service/bbq/push/conf"
-	"go-common/app/service/bbq/push/dao/jpush"
+	"github.com/namelessup/bilibili/app/service/bbq/push/conf"
+	"github.com/namelessup/bilibili/app/service/bbq/push/dao/jpush"
 )
 
 // Dao dao

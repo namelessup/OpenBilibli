@@ -2,8 +2,8 @@ package data
 
 import (
 	"context"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 	"net/url"
 	"reflect"
 	"testing"

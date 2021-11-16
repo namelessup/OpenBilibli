@@ -10,9 +10,9 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/interface/main/app-wall/model/telecom"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/app-wall/model/telecom"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/xxtea/xxtea-go/xxtea"
 )

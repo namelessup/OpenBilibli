@@ -1,11 +1,11 @@
 package model
 
 import (
-	"go-common/app/interface/main/dm2/model"
-	tagmdl "go-common/app/interface/main/tag/model"
-	accmdl "go-common/app/service/main/account/model"
-	arcmdl "go-common/app/service/main/archive/api"
-	ugcmdl "go-common/app/service/main/ugcpay/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/interface/main/dm2/model"
+	tagmdl "github.com/namelessup/bilibili/app/interface/main/tag/model"
+	accmdl "github.com/namelessup/bilibili/app/service/main/account/model"
+	arcmdl "github.com/namelessup/bilibili/app/service/main/archive/api"
+	ugcmdl "github.com/namelessup/bilibili/app/service/main/ugcpay/api/grpc/v1"
 )
 
 // View view data

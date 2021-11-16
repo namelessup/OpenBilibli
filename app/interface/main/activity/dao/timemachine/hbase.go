@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/interface/main/activity/model/timemachine"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/activity/model/timemachine"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/tsuna/gohbase/hrpc"
 )

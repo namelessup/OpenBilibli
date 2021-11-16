@@ -2,10 +2,10 @@ package up
 
 import (
 	"context"
-	"go-common/app/interface/main/creative/conf"
-	upclient "go-common/app/service/main/up/api/gorpc"
-	upapi "go-common/app/service/main/up/api/v1"
-	httpx "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/interface/main/creative/conf"
+	upclient "github.com/namelessup/bilibili/app/service/main/up/api/gorpc"
+	upapi "github.com/namelessup/bilibili/app/service/main/up/api/v1"
+	httpx "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 const (

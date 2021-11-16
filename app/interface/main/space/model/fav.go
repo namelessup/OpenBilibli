@@ -1,6 +1,6 @@
 package model
 
-import "go-common/app/service/main/favorite/model"
+import "github.com/namelessup/bilibili/app/service/main/favorite/model"
 
 // FavNav fav nav struct.
 type FavNav struct {

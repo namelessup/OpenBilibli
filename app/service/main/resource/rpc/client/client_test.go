@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/service/main/resource/model"
+	"github.com/namelessup/bilibili/app/service/main/resource/model"
 )
 
 func TestResource(t *testing.T) {

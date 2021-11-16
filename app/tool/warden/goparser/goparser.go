@@ -13,7 +13,7 @@ import (
 	"runtime"
 	"strings"
 
-	"go-common/app/tool/warden/types"
+	"github.com/namelessup/bilibili/app/tool/warden/types"
 )
 
 var protoFileRegexp *regexp.Regexp

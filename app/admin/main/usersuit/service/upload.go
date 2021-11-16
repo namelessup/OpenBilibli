@@ -4,7 +4,7 @@ import (
 	"context"
 	"io"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Upload http upload file.

@@ -28,7 +28,7 @@ go_library(
         "service.go",
         "unicom.go",
     ],
-    importpath = "go-common/app/interface/main/app-wall/service/unicom",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-wall/service/unicom",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

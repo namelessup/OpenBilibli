@@ -3,11 +3,11 @@ package http
 import (
 	"io"
 
-	"go-common/app/service/main/location/conf"
-	"go-common/app/service/main/location/service"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/verify"
+	"github.com/namelessup/bilibili/app/service/main/location/conf"
+	"github.com/namelessup/bilibili/app/service/main/location/service"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/verify"
 )
 
 var (

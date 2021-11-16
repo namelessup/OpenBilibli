@@ -40,7 +40,7 @@ go_library(
         "show.go",
         "special.go",
     ],
-    importpath = "go-common/app/service/main/resource/service",
+    importpath = "github.com/namelessup/bilibili/app/service/main/resource/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

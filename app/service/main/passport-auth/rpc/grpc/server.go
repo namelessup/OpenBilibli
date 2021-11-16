@@ -4,12 +4,12 @@ package grpc
 import (
 	"context"
 
-	"go-common/app/service/main/passport-auth/api/grpc/v1"
-	"go-common/app/service/main/passport-auth/service"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
-	"go-common/library/net/rpc/warden"
+	"github.com/namelessup/bilibili/app/service/main/passport-auth/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/main/passport-auth/service"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 
 	"google.golang.org/grpc"
 )

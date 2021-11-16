@@ -13,7 +13,7 @@ go_library(
         "history.go",
         "service.go",
     ],
-    importpath = "go-common/app/interface/main/tv/service/history",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/tv/service/history",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

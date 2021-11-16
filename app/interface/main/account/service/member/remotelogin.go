@@ -3,8 +3,8 @@ package member
 import (
 	"context"
 
-	secmodel "go-common/app/service/main/secure/model"
-	"go-common/library/log"
+	secmodel "github.com/namelessup/bilibili/app/service/main/secure/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Status query user's remote login status.

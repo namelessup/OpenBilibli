@@ -6,8 +6,8 @@ import (
 	"sort"
 	"strings"
 
-	"go-common/app/interface/main/creative/model/music"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/music"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

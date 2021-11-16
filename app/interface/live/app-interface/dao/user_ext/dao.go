@@ -3,7 +3,7 @@ package user_ext
 import (
 	"context"
 
-	"go-common/app/interface/live/app-interface/conf"
+	"github.com/namelessup/bilibili/app/interface/live/app-interface/conf"
 )
 
 // Dao dao

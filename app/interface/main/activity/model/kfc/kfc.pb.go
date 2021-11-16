@@ -8,7 +8,7 @@ import fmt "fmt"
 import math "math"
 import _ "github.com/gogo/protobuf/gogoproto"
 
-import go_common_library_time "go-common/library/time"
+import go_common_library_time "github.com/namelessup/bilibili/library/time"
 
 import io "io"
 
@@ -29,9 +29,9 @@ type BnjKfcCoupon struct {
 	CouponCode           string                      `protobuf:"bytes,3,opt,name=Coupon_code,json=CouponCode,proto3" json:"coupon_code"`
 	Desc                 string                      `protobuf:"bytes,4,opt,name=Desc,proto3" json:"desc"`
 	State                int64                       `protobuf:"varint,5,opt,name=State,proto3" json:"state"`
-	DeleteTime           go_common_library_time.Time `protobuf:"varint,6,opt,name=Delete_time,json=DeleteTime,proto3,casttype=go-common/library/time.Time" json:"-"`
-	Ctime                go_common_library_time.Time `protobuf:"varint,7,opt,name=Ctime,proto3,casttype=go-common/library/time.Time" json:"-"`
-	Mtime                go_common_library_time.Time `protobuf:"varint,8,opt,name=Mtime,proto3,casttype=go-common/library/time.Time" json:"-"`
+	DeleteTime           go_common_library_time.Time `protobuf:"varint,6,opt,name=Delete_time,json=DeleteTime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"-"`
+	Ctime                go_common_library_time.Time `protobuf:"varint,7,opt,name=Ctime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"-"`
+	Mtime                go_common_library_time.Time `protobuf:"varint,8,opt,name=Mtime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"-"`
 	XXX_NoUnkeyedLiteral struct{}                    `json:"-"`
 	XXX_unrecognized     []byte                      `json:"-"`
 	XXX_sizecache        int32                       `json:"-"`

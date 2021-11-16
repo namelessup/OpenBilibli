@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"time"
 
-	sml "go-common/app/service/main/relation/model"
+	sml "github.com/namelessup/bilibili/app/service/main/relation/model"
 )
 
 // Message define binlog databus message.

@@ -1,8 +1,8 @@
 package http
 
 import (
-	"go-common/app/service/main/workflow/model"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/service/main/workflow/model"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // deleteGroup delete group .

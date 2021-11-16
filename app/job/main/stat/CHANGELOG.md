@@ -55,7 +55,7 @@
 > 1.点赞消费  
 
 #### Version 1.2.0
-> 1.升级go-common,go-business  
+> 1.升级github.com/namelessup/bilibili,go-business  
 > 2.实现点赞数更新  
 
 #### Version 1.1.2

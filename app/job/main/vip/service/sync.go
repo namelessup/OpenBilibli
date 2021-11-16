@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/job/main/vip/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/vip/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // SyncAllUser 同步旧user——info到新db.

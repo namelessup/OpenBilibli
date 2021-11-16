@@ -6,9 +6,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"go-common/app/interface/main/activity/conf"
+	"github.com/namelessup/bilibili/app/interface/main/activity/conf"
 
-	"go-common/app/interface/main/activity/model/bws"
+	"github.com/namelessup/bilibili/app/interface/main/activity/model/bws"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["filter-admin-test.toml"],
-    importpath = "go-common/app/admin/main/filter/cmd",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/filter/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

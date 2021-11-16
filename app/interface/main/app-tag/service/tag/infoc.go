@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"strconv"
 
-	"go-common/app/interface/main/app-tag/model/region"
-	"go-common/library/log"
-	binfoc "go-common/library/log/infoc"
+	"github.com/namelessup/bilibili/app/interface/main/app-tag/model/region"
+	"github.com/namelessup/bilibili/library/log"
+	binfoc "github.com/namelessup/bilibili/library/log/infoc"
 )
 
 type feedInfoc struct {

@@ -3,11 +3,11 @@ package service
 import (
 	"context"
 
-	plamdl "go-common/app/interface/main/playlist/model"
-	"go-common/app/job/main/playlist/conf"
-	"go-common/app/job/main/playlist/dao"
-	"go-common/app/job/main/playlist/model"
-	"go-common/library/log"
+	plamdl "github.com/namelessup/bilibili/app/interface/main/playlist/model"
+	"github.com/namelessup/bilibili/app/job/main/playlist/conf"
+	"github.com/namelessup/bilibili/app/job/main/playlist/dao"
+	"github.com/namelessup/bilibili/app/job/main/playlist/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) viewproc(i int64) {

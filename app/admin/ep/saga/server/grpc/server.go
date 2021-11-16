@@ -3,9 +3,9 @@ package grpc
 import (
 	"context"
 
-	"go-common/app/admin/ep/saga/api/grpc/v1"
-	"go-common/app/admin/ep/saga/service/wechat"
-	"go-common/library/net/rpc/warden"
+	"github.com/namelessup/bilibili/app/admin/ep/saga/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/admin/ep/saga/service/wechat"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 )
 
 // New grpc server

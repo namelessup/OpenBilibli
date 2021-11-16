@@ -2,7 +2,7 @@ package appeal
 
 import (
 	"context"
-	"go-common/app/interface/main/creative/model/appeal"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/appeal"
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"

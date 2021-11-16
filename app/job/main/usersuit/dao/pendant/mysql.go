@@ -4,8 +4,8 @@ import (
 	"context"
 	"database/sql"
 
-	"go-common/app/job/main/usersuit/model"
-	xsql "go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/job/main/usersuit/model"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
 )
 
 const (

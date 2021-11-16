@@ -20,7 +20,7 @@ proto_library(
 go_proto_library(
     name = "timemachine_go_proto",
     compilers = ["@io_bazel_rules_go//proto:gogofast_proto"],
-    importpath = "go-common/app/interface/main/activity/model/timemachine",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/activity/model/timemachine",
     proto = ":timemachine_proto",
     tags = ["automanaged"],
     deps = ["@com_github_gogo_protobuf//gogoproto:go_default_library"],
@@ -30,7 +30,7 @@ go_library(
     name = "go_default_library",
     srcs = ["model.go"],
     embed = [":timemachine_go_proto"],
-    importpath = "go-common/app/interface/main/activity/model/timemachine",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/activity/model/timemachine",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

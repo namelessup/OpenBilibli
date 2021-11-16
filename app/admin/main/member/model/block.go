@@ -1,7 +1,7 @@
 package model
 
 import (
-	"go-common/app/service/main/member/model/block"
+	"github.com/namelessup/bilibili/app/service/main/member/model/block"
 )
 
 // BlockResult is

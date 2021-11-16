@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	pb "go-common/library/cache/memcache/test"
+	pb "github.com/namelessup/bilibili/library/cache/memcache/test"
 )
 
 func TestItemUtil(t *testing.T) {

@@ -1,12 +1,12 @@
 package grpc
 
 import (
-	pb "go-common/app/service/live/resource/api/grpc/v1"
-	v2pb "go-common/app/service/live/resource/api/grpc/v2"
-	"go-common/app/service/live/resource/conf"
-	svc "go-common/app/service/live/resource/service/v1"
-	v2svc "go-common/app/service/live/resource/service/v2"
-	"go-common/library/net/rpc/warden"
+	pb "github.com/namelessup/bilibili/app/service/live/resource/api/grpc/v1"
+	v2pb "github.com/namelessup/bilibili/app/service/live/resource/api/grpc/v2"
+	"github.com/namelessup/bilibili/app/service/live/resource/conf"
+	svc "github.com/namelessup/bilibili/app/service/live/resource/service/v1"
+	v2svc "github.com/namelessup/bilibili/app/service/live/resource/service/v2"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 )
 
 // New

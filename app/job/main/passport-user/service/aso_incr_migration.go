@@ -6,10 +6,10 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/job/main/passport-user/model"
-	"go-common/library/database/sql"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/job/main/passport-user/model"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
 
 	"github.com/go-sql-driver/mysql"
 	"github.com/pkg/errors"

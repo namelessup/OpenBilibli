@@ -3,18 +3,18 @@ package http
 import (
 	"net/http"
 
-	"go-common/app/interface/main/app-show/conf"
-	"go-common/app/interface/main/app-show/service/banner"
-	"go-common/app/interface/main/app-show/service/daily"
-	pingSvr "go-common/app/interface/main/app-show/service/ping"
-	"go-common/app/interface/main/app-show/service/rank"
-	"go-common/app/interface/main/app-show/service/region"
-	"go-common/app/interface/main/app-show/service/show"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/auth"
-	"go-common/library/net/http/blademaster/render"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/conf"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/service/banner"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/service/daily"
+	pingSvr "github.com/namelessup/bilibili/app/interface/main/app-show/service/ping"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/service/rank"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/service/region"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/service/show"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/auth"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/render"
 )
 
 var (

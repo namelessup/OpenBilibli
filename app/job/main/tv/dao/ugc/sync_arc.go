@@ -3,7 +3,7 @@ package ugc
 import (
 	"context"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // FinishArc updates the submit status from 1 to 0

@@ -15,7 +15,7 @@ go_binary(
 go_library(
     name = "go_default_library",
     srcs = ["benchmark.go"],
-    importpath = "go-common/app/service/main/riot-search/benchmark",
+    importpath = "github.com/namelessup/bilibili/app/service/main/riot-search/benchmark",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

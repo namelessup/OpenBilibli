@@ -3,10 +3,10 @@ package service
 import (
 	"context"
 
-	"go-common/app/interface/openplatform/article/dao"
-	artmdl "go-common/app/interface/openplatform/article/model"
+	"github.com/namelessup/bilibili/app/interface/openplatform/article/dao"
+	artmdl "github.com/namelessup/bilibili/app/interface/openplatform/article/model"
 
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 // SetStat sets article's stat.

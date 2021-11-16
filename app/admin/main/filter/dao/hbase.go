@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/tsuna/gohbase/hrpc"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 var (

@@ -7,10 +7,10 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/job/main/up-rating/model"
+	"github.com/namelessup/bilibili/app/job/main/up-rating/model"
 
-	"go-common/library/log"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
 	"golang.org/x/sync/errgroup"
 )
 

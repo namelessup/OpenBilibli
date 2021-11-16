@@ -8,11 +8,11 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/job/main/member/conf"
-	"go-common/app/job/main/member/model"
-	memmodel "go-common/app/service/main/member/model"
-	"go-common/library/log"
-	"go-common/library/net/ip"
+	"github.com/namelessup/bilibili/app/job/main/member/conf"
+	"github.com/namelessup/bilibili/app/job/main/member/model"
+	memmodel "github.com/namelessup/bilibili/app/service/main/member/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/ip"
 
 	"github.com/pkg/errors"
 )

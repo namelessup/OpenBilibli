@@ -4,9 +4,9 @@ import (
 	"context"
 	"strconv"
 
-	"go-common/app/interface/main/app-show/conf"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/conf"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 // Dao is show dao.

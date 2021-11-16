@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/admin/main/creative/conf"
-	accapi "go-common/app/service/main/account/api"
+	"github.com/namelessup/bilibili/app/admin/main/creative/conf"
+	accapi "github.com/namelessup/bilibili/app/service/main/account/api"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

@@ -35,7 +35,7 @@ go_library(
         "service.go",
         "start_live.go",
     ],
-    importpath = "go-common/app/interface/live/push-live/service",
+    importpath = "github.com/namelessup/bilibili/app/interface/live/push-live/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

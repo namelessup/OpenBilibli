@@ -3,9 +3,9 @@ package dao
 import (
 	"context"
 	"database/sql"
-	"go-common/app/service/live/resource/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/live/resource/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 	"time"
 
 	"github.com/jinzhu/gorm"

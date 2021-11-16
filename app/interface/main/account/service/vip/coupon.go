@@ -3,10 +3,10 @@ package vip
 import (
 	"context"
 
-	"go-common/app/interface/main/account/model"
-	col "go-common/app/service/main/coupon/model"
-	v1 "go-common/app/service/main/vip/api"
-	vipml "go-common/app/service/main/vip/model"
+	"github.com/namelessup/bilibili/app/interface/main/account/model"
+	col "github.com/namelessup/bilibili/app/service/main/coupon/model"
+	v1 "github.com/namelessup/bilibili/app/service/main/vip/api"
+	vipml "github.com/namelessup/bilibili/app/service/main/vip/model"
 )
 
 // CouponBySuitID coupon by suit id.

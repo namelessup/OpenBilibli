@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"go-common/app/admin/main/passport/conf"
-	"go-common/app/admin/main/passport/model"
+	"github.com/namelessup/bilibili/app/admin/main/passport/conf"
+	"github.com/namelessup/bilibili/app/admin/main/passport/model"
 
 	"github.com/smartystreets/goconvey/convey"
 )

@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"go-common/app/service/main/ugcpay-rank/internal/model"
-	"go-common/library/cache/memcache"
+	"github.com/namelessup/bilibili/app/service/main/ugcpay-rank/internal/model"
+	"github.com/namelessup/bilibili/library/cache/memcache"
 
 	"github.com/smartystreets/goconvey/convey"
 )

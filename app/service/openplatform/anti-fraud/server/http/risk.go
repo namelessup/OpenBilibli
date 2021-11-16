@@ -1,10 +1,10 @@
 package http
 
 import (
-	grpcv1 "go-common/app/service/openplatform/anti-fraud/api/grpc/v1"
-	"go-common/app/service/openplatform/anti-fraud/api/http/v1"
-	"go-common/app/service/openplatform/anti-fraud/model"
-	bm "go-common/library/net/http/blademaster"
+	grpcv1 "github.com/namelessup/bilibili/app/service/openplatform/anti-fraud/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/openplatform/anti-fraud/api/http/v1"
+	"github.com/namelessup/bilibili/app/service/openplatform/anti-fraud/model"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 //riskCheck 风险检查

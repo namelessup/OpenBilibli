@@ -16,7 +16,7 @@ go_library(
         "json_encoder.go",
         "pool.go",
     ],
-    importpath = "go-common/library/log/internal",
+    importpath = "github.com/namelessup/bilibili/library/log/internal",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

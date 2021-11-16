@@ -15,7 +15,7 @@ go_binary(
 go_library(
     name = "go_default_library",
     srcs = ["client.go"],
-    importpath = "go-common/app/service/bbq/search/cmd/client",
+    importpath = "github.com/namelessup/bilibili/app/service/bbq/search/cmd/client",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

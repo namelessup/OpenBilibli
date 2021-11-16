@@ -1,8 +1,8 @@
 package http
 
 import (
-	"go-common/app/admin/main/member/model"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/member/model"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func monitors(ctx *bm.Context) {

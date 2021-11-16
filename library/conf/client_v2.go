@@ -13,8 +13,8 @@ import (
 	"strings"
 	"time"
 
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

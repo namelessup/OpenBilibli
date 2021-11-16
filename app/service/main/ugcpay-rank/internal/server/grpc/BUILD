@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["elec.go"],
-    importpath = "go-common/app/service/main/ugcpay-rank/internal/server/grpc",
+    importpath = "github.com/namelessup/bilibili/app/service/main/ugcpay-rank/internal/server/grpc",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

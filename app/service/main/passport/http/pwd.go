@@ -1,9 +1,9 @@
 package http
 
 import (
-	"go-common/app/service/main/passport/model"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/service/main/passport/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func historyPwdCheck(c *bm.Context) {

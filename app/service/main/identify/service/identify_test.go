@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"go-common/app/service/main/identify/api/grpc"
-	"go-common/app/service/main/identify/model"
+	"github.com/namelessup/bilibili/app/service/main/identify/api/grpc"
+	"github.com/namelessup/bilibili/app/service/main/identify/model"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

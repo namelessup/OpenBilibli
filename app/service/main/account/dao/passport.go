@@ -5,9 +5,9 @@ import (
 	"net/url"
 	"strconv"
 
-	"go-common/app/service/main/account/model"
-	"go-common/library/ecode"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/service/main/account/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/net/metadata"
 
 	"github.com/pkg/errors"
 )

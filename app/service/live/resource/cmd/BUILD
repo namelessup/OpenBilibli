@@ -19,7 +19,7 @@ go_library(
         "local.toml",
         "test.toml",
     ],
-    importpath = "go-common/app/service/live/resource/cmd",
+    importpath = "github.com/namelessup/bilibili/app/service/live/resource/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

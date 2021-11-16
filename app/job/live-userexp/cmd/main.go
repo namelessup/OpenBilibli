@@ -5,11 +5,11 @@ import (
 	"os"
 	"os/signal"
 
-	"go-common/app/job/live-userexp/conf"
-	_ "go-common/app/job/live-userexp/model"
-	"go-common/app/job/live-userexp/service"
-	"go-common/library/log"
-	"go-common/library/syscall"
+	"github.com/namelessup/bilibili/app/job/live-userexp/conf"
+	_ "github.com/namelessup/bilibili/app/job/live-userexp/model"
+	"github.com/namelessup/bilibili/app/job/live-userexp/service"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/syscall"
 )
 
 func main() {

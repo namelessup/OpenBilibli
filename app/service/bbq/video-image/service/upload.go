@@ -2,9 +2,9 @@ package service
 
 import (
 	"context"
-	"go-common/app/service/bbq/video-image/api/grpc/v1"
-	"go-common/library/database/bfs"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/bbq/video-image/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/database/bfs"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

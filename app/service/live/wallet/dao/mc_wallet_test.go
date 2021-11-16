@@ -4,8 +4,8 @@ import (
 	. "github.com/smartystreets/goconvey/convey"
 	"testing"
 
-	"go-common/app/service/live/wallet/model"
-	mc "go-common/library/cache/memcache"
+	"github.com/namelessup/bilibili/app/service/live/wallet/model"
+	mc "github.com/namelessup/bilibili/library/cache/memcache"
 	"math/rand"
 	"time"
 )

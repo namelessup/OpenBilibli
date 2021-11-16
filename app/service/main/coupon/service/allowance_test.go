@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	coupinv1 "go-common/app/service/main/coupon/api"
-	"go-common/app/service/main/coupon/model"
+	coupinv1 "github.com/namelessup/bilibili/app/service/main/coupon/api"
+	"github.com/namelessup/bilibili/app/service/main/coupon/model"
 
 	"github.com/smartystreets/goconvey/convey"
 	. "github.com/smartystreets/goconvey/convey"

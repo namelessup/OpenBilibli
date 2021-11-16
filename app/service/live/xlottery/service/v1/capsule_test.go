@@ -8,8 +8,8 @@ import (
 
 	"github.com/smartystreets/goconvey/convey"
 
-	pb "go-common/app/service/live/xlottery/api/grpc/v1"
-	"go-common/app/service/live/xlottery/conf"
+	pb "github.com/namelessup/bilibili/app/service/live/xlottery/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/live/xlottery/conf"
 )
 
 var (

@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/job/live/xroom-feed/internal/model"
-	"go-common/library/database/sql"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/live/xroom-feed/internal/model"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

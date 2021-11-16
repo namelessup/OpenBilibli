@@ -4,10 +4,10 @@ import (
 	"context"
 	"errors"
 
-	"go-common/app/service/main/antispam/conf"
+	"github.com/namelessup/bilibili/app/service/main/antispam/conf"
 
-	"go-common/library/database/sql"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

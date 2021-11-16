@@ -8,7 +8,7 @@ import fmt "fmt"
 import math "math"
 import _ "github.com/gogo/protobuf/gogoproto"
 
-import go_common_library_time "go-common/library/time"
+import go_common_library_time "github.com/namelessup/bilibili/library/time"
 
 import io "io"
 
@@ -31,8 +31,8 @@ type Match struct {
 	Name                 string                      `protobuf:"bytes,5,opt,name=Name,proto3" json:"name"`
 	Url                  string                      `protobuf:"bytes,6,opt,name=Url,proto3" json:"url"`
 	Cover                string                      `protobuf:"bytes,7,opt,name=Cover,proto3" json:"cover"`
-	Ctime                go_common_library_time.Time `protobuf:"varint,8,opt,name=Ctime,proto3,casttype=go-common/library/time.Time" json:"ctime"`
-	Mtime                go_common_library_time.Time `protobuf:"varint,9,opt,name=Mtime,proto3,casttype=go-common/library/time.Time" json:"mtime"`
+	Ctime                go_common_library_time.Time `protobuf:"varint,8,opt,name=Ctime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"ctime"`
+	Mtime                go_common_library_time.Time `protobuf:"varint,9,opt,name=Mtime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"mtime"`
 	XXX_NoUnkeyedLiteral struct{}                    `json:"-"`
 	XXX_unrecognized     []byte                      `json:"-"`
 	XXX_sizecache        int32                       `json:"-"`
@@ -122,12 +122,12 @@ type Object struct {
 	AwayLogo             string                      `protobuf:"bytes,8,opt,name=AwayLogo,proto3" json:"away_logo"`
 	AwayScore            int64                       `protobuf:"varint,9,opt,name=AwayScore,proto3" json:"away_score"`
 	Result               int64                       `protobuf:"varint,10,opt,name=Result,proto3" json:"result"`
-	Ctime                go_common_library_time.Time `protobuf:"varint,11,opt,name=Ctime,proto3,casttype=go-common/library/time.Time" json:"ctime"`
-	Mtime                go_common_library_time.Time `protobuf:"varint,12,opt,name=Mtime,proto3,casttype=go-common/library/time.Time" json:"mtime"`
-	Stime                go_common_library_time.Time `protobuf:"varint,13,opt,name=Stime,proto3,casttype=go-common/library/time.Time" json:"stime"`
-	Etime                go_common_library_time.Time `protobuf:"varint,14,opt,name=Etime,proto3,casttype=go-common/library/time.Time" json:"etime"`
+	Ctime                go_common_library_time.Time `protobuf:"varint,11,opt,name=Ctime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"ctime"`
+	Mtime                go_common_library_time.Time `protobuf:"varint,12,opt,name=Mtime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"mtime"`
+	Stime                go_common_library_time.Time `protobuf:"varint,13,opt,name=Stime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"stime"`
+	Etime                go_common_library_time.Time `protobuf:"varint,14,opt,name=Etime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"etime"`
 	UserResult           int64                       `protobuf:"varint,15,opt,name=UserResult,proto3" json:"user_result"`
-	GameStime            go_common_library_time.Time `protobuf:"varint,16,opt,name=GameStime,proto3,casttype=go-common/library/time.Time" json:"game_stime"`
+	GameStime            go_common_library_time.Time `protobuf:"varint,16,opt,name=GameStime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"game_stime"`
 	MatchName            string                      `protobuf:"bytes,17,opt,name=MatchName,proto3" json:"match_name,omitempty"`
 	XXX_NoUnkeyedLiteral struct{}                    `json:"-"`
 	XXX_unrecognized     []byte                      `json:"-"`
@@ -175,12 +175,12 @@ type UserLog struct {
 	Mid                  int64                       `protobuf:"varint,5,opt,name=Mid,proto3" json:"mid"`
 	Result               int64                       `protobuf:"varint,6,opt,name=Result,proto3" json:"result"`
 	Stake                int64                       `protobuf:"varint,7,opt,name=Stake,proto3" json:"stake"`
-	Ctime                go_common_library_time.Time `protobuf:"varint,8,opt,name=Ctime,proto3,casttype=go-common/library/time.Time" json:"ctime"`
-	Mtime                go_common_library_time.Time `protobuf:"varint,9,opt,name=Mtime,proto3,casttype=go-common/library/time.Time" json:"mtime"`
+	Ctime                go_common_library_time.Time `protobuf:"varint,8,opt,name=Ctime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"ctime"`
+	Mtime                go_common_library_time.Time `protobuf:"varint,9,opt,name=Mtime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"mtime"`
 	ObjResult            int64                       `protobuf:"varint,10,opt,name=ObjResult,proto3" json:"obj_result"`
 	HomeName             string                      `protobuf:"bytes,11,opt,name=HomeName,proto3" json:"home_name"`
 	AwayName             string                      `protobuf:"bytes,12,opt,name=AwayName,proto3" json:"away_name"`
-	GameStime            go_common_library_time.Time `protobuf:"varint,13,opt,name=GameStime,proto3,casttype=go-common/library/time.Time" json:"game_stime"`
+	GameStime            go_common_library_time.Time `protobuf:"varint,13,opt,name=GameStime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"game_stime"`
 	XXX_NoUnkeyedLiteral struct{}                    `json:"-"`
 	XXX_unrecognized     []byte                      `json:"-"`
 	XXX_sizecache        int32                       `json:"-"`

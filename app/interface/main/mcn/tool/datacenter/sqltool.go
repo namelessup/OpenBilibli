@@ -3,7 +3,7 @@ package datacenter
 import (
 	"encoding/json"
 	"fmt"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 	"strings"
 	"text/scanner"
 )

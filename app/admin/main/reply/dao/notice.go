@@ -3,9 +3,9 @@ package dao
 import (
 	"context"
 
-	"go-common/app/admin/main/reply/model"
-	"go-common/library/database/sql"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/admin/main/reply/model"
+	"github.com/namelessup/bilibili/library/database/sql"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 const (

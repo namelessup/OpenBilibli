@@ -1,6 +1,6 @@
 package audio
 
-import xtime "go-common/library/time"
+import xtime "github.com/namelessup/bilibili/library/time"
 
 type Audio struct {
 	ID       int64      `json:"id"`

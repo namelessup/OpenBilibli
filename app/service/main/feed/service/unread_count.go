@@ -2,17 +2,17 @@ package service
 
 import (
 	"context"
-	"go-common/app/service/main/feed/dao"
-	"go-common/app/service/main/feed/model"
+	"github.com/namelessup/bilibili/app/service/main/feed/dao"
+	"github.com/namelessup/bilibili/app/service/main/feed/model"
 	"sync/atomic"
 	"time"
 
-	"go-common/app/service/main/archive/model/archive"
-	feedmdl "go-common/app/service/main/feed/model"
-	"go-common/library/log"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	feedmdl "github.com/namelessup/bilibili/app/service/main/feed/model"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
 
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 // UnreadCount get count of unread archives

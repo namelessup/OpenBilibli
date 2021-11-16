@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"go-common/app/admin/ep/marthe/model"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/admin/ep/marthe/model"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 // UpdateBuglyVersion update Bugly Version.

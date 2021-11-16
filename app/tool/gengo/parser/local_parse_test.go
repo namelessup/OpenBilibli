@@ -6,16 +6,16 @@ import (
 
 func TestImportBuildPackage(t *testing.T) {
 	b := New()
-	if _, err := b.importBuildPackage("go-common/app/tool/gengo/testdata/fake/dep"); err != nil {
+	if _, err := b.importBuildPackage("github.com/namelessup/bilibili/app/tool/gengo/testdata/fake/dep"); err != nil {
 		t.Fatal(err)
 	}
-	if _, ok := b.buildPackages["go-common/app/tool/gengo/testdata/fake/dep"]; !ok {
+	if _, ok := b.buildPackages["github.com/namelessup/bilibili/app/tool/gengo/testdata/fake/dep"]; !ok {
 		t.Errorf("missing expected, but got %v", b.buildPackages)
 	}
 
 	if len(b.buildPackages) > 1 {
 		// this would happen if the canonicalization failed to normalize the path
-		// you'd get a go-common/app/tool/gengo/testdata/fake/dep key too
+		// you'd get a github.com/namelessup/bilibili/app/tool/gengo/testdata/fake/dep key too
 		t.Errorf("missing one, but got %v", b.buildPackages)
 	}
 }

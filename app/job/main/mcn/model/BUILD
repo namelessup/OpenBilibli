@@ -12,7 +12,7 @@ go_library(
         "mcn.go",
         "recommend.go",
     ],
-    importpath = "go-common/app/job/main/mcn/model",
+    importpath = "github.com/namelessup/bilibili/app/job/main/mcn/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/time:go_default_library"],

@@ -20,7 +20,7 @@ go_library(
         "task.go",
         "transfer.go",
     ],
-    importpath = "go-common/app/admin/main/dm/model",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/dm/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

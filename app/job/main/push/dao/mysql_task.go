@@ -7,10 +7,10 @@ import (
 	"strconv"
 	"time"
 
-	pamdl "go-common/app/admin/main/push/model"
-	pushmdl "go-common/app/service/main/push/model"
-	xsql "go-common/library/database/sql"
-	"go-common/library/log"
+	pamdl "github.com/namelessup/bilibili/app/admin/main/push/model"
+	pushmdl "github.com/namelessup/bilibili/app/service/main/push/model"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

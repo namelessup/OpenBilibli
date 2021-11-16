@@ -8,10 +8,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go-common/library/log"
-	nmd "go-common/library/net/metadata"
-	wmeta "go-common/library/net/rpc/warden/metadata"
-	"go-common/library/stat/summary"
+	"github.com/namelessup/bilibili/library/log"
+	nmd "github.com/namelessup/bilibili/library/net/metadata"
+	wmeta "github.com/namelessup/bilibili/library/net/rpc/warden/metadata"
+	"github.com/namelessup/bilibili/library/stat/summary"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/balancer"

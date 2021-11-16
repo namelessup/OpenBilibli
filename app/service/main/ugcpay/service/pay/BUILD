@@ -21,7 +21,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["pay.go"],
-    importpath = "go-common/app/service/main/ugcpay/service/pay",
+    importpath = "github.com/namelessup/bilibili/app/service/main/ugcpay/service/pay",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

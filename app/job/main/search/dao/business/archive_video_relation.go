@@ -5,12 +5,12 @@ import (
 	"encoding/json"
 	"time"
 
-	"go-common/app/job/main/search/conf"
-	"go-common/app/job/main/search/dao"
-	"go-common/app/job/main/search/model"
-	xsql "go-common/library/database/sql"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/job/main/search/conf"
+	"github.com/namelessup/bilibili/app/job/main/search/dao"
+	"github.com/namelessup/bilibili/app/job/main/search/model"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 // Avr single table consume databus.

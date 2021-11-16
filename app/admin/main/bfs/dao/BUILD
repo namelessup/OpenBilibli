@@ -13,7 +13,7 @@ go_library(
         "http.go",
         "zk.go",
     ],
-    importpath = "go-common/app/admin/main/bfs/dao",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/bfs/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

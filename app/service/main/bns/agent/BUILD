@@ -13,7 +13,7 @@ go_library(
         "http.go",
         "ns_endpoint.go",
     ],
-    importpath = "go-common/app/service/main/bns/agent",
+    importpath = "github.com/namelessup/bilibili/app/service/main/bns/agent",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

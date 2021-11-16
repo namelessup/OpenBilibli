@@ -3,9 +3,9 @@ package classify
 import (
 	"strings"
 	"context"
-	"go-common/app/service/ops/log-agent/event"
-	"go-common/app/service/ops/log-agent/processor"
-	"go-common/app/service/ops/log-agent/pkg/common"
+	"github.com/namelessup/bilibili/app/service/ops/log-agent/event"
+	"github.com/namelessup/bilibili/app/service/ops/log-agent/processor"
+	"github.com/namelessup/bilibili/app/service/ops/log-agent/pkg/common"
 )
 
 type Classify struct {

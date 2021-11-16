@@ -1,7 +1,7 @@
 package election
 
 import (
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 	"testing"
 	"time"
 )

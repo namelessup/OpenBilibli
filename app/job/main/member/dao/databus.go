@@ -4,7 +4,7 @@ import (
 	"context"
 	"strconv"
 
-	"go-common/app/job/main/member/model"
+	"github.com/namelessup/bilibili/app/job/main/member/model"
 )
 
 // DatabusAddLog add exp log messager to databus

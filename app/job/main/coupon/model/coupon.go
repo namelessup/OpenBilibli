@@ -3,7 +3,7 @@ package model
 import (
 	"encoding/json"
 
-	xtime "go-common/library/time"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // coupon state.
@@ -153,8 +153,8 @@ type CouponBalanceInfo struct {
 	Origin     int64      `protobuf:"varint,7,opt,name=Origin,proto3" json:"origin"`
 	CouponType int64      `protobuf:"varint,8,opt,name=CouponType,proto3" json:"coupon_type"`
 	Ver        int64      `protobuf:"varint,9,opt,name=Ver,proto3" json:"ver"`
-	CTime      xtime.Time `protobuf:"varint,10,opt,name=CTime,proto3,casttype=go-common/library/time.Time" json:"-"`
-	MTime      xtime.Time `protobuf:"varint,11,opt,name=MTime,proto3,casttype=go-common/library/time.Time" json:"-"`
+	CTime      xtime.Time `protobuf:"varint,10,opt,name=CTime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"-"`
+	MTime      xtime.Time `protobuf:"varint,11,opt,name=MTime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"-"`
 }
 
 // CouponAllowanceInfo struct .

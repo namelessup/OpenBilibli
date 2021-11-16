@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 // Update elastic upsert

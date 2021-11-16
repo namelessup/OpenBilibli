@@ -1,6 +1,6 @@
 package blocked
 
-import xtime "go-common/library/time"
+import xtime "github.com/namelessup/bilibili/library/time"
 
 // LabourAnswerLog is blocked_labour_answer_log model.
 type LabourAnswerLog struct {

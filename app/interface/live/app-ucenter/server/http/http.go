@@ -1,16 +1,16 @@
 package http
 
 import (
-	"go-common/library/net/http/blademaster/middleware/auth"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/auth"
 	"net/http"
 
-	"go-common/app/interface/live/app-ucenter/api/http/v1"
-	"go-common/app/interface/live/app-ucenter/conf"
-	"go-common/app/interface/live/app-ucenter/service"
-	spSrv "go-common/app/interface/live/app-ucenter/service/v1"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/verify"
+	"github.com/namelessup/bilibili/app/interface/live/app-ucenter/api/http/v1"
+	"github.com/namelessup/bilibili/app/interface/live/app-ucenter/conf"
+	"github.com/namelessup/bilibili/app/interface/live/app-ucenter/service"
+	spSrv "github.com/namelessup/bilibili/app/interface/live/app-ucenter/service/v1"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/verify"
 )
 
 var (

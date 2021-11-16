@@ -3,8 +3,8 @@ package dao
 import (
 	"context"
 
-	"go-common/app/interface/main/ugcpay-rank/internal/conf"
-	ugcpay_rank "go-common/app/service/main/ugcpay-rank/api/v1"
+	"github.com/namelessup/bilibili/app/interface/main/ugcpay-rank/internal/conf"
+	ugcpay_rank "github.com/namelessup/bilibili/app/service/main/ugcpay-rank/api/v1"
 )
 
 // Dao dao

@@ -5,16 +5,16 @@ import (
 	"crypto/md5"
 	"encoding/hex"
 	"fmt"
-	"go-common/app/service/video/stream-mng/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/video/stream-mng/model"
+	"github.com/namelessup/bilibili/library/log"
 	"math/rand"
 	"strings"
 	"time"
 
-	"go-common/library/database/sql"
+	"github.com/namelessup/bilibili/library/database/sql"
 
 	"github.com/pkg/errors"
-	"go-common/app/service/video/stream-mng/common"
+	"github.com/namelessup/bilibili/app/service/video/stream-mng/common"
 )
 
 const (

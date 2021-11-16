@@ -3,9 +3,9 @@ package feed
 import (
 	"strconv"
 
-	"go-common/app/interface/main/app-tag/model"
-	"go-common/app/service/main/archive/api"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/interface/main/app-tag/model"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // Item is feed item, contains av, bangumi, live, banner, feed...

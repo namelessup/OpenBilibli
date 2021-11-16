@@ -5,10 +5,10 @@ import (
 	"sync"
 	"time"
 
-	"go-common/app/service/main/thumbup/model"
-	"go-common/library/ecode"
-	"go-common/library/queue/databus/report"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/service/main/thumbup/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/queue/databus/report"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 // Stats .

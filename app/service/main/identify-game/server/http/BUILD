@@ -10,7 +10,7 @@ go_library(
         "http.go",
         "identify.go",
     ],
-    importpath = "go-common/app/service/main/identify-game/server/http",
+    importpath = "github.com/namelessup/bilibili/app/service/main/identify-game/server/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -1,9 +1,9 @@
 package dao
 
 import (
-	cml "go-common/app/admin/main/apm/model/canal"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	cml "github.com/namelessup/bilibili/app/admin/main/apm/model/canal"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 //SetConfigID set canal_apply table conf_id

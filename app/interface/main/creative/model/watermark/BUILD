@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["watermark.go"],
-    importpath = "go-common/app/interface/main/creative/model/watermark",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/creative/model/watermark",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

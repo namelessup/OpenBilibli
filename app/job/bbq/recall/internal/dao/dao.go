@@ -3,11 +3,11 @@ package dao
 import (
 	"context"
 
-	"go-common/app/job/bbq/recall/internal/conf"
-	recall "go-common/app/service/bbq/recsys-recall/api/grpc/v1"
-	"go-common/library/cache/redis"
-	xsql "go-common/library/database/sql"
-	"go-common/library/net/rpc/warden"
+	"github.com/namelessup/bilibili/app/job/bbq/recall/internal/conf"
+	recall "github.com/namelessup/bilibili/app/service/bbq/recsys-recall/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 )
 
 // Dao dao

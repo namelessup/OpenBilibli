@@ -5,11 +5,11 @@ import (
 	"net/url"
 	"strconv"
 
-	"go-common/app/interface/main/app-view/conf"
-	"go-common/app/interface/main/app-view/model/elec"
-	"go-common/library/ecode"
-	httpx "go-common/library/net/http/blademaster"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/main/app-view/conf"
+	"github.com/namelessup/bilibili/app/interface/main/app-view/model/elec"
+	"github.com/namelessup/bilibili/library/ecode"
+	httpx "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/metadata"
 
 	"github.com/pkg/errors"
 )

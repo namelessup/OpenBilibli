@@ -3,10 +3,10 @@ package template
 import (
 	"context"
 
-	"go-common/app/interface/main/creative/conf"
-	"go-common/app/interface/main/creative/dao/template"
-	"go-common/app/interface/main/creative/service"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/creative/conf"
+	"github.com/namelessup/bilibili/app/interface/main/creative/dao/template"
+	"github.com/namelessup/bilibili/app/interface/main/creative/service"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 //Service struct

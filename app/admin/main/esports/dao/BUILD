@@ -13,7 +13,7 @@ go_library(
         "reply.go",
         "search.go",
     ],
-    importpath = "go-common/app/admin/main/esports/dao",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/esports/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -2,7 +2,7 @@ package archive
 
 import (
 	"context"
-	a "go-common/app/admin/main/videoup/model/archive"
+	a "github.com/namelessup/bilibili/app/admin/main/videoup/model/archive"
 )
 
 // EditRules fn

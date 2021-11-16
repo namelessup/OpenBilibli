@@ -8,10 +8,10 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/app/infra/discovery/conf"
-	"go-common/app/infra/discovery/http"
-	"go-common/app/infra/discovery/service"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/infra/discovery/conf"
+	"github.com/namelessup/bilibili/app/infra/discovery/http"
+	"github.com/namelessup/bilibili/app/infra/discovery/service"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func main() {

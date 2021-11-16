@@ -2,8 +2,8 @@ package service
 
 import (
 	"context"
-	"go-common/app/interface/bbq/app-bbq/api/http/v1"
-	notice "go-common/app/service/bbq/notice-service/api/v1"
+	"github.com/namelessup/bilibili/app/interface/bbq/app-bbq/api/http/v1"
+	notice "github.com/namelessup/bilibili/app/service/bbq/notice-service/api/v1"
 )
 
 // PushRegister .

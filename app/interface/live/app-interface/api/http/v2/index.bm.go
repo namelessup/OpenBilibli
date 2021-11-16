@@ -3,7 +3,7 @@
 
 /*
 Package v2 is a generated blademaster stub package.
-This code was generated with go-common/app/tool/bmgen/protoc-gen-bm v0.1.
+This code was generated with github.com/namelessup/bilibili/app/tool/bmgen/protoc-gen-bm v0.1.
 
 It is generated from these files:
 	api/http/v2/index.proto
@@ -13,7 +13,7 @@ package v2
 import (
 	"context"
 
-	bm "go-common/library/net/http/blademaster"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // to suppressed 'imported but not used warning'

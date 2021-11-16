@@ -18,7 +18,7 @@ go_library(
     data = [
         "usersuit-admin-test.toml",
     ],
-    importpath = "go-common/app/admin/main/usersuit/cmd",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/usersuit/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

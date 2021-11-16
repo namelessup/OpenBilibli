@@ -11,7 +11,7 @@ go_library(
         "http.go",
         "recsys.go",
     ],
-    importpath = "go-common/app/service/bbq/recsys/server/http",
+    importpath = "github.com/namelessup/bilibili/app/service/bbq/recsys/server/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

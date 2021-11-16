@@ -12,7 +12,7 @@ go_library(
         "Feed.go",
         "dao.go",
     ],
-    importpath = "go-common/app/interface/live/app-interface/dao/relation",
+    importpath = "github.com/namelessup/bilibili/app/interface/live/app-interface/dao/relation",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

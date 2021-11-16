@@ -3,15 +3,15 @@ package reply
 import (
 	"context"
 
-	"go-common/app/interface/main/creative/model/music"
-	"go-common/app/interface/main/creative/model/reply"
-	seamdl "go-common/app/interface/main/creative/model/search"
-	"go-common/app/interface/openplatform/article/model"
-	account "go-common/app/service/main/account/model"
-	"go-common/app/service/main/archive/api"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/music"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/reply"
+	seamdl "github.com/namelessup/bilibili/app/interface/main/creative/model/search"
+	"github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	account "github.com/namelessup/bilibili/app/service/main/account/model"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 // Replies get reply list.

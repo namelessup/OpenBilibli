@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 	"flag"
-	"go-common/app/service/main/assist/conf"
-	"go-common/app/service/main/assist/model/assist"
+	"github.com/namelessup/bilibili/app/service/main/assist/conf"
+	"github.com/namelessup/bilibili/app/service/main/assist/model/assist"
 	"path/filepath"
 	"testing"
 	"time"

@@ -4,8 +4,8 @@ import (
 	"context"
 	"sync"
 
-	"go-common/app/admin/main/sms/conf"
-	"go-common/app/admin/main/sms/dao"
+	"github.com/namelessup/bilibili/app/admin/main/sms/conf"
+	"github.com/namelessup/bilibili/app/admin/main/sms/dao"
 
 	"github.com/jinzhu/gorm"
 )

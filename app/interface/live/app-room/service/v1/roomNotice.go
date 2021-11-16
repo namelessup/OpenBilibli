@@ -2,11 +2,11 @@ package v1
 
 import (
 	"context"
-	v1pb "go-common/app/interface/live/app-room/api/http/v1"
-	"go-common/app/interface/live/app-room/conf"
-	"go-common/app/interface/live/app-room/dao"
-	"go-common/app/service/live/xuserex/api/grpc/v1"
-	"go-common/library/ecode"
+	v1pb "github.com/namelessup/bilibili/app/interface/live/app-room/api/http/v1"
+	"github.com/namelessup/bilibili/app/interface/live/app-room/conf"
+	"github.com/namelessup/bilibili/app/interface/live/app-room/dao"
+	"github.com/namelessup/bilibili/app/service/live/xuserex/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 // RoomNoticeService struct

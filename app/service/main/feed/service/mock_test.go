@@ -6,11 +6,11 @@ package service
 
 import (
 	context "context"
-	model "go-common/app/interface/openplatform/article/model"
-	model0 "go-common/app/service/main/account/model"
-	"go-common/app/service/main/archive/api"
-	archive "go-common/app/service/main/archive/model/archive"
-	model1 "go-common/app/service/main/feed/model"
+	model "github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	model0 "github.com/namelessup/bilibili/app/service/main/account/model"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	archive "github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	model1 "github.com/namelessup/bilibili/app/service/main/feed/model"
 	reflect "reflect"
 
 	gomock "github.com/golang/mock/gomock"

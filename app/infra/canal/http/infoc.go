@@ -8,11 +8,11 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"go-common/app/infra/canal/conf"
-	"go-common/app/infra/canal/infoc"
-	config "go-common/library/conf"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/infra/canal/conf"
+	"github.com/namelessup/bilibili/app/infra/canal/infoc"
+	config "github.com/namelessup/bilibili/library/conf"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 
 	"github.com/BurntSushi/toml"
 	"github.com/siddontang/go-mysql/canal"

@@ -4,10 +4,10 @@ import (
 	"context"
 	"net"
 
-	"go-common/app/interface/main/account/model"
-	secmodel "go-common/app/service/main/secure/model"
+	"github.com/namelessup/bilibili/app/interface/main/account/model"
+	secmodel "github.com/namelessup/bilibili/app/service/main/secure/model"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // NoticeV2 notice v2.

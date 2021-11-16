@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["process.go"],
-    importpath = "go-common/app/service/main/dapper/pkg/process",
+    importpath = "github.com/namelessup/bilibili/app/service/main/dapper/pkg/process",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//app/service/main/dapper/model:go_default_library"],

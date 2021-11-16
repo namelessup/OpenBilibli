@@ -5,10 +5,10 @@ import (
 	"database/sql"
 	"fmt"
 
-	l "go-common/app/interface/main/activity/model/like"
-	"go-common/library/cache/redis"
-	xsql "go-common/library/database/sql"
-	"go-common/library/log"
+	l "github.com/namelessup/bilibili/app/interface/main/activity/model/like"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/pkg/errors"
 )

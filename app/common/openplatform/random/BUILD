@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["uniqid.go"],
-    importpath = "go-common/app/common/openplatform/random",
+    importpath = "github.com/namelessup/bilibili/app/common/openplatform/random",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

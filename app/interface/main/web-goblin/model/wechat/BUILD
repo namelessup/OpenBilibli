@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["wechat.go"],
-    importpath = "go-common/app/interface/main/web-goblin/model/wechat",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/web-goblin/model/wechat",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

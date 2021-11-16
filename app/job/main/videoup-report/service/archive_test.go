@@ -5,7 +5,7 @@ import (
 	. "github.com/smartystreets/goconvey/convey"
 	"testing"
 
-	"go-common/app/job/main/videoup-report/model/archive"
+	"github.com/namelessup/bilibili/app/job/main/videoup-report/model/archive"
 )
 
 func TestService_Addarchive(t *testing.T) {

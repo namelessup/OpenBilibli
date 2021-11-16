@@ -4,7 +4,7 @@ option go_package = "v1";
 
 import "github.com/gogo/protobuf/gogoproto/gogo.proto";
 
-// +bili:deepcopy-gen:structs=go-common/app/tool/gengo/cmd/deepcopy-gen/examples/model.MemberBase
+// +bili:deepcopy-gen:structs=github.com/namelessup/bilibili/app/tool/gengo/cmd/deepcopy-gen/examples/model.MemberBase
 message BaseInfoReply {
   int64 mid = 1 [ (gogoproto.jsontag) = "mid" ];
   string name = 2 [ (gogoproto.jsontag) = "name" ];
@@ -14,12 +14,12 @@ message BaseInfoReply {
   int64 rank = 6 [ (gogoproto.jsontag) = "rank" ];
   int64 birthday = 7 [
     (gogoproto.jsontag) = "birthday",
-    (gogoproto.casttype) = "go-common/library/time.Time"
+    (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"
   ];
 }
 
-// +bili:deepcopy-gen:structs=go-common/app/tool/gengo/cmd/deepcopy-gen/examples/model.Names
+// +bili:deepcopy-gen:structs=github.com/namelessup/bilibili/app/tool/gengo/cmd/deepcopy-gen/examples/model.Names
 message NamesReply { map<int64, string> names = 1; }
 
-// +bili:deepcopy-gen:structs=go-common/app/tool/gengo/cmd/deepcopy-gen/examples/model.Mids
+// +bili:deepcopy-gen:structs=github.com/namelessup/bilibili/app/tool/gengo/cmd/deepcopy-gen/examples/model.Mids
 message MidsReply { repeated int64 mids = 1; }

@@ -1,7 +1,7 @@
 package abtest
 
 import (
-	resource "go-common/app/service/main/resource/model"
+	resource "github.com/namelessup/bilibili/app/service/main/resource/model"
 )
 
 type List struct {

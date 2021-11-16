@@ -1,8 +1,8 @@
 package http
 
 import (
-	"go-common/app/service/main/vip/model"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/service/main/vip/model"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func thirdPrizeGrant(c *bm.Context) {

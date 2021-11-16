@@ -4,9 +4,9 @@ import (
 	"context"
 	"net/url"
 
-	"go-common/app/interface/main/creative/conf"
-	"go-common/app/interface/main/creative/model/monitor"
-	httpx "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/interface/main/creative/conf"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/monitor"
+	httpx "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // Dao is message dao.

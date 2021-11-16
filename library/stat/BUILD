@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["stat.go"],
-    importpath = "go-common/library/stat",
+    importpath = "github.com/namelessup/bilibili/library/stat",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/stat/prom:go_default_library"],

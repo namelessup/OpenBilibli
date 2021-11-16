@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	pushsrv "go-common/app/service/main/push/api/gorpc"
-	"go-common/app/service/main/push/model"
+	pushsrv "github.com/namelessup/bilibili/app/service/main/push/api/gorpc"
+	"github.com/namelessup/bilibili/app/service/main/push/model"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

@@ -17,7 +17,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["pointwrite.go"],
-    importpath = "go-common/app/service/main/dapper/pkg/pointwrite",
+    importpath = "github.com/namelessup/bilibili/app/service/main/dapper/pkg/pointwrite",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

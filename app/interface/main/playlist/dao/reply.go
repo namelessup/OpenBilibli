@@ -5,7 +5,7 @@ import (
 	"net/url"
 	"strconv"
 
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 const (

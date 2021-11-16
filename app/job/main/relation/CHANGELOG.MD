@@ -48,7 +48,7 @@
 
 ### v1.1.4
 > 1.加入go通知队列，通知其他业务方。兼容性措施
-> 2.升级最新版的go-common（6.16）及go-bussines（v2.22.2）
+> 2.升级最新版的github.com/namelessup/bilibili（6.16）及go-bussines（v2.22.2）
 
 ### V1.1.3
 > 1.无限重试加报警  

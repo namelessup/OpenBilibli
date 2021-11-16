@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 
-	"go-common/app/admin/ep/tapd/conf"
-	"go-common/app/admin/ep/tapd/dao"
-	"go-common/library/sync/pipeline/fanout"
+	"github.com/namelessup/bilibili/app/admin/ep/tapd/conf"
+	"github.com/namelessup/bilibili/app/admin/ep/tapd/dao"
+	"github.com/namelessup/bilibili/library/sync/pipeline/fanout"
 
 	"github.com/robfig/cron"
 )

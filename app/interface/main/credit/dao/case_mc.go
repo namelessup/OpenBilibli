@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	model "go-common/app/interface/main/credit/model"
-	gmc "go-common/library/cache/memcache"
+	model "github.com/namelessup/bilibili/app/interface/main/credit/model"
+	gmc "github.com/namelessup/bilibili/library/cache/memcache"
 )
 
 const (

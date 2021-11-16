@@ -4,10 +4,10 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"go-common/app/interface/main/creative/conf"
-	appMdl "go-common/app/interface/main/creative/model/app"
-	resMdl "go-common/app/interface/main/creative/model/resource"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/creative/conf"
+	appMdl "github.com/namelessup/bilibili/app/interface/main/creative/model/app"
+	resMdl "github.com/namelessup/bilibili/app/interface/main/creative/model/resource"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Portals for app portal config.

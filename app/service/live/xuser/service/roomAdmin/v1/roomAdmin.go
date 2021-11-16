@@ -3,11 +3,11 @@ package v1
 import (
 	"context"
 	"github.com/pkg/errors"
-	v1pb "go-common/app/service/live/xuser/api/grpc/v1"
-	"go-common/app/service/live/xuser/conf"
-	"go-common/app/service/live/xuser/dao/roomAdmin"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	v1pb "github.com/namelessup/bilibili/app/service/live/xuser/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/live/xuser/conf"
+	"github.com/namelessup/bilibili/app/service/live/xuser/dao/roomAdmin"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // RoomAdminService struct

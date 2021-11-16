@@ -5,17 +5,17 @@ import (
 	"sync"
 	"time"
 
-	"go-common/app/interface/main/mcn/tool/worker"
-	"go-common/app/job/main/up/conf"
-	"go-common/app/job/main/up/dao/account"
-	"go-common/app/job/main/up/dao/email"
-	"go-common/app/job/main/up/dao/upcrm"
-	archive "go-common/app/service/main/archive/api"
-	upGRPCv1 "go-common/app/service/main/up/api/v1"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/interface/main/mcn/tool/worker"
+	"github.com/namelessup/bilibili/app/job/main/up/conf"
+	"github.com/namelessup/bilibili/app/job/main/up/dao/account"
+	"github.com/namelessup/bilibili/app/job/main/up/dao/email"
+	"github.com/namelessup/bilibili/app/job/main/up/dao/upcrm"
+	archive "github.com/namelessup/bilibili/app/service/main/archive/api"
+	upGRPCv1 "github.com/namelessup/bilibili/app/service/main/up/api/v1"
+	"github.com/namelessup/bilibili/library/queue/databus"
 
 	"github.com/robfig/cron"
-	"go-common/app/admin/main/up/util/databusutil"
+	"github.com/namelessup/bilibili/app/admin/main/up/util/databusutil"
 )
 
 // Service struct

@@ -6,7 +6,7 @@ package client
 
 import (
 	context "context"
-	model "go-common/app/service/main/thumbup/model"
+	model "github.com/namelessup/bilibili/app/service/main/thumbup/model"
 	reflect "reflect"
 
 	gomock "github.com/golang/mock/gomock"

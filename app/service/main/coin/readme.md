@@ -9,4 +9,4 @@
 > 1.Go 1.7.5或更高版本
 
 ##### 依赖包
-> 1.公共包go-common 
+> 1.公共包github.com/namelessup/bilibili 

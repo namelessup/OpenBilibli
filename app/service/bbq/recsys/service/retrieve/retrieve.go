@@ -5,10 +5,10 @@ import (
 
 	"github.com/json-iterator/go"
 
-	rpc "go-common/app/service/bbq/recsys/api/grpc/v1"
-	"go-common/app/service/bbq/recsys/model"
-	searchv1 "go-common/app/service/bbq/search/api/grpc/v1"
-	"go-common/library/log"
+	rpc "github.com/namelessup/bilibili/app/service/bbq/recsys/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/bbq/recsys/model"
+	searchv1 "github.com/namelessup/bilibili/app/service/bbq/search/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/log"
 	"strconv"
 	"strings"
 )

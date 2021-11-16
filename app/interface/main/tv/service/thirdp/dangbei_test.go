@@ -6,7 +6,7 @@ import (
 
 	"encoding/json"
 
-	"go-common/app/interface/main/tv/dao/thirdp"
+	"github.com/namelessup/bilibili/app/interface/main/tv/dao/thirdp"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

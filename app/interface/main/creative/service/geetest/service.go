@@ -7,13 +7,13 @@ import (
 	"math/rand"
 	"strconv"
 
-	"go-common/app/interface/main/creative/conf"
-	"go-common/app/interface/main/creative/dao/account"
-	d "go-common/app/interface/main/creative/dao/geetest"
-	m "go-common/app/interface/main/creative/model/geetest"
-	"go-common/app/interface/main/creative/service"
-	"go-common/library/log"
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/app/interface/main/creative/conf"
+	"github.com/namelessup/bilibili/app/interface/main/creative/dao/account"
+	d "github.com/namelessup/bilibili/app/interface/main/creative/dao/geetest"
+	m "github.com/namelessup/bilibili/app/interface/main/creative/model/geetest"
+	"github.com/namelessup/bilibili/app/interface/main/creative/service"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/stat/prom"
 )
 
 //Service struct.

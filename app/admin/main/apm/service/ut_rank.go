@@ -8,9 +8,9 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/admin/main/apm/model/ut"
-	"go-common/library/log"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/admin/main/apm/model/ut"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // RankTen find data and avg(coverage)
@@ -57,7 +57,7 @@ func (s *Service) RanksCache(c context.Context) (err error) {
 		rankMap   = make(map[string]*ut.RankResp)
 		endTime   = time.Now().AddDate(0, -3, 0).Format("2006-01-02 15:04:05")
 	)
-	if err = s.DB.Table("ut_merge").Raw("select * from (select ut_commit.username,ROUND(avg(coverage)/100,2) AS coverage,ROUND(SUM(passed)/SUM(assertions),2)*100 AS pass_rate, SUM(assertions)AS assertions, SUM(passed) AS passed, MAX(ut_commit.mtime) as mtime from ut_merge,ut_commit,ut_pkganls where ut_merge.merge_id=ut_commit.merge_id and ut_commit.commit_id=ut_pkganls.commit_id and ut_merge.is_merged=1 and ut_merge.mtime >=? and (ut_pkganls.pkg!=substring_index(ut_pkganls.pkg,'/',5) or ut_pkganls.pkg like 'go-common/library/%') GROUP BY ut_commit.username) as t1", endTime).
+	if err = s.DB.Table("ut_merge").Raw("select * from (select ut_commit.username,ROUND(avg(coverage)/100,2) AS coverage,ROUND(SUM(passed)/SUM(assertions),2)*100 AS pass_rate, SUM(assertions)AS assertions, SUM(passed) AS passed, MAX(ut_commit.mtime) as mtime from ut_merge,ut_commit,ut_pkganls where ut_merge.merge_id=ut_commit.merge_id and ut_commit.commit_id=ut_pkganls.commit_id and ut_merge.is_merged=1 and ut_merge.mtime >=? and (ut_pkganls.pkg!=substring_index(ut_pkganls.pkg,'/',5) or ut_pkganls.pkg like 'github.com/namelessup/bilibili/library/%') GROUP BY ut_commit.username) as t1", endTime).
 		Find(&rankSlice).Error; err != nil {
 		log.Error("RankResult error(%v)", err)
 		return

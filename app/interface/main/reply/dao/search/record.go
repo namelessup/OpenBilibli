@@ -5,9 +5,9 @@ import (
 	"time"
 
 	"fmt"
-	model "go-common/app/interface/main/reply/model/reply"
-	es "go-common/library/database/elastic"
-	"go-common/library/log"
+	model "github.com/namelessup/bilibili/app/interface/main/reply/model/reply"
+	es "github.com/namelessup/bilibili/library/database/elastic"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 var (

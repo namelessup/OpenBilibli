@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"go-common/app/service/main/member/conf"
+	"github.com/namelessup/bilibili/app/service/main/member/conf"
 
 	"gopkg.in/h2non/gock.v1"
 )

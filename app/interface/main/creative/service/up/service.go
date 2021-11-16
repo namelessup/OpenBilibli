@@ -3,11 +3,11 @@ package up
 import (
 	"context"
 
-	"go-common/app/interface/main/creative/conf"
-	"go-common/app/interface/main/creative/dao/account"
-	"go-common/app/interface/main/creative/dao/up"
-	"go-common/app/interface/main/creative/service"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/creative/conf"
+	"github.com/namelessup/bilibili/app/interface/main/creative/dao/account"
+	"github.com/namelessup/bilibili/app/interface/main/creative/dao/up"
+	"github.com/namelessup/bilibili/app/interface/main/creative/service"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 //Service struct

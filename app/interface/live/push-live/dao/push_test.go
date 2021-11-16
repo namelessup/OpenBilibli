@@ -1,7 +1,7 @@
 package dao
 
 import (
-	"go-common/app/interface/live/push-live/model"
+	"github.com/namelessup/bilibili/app/interface/live/push-live/model"
 	"testing"
 
 	. "github.com/smartystreets/goconvey/convey"

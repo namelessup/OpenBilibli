@@ -1,7 +1,7 @@
 package channel
 
 import (
-	"go-common/app/admin/main/feed/model/common"
+	"github.com/namelessup/bilibili/app/admin/main/feed/model/common"
 )
 
 var (

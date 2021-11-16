@@ -6,12 +6,12 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/interface/main/app-resource/conf"
-	eggdao "go-common/app/interface/main/app-resource/dao/egg"
-	"go-common/app/interface/main/app-resource/model"
-	"go-common/app/interface/main/app-resource/model/static"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/app-resource/conf"
+	eggdao "github.com/namelessup/bilibili/app/interface/main/app-resource/dao/egg"
+	"github.com/namelessup/bilibili/app/interface/main/app-resource/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-resource/model/static"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 
 	farm "github.com/dgryski/go-farm"
 )

@@ -11,7 +11,7 @@ go_library(
         "app.go",
         "editor.go",
     ],
-    importpath = "go-common/app/interface/main/creative/model/app",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/creative/model/app",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/time:go_default_library"],

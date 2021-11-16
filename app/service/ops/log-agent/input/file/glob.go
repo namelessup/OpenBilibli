@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"path"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (f *File) getFiles() map[string]os.FileInfo {

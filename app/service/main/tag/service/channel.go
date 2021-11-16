@@ -3,7 +3,7 @@ package service
 import (
 	"context"
 
-	"go-common/app/service/main/tag/model"
+	"github.com/namelessup/bilibili/app/service/main/tag/model"
 )
 
 // ChannelCategories get channel categories.

@@ -5,8 +5,8 @@ import (
 	"strconv"
 
 	"github.com/pkg/errors"
-	v1 "go-common/app/service/main/account/api"
-	mc "go-common/library/cache/memcache"
+	v1 "github.com/namelessup/bilibili/app/service/main/account/api"
+	mc "github.com/namelessup/bilibili/library/cache/memcache"
 )
 
 const (

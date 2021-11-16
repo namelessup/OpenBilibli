@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/job/main/app/model/feed"
+	"github.com/namelessup/bilibili/app/job/main/app/model/feed"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

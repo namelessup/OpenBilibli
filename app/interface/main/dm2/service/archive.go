@@ -5,13 +5,13 @@ import (
 	"math"
 	"sync"
 
-	"go-common/app/interface/main/dm2/model"
-	"go-common/app/service/main/archive/api"
-	arcMdl "go-common/app/service/main/archive/model/archive"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/interface/main/dm2/model"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	arcMdl "github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 func (s *Service) archiveInfos(c context.Context, aids []int64) (archiveInfos map[int64]*api.Arc, err error) {

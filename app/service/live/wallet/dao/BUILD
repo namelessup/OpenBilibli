@@ -45,7 +45,7 @@ go_library(
         "tx.go",
         "wallet.go",
     ],
-    importpath = "go-common/app/service/live/wallet/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/live/wallet/dao",
     tags = ["automanaged"],
     deps = [
         "//app/service/live/wallet/conf:go_default_library",

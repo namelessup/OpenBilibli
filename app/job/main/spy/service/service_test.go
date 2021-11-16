@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/job/main/spy/conf"
-	"go-common/app/job/main/spy/model"
-	"go-common/library/cache/redis"
+	"github.com/namelessup/bilibili/app/job/main/spy/conf"
+	"github.com/namelessup/bilibili/app/job/main/spy/model"
+	"github.com/namelessup/bilibili/library/cache/redis"
 
 	"github.com/robfig/cron"
 	. "github.com/smartystreets/goconvey/convey"

@@ -9,13 +9,13 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/job/main/figure/conf"
-	"go-common/app/job/main/figure/dao"
-	"go-common/app/job/main/figure/model"
-	coinm "go-common/app/service/main/coin/model"
-	spym "go-common/app/service/main/spy/model"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/job/main/figure/conf"
+	"github.com/namelessup/bilibili/app/job/main/figure/dao"
+	"github.com/namelessup/bilibili/app/job/main/figure/model"
+	coinm "github.com/namelessup/bilibili/app/service/main/coin/model"
+	spym "github.com/namelessup/bilibili/app/service/main/spy/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 const (

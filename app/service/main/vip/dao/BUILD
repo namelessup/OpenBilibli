@@ -87,7 +87,7 @@ go_library(
         "user.go",
         "welfare.go",
     ],
-    importpath = "go-common/app/service/main/vip/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/main/vip/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

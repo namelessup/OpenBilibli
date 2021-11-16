@@ -5,10 +5,10 @@ import (
 	"runtime"
 	"time"
 
-	"go-common/app/job/main/push/dao"
-	pb "go-common/app/service/main/push/api/grpc/v1"
-	pushmdl "go-common/app/service/main/push/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/push/dao"
+	pb "github.com/namelessup/bilibili/app/service/main/push/api/grpc/v1"
+	pushmdl "github.com/namelessup/bilibili/app/service/main/push/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

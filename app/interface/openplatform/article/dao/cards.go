@@ -6,10 +6,10 @@ import (
 	"net/url"
 	"strings"
 
-	"go-common/app/interface/openplatform/article/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 // TicketCard get ticket card from api

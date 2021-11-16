@@ -1,14 +1,14 @@
 package http
 
 import (
-	"go-common/app/admin/main/member/conf"
-	"go-common/app/admin/main/member/http/block"
-	"go-common/app/admin/main/member/service"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/permit"
-	"go-common/library/net/http/blademaster/middleware/verify"
+	"github.com/namelessup/bilibili/app/admin/main/member/conf"
+	"github.com/namelessup/bilibili/app/admin/main/member/http/block"
+	"github.com/namelessup/bilibili/app/admin/main/member/service"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/permit"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/verify"
 )
 
 var (

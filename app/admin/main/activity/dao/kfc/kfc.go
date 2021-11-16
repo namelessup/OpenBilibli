@@ -3,7 +3,7 @@ package kfc
 import (
 	"context"
 
-	kfcmdl "go-common/app/admin/main/activity/model/kfc"
+	kfcmdl "github.com/namelessup/bilibili/app/admin/main/activity/model/kfc"
 
 	"github.com/jinzhu/gorm"
 	"github.com/pkg/errors"

@@ -5,16 +5,16 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/interface/main/app-feed/model"
-	"go-common/app/interface/main/app-feed/model/feed"
-	"go-common/app/interface/main/app-feed/model/live"
-	"go-common/app/interface/main/app-feed/model/tag"
-	article "go-common/app/interface/openplatform/article/model"
-	"go-common/app/service/main/archive/api"
-	"go-common/app/service/main/archive/model/archive"
-	busfeed "go-common/app/service/main/feed/model"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/interface/main/app-feed/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-feed/model/feed"
+	"github.com/namelessup/bilibili/app/interface/main/app-feed/model/live"
+	"github.com/namelessup/bilibili/app/interface/main/app-feed/model/tag"
+	article "github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	busfeed "github.com/namelessup/bilibili/app/service/main/feed/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 const (

@@ -3,8 +3,8 @@ package show
 import (
 	"context"
 
-	"go-common/app/admin/main/feed/conf"
-	"go-common/library/database/orm"
+	"github.com/namelessup/bilibili/app/admin/main/feed/conf"
+	"github.com/namelessup/bilibili/library/database/orm"
 
 	"github.com/jinzhu/gorm"
 )

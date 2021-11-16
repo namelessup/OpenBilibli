@@ -4,9 +4,9 @@ import (
 	"context"
 	"sync"
 
-	"go-common/app/admin/main/creative/conf"
-	"go-common/app/admin/main/creative/dao"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/creative/conf"
+	"github.com/namelessup/bilibili/app/admin/main/creative/dao"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/jinzhu/gorm"
 )

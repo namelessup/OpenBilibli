@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/admin/main/workflow/model/param"
-	"go-common/app/job/main/workflow/model"
-	"go-common/library/ecode"
-	"go-common/library/queue/databus/report"
+	"github.com/namelessup/bilibili/app/admin/main/workflow/model/param"
+	"github.com/namelessup/bilibili/app/job/main/workflow/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/queue/databus/report"
 )
 
 // SendMessage .

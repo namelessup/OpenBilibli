@@ -5,8 +5,8 @@ import (
 	"os"
 	"testing"
 
-	"go-common/app/service/main/member/conf"
-	mbDao "go-common/app/service/main/member/dao"
+	"github.com/namelessup/bilibili/app/service/main/member/conf"
+	mbDao "github.com/namelessup/bilibili/app/service/main/member/dao"
 )
 
 var (

@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 
-	"go-common/app/infra/discovery/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/infra/discovery/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Register a new instance.

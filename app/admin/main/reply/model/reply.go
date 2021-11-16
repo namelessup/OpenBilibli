@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	rl "go-common/app/service/main/relation/model"
-	xtime "go-common/library/time"
+	rl "github.com/namelessup/bilibili/app/service/main/relation/model"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // State 评论状态

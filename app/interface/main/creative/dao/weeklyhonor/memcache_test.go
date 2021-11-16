@@ -2,7 +2,7 @@ package weeklyhonor
 
 import (
 	"context"
-	model "go-common/app/interface/main/creative/model/weeklyhonor"
+	model "github.com/namelessup/bilibili/app/interface/main/creative/model/weeklyhonor"
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"

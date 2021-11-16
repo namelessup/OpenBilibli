@@ -3,8 +3,8 @@ package dao
 import (
 	"context"
 
-	"go-common/app/service/live/xuserex/conf"
-	"go-common/library/cache/memcache"
+	"github.com/namelessup/bilibili/app/service/live/xuserex/conf"
+	"github.com/namelessup/bilibili/library/cache/memcache"
 )
 
 // Dao dao

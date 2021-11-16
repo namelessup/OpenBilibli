@@ -1,8 +1,8 @@
 package http
 
 import (
-	"go-common/app/service/main/account/model"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/service/main/account/model"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // info

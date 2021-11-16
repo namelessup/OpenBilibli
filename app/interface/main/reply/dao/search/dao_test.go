@@ -4,7 +4,7 @@ import (
 	"os"
 	"flag"
 	"testing"
-	"go-common/app/interface/main/reply/conf"
+	"github.com/namelessup/bilibili/app/interface/main/reply/conf"
 )
 
 var (

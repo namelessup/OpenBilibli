@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["passport-sns-job.toml"],
-    importpath = "go-common/app/job/main/passport-sns/cmd",
+    importpath = "github.com/namelessup/bilibili/app/job/main/passport-sns/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

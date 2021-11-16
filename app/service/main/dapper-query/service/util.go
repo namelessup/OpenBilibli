@@ -7,8 +7,8 @@ import (
 	"github.com/golang/protobuf/ptypes/duration"
 	"github.com/golang/protobuf/ptypes/timestamp"
 
-	apiv1 "go-common/app/service/main/dapper-query/api/v1"
-	"go-common/app/service/main/dapper-query/model"
+	apiv1 "github.com/namelessup/bilibili/app/service/main/dapper-query/api/v1"
+	"github.com/namelessup/bilibili/app/service/main/dapper-query/model"
 )
 
 func compatibleLegacySpan(spans []*model.Span) bool {

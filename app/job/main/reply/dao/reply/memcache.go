@@ -6,10 +6,10 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/job/main/reply/conf"
-	model "go-common/app/job/main/reply/model/reply"
-	"go-common/library/cache/memcache"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/reply/conf"
+	model "github.com/namelessup/bilibili/app/job/main/reply/model/reply"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

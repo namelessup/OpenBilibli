@@ -3,7 +3,7 @@ package v1
 import (
 	"encoding/json"
 
-	"go-common/app/tool/protoc-gen-bm/jsonpb"
+	"github.com/namelessup/bilibili/app/tool/protoc-gen-bm/jsonpb"
 )
 
 // MarshalJSON .

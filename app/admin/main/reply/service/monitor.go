@@ -7,11 +7,11 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/admin/main/reply/model"
-	accmdl "go-common/app/service/main/account/api"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/queue/databus/report"
+	"github.com/namelessup/bilibili/app/admin/main/reply/model"
+	accmdl "github.com/namelessup/bilibili/app/service/main/account/api"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus/report"
 )
 
 // MonitorStats return monitor stats.

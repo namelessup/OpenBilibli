@@ -3,8 +3,8 @@ package capsule
 import (
 	"context"
 
-	"go-common/app/interface/live/web-ucenter/conf"
-	lotteryApi "go-common/app/service/live/xlottery/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/interface/live/web-ucenter/conf"
+	lotteryApi "github.com/namelessup/bilibili/app/service/live/xlottery/api/grpc/v1"
 )
 
 // Dao dao

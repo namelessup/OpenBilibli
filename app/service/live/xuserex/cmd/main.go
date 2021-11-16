@@ -4,18 +4,18 @@ import (
 	"context"
 	"flag"
 	"fmt"
-	"go-common/app/service/live/xuserex/server/http"
-	"go-common/app/service/live/xuserex/service"
+	"github.com/namelessup/bilibili/app/service/live/xuserex/server/http"
+	"github.com/namelessup/bilibili/app/service/live/xuserex/service"
 	"os"
 	"os/signal"
 	"syscall"
 
-	"go-common/app/service/live/resource/sdk"
-	"go-common/app/service/live/xuserex/conf"
-	"go-common/app/service/live/xuserex/server/grpc"
-	ecode "go-common/library/ecode/tip"
-	"go-common/library/log"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/app/service/live/resource/sdk"
+	"github.com/namelessup/bilibili/app/service/live/xuserex/conf"
+	"github.com/namelessup/bilibili/app/service/live/xuserex/server/grpc"
+	ecode "github.com/namelessup/bilibili/library/ecode/tip"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
 )
 
 func main() {

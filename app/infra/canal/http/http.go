@@ -1,10 +1,10 @@
 package http
 
 import (
-	"go-common/app/infra/canal/conf"
-	"go-common/app/infra/canal/service"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/infra/canal/conf"
+	"github.com/namelessup/bilibili/app/infra/canal/service"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 var (

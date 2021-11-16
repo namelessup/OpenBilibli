@@ -3,11 +3,11 @@ package dao
 import (
 	"context"
 
-	account "go-common/app/service/main/account/api"
-	location "go-common/app/service/main/location/model"
-	member "go-common/app/service/main/member/api"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	account "github.com/namelessup/bilibili/app/service/main/account/api"
+	location "github.com/namelessup/bilibili/app/service/main/location/model"
+	member "github.com/namelessup/bilibili/app/service/main/member/api"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 
 	"github.com/pkg/errors"
 )

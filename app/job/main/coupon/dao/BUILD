@@ -33,7 +33,7 @@ go_library(
         "mysql.go",
         "notify.go",
     ],
-    importpath = "go-common/app/job/main/coupon/dao",
+    importpath = "github.com/namelessup/bilibili/app/job/main/coupon/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

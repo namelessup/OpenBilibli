@@ -14,7 +14,7 @@ go_library(
         "music.go",
         "search.go",
     ],
-    importpath = "go-common/app/interface/main/creative/dao/music",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/creative/dao/music",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

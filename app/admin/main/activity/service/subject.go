@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/admin/main/activity/model"
-	articlemodel "go-common/app/interface/openplatform/article/model"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/admin/main/activity/model"
+	articlemodel "github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 
 	"github.com/jinzhu/gorm"
 )

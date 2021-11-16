@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/job/main/figure/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/figure/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // AccountExp handle user exp chenage message

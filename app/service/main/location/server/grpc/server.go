@@ -5,10 +5,10 @@ import (
 	"context"
 	"fmt"
 
-	pb "go-common/app/service/main/location/api"
-	"go-common/app/service/main/location/model"
-	"go-common/app/service/main/location/service"
-	"go-common/library/net/rpc/warden"
+	pb "github.com/namelessup/bilibili/app/service/main/location/api"
+	"github.com/namelessup/bilibili/app/service/main/location/model"
+	"github.com/namelessup/bilibili/app/service/main/location/service"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 )
 
 // New Location warden rpc server

@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) ChangeMaskStreamByRoomID(ctx context.Context, realRoomID int64, streamname string, mask int64) (t string, err error) {

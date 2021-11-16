@@ -4,10 +4,10 @@ import (
 	"context"
 	"sync"
 
-	"go-common/app/job/main/passport-encrypt/conf"
-	"go-common/app/job/main/passport-encrypt/dao"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/job/main/passport-encrypt/conf"
+	"github.com/namelessup/bilibili/app/job/main/passport-encrypt/dao"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 const (

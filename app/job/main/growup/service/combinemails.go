@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const _combine = "%d年%d月%d日统计信息邮件"

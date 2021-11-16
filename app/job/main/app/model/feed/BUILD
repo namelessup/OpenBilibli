@@ -11,7 +11,7 @@ go_library(
         "rcmd.go",
         "tag.go",
     ],
-    importpath = "go-common/app/job/main/app/model/feed",
+    importpath = "github.com/namelessup/bilibili/app/job/main/app/model/feed",
     tags = ["automanaged"],
     deps = ["//app/service/main/archive/api:go_default_library"],
 )

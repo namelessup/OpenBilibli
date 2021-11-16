@@ -4,11 +4,11 @@ import (
 	"context"
 	"fmt"
 
-	pb "go-common/app/service/main/thumbup/api"
-	"go-common/app/service/main/thumbup/dao"
-	"go-common/app/service/main/thumbup/model"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
+	pb "github.com/namelessup/bilibili/app/service/main/thumbup/api"
+	"github.com/namelessup/bilibili/app/service/main/thumbup/dao"
+	"github.com/namelessup/bilibili/app/service/main/thumbup/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 // 用户点赞列表数据量少的话 全取比较好 点赞数量多的话 同时一次性取的少的话 zscore比较好

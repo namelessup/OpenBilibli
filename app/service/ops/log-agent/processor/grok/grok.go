@@ -3,9 +3,9 @@ package grok
 import (
 	"context"
 
-	"go-common/app/service/ops/log-agent/event"
-	"go-common/app/service/ops/log-agent/processor"
-	"go-common/app/service/ops/log-agent/pkg/flowmonitor"
+	"github.com/namelessup/bilibili/app/service/ops/log-agent/event"
+	"github.com/namelessup/bilibili/app/service/ops/log-agent/processor"
+	"github.com/namelessup/bilibili/app/service/ops/log-agent/pkg/flowmonitor"
 
 	"github.com/vjeantet/grok"
 )

@@ -4,18 +4,18 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/app/common/live/library/lrucache"
+	"github.com/namelessup/bilibili/app/common/live/library/lrucache"
 
 	jsonitor "github.com/json-iterator/go"
 
-	v1pb "go-common/app/service/live/dao-anchor/api/grpc/v1"
-	"go-common/app/service/live/dao-anchor/conf"
-	"go-common/library/cache/redis"
-	xsql "go-common/library/database/sql"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
-	"go-common/library/sync/errgroup"
+	v1pb "github.com/namelessup/bilibili/app/service/live/dao-anchor/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/live/dao-anchor/conf"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 const (

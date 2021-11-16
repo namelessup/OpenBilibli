@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["test.toml"],
-    importpath = "go-common/app/service/main/ugcpay-rank/cmd",
+    importpath = "github.com/namelessup/bilibili/app/service/main/ugcpay-rank/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

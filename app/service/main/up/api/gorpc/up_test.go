@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/service/main/up/model"
+	"github.com/namelessup/bilibili/app/service/main/up/model"
 )
 
 func TestRpcClient(t *testing.T) {

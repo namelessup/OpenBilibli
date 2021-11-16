@@ -29,7 +29,7 @@ go_library(
         "overview.go",
         "service.go",
     ],
-    importpath = "go-common/app/interface/main/creative/service/data",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/creative/service/data",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

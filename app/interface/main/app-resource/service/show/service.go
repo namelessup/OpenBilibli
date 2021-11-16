@@ -3,13 +3,13 @@ package show
 import (
 	"time"
 
-	"go-common/app/interface/main/app-resource/conf"
-	adtdao "go-common/app/interface/main/app-resource/dao/audit"
-	resdao "go-common/app/interface/main/app-resource/dao/resource"
-	tabdao "go-common/app/interface/main/app-resource/dao/tab"
-	"go-common/app/interface/main/app-resource/model/show"
-	"go-common/app/interface/main/app-resource/model/tab"
-	resource "go-common/app/service/main/resource/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-resource/conf"
+	adtdao "github.com/namelessup/bilibili/app/interface/main/app-resource/dao/audit"
+	resdao "github.com/namelessup/bilibili/app/interface/main/app-resource/dao/resource"
+	tabdao "github.com/namelessup/bilibili/app/interface/main/app-resource/dao/tab"
+	"github.com/namelessup/bilibili/app/interface/main/app-resource/model/show"
+	"github.com/namelessup/bilibili/app/interface/main/app-resource/model/tab"
+	resource "github.com/namelessup/bilibili/app/service/main/resource/model"
 )
 
 // Service is showtab service.

@@ -19,7 +19,7 @@ go_library(
         "toml.go",
         "value.go",
     ],
-    importpath = "go-common/library/conf/paladin",
+    importpath = "github.com/namelessup/bilibili/library/conf/paladin",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["data.go"],
-    importpath = "go-common/app/job/main/videoup-report/model/data",
+    importpath = "github.com/namelessup/bilibili/app/job/main/videoup-report/model/data",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

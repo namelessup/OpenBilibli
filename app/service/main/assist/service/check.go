@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) checkFollow(c context.Context, mid, assistMid int64) (err error) {

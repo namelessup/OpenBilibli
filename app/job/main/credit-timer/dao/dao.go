@@ -3,8 +3,8 @@ package dao
 import (
 	"context"
 
-	"go-common/app/job/main/credit-timer/conf"
-	"go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/job/main/credit-timer/conf"
+	"github.com/namelessup/bilibili/library/database/sql"
 )
 
 // Dao struct info of Dao.

@@ -14,12 +14,12 @@ services:
     networks:
       - kratos
     volumes:
-      - ../../../:/go/src/go-common/:rw
+      - ../../../:/go/src/github.com/namelessup/bilibili/:rw
     ports:
       - 8000:8000
     links:
       - liveredis
-    working_dir: /go/src/go-common/app/interface/video/portal/cmd
+    working_dir: /go/src/github.com/namelessup/bilibili/app/interface/video/portal/cmd
     command: go run main.go -appid=portal -conf=portal.toml
   stream-mng:
     build: # 构建镜像所需
@@ -36,7 +36,7 @@ services:
     networks:
       - kratos
     volumes:
-      - ../../../:/go/src/go-common/:rw
+      - ../../../:/go/src/github.com/namelessup/bilibili/:rw
     ports:
       - 8001:8000
       - 9000:9000
@@ -48,7 +48,7 @@ services:
       - zone=sh001
     links:
       - liveredis
-    working_dir: /go/src/go-common/app/service/video/stream-mng/cmd
+    working_dir: /go/src/github.com/namelessup/bilibili/app/service/video/stream-mng/cmd
     command: go run main.go -appid=stream-mng -conf=stream-mng.toml
   liveredis:
     image: redis

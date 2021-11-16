@@ -2,11 +2,11 @@ package operation
 
 import (
 	"context"
-	"go-common/app/interface/main/creative/conf"
-	"go-common/app/interface/main/creative/dao/creative"
-	operMdl "go-common/app/interface/main/creative/model/operation"
-	"go-common/app/interface/main/creative/service"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/creative/conf"
+	"github.com/namelessup/bilibili/app/interface/main/creative/dao/creative"
+	operMdl "github.com/namelessup/bilibili/app/interface/main/creative/model/operation"
+	"github.com/namelessup/bilibili/app/interface/main/creative/service"
+	"github.com/namelessup/bilibili/library/log"
 	"time"
 )
 

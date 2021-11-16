@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["rpc.go"],
-    importpath = "go-common/app/service/main/thumbup/server/gorpc",
+    importpath = "github.com/namelessup/bilibili/app/service/main/thumbup/server/gorpc",
     tags = ["automanaged"],
     deps = [
         "//app/service/main/thumbup/conf:go_default_library",

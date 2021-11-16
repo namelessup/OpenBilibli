@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"strings"
 
-	"go-common/app/job/main/videoup/model/archive"
-	"go-common/library/log"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/job/main/videoup/model/archive"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 const (

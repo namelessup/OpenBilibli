@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"go-common/app/interface/main/captcha/conf"
+	"github.com/namelessup/bilibili/app/interface/main/captcha/conf"
 )
 
 var (

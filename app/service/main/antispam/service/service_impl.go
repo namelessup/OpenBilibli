@@ -5,12 +5,12 @@ import (
 	"errors"
 	"sync"
 
-	"go-common/app/service/main/antispam/conf"
-	"go-common/app/service/main/antispam/dao"
-	"go-common/app/service/main/antispam/extern"
-	"go-common/library/cache"
+	"github.com/namelessup/bilibili/app/service/main/antispam/conf"
+	"github.com/namelessup/bilibili/app/service/main/antispam/dao"
+	"github.com/namelessup/bilibili/app/service/main/antispam/extern"
+	"github.com/namelessup/bilibili/library/cache"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 var done = make(chan struct{})

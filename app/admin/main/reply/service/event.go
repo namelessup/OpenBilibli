@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"go-common/app/admin/main/reply/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/reply/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) pubEvent(c context.Context, action string, mid int64, sub *model.Subject, rp *model.Reply, rpt *model.Report) (err error) {

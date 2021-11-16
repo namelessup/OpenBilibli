@@ -7,8 +7,8 @@ import (
 
 	"context"
 	"github.com/smartystreets/goconvey/convey"
-	"go-common/app/admin/main/up/conf"
-	"go-common/app/admin/main/up/model/signmodel"
+	"github.com/namelessup/bilibili/app/admin/main/up/conf"
+	"github.com/namelessup/bilibili/app/admin/main/up/model/signmodel"
 	"gopkg.in/h2non/gock.v1"
 	"strings"
 )

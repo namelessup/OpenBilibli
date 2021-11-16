@@ -49,7 +49,7 @@ go_library(
         "upcrmservice.go",
         "utils.go",
     ],
-    importpath = "go-common/app/admin/main/up/service/upcrmservice",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/up/service/upcrmservice",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

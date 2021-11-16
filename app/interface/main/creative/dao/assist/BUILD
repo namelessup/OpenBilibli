@@ -13,7 +13,7 @@ go_library(
         "dao.go",
         "live.go",
     ],
-    importpath = "go-common/app/interface/main/creative/dao/assist",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/creative/dao/assist",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

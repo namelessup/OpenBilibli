@@ -3,10 +3,10 @@ package auth_test
 import (
 	"fmt"
 
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/auth"
-	"go-common/library/net/metadata"
-	"go-common/library/net/rpc/warden"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/auth"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 )
 
 // This example create a identify middleware instance and attach to several path,

@@ -6,8 +6,8 @@ import (
 	"os"
 	"strings"
 
-	xgb "go-common/app/service/bbq/recsys/service/rank/treelite"
-	"go-common/library/log"
+	xgb "github.com/namelessup/bilibili/app/service/bbq/recsys/service/rank/treelite"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/gogo/protobuf/proto"
 )

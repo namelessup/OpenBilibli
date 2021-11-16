@@ -9,14 +9,14 @@ import (
 	"strconv"
 	"time"
 
-	coinmdl "go-common/app/service/main/coin/model"
-	pointmdl "go-common/app/service/main/point/model"
-	"go-common/app/service/main/usersuit/model"
-	vipmdl "go-common/app/service/main/vip/model"
-	"go-common/library/database/sql"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	coinmdl "github.com/namelessup/bilibili/app/service/main/coin/model"
+	pointmdl "github.com/namelessup/bilibili/app/service/main/point/model"
+	"github.com/namelessup/bilibili/app/service/main/usersuit/model"
+	vipmdl "github.com/namelessup/bilibili/app/service/main/vip/model"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 const (

@@ -3,8 +3,8 @@ package model
 import (
 	"encoding/json"
 	"fmt"
-	"go-common/app/service/openplatform/ticket-item/conf"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-item/conf"
+	"github.com/namelessup/bilibili/library/log"
 	"io/ioutil"
 	"net/http"
 	"net/url"

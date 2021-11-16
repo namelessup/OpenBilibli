@@ -1,11 +1,11 @@
 package block
 
 import (
-	model "go-common/app/admin/main/member/model/block"
-	service "go-common/app/admin/main/member/service/block"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/permit"
+	model "github.com/namelessup/bilibili/app/admin/main/member/model/block"
+	service "github.com/namelessup/bilibili/app/admin/main/member/service/block"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/permit"
 
 	"github.com/pkg/errors"
 )

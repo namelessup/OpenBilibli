@@ -4,15 +4,15 @@ import (
 	"context"
 	"fmt"
 
-	pb "go-common/app/service/main/coin/api"
-	"go-common/app/service/main/coin/dao"
-	mml "go-common/app/service/main/member/api"
-	mml2 "go-common/app/service/main/member/model"
-	"go-common/app/service/main/member/model/block"
-	bml "go-common/app/service/main/member/model/block"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup.v2"
+	pb "github.com/namelessup/bilibili/app/service/main/coin/api"
+	"github.com/namelessup/bilibili/app/service/main/coin/dao"
+	mml "github.com/namelessup/bilibili/app/service/main/member/api"
+	mml2 "github.com/namelessup/bilibili/app/service/main/member/model"
+	"github.com/namelessup/bilibili/app/service/main/member/model/block"
+	bml "github.com/namelessup/bilibili/app/service/main/member/model/block"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup.v2"
 )
 
 func boolToInt32(b bool) int32 {

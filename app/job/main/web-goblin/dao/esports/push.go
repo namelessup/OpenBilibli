@@ -14,9 +14,9 @@ import (
 	"strconv"
 	"time"
 
-	mdlesp "go-common/app/job/main/web-goblin/model/esports"
-	"go-common/library/log"
-	"go-common/library/xstr"
+	mdlesp "github.com/namelessup/bilibili/app/job/main/web-goblin/model/esports"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 const (

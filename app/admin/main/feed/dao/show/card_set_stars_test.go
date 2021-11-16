@@ -1,7 +1,7 @@
 package show
 
 import (
-	"go-common/app/admin/main/feed/model/show"
+	"github.com/namelessup/bilibili/app/admin/main/feed/model/show"
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"

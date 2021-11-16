@@ -12,7 +12,7 @@ go_library(
         "dao.go",
         "grpc.go",
     ],
-    importpath = "go-common/app/admin/main/feed/dao/pgc",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/feed/dao/pgc",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

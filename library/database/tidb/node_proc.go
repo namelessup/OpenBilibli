@@ -3,7 +3,7 @@ package tidb
 import (
 	"time"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (db *DB) nodeproc(e <-chan struct{}) {

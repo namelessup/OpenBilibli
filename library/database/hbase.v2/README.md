@@ -12,8 +12,8 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/conf"
-	"go-common/database/hbase.v2"
+	"github.com/namelessup/bilibili/conf"
+	"github.com/namelessup/bilibili/database/hbase.v2"
 )
 
 func main() {

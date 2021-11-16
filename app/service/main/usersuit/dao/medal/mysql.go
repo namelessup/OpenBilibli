@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/app/service/main/usersuit/model"
-	"go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/service/main/usersuit/model"
+	"github.com/namelessup/bilibili/library/database/sql"
 
 	"github.com/pkg/errors"
 )

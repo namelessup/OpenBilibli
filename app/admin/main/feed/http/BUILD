@@ -15,7 +15,7 @@ go_library(
         "popular.go",
         "search.go",
     ],
-    importpath = "go-common/app/admin/main/feed/http",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/feed/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

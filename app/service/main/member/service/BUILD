@@ -18,7 +18,7 @@ go_library(
         "service.go",
         "user_flag.go",
     ],
-    importpath = "go-common/app/service/main/member/service",
+    importpath = "github.com/namelessup/bilibili/app/service/main/member/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -7,12 +7,12 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/interface/main/app-wall/conf"
-	mobileDao "go-common/app/interface/main/app-wall/dao/mobile"
-	"go-common/app/interface/main/app-wall/model"
-	"go-common/app/interface/main/app-wall/model/mobile"
-	"go-common/library/log"
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/app/interface/main/app-wall/conf"
+	mobileDao "github.com/namelessup/bilibili/app/interface/main/app-wall/dao/mobile"
+	"github.com/namelessup/bilibili/app/interface/main/app-wall/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-wall/model/mobile"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/stat/prom"
 )
 
 type Service struct {

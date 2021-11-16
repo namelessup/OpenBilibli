@@ -15,7 +15,7 @@ go_library(
         "jury.go",
         "labour.go",
     ],
-    importpath = "go-common/app/interface/main/credit/http",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/credit/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

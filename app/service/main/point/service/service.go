@@ -6,10 +6,10 @@ import (
 	"time"
 	"unsafe"
 
-	"go-common/app/service/main/point/conf"
-	"go-common/app/service/main/point/dao"
-	"go-common/app/service/main/point/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/point/conf"
+	"github.com/namelessup/bilibili/app/service/main/point/dao"
+	"github.com/namelessup/bilibili/app/service/main/point/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Service struct

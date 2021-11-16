@@ -1,7 +1,7 @@
 package retry
 
 import (
-	"go-common/app/job/main/archive/model/result"
+	"github.com/namelessup/bilibili/app/job/main/archive/model/result"
 )
 
 const (

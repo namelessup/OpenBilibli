@@ -3,10 +3,10 @@ package service
 import (
 	"context"
 
-	"go-common/app/interface/main/laser/conf"
-	"go-common/app/interface/main/laser/dao"
-	"go-common/library/log"
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/app/interface/main/laser/conf"
+	"github.com/namelessup/bilibili/app/interface/main/laser/dao"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/stat/prom"
 )
 
 type Service struct {

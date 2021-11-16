@@ -2,7 +2,7 @@ package dao
 
 import (
 	"context"
-	"go-common/app/service/openplatform/ticket-item/model"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-item/model"
 	"strconv"
 	"testing"
 	"time"

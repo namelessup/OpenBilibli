@@ -1,6 +1,6 @@
 package model
 
-import xtime "go-common/library/time"
+import xtime "github.com/namelessup/bilibili/library/time"
 
 // DirConfig dir config
 type DirConfig struct {

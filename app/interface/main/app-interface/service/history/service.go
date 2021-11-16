@@ -1,9 +1,9 @@
 package history
 
 import (
-	"go-common/app/interface/main/app-interface/conf"
-	historydao "go-common/app/interface/main/app-interface/dao/history"
-	livedao "go-common/app/interface/main/app-interface/dao/live"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/conf"
+	historydao "github.com/namelessup/bilibili/app/interface/main/app-interface/dao/history"
+	livedao "github.com/namelessup/bilibili/app/interface/main/app-interface/dao/live"
 )
 
 // Service service struct

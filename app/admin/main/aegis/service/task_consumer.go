@@ -3,10 +3,10 @@ package service
 import (
 	"context"
 
-	"go-common/app/admin/main/aegis/model/common"
-	"go-common/app/admin/main/aegis/model/task"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model/common"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model/task"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 // On 上线

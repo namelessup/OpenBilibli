@@ -5,8 +5,8 @@ import (
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"
-	"go-common/app/interface/main/growup/model"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/main/growup/model"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 func TestDaoArticleStat(t *testing.T) {

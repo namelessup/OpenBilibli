@@ -1,11 +1,11 @@
 package rpc
 
 import (
-	"go-common/app/service/main/figure/conf"
-	"go-common/app/service/main/figure/model"
-	"go-common/app/service/main/figure/service"
-	"go-common/library/net/rpc"
-	"go-common/library/net/rpc/context"
+	"github.com/namelessup/bilibili/app/service/main/figure/conf"
+	"github.com/namelessup/bilibili/app/service/main/figure/model"
+	"github.com/namelessup/bilibili/app/service/main/figure/service"
+	"github.com/namelessup/bilibili/library/net/rpc"
+	"github.com/namelessup/bilibili/library/net/rpc/context"
 )
 
 // RPC server def.

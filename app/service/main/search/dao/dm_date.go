@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"go-common/app/service/main/search/model"
+	"github.com/namelessup/bilibili/app/service/main/search/model"
 
 	elastic "gopkg.in/olivere/elastic.v5"
 )

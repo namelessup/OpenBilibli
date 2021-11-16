@@ -3,9 +3,9 @@ package thirdp
 import (
 	"context"
 	"fmt"
-	"go-common/app/interface/main/tv/model/thirdp"
-	"go-common/library/database/sql"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/tv/model/thirdp"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"go-common/app/job/main/credit-timer/conf"
+	"github.com/namelessup/bilibili/app/job/main/credit-timer/conf"
 
 	_ "github.com/go-sql-driver/mysql"
 	"gopkg.in/h2non/gock.v1"

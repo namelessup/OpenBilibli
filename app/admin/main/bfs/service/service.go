@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"go-common/app/admin/main/bfs/conf"
-	"go-common/app/admin/main/bfs/dao"
+	"github.com/namelessup/bilibili/app/admin/main/bfs/conf"
+	"github.com/namelessup/bilibili/app/admin/main/bfs/dao"
 )
 
 // Service struct

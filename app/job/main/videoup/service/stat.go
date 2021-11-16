@@ -4,10 +4,10 @@ import (
 	"context"
 	"encoding/json"
 
-	"go-common/app/job/main/videoup/model/archive"
-	"go-common/app/job/main/videoup/model/message"
-	"go-common/library/database/sql"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/videoup/model/archive"
+	"github.com/namelessup/bilibili/app/job/main/videoup/model/message"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // statConsumer is stat message consumer.

@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["card.go"],
-    importpath = "go-common/app/interface/main/account/service/card",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/account/service/card",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

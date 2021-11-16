@@ -15,7 +15,7 @@ go_binary(
 go_library(
     name = "go_default_library",
     srcs = ["main.go"],
-    importpath = "go-common/app/service/video/stream-mng/cmd/client",
+    importpath = "github.com/namelessup/bilibili/app/service/video/stream-mng/cmd/client",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

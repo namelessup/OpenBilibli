@@ -4,7 +4,7 @@ import (
 	"image"
 	"io"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Pixel get width height

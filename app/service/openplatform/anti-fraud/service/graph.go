@@ -2,11 +2,11 @@ package service
 
 import (
 	"context"
-	gtm "go-common/app/common/openplatform/geetest/model"
-	gtsvc "go-common/app/common/openplatform/geetest/service"
-	"go-common/app/service/openplatform/anti-fraud/api/grpc/v1"
-	"go-common/app/service/openplatform/anti-fraud/model"
-	"go-common/library/ecode"
+	gtm "github.com/namelessup/bilibili/app/common/openplatform/geetest/model"
+	gtsvc "github.com/namelessup/bilibili/app/common/openplatform/geetest/service"
+	"github.com/namelessup/bilibili/app/service/openplatform/anti-fraud/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/openplatform/anti-fraud/model"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 //GraphPrepare 拉起图片验证

@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 // Env Env.

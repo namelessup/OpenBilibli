@@ -22,7 +22,7 @@ getApp(){
             break
         fi
         dirs[n]=$cur
-        if [ "${dirs[n]}" == "go-common" ] && [ "${dirs[n-1]}" == "app" ]; then
+        if [ "${dirs[n]}" == "github.com/namelessup/bilibili" ] && [ "${dirs[n-1]}" == "app" ]; then
             if [ $n -lt $depts ]; then
                 break
             fi
@@ -38,7 +38,7 @@ getApp(){
         let n=n+1
         cd ..
     done
-    echo "must be run in go-common app directory" >&2
+    echo "must be run in github.com/namelessup/bilibili app directory" >&2
     exit 1
 }
 

@@ -21,7 +21,7 @@ go_library(
         "coin.go",
         "mock.go",
     ],
-    importpath = "go-common/app/service/main/coin/api/gorpc",
+    importpath = "github.com/namelessup/bilibili/app/service/main/coin/api/gorpc",
     tags = ["automanaged"],
     deps = [
         "//app/service/main/coin/model:go_default_library",

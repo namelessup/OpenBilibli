@@ -6,11 +6,11 @@ import (
 	"net/url"
 	"strconv"
 
-	model "go-common/app/interface/main/credit/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
-	"go-common/library/xstr"
+	model "github.com/namelessup/bilibili/app/interface/main/credit/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/xstr"
 
 	"github.com/pkg/errors"
 )

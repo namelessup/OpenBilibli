@@ -10,7 +10,7 @@ go_library(
         "conf.go",
         "filter.go",
     ],
-    importpath = "go-common/app/interface/bbq/app-bbq/conf",
+    importpath = "github.com/namelessup/bilibili/app/interface/bbq/app-bbq/conf",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

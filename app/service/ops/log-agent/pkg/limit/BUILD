@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["limit.go"],
-    importpath = "go-common/app/service/ops/log-agent/pkg/limit",
+    importpath = "github.com/namelessup/bilibili/app/service/ops/log-agent/pkg/limit",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

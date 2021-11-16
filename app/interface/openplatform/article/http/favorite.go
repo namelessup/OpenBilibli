@@ -3,14 +3,14 @@ package http
 import (
 	"strconv"
 
-	"go-common/app/interface/openplatform/article/conf"
-	"go-common/app/interface/openplatform/article/dao"
-	artmdl "go-common/app/interface/openplatform/article/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/log/infoc"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/openplatform/article/conf"
+	"github.com/namelessup/bilibili/app/interface/openplatform/article/dao"
+	artmdl "github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/log/infoc"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 func addFavorite(c *bm.Context) {

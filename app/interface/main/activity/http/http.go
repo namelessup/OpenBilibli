@@ -3,17 +3,17 @@ package http
 import (
 	"net/http"
 
-	"go-common/app/interface/main/activity/conf"
-	"go-common/app/interface/main/activity/service/bnj"
-	"go-common/app/interface/main/activity/service/bws"
-	"go-common/app/interface/main/activity/service/kfc"
-	"go-common/app/interface/main/activity/service/like"
-	"go-common/app/interface/main/activity/service/sports"
-	"go-common/app/interface/main/activity/service/timemachine"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/auth"
-	"go-common/library/net/http/blademaster/middleware/verify"
+	"github.com/namelessup/bilibili/app/interface/main/activity/conf"
+	"github.com/namelessup/bilibili/app/interface/main/activity/service/bnj"
+	"github.com/namelessup/bilibili/app/interface/main/activity/service/bws"
+	"github.com/namelessup/bilibili/app/interface/main/activity/service/kfc"
+	"github.com/namelessup/bilibili/app/interface/main/activity/service/like"
+	"github.com/namelessup/bilibili/app/interface/main/activity/service/sports"
+	"github.com/namelessup/bilibili/app/interface/main/activity/service/timemachine"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/auth"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/verify"
 )
 
 var (

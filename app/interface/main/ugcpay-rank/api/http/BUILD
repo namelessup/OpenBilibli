@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["model.go"],
-    importpath = "go-common/app/interface/main/ugcpay-rank/api/http",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/ugcpay-rank/api/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//app/service/main/ugcpay-rank/api/http:go_default_library"],

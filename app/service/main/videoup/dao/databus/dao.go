@@ -3,9 +3,9 @@ package databus
 import (
 	"context"
 
-	"go-common/app/service/main/videoup/conf"
-	"go-common/library/cache/redis"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/videoup/conf"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Dao is redis dao.

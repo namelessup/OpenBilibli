@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["game.go"],
-    importpath = "go-common/app/interface/main/app-view/model/game",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-view/model/game",
     tags = ["automanaged"],
 )
 

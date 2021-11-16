@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"go-common/app/admin/main/aegis/model/net"
-	"go-common/app/admin/main/aegis/model/svg"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model/net"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model/svg"
 )
 
 //NetSVG 绘制网的svg图

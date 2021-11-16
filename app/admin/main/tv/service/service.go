@@ -2,15 +2,15 @@ package service
 
 import (
 	"context"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 	"time"
 
-	"go-common/app/admin/main/tv/conf"
-	"go-common/app/admin/main/tv/dao"
-	"go-common/app/admin/main/tv/model"
-	acccli "go-common/app/service/main/account/api"
-	arccli "go-common/app/service/main/archive/api"
-	httpx "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/tv/conf"
+	"github.com/namelessup/bilibili/app/admin/main/tv/dao"
+	"github.com/namelessup/bilibili/app/admin/main/tv/model"
+	acccli "github.com/namelessup/bilibili/app/service/main/account/api"
+	arccli "github.com/namelessup/bilibili/app/service/main/archive/api"
+	httpx "github.com/namelessup/bilibili/library/net/http/blademaster"
 
 	"github.com/jinzhu/gorm"
 )

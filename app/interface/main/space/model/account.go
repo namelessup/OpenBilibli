@@ -1,7 +1,7 @@
 package model
 
 import (
-	accmdl "go-common/app/service/main/account/api"
+	accmdl "github.com/namelessup/bilibili/app/service/main/account/api"
 )
 
 // NavNum nav num struct.

@@ -1,8 +1,8 @@
 package feed
 
 import (
-	"go-common/app/interface/main/app-feed/model"
-	"go-common/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/app/interface/main/app-feed/model"
+	"github.com/namelessup/bilibili/app/service/main/archive/model/archive"
 	"strconv"
 )
 

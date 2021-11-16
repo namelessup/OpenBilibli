@@ -4,15 +4,15 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/interface/main/creative/conf"
-	"go-common/app/interface/main/creative/dao/academy"
-	"go-common/app/interface/main/creative/dao/archive"
-	"go-common/app/interface/main/creative/dao/article"
-	"go-common/app/interface/main/creative/dao/resource"
-	acaMdl "go-common/app/interface/main/creative/model/academy"
-	"go-common/app/interface/main/creative/service"
+	"github.com/namelessup/bilibili/app/interface/main/creative/conf"
+	"github.com/namelessup/bilibili/app/interface/main/creative/dao/academy"
+	"github.com/namelessup/bilibili/app/interface/main/creative/dao/archive"
+	"github.com/namelessup/bilibili/app/interface/main/creative/dao/article"
+	"github.com/namelessup/bilibili/app/interface/main/creative/dao/resource"
+	acaMdl "github.com/namelessup/bilibili/app/interface/main/creative/model/academy"
+	"github.com/namelessup/bilibili/app/interface/main/creative/service"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 //Service struct

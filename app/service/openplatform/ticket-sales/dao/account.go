@@ -3,8 +3,8 @@ package dao
 import (
 	"context"
 
-	acc "go-common/app/service/main/account/api"
-	"go-common/library/net/metadata"
+	acc "github.com/namelessup/bilibili/app/service/main/account/api"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 //GetUserCards 获取用户卡片信息

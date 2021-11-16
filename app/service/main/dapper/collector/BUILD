@@ -15,7 +15,7 @@ go_library(
         "operation_name.go",
         "process.go",
     ],
-    importpath = "go-common/app/service/main/dapper/collector",
+    importpath = "github.com/namelessup/bilibili/app/service/main/dapper/collector",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

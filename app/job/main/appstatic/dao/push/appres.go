@@ -6,10 +6,10 @@ import (
 	"strings"
 	"time"
 
-	appres "go-common/app/interface/main/app-resource/api/v1"
-	"go-common/library/log"
-	"go-common/library/naming/discovery"
-	"go-common/library/net/rpc/warden"
+	appres "github.com/namelessup/bilibili/app/interface/main/app-resource/api/v1"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/naming/discovery"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 )
 
 func errlog(step string, err error) {

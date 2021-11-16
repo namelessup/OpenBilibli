@@ -12,11 +12,11 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"go-common/app/service/openplatform/ticket-item/model"
-	"go-common/library/cache/redis"
-	"go-common/library/database/elastic"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-item/model"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/database/elastic"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/jinzhu/gorm"
 )

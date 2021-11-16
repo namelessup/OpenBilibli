@@ -32,9 +32,9 @@ import (
 	"strings"
 	"unicode"
 
-	"go-common/app/tool/liverpc/protoc-gen-liverpc/gen"
-	"go-common/app/tool/liverpc/protoc-gen-liverpc/gen/stringutils"
-	"go-common/app/tool/liverpc/protoc-gen-liverpc/gen/typemap"
+	"github.com/namelessup/bilibili/app/tool/liverpc/protoc-gen-liverpc/gen"
+	"github.com/namelessup/bilibili/app/tool/liverpc/protoc-gen-liverpc/gen/stringutils"
+	"github.com/namelessup/bilibili/app/tool/liverpc/protoc-gen-liverpc/gen/typemap"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/protoc-gen-go/descriptor"
@@ -84,12 +84,12 @@ type bm struct {
 	deps map[string]string
 }
 
-// if current dir is a go-common project
-// or is the internal directory of a go-common project
+// if current dir is a github.com/namelessup/bilibili project
+// or is the internal directory of a github.com/namelessup/bilibili project
 // this present a project info
 type projectInfo struct {
 	absolutePath string
-	// relative to go-common
+	// relative to github.com/namelessup/bilibili
 	importPath string
 	name       string
 	department string
@@ -220,9 +220,9 @@ func (t *bm) initProjInfo(file *descriptor.FileDescriptorProto) {
 		panic("cannot get working directory")
 	}
 	protoAbs := wd + "/" + file.GetName()
-	appIndex := strings.Index(wd, "go-common/app/")
+	appIndex := strings.Index(wd, "github.com/namelessup/bilibili/app/")
 	if appIndex == -1 {
-		err = errors.New("not in go-common/app/")
+		err = errors.New("not in github.com/namelessup/bilibili/app/")
 		return
 	}
 
@@ -248,8 +248,8 @@ func (t *bm) initProjInfo(file *descriptor.FileDescriptorProto) {
 		projInfo.hasInternalPkg = true
 	}
 
-	relativePath := projInfo.absolutePath[appIndex+len("go-common/app/"):]
-	projInfo.importPath = "go-common/app/" + relativePath
+	relativePath := projInfo.absolutePath[appIndex+len("github.com/namelessup/bilibili/app/"):]
+	projInfo.importPath = "github.com/namelessup/bilibili/app/" + relativePath
 	split := strings.Split(relativePath, "/")
 	projInfo.typ = split[0]
 	projInfo.department = split[1]
@@ -816,7 +816,7 @@ func (t *bm) generateFileHeader(file *descriptor.FileDescriptorProto, pkgName st
 	if t.filesHandled == 0 {
 		t.P("/*")
 		t.P("Package ", t.genPkgName, " is a generated blademaster stub package.")
-		t.P("This code was generated with go-common/app/tool/bmgen/protoc-gen-bm ", gen.Version, ".")
+		t.P("This code was generated with github.com/namelessup/bilibili/app/tool/bmgen/protoc-gen-bm ", gen.Version, ".")
 		t.P()
 		comment, err := t.reg.FileComments(file)
 		if err == nil && comment.Leading != "" {
@@ -846,8 +846,8 @@ func (t *bm) generateImports(file *descriptor.FileDescriptorProto) {
 	//t.P(`	`,t.pkgs["context"], ` "context"`)
 	t.P(`	"context"`)
 	t.P()
-	t.P(`	bm "go-common/library/net/http/blademaster"`)
-	t.P(`	"go-common/library/net/http/blademaster/binding"`)
+	t.P(`	bm "github.com/namelessup/bilibili/library/net/http/blademaster"`)
+	t.P(`	"github.com/namelessup/bilibili/library/net/http/blademaster/binding"`)
 
 	t.P(`)`)
 	// It's legal to import a message and use it as an input or output for a
@@ -922,9 +922,9 @@ func (t *bm) getPbImportPath(filename string) (importPath string) {
 	if err != nil {
 		panic("cannot get working directory")
 	}
-	index := strings.Index(wd, "go-common")
+	index := strings.Index(wd, "github.com/namelessup/bilibili")
 	if index == -1 {
-		gen.Fail("must use inside go-common")
+		gen.Fail("must use inside github.com/namelessup/bilibili")
 	}
 	dir := filepath.Dir(filename)
 	if dir != "." {
@@ -942,9 +942,9 @@ func (t *bm) getProjPath() string {
 	if err != nil {
 		panic("cannot get working directory")
 	}
-	index := strings.Index(wd, "go-common")
+	index := strings.Index(wd, "github.com/namelessup/bilibili")
 	if index == -1 {
-		gen.Fail("must use inside go-common")
+		gen.Fail("must use inside github.com/namelessup/bilibili")
 	}
 	projPkgPath := wd[index:]
 	return projPkgPath

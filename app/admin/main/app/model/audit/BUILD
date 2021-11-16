@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["audit.go"],
-    importpath = "go-common/app/admin/main/app/model/audit",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/app/model/audit",
     tags = ["automanaged"],
 )
 

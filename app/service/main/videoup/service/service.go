@@ -6,25 +6,25 @@ import (
 	"sync"
 	"time"
 
-	"go-common/app/interface/main/mcn/tool/worker"
-	accrpc "go-common/app/service/main/account/api"
-	"go-common/app/service/main/videoup/conf"
-	"go-common/app/service/main/videoup/dao/agent"
-	"go-common/app/service/main/videoup/dao/archive"
-	"go-common/app/service/main/videoup/dao/bgm"
-	busdao "go-common/app/service/main/videoup/dao/databus"
-	"go-common/app/service/main/videoup/dao/dede"
-	"go-common/app/service/main/videoup/dao/manager"
-	"go-common/app/service/main/videoup/dao/monitor"
-	"go-common/app/service/main/videoup/dao/msg"
-	"go-common/app/service/main/videoup/dao/relation"
-	"go-common/app/service/main/videoup/dao/ups"
-	arcmdl "go-common/app/service/main/videoup/model/archive"
-	ddmdl "go-common/app/service/main/videoup/model/dede"
-	msgmdl "go-common/app/service/main/videoup/model/message"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/app/interface/main/mcn/tool/worker"
+	accrpc "github.com/namelessup/bilibili/app/service/main/account/api"
+	"github.com/namelessup/bilibili/app/service/main/videoup/conf"
+	"github.com/namelessup/bilibili/app/service/main/videoup/dao/agent"
+	"github.com/namelessup/bilibili/app/service/main/videoup/dao/archive"
+	"github.com/namelessup/bilibili/app/service/main/videoup/dao/bgm"
+	busdao "github.com/namelessup/bilibili/app/service/main/videoup/dao/databus"
+	"github.com/namelessup/bilibili/app/service/main/videoup/dao/dede"
+	"github.com/namelessup/bilibili/app/service/main/videoup/dao/manager"
+	"github.com/namelessup/bilibili/app/service/main/videoup/dao/monitor"
+	"github.com/namelessup/bilibili/app/service/main/videoup/dao/msg"
+	"github.com/namelessup/bilibili/app/service/main/videoup/dao/relation"
+	"github.com/namelessup/bilibili/app/service/main/videoup/dao/ups"
+	arcmdl "github.com/namelessup/bilibili/app/service/main/videoup/model/archive"
+	ddmdl "github.com/namelessup/bilibili/app/service/main/videoup/model/dede"
+	msgmdl "github.com/namelessup/bilibili/app/service/main/videoup/model/message"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
+	"github.com/namelessup/bilibili/library/stat/prom"
 )
 
 // Service is service.
@@ -72,7 +72,7 @@ type Service struct {
 	accRPC accrpc.AccountClient
 }
 
-// New is go-common/app/service/videoup service implementation.
+// New is github.com/namelessup/bilibili/app/service/videoup service implementation.
 func New(c *conf.Config) (s *Service) {
 	s = &Service{
 		c:            c,

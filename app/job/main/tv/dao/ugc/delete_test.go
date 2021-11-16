@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"go-common/app/job/main/tv/model/ugc"
-	arccli "go-common/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/app/job/main/tv/model/ugc"
+	arccli "github.com/namelessup/bilibili/app/service/main/archive/api"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

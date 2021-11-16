@@ -22,7 +22,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["language.go"],
-    importpath = "go-common/app/admin/main/app/service/language",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/app/service/language",
     tags = ["automanaged"],
     deps = [
         "//app/admin/main/app/conf:go_default_library",

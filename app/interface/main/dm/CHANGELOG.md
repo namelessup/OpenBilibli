@@ -309,7 +309,7 @@
 > 1. 弹幕举报超过10次自动删除
 
 #### Version 3.6.2
-> 1. 使用go-common/cache包进行异步缓存回刷屏蔽词缓存
+> 1. 使用github.com/namelessup/bilibili/cache包进行异步缓存回刷屏蔽词缓存
 > 2. 增加一些单元测试
 
 #### Version 3.6.1
@@ -324,7 +324,7 @@
 #### Version 3.5.0
 > 1. 加入普罗米修斯监控
 > 2. 接入logagent
-> 3. 修复go-common中的一个bug
+> 3. 修复github.com/namelessup/bilibili中的一个bug
 > 4. 弹幕已举报后重复举报则状态不再改变
 
 #### Version 3.4.3
@@ -393,7 +393,7 @@
 
 > 1. 修复屏蔽词可以重复添加的bug
 > 2. 修复屏蔽词内容为空的bug
-> 3. 更新go-common go-business
+> 3. 更新github.com/namelessup/bilibili go-business
 
 #### Version 3.0.6
 

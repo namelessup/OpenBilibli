@@ -9,11 +9,11 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/job/main/sms/dao"
-	"go-common/app/job/main/sms/model"
-	smsmdl "go-common/app/service/main/sms/model"
-	"go-common/library/conf/env"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/sms/dao"
+	"github.com/namelessup/bilibili/app/job/main/sms/model"
+	smsmdl "github.com/namelessup/bilibili/app/service/main/sms/model"
+	"github.com/namelessup/bilibili/library/conf/env"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const _retry = 3

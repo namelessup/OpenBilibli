@@ -3,10 +3,10 @@ package archive
 import (
 	"context"
 
-	"go-common/app/interface/main/creative/model/archive"
-	pubSvc "go-common/app/interface/main/creative/service"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/archive"
+	pubSvc "github.com/namelessup/bilibili/app/interface/main/creative/service"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // HistoryList get the history of aid

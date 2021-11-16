@@ -22,7 +22,7 @@ go_library(
         "key.go",
         "main.go",
     ],
-    importpath = "go-common/app/interface/main/account/service/realname/crypto",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/account/service/realname/crypto",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//vendor/github.com/pkg/errors:go_default_library"],

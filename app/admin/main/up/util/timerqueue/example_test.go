@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"go-common/app/admin/main/up/util/timerqueue"
+	"github.com/namelessup/bilibili/app/admin/main/up/util/timerqueue"
 )
 
 type event int

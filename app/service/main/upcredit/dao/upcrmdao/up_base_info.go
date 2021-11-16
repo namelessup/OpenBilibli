@@ -3,9 +3,9 @@ package upcrmdao
 import (
 	"fmt"
 	"github.com/siddontang/go-mysql/mysql"
-	"go-common/app/service/main/upcredit/model/upcrmmodel"
-	"go-common/library/log"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/service/main/upcredit/model/upcrmmodel"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
 	"strings"
 	"time"
 )

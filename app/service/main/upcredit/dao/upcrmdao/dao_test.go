@@ -3,7 +3,7 @@ package upcrmdao
 import (
 	"flag"
 	"github.com/go-sql-driver/mysql"
-	"go-common/app/service/main/upcredit/conf"
+	"github.com/namelessup/bilibili/app/service/main/upcredit/conf"
 	"os"
 	"testing"
 )

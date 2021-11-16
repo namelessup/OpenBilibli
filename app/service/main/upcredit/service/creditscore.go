@@ -2,12 +2,12 @@ package service
 
 import (
 	"context"
-	"go-common/app/service/main/upcredit/common/fsm"
-	"go-common/app/service/main/upcredit/conf"
-	"go-common/app/service/main/upcredit/mathutil"
-	"go-common/app/service/main/upcredit/model/calculator"
-	"go-common/app/service/main/upcredit/model/upcrmmodel"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/upcredit/common/fsm"
+	"github.com/namelessup/bilibili/app/service/main/upcredit/conf"
+	"github.com/namelessup/bilibili/app/service/main/upcredit/mathutil"
+	"github.com/namelessup/bilibili/app/service/main/upcredit/model/calculator"
+	"github.com/namelessup/bilibili/app/service/main/upcredit/model/upcrmmodel"
+	"github.com/namelessup/bilibili/library/log"
 	"time"
 )
 

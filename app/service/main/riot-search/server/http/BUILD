@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["http.go"],
-    importpath = "go-common/app/service/main/riot-search/server/http",
+    importpath = "github.com/namelessup/bilibili/app/service/main/riot-search/server/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

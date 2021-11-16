@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["model.go"],
-    importpath = "go-common/app/job/main/member-cache/model",
+    importpath = "github.com/namelessup/bilibili/app/job/main/member-cache/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

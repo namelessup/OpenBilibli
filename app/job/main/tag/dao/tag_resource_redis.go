@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/app/job/main/tag/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/tag/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

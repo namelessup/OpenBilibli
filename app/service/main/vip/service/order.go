@@ -7,11 +7,11 @@ import (
 	"strconv"
 	"time"
 
-	memmdl "go-common/app/service/main/member/model"
-	"go-common/app/service/main/vip/model"
-	xsql "go-common/library/database/sql"
-	"go-common/library/ecode"
-	"go-common/library/net/metadata"
+	memmdl "github.com/namelessup/bilibili/app/service/main/member/model"
+	"github.com/namelessup/bilibili/app/service/main/vip/model"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/net/metadata"
 
 	"github.com/pkg/errors"
 	"github.com/satori/go.uuid"

@@ -12,7 +12,7 @@ go_library(
         "genbm.go",
         "http_descriptor.go",
     ],
-    importpath = "go-common/app/tool/protoc-gen-bm/genbm",
+    importpath = "github.com/namelessup/bilibili/app/tool/protoc-gen-bm/genbm",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

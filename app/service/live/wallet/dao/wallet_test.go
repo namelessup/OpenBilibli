@@ -7,11 +7,11 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/service/live/wallet/conf"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/live/wallet/conf"
+	"github.com/namelessup/bilibili/library/log"
 
 	. "github.com/smartystreets/goconvey/convey"
-	"go-common/app/service/live/wallet/model"
+	"github.com/namelessup/bilibili/app/service/live/wallet/model"
 	"math/rand"
 )
 

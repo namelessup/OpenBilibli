@@ -11,7 +11,7 @@ go_library(
         "resolver.go",
         "util.go",
     ],
-    importpath = "go-common/library/net/rpc/warden/resolver",
+    importpath = "github.com/namelessup/bilibili/library/net/rpc/warden/resolver",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

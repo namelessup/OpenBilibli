@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"go-common/library/conf/env"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/library/conf/env"
+	"github.com/namelessup/bilibili/library/net/metadata"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

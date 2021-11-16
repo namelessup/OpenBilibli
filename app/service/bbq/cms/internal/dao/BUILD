@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["dao.go"],
-    importpath = "go-common/app/service/bbq/cms/internal/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/bbq/cms/internal/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

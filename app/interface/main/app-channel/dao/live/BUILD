@@ -21,7 +21,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["live.go"],
-    importpath = "go-common/app/interface/main/app-channel/dao/live",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-channel/dao/live",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -5,9 +5,9 @@ import (
 	"os"
 	"sync"
 
-	"go-common/app/infra/discovery/conf"
-	"go-common/app/infra/discovery/dao"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/infra/discovery/conf"
+	"github.com/namelessup/bilibili/app/infra/discovery/dao"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // Service discovery main service

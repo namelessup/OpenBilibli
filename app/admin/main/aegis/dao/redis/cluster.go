@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"time"
 
-	modtask "go-common/app/admin/main/aegis/model/task"
-	"go-common/library/cache/redis"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	modtask "github.com/namelessup/bilibili/app/admin/main/aegis/model/task"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/pkg/errors"
 )

@@ -1,6 +1,6 @@
 package dao
 
-import "go-common/app/service/main/antispam/util"
+import "github.com/namelessup/bilibili/app/service/main/antispam/util"
 
 // Condition .
 type Condition struct {

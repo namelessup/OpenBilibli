@@ -3,10 +3,10 @@ package service
 import (
 	"context"
 
-	"go-common/app/admin/main/dm/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/admin/main/dm/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 // MonitorList get monitor list

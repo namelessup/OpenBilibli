@@ -2,7 +2,7 @@ package dao
 
 import (
 	"flag"
-	"go-common/app/service/video/stream-mng/conf"
+	"github.com/namelessup/bilibili/app/service/video/stream-mng/conf"
 	"os"
 	"testing"
 )

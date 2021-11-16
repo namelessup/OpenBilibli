@@ -13,7 +13,7 @@ import (
 	"strings"
 	"text/template"
 
-	"go-common/app/tool/cache/common"
+	"github.com/namelessup/bilibili/app/tool/cache/common"
 )
 
 var (

@@ -10,12 +10,12 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/admin/main/credit/model/blocked"
-	"go-common/app/admin/main/workflow/model"
-	"go-common/app/admin/main/workflow/model/param"
-	"go-common/app/admin/main/workflow/model/search"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/credit/model/blocked"
+	"github.com/namelessup/bilibili/app/admin/main/workflow/model"
+	"github.com/namelessup/bilibili/app/admin/main/workflow/model/param"
+	"github.com/namelessup/bilibili/app/admin/main/workflow/model/search"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/jinzhu/gorm"
 	"golang.org/x/sync/errgroup"

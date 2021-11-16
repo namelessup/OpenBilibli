@@ -7,10 +7,10 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/job/main/videoup/model/archive"
-	"go-common/app/job/main/videoup/model/message"
-	"go-common/app/job/main/videoup/model/redis"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/videoup/model/archive"
+	"github.com/namelessup/bilibili/app/job/main/videoup/model/message"
+	"github.com/namelessup/bilibili/app/job/main/videoup/model/redis"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) sendChangeMsg(c context.Context, a *archive.Archive, v *archive.Video, m *message.Videoup) (err error) {

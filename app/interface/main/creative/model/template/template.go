@@ -1,6 +1,6 @@
 package template
 
-import "go-common/library/time"
+import "github.com/namelessup/bilibili/library/time"
 
 const (
 	// StateNormal 正常

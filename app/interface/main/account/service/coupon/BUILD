@@ -23,7 +23,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["coupon.go"],
-    importpath = "go-common/app/interface/main/account/service/coupon",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/account/service/coupon",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

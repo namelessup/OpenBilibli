@@ -3,7 +3,7 @@ package dao
 import (
 	"strings"
 
-	"go-common/app/admin/main/growup/model"
+	"github.com/namelessup/bilibili/app/admin/main/growup/model"
 )
 
 // ListBlacklist find blacklist by query

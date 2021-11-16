@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["whitelist.go"],
-    importpath = "go-common/app/admin/main/creative/model/whitelist",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/creative/model/whitelist",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

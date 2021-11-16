@@ -3,8 +3,8 @@ package dao
 import (
 	"context"
 
-	plmdl "go-common/app/interface/main/playlist/model"
-	"go-common/app/job/main/playlist/model"
+	plmdl "github.com/namelessup/bilibili/app/interface/main/playlist/model"
+	"github.com/namelessup/bilibili/app/job/main/playlist/model"
 )
 
 const (

@@ -14,7 +14,7 @@ go_library(
         "history.go",
         "user.go",
     ],
-    importpath = "go-common/app/interface/live/web-ucenter/service/v1",
+    importpath = "github.com/namelessup/bilibili/app/interface/live/web-ucenter/service/v1",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

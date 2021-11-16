@@ -6,12 +6,12 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/interface/main/app-view/conf"
-	"go-common/app/interface/main/app-view/model/bangumi"
-	seasongrpc "go-common/app/service/openplatform/pgc-season/api/grpc/season/v1"
-	"go-common/library/ecode"
-	httpx "go-common/library/net/http/blademaster"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/main/app-view/conf"
+	"github.com/namelessup/bilibili/app/interface/main/app-view/model/bangumi"
+	seasongrpc "github.com/namelessup/bilibili/app/service/openplatform/pgc-season/api/grpc/season/v1"
+	"github.com/namelessup/bilibili/library/ecode"
+	httpx "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/metadata"
 
 	"github.com/pkg/errors"
 )

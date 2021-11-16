@@ -7,16 +7,16 @@ import (
 	"os/signal"
 	"syscall"
 
-	"go-common/app/infra/config/conf"
-	"go-common/app/infra/config/http"
-	"go-common/app/infra/config/rpc/server"
-	"go-common/app/infra/config/service/v1"
-	"go-common/app/infra/config/service/v2"
-	"go-common/library/conf/env"
-	"go-common/library/log"
-	"go-common/library/naming"
-	"go-common/library/naming/discovery"
-	xip "go-common/library/net/ip"
+	"github.com/namelessup/bilibili/app/infra/config/conf"
+	"github.com/namelessup/bilibili/app/infra/config/http"
+	"github.com/namelessup/bilibili/app/infra/config/rpc/server"
+	"github.com/namelessup/bilibili/app/infra/config/service/v1"
+	"github.com/namelessup/bilibili/app/infra/config/service/v2"
+	"github.com/namelessup/bilibili/library/conf/env"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/naming"
+	"github.com/namelessup/bilibili/library/naming/discovery"
+	xip "github.com/namelessup/bilibili/library/net/ip"
 )
 
 func main() {

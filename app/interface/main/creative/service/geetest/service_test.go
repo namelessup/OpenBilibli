@@ -3,14 +3,14 @@ package geetest
 import (
 	"context"
 	"flag"
-	"go-common/app/interface/main/creative/conf"
-	m "go-common/app/interface/main/creative/model/geetest"
+	"github.com/namelessup/bilibili/app/interface/main/creative/conf"
+	m "github.com/namelessup/bilibili/app/interface/main/creative/model/geetest"
 	"path/filepath"
 	"testing"
 	"time"
 
 	. "github.com/smartystreets/goconvey/convey"
-	"go-common/app/interface/main/creative/service"
+	"github.com/namelessup/bilibili/app/interface/main/creative/service"
 )
 
 var (

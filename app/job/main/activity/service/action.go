@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/job/main/activity/model/like"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/activity/model/like"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // actionDealProc .

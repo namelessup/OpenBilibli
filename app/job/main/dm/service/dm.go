@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 
-	"go-common/app/job/main/dm/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/dm/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // flushTrimQueue 将数据库数据填充到redis中

@@ -4,11 +4,11 @@ import (
 	"context"
 	"sync"
 
-	"go-common/app/interface/main/creative/model/up"
-	upapi "go-common/app/service/main/up/api/v1"
-	upmdl "go-common/app/service/main/up/model"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/up"
+	upapi "github.com/namelessup/bilibili/app/service/main/up/api/v1"
+	upmdl "github.com/namelessup/bilibili/app/service/main/up/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 	"net/url"
 	"strconv"
 )

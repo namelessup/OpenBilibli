@@ -8,8 +8,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"go-common/library/conf/env"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/library/conf/env"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 var _hostHash byte
@@ -52,7 +52,7 @@ type stackTracer interface {
 
 type ctxKey string
 
-var _ctxkey ctxKey = "go-common/net/trace.trace"
+var _ctxkey ctxKey = "github.com/namelessup/bilibili/net/trace.trace"
 
 // FromContext returns the trace bound to the context, if any.
 func FromContext(ctx context.Context) (t Trace, ok bool) {

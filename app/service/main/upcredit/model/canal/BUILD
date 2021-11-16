@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["message.go"],
-    importpath = "go-common/app/service/main/upcredit/model/canal",
+    importpath = "github.com/namelessup/bilibili/app/service/main/upcredit/model/canal",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

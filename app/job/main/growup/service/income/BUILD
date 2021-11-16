@@ -64,7 +64,7 @@ go_library(
         "up_income_stat.go",
         "up_info_video.go",
     ],
-    importpath = "go-common/app/job/main/growup/service/income",
+    importpath = "github.com/namelessup/bilibili/app/job/main/growup/service/income",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

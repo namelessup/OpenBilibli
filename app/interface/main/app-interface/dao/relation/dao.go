@@ -3,10 +3,10 @@ package relation
 import (
 	"context"
 
-	"go-common/app/interface/main/app-interface/conf"
-	relation "go-common/app/service/main/relation/model"
-	relationrpc "go-common/app/service/main/relation/rpc/client"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/conf"
+	relation "github.com/namelessup/bilibili/app/service/main/relation/model"
+	relationrpc "github.com/namelessup/bilibili/app/service/main/relation/rpc/client"
+	"github.com/namelessup/bilibili/library/net/metadata"
 
 	"github.com/pkg/errors"
 )

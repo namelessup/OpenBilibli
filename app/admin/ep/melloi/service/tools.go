@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const pathPerm = 0775

@@ -4,9 +4,9 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	location "go-common/app/service/main/location/api"
-	"go-common/app/service/video/stream-mng/model"
-	"go-common/library/conf/env"
+	location "github.com/namelessup/bilibili/app/service/main/location/api"
+	"github.com/namelessup/bilibili/app/service/video/stream-mng/model"
+	"github.com/namelessup/bilibili/library/conf/env"
 	"net/http"
 )
 

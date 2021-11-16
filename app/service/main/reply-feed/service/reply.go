@@ -4,8 +4,8 @@ import (
 	"context"
 	"sync/atomic"
 
-	"go-common/app/service/main/reply-feed/api"
-	"go-common/app/service/main/reply-feed/model"
+	"github.com/namelessup/bilibili/app/service/main/reply-feed/api"
+	"github.com/namelessup/bilibili/app/service/main/reply-feed/model"
 )
 
 func (s *Service) name(mid int64) (string, bool) {

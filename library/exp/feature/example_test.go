@@ -4,7 +4,7 @@ import (
 	"flag"
 	"fmt"
 
-	"go-common/library/exp/feature"
+	"github.com/namelessup/bilibili/library/exp/feature"
 )
 
 var (

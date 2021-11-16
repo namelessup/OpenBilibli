@@ -6,9 +6,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/stat/summary"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/stat/summary"
 )
 
 // sreBreaker is a sre CircuitBreaker pattern.

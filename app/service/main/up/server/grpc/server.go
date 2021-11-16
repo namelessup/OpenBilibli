@@ -1,9 +1,9 @@
 package grpc
 
 import (
-	uprpc "go-common/app/service/main/up/api/v1"
-	"go-common/app/service/main/up/service"
-	"go-common/library/net/rpc/warden"
+	uprpc "github.com/namelessup/bilibili/app/service/main/up/api/v1"
+	"github.com/namelessup/bilibili/app/service/main/up/service"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 )
 
 // New new a grpc server.

@@ -161,7 +161,7 @@
 
 ### v1.1.3
 1. 稿件过审后加up主推送白名单
-2. 替换prom为go-common中对象
+2. 替换prom为github.com/namelessup/bilibili中对象
 
 ### v1.1.2
 1. 控制databus消费速率

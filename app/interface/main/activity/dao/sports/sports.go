@@ -9,15 +9,15 @@ import (
 	"net/url"
 	"time"
 
-	"go-common/app/interface/main/activity/conf"
-	"go-common/app/interface/main/activity/model/sports"
-	"go-common/library/cache/memcache"
-	"go-common/library/ecode"
-	xecocde "go-common/library/ecode"
-	"go-common/library/log"
-	xhttp "go-common/library/net/http/blademaster"
-	"go-common/library/net/metadata"
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/app/interface/main/activity/conf"
+	"github.com/namelessup/bilibili/app/interface/main/activity/model/sports"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/ecode"
+	xecocde "github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	xhttp "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/stat/prom"
 )
 
 const (

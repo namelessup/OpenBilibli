@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"go-common/app/admin/main/bfs/model"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/admin/main/bfs/model"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 // Total .

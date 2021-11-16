@@ -5,12 +5,12 @@ import (
 	"reflect"
 	"testing"
 
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/library/ecode"
 
 	"github.com/bouk/monkey"
 	"github.com/smartystreets/goconvey/convey"
 	"github.com/tsuna/gohbase/hrpc"
-	hbase "go-common/library/database/hbase.v2"
+	hbase "github.com/namelessup/bilibili/library/database/hbase.v2"
 )
 
 func TestArtThirtyDay(t *testing.T) {

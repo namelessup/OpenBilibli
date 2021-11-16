@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/interface/main/credit/model"
-	"go-common/library/ecode"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/interface/main/credit/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	"github.com/pkg/errors"
 )

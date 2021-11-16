@@ -2,7 +2,7 @@ package service
 
 import (
 	"flag"
-	"go-common/app/admin/main/answer/conf"
+	"github.com/namelessup/bilibili/app/admin/main/answer/conf"
 	"os"
 	"testing"
 

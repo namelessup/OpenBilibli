@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/interface/main/growup/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/growup/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // avStat get stat from hbase.

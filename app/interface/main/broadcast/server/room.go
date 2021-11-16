@@ -3,7 +3,7 @@ package server
 import (
 	"sync"
 
-	"go-common/app/service/main/broadcast/model"
+	"github.com/namelessup/bilibili/app/service/main/broadcast/model"
 )
 
 // Room is a room.

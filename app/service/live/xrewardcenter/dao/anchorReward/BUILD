@@ -16,7 +16,7 @@ go_library(
         "mysql.go",
         "redis.go",
     ],
-    importpath = "go-common/app/service/live/xrewardcenter/dao/anchorReward",
+    importpath = "github.com/namelessup/bilibili/app/service/live/xrewardcenter/dao/anchorReward",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

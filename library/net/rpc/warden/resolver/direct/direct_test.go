@@ -7,11 +7,11 @@ import (
 	"testing"
 	"time"
 
-	"go-common/library/net/netutil/breaker"
-	"go-common/library/net/rpc/warden"
-	pb "go-common/library/net/rpc/warden/proto/testproto"
-	"go-common/library/net/rpc/warden/resolver"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/library/net/netutil/breaker"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
+	pb "github.com/namelessup/bilibili/library/net/rpc/warden/proto/testproto"
+	"github.com/namelessup/bilibili/library/net/rpc/warden/resolver"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 type testServer struct {

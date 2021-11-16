@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/app/job/main/member-cache/conf"
-	"go-common/app/job/main/member-cache/dao"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/job/main/member-cache/conf"
+	"github.com/namelessup/bilibili/app/job/main/member-cache/dao"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 // Service struct

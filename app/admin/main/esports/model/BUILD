@@ -25,7 +25,7 @@ go_library(
         "tree.go",
         "year_map.go",
     ],
-    importpath = "go-common/app/admin/main/esports/model",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/esports/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/xstr:go_default_library"],

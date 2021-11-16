@@ -8,11 +8,11 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/interface/main/app-card/model"
-	"go-common/app/interface/main/app-card/model/card/ai"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/main/app-card/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-card/model/card/ai"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 
 	"github.com/pkg/errors"
 )

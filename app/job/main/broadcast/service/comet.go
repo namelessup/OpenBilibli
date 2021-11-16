@@ -7,10 +7,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	client "go-common/app/interface/main/broadcast/api/grpc/v1"
-	"go-common/app/job/main/broadcast/conf"
-	"go-common/library/log"
-	"go-common/library/naming"
+	client "github.com/namelessup/bilibili/app/interface/main/broadcast/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/job/main/broadcast/conf"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/naming"
 )
 
 // CometOptions comet options.

@@ -7,14 +7,14 @@ import (
 	"strconv"
 	"time"
 
-	upModel "go-common/app/admin/main/growup/model"
-	model "go-common/app/admin/main/growup/model/income"
-	"go-common/app/admin/main/growup/service"
+	upModel "github.com/namelessup/bilibili/app/admin/main/growup/model"
+	model "github.com/namelessup/bilibili/app/admin/main/growup/model/income"
+	"github.com/namelessup/bilibili/app/admin/main/growup/service"
 
-	"go-common/library/database/sql"
-	"go-common/library/log"
-	xtime "go-common/library/time"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
+	"github.com/namelessup/bilibili/library/xstr"
 
 	"golang.org/x/sync/errgroup"
 )

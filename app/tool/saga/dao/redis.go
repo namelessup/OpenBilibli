@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"go-common/app/tool/saga/model"
-	"go-common/library/cache/redis"
+	"github.com/namelessup/bilibili/app/tool/saga/model"
+	"github.com/namelessup/bilibili/library/cache/redis"
 
 	"github.com/pkg/errors"
 )

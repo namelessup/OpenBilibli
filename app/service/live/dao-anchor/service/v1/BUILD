@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["daoAnchor.go"],
-    importpath = "go-common/app/service/live/dao-anchor/service/v1",
+    importpath = "github.com/namelessup/bilibili/app/service/live/dao-anchor/service/v1",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

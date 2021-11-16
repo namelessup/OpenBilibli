@@ -16,7 +16,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["dot.go"],
-    importpath = "go-common/app/admin/main/aegis/model/svg",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/aegis/model/svg",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -1,9 +1,9 @@
 package http
 
 import (
-	api "go-common/app/service/main/ugcpay/api/http"
-	"go-common/app/service/main/ugcpay/model"
-	bm "go-common/library/net/http/blademaster"
+	api "github.com/namelessup/bilibili/app/service/main/ugcpay/api/http"
+	"github.com/namelessup/bilibili/app/service/main/ugcpay/model"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func assetQuery(ctx *bm.Context) {

@@ -3,10 +3,10 @@ package http
 import (
 	"net/http"
 
-	"go-common/app/job/openplatform/open-market/conf"
-	"go-common/app/job/openplatform/open-market/service"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/job/openplatform/open-market/conf"
+	"github.com/namelessup/bilibili/app/job/openplatform/open-market/service"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 var srv *service.Service

@@ -9,7 +9,7 @@ go_library(
         "identify.go",
         "rpc.go",
     ],
-    importpath = "go-common/app/service/main/identify-game/rpc/server",
+    importpath = "github.com/namelessup/bilibili/app/service/main/identify-game/rpc/server",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

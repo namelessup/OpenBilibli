@@ -3,11 +3,11 @@ package resource
 import (
 	"context"
 
-	"go-common/app/interface/main/app-interface/conf"
-	resmdl "go-common/app/service/main/resource/model"
-	resrpc "go-common/app/service/main/resource/rpc/client"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/conf"
+	resmdl "github.com/namelessup/bilibili/app/service/main/resource/model"
+	resrpc "github.com/namelessup/bilibili/app/service/main/resource/rpc/client"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 type Dao struct {

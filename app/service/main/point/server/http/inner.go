@@ -1,6 +1,6 @@
 package http
 
-import bm "go-common/library/net/http/blademaster"
+import bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 
 // innerRouter init local router api path.
 func innerRouter(e *bm.Engine) {

@@ -7,10 +7,10 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/app/job/openplatform/open-market/conf"
-	"go-common/app/job/openplatform/open-market/http"
-	"go-common/app/job/openplatform/open-market/service"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/openplatform/open-market/conf"
+	"github.com/namelessup/bilibili/app/job/openplatform/open-market/http"
+	"github.com/namelessup/bilibili/app/job/openplatform/open-market/service"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 var (

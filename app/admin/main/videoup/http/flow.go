@@ -1,9 +1,9 @@
 package http
 
 import (
-	"go-common/app/admin/main/videoup/model/archive"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/videoup/model/archive"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 //查询某个资源所命中的所有流量套餐

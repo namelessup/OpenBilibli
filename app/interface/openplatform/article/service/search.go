@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	search "go-common/app/interface/openplatform/article/model/search"
-	"go-common/library/log"
+	search "github.com/namelessup/bilibili/app/interface/openplatform/article/model/search"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const _sourceType = "article"

@@ -4,9 +4,9 @@ import (
 	"context"
 	xtime "time"
 
-	"go-common/app/interface/main/tv/model"
-	xsql "go-common/library/database/sql"
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/app/interface/main/tv/model"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 const (

@@ -361,7 +361,7 @@
 > 1.新doker镜像  
 
 ##### Version 3.6.0
-> 1.升级go-common 
+> 1.升级github.com/namelessup/bilibili 
 > 2.接入新的配置中心
 
 ##### Version 3.5.4
@@ -405,7 +405,7 @@
 
 ##### Version 3.3.7
 > 1.增肌批量查询收藏视频接口
-> 2.升级go-common,golang,go-business
+> 2.升级github.com/namelessup/bilibili,golang,go-business
 
 ##### Version 3.3.6
 > 1.增加返回收藏夹数 

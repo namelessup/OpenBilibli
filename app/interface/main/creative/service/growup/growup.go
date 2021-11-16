@@ -2,8 +2,8 @@ package growup
 
 import (
 	"context"
-	"go-common/app/interface/main/creative/model/growup"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/growup"
+	"github.com/namelessup/bilibili/library/log"
 	"time"
 )
 

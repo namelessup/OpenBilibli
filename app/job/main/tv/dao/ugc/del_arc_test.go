@@ -2,7 +2,7 @@ package ugc
 
 import (
 	"fmt"
-	"go-common/library/database/sql"
+	"github.com/namelessup/bilibili/library/database/sql"
 	"testing"
 
 	. "github.com/smartystreets/goconvey/convey"

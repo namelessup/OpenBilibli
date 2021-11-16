@@ -3,12 +3,12 @@ package dao
 import (
 	"time"
 
-	"go-common/app/interface/main/answer/conf"
-	"go-common/library/cache/memcache"
-	"go-common/library/cache/redis"
-	"go-common/library/database/sql"
-	httpx "go-common/library/net/http/blademaster"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/interface/main/answer/conf"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/database/sql"
+	httpx "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 // Dao struct answer history of Dao

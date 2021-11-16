@@ -4,13 +4,13 @@ import (
 	"errors"
 	"flag"
 
-	"go-common/library/cache/memcache"
-	"go-common/library/conf"
-	"go-common/library/database/orm"
-	ecode "go-common/library/ecode/tip"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/conf"
+	"github.com/namelessup/bilibili/library/database/orm"
+	ecode "github.com/namelessup/bilibili/library/ecode/tip"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	"github.com/BurntSushi/toml"
 )

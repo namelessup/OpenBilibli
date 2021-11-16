@@ -21,7 +21,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["drawyoo.go"],
-    importpath = "go-common/app/interface/main/reply/dao/drawyoo",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/reply/dao/drawyoo",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

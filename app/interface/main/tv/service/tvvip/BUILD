@@ -11,7 +11,7 @@ go_library(
         "service.go",
         "vip.go",
     ],
-    importpath = "go-common/app/interface/main/tv/service/tvvip",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/tv/service/tvvip",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

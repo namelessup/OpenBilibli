@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 
-	"go-common/app/interface/openplatform/seo/conf"
+	"github.com/namelessup/bilibili/app/interface/openplatform/seo/conf"
 )
 
 // Sitemap 生成站点地图

@@ -10,9 +10,9 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/interface/main/push-archive/model"
-	"go-common/library/log"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/interface/main/push-archive/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 type _response struct {

@@ -5,10 +5,10 @@ import (
 	"encoding/json"
 	"time"
 
-	"go-common/app/job/main/archive/model/result"
-	"go-common/app/job/main/archive/model/retry"
-	"go-common/library/cache/redis"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/archive/model/result"
+	"github.com/namelessup/bilibili/app/job/main/archive/model/retry"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) retryproc() {

@@ -3,7 +3,7 @@ package service
 import (
 	"context"
 
-	"go-common/app/service/main/spy/model"
+	"github.com/namelessup/bilibili/app/service/main/spy/model"
 )
 
 // StatByID spy stat by id or mid.

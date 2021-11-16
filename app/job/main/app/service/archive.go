@@ -3,12 +3,12 @@ package service
 import (
 	"context"
 	"encoding/json"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/library/ecode"
 
-	"go-common/app/job/main/app/model"
-	"go-common/app/service/main/archive/model/archive"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/job/main/app/model"
+	"github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 const (

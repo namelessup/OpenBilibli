@@ -1,10 +1,10 @@
 package http
 
 import (
-	"go-common/app/infra/discovery/conf"
-	"go-common/app/infra/discovery/service"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/infra/discovery/conf"
+	"github.com/namelessup/bilibili/app/infra/discovery/service"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 var (

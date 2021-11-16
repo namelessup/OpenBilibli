@@ -11,7 +11,7 @@ go_library(
         "log.go",
         "sven.go",
     ],
-    importpath = "go-common/app/service/live/broadcast-proxy/grocery",
+    importpath = "github.com/namelessup/bilibili/app/service/live/broadcast-proxy/grocery",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

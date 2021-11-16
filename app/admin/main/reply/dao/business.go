@@ -3,8 +3,8 @@ package dao
 import (
 	"context"
 
-	"go-common/app/admin/main/reply/model"
-	"go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/admin/main/reply/model"
+	"github.com/namelessup/bilibili/library/database/sql"
 )
 
 const (

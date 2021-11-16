@@ -2,10 +2,10 @@ package dao
 
 import (
 	"context"
-	"go-common/app/interface/live/app-room/model"
-	"go-common/app/service/live/userext/api/liverpc/v0"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/live/app-room/model"
+	"github.com/namelessup/bilibili/app/service/live/userext/api/liverpc/v0"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 	"strconv"
 )
 

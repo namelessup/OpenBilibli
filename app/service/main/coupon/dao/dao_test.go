@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"go-common/app/service/main/coupon/conf"
+	"github.com/namelessup/bilibili/app/service/main/coupon/conf"
 
 	"github.com/smartystreets/goconvey/convey"
 	gock "gopkg.in/h2non/gock.v1"

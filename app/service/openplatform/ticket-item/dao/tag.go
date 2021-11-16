@@ -2,14 +2,14 @@ package dao
 
 import (
 	"context"
-	"go-common/app/service/openplatform/ticket-item/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-item/model"
+	"github.com/namelessup/bilibili/library/log"
 	"strconv"
 	"strings"
 
 	"github.com/jinzhu/gorm"
-	"go-common/app/service/openplatform/ticket-item/conf"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-item/conf"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 // CreateTag 创建项目标签

@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["actire.go"],
-    importpath = "go-common/app/service/main/filter/model/actriekey",
+    importpath = "github.com/namelessup/bilibili/app/service/main/filter/model/actriekey",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/log:go_default_library"],

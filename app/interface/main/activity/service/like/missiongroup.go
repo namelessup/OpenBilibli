@@ -5,13 +5,13 @@ import (
 	"net"
 	"time"
 
-	ldao "go-common/app/interface/main/activity/dao/like"
-	l "go-common/app/interface/main/activity/model/like"
-	accapi "go-common/app/service/main/account/api"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
-	"go-common/library/sync/errgroup"
+	ldao "github.com/namelessup/bilibili/app/interface/main/activity/dao/like"
+	l "github.com/namelessup/bilibili/app/interface/main/activity/model/like"
+	accapi "github.com/namelessup/bilibili/app/service/main/account/api"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 // MissionLike launch buff activity .

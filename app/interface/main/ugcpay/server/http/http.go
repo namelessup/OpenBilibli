@@ -1,12 +1,12 @@
 package http
 
 import (
-	"go-common/app/interface/main/ugcpay/conf"
-	"go-common/app/interface/main/ugcpay/service"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/antispam"
-	"go-common/library/net/http/blademaster/middleware/auth"
+	"github.com/namelessup/bilibili/app/interface/main/ugcpay/conf"
+	"github.com/namelessup/bilibili/app/interface/main/ugcpay/service"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/antispam"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/auth"
 )
 
 var (

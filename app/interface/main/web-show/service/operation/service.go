@@ -5,11 +5,11 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/interface/main/web-show/conf"
-	"go-common/app/interface/main/web-show/dao/operation"
-	opdml "go-common/app/interface/main/web-show/model/operation"
-	arcrpc "go-common/app/service/main/archive/api/gorpc"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/web-show/conf"
+	"github.com/namelessup/bilibili/app/interface/main/web-show/dao/operation"
+	opdml "github.com/namelessup/bilibili/app/interface/main/web-show/model/operation"
+	arcrpc "github.com/namelessup/bilibili/app/service/main/archive/api/gorpc"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"go-common/app/job/main/figure/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/figure/model"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/pkg/errors"
 )

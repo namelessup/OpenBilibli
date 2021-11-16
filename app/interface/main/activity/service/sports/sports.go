@@ -6,11 +6,11 @@ import (
 	"net/url"
 	"time"
 
-	"go-common/app/interface/main/activity/conf"
-	"go-common/app/interface/main/activity/dao/sports"
-	mdlsp "go-common/app/interface/main/activity/model/sports"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/activity/conf"
+	"github.com/namelessup/bilibili/app/interface/main/activity/dao/sports"
+	mdlsp "github.com/namelessup/bilibili/app/interface/main/activity/model/sports"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

@@ -2,7 +2,7 @@ package roomAdmin
 
 import (
 	"flag"
-	"go-common/app/service/live/xuser/conf"
+	"github.com/namelessup/bilibili/app/service/live/xuser/conf"
 	"os"
 	"testing"
 )

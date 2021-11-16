@@ -1,8 +1,8 @@
 package gorpc
 
 import (
-	"go-common/app/service/main/member/model"
-	"go-common/library/net/rpc/context"
+	"github.com/namelessup/bilibili/app/service/main/member/model"
+	"github.com/namelessup/bilibili/library/net/rpc/context"
 )
 
 // Base get user base info.

@@ -3,10 +3,10 @@ package dao
 import (
 	"context"
 
-	"go-common/app/job/main/member/model"
-	"go-common/library/log"
-	"go-common/library/queue/databus/report"
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/app/job/main/member/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus/report"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 // consts

@@ -3,12 +3,12 @@ package service
 import (
 	"context"
 
-	"go-common/app/service/main/coin/conf"
-	"go-common/app/service/main/coin/dao"
-	"go-common/app/service/main/coin/model"
-	memrpc "go-common/app/service/main/member/api"
-	"go-common/library/ecode"
-	"go-common/library/sync/pipeline/fanout"
+	"github.com/namelessup/bilibili/app/service/main/coin/conf"
+	"github.com/namelessup/bilibili/app/service/main/coin/dao"
+	"github.com/namelessup/bilibili/app/service/main/coin/model"
+	memrpc "github.com/namelessup/bilibili/app/service/main/member/api"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/sync/pipeline/fanout"
 )
 
 // Service define service.

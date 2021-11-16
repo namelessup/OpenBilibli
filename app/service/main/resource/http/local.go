@@ -3,9 +3,9 @@ package http
 import (
 	"net/http"
 
-	"go-common/app/service/main/resource/conf"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/service/main/resource/conf"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // ping check server ok.

@@ -15,8 +15,8 @@ message MissionGroup {
     int64 Sid =  2 [(gogoproto.jsontag) ="sid"];
     int64 Mid =  3 [(gogoproto.jsontag) ="mid"];
     int64 State =  4 [(gogoproto.jsontag) ="state"];
-    int64 Ctime = 5 [(gogoproto.jsontag) ="ctime", (gogoproto.casttype) = "go-common/library/time.Time"];
-    int64 Mtime = 6 [(gogoproto.jsontag) ="mtime", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int64 Ctime = 5 [(gogoproto.jsontag) ="ctime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
+    int64 Mtime = 6 [(gogoproto.jsontag) ="mtime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
 }
 
 message ActMissionGroup {
@@ -24,8 +24,8 @@ message ActMissionGroup {
     int64 Lid =  2 [(gogoproto.jsontag) ="lid"];
     int64 Mid =  3 [(gogoproto.jsontag) ="mid"];
     int64 Action =  4 [(gogoproto.jsontag) ="action"];
-    int64 Ctime = 5 [(gogoproto.jsontag) ="ctime", (gogoproto.casttype) = "go-common/library/time.Time"];
-    int64 Mtime = 6 [(gogoproto.jsontag) ="mtime", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int64 Ctime = 5 [(gogoproto.jsontag) ="ctime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
+    int64 Mtime = 6 [(gogoproto.jsontag) ="mtime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
     int64 Sid =  7 [(gogoproto.jsontag) ="sid"];
     int64 IP =  8 [(gogoproto.jsontag) ="ip"];
     bytes IPv6 = 9 [(gogoproto.jsontag) ="ipv6"];

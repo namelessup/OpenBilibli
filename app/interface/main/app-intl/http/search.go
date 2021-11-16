@@ -4,9 +4,9 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/interface/main/app-intl/model"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/interface/main/app-intl/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 const _keyWordLen = 50

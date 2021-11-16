@@ -32,7 +32,7 @@ go_library(
         "key.go",
         "white.go",
     ],
-    importpath = "go-common/app/admin/main/filter/http",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/filter/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

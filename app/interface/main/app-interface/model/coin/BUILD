@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["coin.go"],
-    importpath = "go-common/app/interface/main/app-interface/model/coin",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-interface/model/coin",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

@@ -7,10 +7,10 @@ import (
 	"strconv"
 	"strings"
 
-	"go-common/app/admin/main/push/model"
-	pushmdl "go-common/app/service/main/push/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/push/model"
+	pushmdl "github.com/namelessup/bilibili/app/service/main/push/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

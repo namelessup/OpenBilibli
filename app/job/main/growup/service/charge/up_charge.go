@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"time"
 
-	model "go-common/app/job/main/growup/model/charge"
+	model "github.com/namelessup/bilibili/app/job/main/growup/model/charge"
 
-	xtime "go-common/library/time"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 func (s *Service) calUpCharge(c context.Context, t time.Time, avc chan []*model.AvCharge) (daily, weekly, monthly map[int64]*model.UpCharge, err error) {

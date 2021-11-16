@@ -1,12 +1,12 @@
 package dao
 
 import (
-	banned_api "go-common/app/service/live/banned_service/api/liverpc"
-	fans_medal "go-common/app/service/live/fans_medal/api/liverpc"
-	room_api "go-common/app/service/live/room/api/liverpc"
+	banned_api "github.com/namelessup/bilibili/app/service/live/banned_service/api/liverpc"
+	fans_medal "github.com/namelessup/bilibili/app/service/live/fans_medal/api/liverpc"
+	room_api "github.com/namelessup/bilibili/app/service/live/room/api/liverpc"
 
-	"go-common/app/service/live/xuser/conf"
-	"go-common/library/net/rpc/liverpc"
+	"github.com/namelessup/bilibili/app/service/live/xuser/conf"
+	"github.com/namelessup/bilibili/library/net/rpc/liverpc"
 )
 
 // Dao dao

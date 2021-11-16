@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"time"
 
-	"go-common/library/conf/env"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/library/conf/env"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	"github.com/pkg/errors"
 )

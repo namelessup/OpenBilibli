@@ -32,7 +32,7 @@ go_library(
         "rpc_mock.go",
         "task.go",
     ],
-    importpath = "go-common/app/admin/main/aegis/dao/rpc",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/aegis/dao/rpc",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

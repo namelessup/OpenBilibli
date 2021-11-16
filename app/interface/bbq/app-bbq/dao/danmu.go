@@ -2,8 +2,8 @@ package dao
 
 import (
 	"context"
-	"go-common/app/interface/bbq/app-bbq/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/bbq/app-bbq/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

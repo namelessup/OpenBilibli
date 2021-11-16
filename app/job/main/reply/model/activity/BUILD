@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["activity.go"],
-    importpath = "go-common/app/job/main/reply/model/activity",
+    importpath = "github.com/namelessup/bilibili/app/job/main/reply/model/activity",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

@@ -11,7 +11,7 @@ go_library(
         "banner.go",
         "model.go",
     ],
-    importpath = "go-common/app/interface/main/creative/model/resource",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/creative/model/resource",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

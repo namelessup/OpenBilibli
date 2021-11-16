@@ -2,7 +2,7 @@ package message
 
 import (
 	"flag"
-	"go-common/app/admin/main/growup/conf"
+	"github.com/namelessup/bilibili/app/admin/main/growup/conf"
 	"os"
 	"testing"
 )

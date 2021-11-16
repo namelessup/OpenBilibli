@@ -3,9 +3,9 @@ package dao
 import (
 	"context"
 	xsql "database/sql"
-	"go-common/app/service/bbq/user/internal/model"
-	"go-common/library/database/sql"
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/app/service/bbq/user/internal/model"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 const (

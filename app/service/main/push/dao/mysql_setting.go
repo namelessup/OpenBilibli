@@ -5,7 +5,7 @@ import (
 	"database/sql"
 	"encoding/json"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

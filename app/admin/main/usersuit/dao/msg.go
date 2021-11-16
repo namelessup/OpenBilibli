@@ -4,8 +4,8 @@ import (
 	"context"
 	"net/url"
 
-	"go-common/library/ecode"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/xstr"
 
 	"github.com/pkg/errors"
 )

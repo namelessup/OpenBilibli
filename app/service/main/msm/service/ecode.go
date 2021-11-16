@@ -8,9 +8,9 @@ import (
 	"encoding/json"
 	"time"
 
-	"go-common/app/service/main/msm/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/msm/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Codes get codes.

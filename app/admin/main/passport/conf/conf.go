@@ -4,13 +4,13 @@ import (
 	"errors"
 	"flag"
 
-	"go-common/library/conf"
-	"go-common/library/database/elastic"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/permit"
-	"go-common/library/net/http/blademaster/middleware/verify"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/library/conf"
+	"github.com/namelessup/bilibili/library/database/elastic"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/permit"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/verify"
+	"github.com/namelessup/bilibili/library/net/trace"
 
 	"github.com/BurntSushi/toml"
 )

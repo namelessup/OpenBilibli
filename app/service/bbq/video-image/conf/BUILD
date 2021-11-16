@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["conf.go"],
-    importpath = "go-common/app/service/bbq/video-image/conf",
+    importpath = "github.com/namelessup/bilibili/app/service/bbq/video-image/conf",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -21,7 +21,7 @@ go_library(
         "video_repository.go",
         "video_upload_process.go",
     ],
-    importpath = "go-common/app/service/bbq/video/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/bbq/video/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

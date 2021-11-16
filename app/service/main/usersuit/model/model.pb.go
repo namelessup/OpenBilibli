@@ -38,7 +38,7 @@ import fmt "fmt"
 import math "math"
 import _ "github.com/gogo/protobuf/gogoproto"
 
-import go_common_library_time "go-common/library/time"
+import go_common_library_time "github.com/namelessup/bilibili/library/time"
 
 import binary "encoding/binary"
 
@@ -822,8 +822,8 @@ type MedalInfo struct {
 	Sort        int32                       `protobuf:"varint,11,opt,name=Sort,proto3" json:"sort,omitempty"`
 	IsOnline    int32                       `protobuf:"varint,12,opt,name=IsOnline,proto3" json:"is_online,omitempty"`
 	IsGet       int32                       `protobuf:"varint,13,opt,name=IsGet,proto3" json:"is_get,omitempty"`
-	Ctime       go_common_library_time.Time `protobuf:"varint,14,opt,name=Ctime,proto3,casttype=go-common/library/time.Time" json:"ctime,omitempty"`
-	Mtime       go_common_library_time.Time `protobuf:"varint,15,opt,name=Mtime,proto3,casttype=go-common/library/time.Time" json:"mtime,omitempty"`
+	Ctime       go_common_library_time.Time `protobuf:"varint,14,opt,name=Ctime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"ctime,omitempty"`
+	Mtime       go_common_library_time.Time `protobuf:"varint,15,opt,name=Mtime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"mtime,omitempty"`
 }
 
 func (m *MedalInfo) Reset()                    { *m = MedalInfo{} }
@@ -1092,7 +1092,7 @@ type MedalMyInfo struct {
 	*MedalInfo  `protobuf:"bytes,1,opt,name=MedalInfo,embedded=MedalInfo" json:""`
 	IsActivated int32                       `protobuf:"varint,2,opt,name=IsActivated,proto3" json:"is_activated"`
 	IsNewGet    int32                       `protobuf:"varint,3,opt,name=IsNewGet,proto3" json:"is_new_get"`
-	GetTime     go_common_library_time.Time `protobuf:"varint,4,opt,name=GetTime,proto3,casttype=go-common/library/time.Time" json:"get_time,omitempty"`
+	GetTime     go_common_library_time.Time `protobuf:"varint,4,opt,name=GetTime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"get_time,omitempty"`
 }
 
 func (m *MedalMyInfo) Reset()                    { *m = MedalMyInfo{} }

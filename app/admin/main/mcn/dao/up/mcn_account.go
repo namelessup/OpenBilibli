@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"time"
 
-	"go-common/app/admin/main/mcn/model"
-	xsql "go-common/library/database/sql"
-	xtime "go-common/library/time"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/admin/main/mcn/model"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	xtime "github.com/namelessup/bilibili/library/time"
+	"github.com/namelessup/bilibili/library/xstr"
 
 	"github.com/pkg/errors"
 )

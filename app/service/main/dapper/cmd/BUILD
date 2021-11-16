@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["dapper-service-example.toml"],
-    importpath = "go-common/app/service/main/dapper/cmd",
+    importpath = "github.com/namelessup/bilibili/app/service/main/dapper/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -4,8 +4,8 @@ import (
 	"context"
 	"sort"
 
-	"go-common/app/admin/main/workflow/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/workflow/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // ActivityList will list activities by given conditions

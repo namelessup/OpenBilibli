@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["prom.go"],
-    importpath = "go-common/app/service/main/videoup/model/prom",
+    importpath = "github.com/namelessup/bilibili/app/service/main/videoup/model/prom",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

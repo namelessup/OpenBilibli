@@ -2,16 +2,16 @@ package v1
 
 import (
 	"context"
-	"go-common/app/interface/live/app-room/api/http/v1"
-	"go-common/app/interface/live/app-room/model"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/live/app-room/api/http/v1"
+	"github.com/namelessup/bilibili/app/interface/live/app-room/model"
+	"github.com/namelessup/bilibili/library/net/metadata"
 	"strconv"
 	"testing"
 	"time"
 
 	. "github.com/smartystreets/goconvey/convey"
 
-	v1pb "go-common/app/interface/live/app-room/api/http/v1"
+	v1pb "github.com/namelessup/bilibili/app/interface/live/app-room/api/http/v1"
 
 	"github.com/smartystreets/goconvey/convey"
 )

@@ -7,8 +7,8 @@ import (
     {{end}}{{range $key, $value := .ClientImports}}"{{$key}}"
     {{end}}
     pb "{{.PbPackage}}"
-    "go-common/net/rpc/warden"
-    "go-common/app/warden/balancer/wrr"
+    "github.com/namelessup/bilibili/net/rpc/warden"
+    "github.com/namelessup/bilibili/app/warden/balancer/wrr"
     "google.golang.org/grpc"
 )
 

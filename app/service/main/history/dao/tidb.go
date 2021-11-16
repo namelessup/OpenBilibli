@@ -6,12 +6,12 @@ import (
 	"strconv"
 	"strings"
 
-	pb "go-common/app/service/main/history/api/grpc"
-	"go-common/app/service/main/history/model"
-	"go-common/library/database/sql"
-	"go-common/library/database/tidb"
-	"go-common/library/log"
-	"go-common/library/xstr"
+	pb "github.com/namelessup/bilibili/app/service/main/history/api/grpc"
+	"github.com/namelessup/bilibili/app/service/main/history/model"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/database/tidb"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 var (

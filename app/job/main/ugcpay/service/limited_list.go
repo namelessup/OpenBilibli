@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/job/main/ugcpay/dao"
-	"go-common/app/job/main/ugcpay/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/ugcpay/dao"
+	"github.com/namelessup/bilibili/app/job/main/ugcpay/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 type limitedList interface {

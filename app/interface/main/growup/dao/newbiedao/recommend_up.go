@@ -2,9 +2,9 @@ package newbiedao
 
 import (
 	"context"
-	"go-common/app/interface/main/growup/model"
+	"github.com/namelessup/bilibili/app/interface/main/growup/model"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const _RecommendUpSql = "SELECT mid, tid FROM recommend_up_white"

@@ -2,7 +2,7 @@ package dao
 
 import (
 	"context"
-	"go-common/app/job/main/credit/model"
+	"github.com/namelessup/bilibili/app/job/main/credit/model"
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"

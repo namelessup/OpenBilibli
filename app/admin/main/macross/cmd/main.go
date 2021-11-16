@@ -6,10 +6,10 @@ import (
 	"os/signal"
 	"syscall"
 
-	"go-common/app/admin/main/macross/conf"
-	"go-common/app/admin/main/macross/http"
-	"go-common/library/log"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/app/admin/main/macross/conf"
+	"github.com/namelessup/bilibili/app/admin/main/macross/http"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
 )
 
 func main() {

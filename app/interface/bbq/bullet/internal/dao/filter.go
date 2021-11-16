@@ -2,11 +2,11 @@ package dao
 
 import (
 	"context"
-	user "go-common/app/service/bbq/user/api"
-	video "go-common/app/service/bbq/video/api/grpc/v1"
-	filter "go-common/app/service/main/filter/api/grpc/v1"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	user "github.com/namelessup/bilibili/app/service/bbq/user/api"
+	video "github.com/namelessup/bilibili/app/service/bbq/video/api/grpc/v1"
+	filter "github.com/namelessup/bilibili/app/service/main/filter/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // 用于filter

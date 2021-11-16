@@ -7,8 +7,8 @@ import (
 	"reflect"
 	"testing"
 
-	"go-common/app/interface/main/app-feed/conf"
-	relation "go-common/app/service/main/relation/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-feed/conf"
+	relation "github.com/namelessup/bilibili/app/service/main/relation/model"
 )
 
 func TestNew(t *testing.T) {

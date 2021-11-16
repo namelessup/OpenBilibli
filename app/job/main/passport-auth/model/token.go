@@ -3,7 +3,7 @@ package model
 import (
 	"encoding/json"
 
-	go_common_time "go-common/library/time"
+	go_common_time "github.com/namelessup/bilibili/library/time"
 )
 
 // BMsg databus binlog message.

@@ -15,7 +15,7 @@ go_library(
         "relation.go",
         "user.go",
     ],
-    importpath = "go-common/app/service/bbq/recsys/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/bbq/recsys/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

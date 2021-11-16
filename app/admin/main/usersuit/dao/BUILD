@@ -45,7 +45,7 @@ go_library(
         "pendant_redis.go",
         "upload.go",
     ],
-    importpath = "go-common/app/admin/main/usersuit/dao",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/usersuit/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

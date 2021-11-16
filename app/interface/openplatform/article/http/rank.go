@@ -3,9 +3,9 @@ package http
 import (
 	"strconv"
 
-	artmdl "go-common/app/interface/openplatform/article/model"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/metadata"
+	artmdl "github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 func rankCategories(c *bm.Context) {

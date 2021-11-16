@@ -3,9 +3,9 @@ package global
 import (
 	"context"
 
-	accgrpc "go-common/app/service/main/account/api"
-	accmdl "go-common/app/service/main/account/model"
-	"go-common/library/log"
+	accgrpc "github.com/namelessup/bilibili/app/service/main/account/api"
+	accmdl "github.com/namelessup/bilibili/app/service/main/account/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 //GetInfo get info

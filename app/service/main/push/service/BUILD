@@ -34,7 +34,7 @@ go_library(
         "task.go",
         "upload.go",
     ],
-    importpath = "go-common/app/service/main/push/service",
+    importpath = "github.com/namelessup/bilibili/app/service/main/push/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

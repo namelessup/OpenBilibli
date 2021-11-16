@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/interface/main/growup/model"
+	"github.com/namelessup/bilibili/app/interface/main/growup/model"
 )
 
 // GetBanner get banner for now

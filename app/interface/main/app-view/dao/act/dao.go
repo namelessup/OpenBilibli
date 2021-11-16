@@ -5,11 +5,11 @@ import (
 	"net/url"
 	"strconv"
 
-	actmdl "go-common/app/interface/main/activity/model/like"
-	actrpc "go-common/app/interface/main/activity/rpc/client"
-	"go-common/app/interface/main/app-view/conf"
-	"go-common/library/ecode"
-	httpx "go-common/library/net/http/blademaster"
+	actmdl "github.com/namelessup/bilibili/app/interface/main/activity/model/like"
+	actrpc "github.com/namelessup/bilibili/app/interface/main/activity/rpc/client"
+	"github.com/namelessup/bilibili/app/interface/main/app-view/conf"
+	"github.com/namelessup/bilibili/library/ecode"
+	httpx "github.com/namelessup/bilibili/library/net/http/blademaster"
 
 	"github.com/pkg/errors"
 )

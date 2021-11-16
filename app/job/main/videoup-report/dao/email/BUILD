@@ -34,7 +34,7 @@ go_library(
         "email_template.go",
         "redis_list.go",
     ],
-    importpath = "go-common/app/job/main/videoup-report/dao/email",
+    importpath = "github.com/namelessup/bilibili/app/job/main/videoup-report/dao/email",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

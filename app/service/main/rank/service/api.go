@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/service/main/rank/model"
+	"github.com/namelessup/bilibili/app/service/main/rank/model"
 )
 
 // Do .

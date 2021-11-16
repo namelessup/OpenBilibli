@@ -5,13 +5,13 @@ import (
 	"strings"
 	"time"
 
-	v1pb "go-common/app/service/live/rtc/api/v1"
-	"go-common/app/service/live/rtc/internal/conf"
-	"go-common/app/service/live/rtc/internal/dao"
-	"go-common/app/service/live/rtc/internal/model"
-	"go-common/app/service/live/rtc/internal/service"
-	"go-common/library/cache/redis"
-	"go-common/library/log"
+	v1pb "github.com/namelessup/bilibili/app/service/live/rtc/api/v1"
+	"github.com/namelessup/bilibili/app/service/live/rtc/internal/conf"
+	"github.com/namelessup/bilibili/app/service/live/rtc/internal/dao"
+	"github.com/namelessup/bilibili/app/service/live/rtc/internal/model"
+	"github.com/namelessup/bilibili/app/service/live/rtc/internal/service"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // RtcService struct

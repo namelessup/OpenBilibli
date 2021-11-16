@@ -29,7 +29,7 @@ go_library(
         "mysql.go",
         "redis.go",
     ],
-    importpath = "go-common/app/job/main/coin/dao",
+    importpath = "github.com/namelessup/bilibili/app/job/main/coin/dao",
     tags = ["automanaged"],
     deps = [
         "//app/job/main/coin/conf:go_default_library",

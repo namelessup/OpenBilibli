@@ -1,7 +1,7 @@
 package upcrmdao
 
 import (
-	"go-common/app/service/main/upcredit/model/calculator"
+	"github.com/namelessup/bilibili/app/service/main/upcredit/model/calculator"
 	"testing"
 	"time"
 

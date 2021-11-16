@@ -3,11 +3,11 @@ package dao
 import (
 	"context"
 
-	"go-common/app/job/main/passport/conf"
-	"go-common/library/database/hbase.v2"
-	"go-common/library/database/sql"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/job/main/passport/conf"
+	"github.com/namelessup/bilibili/library/database/hbase.v2"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // Dao struct info of Dao.

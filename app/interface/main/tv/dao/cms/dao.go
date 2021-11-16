@@ -4,11 +4,11 @@ import (
 	"runtime"
 	"time"
 
-	"go-common/app/interface/main/tv/conf"
-	"go-common/library/cache/memcache"
-	"go-common/library/database/sql"
-	"go-common/library/log"
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/app/interface/main/tv/conf"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/stat/prom"
 )
 
 // Dao is account dao.

@@ -9,11 +9,11 @@ import (
 	"regexp"
 	"time"
 
-	"go-common/app/interface/main/account/conf"
-	"go-common/app/interface/main/account/model"
-	memmodel "go-common/app/service/main/member/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/account/conf"
+	"github.com/namelessup/bilibili/app/interface/main/account/model"
+	memmodel "github.com/namelessup/bilibili/app/service/main/member/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/pkg/errors"
 )

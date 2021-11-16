@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 	"errors"
-	"go-common/app/job/live/gift/internal/model"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/job/live/gift/internal/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 // AddGift AddGift

@@ -34,7 +34,7 @@ go_library(
         "web.go",
     ],
     embed = [":model_go_proto"],
-    importpath = "go-common/app/interface/main/space/model",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/space/model",
     tags = ["automanaged"],
     deps = [
         "//app/interface/openplatform/article/model:go_default_library",
@@ -77,7 +77,7 @@ proto_library(
 go_proto_library(
     name = "model_go_proto",
     compilers = ["@io_bazel_rules_go//proto:gogofast_proto"],
-    importpath = "go-common/app/interface/main/space/model",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/space/model",
     proto = ":model_proto",
     tags = ["automanaged"],
     deps = ["@com_github_gogo_protobuf//gogoproto:go_default_library"],

@@ -25,7 +25,7 @@ go_library(
         "client.go",
         "message.go",
     ],
-    importpath = "go-common/app/service/main/push/dao/huawei",
+    importpath = "github.com/namelessup/bilibili/app/service/main/push/dao/huawei",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

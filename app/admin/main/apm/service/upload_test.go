@@ -2,7 +2,7 @@ package service
 
 import (
 	"context"
-	"go-common/app/admin/main/apm/model/ut"
+	"github.com/namelessup/bilibili/app/admin/main/apm/model/ut"
 	"io/ioutil"
 
 	"testing"
@@ -22,23 +22,23 @@ import (
 // [signal SIGSEGV: segmentation violation code=0x1 addr=0x0 pc=0x1565c97]
 
 // goroutine 1 [running]:
-// go-common/app/interface/main/answer/dao/account.New(0x1a972e0, 0xc42017f4d0)
-// 	/Users/bilibili/go/src/go-common/app/interface/main/answer/dao/account/pendant.go:36 +0x37
-// go-common/app/interface/main/answer/dao/account.init.0()
-// 	/Users/bilibili/go/src/go-common/app/interface/main/answer/dao/account/pendant_test.go:21 +0x68
-// FAIL	go-common/app/interface/main/answer/dao/account	0.031s
+// github.com/namelessup/bilibili/app/interface/main/answer/dao/account.New(0x1a972e0, 0xc42017f4d0)
+// 	/Users/bilibili/go/src/github.com/namelessup/bilibili/app/interface/main/answer/dao/account/pendant.go:36 +0x37
+// github.com/namelessup/bilibili/app/interface/main/answer/dao/account.init.0()
+// 	/Users/bilibili/go/src/github.com/namelessup/bilibili/app/interface/main/answer/dao/account/pendant_test.go:21 +0x68
+// FAIL	github.com/namelessup/bilibili/app/interface/main/answer/dao/account	0.031s
 // panic: runtime error: invalid memory address or nil pointer dereference
 // [signal SIGSEGV: segmentation violation code=0x1 addr=0x50 pc=0x1439ed6]
 // === RUN   TestDao_MoralLog
 // >->->OPEN-JSON->->->
 // {
 //   "Title": "MoralLog",
-//   "File": "/Users/bilibili/go/src/go-common/app/service/main/member/dao/hbase_test.go",
+//   "File": "/Users/bilibili/go/src/github.com/namelessup/bilibili/app/service/main/member/dao/hbase_test.go",
 //   "Line": 11,
 //   "Depth": 1,
 //   "Assertions": [
 //     {
-//       "File": "/Users/bilibili/go/src/go-common/app/service/main/member/dao/hbase_test.go",
+//       "File": "/Users/bilibili/go/src/github.com/namelessup/bilibili/app/service/main/member/dao/hbase_test.go",
 //       "Line": 12,
 //       "Expected": "",
 //       "Actual": "",
@@ -88,7 +88,7 @@ func TestServiceCalcCountFiles(t *testing.T) {
 			c   = context.Background()
 			res = &ut.UploadRes{
 				CommitID: "somestringhasnothingtodo",
-				PKG:      "go-common/app/admin/main/apm/dao",
+				PKG:      "github.com/namelessup/bilibili/app/admin/main/apm/dao",
 			}
 			filename = "/data/ut1/cover.out"
 		)

@@ -6,9 +6,9 @@ import (
 	"net/url"
 	"strconv"
 
-	"go-common/app/job/main/account-summary/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/account-summary/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

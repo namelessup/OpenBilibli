@@ -3,10 +3,10 @@ package search
 import (
 	"context"
 
-	mdlSearch "go-common/app/interface/main/tv/model/search"
-	v1 "go-common/app/service/main/archive/api"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
+	mdlSearch "github.com/namelessup/bilibili/app/interface/main/tv/model/search"
+	v1 "github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 const (

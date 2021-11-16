@@ -8,14 +8,14 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/app/service/main/favorite/conf"
-	"go-common/app/service/main/favorite/server/gorpc"
-	gserver "go-common/app/service/main/favorite/server/grpc"
-	"go-common/app/service/main/favorite/server/http"
-	"go-common/app/service/main/favorite/service"
-	ecode "go-common/library/ecode/tip"
-	"go-common/library/log"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/app/service/main/favorite/conf"
+	"github.com/namelessup/bilibili/app/service/main/favorite/server/gorpc"
+	gserver "github.com/namelessup/bilibili/app/service/main/favorite/server/grpc"
+	"github.com/namelessup/bilibili/app/service/main/favorite/server/http"
+	"github.com/namelessup/bilibili/app/service/main/favorite/service"
+	ecode "github.com/namelessup/bilibili/library/ecode/tip"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
 )
 
 func main() {

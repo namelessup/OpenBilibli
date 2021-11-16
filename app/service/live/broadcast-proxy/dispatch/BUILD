@@ -20,7 +20,7 @@ go_library(
         "min_heap.go",
         "sinaip.go",
     ],
-    importpath = "go-common/app/service/live/broadcast-proxy/dispatch",
+    importpath = "github.com/namelessup/bilibili/app/service/live/broadcast-proxy/dispatch",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -3,9 +3,9 @@ package notify
 import (
 	"sync"
 
-	"go-common/app/infra/notify/conf"
-	"go-common/app/infra/notify/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/infra/notify/conf"
+	"github.com/namelessup/bilibili/app/infra/notify/model"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/Shopify/sarama"
 )

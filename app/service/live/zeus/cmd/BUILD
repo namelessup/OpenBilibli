@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["zeus.toml"],
-    importpath = "go-common/app/service/live/zeus/cmd",
+    importpath = "github.com/namelessup/bilibili/app/service/live/zeus/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -15,7 +15,7 @@ go_library(
         "push.go",
         "wechat.go",
     ],
-    importpath = "go-common/app/job/main/activity/dao/bnj",
+    importpath = "github.com/namelessup/bilibili/app/job/main/activity/dao/bnj",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

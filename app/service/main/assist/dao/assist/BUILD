@@ -35,7 +35,7 @@ go_library(
         "log.go",
         "mc.go",
     ],
-    importpath = "go-common/app/service/main/assist/dao/assist",
+    importpath = "github.com/namelessup/bilibili/app/service/main/assist/dao/assist",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

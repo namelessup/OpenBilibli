@@ -12,7 +12,7 @@ go_library(
         "occupation.go",
         "tag.go",
     ],
-    importpath = "go-common/app/admin/main/creative/model/academy",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/creative/model/academy",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

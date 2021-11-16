@@ -6,11 +6,11 @@ import (
 	"sync"
 	"testing"
 
-	"go-common/app/interface/main/push-archive/conf"
-	"go-common/app/interface/main/push-archive/model"
-	pb "go-common/app/service/main/push/api/grpc/v1"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/interface/main/push-archive/conf"
+	"github.com/namelessup/bilibili/app/interface/main/push-archive/model"
+	pb "github.com/namelessup/bilibili/app/service/main/push/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 
 	"github.com/smartystreets/goconvey/convey"
 )

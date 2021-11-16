@@ -1,7 +1,7 @@
 package v1
 
 import (
-	user "go-common/app/service/bbq/user/api"
+	user "github.com/namelessup/bilibili/app/service/bbq/user/api"
 )
 
 //LoginRequest 登陆

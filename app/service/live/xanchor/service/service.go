@@ -3,11 +3,11 @@ package service
 import (
 	"context"
 
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/library/queue/databus"
 
-	"go-common/app/service/live/xanchor/conf"
-	"go-common/app/service/live/xanchor/dao"
-	v1 "go-common/app/service/live/xanchor/service/v1"
+	"github.com/namelessup/bilibili/app/service/live/xanchor/conf"
+	"github.com/namelessup/bilibili/app/service/live/xanchor/dao"
+	v1 "github.com/namelessup/bilibili/app/service/live/xanchor/service/v1"
 )
 
 // Service struct

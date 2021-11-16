@@ -28,7 +28,7 @@ go_library(
         "mysql.go",
         "redis.go",
     ],
-    importpath = "go-common/app/job/main/figure-timer/dao",
+    importpath = "github.com/namelessup/bilibili/app/job/main/figure-timer/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

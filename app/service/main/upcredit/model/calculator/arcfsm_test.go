@@ -2,8 +2,8 @@ package calculator
 
 import (
 	"flag"
-	"go-common/app/service/main/upcredit/conf"
-	"go-common/app/service/main/upcredit/model/upcrmmodel"
+	"github.com/namelessup/bilibili/app/service/main/upcredit/conf"
+	"github.com/namelessup/bilibili/app/service/main/upcredit/model/upcrmmodel"
 	"path/filepath"
 	"testing"
 )

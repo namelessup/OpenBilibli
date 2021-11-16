@@ -19,7 +19,7 @@ go_library(
         "archive-job-example.toml",
         "archive-job-kisjd-test.toml",
     ],
-    importpath = "go-common/app/job/main/archive-shjd/cmd",
+    importpath = "github.com/namelessup/bilibili/app/job/main/archive-shjd/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

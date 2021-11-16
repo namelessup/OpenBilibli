@@ -5,11 +5,11 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/service/main/passport/conf"
-	"go-common/app/service/main/passport/model"
-	"go-common/app/service/main/passport/service"
-	"go-common/library/log"
-	"go-common/library/net/rpc"
+	"github.com/namelessup/bilibili/app/service/main/passport/conf"
+	"github.com/namelessup/bilibili/app/service/main/passport/model"
+	"github.com/namelessup/bilibili/app/service/main/passport/service"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/rpc"
 )
 
 const (

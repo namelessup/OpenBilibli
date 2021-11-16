@@ -3,9 +3,9 @@ package http
 import (
 	"time"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 
-	bm "go-common/library/net/http/blademaster"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func combineMails(c *bm.Context) {

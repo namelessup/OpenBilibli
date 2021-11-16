@@ -6,10 +6,10 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/service/main/riot-search/conf"
-	"go-common/app/service/main/riot-search/model"
-	"go-common/library/database/sql"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/riot-search/conf"
+	"github.com/namelessup/bilibili/app/service/main/riot-search/model"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/go-ego/riot"
 	"github.com/go-ego/riot/types"

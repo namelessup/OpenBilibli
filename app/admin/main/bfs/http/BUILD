@@ -11,7 +11,7 @@ go_library(
         "bfs.go",
         "http.go",
     ],
-    importpath = "go-common/app/admin/main/bfs/http",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/bfs/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

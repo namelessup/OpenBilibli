@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/interface/main/app-feed/model"
-	"go-common/app/interface/main/app-feed/model/tag"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/app-feed/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-feed/model/tag"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 var (

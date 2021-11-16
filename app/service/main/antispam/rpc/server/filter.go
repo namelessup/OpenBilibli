@@ -3,12 +3,12 @@ package server
 import (
 	"fmt"
 
-	"go-common/app/service/main/antispam/conf"
-	"go-common/app/service/main/antispam/model"
-	"go-common/app/service/main/antispam/service"
+	"github.com/namelessup/bilibili/app/service/main/antispam/conf"
+	"github.com/namelessup/bilibili/app/service/main/antispam/model"
+	"github.com/namelessup/bilibili/app/service/main/antispam/service"
 
-	"go-common/library/log"
-	"go-common/library/net/rpc/context"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/rpc/context"
 )
 
 // Filter .

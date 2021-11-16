@@ -4,9 +4,9 @@ import (
 	"context"
 	"database/sql"
 	"fmt"
-	"go-common/app/admin/main/activity/model"
+	"github.com/namelessup/bilibili/app/admin/main/activity/model"
 
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/library/xstr"
 
 	"github.com/pkg/errors"
 )

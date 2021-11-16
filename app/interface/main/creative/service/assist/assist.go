@@ -3,10 +3,10 @@ package assist
 import (
 	"context"
 
-	"go-common/app/interface/main/creative/model/assist"
-	account "go-common/app/service/main/account/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/assist"
+	account "github.com/namelessup/bilibili/app/service/main/account/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 	"strconv"
 )
 

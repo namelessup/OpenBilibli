@@ -4,9 +4,9 @@ import (
 	"context"
 	"database/sql"
 	"fmt"
-	expm "go-common/app/service/live/xuser/model/exp"
-	"go-common/library/log"
-	"go-common/library/xstr"
+	expm "github.com/namelessup/bilibili/app/service/live/xuser/model/exp"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 const (

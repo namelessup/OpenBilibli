@@ -8,8 +8,8 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["dislike.go"],
-    importmap = "go-common/app/interface/main/app-show/model/dislike",
-    importpath = "go-common/app/interface/main/app-show/model/dislike",
+    importmap = "github.com/namelessup/bilibili/app/interface/main/app-show/model/dislike",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-show/model/dislike",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

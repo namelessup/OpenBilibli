@@ -2,11 +2,11 @@ package dao
 
 import (
 	"context"
-	"go-common/app/service/bbq/user/internal/model"
+	"github.com/namelessup/bilibili/app/service/bbq/user/internal/model"
 
-	acc "go-common/app/service/main/account/api"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	acc "github.com/namelessup/bilibili/app/service/main/account/api"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 // RawUserCard 从主站获取用户基础信息

@@ -11,7 +11,7 @@ go_library(
         "conf.go",
         "httpstream.go",
     ],
-    importpath = "go-common/app/service/ops/log-agent/pkg/httpstream",
+    importpath = "github.com/namelessup/bilibili/app/service/ops/log-agent/pkg/httpstream",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//app/service/ops/log-agent/event:go_default_library"],

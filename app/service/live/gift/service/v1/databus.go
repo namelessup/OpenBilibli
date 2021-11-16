@@ -2,8 +2,8 @@ package v1
 
 import (
 	"context"
-	"go-common/app/service/live/gift/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/live/gift/model"
+	"github.com/namelessup/bilibili/library/log"
 	"strconv"
 )
 

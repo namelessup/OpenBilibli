@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"time"
 
-	coinclient "go-common/app/service/main/coin/api"
-	"go-common/library/log"
+	coinclient "github.com/namelessup/bilibili/app/service/main/coin/api"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // FormatCSV  format csv data.

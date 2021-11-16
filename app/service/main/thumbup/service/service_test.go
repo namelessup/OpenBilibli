@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"time"
 
-	"go-common/app/service/main/thumbup/conf"
-	"go-common/library/cache/redis"
+	"github.com/namelessup/bilibili/app/service/main/thumbup/conf"
+	"github.com/namelessup/bilibili/library/cache/redis"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

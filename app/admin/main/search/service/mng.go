@@ -5,9 +5,9 @@ import (
 	"encoding/json"
 	"strconv"
 
-	"go-common/app/admin/main/search/model"
-	"go-common/library/ecode"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/admin/main/search/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 // BusinessList .

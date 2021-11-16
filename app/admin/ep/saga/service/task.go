@@ -3,7 +3,7 @@ package service
 import (
 	"context"
 
-	"go-common/app/admin/ep/saga/model"
+	"github.com/namelessup/bilibili/app/admin/ep/saga/model"
 )
 
 // MergeTasks query all tasks for the project.

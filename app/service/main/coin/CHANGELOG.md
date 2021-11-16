@@ -287,7 +287,7 @@
 
 #### Version 1.8.8
 
-> 1.update go-common and go-business
+> 1.update github.com/namelessup/bilibili and go-business
 
 #### Version 1.8.7
 
@@ -336,7 +336,7 @@
 
 #### Version 1.7.1
 
-> 1.更新go-common、golang、go-business包
+> 1.更新github.com/namelessup/bilibili、golang、go-business包
 
 
 #### Version 1.7.0

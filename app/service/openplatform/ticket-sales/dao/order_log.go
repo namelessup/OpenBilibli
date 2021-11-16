@@ -7,10 +7,10 @@ import (
 	"net"
 	time2 "time"
 
-	"go-common/app/service/openplatform/ticket-sales/api/grpc/v1"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 const (

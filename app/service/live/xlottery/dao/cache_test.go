@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"go-common/library/cache/redis"
-	"go-common/library/container/pool"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/container/pool"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 var p *redis.Pool

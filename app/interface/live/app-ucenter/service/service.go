@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"go-common/app/interface/live/app-ucenter/conf"
-	"go-common/app/interface/live/app-ucenter/dao"
+	"github.com/namelessup/bilibili/app/interface/live/app-ucenter/conf"
+	"github.com/namelessup/bilibili/app/interface/live/app-ucenter/dao"
 )
 
 // Service struct

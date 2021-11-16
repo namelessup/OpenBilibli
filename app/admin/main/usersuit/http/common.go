@@ -1,8 +1,8 @@
 package http
 
 import (
-	"go-common/app/admin/main/usersuit/model"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/usersuit/model"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func httpData(c *bm.Context, data interface{}, pager *model.Pager) {

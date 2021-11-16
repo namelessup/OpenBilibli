@@ -4,11 +4,11 @@ import (
 	"context"
 	"fmt"
 
-	account "go-common/app/service/main/account/api"
-	"go-common/app/service/main/ugcpay-rank/internal/conf"
-	"go-common/app/service/main/ugcpay-rank/internal/model"
-	"go-common/library/cache/memcache"
-	xsql "go-common/library/database/sql"
+	account "github.com/namelessup/bilibili/app/service/main/account/api"
+	"github.com/namelessup/bilibili/app/service/main/ugcpay-rank/internal/conf"
+	"github.com/namelessup/bilibili/app/service/main/ugcpay-rank/internal/model"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
 
 	"github.com/bluele/gcache"
 )
@@ -65,7 +65,7 @@ func elecPrepAVRankKey(avID int64, ver int64) string {
 	return fmt.Sprintf("ur_epar_%d_%d", ver, avID)
 }
 
-//go:generate $GOPATH/src/go-common/app/tool/cache/mc
+//go:generate $GOPATH/src/github.com/namelessup/bilibili/app/tool/cache/mc
 type _mc interface {
 	//mc: -key=elecUPRankKey -type=get
 	CacheElecUPRank(c context.Context, mid int64) (*model.RankElecUPProto, error)

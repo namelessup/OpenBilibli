@@ -11,7 +11,7 @@ go_library(
         "bplus.go",
         "from.go",
     ],
-    importpath = "go-common/app/interface/main/app-interface/model/bplus",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-interface/model/bplus",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/time:go_default_library"],

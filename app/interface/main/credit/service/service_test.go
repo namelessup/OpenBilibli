@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/interface/main/credit/conf"
+	"github.com/namelessup/bilibili/app/interface/main/credit/conf"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

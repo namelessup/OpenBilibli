@@ -1,10 +1,10 @@
 package academy
 
 import (
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/library/time"
 
-	mdlArt "go-common/app/interface/openplatform/article/model"
-	"go-common/app/service/main/archive/api"
+	mdlArt "github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
 )
 
 const (

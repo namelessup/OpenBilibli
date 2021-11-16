@@ -10,9 +10,9 @@ import (
 	"strings"
 	"sync"
 
-	"go-common/app/admin/ep/tapd/model"
-	"go-common/library/cache/memcache"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/ep/tapd/model"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 var rwmLock = new(sync.RWMutex)

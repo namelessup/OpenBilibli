@@ -3,10 +3,10 @@ package service
 import (
 	"time"
 
-	mlog "go-common/app/admin/main/apm/model/log"
-	"go-common/library/log"
-	context "go-common/library/net/http/blademaster"
-	"go-common/library/queue/databus/report"
+	mlog "github.com/namelessup/bilibili/app/admin/main/apm/model/log"
+	"github.com/namelessup/bilibili/library/log"
+	context "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/queue/databus/report"
 )
 
 // SQLLog log

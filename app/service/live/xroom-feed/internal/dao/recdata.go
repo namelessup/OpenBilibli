@@ -6,9 +6,9 @@ import (
 	"strconv"
 	"strings"
 
-	"go-common/app/service/live/xroom-feed/internal/model"
-	"go-common/library/cache/redis"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/live/xroom-feed/internal/model"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 var (

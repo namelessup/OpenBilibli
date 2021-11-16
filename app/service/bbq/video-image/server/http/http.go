@@ -4,13 +4,13 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	grpc "go-common/app/service/bbq/video-image/api/grpc/v1"
-	"go-common/app/service/bbq/video-image/api/http/v1"
-	"go-common/app/service/bbq/video-image/conf"
-	"go-common/app/service/bbq/video-image/service"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	grpc "github.com/namelessup/bilibili/app/service/bbq/video-image/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/bbq/video-image/api/http/v1"
+	"github.com/namelessup/bilibili/app/service/bbq/video-image/conf"
+	"github.com/namelessup/bilibili/app/service/bbq/video-image/service"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 
 	"github.com/pkg/errors"
 )

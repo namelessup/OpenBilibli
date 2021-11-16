@@ -5,14 +5,14 @@ import (
 	"runtime"
 	"time"
 
-	"go-common/app/service/main/archive/api"
-	"go-common/app/service/main/archive/conf"
-	arcdao "go-common/app/service/main/archive/dao/archive"
-	shareDao "go-common/app/service/main/archive/dao/share"
-	shotDao "go-common/app/service/main/archive/dao/videoshot"
-	"go-common/app/service/main/archive/model/archive"
-	"go-common/library/log"
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/app/service/main/archive/conf"
+	arcdao "github.com/namelessup/bilibili/app/service/main/archive/dao/archive"
+	shareDao "github.com/namelessup/bilibili/app/service/main/archive/dao/share"
+	shotDao "github.com/namelessup/bilibili/app/service/main/archive/dao/videoshot"
+	"github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/stat/prom"
 )
 
 var (

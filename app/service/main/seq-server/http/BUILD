@@ -11,7 +11,7 @@ go_library(
         "http.go",
         "seq.go",
     ],
-    importpath = "go-common/app/service/main/seq-server/http",
+    importpath = "github.com/namelessup/bilibili/app/service/main/seq-server/http",
     tags = ["automanaged"],
     deps = [
         "//app/service/main/seq-server/conf:go_default_library",

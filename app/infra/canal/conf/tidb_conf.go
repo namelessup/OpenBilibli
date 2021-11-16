@@ -3,7 +3,7 @@ package conf
 import (
 	"fmt"
 
-	xtime "go-common/library/time"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	"github.com/BurntSushi/toml"
 )

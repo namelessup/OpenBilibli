@@ -1,10 +1,10 @@
 package ugc
 
 import (
-	appDao "go-common/app/job/main/tv/dao/app"
-	"go-common/app/job/main/tv/dao/lic"
-	"go-common/library/database/sql"
-	"go-common/library/log"
+	appDao "github.com/namelessup/bilibili/app/job/main/tv/dao/app"
+	"github.com/namelessup/bilibili/app/job/main/tv/dao/lic"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 	"time"
 )
 

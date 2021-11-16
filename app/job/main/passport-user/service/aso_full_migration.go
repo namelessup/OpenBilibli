@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"go-common/app/job/main/passport-user/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/passport-user/model"
+	"github.com/namelessup/bilibili/library/log"
 	"time"
 )
 

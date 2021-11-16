@@ -8,13 +8,13 @@ import (
 	"time"
 
 	"context"
-	"go-common/app/service/live/xlottery/conf"
-	"go-common/app/service/live/xlottery/server/grpc"
-	"go-common/app/service/live/xlottery/server/http"
-	"go-common/app/service/live/xlottery/service"
-	ecode "go-common/library/ecode/tip"
-	"go-common/library/log"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/app/service/live/xlottery/conf"
+	"github.com/namelessup/bilibili/app/service/live/xlottery/server/grpc"
+	"github.com/namelessup/bilibili/app/service/live/xlottery/server/http"
+	"github.com/namelessup/bilibili/app/service/live/xlottery/service"
+	ecode "github.com/namelessup/bilibili/library/ecode/tip"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
 )
 
 func main() {

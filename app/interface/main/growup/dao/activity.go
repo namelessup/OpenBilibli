@@ -3,9 +3,9 @@ package dao
 import (
 	"context"
 
-	"go-common/app/interface/main/growup/model"
-	"go-common/library/log"
-	// "go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/interface/main/growup/model"
+	"github.com/namelessup/bilibili/library/log"
+	// "github.com/namelessup/bilibili/library/database/sql"
 )
 
 const (

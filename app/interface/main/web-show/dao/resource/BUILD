@@ -26,7 +26,7 @@ go_library(
         "vdoactive.go",
         "vdoad.go",
     ],
-    importpath = "go-common/app/interface/main/web-show/dao/resource",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/web-show/dao/resource",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

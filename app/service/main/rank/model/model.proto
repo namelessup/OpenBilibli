@@ -21,7 +21,7 @@ message Field {
     int64 Oid = 2 [(gogoproto.jsontag) = "oid"];
     int32 Pid = 3 [(gogoproto.jsontag) = "pid",(gogoproto.casttype) = "int16"];
     int32 Click = 4 [(gogoproto.jsontag) = "click",(gogoproto.casttype) = "int"];
-    int64 Pubtime = 5 [(gogoproto.jsontag) = "pubtime", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int64 Pubtime = 5 [(gogoproto.jsontag) = "pubtime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
     int32 Result = 6 [(gogoproto.jsontag) = "result",(gogoproto.casttype) = "int8"];
     int32 Deleted = 7 [(gogoproto.jsontag) = "deleted",(gogoproto.casttype) = "int8"];
     int32 Valid = 8 [(gogoproto.jsontag) = "valid",(gogoproto.casttype) = "int8"];

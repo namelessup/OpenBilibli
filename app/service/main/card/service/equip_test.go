@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/service/main/card/model"
+	"github.com/namelessup/bilibili/app/service/main/card/model"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

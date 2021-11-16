@@ -7,11 +7,11 @@ import (
 	"sort"
 	"strings"
 
-	"go-common/app/tool/gengo/args"
-	"go-common/app/tool/gengo/cmd/deepcopy-gen/sets"
-	"go-common/app/tool/gengo/generator"
-	"go-common/app/tool/gengo/namer"
-	"go-common/app/tool/gengo/types"
+	"github.com/namelessup/bilibili/app/tool/gengo/args"
+	"github.com/namelessup/bilibili/app/tool/gengo/cmd/deepcopy-gen/sets"
+	"github.com/namelessup/bilibili/app/tool/gengo/generator"
+	"github.com/namelessup/bilibili/app/tool/gengo/namer"
+	"github.com/namelessup/bilibili/app/tool/gengo/types"
 
 	"github.com/golang/glog"
 )

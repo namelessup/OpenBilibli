@@ -42,7 +42,7 @@ go_library(
         "util.go",
         "verbose.go",
     ],
-    importpath = "go-common/library/log",
+    importpath = "github.com/namelessup/bilibili/library/log",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

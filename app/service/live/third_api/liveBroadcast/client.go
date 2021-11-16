@@ -1,6 +1,6 @@
 package liveBroadcast
 
-import "go-common/library/net/http/blademaster"
+import "github.com/namelessup/bilibili/library/net/http/blademaster"
 
 //Client  客户端
 type Client struct {

@@ -1,6 +1,6 @@
 package model
 
-import "go-common/library/time"
+import "github.com/namelessup/bilibili/library/time"
 
 // VipPriceConfigPlat vip价格面版平台 1. 其他平台 2.IOS平台 3.IOS的HD平台
 type VipPriceConfigPlat int64

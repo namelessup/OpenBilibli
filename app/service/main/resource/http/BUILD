@@ -14,7 +14,7 @@ go_library(
         "local.go",
         "resource.go",
     ],
-    importpath = "go-common/app/service/main/resource/http",
+    importpath = "github.com/namelessup/bilibili/app/service/main/resource/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

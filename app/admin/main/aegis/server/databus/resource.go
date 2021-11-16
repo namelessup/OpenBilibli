@@ -6,11 +6,11 @@ import (
 	"errors"
 	"time"
 
-	"go-common/app/admin/main/aegis/model"
-	"go-common/app/admin/main/aegis/model/resource"
-	"go-common/library/conf/env"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model/resource"
+	"github.com/namelessup/bilibili/library/conf/env"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 //var

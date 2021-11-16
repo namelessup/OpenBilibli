@@ -6,7 +6,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["package.go"],
-    importpath = "go-common/app/admin/main/macross/model/package",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/macross/model/package",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

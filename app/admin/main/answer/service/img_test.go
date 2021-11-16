@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"go-common/app/admin/main/answer/model"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/admin/main/answer/model"
+	"github.com/namelessup/bilibili/library/xstr"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

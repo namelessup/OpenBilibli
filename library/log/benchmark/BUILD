@@ -15,7 +15,7 @@ go_binary(
 go_library(
     name = "go_default_library",
     srcs = ["main.go"],
-    importpath = "go-common/library/log/benchmark",
+    importpath = "github.com/namelessup/bilibili/library/log/benchmark",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

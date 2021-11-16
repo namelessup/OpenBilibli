@@ -5,8 +5,8 @@ import (
 	"hash/crc32"
 	"strconv"
 
-	"go-common/library/time"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/library/time"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 var (

@@ -6,10 +6,10 @@ import (
 	"html/template"
 	"strings"
 
-	"go-common/app/interface/main/space/model"
-	accmdl "go-common/app/service/main/account/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/space/model"
+	accmdl "github.com/namelessup/bilibili/app/service/main/account/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const _noticeTable = "member_up_notice"

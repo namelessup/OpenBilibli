@@ -7,12 +7,12 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/app/admin/main/workflow/http"
-	"go-common/app/admin/main/workflow/service"
-	"go-common/library/conf/paladin"
-	ecode "go-common/library/ecode/tip"
-	"go-common/library/log"
-	"go-common/library/queue/databus/report"
+	"github.com/namelessup/bilibili/app/admin/main/workflow/http"
+	"github.com/namelessup/bilibili/app/admin/main/workflow/service"
+	"github.com/namelessup/bilibili/library/conf/paladin"
+	ecode "github.com/namelessup/bilibili/library/ecode/tip"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus/report"
 )
 
 func main() {

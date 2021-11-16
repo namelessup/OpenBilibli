@@ -4,9 +4,9 @@ import (
 	"context"
 	"net/url"
 
-	"go-common/app/interface/openplatform/article/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 var (

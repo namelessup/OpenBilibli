@@ -6,10 +6,10 @@ import (
 	"net/http"
 	"strings"
 
-	"go-common/app/admin/main/dm/model"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/admin/main/dm/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 func taskList(c *bm.Context) {

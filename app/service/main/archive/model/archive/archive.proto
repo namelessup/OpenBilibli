@@ -16,8 +16,8 @@ message Archive3 {
     int32 Copyright = 5 [(gogoproto.jsontag) = "copyright"];
     string Pic = 6 [(gogoproto.jsontag) = "pic"];
     string Title = 7 [(gogoproto.jsontag) = "title"];
-    int64 PubDate = 8 [(gogoproto.jsontag) = "pubdate", (gogoproto.casttype) = "go-common/library/time.Time"];
-    int64 Ctime = 9 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int64 PubDate = 8 [(gogoproto.jsontag) = "pubdate", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
+    int64 Ctime = 9 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
     string Desc = 10 [(gogoproto.jsontag) = "desc"];
     int32 State = 11 [(gogoproto.jsontag) = "state"];
     int32 Access = 12 [(gogoproto.jsontag) = "access,omitempty"];

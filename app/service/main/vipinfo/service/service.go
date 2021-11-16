@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"go-common/app/service/main/vipinfo/conf"
-	"go-common/app/service/main/vipinfo/dao"
+	"github.com/namelessup/bilibili/app/service/main/vipinfo/conf"
+	"github.com/namelessup/bilibili/app/service/main/vipinfo/dao"
 )
 
 // Service struct

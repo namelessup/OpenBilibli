@@ -3,11 +3,11 @@ package http
 import (
 	"strconv"
 
-	"go-common/app/interface/main/tv/dao/thirdp"
-	"go-common/app/interface/main/tv/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/interface/main/tv/dao/thirdp"
+	"github.com/namelessup/bilibili/app/interface/main/tv/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func zonePage(c *bm.Context) {

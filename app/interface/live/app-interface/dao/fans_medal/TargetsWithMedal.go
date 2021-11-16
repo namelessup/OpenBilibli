@@ -6,12 +6,12 @@ import (
 
 	"github.com/pkg/errors"
 
-	ServiceConf "go-common/app/interface/live/app-interface/conf"
-	"go-common/app/interface/live/app-interface/dao"
-	fansMedalV1 "go-common/app/service/live/fans_medal/api/liverpc/v1"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	rpcCtx "go-common/library/net/rpc/liverpc/context"
+	ServiceConf "github.com/namelessup/bilibili/app/interface/live/app-interface/conf"
+	"github.com/namelessup/bilibili/app/interface/live/app-interface/dao"
+	fansMedalV1 "github.com/namelessup/bilibili/app/service/live/fans_medal/api/liverpc/v1"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	rpcCtx "github.com/namelessup/bilibili/library/net/rpc/liverpc/context"
 )
 
 // GetFansMedal ...

@@ -4,15 +4,15 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"go-common/library/cache"
+	"github.com/namelessup/bilibili/library/cache"
 	"strconv"
 
-	"go-common/library/cache/redis"
-	xsql "go-common/library/database/sql"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 
-	"go-common/app/service/bbq/sys-msg/api/v1"
-	"go-common/app/service/bbq/sys-msg/internal/conf"
+	"github.com/namelessup/bilibili/app/service/bbq/sys-msg/api/v1"
+	"github.com/namelessup/bilibili/app/service/bbq/sys-msg/internal/conf"
 )
 
 const (
@@ -22,7 +22,7 @@ const (
 	_redisExpireS = 600
 )
 
-//go:generate $GOPATH/src/go-common/app/tool/cache/gen
+//go:generate $GOPATH/src/github.com/namelessup/bilibili/app/tool/cache/gen
 type _cache interface {
 	// cache: -batch=50 -max_group=10 -batch_err=break -nullcache=&v1.SysMsg{Id:0} -check_null_code=$==nil||$.Id==0
 	SysMsg(c context.Context, ids []int64) (map[int64]*v1.SysMsg, error)

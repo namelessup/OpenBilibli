@@ -10,7 +10,7 @@ go_library(
         "gitlab.go",
         "http.go",
     ],
-    importpath = "go-common/app/tool/saga/http",
+    importpath = "github.com/namelessup/bilibili/app/tool/saga/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

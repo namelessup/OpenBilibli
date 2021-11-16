@@ -4,10 +4,10 @@ import (
 	"flag"
 	"github.com/smartystreets/goconvey/convey"
 	. "github.com/smartystreets/goconvey/convey"
-	"go-common/app/service/live/xuser/api/grpc/v1"
-	"go-common/app/service/live/xuser/conf"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/service/live/xuser/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/live/xuser/conf"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/metadata"
 	"testing"
 )
 

@@ -7,9 +7,9 @@ import (
 	"reflect"
 	"strings"
 
-	"go-common/app/interface/openplatform/monitor-end/model"
-	"go-common/app/interface/openplatform/monitor-end/model/monitor"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/interface/openplatform/monitor-end/model"
+	"github.com/namelessup/bilibili/app/interface/openplatform/monitor-end/model/monitor"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 var (

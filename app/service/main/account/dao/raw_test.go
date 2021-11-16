@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	mml "go-common/app/service/main/member/model"
-	bml "go-common/app/service/main/member/model/block"
-	"go-common/library/ecode"
+	mml "github.com/namelessup/bilibili/app/service/main/member/model"
+	bml "github.com/namelessup/bilibili/app/service/main/member/model/block"
+	"github.com/namelessup/bilibili/library/ecode"
 
 	"github.com/smartystreets/goconvey/convey"
 )

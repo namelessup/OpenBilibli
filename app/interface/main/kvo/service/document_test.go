@@ -6,13 +6,13 @@ import (
 	"testing"
 	"time"
 
-	conf "go-common/app/interface/main/kvo/conf"
-	"go-common/app/interface/main/kvo/model/module"
-	"go-common/library/cache/memcache"
-	"go-common/library/container/pool"
-	"go-common/library/database/sql"
-	"go-common/library/net/netutil/breaker"
-	xtime "go-common/library/time"
+	conf "github.com/namelessup/bilibili/app/interface/main/kvo/conf"
+	"github.com/namelessup/bilibili/app/interface/main/kvo/model/module"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/container/pool"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/net/netutil/breaker"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

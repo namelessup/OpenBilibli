@@ -6,16 +6,16 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/interface/main/reply/dao/reply"
-	model "go-common/app/interface/main/reply/model/reply"
-	xmodel "go-common/app/interface/main/reply/model/xreply"
-	accmdl "go-common/app/service/main/account/api"
-	assmdl "go-common/app/service/main/assist/model/assist"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/reply/dao/reply"
+	model "github.com/namelessup/bilibili/app/interface/main/reply/model/reply"
+	xmodel "github.com/namelessup/bilibili/app/interface/main/reply/model/xreply"
+	accmdl "github.com/namelessup/bilibili/app/service/main/account/api"
+	assmdl "github.com/namelessup/bilibili/app/service/main/assist/model/assist"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 	"sort"
 
-	"go-common/library/sync/errgroup.v2"
+	"github.com/namelessup/bilibili/library/sync/errgroup.v2"
 )
 
 const (

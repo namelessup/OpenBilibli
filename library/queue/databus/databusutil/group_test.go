@@ -9,10 +9,10 @@ import (
 	"testing"
 	"time"
 
-	"go-common/library/log"
-	"go-common/library/queue/databus"
-	"go-common/library/sync/errgroup"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 type testMsg struct {

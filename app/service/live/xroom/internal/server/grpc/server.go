@@ -1,10 +1,10 @@
 package grpc
 
 import (
-	pb "go-common/app/service/live/xroom/api"
-	"go-common/app/service/live/xroom/internal/service"
-	"go-common/library/conf/paladin"
-	"go-common/library/net/rpc/warden"
+	pb "github.com/namelessup/bilibili/app/service/live/xroom/api"
+	"github.com/namelessup/bilibili/app/service/live/xroom/internal/service"
+	"github.com/namelessup/bilibili/library/conf/paladin"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 )
 
 // New new a grpc server.

@@ -5,12 +5,12 @@ import (
 	"encoding/json"
 	"time"
 
-	"go-common/app/job/main/app/model"
-	"go-common/app/job/main/app/model/space"
-	"go-common/app/service/main/archive/api"
-	"go-common/app/service/main/archive/model/archive"
-	"go-common/library/log"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/job/main/app/model"
+	"github.com/namelessup/bilibili/app/job/main/app/model/space"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	"github.com/pkg/errors"
 )

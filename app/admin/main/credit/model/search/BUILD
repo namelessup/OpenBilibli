@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["search.go"],
-    importpath = "go-common/app/admin/main/credit/model/search",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/credit/model/search",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["model.go"],
-    importpath = "go-common/app/job/live/xlottery/internal/model",
+    importpath = "github.com/namelessup/bilibili/app/job/live/xlottery/internal/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

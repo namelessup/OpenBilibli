@@ -1,6 +1,6 @@
 package upcrmmodel
 
-import "go-common/library/time"
+import "github.com/namelessup/bilibili/library/time"
 
 // UpStatsHistory is table up_stats_history mapping
 type UpStatsHistory struct {

@@ -11,7 +11,7 @@ go_library(
         "dao.go",
         "recdata.go",
     ],
-    importpath = "go-common/app/service/live/xroom-feed/internal/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/live/xroom-feed/internal/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

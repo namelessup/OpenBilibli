@@ -1,7 +1,7 @@
 package client
 
 import (
-	"go-common/library/net/rpc"
+	"github.com/namelessup/bilibili/library/net/rpc"
 )
 
 const (

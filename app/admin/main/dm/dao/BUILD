@@ -66,7 +66,7 @@ go_library(
         "videoup.go",
         "workflow.go",
     ],
-    importpath = "go-common/app/admin/main/dm/dao",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/dm/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -4,10 +4,10 @@ package server
 import (
 	"context"
 
-	"go-common/app/service/main/card/api/grpc/v1"
-	"go-common/app/service/main/card/model"
-	service "go-common/app/service/main/card/service"
-	"go-common/library/net/rpc/warden"
+	"github.com/namelessup/bilibili/app/service/main/card/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/main/card/model"
+	service "github.com/namelessup/bilibili/app/service/main/card/service"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 )
 
 // New Card warden rpc server

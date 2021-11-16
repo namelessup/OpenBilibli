@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"time"
 
-	"go-common/app/interface/main/dm/model"
-	"go-common/app/interface/main/dm2/model/oplog"
-	arcMdl "go-common/app/service/main/archive/model/archive"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/dm/model"
+	"github.com/namelessup/bilibili/app/interface/main/dm2/model/oplog"
+	arcMdl "github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

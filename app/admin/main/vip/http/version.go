@@ -1,9 +1,9 @@
 package http
 
 import (
-	"go-common/app/admin/main/vip/model"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/vip/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func updateVersion(c *bm.Context) {

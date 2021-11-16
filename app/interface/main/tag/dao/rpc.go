@@ -3,8 +3,8 @@ package dao
 import (
 	"context"
 
-	account "go-common/app/service/main/account/api"
-	"go-common/library/log"
+	account "github.com/namelessup/bilibili/app/service/main/account/api"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // UserCard account user card info.

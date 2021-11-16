@@ -38,7 +38,7 @@ go_library(
         "reply.go",
         "service.go",
     ],
-    importpath = "go-common/app/job/main/credit/service",
+    importpath = "github.com/namelessup/bilibili/app/job/main/credit/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

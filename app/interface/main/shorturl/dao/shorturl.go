@@ -5,8 +5,8 @@ import (
 	"database/sql"
 
 	"fmt"
-	"go-common/app/interface/main/shorturl/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/shorturl/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

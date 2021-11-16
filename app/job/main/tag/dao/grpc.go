@@ -3,9 +3,9 @@ package dao
 import (
 	"context"
 
-	"go-common/app/job/main/tag/model"
-	filgrpc "go-common/app/service/main/filter/api/grpc/v1"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/tag/model"
+	filgrpc "github.com/namelessup/bilibili/app/service/main/filter/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // MFilter multi filter.

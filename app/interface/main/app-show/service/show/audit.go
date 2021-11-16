@@ -4,17 +4,17 @@ import (
 	"context"
 	"strconv"
 
-	cdm "go-common/app/interface/main/app-card/model"
-	cardm "go-common/app/interface/main/app-card/model/card"
-	"go-common/app/interface/main/app-card/model/card/ai"
-	operate "go-common/app/interface/main/app-card/model/card/operate"
-	"go-common/app/interface/main/app-show/model"
-	"go-common/app/interface/main/app-show/model/banner"
-	"go-common/app/interface/main/app-show/model/feed"
-	"go-common/app/interface/main/app-show/model/show"
-	"go-common/app/service/main/archive/api"
-	"go-common/app/service/main/archive/model/archive"
-	"go-common/library/log"
+	cdm "github.com/namelessup/bilibili/app/interface/main/app-card/model"
+	cardm "github.com/namelessup/bilibili/app/interface/main/app-card/model/card"
+	"github.com/namelessup/bilibili/app/interface/main/app-card/model/card/ai"
+	operate "github.com/namelessup/bilibili/app/interface/main/app-card/model/card/operate"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/model/banner"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/model/feed"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/model/show"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 var (

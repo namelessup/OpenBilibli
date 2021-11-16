@@ -19,7 +19,7 @@ go_library(
         "convey-test.toml",
         "merlin-test.toml",
     ],
-    importpath = "go-common/app/admin/ep/merlin/cmd",
+    importpath = "github.com/namelessup/bilibili/app/admin/ep/merlin/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

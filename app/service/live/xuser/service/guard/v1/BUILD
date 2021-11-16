@@ -13,7 +13,7 @@ go_library(
         "guard.go",
         "log_debug.go",
     ],
-    importpath = "go-common/app/service/live/xuser/service/guard/v1",
+    importpath = "github.com/namelessup/bilibili/app/service/live/xuser/service/guard/v1",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

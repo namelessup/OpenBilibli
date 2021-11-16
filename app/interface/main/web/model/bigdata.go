@@ -1,6 +1,6 @@
 package model
 
-import arcmdl "go-common/app/service/main/archive/api"
+import arcmdl "github.com/namelessup/bilibili/app/service/main/archive/api"
 
 // Rank bigdata rank struct
 type Rank struct {

@@ -8,7 +8,7 @@ import fmt "fmt"
 import math "math"
 import _ "github.com/gogo/protobuf/gogoproto"
 
-import go_common_library_time "go-common/library/time"
+import go_common_library_time "github.com/namelessup/bilibili/library/time"
 
 import io "io"
 
@@ -314,9 +314,9 @@ type BaseInfo struct {
 	Face                 string                      `protobuf:"bytes,4,opt,name=Face,proto3" json:"face"`
 	Sign                 string                      `protobuf:"bytes,5,opt,name=Sign,proto3" json:"sign"`
 	Rank                 int64                       `protobuf:"varint,8,opt,name=Rank,proto3" json:"rank"`
-	Birthday             go_common_library_time.Time `protobuf:"varint,9,opt,name=Birthday,proto3,casttype=go-common/library/time.Time" json:"birthday"`
-	CTime                go_common_library_time.Time `protobuf:"varint,10,opt,name=CTime,proto3,casttype=go-common/library/time.Time" json:"ctime"`
-	MTime                go_common_library_time.Time `protobuf:"varint,11,opt,name=MTime,proto3,casttype=go-common/library/time.Time" json:"mtime"`
+	Birthday             go_common_library_time.Time `protobuf:"varint,9,opt,name=Birthday,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"birthday"`
+	CTime                go_common_library_time.Time `protobuf:"varint,10,opt,name=CTime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"ctime"`
+	MTime                go_common_library_time.Time `protobuf:"varint,11,opt,name=MTime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"mtime"`
 	XXX_NoUnkeyedLiteral struct{}                    `json:"-"`
 	XXX_unrecognized     []byte                      `json:"-"`
 	XXX_sizecache        int32                       `json:"-"`
@@ -420,13 +420,13 @@ func (m *BaseInfo) GetMTime() go_common_library_time.Time {
 
 type Detail struct {
 	Mid                  int64                       `protobuf:"varint,1,opt,name=Mid,proto3" json:"mid"`
-	Birthday             go_common_library_time.Time `protobuf:"varint,2,opt,name=Birthday,proto3,casttype=go-common/library/time.Time" json:"birthday"`
+	Birthday             go_common_library_time.Time `protobuf:"varint,2,opt,name=Birthday,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"birthday"`
 	Place                int64                       `protobuf:"varint,3,opt,name=Place,proto3" json:"place"`
 	Marital              int64                       `protobuf:"varint,4,opt,name=Marital,proto3" json:"marital"`
 	Dating               int64                       `protobuf:"varint,5,opt,name=Dating,proto3" json:"dating"`
 	Tags                 string                      `protobuf:"bytes,6,opt,name=Tags,proto3" json:"tags"`
-	CTime                go_common_library_time.Time `protobuf:"varint,7,opt,name=CTime,proto3,casttype=go-common/library/time.Time" json:"ctime"`
-	MTime                go_common_library_time.Time `protobuf:"varint,8,opt,name=MTime,proto3,casttype=go-common/library/time.Time" json:"mtime"`
+	CTime                go_common_library_time.Time `protobuf:"varint,7,opt,name=CTime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"ctime"`
+	MTime                go_common_library_time.Time `protobuf:"varint,8,opt,name=MTime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"mtime"`
 	XXX_NoUnkeyedLiteral struct{}                    `json:"-"`
 	XXX_unrecognized     []byte                      `json:"-"`
 	XXX_sizecache        int32                       `json:"-"`

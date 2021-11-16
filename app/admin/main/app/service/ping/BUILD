@@ -21,7 +21,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["ping.go"],
-    importpath = "go-common/app/admin/main/app/service/ping",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/app/service/ping",
     tags = ["automanaged"],
     deps = [
         "//app/admin/main/app/conf:go_default_library",

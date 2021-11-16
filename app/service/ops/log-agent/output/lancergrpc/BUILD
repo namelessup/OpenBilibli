@@ -13,7 +13,7 @@ go_library(
         "lancer.go",
         "pool.go",
     ],
-    importpath = "go-common/app/service/ops/log-agent/output/lancergrpc",
+    importpath = "github.com/namelessup/bilibili/app/service/ops/log-agent/output/lancergrpc",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

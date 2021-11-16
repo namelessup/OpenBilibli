@@ -16,7 +16,7 @@ go_library(
         "match.go",
         "subject.go",
     ],
-    importpath = "go-common/app/admin/main/activity/http",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/activity/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

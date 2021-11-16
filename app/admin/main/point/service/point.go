@@ -5,9 +5,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"go-common/app/admin/main/point/model"
-	pointmol "go-common/app/service/main/point/model"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/admin/main/point/model"
+	pointmol "github.com/namelessup/bilibili/app/service/main/point/model"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 // PointConfList .

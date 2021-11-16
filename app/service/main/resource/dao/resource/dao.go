@@ -3,8 +3,8 @@ package resource
 import (
 	"context"
 
-	"go-common/app/service/main/resource/conf"
-	xsql "go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/service/main/resource/conf"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
 )
 
 // Dao is resource dao.

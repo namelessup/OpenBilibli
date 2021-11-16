@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["thumbup-test.toml"],
-    importpath = "go-common/app/service/main/thumbup/cmd",
+    importpath = "github.com/namelessup/bilibili/app/service/main/thumbup/cmd",
     tags = ["automanaged"],
     deps = [
         "//app/service/main/thumbup/conf:go_default_library",

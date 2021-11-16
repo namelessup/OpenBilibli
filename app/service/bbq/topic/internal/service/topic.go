@@ -4,11 +4,11 @@ import (
 	"context"
 	"fmt"
 	"github.com/golang/protobuf/ptypes/empty"
-	"go-common/app/service/bbq/topic/api"
-	"go-common/app/service/bbq/topic/internal/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup.v2"
+	"github.com/namelessup/bilibili/app/service/bbq/topic/api"
+	"github.com/namelessup/bilibili/app/service/bbq/topic/internal/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup.v2"
 	"strings"
 )
 

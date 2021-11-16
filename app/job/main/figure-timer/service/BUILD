@@ -30,7 +30,7 @@ go_library(
         "rank.go",
         "service.go",
     ],
-    importpath = "go-common/app/job/main/figure-timer/service",
+    importpath = "github.com/namelessup/bilibili/app/job/main/figure-timer/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -4,7 +4,7 @@ import (
 	"sync"
 	"testing"
 
-	"go-common/library/log/infoc"
+	"github.com/namelessup/bilibili/library/log/infoc"
 )
 
 var (

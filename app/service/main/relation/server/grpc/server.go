@@ -3,11 +3,11 @@ package grpc
 import (
 	"context"
 
-	pb "go-common/app/service/main/relation/api"
-	"go-common/app/service/main/relation/conf"
-	"go-common/app/service/main/relation/model"
-	"go-common/app/service/main/relation/service"
-	"go-common/library/net/rpc/warden"
+	pb "github.com/namelessup/bilibili/app/service/main/relation/api"
+	"github.com/namelessup/bilibili/app/service/main/relation/conf"
+	"github.com/namelessup/bilibili/app/service/main/relation/model"
+	"github.com/namelessup/bilibili/app/service/main/relation/service"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 )
 
 // New warden rpc server

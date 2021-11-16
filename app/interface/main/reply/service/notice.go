@@ -6,9 +6,9 @@ import (
 	"strings"
 	"time"
 
-	model "go-common/app/interface/main/reply/model/reply"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	model "github.com/namelessup/bilibili/app/interface/main/reply/model/reply"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 // RplyNotice return a reply notice from memory.

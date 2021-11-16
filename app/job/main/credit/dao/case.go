@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"time"
 
-	"go-common/app/job/main/credit/model"
-	xsql "go-common/library/database/sql"
-	"go-common/library/log"
-	xtime "go-common/library/time"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/job/main/credit/model"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 const (

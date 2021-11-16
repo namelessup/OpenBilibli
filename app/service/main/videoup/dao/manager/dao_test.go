@@ -4,7 +4,7 @@ import (
 	"flag"
 	"os"
 	"testing"
-	"go-common/app/service/main/videoup/conf"
+	"github.com/namelessup/bilibili/app/service/main/videoup/conf"
 )
 
 var (

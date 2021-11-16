@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["mail.go"],
-    importpath = "go-common/app/admin/main/macross/model/mail",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/macross/model/mail",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

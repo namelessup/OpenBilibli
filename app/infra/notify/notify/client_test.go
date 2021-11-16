@@ -7,8 +7,8 @@ import (
 	"testing"
 
 	. "github.com/smartystreets/goconvey/convey"
-	"go-common/app/infra/notify/conf"
-	"go-common/app/infra/notify/model"
+	"github.com/namelessup/bilibili/app/infra/notify/conf"
+	"github.com/namelessup/bilibili/app/infra/notify/model"
 )
 
 func initConf() *conf.Config {

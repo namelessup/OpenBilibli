@@ -21,7 +21,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["operator.go"],
-    importpath = "go-common/app/interface/main/app-wall/service/operator",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-wall/service/operator",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

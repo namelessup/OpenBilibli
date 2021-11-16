@@ -21,7 +21,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["feed.go"],
-    importpath = "go-common/app/job/main/app/service/feed",
+    importpath = "github.com/namelessup/bilibili/app/job/main/app/service/feed",
     tags = ["automanaged"],
     deps = [
         "//app/job/main/app/conf:go_default_library",

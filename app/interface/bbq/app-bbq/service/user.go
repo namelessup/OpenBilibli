@@ -2,11 +2,11 @@ package service
 
 import (
 	"context"
-	"go-common/app/interface/bbq/app-bbq/api/http/v1"
-	"go-common/app/interface/bbq/app-bbq/model"
-	user "go-common/app/service/bbq/user/api"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/bbq/app-bbq/api/http/v1"
+	"github.com/namelessup/bilibili/app/interface/bbq/app-bbq/model"
+	user "github.com/namelessup/bilibili/app/service/bbq/user/api"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // UserBase 获取用户信息

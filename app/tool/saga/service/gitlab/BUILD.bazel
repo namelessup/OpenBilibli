@@ -7,7 +7,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["gitlab.go"],
-    importpath = "go-common/app/tool/saga/service/gitlab",
+    importpath = "github.com/namelessup/bilibili/app/tool/saga/service/gitlab",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

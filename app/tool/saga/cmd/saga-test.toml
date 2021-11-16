@@ -122,8 +122,8 @@ version = "5.14.1"
         reloadTick = "1h"
     [property.dag]
         buildTick = "1h"
-        repoURL = "git@gitlab.bilibili.co:platform/go-common.git"
-        repoName = "go-common"
+        repoURL = "git@gitlab.bilibili.co:platform/github.com/namelessup/bilibili.git"
+        repoName = "github.com/namelessup/bilibili"
         repoGitlabName = "Kratos"
     [property.gitlab]
         api = "http://gitlab.bilibili.co/api/v4"
@@ -171,8 +171,8 @@ version = "5.14.1"
         checkCron = "0 0 10 * * ?"
 
     [[property.repos]]
-        url = "git@gitlab.bilibili.co:platform/go-common.git"
-        name = "go-common"
+        url = "git@gitlab.bilibili.co:platform/github.com/namelessup/bilibili.git"
+        name = "github.com/namelessup/bilibili"
         gName = "Kratos"
         language = "go"
         minReviewer= 1

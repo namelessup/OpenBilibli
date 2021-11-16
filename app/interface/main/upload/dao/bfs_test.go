@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/interface/main/upload/conf"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/interface/main/upload/conf"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

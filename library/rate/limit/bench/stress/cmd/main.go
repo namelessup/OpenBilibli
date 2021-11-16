@@ -7,10 +7,10 @@ import (
 	"os/signal"
 	"syscall"
 
-	"go-common/library/log"
-	"go-common/library/net/trace"
-	"go-common/library/rate/limit/bench/stress/conf"
-	"go-common/library/rate/limit/bench/stress/http"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
+	"github.com/namelessup/bilibili/library/rate/limit/bench/stress/conf"
+	"github.com/namelessup/bilibili/library/rate/limit/bench/stress/http"
 )
 
 func main() {

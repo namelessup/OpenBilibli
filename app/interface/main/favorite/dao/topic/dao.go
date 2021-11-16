@@ -5,13 +5,13 @@ import (
 	"net/url"
 	"strconv"
 
-	"go-common/app/interface/main/favorite/conf"
-	"go-common/app/interface/main/favorite/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	httpx "go-common/library/net/http/blademaster"
-	"go-common/library/net/metadata"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/interface/main/favorite/conf"
+	"github.com/namelessup/bilibili/app/interface/main/favorite/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	httpx "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 const _topic = "http://matsuri.bilibili.co/activity/pages"

@@ -5,7 +5,7 @@ import (
 	"os"
 	"strings"
 
-	"go-common/app/admin/main/appstatic/conf"
+	"github.com/namelessup/bilibili/app/admin/main/appstatic/conf"
 
 	. "github.com/smartystreets/goconvey/convey"
 	"gopkg.in/h2non/gock.v1"

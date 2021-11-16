@@ -1,10 +1,10 @@
 package mcnmodel
 
 import (
-	mcnadminmodel "go-common/app/admin/main/mcn/model"
-	"go-common/app/interface/main/mcn/model"
-	"go-common/app/interface/main/mcn/tool/validate"
-	"go-common/library/time"
+	mcnadminmodel "github.com/namelessup/bilibili/app/admin/main/mcn/model"
+	"github.com/namelessup/bilibili/app/interface/main/mcn/model"
+	"github.com/namelessup/bilibili/app/interface/main/mcn/tool/validate"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 //CookieMidInterface cookie set interface, set mid from cookie to arg

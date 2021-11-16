@@ -5,10 +5,10 @@ import (
 	"context"
 	"net"
 
-	pb "go-common/app/service/main/broadcast/api/grpc/v1"
-	"go-common/app/service/main/broadcast/service"
-	"go-common/library/conf/paladin"
-	"go-common/library/net/rpc/warden"
+	pb "github.com/namelessup/bilibili/app/service/main/broadcast/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/main/broadcast/service"
+	"github.com/namelessup/bilibili/library/conf/paladin"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 
 	"google.golang.org/grpc"
 	// use gzip decoder

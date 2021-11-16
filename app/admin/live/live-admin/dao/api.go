@@ -1,9 +1,9 @@
 package dao
 
 import (
-	"go-common/app/admin/live/live-admin/conf"
-	avApi "go-common/app/service/live/av/api/liverpc"
-	"go-common/library/net/rpc/liverpc"
+	"github.com/namelessup/bilibili/app/admin/live/live-admin/conf"
+	avApi "github.com/namelessup/bilibili/app/service/live/av/api/liverpc"
+	"github.com/namelessup/bilibili/library/net/rpc/liverpc"
 )
 
 // AvApi liveRpc room-service api

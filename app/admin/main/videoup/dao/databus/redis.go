@@ -4,11 +4,11 @@ import (
 	"context"
 	"encoding/json"
 
-	"go-common/app/admin/main/videoup/model/archive"
-	"go-common/app/admin/main/videoup/model/message"
-	"go-common/library/cache/redis"
-	"go-common/library/conf/env"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/videoup/model/archive"
+	"github.com/namelessup/bilibili/app/admin/main/videoup/model/message"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/conf/env"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

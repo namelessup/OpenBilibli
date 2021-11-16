@@ -15,7 +15,7 @@ go_library(
         "score.go",
         "statistics.go",
     ],
-    importpath = "go-common/app/admin/main/up-rating/dao",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/up-rating/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

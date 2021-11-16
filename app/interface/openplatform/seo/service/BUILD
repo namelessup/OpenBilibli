@@ -12,7 +12,7 @@ go_library(
         "pro.go",
         "service.go",
     ],
-    importpath = "go-common/app/interface/openplatform/seo/service",
+    importpath = "github.com/namelessup/bilibili/app/interface/openplatform/seo/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

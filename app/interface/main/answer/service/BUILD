@@ -36,7 +36,7 @@ go_library(
         "service.go",
         "user_info.go",
     ],
-    importpath = "go-common/app/interface/main/answer/service",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/answer/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

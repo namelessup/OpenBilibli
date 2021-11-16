@@ -5,8 +5,8 @@ import (
 	"math/rand"
 	"testing"
 
-	"go-common/app/service/main/share/model"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/service/main/share/model"
+	"github.com/namelessup/bilibili/library/ecode"
 
 	"github.com/smartystreets/goconvey/convey"
 )

@@ -15,7 +15,7 @@ go_library(
         "mc.go",
         "redis.go",
     ],
-    importpath = "go-common/app/job/main/reply-feed/dao",
+    importpath = "github.com/namelessup/bilibili/app/job/main/reply-feed/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

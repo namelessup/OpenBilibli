@@ -2,12 +2,12 @@ package faq
 
 import (
 	"context"
-	"go-common/app/interface/main/creative/conf"
-	"go-common/app/interface/main/creative/dao/faq"
-	faqMdl "go-common/app/interface/main/creative/model/faq"
-	"go-common/app/interface/main/creative/service"
-	"go-common/library/log"
-	"go-common/library/sync/pipeline/fanout"
+	"github.com/namelessup/bilibili/app/interface/main/creative/conf"
+	"github.com/namelessup/bilibili/app/interface/main/creative/dao/faq"
+	faqMdl "github.com/namelessup/bilibili/app/interface/main/creative/model/faq"
+	"github.com/namelessup/bilibili/app/interface/main/creative/service"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/pipeline/fanout"
 )
 
 //Service struct

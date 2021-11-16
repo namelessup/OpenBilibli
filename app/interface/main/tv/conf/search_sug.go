@@ -1,6 +1,6 @@
 package conf
 
-import xtime "go-common/library/time"
+import xtime "github.com/namelessup/bilibili/library/time"
 
 // Search related config def.
 type Search struct {

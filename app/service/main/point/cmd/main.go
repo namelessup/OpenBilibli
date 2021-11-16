@@ -8,14 +8,14 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/app/service/main/point/conf"
-	rpc "go-common/app/service/main/point/rpc/server"
-	grpc "go-common/app/service/main/point/server/grpc"
-	"go-common/app/service/main/point/server/http"
-	"go-common/app/service/main/point/service"
-	ecode "go-common/library/ecode/tip"
+	"github.com/namelessup/bilibili/app/service/main/point/conf"
+	rpc "github.com/namelessup/bilibili/app/service/main/point/rpc/server"
+	grpc "github.com/namelessup/bilibili/app/service/main/point/server/grpc"
+	"github.com/namelessup/bilibili/app/service/main/point/server/http"
+	"github.com/namelessup/bilibili/app/service/main/point/service"
+	ecode "github.com/namelessup/bilibili/library/ecode/tip"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 var svc *service.Service

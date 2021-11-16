@@ -3,12 +3,12 @@ package vip
 import (
 	"context"
 
-	"go-common/app/interface/main/account/model"
-	vipv1 "go-common/app/service/main/vip/api"
-	vipml "go-common/app/service/main/vip/model"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/interface/main/account/model"
+	vipv1 "github.com/namelessup/bilibili/app/service/main/vip/api"
+	vipml "github.com/namelessup/bilibili/app/service/main/vip/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 
 	"github.com/pkg/errors"
 )

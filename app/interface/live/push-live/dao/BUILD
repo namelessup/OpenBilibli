@@ -41,7 +41,7 @@ go_library(
         "switch.go",
         "task.go",
     ],
-    importpath = "go-common/app/interface/live/push-live/dao",
+    importpath = "github.com/namelessup/bilibili/app/interface/live/push-live/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

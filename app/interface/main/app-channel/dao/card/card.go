@@ -6,11 +6,11 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/interface/main/app-card/model/card/operate"
-	"go-common/app/interface/main/app-channel/conf"
-	"go-common/app/interface/main/app-channel/model/card"
-	"go-common/library/cache/memcache"
-	"go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/interface/main/app-card/model/card/operate"
+	"github.com/namelessup/bilibili/app/interface/main/app-channel/conf"
+	"github.com/namelessup/bilibili/app/interface/main/app-channel/model/card"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/database/sql"
 )
 
 const (

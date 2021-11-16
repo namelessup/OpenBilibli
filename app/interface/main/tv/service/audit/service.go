@@ -1,9 +1,9 @@
 package audit
 
 import (
-	"go-common/app/interface/main/tv/conf"
-	auditDao "go-common/app/interface/main/tv/dao/audit"
-	"go-common/app/interface/main/tv/dao/cms"
+	"github.com/namelessup/bilibili/app/interface/main/tv/conf"
+	auditDao "github.com/namelessup/bilibili/app/interface/main/tv/dao/audit"
+	"github.com/namelessup/bilibili/app/interface/main/tv/dao/cms"
 )
 
 // Service .

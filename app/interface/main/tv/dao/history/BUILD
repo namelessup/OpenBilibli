@@ -29,7 +29,7 @@ go_library(
         "cursor.go",
         "dao.go",
     ],
-    importpath = "go-common/app/interface/main/tv/dao/history",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/tv/dao/history",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

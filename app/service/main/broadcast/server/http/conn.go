@@ -3,9 +3,9 @@ package http
 import (
 	"io/ioutil"
 
-	pb "go-common/app/service/main/broadcast/api/grpc/v1"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
+	pb "github.com/namelessup/bilibili/app/service/main/broadcast/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 
 	"github.com/gogo/protobuf/proto"
 )

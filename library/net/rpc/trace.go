@@ -3,7 +3,7 @@ package rpc
 import (
 	"strconv"
 
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/library/net/trace"
 )
 
 // TraceInfo propagate trace propagate gorpc call

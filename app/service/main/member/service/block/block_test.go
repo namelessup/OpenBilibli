@@ -3,7 +3,7 @@ package block
 import (
 	"context"
 	"github.com/smartystreets/goconvey/convey"
-	"go-common/app/service/main/member/model/block"
+	"github.com/namelessup/bilibili/app/service/main/member/model/block"
 	"testing"
 )
 

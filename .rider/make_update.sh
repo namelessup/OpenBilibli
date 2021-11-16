@@ -19,6 +19,6 @@ done
 
 sleep $[ ( $RANDOM % 60 )  + 1 ]s
 
-cd ${CI_PROJECT_DIR}/../src/go-common
+cd ${CI_PROJECT_DIR}/../src/github.com/namelessup/bilibili
 #mkdir -p .git/hooks/pre-commit
 make bazel-update

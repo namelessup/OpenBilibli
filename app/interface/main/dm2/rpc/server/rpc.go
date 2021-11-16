@@ -1,12 +1,12 @@
 package server
 
 import (
-	"go-common/app/interface/main/dm2/conf"
-	"go-common/app/interface/main/dm2/model"
-	"go-common/app/interface/main/dm2/service"
-	"go-common/library/ecode"
-	"go-common/library/net/rpc"
-	"go-common/library/net/rpc/context"
+	"github.com/namelessup/bilibili/app/interface/main/dm2/conf"
+	"github.com/namelessup/bilibili/app/interface/main/dm2/model"
+	"github.com/namelessup/bilibili/app/interface/main/dm2/service"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/net/rpc"
+	"github.com/namelessup/bilibili/library/net/rpc/context"
 )
 
 // RPC rpc server.

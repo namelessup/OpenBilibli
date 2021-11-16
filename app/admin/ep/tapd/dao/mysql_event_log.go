@@ -1,6 +1,6 @@
 package dao
 
-import "go-common/app/admin/ep/tapd/model"
+import "github.com/namelessup/bilibili/app/admin/ep/tapd/model"
 
 // AddEventLog Add Event Log.
 func (d *Dao) AddEventLog(eventLog *model.EventLog) error {

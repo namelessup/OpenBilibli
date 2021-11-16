@@ -47,7 +47,7 @@
 1. iOS支持image
 
 ### v1.8.15
-1. 使用 go-common/env
+1. 使用 github.com/namelessup/bilibili/env
 
 ### v1.8.14
 1. 迁移model至push-service

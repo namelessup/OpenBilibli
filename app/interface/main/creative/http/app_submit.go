@@ -5,15 +5,15 @@ import (
 	"strconv"
 	"time"
 
-	accmdl "go-common/app/interface/main/creative/model/account"
-	"go-common/app/interface/main/creative/model/archive"
-	"go-common/app/interface/main/creative/model/faq"
-	"go-common/app/interface/main/creative/model/watermark"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/metadata"
-	"go-common/library/sync/errgroup"
+	accmdl "github.com/namelessup/bilibili/app/interface/main/creative/model/account"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/archive"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/faq"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/watermark"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 func appArcDescFormat(c *bm.Context) {

@@ -4,8 +4,8 @@ import (
 	"context"
 	"database/sql"
 
-	"go-common/app/service/main/archive/model/videoshot"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/archive/model/videoshot"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

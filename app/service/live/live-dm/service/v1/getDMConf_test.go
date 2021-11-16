@@ -4,10 +4,10 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	v1pb "go-common/app/service/live/live-dm/api/grpc/v1"
-	"go-common/app/service/live/live-dm/conf"
-	"go-common/app/service/live/live-dm/dao"
-	"go-common/library/net/metadata"
+	v1pb "github.com/namelessup/bilibili/app/service/live/live-dm/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/live/live-dm/conf"
+	"github.com/namelessup/bilibili/app/service/live/live-dm/dao"
+	"github.com/namelessup/bilibili/library/net/metadata"
 	"testing"
 )
 

@@ -7,10 +7,10 @@ import (
 	"math/rand"
 	"time"
 
-	"go-common/app/job/main/ugcpay/dao"
-	"go-common/app/job/main/ugcpay/model"
-	xsql "go-common/library/database/sql"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/ugcpay/dao"
+	"github.com/namelessup/bilibili/app/job/main/ugcpay/model"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/pkg/errors"
 )

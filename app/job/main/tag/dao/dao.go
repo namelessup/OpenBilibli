@@ -4,12 +4,12 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/job/main/tag/conf"
-	filgrpc "go-common/app/service/main/filter/api/grpc/v1"
-	"go-common/library/cache/memcache"
-	"go-common/library/cache/redis"
-	"go-common/library/database/sql"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/tag/conf"
+	filgrpc "github.com/namelessup/bilibili/app/service/main/filter/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Dao dao struct .

@@ -10,7 +10,7 @@ go_library(
         "service.go",
         "stars.go",
     ],
-    importpath = "go-common/app/admin/main/feed/service/popular",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/feed/service/popular",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

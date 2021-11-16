@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"go-common/app/job/main/spy/conf"
+	"github.com/namelessup/bilibili/app/job/main/spy/conf"
 
 	. "github.com/smartystreets/goconvey/convey"
 	gock "gopkg.in/h2non/gock.v1"

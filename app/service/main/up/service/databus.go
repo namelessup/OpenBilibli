@@ -7,9 +7,9 @@ import (
 	"hash/crc32"
 	"strconv"
 
-	"go-common/app/service/main/up/model"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/service/main/up/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 func (s *Service) upConsumer() {

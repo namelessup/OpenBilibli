@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"go-common/app/service/live/zeus/expr"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/live/zeus/expr"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 type Matcher struct {

@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"go-common/app/admin/main/aegis/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/pkg/errors"
 )

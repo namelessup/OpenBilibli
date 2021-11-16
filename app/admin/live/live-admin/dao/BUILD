@@ -12,7 +12,7 @@ go_library(
         "dao.go",
         "token.go",
     ],
-    importpath = "go-common/app/admin/live/live-admin/dao",
+    importpath = "github.com/namelessup/bilibili/app/admin/live/live-admin/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

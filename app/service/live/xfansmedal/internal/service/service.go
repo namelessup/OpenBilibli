@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"go-common/app/service/live/xfansmedal/internal/conf"
-	"go-common/app/service/live/xfansmedal/internal/dao"
+	"github.com/namelessup/bilibili/app/service/live/xfansmedal/internal/conf"
+	"github.com/namelessup/bilibili/app/service/live/xfansmedal/internal/dao"
 )
 
 // Service struct

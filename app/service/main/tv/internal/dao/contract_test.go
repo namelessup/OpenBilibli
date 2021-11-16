@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"go-common/app/service/main/tv/internal/model"
+	"github.com/namelessup/bilibili/app/service/main/tv/internal/model"
 
 	"github.com/smartystreets/goconvey/convey"
 )

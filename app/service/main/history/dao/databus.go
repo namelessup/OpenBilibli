@@ -4,9 +4,9 @@ import (
 	"context"
 	"strconv"
 
-	"go-common/app/service/main/history/model"
-	"go-common/library/log"
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/app/service/main/history/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/stat/prom"
 )
 
 // AddHistoryMessage .

@@ -4,16 +4,16 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/service/main/member/conf"
-	"go-common/app/service/main/member/dao/block"
-	"go-common/library/cache/memcache"
-	"go-common/library/cache/redis"
-	"go-common/library/database/sql"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/queue/databus"
-	"go-common/library/sync/pipeline/fanout"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/service/main/member/conf"
+	"github.com/namelessup/bilibili/app/service/main/member/dao/block"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/queue/databus"
+	"github.com/namelessup/bilibili/library/sync/pipeline/fanout"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 const (

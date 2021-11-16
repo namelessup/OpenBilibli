@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"testing"
 
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/library/queue/databus"
 
 	"github.com/bouk/monkey"
 	"github.com/smartystreets/goconvey/convey"

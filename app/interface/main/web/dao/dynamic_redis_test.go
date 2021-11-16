@@ -2,8 +2,8 @@ package dao
 
 import (
 	"context"
-	"go-common/app/service/main/archive/api"
-	dymdl "go-common/app/service/main/dynamic/model"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	dymdl "github.com/namelessup/bilibili/app/service/main/dynamic/model"
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"

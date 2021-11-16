@@ -28,7 +28,7 @@ go_library(
         "task.go",
         "upload.go",
     ],
-    importpath = "go-common/app/admin/main/push/service",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/push/service",
     tags = ["automanaged"],
     deps = [
         "//app/admin/main/push/conf:go_default_library",

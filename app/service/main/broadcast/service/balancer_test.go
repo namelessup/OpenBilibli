@@ -4,7 +4,7 @@ import (
 	"sort"
 	"testing"
 
-	"go-common/app/service/main/broadcast/model"
+	"github.com/namelessup/bilibili/app/service/main/broadcast/model"
 )
 
 func TestCurrentWeightByConns(t *testing.T) {

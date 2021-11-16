@@ -4,12 +4,12 @@ import (
 	"context"
 	"time"
 
-	pb "go-common/app/service/main/broadcast/api/grpc/v1"
-	"go-common/app/service/main/broadcast/model"
-	location "go-common/app/service/main/location/api"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
-	xtime "go-common/library/time"
+	pb "github.com/namelessup/bilibili/app/service/main/broadcast/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/main/broadcast/model"
+	location "github.com/namelessup/bilibili/app/service/main/location/api"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // ServerBackoff server backoff config.

@@ -3,13 +3,13 @@ package service
 import (
 	"context"
 
-	"go-common/app/service/bbq/recsys/conf"
-	"go-common/app/service/bbq/recsys/dao"
-	postProcess "go-common/app/service/bbq/recsys/service/postprocess"
-	"go-common/app/service/bbq/recsys/service/rank"
-	"go-common/app/service/bbq/recsys/service/retrieve"
-	"go-common/library/log/infoc"
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/app/service/bbq/recsys/conf"
+	"github.com/namelessup/bilibili/app/service/bbq/recsys/dao"
+	postProcess "github.com/namelessup/bilibili/app/service/bbq/recsys/service/postprocess"
+	"github.com/namelessup/bilibili/app/service/bbq/recsys/service/rank"
+	"github.com/namelessup/bilibili/app/service/bbq/recsys/service/retrieve"
+	"github.com/namelessup/bilibili/library/log/infoc"
+	"github.com/namelessup/bilibili/library/stat/prom"
 )
 
 // Service struct

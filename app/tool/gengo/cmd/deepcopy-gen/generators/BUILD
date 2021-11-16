@@ -18,7 +18,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["deepcopy.go"],
-    importpath = "go-common/app/tool/gengo/cmd/deepcopy-gen/generators",
+    importpath = "github.com/namelessup/bilibili/app/tool/gengo/cmd/deepcopy-gen/generators",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

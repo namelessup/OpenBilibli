@@ -23,7 +23,7 @@ go_library(
         "user_info.go",
         "yst.go",
     ],
-    importpath = "go-common/app/service/main/tv/internal/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/main/tv/internal/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

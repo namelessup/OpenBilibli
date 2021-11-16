@@ -6,10 +6,10 @@ import (
 	"strconv"
 	"strings"
 
-	"go-common/app/interface/main/space/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/interface/main/space/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 const _defaultPrivacy = 1

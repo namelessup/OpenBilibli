@@ -3,7 +3,7 @@
 version = "1.0.0"
 user = "root"
 pid = "/tmp/push-live.pid"
-dir = "/data/dev/go/src/go-common/app/interface/live/push-live"
+dir = "/data/dev/go/src/github.com/namelessup/bilibili/app/interface/live/push-live"
 perf = "0.0.0.0:6420"
 env = "dev"
 

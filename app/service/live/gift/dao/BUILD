@@ -42,7 +42,7 @@ go_library(
         "ugift_week.go",
         "user_gift.go",
     ],
-    importpath = "go-common/app/service/live/gift/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/live/gift/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

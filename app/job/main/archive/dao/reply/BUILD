@@ -27,7 +27,7 @@ go_library(
         "dao.go",
         "reply.go",
     ],
-    importpath = "go-common/app/job/main/archive/dao/reply",
+    importpath = "github.com/namelessup/bilibili/app/job/main/archive/dao/reply",
     tags = ["automanaged"],
     deps = [
         "//app/job/main/archive/conf:go_default_library",

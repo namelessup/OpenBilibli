@@ -3,13 +3,13 @@ package dao
 import (
 	"context"
 	"fmt"
-	"go-common/app/interface/bbq/app-bbq/model"
-	"go-common/library/cache/redis"
-	"go-common/library/time"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/interface/bbq/app-bbq/model"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/time"
+	"github.com/namelessup/bilibili/library/xstr"
 	"strconv"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // FetchAvailableOutboxList 根据提供的up主mids去获取比lastSvID还小的svid

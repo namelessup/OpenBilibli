@@ -1,7 +1,7 @@
 package stat
 
 import (
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/library/stat/prom"
 )
 
 // Stat interface.

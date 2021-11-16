@@ -6,8 +6,8 @@ import (
 	"net/url"
 	"strconv"
 
-	"go-common/library/log"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 const (

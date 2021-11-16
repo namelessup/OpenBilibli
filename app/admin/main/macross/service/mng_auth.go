@@ -4,8 +4,8 @@ import (
 	"context"
 	"sort"
 
-	model "go-common/app/admin/main/macross/model/manager"
-	"go-common/library/log"
+	model "github.com/namelessup/bilibili/app/admin/main/macross/model/manager"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // GetAuths get auths.

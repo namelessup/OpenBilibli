@@ -1,4 +1,4 @@
 {
-	"GoPrefix": "go-common",
+	"GoPrefix": "github.com/namelessup/bilibili",
 	"AddSourcesRules": true
 }

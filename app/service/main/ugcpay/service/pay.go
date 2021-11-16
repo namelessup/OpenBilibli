@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"go-common/app/service/main/ugcpay/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/ugcpay/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) createPayData(ctx context.Context, order *model.Order) (data string, err error) {

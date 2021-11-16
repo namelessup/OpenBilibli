@@ -10,10 +10,10 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/service/main/rank/conf"
-	"go-common/app/service/main/rank/model"
-	"go-common/library/log"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/service/main/rank/conf"
+	"github.com/namelessup/bilibili/app/service/main/rank/model"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

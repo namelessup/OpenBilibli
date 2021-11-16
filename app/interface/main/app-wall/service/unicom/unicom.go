@@ -10,12 +10,12 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/interface/main/app-wall/model"
-	"go-common/app/interface/main/app-wall/model/unicom"
-	account "go-common/app/service/main/account/model"
-	"go-common/library/ecode"
-	log "go-common/library/log"
-	"go-common/library/queue/databus/report"
+	"github.com/namelessup/bilibili/app/interface/main/app-wall/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-wall/model/unicom"
+	account "github.com/namelessup/bilibili/app/service/main/account/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	log "github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus/report"
 )
 
 const (

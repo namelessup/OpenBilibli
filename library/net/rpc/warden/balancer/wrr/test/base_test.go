@@ -9,14 +9,14 @@ import (
 	"testing"
 	"time"
 
-	"go-common/library/conf/env"
-	"go-common/library/naming"
-	"go-common/library/net/netutil/breaker"
-	"go-common/library/net/rpc/warden"
-	"go-common/library/net/rpc/warden/balancer/wrr"
-	pb "go-common/library/net/rpc/warden/proto/testproto"
-	"go-common/library/net/rpc/warden/resolver"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/library/conf/env"
+	"github.com/namelessup/bilibili/library/naming"
+	"github.com/namelessup/bilibili/library/net/netutil/breaker"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
+	"github.com/namelessup/bilibili/library/net/rpc/warden/balancer/wrr"
+	pb "github.com/namelessup/bilibili/library/net/rpc/warden/proto/testproto"
+	"github.com/namelessup/bilibili/library/net/rpc/warden/resolver"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	"google.golang.org/grpc"
 )

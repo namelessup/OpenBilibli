@@ -140,8 +140,8 @@ message MedalInfo {
 	int32 Sort			= 11	[(gogoproto.jsontag) = "sort,omitempty"];
 	int32 IsOnline		= 12 	[(gogoproto.jsontag) = "is_online,omitempty"];
 	int32 IsGet			= 13 	[(gogoproto.jsontag) = "is_get,omitempty"];
-	int64 Ctime 		= 14 	[(gogoproto.jsontag) = "ctime,omitempty", (gogoproto.casttype) = "go-common/library/time.Time"];
-	int64 Mtime 		= 15 	[(gogoproto.jsontag) = "mtime,omitempty", (gogoproto.casttype) = "go-common/library/time.Time"];
+	int64 Ctime 		= 14 	[(gogoproto.jsontag) = "ctime,omitempty", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
+	int64 Mtime 		= 15 	[(gogoproto.jsontag) = "mtime,omitempty", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
 }
 
 message MedalHomeInfo {
@@ -173,7 +173,7 @@ message MedalMyInfo{
 	MedalInfo MedalInfo = 1		[(gogoproto.embed) = true, (gogoproto.jsontag) = ""];
 	int32 IsActivated	= 2 	[(gogoproto.jsontag) = "is_activated"];
 	int32 IsNewGet		= 3 	[(gogoproto.jsontag) = "is_new_get"];
-	int64 GetTime		= 4 	[(gogoproto.jsontag) = "get_time,omitempty", (gogoproto.casttype) = "go-common/library/time.Time"];
+	int64 GetTime		= 4 	[(gogoproto.jsontag) = "get_time,omitempty", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
 }
 
 message MedalMyInfos{

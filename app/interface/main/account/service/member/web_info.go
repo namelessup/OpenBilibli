@@ -7,15 +7,15 @@ import (
 	"strconv"
 	"strings"
 
-	"go-common/app/interface/main/account/model"
-	cmodel "go-common/app/service/main/coin/model"
-	lmodel "go-common/app/service/main/location/model"
-	mmodel "go-common/app/service/main/member/model"
-	pmodel "go-common/app/service/main/passport/model"
-	smodel "go-common/app/service/main/secure/model"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/app/interface/main/account/model"
+	cmodel "github.com/namelessup/bilibili/app/service/main/coin/model"
+	lmodel "github.com/namelessup/bilibili/app/service/main/location/model"
+	mmodel "github.com/namelessup/bilibili/app/service/main/member/model"
+	pmodel "github.com/namelessup/bilibili/app/service/main/passport/model"
+	smodel "github.com/namelessup/bilibili/app/service/main/secure/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 // UpdateSettings Update Settings

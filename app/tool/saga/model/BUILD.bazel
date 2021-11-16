@@ -16,7 +16,7 @@ go_library(
         "model.go",
         "wechat.go",
     ],
-    importpath = "go-common/app/tool/saga/model",
+    importpath = "github.com/namelessup/bilibili/app/tool/saga/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

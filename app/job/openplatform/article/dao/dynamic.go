@@ -4,8 +4,8 @@ import (
 	"context"
 	"strconv"
 
-	"go-common/app/job/openplatform/article/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/openplatform/article/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const _dynamicArt = 64

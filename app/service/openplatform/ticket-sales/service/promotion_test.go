@@ -2,7 +2,7 @@ package service
 
 import (
 	"context"
-	rpcV1 "go-common/app/service/openplatform/ticket-sales/api/grpc/v1"
+	rpcV1 "github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/api/grpc/v1"
 	"testing"
 
 	. "github.com/smartystreets/goconvey/convey"

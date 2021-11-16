@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	model "go-common/app/interface/main/creative/model/elec"
-	account "go-common/app/service/main/account/model"
-	"go-common/app/service/main/archive/api"
-	"go-common/library/log"
+	model "github.com/namelessup/bilibili/app/interface/main/creative/model/elec"
+	account "github.com/namelessup/bilibili/app/service/main/account/model"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

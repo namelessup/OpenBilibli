@@ -4,11 +4,11 @@ import (
 	"context"
 	"errors"
 
-	"go-common/app/job/main/videoup-report/conf"
-	"go-common/app/job/main/videoup-report/model/data"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	xhttp "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/job/main/videoup-report/conf"
+	"github.com/namelessup/bilibili/app/job/main/videoup-report/model/data"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	xhttp "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 const (

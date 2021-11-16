@@ -7,12 +7,12 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/admin/main/reply/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/queue/databus/report"
-	"go-common/library/sync/errgroup"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/admin/main/reply/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus/report"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 func forbidResult(ftime int64) string {

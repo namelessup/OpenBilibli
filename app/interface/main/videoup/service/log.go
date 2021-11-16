@@ -2,9 +2,9 @@ package service
 
 import (
 	"fmt"
-	"go-common/app/interface/main/videoup/model/archive"
-	"go-common/library/log"
-	"go-common/library/queue/databus/report"
+	"github.com/namelessup/bilibili/app/interface/main/videoup/model/archive"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus/report"
 	"net"
 	"strconv"
 	"time"

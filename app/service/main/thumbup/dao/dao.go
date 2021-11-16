@@ -4,15 +4,15 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/service/main/thumbup/conf"
-	"go-common/app/service/main/thumbup/model"
-	"go-common/library/cache/memcache"
-	xredis "go-common/library/cache/redis"
-	"go-common/library/database/tidb"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
-	"go-common/library/stat/prom"
-	"go-common/library/sync/pipeline/fanout"
+	"github.com/namelessup/bilibili/app/service/main/thumbup/conf"
+	"github.com/namelessup/bilibili/app/service/main/thumbup/model"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	xredis "github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/database/tidb"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
+	"github.com/namelessup/bilibili/library/stat/prom"
+	"github.com/namelessup/bilibili/library/sync/pipeline/fanout"
 )
 
 // PromError prom error

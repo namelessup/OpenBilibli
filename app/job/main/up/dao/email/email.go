@@ -1,10 +1,10 @@
 package email
 
 import (
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 	"os"
 
-	"go-common/app/job/main/up/conf"
+	"github.com/namelessup/bilibili/app/job/main/up/conf"
 	"gopkg.in/gomail.v2"
 )
 

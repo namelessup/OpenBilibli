@@ -8,7 +8,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["dapper-query-example.toml"],
-    importpath = "go-common/app/service/main/dapper-query/cmd",
+    importpath = "github.com/namelessup/bilibili/app/service/main/dapper-query/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:private"],
     deps = [

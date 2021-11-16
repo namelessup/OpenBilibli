@@ -13,7 +13,7 @@ go_library(
         "tag.go",
         "video_types.go",
     ],
-    importpath = "go-common/app/admin/main/up/service/cache",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/up/service/cache",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

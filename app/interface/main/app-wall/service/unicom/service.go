@@ -4,15 +4,15 @@ import (
 	"sync"
 	"time"
 
-	"go-common/app/interface/main/app-wall/conf"
-	accdao "go-common/app/interface/main/app-wall/dao/account"
-	liveDao "go-common/app/interface/main/app-wall/dao/live"
-	seqDao "go-common/app/interface/main/app-wall/dao/seq"
-	shopDao "go-common/app/interface/main/app-wall/dao/shopping"
-	unicomDao "go-common/app/interface/main/app-wall/dao/unicom"
-	"go-common/app/interface/main/app-wall/model/unicom"
-	"go-common/library/queue/databus"
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/app/interface/main/app-wall/conf"
+	accdao "github.com/namelessup/bilibili/app/interface/main/app-wall/dao/account"
+	liveDao "github.com/namelessup/bilibili/app/interface/main/app-wall/dao/live"
+	seqDao "github.com/namelessup/bilibili/app/interface/main/app-wall/dao/seq"
+	shopDao "github.com/namelessup/bilibili/app/interface/main/app-wall/dao/shopping"
+	unicomDao "github.com/namelessup/bilibili/app/interface/main/app-wall/dao/unicom"
+	"github.com/namelessup/bilibili/app/interface/main/app-wall/model/unicom"
+	"github.com/namelessup/bilibili/library/queue/databus"
+	"github.com/namelessup/bilibili/library/stat/prom"
 )
 
 const (

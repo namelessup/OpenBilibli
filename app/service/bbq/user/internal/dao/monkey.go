@@ -3,12 +3,12 @@ package dao
 import (
 	"context"
 	xsql "database/sql"
-	notice "go-common/app/service/bbq/notice-service/api/v1"
-	"go-common/app/service/bbq/user/api"
-	"go-common/app/service/bbq/user/internal/model"
-	acc "go-common/app/service/main/account/api"
-	"go-common/library/database/sql"
-	"go-common/library/time"
+	notice "github.com/namelessup/bilibili/app/service/bbq/notice-service/api/v1"
+	"github.com/namelessup/bilibili/app/service/bbq/user/api"
+	"github.com/namelessup/bilibili/app/service/bbq/user/internal/model"
+	acc "github.com/namelessup/bilibili/app/service/main/account/api"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/time"
 	"reflect"
 
 	"github.com/bouk/monkey"

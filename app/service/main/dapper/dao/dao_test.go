@@ -12,8 +12,8 @@ import (
 
 	. "github.com/smartystreets/goconvey/convey"
 
-	"go-common/app/service/main/dapper/conf"
-	"go-common/app/service/main/dapper/model"
+	"github.com/namelessup/bilibili/app/service/main/dapper/conf"
+	"github.com/namelessup/bilibili/app/service/main/dapper/model"
 )
 
 func init() {

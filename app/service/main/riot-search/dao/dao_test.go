@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/service/main/riot-search/conf"
+	"github.com/namelessup/bilibili/app/service/main/riot-search/conf"
 
 	"github.com/smartystreets/goconvey/convey"
 )

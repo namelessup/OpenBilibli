@@ -36,7 +36,7 @@ go_library(
         "creative.go",
         "dao.go",
     ],
-    importpath = "go-common/app/interface/main/mcn/dao/datadao",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/mcn/dao/datadao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

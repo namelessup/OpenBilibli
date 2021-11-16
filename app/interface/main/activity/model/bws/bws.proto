@@ -14,8 +14,8 @@ message Users {
     int64  ID = 1 [(gogoproto.jsontag) = "id"];
     int64  Mid = 2 [(gogoproto.jsontag) = "mid"];
     string Key = 3 [(gogoproto.jsontag) = "key"];
-    int64  Ctime = 4 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "go-common/library/time.Time"];
-    int64  Mtime = 5 [(gogoproto.jsontag) = "mtime", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int64  Ctime = 4 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
+    int64  Mtime = 5 [(gogoproto.jsontag) = "mtime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
     int64  Bid = 6 [(gogoproto.jsontag) = "bid"];
 }
 
@@ -33,8 +33,8 @@ message Point {
     int64  LoseUnlocked = 11 [(gogoproto.jsontag) = "lose_unlocked"];
     string OtherIp = 12 [(gogoproto.jsontag) = "other_ip"];
     int64  Ower = 13 [(gogoproto.jsontag) = "ower"];
-    int64  Ctime = 14 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "go-common/library/time.Time"];
-    int64  Mtime = 15 [(gogoproto.jsontag) = "mtime", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int64  Ctime = 14 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
+    int64  Mtime = 15 [(gogoproto.jsontag) = "mtime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
 }
 
 message Points {
@@ -54,8 +54,8 @@ message Achievement {
     string IconActiveBig = 10 [(gogoproto.jsontag) = "icon_active_big"];
     int64  Award = 11 [(gogoproto.jsontag) = "award"];
     int64  UserCount = 12 [(gogoproto.jsontag) = "user_count"];
-    int64  Ctime = 13 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "go-common/library/time.Time"];
-    int64  Mtime = 14 [(gogoproto.jsontag) = "mtime", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int64  Ctime = 13 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
+    int64  Mtime = 14 [(gogoproto.jsontag) = "mtime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
     string Image = 15 [(gogoproto.jsontag) = "image"];
     int64  SuitID = 16 [(gogoproto.jsontag) = "suit_id"];
 }

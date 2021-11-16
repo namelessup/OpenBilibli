@@ -62,7 +62,7 @@ go_library(
         "vip.go",
         "welfare.go",
     ],
-    importpath = "go-common/app/admin/main/vip/dao",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/vip/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -2,7 +2,7 @@ package game
 
 import (
 	"context"
-	"go-common/app/interface/main/creative/model/game"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/game"
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"

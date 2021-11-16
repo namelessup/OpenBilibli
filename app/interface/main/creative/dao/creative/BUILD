@@ -17,7 +17,7 @@ go_library(
         "type.go",
         "version.go",
     ],
-    importpath = "go-common/app/interface/main/creative/dao/creative",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/creative/dao/creative",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

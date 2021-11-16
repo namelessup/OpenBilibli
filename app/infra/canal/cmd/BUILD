@@ -19,7 +19,7 @@ go_library(
         "canal.tidb.toml",
         "canal-test.toml",
     ],
-    importpath = "go-common/app/infra/canal/cmd",
+    importpath = "github.com/namelessup/bilibili/app/infra/canal/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

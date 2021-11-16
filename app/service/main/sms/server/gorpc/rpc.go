@@ -1,13 +1,13 @@
 package gorpc
 
 import (
-	pb "go-common/app/service/main/sms/api"
-	"go-common/app/service/main/sms/conf"
-	"go-common/app/service/main/sms/model"
-	"go-common/app/service/main/sms/service"
-	"go-common/library/net/rpc"
-	"go-common/library/net/rpc/context"
-	"go-common/library/net/rpc/interceptor"
+	pb "github.com/namelessup/bilibili/app/service/main/sms/api"
+	"github.com/namelessup/bilibili/app/service/main/sms/conf"
+	"github.com/namelessup/bilibili/app/service/main/sms/model"
+	"github.com/namelessup/bilibili/app/service/main/sms/service"
+	"github.com/namelessup/bilibili/library/net/rpc"
+	"github.com/namelessup/bilibili/library/net/rpc/context"
+	"github.com/namelessup/bilibili/library/net/rpc/interceptor"
 )
 
 // RPC rpc server

@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/job/main/videoup-report/model/email"
-	"go-common/library/log"
-	"go-common/library/queue/databus/report"
+	"github.com/namelessup/bilibili/app/job/main/videoup-report/model/email"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus/report"
 	gomail "gopkg.in/gomail.v2"
 )
 

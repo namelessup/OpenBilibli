@@ -3,9 +3,9 @@ package http
 import (
 	"time"
 
-	"go-common/app/interface/main/space/model"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/interface/main/space/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func setTopDynamic(c *bm.Context) {

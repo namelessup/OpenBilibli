@@ -6,7 +6,7 @@ import (
 )
 
 import (
-	"go-common/app/service/main/dapper/model"
+	"github.com/namelessup/bilibili/app/service/main/dapper/model"
 )
 
 // OperationNameProcess fix operation name so sad!

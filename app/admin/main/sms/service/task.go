@@ -6,11 +6,11 @@ import (
 	"strconv"
 	"strings"
 
-	pb "go-common/app/service/main/sms/api"
-	smsmdl "go-common/app/service/main/sms/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	xtime "go-common/library/time"
+	pb "github.com/namelessup/bilibili/app/service/main/sms/api"
+	smsmdl "github.com/namelessup/bilibili/app/service/main/sms/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 const _tableTask = "sms_tasks"

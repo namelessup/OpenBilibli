@@ -9,8 +9,8 @@ import (
 
 	"github.com/json-iterator/go"
 
-	"go-common/app/job/bbq/recall/internal/conf"
-	"go-common/app/job/bbq/recall/internal/model"
+	"github.com/namelessup/bilibili/app/job/bbq/recall/internal/conf"
+	"github.com/namelessup/bilibili/app/job/bbq/recall/internal/model"
 )
 
 func (d *Dao) queryHDFS(c context.Context, api string, key *conf.BerserkerKey, suffix string) (result *[]byte, err error) {

@@ -4,8 +4,8 @@ import (
 	"context"
 	"strconv"
 
-	arccli "go-common/app/service/main/archive/api"
-	"go-common/library/cache/memcache"
+	arccli "github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/library/cache/memcache"
 
 	"github.com/pkg/errors"
 )

@@ -3,7 +3,7 @@ package show
 import (
 	"context"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) loadAuditCache() {

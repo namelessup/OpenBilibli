@@ -3,7 +3,7 @@ package relation
 import (
 	"context"
 	"flag"
-	"go-common/app/interface/main/app-show/conf"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/conf"
 	"path/filepath"
 	"testing"
 	"time"

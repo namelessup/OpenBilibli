@@ -1,8 +1,8 @@
 package server
 
 import (
-	"go-common/app/service/main/identify-game/model"
-	"go-common/library/net/rpc/context"
+	"github.com/namelessup/bilibili/app/service/main/identify-game/model"
+	"github.com/namelessup/bilibili/library/net/rpc/context"
 )
 
 // DelCache del token cache.

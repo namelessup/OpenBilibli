@@ -3,8 +3,8 @@ package dao
 import (
 	"context"
 
-	v12 "go-common/app/service/main/member/api"
-	"go-common/library/log"
+	v12 "github.com/namelessup/bilibili/app/service/main/member/api"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // GetIdentityStatus  获取身份申请信息

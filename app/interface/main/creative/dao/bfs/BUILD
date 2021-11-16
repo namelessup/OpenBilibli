@@ -12,7 +12,7 @@ go_library(
         "cover.go",
         "dao.go",
     ],
-    importpath = "go-common/app/interface/main/creative/dao/bfs",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/creative/dao/bfs",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

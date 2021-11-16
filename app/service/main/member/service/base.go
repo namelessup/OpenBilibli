@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/service/main/member/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	ctime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/service/main/member/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	ctime "github.com/namelessup/bilibili/library/time"
 )
 
 // BaseInfo get user's base info.

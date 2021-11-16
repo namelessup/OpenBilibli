@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["model.go"],
-    importpath = "go-common/app/service/live/fans_medal/model",
+    importpath = "github.com/namelessup/bilibili/app/service/live/fans_medal/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

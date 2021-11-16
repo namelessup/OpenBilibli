@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	artmdl "go-common/app/interface/openplatform/article/model"
-	artsrv "go-common/app/interface/openplatform/article/rpc/client"
+	artmdl "github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	artsrv "github.com/namelessup/bilibili/app/interface/openplatform/article/rpc/client"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

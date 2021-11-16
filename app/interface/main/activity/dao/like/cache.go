@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	likemdl "go-common/app/interface/main/activity/model/like"
+	likemdl "github.com/namelessup/bilibili/app/interface/main/activity/model/like"
 )
 
 // likeKey likes table line cache
@@ -82,7 +82,7 @@ func subjectProtocolKey(sid int64) string {
 	return fmt.Sprintf("go_s_pt_%d", sid)
 }
 
-//go:generate $GOPATH/src/go-common/app/tool/cache/gen
+//go:generate $GOPATH/src/github.com/namelessup/bilibili/app/tool/cache/gen
 type _cache interface {
 	// cache: -sync=true
 	Like(c context.Context, id int64) (*likemdl.Item, error)
@@ -112,7 +112,7 @@ type _cache interface {
 	ActSubjectProtocol(c context.Context, sid int64) (res *likemdl.ActSubjectProtocol, err error)
 }
 
-//go:generate $GOPATH/src/go-common/app/tool/cache/mc
+//go:generate $GOPATH/src/github.com/namelessup/bilibili/app/tool/cache/mc
 type _mc interface {
 	// mc: -key=likeKey
 	CacheLike(c context.Context, id int64) (*likemdl.Item, error)

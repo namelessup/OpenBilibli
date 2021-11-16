@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"testing"
 
-	"go-common/app/job/main/passport/model"
-	"go-common/library/database/hbase.v2"
+	"github.com/namelessup/bilibili/app/job/main/passport/model"
+	"github.com/namelessup/bilibili/library/database/hbase.v2"
 
 	"github.com/bouk/monkey"
 	"github.com/smartystreets/goconvey/convey"

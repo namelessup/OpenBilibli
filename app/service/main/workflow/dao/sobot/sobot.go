@@ -7,13 +7,13 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 	"net/http"
 	"net/url"
 	"strconv"
 	"strings"
 
-	"go-common/app/service/main/workflow/model/sobot"
+	"github.com/namelessup/bilibili/app/service/main/workflow/model/sobot"
 )
 
 const (

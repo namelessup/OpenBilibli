@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 	"encoding/json"
-	"go-common/app/interface/main/videoup/model/archive"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/main/videoup/model/archive"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 	"strconv"
 )
 

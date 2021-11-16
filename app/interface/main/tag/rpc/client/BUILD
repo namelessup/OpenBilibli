@@ -28,7 +28,7 @@ go_library(
         "tag.go",
         "tag2.go",
     ],
-    importpath = "go-common/app/interface/main/tag/rpc/client",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/tag/rpc/client",
     tags = ["automanaged"],
     deps = [
         "//app/interface/main/tag/model:go_default_library",

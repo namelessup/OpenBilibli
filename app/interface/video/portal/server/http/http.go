@@ -3,12 +3,12 @@ package http
 import (
 	"net/http"
 
-	"go-common/app/interface/video/portal/conf"
-	"go-common/app/interface/video/portal/middleware"
-	"go-common/app/interface/video/portal/service"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/verify"
+	"github.com/namelessup/bilibili/app/interface/video/portal/conf"
+	"github.com/namelessup/bilibili/app/interface/video/portal/middleware"
+	"github.com/namelessup/bilibili/app/interface/video/portal/service"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/verify"
 )
 
 var (

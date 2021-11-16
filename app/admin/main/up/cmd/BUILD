@@ -16,8 +16,8 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["up-admin.toml"],
-    importmap = "go-common/app/admin/main/up/cmd",
-    importpath = "go-common/app/admin/main/up/cmd",
+    importmap = "github.com/namelessup/bilibili/app/admin/main/up/cmd",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/up/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

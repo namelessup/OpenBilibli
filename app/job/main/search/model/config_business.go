@@ -1,7 +1,7 @@
 package model
 
 import (
-	"go-common/library/database/sql"
+	"github.com/namelessup/bilibili/library/database/sql"
 )
 
 // SQLBusiness single table offset

@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["antispam.go"],
-    importpath = "go-common/app/interface/main/upload/http/antispam",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/upload/http/antispam",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

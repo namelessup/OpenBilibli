@@ -1,8 +1,8 @@
 package dao
 
 import (
-	"go-common/app/admin/ep/merlin/model"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/admin/ep/merlin/model"
+	"github.com/namelessup/bilibili/library/ecode"
 
 	pkgerr "github.com/pkg/errors"
 )

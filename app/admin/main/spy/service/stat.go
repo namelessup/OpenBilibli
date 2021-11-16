@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/admin/main/spy/model"
+	"github.com/namelessup/bilibili/app/admin/main/spy/model"
 )
 
 // UpdateState update spy state.

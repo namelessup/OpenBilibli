@@ -14,7 +14,7 @@ go_library(
         "redis.go",
         "redisKey.go",
     ],
-    importpath = "go-common/app/service/live/dao-anchor/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/live/dao-anchor/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

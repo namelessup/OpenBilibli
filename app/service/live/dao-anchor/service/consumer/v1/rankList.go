@@ -4,11 +4,11 @@ import (
 	"context"
 	"encoding/json"
 
-	v1pb "go-common/app/service/live/dao-anchor/api/grpc/v1"
-	"go-common/app/service/live/dao-anchor/dao"
-	"go-common/app/service/live/dao-anchor/model"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
+	v1pb "github.com/namelessup/bilibili/app/service/live/dao-anchor/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/live/dao-anchor/dao"
+	"github.com/namelessup/bilibili/app/service/live/dao-anchor/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 //LiveRoomTag  房间实时标签，同步落地

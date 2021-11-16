@@ -3,8 +3,8 @@ package notify
 import (
 	"context"
 	. "github.com/smartystreets/goconvey/convey"
-	"go-common/app/infra/notify/model"
-	"go-common/library/net/rpc/liverpc"
+	"github.com/namelessup/bilibili/app/infra/notify/model"
+	"github.com/namelessup/bilibili/library/net/rpc/liverpc"
 	"testing"
 )
 

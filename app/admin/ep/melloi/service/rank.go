@@ -5,8 +5,8 @@ import (
 	"sort"
 	"time"
 
-	"go-common/app/admin/ep/melloi/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/ep/melloi/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 //TreesQuery Get service tree

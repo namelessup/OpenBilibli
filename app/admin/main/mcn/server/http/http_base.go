@@ -10,12 +10,12 @@ import (
 	"net/http"
 	"reflect"
 
-	"go-common/app/admin/main/mcn/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/binding"
-	"go-common/library/net/http/blademaster/render"
+	"github.com/namelessup/bilibili/app/admin/main/mcn/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/binding"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/render"
 
 	"github.com/pkg/errors"
 )

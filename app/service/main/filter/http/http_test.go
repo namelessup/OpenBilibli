@@ -7,9 +7,9 @@ import (
 	"os"
 	"testing"
 
-	"go-common/app/service/main/filter/conf"
-	"go-common/app/service/main/filter/service"
-	xhttp "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/service/main/filter/conf"
+	"github.com/namelessup/bilibili/app/service/main/filter/service"
+	xhttp "github.com/namelessup/bilibili/library/net/http/blademaster"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

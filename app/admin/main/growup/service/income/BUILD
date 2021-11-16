@@ -45,7 +45,7 @@ go_library(
         "up_info_video.go",
         "withdraw.go",
     ],
-    importpath = "go-common/app/admin/main/growup/service/income",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/growup/service/income",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

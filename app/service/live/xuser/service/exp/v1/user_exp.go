@@ -3,16 +3,16 @@ package v1
 import (
 	"context"
 	"github.com/pkg/errors"
-	v1pb "go-common/app/service/live/xuser/api/grpc/v1"
-	"go-common/app/service/live/xuser/conf"
-	"go-common/app/service/live/xuser/dao/exp"
-	XanchorDao "go-common/app/service/live/xuser/dao/xanchor"
-	expm "go-common/app/service/live/xuser/model/exp"
-	"go-common/library/cache"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/stat/prom"
-	"go-common/library/sync/pipeline/fanout"
+	v1pb "github.com/namelessup/bilibili/app/service/live/xuser/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/live/xuser/conf"
+	"github.com/namelessup/bilibili/app/service/live/xuser/dao/exp"
+	XanchorDao "github.com/namelessup/bilibili/app/service/live/xuser/dao/xanchor"
+	expm "github.com/namelessup/bilibili/app/service/live/xuser/model/exp"
+	"github.com/namelessup/bilibili/library/cache"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/stat/prom"
+	"github.com/namelessup/bilibili/library/sync/pipeline/fanout"
 )
 
 // UserExpService struct

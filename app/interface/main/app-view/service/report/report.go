@@ -4,16 +4,16 @@ import (
 	"bytes"
 	"context"
 
-	"go-common/app/interface/main/app-view/conf"
-	arcdao "go-common/app/interface/main/app-view/dao/archive"
-	elcdao "go-common/app/interface/main/app-view/dao/elec"
-	reportdao "go-common/app/interface/main/app-view/dao/report"
-	"go-common/app/interface/main/app-view/model"
-	"go-common/app/interface/main/app-view/model/elec"
-	"go-common/app/interface/main/app-view/model/report"
-	"go-common/app/service/main/archive/api"
-	"go-common/app/service/main/archive/model/archive"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/interface/main/app-view/conf"
+	arcdao "github.com/namelessup/bilibili/app/interface/main/app-view/dao/archive"
+	elcdao "github.com/namelessup/bilibili/app/interface/main/app-view/dao/elec"
+	reportdao "github.com/namelessup/bilibili/app/interface/main/app-view/dao/report"
+	"github.com/namelessup/bilibili/app/interface/main/app-view/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-view/model/elec"
+	"github.com/namelessup/bilibili/app/interface/main/app-view/model/report"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 const (

@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"go-common/app/service/main/history/conf"
+	"github.com/namelessup/bilibili/app/service/main/history/conf"
 )
 
 var s *Service

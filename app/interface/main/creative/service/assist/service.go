@@ -1,12 +1,12 @@
 package assist
 
 import (
-	"go-common/app/interface/main/creative/conf"
-	"go-common/app/interface/main/creative/dao/account"
-	"go-common/app/interface/main/creative/dao/assist"
-	"go-common/app/interface/main/creative/dao/danmu"
-	"go-common/app/interface/main/creative/dao/reply"
-	"go-common/app/interface/main/creative/service"
+	"github.com/namelessup/bilibili/app/interface/main/creative/conf"
+	"github.com/namelessup/bilibili/app/interface/main/creative/dao/account"
+	"github.com/namelessup/bilibili/app/interface/main/creative/dao/assist"
+	"github.com/namelessup/bilibili/app/interface/main/creative/dao/danmu"
+	"github.com/namelessup/bilibili/app/interface/main/creative/dao/reply"
+	"github.com/namelessup/bilibili/app/interface/main/creative/service"
 )
 
 // Service assist.

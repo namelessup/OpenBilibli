@@ -13,10 +13,10 @@ import (
 	"strings"
 	"time"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 
 	pkgerr "github.com/pkg/errors"
-	"go-common/library/stat"
+	"github.com/namelessup/bilibili/library/stat"
 	"strconv"
 )
 

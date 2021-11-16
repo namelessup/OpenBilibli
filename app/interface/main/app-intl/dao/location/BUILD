@@ -20,7 +20,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["dao.go"],
-    importpath = "go-common/app/interface/main/app-intl/dao/location",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-intl/dao/location",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

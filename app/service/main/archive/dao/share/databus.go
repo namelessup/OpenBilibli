@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // PubStatDatabus pub share count into databus.

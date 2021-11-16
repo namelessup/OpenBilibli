@@ -1,7 +1,7 @@
 package mcndao
 
 import (
-	"go-common/app/interface/main/mcn/model/mcnmodel"
+	"github.com/namelessup/bilibili/app/interface/main/mcn/model/mcnmodel"
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"

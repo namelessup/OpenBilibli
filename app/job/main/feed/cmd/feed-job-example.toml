@@ -37,7 +37,7 @@ group = ""
 topic = "Archive-T"
 action = "sub"
     [archiveSub.redis]
-    name = "go-common/app/job/main/feed/archivesub"
+    name = "github.com/namelessup/bilibili/app/job/main/feed/archivesub"
     proto = "tcp"
     addr = "172.16.33.56:6205"
     idle = 100

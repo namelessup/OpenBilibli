@@ -6,8 +6,8 @@ import (
 	"os"
 	"testing"
 
-	"go-common/app/interface/main/dm2/conf"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/dm2/conf"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 var (

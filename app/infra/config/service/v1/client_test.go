@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"go-common/app/infra/config/conf"
-	"go-common/app/infra/config/model"
+	"github.com/namelessup/bilibili/app/infra/config/conf"
+	"github.com/namelessup/bilibili/app/infra/config/model"
 
 	"github.com/BurntSushi/toml"
 	. "github.com/smartystreets/goconvey/convey"

@@ -7,9 +7,9 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/tsuna/gohbase/hrpc"
-	"go-common/app/interface/live/push-live/model"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/interface/live/push-live/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 	"sync"
 )
 

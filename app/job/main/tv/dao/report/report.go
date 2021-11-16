@@ -13,10 +13,10 @@ import (
 	"strings"
 	"time"
 
-	mdlrep "go-common/app/job/main/tv/model/report"
-	"go-common/library/conf/env"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	mdlrep "github.com/namelessup/bilibili/app/job/main/tv/model/report"
+	"github.com/namelessup/bilibili/library/conf/env"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 const (

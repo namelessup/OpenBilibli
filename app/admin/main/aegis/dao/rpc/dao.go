@@ -3,11 +3,11 @@ package rpc
 import (
 	"context"
 
-	"go-common/app/admin/main/aegis/conf"
-	account "go-common/app/service/main/account/api"
-	relmod "go-common/app/service/main/relation/model"
-	relrpc "go-common/app/service/main/relation/rpc/client"
-	uprpc "go-common/app/service/main/up/api/v1"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/conf"
+	account "github.com/namelessup/bilibili/app/service/main/account/api"
+	relmod "github.com/namelessup/bilibili/app/service/main/relation/model"
+	relrpc "github.com/namelessup/bilibili/app/service/main/relation/rpc/client"
+	uprpc "github.com/namelessup/bilibili/app/service/main/up/api/v1"
 
 	"google.golang.org/grpc"
 )

@@ -2,8 +2,8 @@ package archive
 
 import (
 	"context"
-	arcmdl "go-common/app/interface/main/creative/model/archive"
-	"go-common/library/cache/memcache"
+	arcmdl "github.com/namelessup/bilibili/app/interface/main/creative/model/archive"
+	"github.com/namelessup/bilibili/library/cache/memcache"
 	"reflect"
 	"testing"
 

@@ -18,7 +18,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["limit.go"],
-    importpath = "go-common/library/net/http/blademaster/middleware/rate",
+    importpath = "github.com/namelessup/bilibili/library/net/http/blademaster/middleware/rate",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

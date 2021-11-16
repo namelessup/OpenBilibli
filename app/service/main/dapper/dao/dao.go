@@ -12,9 +12,9 @@ import (
 	"github.com/tsuna/gohbase"
 	"github.com/tsuna/gohbase/hrpc"
 
-	"go-common/app/service/main/dapper/conf"
-	"go-common/app/service/main/dapper/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/dapper/conf"
+	"github.com/namelessup/bilibili/app/service/main/dapper/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

@@ -10,7 +10,7 @@ go_library(
         "exp.go",
         "service.go",
     ],
-    importpath = "go-common/app/job/live-userexp/service",
+    importpath = "github.com/namelessup/bilibili/app/job/live-userexp/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

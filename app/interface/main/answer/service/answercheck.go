@@ -7,14 +7,14 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/interface/main/answer/conf"
-	"go-common/app/interface/main/answer/model"
-	accoutCli "go-common/app/service/main/account/api"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/log/infoc"
-	"go-common/library/net/metadata"
-	"go-common/library/text/translate/chinese"
+	"github.com/namelessup/bilibili/app/interface/main/answer/conf"
+	"github.com/namelessup/bilibili/app/interface/main/answer/model"
+	accoutCli "github.com/namelessup/bilibili/app/service/main/account/api"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/log/infoc"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/text/translate/chinese"
 )
 
 var (

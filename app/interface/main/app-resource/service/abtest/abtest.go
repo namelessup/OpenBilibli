@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/interface/main/app-resource/conf"
-	expdao "go-common/app/interface/main/app-resource/dao/abtest"
-	"go-common/app/interface/main/app-resource/model/experiment"
-	"go-common/app/service/main/resource/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/app-resource/conf"
+	expdao "github.com/namelessup/bilibili/app/interface/main/app-resource/dao/abtest"
+	"github.com/namelessup/bilibili/app/interface/main/app-resource/model/experiment"
+	"github.com/namelessup/bilibili/app/service/main/resource/model"
+	"github.com/namelessup/bilibili/library/log"
 
 	farm "github.com/dgryski/go-farm"
 )

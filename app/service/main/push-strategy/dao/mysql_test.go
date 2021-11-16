@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	pushmdl "go-common/app/service/main/push/model"
+	pushmdl "github.com/namelessup/bilibili/app/service/main/push/model"
 
 	"github.com/smartystreets/goconvey/convey"
 )

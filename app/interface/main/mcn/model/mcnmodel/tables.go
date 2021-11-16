@@ -1,8 +1,8 @@
 package mcnmodel
 
 import (
-	"go-common/app/interface/main/mcn/model"
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/app/interface/main/mcn/model"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 // go get github.com/abice/go-enum

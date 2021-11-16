@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/job/main/search/dao"
+	"github.com/namelessup/bilibili/app/job/main/search/dao"
 )
 
 // incr increment data

@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["report.go"],
-    importpath = "go-common/app/job/main/tv/model/report",
+    importpath = "github.com/namelessup/bilibili/app/job/main/tv/model/report",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

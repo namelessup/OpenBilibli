@@ -7,8 +7,8 @@ import (
 	"reflect"
 	"testing"
 
-	"go-common/app/service/main/passport-sns/conf"
-	"go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/service/main/passport-sns/conf"
+	"github.com/namelessup/bilibili/library/database/sql"
 
 	"github.com/bouk/monkey"
 	"github.com/smartystreets/goconvey/convey"

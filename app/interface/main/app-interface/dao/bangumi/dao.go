@@ -6,14 +6,14 @@ import (
 	"net/url"
 	"strconv"
 
-	"go-common/app/interface/main/app-interface/conf"
-	"go-common/app/interface/main/app-interface/model/bangumi"
-	seasongrpc "go-common/app/service/openplatform/pgc-season/api/grpc/season/v1"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	httpx "go-common/library/net/http/blademaster"
-	"go-common/library/net/metadata"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/conf"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/model/bangumi"
+	seasongrpc "github.com/namelessup/bilibili/app/service/openplatform/pgc-season/api/grpc/season/v1"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	httpx "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/xstr"
 
 	"github.com/pkg/errors"
 )

@@ -3,8 +3,8 @@ package service
 import (
 	"time"
 
-	"go-common/app/interface/main/captcha/conf"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/interface/main/captcha/conf"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 var (

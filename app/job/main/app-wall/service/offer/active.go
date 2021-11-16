@@ -6,9 +6,9 @@ import (
 	"strconv"
 	"strings"
 
-	"go-common/app/job/main/app-wall/model"
-	"go-common/app/job/main/app-wall/model/offer"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/app-wall/model"
+	"github.com/namelessup/bilibili/app/job/main/app-wall/model/offer"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) activeConsumer() {

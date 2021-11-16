@@ -1,7 +1,7 @@
 package charge
 
 import (
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 // BgmCharge bgm charge

@@ -13,7 +13,7 @@ go_library(
         "store.go",
         "volume.go",
     ],
-    importpath = "go-common/app/admin/main/bfs/model",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/bfs/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

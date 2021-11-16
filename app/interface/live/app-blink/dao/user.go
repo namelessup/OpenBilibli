@@ -3,8 +3,8 @@ package dao
 import (
 	"context"
 
-	"go-common/app/service/live/user/api/liverpc/v3"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/live/user/api/liverpc/v3"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 //GetUserInfo 获取用户信息

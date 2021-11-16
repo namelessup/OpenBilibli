@@ -4,13 +4,13 @@ import (
 	"context"
 	"math"
 
-	"go-common/app/interface/main/account/model"
-	cmdl "go-common/app/service/main/coin/model"
-	memmdl "go-common/app/service/main/member/model"
-	usmdl "go-common/app/service/main/usersuit/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/main/account/model"
+	cmdl "github.com/namelessup/bilibili/app/service/main/coin/model"
+	memmdl "github.com/namelessup/bilibili/app/service/main/member/model"
+	usmdl "github.com/namelessup/bilibili/app/service/main/usersuit/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 // Equip user pendant equip.

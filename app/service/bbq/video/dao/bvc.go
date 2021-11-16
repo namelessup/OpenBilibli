@@ -2,7 +2,7 @@ package dao
 
 import (
 	"context"
-	"go-common/app/service/bbq/video/model"
+	"github.com/namelessup/bilibili/app/service/bbq/video/model"
 	"regexp"
 )
 

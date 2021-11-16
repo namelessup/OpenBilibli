@@ -1,7 +1,7 @@
 package model
 
 import (
-	xtime "go-common/library/time"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // Report APP report info.

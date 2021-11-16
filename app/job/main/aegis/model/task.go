@@ -1,7 +1,7 @@
 package model
 
 import (
-	libtime "go-common/library/time"
+	libtime "github.com/namelessup/bilibili/library/time"
 )
 
 //..

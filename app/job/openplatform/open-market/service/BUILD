@@ -11,7 +11,7 @@ go_library(
         "market.go",
         "service.go",
     ],
-    importpath = "go-common/app/job/openplatform/open-market/service",
+    importpath = "github.com/namelessup/bilibili/app/job/openplatform/open-market/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

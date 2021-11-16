@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["app-feed-test.toml"],
-    importpath = "go-common/app/interface/main/app-feed/cmd",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-feed/cmd",
     tags = ["automanaged"],
     deps = [
         "//app/interface/main/app-feed/conf:go_default_library",

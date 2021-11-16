@@ -5,10 +5,10 @@ import (
 	"strings"
 	"time"
 
-	wkhmdl "go-common/app/interface/main/creative/model/weeklyhonor"
-	upgrpc "go-common/app/service/main/up/api/v1"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
+	wkhmdl "github.com/namelessup/bilibili/app/interface/main/creative/model/weeklyhonor"
+	upgrpc "github.com/namelessup/bilibili/app/service/main/up/api/v1"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 var (

@@ -11,10 +11,10 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/admin/main/apm/conf"
-	"go-common/app/admin/main/apm/model/pprof"
-	"go-common/library/log"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/admin/main/apm/conf"
+	"github.com/namelessup/bilibili/app/admin/main/apm/model/pprof"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 var (

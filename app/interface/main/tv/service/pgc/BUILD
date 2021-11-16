@@ -11,7 +11,7 @@ go_library(
         "media.go",
         "service.go",
     ],
-    importpath = "go-common/app/interface/main/tv/service/pgc",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/tv/service/pgc",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

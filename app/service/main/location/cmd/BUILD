@@ -19,7 +19,7 @@ go_library(
         "convey-test.toml",
         "location-example.toml",
     ],
-    importpath = "go-common/app/service/main/location/cmd",
+    importpath = "github.com/namelessup/bilibili/app/service/main/location/cmd",
     tags = ["automanaged"],
     deps = [
         "//app/service/main/location/conf:go_default_library",

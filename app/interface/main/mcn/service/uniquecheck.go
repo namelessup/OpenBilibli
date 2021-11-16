@@ -3,10 +3,10 @@ package service
 import (
 	"sync"
 
-	"go-common/app/interface/main/mcn/model/mcnmodel"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/app/interface/main/mcn/model/mcnmodel"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 var (

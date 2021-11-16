@@ -5,11 +5,11 @@ import (
 	"database/sql"
 	"fmt"
 
-	favmdl "go-common/app/service/main/favorite/model"
-	xsql "go-common/library/database/sql"
-	"go-common/library/log"
-	xtime "go-common/library/time"
-	"go-common/library/xstr"
+	favmdl "github.com/namelessup/bilibili/app/service/main/favorite/model"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 const (

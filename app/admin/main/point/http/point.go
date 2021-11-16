@@ -1,11 +1,11 @@
 package http
 
 import (
-	"go-common/app/admin/main/point/model"
-	pointmol "go-common/app/service/main/point/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/point/model"
+	pointmol "github.com/namelessup/bilibili/app/service/main/point/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func pointConfList(c *bm.Context) {

@@ -3,10 +3,10 @@ package dao
 import (
 	"context"
 	"encoding/json"
-	"go-common/app/interface/bbq/wechat/internal/conf"
-	"go-common/app/interface/bbq/wechat/internal/model"
-	"go-common/library/cache/redis"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/bbq/wechat/internal/conf"
+	"github.com/namelessup/bilibili/app/interface/bbq/wechat/internal/model"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/log"
 	"io/ioutil"
 	"net/http"
 )

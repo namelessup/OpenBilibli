@@ -3,10 +3,10 @@ package dao
 import (
 	"context"
 
-	"go-common/app/job/main/passport-user-compare/conf"
-	"go-common/library/database/sql"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/job/main/passport-user-compare/conf"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 const (

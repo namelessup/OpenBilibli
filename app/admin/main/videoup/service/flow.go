@@ -5,9 +5,9 @@ import (
 	"encoding/json"
 	"strings"
 
-	"go-common/app/admin/main/videoup/model/archive"
-	"go-common/library/database/sql"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/videoup/model/archive"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // txUpFlowID update flow_id by videoParam.

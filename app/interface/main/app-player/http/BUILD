@@ -11,7 +11,7 @@ go_library(
         "http.go",
         "playurl.go",
     ],
-    importpath = "go-common/app/interface/main/app-player/http",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-player/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

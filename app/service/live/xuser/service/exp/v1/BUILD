@@ -16,7 +16,7 @@ go_library(
         "update_db.go",
         "user_exp.go",
     ],
-    importpath = "go-common/app/service/live/xuser/service/exp/v1",
+    importpath = "github.com/namelessup/bilibili/app/service/live/xuser/service/exp/v1",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

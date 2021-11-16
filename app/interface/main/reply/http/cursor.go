@@ -3,13 +3,13 @@ package http
 import (
 	"strconv"
 
-	"go-common/app/interface/main/reply/conf"
-	model "go-common/app/interface/main/reply/model/reply"
-	xmodel "go-common/app/interface/main/reply/model/xreply"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/main/reply/conf"
+	model "github.com/namelessup/bilibili/app/interface/main/reply/model/reply"
+	xmodel "github.com/namelessup/bilibili/app/interface/main/reply/model/xreply"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 func subReplyByCursor(ctx *bm.Context) {

@@ -18,7 +18,7 @@ go_library(
         "notice.go",
         "wall.go",
     ],
-    importpath = "go-common/app/admin/main/app/http",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/app/http",
     tags = ["automanaged"],
     deps = [
         "//app/admin/main/app/conf:go_default_library",

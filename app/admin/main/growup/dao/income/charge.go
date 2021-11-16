@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 
-	model "go-common/app/admin/main/growup/model/income"
-	"go-common/library/database/sql"
-	"go-common/library/log"
-	xtime "go-common/library/time"
+	model "github.com/namelessup/bilibili/app/admin/main/growup/model/income"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 const (

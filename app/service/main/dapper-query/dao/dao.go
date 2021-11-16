@@ -17,9 +17,9 @@ import (
 	"github.com/tsuna/gohbase/filter"
 	"github.com/tsuna/gohbase/hrpc"
 
-	"go-common/app/service/main/dapper-query/conf"
-	"go-common/app/service/main/dapper-query/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/dapper-query/conf"
+	"github.com/namelessup/bilibili/app/service/main/dapper-query/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Order

@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["executor.go"],
-    importpath = "go-common/app/job/main/growup/service/ctrl",
+    importpath = "github.com/namelessup/bilibili/app/job/main/growup/service/ctrl",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/log:go_default_library"],

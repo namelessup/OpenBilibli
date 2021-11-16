@@ -15,7 +15,7 @@ go_binary(
 go_library(
     name = "go_default_library",
     srcs = ["main.go"],
-    importpath = "go-common/app/job/live/xroom-feed/cmd",
+    importpath = "github.com/namelessup/bilibili/app/job/live/xroom-feed/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -17,7 +17,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["goparser.go"],
-    importpath = "go-common/app/tool/warden/goparser",
+    importpath = "github.com/namelessup/bilibili/app/tool/warden/goparser",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//app/tool/warden/types:go_default_library"],

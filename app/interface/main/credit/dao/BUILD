@@ -59,7 +59,7 @@ go_library(
         "opinion.go",
         "redis.go",
     ],
-    importpath = "go-common/app/interface/main/credit/dao",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/credit/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

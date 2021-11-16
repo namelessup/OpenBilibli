@@ -29,7 +29,7 @@ go_library(
         "dao.go",
         "hbase.go",
     ],
-    importpath = "go-common/app/admin/main/upload/dao",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/upload/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

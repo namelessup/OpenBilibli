@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 	"github.com/pkg/errors"
-	"go-common/app/service/main/upcredit/model/upcrmmodel"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/upcredit/model/upcrmmodel"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 //LogCredit log credit log

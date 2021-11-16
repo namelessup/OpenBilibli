@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["message.go"],
-    importpath = "go-common/app/job/main/archive/model/databus",
+    importpath = "github.com/namelessup/bilibili/app/job/main/archive/model/databus",
     tags = ["automanaged"],
 )
 

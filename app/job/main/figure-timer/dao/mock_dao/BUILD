@@ -18,7 +18,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["mock.go"],
-    importpath = "go-common/app/job/main/figure-timer/dao/mock_dao",
+    importpath = "github.com/namelessup/bilibili/app/job/main/figure-timer/dao/mock_dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

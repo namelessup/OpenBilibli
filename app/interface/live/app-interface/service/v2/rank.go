@@ -6,12 +6,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	bp "go-common/app/interface/live/app-interface/api/http/v2"
-	"go-common/app/interface/live/app-interface/dao"
-	"go-common/app/service/live/room/api/liverpc/v1"
-	accountM "go-common/app/service/main/account/model"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
+	bp "github.com/namelessup/bilibili/app/interface/live/app-interface/api/http/v2"
+	"github.com/namelessup/bilibili/app/interface/live/app-interface/dao"
+	"github.com/namelessup/bilibili/app/service/live/room/api/liverpc/v1"
+	accountM "github.com/namelessup/bilibili/app/service/main/account/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 type lastHourCache struct {

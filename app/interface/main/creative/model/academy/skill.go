@@ -3,8 +3,8 @@ package academy
 import (
 	"reflect"
 
-	"go-common/app/service/main/archive/api"
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 //Occupation for occupation.

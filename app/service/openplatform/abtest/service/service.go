@@ -4,8 +4,8 @@ import (
 	"context"
 	"sync"
 
-	"go-common/app/service/openplatform/abtest/conf"
-	"go-common/app/service/openplatform/abtest/dao"
+	"github.com/namelessup/bilibili/app/service/openplatform/abtest/conf"
+	"github.com/namelessup/bilibili/app/service/openplatform/abtest/dao"
 )
 
 // Service struct of service.

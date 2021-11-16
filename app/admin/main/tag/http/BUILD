@@ -21,7 +21,7 @@ go_library(
         "synonym.go",
         "tag.go",
     ],
-    importpath = "go-common/app/admin/main/tag/http",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/tag/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

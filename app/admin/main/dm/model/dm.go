@@ -3,8 +3,8 @@ package model
 import (
 	"strconv"
 
-	"go-common/library/time"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/library/time"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 //CondIntNil cond int nil

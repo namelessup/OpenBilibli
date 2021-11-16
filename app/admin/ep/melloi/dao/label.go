@@ -3,7 +3,7 @@ package dao
 import (
 	"context"
 
-	"go-common/app/admin/ep/melloi/model"
+	"github.com/namelessup/bilibili/app/admin/ep/melloi/model"
 )
 
 // AddLabel  add new label

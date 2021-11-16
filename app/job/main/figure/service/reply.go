@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/job/main/figure/model"
+	"github.com/namelessup/bilibili/app/job/main/figure/model"
 )
 
 // PutReplyInfo handle user reply info chenage message

@@ -12,9 +12,9 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/job/main/appstatic/conf"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/appstatic/conf"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/pkg/errors"
 )

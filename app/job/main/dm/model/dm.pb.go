@@ -19,7 +19,7 @@ import fmt "fmt"
 import math "math"
 import _ "github.com/gogo/protobuf/gogoproto"
 
-import go_common_time "go-common/library/time"
+import go_common_time "github.com/namelessup/bilibili/library/time"
 
 import io "io"
 
@@ -146,8 +146,8 @@ type Content struct {
 	IP       int64               `protobuf:"varint,5,opt,name=IP,proto3" json:"ip"`
 	Plat     int32               `protobuf:"varint,6,opt,name=Plat,proto3" json:"plat"`
 	Msg      string              `protobuf:"bytes,7,opt,name=Msg,proto3" json:"msg"`
-	Ctime    go_common_time.Time `protobuf:"varint,8,opt,name=Ctime,proto3,casttype=go-common/library/time.Time" json:"ctime"`
-	Mtime    go_common_time.Time `protobuf:"varint,9,opt,name=Mtime,proto3,casttype=go-common/library/time.Time" json:"mtime"`
+	Ctime    go_common_time.Time `protobuf:"varint,8,opt,name=Ctime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"ctime"`
+	Mtime    go_common_time.Time `protobuf:"varint,9,opt,name=Mtime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"mtime"`
 }
 
 func (m *Content) Reset()                    { *m = Content{} }
@@ -221,8 +221,8 @@ func (m *Content) GetMtime() go_common_time.Time {
 type ContentSpecial struct {
 	ID    int64               `protobuf:"varint,1,opt,name=ID,proto3" json:"id"`
 	Msg   string              `protobuf:"bytes,2,opt,name=Msg,proto3" json:"msg"`
-	Ctime go_common_time.Time `protobuf:"varint,3,opt,name=Ctime,proto3,casttype=go-common/library/time.Time" json:"ctime"`
-	Mtime go_common_time.Time `protobuf:"varint,4,opt,name=Mtime,proto3,casttype=go-common/library/time.Time" json:"mtime"`
+	Ctime go_common_time.Time `protobuf:"varint,3,opt,name=Ctime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"ctime"`
+	Mtime go_common_time.Time `protobuf:"varint,4,opt,name=Mtime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"mtime"`
 }
 
 func (m *ContentSpecial) Reset()                    { *m = ContentSpecial{} }

@@ -6,11 +6,11 @@ import (
 	"os/signal"
 	"syscall"
 
-	"go-common/app/admin/main/growup/conf"
-	"go-common/app/admin/main/growup/http"
-	"go-common/app/admin/main/growup/service"
-	"go-common/library/log"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/app/admin/main/growup/conf"
+	"github.com/namelessup/bilibili/app/admin/main/growup/http"
+	"github.com/namelessup/bilibili/app/admin/main/growup/service"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
 )
 
 func main() {

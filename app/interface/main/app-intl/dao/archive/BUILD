@@ -33,7 +33,7 @@ go_library(
         "stat.go",
         "view.go",
     ],
-    importpath = "go-common/app/interface/main/app-intl/dao/archive",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-intl/dao/archive",
     tags = ["automanaged"],
     deps = [
         "//app/interface/main/app-intl/conf:go_default_library",

@@ -34,7 +34,7 @@ go_library(
         "server.go",
         "trace.go",
     ],
-    importpath = "go-common/library/net/rpc",
+    importpath = "github.com/namelessup/bilibili/library/net/rpc",
     tags = ["automanaged"],
     deps = [
         "//library/conf/dsn:go_default_library",

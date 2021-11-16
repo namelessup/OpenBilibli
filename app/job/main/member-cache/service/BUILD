@@ -13,7 +13,7 @@ go_library(
         "member.go",
         "service.go",
     ],
-    importpath = "go-common/app/job/main/member-cache/service",
+    importpath = "github.com/namelessup/bilibili/app/job/main/member-cache/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

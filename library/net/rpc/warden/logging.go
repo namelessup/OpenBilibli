@@ -9,10 +9,10 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/peer"
 
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
-	"go-common/library/stat"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/stat"
 )
 
 var (

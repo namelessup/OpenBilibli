@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"go-common/app/service/live/resource/conf"
-	"go-common/app/service/live/resource/dao"
+	"github.com/namelessup/bilibili/app/service/live/resource/conf"
+	"github.com/namelessup/bilibili/app/service/live/resource/dao"
 )
 
 // Service struct

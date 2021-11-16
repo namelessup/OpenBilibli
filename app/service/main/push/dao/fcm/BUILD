@@ -20,7 +20,7 @@ go_library(
         "client.go",
         "model.go",
     ],
-    importpath = "go-common/app/service/main/push/dao/fcm",
+    importpath = "github.com/namelessup/bilibili/app/service/main/push/dao/fcm",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

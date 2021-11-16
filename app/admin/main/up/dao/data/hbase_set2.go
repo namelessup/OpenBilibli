@@ -6,10 +6,10 @@ import (
 	"sync"
 	"time"
 
-	"go-common/app/admin/main/up/model/datamodel"
-	"go-common/app/admin/main/up/util/hbaseutil"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/admin/main/up/model/datamodel"
+	"github.com/namelessup/bilibili/app/admin/main/up/util/hbaseutil"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 
 	"github.com/tsuna/gohbase/hrpc"
 )

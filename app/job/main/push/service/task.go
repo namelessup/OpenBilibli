@@ -13,12 +13,12 @@ import (
 	"sync"
 	"time"
 
-	"go-common/app/job/main/push/dao"
-	pb "go-common/app/service/main/push/api/grpc/v1"
-	pushmdl "go-common/app/service/main/push/model"
-	xsql "go-common/library/database/sql"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/job/main/push/dao"
+	pb "github.com/namelessup/bilibili/app/service/main/push/api/grpc/v1"
+	pushmdl "github.com/namelessup/bilibili/app/service/main/push/model"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 const (

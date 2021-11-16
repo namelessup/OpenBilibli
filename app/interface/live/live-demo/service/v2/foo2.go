@@ -3,8 +3,8 @@ package v2
 import (
 	"context"
 
-	v2pb "go-common/app/interface/live/live-demo/api/http/v2"
-	"go-common/app/interface/live/live-demo/conf"
+	v2pb "github.com/namelessup/bilibili/app/interface/live/live-demo/api/http/v2"
+	"github.com/namelessup/bilibili/app/interface/live/live-demo/conf"
 )
 
 // Foo2Service struct

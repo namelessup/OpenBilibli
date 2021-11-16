@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 const ROOM_LEN = 300

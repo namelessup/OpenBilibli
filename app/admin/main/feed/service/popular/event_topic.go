@@ -2,10 +2,10 @@ package popular
 
 import (
 	"context"
-	"go-common/app/admin/main/feed/model/common"
-	"go-common/app/admin/main/feed/model/show"
-	"go-common/app/admin/main/feed/util"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/feed/model/common"
+	"github.com/namelessup/bilibili/app/admin/main/feed/model/show"
+	"github.com/namelessup/bilibili/app/admin/main/feed/util"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

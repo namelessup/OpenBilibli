@@ -2,10 +2,10 @@ package service
 
 import (
 	"context"
-	mmodel "go-common/app/service/main/member/model"
-	bmodel "go-common/app/service/main/member/model/block"
-	"go-common/app/service/main/relation/model"
-	"go-common/library/log"
+	mmodel "github.com/namelessup/bilibili/app/service/main/member/model"
+	bmodel "github.com/namelessup/bilibili/app/service/main/member/model/block"
+	"github.com/namelessup/bilibili/app/service/main/relation/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Audit get member audit info

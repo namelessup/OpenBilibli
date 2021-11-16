@@ -9,7 +9,7 @@ import (
 	"errors"
 	"time"
 
-	"go-common/app/interface/main/passport-login/model"
+	"github.com/namelessup/bilibili/app/interface/main/passport-login/model"
 )
 
 var (

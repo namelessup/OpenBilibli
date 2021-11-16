@@ -46,7 +46,7 @@ go_library(
         "relation.go",
         "tag.go",
     ],
-    importpath = "go-common/app/service/main/coin/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/main/coin/dao",
     tags = ["automanaged"],
     deps = [
         "//app/service/main/coin/api:go_default_library",

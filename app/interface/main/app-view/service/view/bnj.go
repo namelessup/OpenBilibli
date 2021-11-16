@@ -4,14 +4,14 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/app/interface/main/app-view/model/elec"
-	"go-common/app/interface/main/app-view/model/view"
-	"go-common/app/service/main/archive/model/archive"
-	thumbup "go-common/app/service/main/thumbup/model"
-	"go-common/library/conf/env"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/interface/main/app-view/model/elec"
+	"github.com/namelessup/bilibili/app/interface/main/app-view/model/view"
+	"github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	thumbup "github.com/namelessup/bilibili/app/service/main/thumbup/model"
+	"github.com/namelessup/bilibili/library/conf/env"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 // CheckAccess check

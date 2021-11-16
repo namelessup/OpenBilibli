@@ -4,12 +4,12 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/interface/main/growup/model"
+	"github.com/namelessup/bilibili/app/interface/main/growup/model"
 
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // JoinColumn join up to creative column

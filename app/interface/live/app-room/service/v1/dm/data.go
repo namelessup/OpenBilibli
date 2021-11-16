@@ -2,8 +2,8 @@ package v1
 
 import (
 	"encoding/json"
-	v1pb "go-common/app/interface/live/app-room/api/http/v1"
-	"go-common/app/interface/live/app-room/model"
+	v1pb "github.com/namelessup/bilibili/app/interface/live/app-room/api/http/v1"
+	"github.com/namelessup/bilibili/app/interface/live/app-room/model"
 )
 
 //HistoryData 历史数据处理

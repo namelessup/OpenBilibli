@@ -1,11 +1,11 @@
 package server
 
 import (
-	"go-common/app/service/main/point/conf"
-	"go-common/app/service/main/point/model"
-	"go-common/app/service/main/point/service"
-	"go-common/library/net/rpc"
-	"go-common/library/net/rpc/context"
+	"github.com/namelessup/bilibili/app/service/main/point/conf"
+	"github.com/namelessup/bilibili/app/service/main/point/model"
+	"github.com/namelessup/bilibili/app/service/main/point/service"
+	"github.com/namelessup/bilibili/library/net/rpc"
+	"github.com/namelessup/bilibili/library/net/rpc/context"
 )
 
 // RPC represent rpc server

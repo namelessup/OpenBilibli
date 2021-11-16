@@ -2,7 +2,7 @@ package util
 
 import "sort"
 import (
-	recsys "go-common/app/service/bbq/recsys/api/grpc/v1"
+	recsys "github.com/namelessup/bilibili/app/service/bbq/recsys/api/grpc/v1"
 	"math"
 )
 

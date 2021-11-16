@@ -39,7 +39,7 @@ go_library(
         "tagarc_prid_redis.go",
         "tagarc_redis.go",
     ],
-    importpath = "go-common/app/interface/main/tag/dao",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/tag/dao",
     tags = ["automanaged"],
     deps = [
         "//app/interface/main/tag/conf:go_default_library",

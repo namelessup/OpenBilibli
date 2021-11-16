@@ -16,7 +16,7 @@ go_library(
         "service.go",
         "view.go",
     ],
-    importpath = "go-common/app/admin/main/coupon/service",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/coupon/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

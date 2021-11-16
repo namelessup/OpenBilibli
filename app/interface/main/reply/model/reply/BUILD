@@ -28,7 +28,7 @@ go_library(
         "sort.go",
         "sql.go",
     ],
-    importpath = "go-common/app/interface/main/reply/model/reply",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/reply/model/reply",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

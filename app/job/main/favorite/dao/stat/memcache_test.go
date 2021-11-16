@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	favmdl "go-common/app/service/main/favorite/model"
+	favmdl "github.com/namelessup/bilibili/app/service/main/favorite/model"
 
 	"github.com/smartystreets/goconvey/convey"
 )

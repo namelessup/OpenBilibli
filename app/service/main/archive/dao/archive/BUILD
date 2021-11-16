@@ -57,7 +57,7 @@ go_library(
         "video.go",
         "video_mc_pb.go",
     ],
-    importpath = "go-common/app/service/main/archive/dao/archive",
+    importpath = "github.com/namelessup/bilibili/app/service/main/archive/dao/archive",
     tags = ["automanaged"],
     deps = [
         "//app/job/main/archive/model/databus:go_default_library",

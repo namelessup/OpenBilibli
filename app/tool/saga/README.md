@@ -8,7 +8,7 @@
 > 请只用golang v1.8.x以上版本编译执行。  
 
 ##### 依赖包
-> 1.公共仓库go-common  
+> 1.公共仓库github.com/namelessup/bilibili  
 > 2.github.com/xanzy/go-gitlab  
 
 ##### 依赖服务

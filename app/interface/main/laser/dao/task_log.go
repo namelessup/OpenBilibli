@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/pkg/errors"
-	xsql "go-common/library/database/sql"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
 )
 
 const (

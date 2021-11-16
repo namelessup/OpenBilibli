@@ -3,7 +3,7 @@ package data
 import (
 	"context"
 	"errors"
-	"go-common/app/job/main/videoup-report/model/monitor"
+	"github.com/namelessup/bilibili/app/job/main/videoup-report/model/monitor"
 )
 
 func (d *Dao) MonitorNotify(c context.Context) (data []*monitor.RuleResultData, err error) {

@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"go-common/app/infra/canal/model"
+	"github.com/namelessup/bilibili/app/infra/canal/model"
 
 	pb "github.com/pingcap/tidb-tools/tidb_binlog/slave_binlog_proto/go-binlog"
 )

@@ -6,11 +6,11 @@ import (
 	"net/http"
 	"time"
 
-	"go-common/app/interface/main/app-wall/model/mobile"
-	"go-common/library/ecode"
-	log "go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/main/app-wall/model/mobile"
+	"github.com/namelessup/bilibili/library/ecode"
+	log "github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 const (

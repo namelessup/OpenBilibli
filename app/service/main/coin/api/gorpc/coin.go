@@ -3,8 +3,8 @@ package coin
 import (
 	"context"
 
-	"go-common/app/service/main/coin/model"
-	"go-common/library/net/rpc"
+	"github.com/namelessup/bilibili/app/service/main/coin/model"
+	"github.com/namelessup/bilibili/library/net/rpc"
 )
 
 const (

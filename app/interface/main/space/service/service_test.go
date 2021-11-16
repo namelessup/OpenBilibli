@@ -5,8 +5,8 @@ import (
 	"path/filepath"
 	"time"
 
-	"go-common/app/interface/main/space/conf"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/space/conf"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 var svf *Service

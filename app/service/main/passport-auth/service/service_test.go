@@ -3,7 +3,7 @@ package service
 import (
 	"sync"
 
-	"go-common/app/service/main/passport-auth/conf"
+	"github.com/namelessup/bilibili/app/service/main/passport-auth/conf"
 )
 
 var (

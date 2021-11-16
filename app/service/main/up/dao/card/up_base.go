@@ -3,7 +3,7 @@ package card
 import (
 	"context"
 	"fmt"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const _listUpBaseSQL = "SELECT id, mid FROM up_base_info WHERE id > ? AND business_type = 1 %s LIMIT ?"

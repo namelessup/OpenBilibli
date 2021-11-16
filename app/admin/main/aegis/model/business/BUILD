@@ -11,7 +11,7 @@ go_library(
         "business.go",
         "config.go",
     ],
-    importpath = "go-common/app/admin/main/aegis/model/business",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/aegis/model/business",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

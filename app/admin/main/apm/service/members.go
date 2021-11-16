@@ -4,8 +4,8 @@ import (
 	"context"
 	"net/http"
 
-	"go-common/app/admin/main/apm/model/monitor"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/apm/model/monitor"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const chatURL = "https://api.bilibili.com/x/web-interface/online"

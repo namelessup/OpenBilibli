@@ -3,8 +3,8 @@ package dao
 import (
 	"context"
 
-	"go-common/app/admin/ep/saga/model"
-	"go-common/library/cache/memcache"
+	"github.com/namelessup/bilibili/app/admin/ep/saga/model"
+	"github.com/namelessup/bilibili/library/cache/memcache"
 
 	"github.com/pkg/errors"
 )

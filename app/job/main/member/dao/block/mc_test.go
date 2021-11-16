@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"go-common/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/cache/memcache"
 
 	"github.com/bouk/monkey"
 	"github.com/smartystreets/goconvey/convey"

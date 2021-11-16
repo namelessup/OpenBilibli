@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"time"
 
-	model "go-common/app/job/main/tv/model/pgc"
-	ugcmdl "go-common/app/job/main/tv/model/ugc"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
+	model "github.com/namelessup/bilibili/app/job/main/tv/model/pgc"
+	ugcmdl "github.com/namelessup/bilibili/app/job/main/tv/model/ugc"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 func (s *Service) repCidproc() {

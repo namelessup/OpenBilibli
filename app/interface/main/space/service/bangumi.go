@@ -3,7 +3,7 @@ package service
 import (
 	"context"
 
-	"go-common/app/interface/main/space/model"
+	"github.com/namelessup/bilibili/app/interface/main/space/model"
 )
 
 var _emptyBangumiList = make([]*model.Bangumi, 0)

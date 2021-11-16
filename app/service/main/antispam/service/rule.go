@@ -3,11 +3,11 @@ package service
 import (
 	"context"
 
-	"go-common/app/service/main/antispam/conf"
-	"go-common/app/service/main/antispam/dao"
-	"go-common/app/service/main/antispam/model"
+	"github.com/namelessup/bilibili/app/service/main/antispam/conf"
+	"github.com/namelessup/bilibili/app/service/main/antispam/dao"
+	"github.com/namelessup/bilibili/app/service/main/antispam/model"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // GetRuleByArea .

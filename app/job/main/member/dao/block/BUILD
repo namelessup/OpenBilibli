@@ -38,7 +38,7 @@ go_library(
         "mysql.go",
         "notify.go",
     ],
-    importpath = "go-common/app/job/main/member/dao/block",
+    importpath = "github.com/namelessup/bilibili/app/job/main/member/dao/block",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

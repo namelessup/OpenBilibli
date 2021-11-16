@@ -2,12 +2,12 @@ package dynamic
 
 import (
 	"context"
-	"go-common/app/interface/main/creative/conf"
-	"go-common/app/interface/main/creative/dao/lottery"
-	lMdl "go-common/app/interface/main/creative/model/lottery"
-	"go-common/app/interface/main/creative/service"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/main/creative/conf"
+	"github.com/namelessup/bilibili/app/interface/main/creative/dao/lottery"
+	lMdl "github.com/namelessup/bilibili/app/interface/main/creative/model/lottery"
+	"github.com/namelessup/bilibili/app/interface/main/creative/service"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 //Service struct

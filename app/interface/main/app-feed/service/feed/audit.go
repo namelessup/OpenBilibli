@@ -4,14 +4,14 @@ import (
 	"context"
 	"time"
 
-	cdm "go-common/app/interface/main/app-card/model"
-	"go-common/app/interface/main/app-card/model/card"
-	"go-common/app/interface/main/app-card/model/card/banner"
-	"go-common/app/interface/main/app-card/model/card/operate"
-	"go-common/app/interface/main/app-feed/model"
-	"go-common/app/interface/main/app-feed/model/feed"
-	"go-common/app/service/main/archive/model/archive"
-	"go-common/library/log"
+	cdm "github.com/namelessup/bilibili/app/interface/main/app-card/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-card/model/card"
+	"github.com/namelessup/bilibili/app/interface/main/app-card/model/card/banner"
+	"github.com/namelessup/bilibili/app/interface/main/app-card/model/card/operate"
+	"github.com/namelessup/bilibili/app/interface/main/app-feed/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-feed/model/feed"
+	"github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 var (

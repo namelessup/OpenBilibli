@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["model.go"],
-    importpath = "go-common/app/interface/main/kvo/model",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/kvo/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

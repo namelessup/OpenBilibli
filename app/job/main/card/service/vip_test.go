@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/job/main/card/conf"
-	"go-common/app/job/main/card/model"
+	"github.com/namelessup/bilibili/app/job/main/card/conf"
+	"github.com/namelessup/bilibili/app/job/main/card/model"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

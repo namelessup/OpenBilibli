@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"strconv"
 
-	"go-common/library/net/ip"
+	"github.com/namelessup/bilibili/library/net/ip"
 
 	"github.com/pkg/errors"
 )

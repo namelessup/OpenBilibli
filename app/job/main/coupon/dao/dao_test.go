@@ -9,7 +9,7 @@ import (
 
 	"github.com/smartystreets/goconvey/convey"
 
-	"go-common/app/job/main/coupon/conf"
+	"github.com/namelessup/bilibili/app/job/main/coupon/conf"
 
 	gock "gopkg.in/h2non/gock.v1"
 )

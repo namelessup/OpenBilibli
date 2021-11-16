@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	"go-common/library/log"
-	"go-common/library/naming/discovery"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/naming/discovery"
 
 	"github.com/gogo/protobuf/jsonpb"
 	"google.golang.org/grpc"

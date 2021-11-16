@@ -3,13 +3,13 @@ package monitor
 import (
 	"context"
 	"flag"
-	"go-common/app/service/main/up/conf"
+	"github.com/namelessup/bilibili/app/service/main/up/conf"
 	"net/url"
 	"os"
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"
-	"go-common/app/service/main/up/dao"
+	"github.com/namelessup/bilibili/app/service/main/up/dao"
 )
 
 var (

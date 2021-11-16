@@ -1,11 +1,11 @@
 package server
 
 import (
-	"go-common/app/interface/main/playlist/conf"
-	"go-common/app/interface/main/playlist/model"
-	"go-common/app/interface/main/playlist/service"
-	"go-common/library/net/rpc"
-	"go-common/library/net/rpc/context"
+	"github.com/namelessup/bilibili/app/interface/main/playlist/conf"
+	"github.com/namelessup/bilibili/app/interface/main/playlist/model"
+	"github.com/namelessup/bilibili/app/interface/main/playlist/service"
+	"github.com/namelessup/bilibili/library/net/rpc"
+	"github.com/namelessup/bilibili/library/net/rpc/context"
 )
 
 // RPC struct info.

@@ -5,8 +5,8 @@ import (
 	"net"
 	"strconv"
 
-	"go-common/app/admin/main/cache/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/cache/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 var (

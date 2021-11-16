@@ -1,6 +1,6 @@
 package dao
 
-import "go-common/app/admin/ep/melloi/model"
+import "github.com/namelessup/bilibili/app/admin/ep/melloi/model"
 
 //AddPtestJob add PtestJob
 func (d *Dao) AddPtestJob(ptestJob *model.PtestJob) (ptestJobID int, err error) {

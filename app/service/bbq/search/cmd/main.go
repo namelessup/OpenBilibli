@@ -6,13 +6,13 @@ import (
 	"os/signal"
 	"syscall"
 
-	"go-common/app/service/bbq/search/conf"
-	"go-common/app/service/bbq/search/server/grpc"
-	"go-common/app/service/bbq/search/server/http"
-	"go-common/app/service/bbq/search/service"
-	ecode "go-common/library/ecode/tip"
-	"go-common/library/log"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/app/service/bbq/search/conf"
+	"github.com/namelessup/bilibili/app/service/bbq/search/server/grpc"
+	"github.com/namelessup/bilibili/app/service/bbq/search/server/http"
+	"github.com/namelessup/bilibili/app/service/bbq/search/service"
+	ecode "github.com/namelessup/bilibili/library/ecode/tip"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
 )
 
 func main() {

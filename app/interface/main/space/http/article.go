@@ -3,11 +3,11 @@ package http
 import (
 	"strconv"
 
-	"go-common/app/interface/main/space/conf"
-	"go-common/app/interface/main/space/model"
-	artmdl "go-common/app/interface/openplatform/article/model"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/interface/main/space/conf"
+	"github.com/namelessup/bilibili/app/interface/main/space/model"
+	artmdl "github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func article(c *bm.Context) {

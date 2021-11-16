@@ -3,7 +3,7 @@ package service
 import (
 	"context"
 
-	"go-common/app/interface/main/esports/model"
+	"github.com/namelessup/bilibili/app/interface/main/esports/model"
 )
 
 // Game get game.

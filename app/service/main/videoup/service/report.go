@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/service/main/videoup/model/archive"
-	"go-common/library/log"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/service/main/videoup/model/archive"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // ArcReport  add archive report.

@@ -1,6 +1,6 @@
 package skyhorse
 
-import "go-common/library/net/http/blademaster"
+import "github.com/namelessup/bilibili/library/net/http/blademaster"
 
 type Client struct {
 	conf *blademaster.ClientConfig

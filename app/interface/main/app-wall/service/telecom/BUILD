@@ -24,7 +24,7 @@ go_library(
         "service.go",
         "telecom.go",
     ],
-    importpath = "go-common/app/interface/main/app-wall/service/telecom",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-wall/service/telecom",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

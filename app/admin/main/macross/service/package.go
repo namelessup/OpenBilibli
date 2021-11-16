@@ -2,10 +2,10 @@ package service
 
 import (
 	"fmt"
-	"go-common/app/admin/main/macross/conf"
-	"go-common/app/admin/main/macross/model/package"
-	"go-common/app/admin/main/macross/tools"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/macross/conf"
+	"github.com/namelessup/bilibili/app/admin/main/macross/model/package"
+	"github.com/namelessup/bilibili/app/admin/main/macross/tools"
+	"github.com/namelessup/bilibili/library/log"
 	"io"
 	"mime/multipart"
 	"os"

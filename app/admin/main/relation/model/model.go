@@ -1,8 +1,8 @@
 package model
 
 import (
-	smodel "go-common/app/service/main/relation/model"
-	"go-common/library/time"
+	smodel "github.com/namelessup/bilibili/app/service/main/relation/model"
+	"github.com/namelessup/bilibili/library/time"
 	"sort"
 )
 

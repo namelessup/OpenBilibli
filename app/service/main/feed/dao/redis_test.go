@@ -5,11 +5,11 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/service/main/archive/api"
-	"go-common/app/service/main/archive/model/archive"
-	"go-common/app/service/main/feed/model"
-	feed "go-common/app/service/main/feed/model"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/app/service/main/feed/model"
+	feed "github.com/namelessup/bilibili/app/service/main/feed/model"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

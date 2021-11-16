@@ -1,7 +1,7 @@
 package model
 
 import (
-	libTime "go-common/library/time"
+	libTime "github.com/namelessup/bilibili/library/time"
 )
 
 // const text

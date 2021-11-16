@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"go-common/app/service/openplatform/ticket-item/model"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-item/model"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

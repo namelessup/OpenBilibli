@@ -2,12 +2,12 @@ package http
 
 import (
 	"encoding/json"
-	"go-common/app/service/openplatform/ticket-sales/model"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/render"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/model"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/render"
 	"net/http"
 
-	"go-common/library/net/http/blademaster/binding"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/binding"
 )
 
 func settleCompare(c *bm.Context) {

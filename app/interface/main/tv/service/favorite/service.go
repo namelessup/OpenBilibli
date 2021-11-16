@@ -3,14 +3,14 @@ package favorite
 import (
 	"context"
 
-	"go-common/app/interface/main/tv/conf"
-	"go-common/app/interface/main/tv/dao/archive"
-	"go-common/app/interface/main/tv/dao/favorite"
-	"go-common/app/interface/main/tv/model"
-	arcwar "go-common/app/service/main/archive/api"
-	favmdl "go-common/app/service/main/favorite/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/tv/conf"
+	"github.com/namelessup/bilibili/app/interface/main/tv/dao/archive"
+	"github.com/namelessup/bilibili/app/interface/main/tv/dao/favorite"
+	"github.com/namelessup/bilibili/app/interface/main/tv/model"
+	arcwar "github.com/namelessup/bilibili/app/service/main/archive/api"
+	favmdl "github.com/namelessup/bilibili/app/service/main/favorite/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Service .

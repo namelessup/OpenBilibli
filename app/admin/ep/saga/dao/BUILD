@@ -18,7 +18,7 @@ go_library(
         "mc.go",
         "redis.go",
     ],
-    importpath = "go-common/app/admin/ep/saga/dao",
+    importpath = "github.com/namelessup/bilibili/app/admin/ep/saga/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

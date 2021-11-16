@@ -6,11 +6,11 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/interface/main/reply/conf"
-	"go-common/app/interface/main/reply/model/reply"
-	"go-common/app/interface/main/reply/model/xreply"
-	"go-common/library/cache/redis"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/reply/conf"
+	"github.com/namelessup/bilibili/app/interface/main/reply/model/reply"
+	"github.com/namelessup/bilibili/app/interface/main/reply/model/xreply"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

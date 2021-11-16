@@ -6,7 +6,7 @@ import (
 	"os"
 	"runtime"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Recovery returns a middleware that recovers from any panics and writes a 500 if there was one.

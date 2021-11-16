@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"go-common/app/service/main/tv/internal/model"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/service/main/tv/internal/model"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 func (s *Service) ChangeHistory(c context.Context, hid int32) (ch *model.UserChangeHistory, err error) {

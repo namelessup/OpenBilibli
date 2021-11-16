@@ -70,7 +70,7 @@ go_library(
         "view.go",
         "wave_form.go",
     ],
-    importpath = "go-common/app/interface/main/dm2/service",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/dm2/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

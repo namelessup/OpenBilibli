@@ -1,9 +1,9 @@
 package upcrmdao
 
 import (
-	"go-common/app/service/main/upcredit/model/calculator"
-	"go-common/app/service/main/upcredit/model/upcrmmodel"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/service/main/upcredit/model/calculator"
+	"github.com/namelessup/bilibili/app/service/main/upcredit/model/upcrmmodel"
+	xtime "github.com/namelessup/bilibili/library/time"
 	"time"
 )
 

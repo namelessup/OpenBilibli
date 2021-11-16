@@ -20,7 +20,7 @@ go_library(
         "team.go",
         "tree.go",
     ],
-    importpath = "go-common/app/admin/main/esports/http",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/esports/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

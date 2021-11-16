@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"time"
 
-	"go-common/app/job/main/thumbup/model"
-	sql "go-common/library/database/tidb"
-	"go-common/library/log"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/job/main/thumbup/model"
+	sql "github.com/namelessup/bilibili/library/database/tidb"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 const (

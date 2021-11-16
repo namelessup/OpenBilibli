@@ -4,13 +4,13 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/job/main/creative/conf"
-	arcrpc "go-common/app/service/main/archive/api/gorpc"
-	upgrpc "go-common/app/service/main/up/api/v1"
-	"go-common/library/database/hbase.v2"
-	"go-common/library/database/sql"
-	binfoc "go-common/library/log/infoc"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/job/main/creative/conf"
+	arcrpc "github.com/namelessup/bilibili/app/service/main/archive/api/gorpc"
+	upgrpc "github.com/namelessup/bilibili/app/service/main/up/api/v1"
+	"github.com/namelessup/bilibili/library/database/hbase.v2"
+	"github.com/namelessup/bilibili/library/database/sql"
+	binfoc "github.com/namelessup/bilibili/library/log/infoc"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // Dao is creative dao.

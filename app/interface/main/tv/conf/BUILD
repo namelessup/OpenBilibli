@@ -12,7 +12,7 @@ go_library(
         "search_sug.go",
         "zone.go",
     ],
-    importpath = "go-common/app/interface/main/tv/conf",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/tv/conf",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

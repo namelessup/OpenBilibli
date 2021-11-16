@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/job/main/coupon/conf"
-	"go-common/app/job/main/coupon/model"
-	"go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/job/main/coupon/conf"
+	"github.com/namelessup/bilibili/app/job/main/coupon/model"
+	"github.com/namelessup/bilibili/library/database/sql"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

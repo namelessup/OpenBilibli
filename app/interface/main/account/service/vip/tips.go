@@ -3,8 +3,8 @@ package vip
 import (
 	"context"
 
-	"go-common/app/interface/main/account/model"
-	vipmol "go-common/app/service/main/vip/model"
+	"github.com/namelessup/bilibili/app/interface/main/account/model"
+	vipmol "github.com/namelessup/bilibili/app/service/main/vip/model"
 
 	"github.com/pkg/errors"
 )

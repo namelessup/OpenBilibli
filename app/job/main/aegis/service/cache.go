@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/job/main/aegis/model"
-	"go-common/library/log"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/job/main/aegis/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 func (s *Service) initCache() {

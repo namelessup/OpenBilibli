@@ -31,7 +31,7 @@ go_library(
         "media.go",
         "style_cache.go",
     ],
-    importpath = "go-common/app/interface/main/tv/dao/pgc",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/tv/dao/pgc",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

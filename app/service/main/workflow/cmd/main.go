@@ -7,11 +7,11 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/app/service/main/workflow/conf"
-	"go-common/app/service/main/workflow/http"
-	"go-common/app/service/main/workflow/service"
-	"go-common/library/log"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/app/service/main/workflow/conf"
+	"github.com/namelessup/bilibili/app/service/main/workflow/http"
+	"github.com/namelessup/bilibili/app/service/main/workflow/service"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
 )
 
 func main() {

@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	. "github.com/smartystreets/goconvey/convey"
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 func TestDao_TxUpDelay(t *testing.T) {

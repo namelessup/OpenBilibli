@@ -3,7 +3,7 @@ package bangumi
 import (
 	"encoding/json"
 
-	"go-common/app/interface/main/app-interface/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/model"
 )
 
 // Season for bangumi.

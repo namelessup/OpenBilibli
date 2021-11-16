@@ -21,7 +21,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["dao.go"],
-    importpath = "go-common/app/job/main/videoup/dao/monitor",
+    importpath = "github.com/namelessup/bilibili/app/job/main/videoup/dao/monitor",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

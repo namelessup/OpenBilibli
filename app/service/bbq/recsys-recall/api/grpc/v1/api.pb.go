@@ -6,7 +6,7 @@ package v1
 import proto "github.com/gogo/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import proto1 "go-common/app/job/bbq/recall/proto"
+import proto1 "github.com/namelessup/bilibili/app/job/bbq/recall/proto"
 import _ "github.com/gogo/protobuf/gogoproto"
 import empty "github.com/golang/protobuf/ptypes/empty"
 

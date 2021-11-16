@@ -34,7 +34,7 @@ go_library(
         "relation.go",
         "relation_log.go",
     ],
-    importpath = "go-common/app/admin/main/relation/dao",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/relation/dao",
     tags = ["automanaged"],
     deps = [
         "//app/admin/main/relation/conf:go_default_library",

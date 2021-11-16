@@ -7,7 +7,7 @@ import (
 	fmt "fmt"
 	_ "github.com/gogo/protobuf/gogoproto"
 	proto "github.com/gogo/protobuf/proto"
-	go_common_library_time "go-common/library/time"
+	go_common_library_time "github.com/namelessup/bilibili/library/time"
 	io "io"
 	math "math"
 )
@@ -37,8 +37,8 @@ type Tag struct {
 	State                int32                       `protobuf:"varint,11,opt,name=state,proto3" json:"-"`
 	Sub                  int64                       `protobuf:"varint,12,opt,name=sub,proto3" json:"sub"`
 	Bind                 int64                       `protobuf:"varint,13,opt,name=bind,proto3" json:"bind"`
-	Ctime                go_common_library_time.Time `protobuf:"varint,14,opt,name=ctime,proto3,casttype=go-common/library/time.Time" json:"ctime"`
-	Mtime                go_common_library_time.Time `protobuf:"varint,15,opt,name=mtime,proto3,casttype=go-common/library/time.Time" json:"-"`
+	Ctime                go_common_library_time.Time `protobuf:"varint,14,opt,name=ctime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"ctime"`
+	Mtime                go_common_library_time.Time `protobuf:"varint,15,opt,name=mtime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"-"`
 	XXX_NoUnkeyedLiteral struct{}                    `json:"-"`
 	XXX_unrecognized     []byte                      `json:"-"`
 	XXX_sizecache        int32                       `json:"-"`
@@ -193,8 +193,8 @@ type Resource struct {
 	Hate                 int32                       `protobuf:"varint,8,opt,name=hate,proto3" json:"hate"`
 	State                int32                       `protobuf:"varint,9,opt,name=state,proto3" json:"state"`
 	Attr                 int32                       `protobuf:"varint,10,opt,name=attr,proto3" json:"attr"`
-	Ctime                go_common_library_time.Time `protobuf:"varint,11,opt,name=ctime,proto3,casttype=go-common/library/time.Time" json:"ctime"`
-	Mtime                go_common_library_time.Time `protobuf:"varint,12,opt,name=mtime,proto3,casttype=go-common/library/time.Time" json:"-"`
+	Ctime                go_common_library_time.Time `protobuf:"varint,11,opt,name=ctime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"ctime"`
+	Mtime                go_common_library_time.Time `protobuf:"varint,12,opt,name=mtime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"-"`
 	XXX_NoUnkeyedLiteral struct{}                    `json:"-"`
 	XXX_unrecognized     []byte                      `json:"-"`
 	XXX_sizecache        int32                       `json:"-"`

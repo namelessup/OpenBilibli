@@ -8,10 +8,10 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/service/live/live-dm/dao"
-	"go-common/app/service/live/live-dm/model"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/service/live/live-dm/dao"
+	"github.com/namelessup/bilibili/app/service/live/live-dm/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 
 	uuid "github.com/satori/go.uuid"
 )

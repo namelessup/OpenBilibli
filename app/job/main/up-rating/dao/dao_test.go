@@ -2,7 +2,7 @@ package dao
 
 import (
 	"flag"
-	"go-common/app/job/main/up-rating/conf"
+	"github.com/namelessup/bilibili/app/job/main/up-rating/conf"
 	"os"
 	"testing"
 )

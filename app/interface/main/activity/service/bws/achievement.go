@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
-	bwsmdl "go-common/app/interface/main/activity/model/bws"
-	suitmdl "go-common/app/service/main/usersuit/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	xtime "go-common/library/time"
+	bwsmdl "github.com/namelessup/bilibili/app/interface/main/activity/model/bws"
+	suitmdl "github.com/namelessup/bilibili/app/service/main/usersuit/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // Award  achievement award

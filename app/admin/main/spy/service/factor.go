@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 
-	"go-common/app/admin/main/spy/model"
+	"github.com/namelessup/bilibili/app/admin/main/spy/model"
 )
 
 // Factors get all factor.

@@ -3,8 +3,8 @@ package server
 import (
 	"sync"
 
-	"go-common/app/service/main/broadcast/libs/bufio"
-	"go-common/app/service/main/broadcast/model"
+	"github.com/namelessup/bilibili/app/service/main/broadcast/libs/bufio"
+	"github.com/namelessup/bilibili/app/service/main/broadcast/model"
 )
 
 // Channel used by message pusher send msg to write goroutine.

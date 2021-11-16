@@ -5,12 +5,12 @@ import (
 	xsql "database/sql"
 	"encoding/json"
 	"fmt"
-	"go-common/app/service/bbq/user/api"
-	"go-common/app/service/bbq/user/internal/model"
-	"go-common/library/database/sql"
-	"go-common/library/log"
-	"go-common/library/time"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/service/bbq/user/api"
+	"github.com/namelessup/bilibili/app/service/bbq/user/internal/model"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/time"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 //常量

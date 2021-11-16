@@ -6,10 +6,10 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/admin/main/aegis/model/common"
-	modtask "go-common/app/admin/main/aegis/model/task"
-	"go-common/library/log"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model/common"
+	modtask "github.com/namelessup/bilibili/app/admin/main/aegis/model/task"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 //hash fields

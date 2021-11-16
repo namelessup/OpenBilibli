@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"go-common/app/interface/main/activity/model/like"
+	"github.com/namelessup/bilibili/app/interface/main/activity/model/like"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

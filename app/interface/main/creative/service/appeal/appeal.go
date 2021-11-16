@@ -2,18 +2,18 @@ package appeal
 
 import (
 	"context"
-	xtime "go-common/library/time"
+	xtime "github.com/namelessup/bilibili/library/time"
 	"hash/crc32"
 	"strconv"
 	"strings"
 	"time"
 
-	"go-common/app/interface/main/creative/model/appeal"
-	"go-common/app/interface/main/creative/model/archive"
-	"go-common/app/service/main/account/model"
-	"go-common/app/service/main/archive/api"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/appeal"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/archive"
+	"github.com/namelessup/bilibili/app/service/main/account/model"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // List get appeal List.

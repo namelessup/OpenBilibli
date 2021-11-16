@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"time"
 
-	arcrpc "go-common/app/service/main/archive/api/gorpc"
-	"go-common/app/service/main/dynamic/conf"
-	"go-common/app/service/main/dynamic/dao"
-	"go-common/library/cache"
-	"go-common/library/log"
+	arcrpc "github.com/namelessup/bilibili/app/service/main/archive/api/gorpc"
+	"github.com/namelessup/bilibili/app/service/main/dynamic/conf"
+	"github.com/namelessup/bilibili/app/service/main/dynamic/dao"
+	"github.com/namelessup/bilibili/library/cache"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Service service.

@@ -12,7 +12,7 @@ go_library(
         "service.go",
         "upload.go",
     ],
-    importpath = "go-common/app/service/bbq/video-image/service",
+    importpath = "github.com/namelessup/bilibili/app/service/bbq/video-image/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

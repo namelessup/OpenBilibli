@@ -8,9 +8,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go-common/library/naming"
-	"go-common/library/net/netutil/breaker"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/library/naming"
+	"github.com/namelessup/bilibili/library/net/netutil/breaker"
+	"github.com/namelessup/bilibili/library/net/trace"
 
 	"github.com/go-sql-driver/mysql"
 	"github.com/pkg/errors"

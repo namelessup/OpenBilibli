@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["figure-timer-job-test.toml"],
-    importpath = "go-common/app/job/main/figure-timer/cmd",
+    importpath = "github.com/namelessup/bilibili/app/job/main/figure-timer/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

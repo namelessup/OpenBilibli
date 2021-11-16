@@ -4,7 +4,7 @@ import (
 	"context"
 	"database/sql"
 
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 // Secret .

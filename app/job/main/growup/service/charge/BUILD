@@ -41,7 +41,7 @@ go_library(
         "trans.go",
         "up_charge.go",
     ],
-    importpath = "go-common/app/job/main/growup/service/charge",
+    importpath = "github.com/namelessup/bilibili/app/job/main/growup/service/charge",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

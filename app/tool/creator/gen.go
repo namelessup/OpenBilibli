@@ -206,7 +206,7 @@ func (p *parse) genTestMain() (err error) {
 	}
 
 	for index, value := range pathSplit {
-		if value == "go-common" {
+		if value == "github.com/namelessup/bilibili" {
 			left = index
 		}
 		if value == "main" ||

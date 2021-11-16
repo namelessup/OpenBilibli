@@ -37,7 +37,7 @@ go_library(
         "search.go",
         "upbfs.go",
     ],
-    importpath = "go-common/app/admin/main/creative/dao",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/creative/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

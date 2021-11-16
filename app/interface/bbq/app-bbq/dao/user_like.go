@@ -3,8 +3,8 @@ package dao
 import (
 	"context"
 	"fmt"
-	user "go-common/app/service/bbq/user/api"
-	"go-common/library/log"
+	user "github.com/namelessup/bilibili/app/service/bbq/user/api"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // AddLike .

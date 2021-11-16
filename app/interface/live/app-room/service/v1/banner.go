@@ -1,10 +1,10 @@
 package v1
 
 import (
-	resAPI "go-common/app/interface/live/app-room/api/http/v1"
-	"go-common/app/interface/live/app-room/conf"
-	rspb "go-common/app/service/live/resource/api/grpc/v1"
-	bm "go-common/library/net/http/blademaster"
+	resAPI "github.com/namelessup/bilibili/app/interface/live/app-room/api/http/v1"
+	"github.com/namelessup/bilibili/app/interface/live/app-room/conf"
+	rspb "github.com/namelessup/bilibili/app/service/live/resource/api/grpc/v1"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 var _rsCli *rspb.Client

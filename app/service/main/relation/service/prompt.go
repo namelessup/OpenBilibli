@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/service/main/relation/model"
+	"github.com/namelessup/bilibili/app/service/main/relation/model"
 )
 
 // Prompt incr user prompt count and return if prompt.

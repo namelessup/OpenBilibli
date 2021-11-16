@@ -12,7 +12,7 @@ go_library(
         "session.go",
         "uilog.go",
     ],
-    importpath = "go-common/app/interface/bbq/common/http",
+    importpath = "github.com/namelessup/bilibili/app/interface/bbq/common/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

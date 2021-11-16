@@ -3,9 +3,9 @@ package http
 import (
 	"strconv"
 
-	"go-common/app/job/main/search/model"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/job/main/search/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func action(c *bm.Context) {

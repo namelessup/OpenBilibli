@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["elec.go"],
-    importpath = "go-common/app/interface/main/app-view/model/elec",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-view/model/elec",
     tags = ["automanaged"],
 )
 

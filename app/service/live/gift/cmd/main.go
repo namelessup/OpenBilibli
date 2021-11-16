@@ -2,19 +2,19 @@ package main
 
 import (
 	"flag"
-	"go-common/app/service/live/resource/sdk"
+	"github.com/namelessup/bilibili/app/service/live/resource/sdk"
 	"os"
 	"os/signal"
 	"syscall"
 	"time"
 
-	"go-common/app/service/live/gift/conf"
-	"go-common/app/service/live/gift/server/grpc"
-	"go-common/app/service/live/gift/server/http"
-	"go-common/app/service/live/gift/service"
-	ecode "go-common/library/ecode/tip"
-	"go-common/library/log"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/app/service/live/gift/conf"
+	"github.com/namelessup/bilibili/app/service/live/gift/server/grpc"
+	"github.com/namelessup/bilibili/app/service/live/gift/server/http"
+	"github.com/namelessup/bilibili/app/service/live/gift/service"
+	ecode "github.com/namelessup/bilibili/library/ecode/tip"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
 )
 
 func main() {

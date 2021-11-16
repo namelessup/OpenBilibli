@@ -3,12 +3,12 @@ package http
 import (
 	"encoding/json"
 	"fmt"
-	"go-common/app/service/main/upcredit/model/calculator"
-	"go-common/app/service/main/upcredit/model/upcrmmodel"
-	"go-common/app/service/main/upcredit/service"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/service/main/upcredit/model/calculator"
+	"github.com/namelessup/bilibili/app/service/main/upcredit/model/upcrmmodel"
+	"github.com/namelessup/bilibili/app/service/main/upcredit/service"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/http/blademaster"
 	"io/ioutil"
 	"time"
 )

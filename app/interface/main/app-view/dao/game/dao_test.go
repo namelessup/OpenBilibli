@@ -7,8 +7,8 @@ import (
 	"reflect"
 	"testing"
 
-	"go-common/app/interface/main/app-view/conf"
-	"go-common/app/interface/main/app-view/model/game"
+	"github.com/namelessup/bilibili/app/interface/main/app-view/conf"
+	"github.com/namelessup/bilibili/app/interface/main/app-view/model/game"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

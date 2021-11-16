@@ -22,7 +22,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["notice.go"],
-    importpath = "go-common/app/admin/main/app/dao/notice",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/app/dao/notice",
     tags = ["automanaged"],
     deps = [
         "//app/admin/main/app/conf:go_default_library",

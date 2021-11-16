@@ -4,13 +4,13 @@ import (
 	"fmt"
 	"time"
 
-	"go-common/library/cache/memcache"
-	"go-common/library/container/pool"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/permit"
-	"go-common/library/net/metadata"
-	"go-common/library/net/netutil/breaker"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/container/pool"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/permit"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/net/netutil/breaker"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // This example create a permit middleware instance and attach to several path,

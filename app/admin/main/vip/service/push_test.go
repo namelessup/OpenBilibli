@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	xtime "go-common/library/time"
+	xtime "github.com/namelessup/bilibili/library/time"
 
-	"go-common/app/admin/main/vip/model"
+	"github.com/namelessup/bilibili/app/admin/main/vip/model"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

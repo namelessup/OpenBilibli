@@ -28,7 +28,7 @@ go_library(
         "geetest.go",
         "realname.go",
     ],
-    importpath = "go-common/app/interface/main/account/dao/realname",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/account/dao/realname",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

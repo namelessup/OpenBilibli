@@ -1,9 +1,9 @@
 package server
 
 import (
-	"go-common/app/service/main/assist/model/assist"
+	"github.com/namelessup/bilibili/app/service/main/assist/model/assist"
 
-	"go-common/library/net/rpc/context"
+	"github.com/namelessup/bilibili/library/net/rpc/context"
 )
 
 func (r *RPC) Assists(c context.Context, arg *assist.ArgAssists, res *[]*assist.Assist) (err error) {

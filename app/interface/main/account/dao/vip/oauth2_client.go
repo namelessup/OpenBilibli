@@ -9,8 +9,8 @@ import (
 	"net/url"
 	"strings"
 
-	"go-common/library/conf/env"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/conf/env"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 
 	pkgerr "github.com/pkg/errors"
 )

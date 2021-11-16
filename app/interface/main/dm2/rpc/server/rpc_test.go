@@ -7,10 +7,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"go-common/app/interface/main/dm2/conf"
-	"go-common/app/interface/main/dm2/model"
-	"go-common/app/interface/main/dm2/service"
-	rpcx "go-common/library/net/rpc"
+	"github.com/namelessup/bilibili/app/interface/main/dm2/conf"
+	"github.com/namelessup/bilibili/app/interface/main/dm2/model"
+	"github.com/namelessup/bilibili/app/interface/main/dm2/service"
+	rpcx "github.com/namelessup/bilibili/library/net/rpc"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

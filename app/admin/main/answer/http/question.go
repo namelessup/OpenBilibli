@@ -2,9 +2,9 @@ package http
 
 import (
 	"context"
-	"go-common/app/admin/main/answer/model"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/answer/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 	"mime/multipart"
 )
 

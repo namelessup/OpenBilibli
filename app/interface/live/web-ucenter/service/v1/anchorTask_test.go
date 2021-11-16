@@ -3,10 +3,10 @@ package v1
 import (
 	"flag"
 	. "github.com/smartystreets/goconvey/convey"
-	api "go-common/app/interface/live/web-ucenter/api/http/v1"
-	"go-common/app/interface/live/web-ucenter/conf"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/metadata"
+	api "github.com/namelessup/bilibili/app/interface/live/web-ucenter/api/http/v1"
+	"github.com/namelessup/bilibili/app/interface/live/web-ucenter/conf"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/metadata"
 
 	"testing"
 )

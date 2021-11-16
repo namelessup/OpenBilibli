@@ -5,14 +5,14 @@ import (
 	"fmt"
 	"time"
 
-	model "go-common/app/interface/main/credit/model"
-	accmdl "go-common/app/service/main/account/api"
-	filgrpc "go-common/app/service/main/filter/api/grpc/v1"
-	memmdl "go-common/app/service/main/member/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
-	xtime "go-common/library/time"
+	model "github.com/namelessup/bilibili/app/interface/main/credit/model"
+	accmdl "github.com/namelessup/bilibili/app/service/main/account/api"
+	filgrpc "github.com/namelessup/bilibili/app/service/main/filter/api/grpc/v1"
+	memmdl "github.com/namelessup/bilibili/app/service/main/member/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	"github.com/pkg/errors"
 )

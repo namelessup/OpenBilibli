@@ -14,7 +14,7 @@ go_library(
         "room.go",
         "service.go",
     ],
-    importpath = "go-common/app/job/main/broadcast/service",
+    importpath = "github.com/namelessup/bilibili/app/job/main/broadcast/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -3,9 +3,9 @@ package dao
 import (
 	"context"
 	. "github.com/smartystreets/goconvey/convey"
-	"go-common/app/interface/live/push-live/model"
-	"go-common/library/cache/redis"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/live/push-live/model"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/log"
 	"math/rand"
 	"testing"
 )

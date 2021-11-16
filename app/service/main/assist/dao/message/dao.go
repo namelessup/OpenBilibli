@@ -3,9 +3,9 @@ package message
 import (
 	"context"
 	"fmt"
-	"go-common/app/service/main/assist/conf"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/service/main/assist/conf"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 	"net/url"
 	"strconv"
 )

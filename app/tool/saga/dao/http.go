@@ -9,7 +9,7 @@ import (
 	"net/url"
 	"strconv"
 
-	"go-common/app/tool/saga/model"
+	"github.com/namelessup/bilibili/app/tool/saga/model"
 
 	"github.com/pkg/errors"
 )

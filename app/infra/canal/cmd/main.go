@@ -7,10 +7,10 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/app/infra/canal/conf"
-	"go-common/app/infra/canal/http"
-	"go-common/app/infra/canal/service"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/infra/canal/conf"
+	"github.com/namelessup/bilibili/app/infra/canal/http"
+	"github.com/namelessup/bilibili/app/infra/canal/service"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func main() {

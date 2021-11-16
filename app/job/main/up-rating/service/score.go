@@ -4,8 +4,8 @@ import (
 	"math"
 	"time"
 
-	"go-common/app/job/main/up-rating/model"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/job/main/up-rating/model"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // Copy copy data from month to month

@@ -4,8 +4,8 @@ import (
 	"sync"
 	xtime "time"
 
-	"go-common/library/log"
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 // const Video Status

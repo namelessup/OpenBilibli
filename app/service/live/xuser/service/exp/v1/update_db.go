@@ -2,14 +2,14 @@ package v1
 
 import (
 	"context"
-	"go-common/library/ecode"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/net/metadata"
 
-	v1pb "go-common/app/service/live/xuser/api/grpc/v1"
-	expm "go-common/app/service/live/xuser/model/exp"
+	v1pb "github.com/namelessup/bilibili/app/service/live/xuser/api/grpc/v1"
+	expm "github.com/namelessup/bilibili/app/service/live/xuser/model/exp"
 
-	XanchorV1 "go-common/app/service/live/dao-anchor/api/grpc/v1"
-	"go-common/library/log"
+	XanchorV1 "github.com/namelessup/bilibili/app/service/live/dao-anchor/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *UserExpService) asyncUpdateDBUexp(ctx context.Context, req *v1pb.UserExpChunk) error {

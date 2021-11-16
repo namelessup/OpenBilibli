@@ -1,7 +1,7 @@
 package anchorTask
 
 import (
-	xtime "go-common/library/time"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // TableName is used to identify table name in gorm

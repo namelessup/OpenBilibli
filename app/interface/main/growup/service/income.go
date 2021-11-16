@@ -11,10 +11,10 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/interface/main/growup/model"
-	"go-common/library/log"
-	xtime "go-common/library/time"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/interface/main/growup/model"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 const (

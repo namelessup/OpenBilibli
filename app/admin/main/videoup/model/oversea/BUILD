@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["oversea.go"],
-    importpath = "go-common/app/admin/main/videoup/model/oversea",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/videoup/model/oversea",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/time:go_default_library"],

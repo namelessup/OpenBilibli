@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["tag.go"],
-    importpath = "go-common/app/interface/main/app-tag/model/tag",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-tag/model/tag",
     tags = ["automanaged"],
     deps = ["//app/service/main/archive/api:go_default_library"],
 )

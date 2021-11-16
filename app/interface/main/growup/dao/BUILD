@@ -63,7 +63,7 @@ go_library(
         "up_year.go",
         "withdraw.go",
     ],
-    importpath = "go-common/app/interface/main/growup/dao",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/growup/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

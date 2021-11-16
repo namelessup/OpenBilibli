@@ -3,7 +3,7 @@ package index_test
 import (
 	"testing"
 
-	"go-common/app/service/bbq/recsys-recall/service/index"
+	"github.com/namelessup/bilibili/app/service/bbq/recsys-recall/service/index"
 )
 
 func TestInvertedIndex(t *testing.T) {

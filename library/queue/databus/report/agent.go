@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/library/conf/env"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/library/conf/env"
+	"github.com/namelessup/bilibili/library/queue/databus"
 
 	"github.com/pkg/errors"
 )

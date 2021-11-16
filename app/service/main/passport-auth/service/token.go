@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/service/main/passport-auth/model"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/service/main/passport-auth/model"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 const (

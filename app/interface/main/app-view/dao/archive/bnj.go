@@ -3,7 +3,7 @@ package archive
 import (
 	"context"
 
-	"go-common/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/app/service/main/archive/model/archive"
 )
 
 // ViewsRPC is

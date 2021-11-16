@@ -3,9 +3,9 @@ package grpc
 import (
 	"context"
 
-	"go-common/app/service/main/identify-game/api/grpc/v1"
-	"go-common/app/service/main/identify-game/service"
-	"go-common/library/net/rpc/warden"
+	"github.com/namelessup/bilibili/app/service/main/identify-game/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/main/identify-game/service"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 )
 
 // New identify game warden rpc server

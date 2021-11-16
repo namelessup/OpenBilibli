@@ -5,13 +5,13 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/service/main/broadcast/model"
-	"go-common/library/log"
-	"go-common/library/naming/discovery"
-	"go-common/library/net/netutil/breaker"
-	"go-common/library/net/rpc/warden"
-	"go-common/library/net/rpc/warden/resolver"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/service/main/broadcast/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/naming/discovery"
+	"github.com/namelessup/bilibili/library/net/netutil/breaker"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
+	"github.com/namelessup/bilibili/library/net/rpc/warden/resolver"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 func testInit() ZergClient {

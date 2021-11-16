@@ -3,8 +3,8 @@ package push
 import (
 	"context"
 
-	"go-common/library/cache/redis"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const _pushKey = "appstatic-admin-topush"

@@ -5,7 +5,7 @@ import (
 	"crypto/md5"
 	"encoding/hex"
 	"fmt"
-	"go-common/app/service/video/stream-mng/common"
+	"github.com/namelessup/bilibili/app/service/video/stream-mng/common"
 	url2 "net/url"
 	"time"
 )

@@ -4,8 +4,8 @@ import (
 	"context"
 	"database/sql"
 
-	"go-common/app/admin/main/aegis/model/business"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model/business"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // GetConfigs .

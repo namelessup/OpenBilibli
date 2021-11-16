@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	apihttp "go-common/app/interface/main/ugcpay-rank/api/http"
-	apirpc "go-common/app/service/main/ugcpay-rank/api/v1"
+	apihttp "github.com/namelessup/bilibili/app/interface/main/ugcpay-rank/api/http"
+	apirpc "github.com/namelessup/bilibili/app/service/main/ugcpay-rank/api/v1"
 )
 
 // RankElecMonthUP .

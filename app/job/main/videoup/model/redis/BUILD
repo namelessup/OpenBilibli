@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["redis.go"],
-    importpath = "go-common/app/job/main/videoup/model/redis",
+    importpath = "github.com/namelessup/bilibili/app/job/main/videoup/model/redis",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

@@ -17,7 +17,7 @@ go_library(
         "task.go",
         "weight.go",
     ],
-    importpath = "go-common/app/admin/main/videoup-task/http",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/videoup-task/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

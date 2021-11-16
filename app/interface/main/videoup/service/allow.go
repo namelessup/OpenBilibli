@@ -6,9 +6,9 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"go-common/app/interface/main/videoup/model/archive"
-	"go-common/library/log"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/interface/main/videoup/model/archive"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // forbidTopTypesForAll fn 175=>ASMR

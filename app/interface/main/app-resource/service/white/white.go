@@ -1,7 +1,7 @@
 package white
 
 import (
-	"go-common/app/interface/main/app-resource/conf"
+	"github.com/namelessup/bilibili/app/interface/main/app-resource/conf"
 )
 
 // Service white service.

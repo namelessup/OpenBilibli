@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/job/main/spy/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/spy/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // UpdateStatData update spy stat data.

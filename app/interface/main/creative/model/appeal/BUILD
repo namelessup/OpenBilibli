@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["appeal.go"],
-    importpath = "go-common/app/interface/main/creative/model/appeal",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/creative/model/appeal",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

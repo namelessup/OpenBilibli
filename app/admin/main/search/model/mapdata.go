@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"strings"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // MapData .

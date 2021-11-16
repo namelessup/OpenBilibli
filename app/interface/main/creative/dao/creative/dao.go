@@ -3,10 +3,10 @@ package creative
 import (
 	"context"
 	"fmt"
-	"go-common/app/interface/main/creative/conf"
-	"go-common/library/cache"
-	"go-common/library/cache/memcache"
-	"go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/interface/main/creative/conf"
+	"github.com/namelessup/bilibili/library/cache"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/database/sql"
 )
 
 // Dao is creative dao.
@@ -54,13 +54,13 @@ func bgmKey(aid, cid, mtype int64) string {
 	return fmt.Sprintf("bgm_oid_%d_%d_%d", aid, cid, mtype)
 }
 
-//go:generate $GOPATH/src/go-common/app/tool/cache/gen
+//go:generate $GOPATH/src/github.com/namelessup/bilibili/app/tool/cache/gen
 type _cache interface {
 	// cache: -sync=true -nullcache=&BgmData{Data:""} -check_null_code=$.Data==""
 	BgmData(c context.Context, aid, cid, mtype int64) (*BgmData, error)
 }
 
-//go:generate $GOPATH/src/go-common/app/tool/cache/mc
+//go:generate $GOPATH/src/github.com/namelessup/bilibili/app/tool/cache/mc
 type _mc interface {
 	// mc: -key=bgmKey
 	CacheBgmData(c context.Context, key int64) (*BgmData, error)

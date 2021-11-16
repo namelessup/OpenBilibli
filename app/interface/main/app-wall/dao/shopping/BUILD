@@ -21,7 +21,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["shopping.go"],
-    importpath = "go-common/app/interface/main/app-wall/dao/shopping",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-wall/dao/shopping",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

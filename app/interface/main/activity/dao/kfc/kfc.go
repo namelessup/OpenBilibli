@@ -6,10 +6,10 @@ import (
 	"net/url"
 	"strconv"
 
-	"go-common/app/interface/main/activity/model/kfc"
-	xsql "go-common/library/database/sql"
-	"go-common/library/ecode"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/main/activity/model/kfc"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/net/metadata"
 
 	"github.com/pkg/errors"
 )

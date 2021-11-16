@@ -2,8 +2,8 @@ package resolver
 
 import (
 	"context"
-	"go-common/library/conf/env"
-	"go-common/library/naming"
+	"github.com/namelessup/bilibili/library/conf/env"
+	"github.com/namelessup/bilibili/library/naming"
 )
 
 type mockDiscoveryBuilder struct {

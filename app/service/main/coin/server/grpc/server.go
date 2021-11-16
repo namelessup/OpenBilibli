@@ -2,9 +2,9 @@
 package server
 
 import (
-	pb "go-common/app/service/main/coin/api"
-	"go-common/app/service/main/coin/service"
-	"go-common/library/net/rpc/warden"
+	pb "github.com/namelessup/bilibili/app/service/main/coin/api"
+	"github.com/namelessup/bilibili/app/service/main/coin/service"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 )
 
 // New Coin warden rpc server

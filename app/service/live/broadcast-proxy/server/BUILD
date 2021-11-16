@@ -13,7 +13,7 @@ go_library(
         "proxy.go",
         "zk.go",
     ],
-    importpath = "go-common/app/service/live/broadcast-proxy/server",
+    importpath = "github.com/namelessup/bilibili/app/service/live/broadcast-proxy/server",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -6,10 +6,10 @@ import (
 	"regexp"
 	"strconv"
 
-	seaMdl "go-common/app/interface/main/tv/model/search"
-	"go-common/library/database/elastic"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	seaMdl "github.com/namelessup/bilibili/app/interface/main/tv/model/search"
+	"github.com/namelessup/bilibili/library/database/elastic"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func yearTrans(year string) (stime, etime string, err error) {

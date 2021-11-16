@@ -9,12 +9,12 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/service/main/up/model"
-	"go-common/app/service/main/up/service"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/service/main/up/model"
+	"github.com/namelessup/bilibili/app/service/main/up/service"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/metadata"
 
 	"github.com/siddontang/go-mysql/mysql"
 )

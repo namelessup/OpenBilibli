@@ -6,11 +6,11 @@ import (
 	"os/signal"
 	"syscall"
 
-	"go-common/app/service/live/wallet/conf"
-	"go-common/app/service/live/wallet/http"
-	"go-common/app/service/live/wallet/service"
-	"go-common/library/log"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/app/service/live/wallet/conf"
+	"github.com/namelessup/bilibili/app/service/live/wallet/http"
+	"github.com/namelessup/bilibili/app/service/live/wallet/service"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
 )
 
 func main() {

@@ -3,10 +3,10 @@ package service
 import (
 	"context"
 
-	"go-common/app/admin/main/tag/conf"
-	"go-common/app/admin/main/tag/dao"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/sync/pipeline/fanout"
+	"github.com/namelessup/bilibili/app/admin/main/tag/conf"
+	"github.com/namelessup/bilibili/app/admin/main/tag/dao"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/sync/pipeline/fanout"
 )
 
 // Service service struct.

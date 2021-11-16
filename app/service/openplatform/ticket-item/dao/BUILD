@@ -56,7 +56,7 @@ go_library(
         "version.go",
         "wish.go",
     ],
-    importpath = "go-common/app/service/openplatform/ticket-item/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/openplatform/ticket-item/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

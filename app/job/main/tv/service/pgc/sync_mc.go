@@ -7,11 +7,11 @@ import (
 	"reflect"
 	"time"
 
-	appDao "go-common/app/job/main/tv/dao/app"
-	model "go-common/app/job/main/tv/model/pgc"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	timex "go-common/library/time"
+	appDao "github.com/namelessup/bilibili/app/job/main/tv/dao/app"
+	model "github.com/namelessup/bilibili/app/job/main/tv/model/pgc"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	timex "github.com/namelessup/bilibili/library/time"
 )
 
 type cntFunc func(ctx context.Context) (count int, err error)

@@ -3,7 +3,7 @@ package ugc
 import (
 	"testing"
 
-	"go-common/app/job/main/tv/model/ugc"
+	"github.com/namelessup/bilibili/app/job/main/tv/model/ugc"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

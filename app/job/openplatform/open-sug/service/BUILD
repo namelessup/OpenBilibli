@@ -12,7 +12,7 @@ go_library(
         "service.go",
         "sug.go",
     ],
-    importpath = "go-common/app/job/openplatform/open-sug/service",
+    importpath = "github.com/namelessup/bilibili/app/job/openplatform/open-sug/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

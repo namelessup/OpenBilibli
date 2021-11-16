@@ -8,9 +8,9 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/job/main/passport-game-data/conf"
-	"go-common/app/job/main/passport-game-data/dao"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/passport-game-data/conf"
+	"github.com/namelessup/bilibili/app/job/main/passport-game-data/dao"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // NewCompareOnly new a service for compare only.

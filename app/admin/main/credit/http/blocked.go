@@ -5,14 +5,14 @@ import (
 	"fmt"
 	"time"
 
-	"go-common/app/admin/main/credit/model"
-	"go-common/app/admin/main/credit/model/blocked"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/credit/model"
+	"github.com/namelessup/bilibili/app/admin/main/credit/model/blocked"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 
-	xtime "go-common/library/time"
-	"go-common/library/xstr"
+	xtime "github.com/namelessup/bilibili/library/time"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 // infos  get info list.

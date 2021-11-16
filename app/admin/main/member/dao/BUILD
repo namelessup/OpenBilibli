@@ -65,7 +65,7 @@ go_library(
         "review.go",
         "search.go",
     ],
-    importpath = "go-common/app/admin/main/member/dao",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/member/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -1,12 +1,12 @@
 package article
 
 import (
-	"go-common/app/interface/main/creative/conf"
-	"go-common/app/interface/main/creative/dao/account"
-	"go-common/app/interface/main/creative/dao/activity"
-	"go-common/app/interface/main/creative/dao/article"
-	"go-common/app/interface/main/creative/dao/bfs"
-	"go-common/app/interface/main/creative/service"
+	"github.com/namelessup/bilibili/app/interface/main/creative/conf"
+	"github.com/namelessup/bilibili/app/interface/main/creative/dao/account"
+	"github.com/namelessup/bilibili/app/interface/main/creative/dao/activity"
+	"github.com/namelessup/bilibili/app/interface/main/creative/dao/article"
+	"github.com/namelessup/bilibili/app/interface/main/creative/dao/bfs"
+	"github.com/namelessup/bilibili/app/interface/main/creative/service"
 )
 
 //Service struct.

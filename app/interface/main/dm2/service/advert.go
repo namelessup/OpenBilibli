@@ -3,7 +3,7 @@ package service
 import (
 	"context"
 
-	"go-common/app/interface/main/dm2/model"
+	"github.com/namelessup/bilibili/app/interface/main/dm2/model"
 )
 
 // DMAdvert dm advert.

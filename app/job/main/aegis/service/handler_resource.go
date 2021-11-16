@@ -6,7 +6,7 @@ import (
 	"errors"
 	"fmt"
 
-	"go-common/app/job/main/aegis/model"
+	"github.com/namelessup/bilibili/app/job/main/aegis/model"
 )
 
 //ERROR

@@ -13,7 +13,7 @@ go_library(
         "elec_db.go",
         "model.go",
     ],
-    importpath = "go-common/app/job/main/ugcpay/model",
+    importpath = "github.com/namelessup/bilibili/app/job/main/ugcpay/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/log:go_default_library"],

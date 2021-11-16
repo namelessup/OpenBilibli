@@ -23,7 +23,7 @@ go_library(
         "task_shell_recharge.go",
         "tool.go",
     ],
-    importpath = "go-common/app/job/main/ugcpay/service",
+    importpath = "github.com/namelessup/bilibili/app/job/main/ugcpay/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

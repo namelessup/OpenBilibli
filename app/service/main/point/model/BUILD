@@ -18,7 +18,7 @@ go_library(
         "point.go",
         "rpc.go",
     ],
-    importpath = "go-common/app/service/main/point/model",
+    importpath = "github.com/namelessup/bilibili/app/service/main/point/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/time:go_default_library"],

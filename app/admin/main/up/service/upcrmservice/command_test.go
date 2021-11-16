@@ -2,7 +2,7 @@ package upcrmservice
 
 import (
 	"context"
-	"go-common/app/admin/main/up/model"
+	"github.com/namelessup/bilibili/app/admin/main/up/model"
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"

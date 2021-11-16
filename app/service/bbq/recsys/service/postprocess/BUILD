@@ -15,7 +15,7 @@ go_library(
         "selectInsertPostProcessor.go",
         "weakInterventionPostProcessor.go",
     ],
-    importpath = "go-common/app/service/bbq/recsys/service/postprocess",
+    importpath = "github.com/namelessup/bilibili/app/service/bbq/recsys/service/postprocess",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

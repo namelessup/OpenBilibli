@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"strconv"
 
-	"go-common/app/job/main/videoup-report/model/archive"
+	"github.com/namelessup/bilibili/app/job/main/videoup-report/model/archive"
 )
 
 func (s *Service) trackArchive(nw *archive.Archive, old *archive.Archive) (err error) {

@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["lint.go"],
-    importpath = "go-common/app/admin/main/config/pkg/lint",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/config/pkg/lint",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

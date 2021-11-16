@@ -31,7 +31,7 @@ go_library(
         "reply.go",
         "uper.go",
     ],
-    importpath = "go-common/app/job/main/videoup-report/dao/data",
+    importpath = "github.com/namelessup/bilibili/app/job/main/videoup-report/dao/data",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

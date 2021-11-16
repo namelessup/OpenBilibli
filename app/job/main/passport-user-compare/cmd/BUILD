@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["passport-user-compare-job.toml"],
-    importpath = "go-common/app/job/main/passport-user-compare/cmd",
+    importpath = "github.com/namelessup/bilibili/app/job/main/passport-user-compare/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

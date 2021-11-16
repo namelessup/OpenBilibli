@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"time"
 
-	model "go-common/app/job/main/growup/model/tag"
-	"go-common/library/log"
-	xtime "go-common/library/time"
+	model "github.com/namelessup/bilibili/app/job/main/growup/model/tag"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 func (s *Service) addActivityInfo(c context.Context, date string, tagAvs map[int64]*model.AvTagRatio, ctype int) (err error) {

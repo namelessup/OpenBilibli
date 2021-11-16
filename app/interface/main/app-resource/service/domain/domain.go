@@ -1,8 +1,8 @@
 package domain
 
 import (
-	"go-common/app/interface/main/app-resource/conf"
-	"go-common/app/interface/main/app-resource/model/domain"
+	"github.com/namelessup/bilibili/app/interface/main/app-resource/conf"
+	"github.com/namelessup/bilibili/app/interface/main/app-resource/model/domain"
 )
 
 // Service domain service.

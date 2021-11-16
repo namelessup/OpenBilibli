@@ -2,10 +2,10 @@ package dao
 
 import (
 	"context"
-	accrpc "go-common/app/service/main/account/rpc/client"
+	accrpc "github.com/namelessup/bilibili/app/service/main/account/rpc/client"
 
-	"go-common/app/interface/live/web-room/conf"
-	"go-common/app/service/live/xuser/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/interface/live/web-room/conf"
+	"github.com/namelessup/bilibili/app/service/live/xuser/api/grpc/v1"
 )
 
 // Dao dao

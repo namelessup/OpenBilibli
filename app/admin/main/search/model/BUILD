@@ -35,7 +35,7 @@ go_library(
         "uname.go",
         "upsert.go",
     ],
-    importpath = "go-common/app/admin/main/search/model",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/search/model",
     tags = ["automanaged"],
     deps = [
         "//library/log:go_default_library",

@@ -28,7 +28,7 @@ go_library(
         "dao.go",
         "redis.go",
     ],
-    importpath = "go-common/app/interface/main/favorite/dao/video",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/favorite/dao/video",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

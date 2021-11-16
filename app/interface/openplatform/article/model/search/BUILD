@@ -19,7 +19,7 @@ proto_library(
 go_proto_library(
     name = "bili_search_rpc_tagbox_go_proto",
     compilers = ["@io_bazel_rules_go//proto:go_grpc"],
-    importpath = "go-common/app/interface/openplatform/article/model/search",
+    importpath = "github.com/namelessup/bilibili/app/interface/openplatform/article/model/search",
     proto = ":bili_search_rpc_tagbox_proto",
     tags = ["automanaged"],
 )
@@ -28,7 +28,7 @@ go_library(
     name = "go_default_library",
     srcs = [],
     embed = [":bili_search_rpc_tagbox_go_proto"],
-    importpath = "go-common/app/interface/openplatform/article/model/search",
+    importpath = "github.com/namelessup/bilibili/app/interface/openplatform/article/model/search",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

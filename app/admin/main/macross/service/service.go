@@ -5,12 +5,12 @@ import (
 	"io"
 	"time"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 
-	"go-common/app/admin/main/macross/conf"
-	"go-common/app/admin/main/macross/dao"
-	"go-common/app/admin/main/macross/dao/oss"
-	model "go-common/app/admin/main/macross/model/manager"
+	"github.com/namelessup/bilibili/app/admin/main/macross/conf"
+	"github.com/namelessup/bilibili/app/admin/main/macross/dao"
+	"github.com/namelessup/bilibili/app/admin/main/macross/dao/oss"
+	model "github.com/namelessup/bilibili/app/admin/main/macross/model/manager"
 )
 
 // Service service struct info.

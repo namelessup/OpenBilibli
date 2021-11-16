@@ -7,11 +7,11 @@ import (
 	"os/signal"
 	"syscall"
 
-	"go-common/app/service/main/share/conf"
-	"go-common/app/service/main/share/server/grpc"
-	"go-common/app/service/main/share/server/http"
-	"go-common/app/service/main/share/service"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/share/conf"
+	"github.com/namelessup/bilibili/app/service/main/share/server/grpc"
+	"github.com/namelessup/bilibili/app/service/main/share/server/http"
+	"github.com/namelessup/bilibili/app/service/main/share/service"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func main() {

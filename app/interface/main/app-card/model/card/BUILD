@@ -13,7 +13,7 @@ go_library(
         "ipad.go",
         "single.go",
     ],
-    importpath = "go-common/app/interface/main/app-card/model/card",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-card/model/card",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

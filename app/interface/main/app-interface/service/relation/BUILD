@@ -28,7 +28,7 @@ go_library(
         "relation.go",
         "service.go",
     ],
-    importpath = "go-common/app/interface/main/app-interface/service/relation",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-interface/service/relation",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

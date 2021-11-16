@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"strings"
 
-	"go-common/app/interface/main/push/model"
-	pushmdl "go-common/app/service/main/push/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/push/model"
+	pushmdl "github.com/namelessup/bilibili/app/service/main/push/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // PubReport pub report.

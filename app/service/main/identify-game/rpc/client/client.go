@@ -3,8 +3,8 @@ package client
 import (
 	"context"
 
-	"go-common/app/service/main/identify-game/model"
-	"go-common/library/net/rpc"
+	"github.com/namelessup/bilibili/app/service/main/identify-game/model"
+	"github.com/namelessup/bilibili/library/net/rpc"
 )
 
 const (

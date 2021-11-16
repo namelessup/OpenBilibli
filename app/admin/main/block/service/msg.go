@@ -3,9 +3,9 @@ package service
 import (
 	"fmt"
 
-	"go-common/app/admin/main/block/conf"
-	"go-common/app/admin/main/block/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/block/conf"
+	"github.com/namelessup/bilibili/app/admin/main/block/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // MSGInfo get msg info

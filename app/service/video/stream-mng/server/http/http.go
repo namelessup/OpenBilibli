@@ -3,13 +3,13 @@ package http
 import (
 	"net/http"
 
-	"go-common/app/service/video/stream-mng/conf"
-	"go-common/app/service/video/stream-mng/middleware"
-	"go-common/app/service/video/stream-mng/service"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/auth"
-	"go-common/library/net/http/blademaster/middleware/verify"
+	"github.com/namelessup/bilibili/app/service/video/stream-mng/conf"
+	"github.com/namelessup/bilibili/app/service/video/stream-mng/middleware"
+	"github.com/namelessup/bilibili/app/service/video/stream-mng/service"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/auth"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/verify"
 )
 
 var (

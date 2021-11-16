@@ -7,5 +7,5 @@
 > golang v1.7.x以上
 
 ##### 依赖包
-> 1.公共包go-common  
+> 1.公共包github.com/namelessup/bilibili  
   

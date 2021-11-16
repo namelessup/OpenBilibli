@@ -19,7 +19,7 @@ go_library(
         "convey-test.toml",
         "credit-timer-job-test.toml",
     ],
-    importpath = "go-common/app/job/main/credit-timer/cmd",
+    importpath = "github.com/namelessup/bilibili/app/job/main/credit-timer/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

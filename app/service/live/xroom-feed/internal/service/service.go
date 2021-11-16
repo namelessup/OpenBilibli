@@ -4,8 +4,8 @@ import (
 	"context"
 	"sync/atomic"
 
-	"go-common/app/service/live/xroom-feed/internal/dao"
-	"go-common/library/conf/paladin"
+	"github.com/namelessup/bilibili/app/service/live/xroom-feed/internal/dao"
+	"github.com/namelessup/bilibili/library/conf/paladin"
 )
 
 // Service service.

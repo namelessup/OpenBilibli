@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"go-common/app/job/main/videoup-report/model/utils"
+	"github.com/namelessup/bilibili/app/job/main/videoup-report/model/utils"
 )
 
 const (

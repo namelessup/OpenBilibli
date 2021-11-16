@@ -1,10 +1,10 @@
 package http
 
 import (
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/library/ecode"
 	"strconv"
 
-	bm "go-common/library/net/http/blademaster"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // Blacks get user's black list.

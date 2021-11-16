@@ -22,6 +22,6 @@ filegroup(
 go_library(
     name = "go_default_library",
     srcs = ["porder.go"],
-    importpath = "go-common/app/interface/main/videoup/model/porder",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/videoup/model/porder",
     tags = ["automanaged"],
 )

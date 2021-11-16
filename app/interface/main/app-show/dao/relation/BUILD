@@ -21,7 +21,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["relation.go"],
-    importpath = "go-common/app/interface/main/app-show/dao/relation",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-show/dao/relation",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

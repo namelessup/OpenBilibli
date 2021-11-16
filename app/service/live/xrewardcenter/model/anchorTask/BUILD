@@ -11,7 +11,7 @@ go_library(
         "anchorReward.go",
         "anchorRewardConf.go",
     ],
-    importpath = "go-common/app/service/live/xrewardcenter/model/anchorTask",
+    importpath = "github.com/namelessup/bilibili/app/service/live/xrewardcenter/model/anchorTask",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/time:go_default_library"],

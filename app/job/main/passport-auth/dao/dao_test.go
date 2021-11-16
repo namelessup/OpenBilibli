@@ -2,7 +2,7 @@ package dao
 
 import (
 	"flag"
-	"go-common/app/job/main/passport-auth/conf"
+	"github.com/namelessup/bilibili/app/job/main/passport-auth/conf"
 	"os"
 	"testing"
 )

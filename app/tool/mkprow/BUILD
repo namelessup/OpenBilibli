@@ -18,7 +18,7 @@ go_library(
         "main.go",
         "template.go",
     ],
-    importpath = "go-common/app/tool/mkprow",
+    importpath = "github.com/namelessup/bilibili/app/tool/mkprow",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -3,7 +3,7 @@
 
 /*
 Package v1 is a generated blademaster stub package.
-This code was generated with go-common/app/tool/bmgen/protoc-gen-bm v0.1.
+This code was generated with github.com/namelessup/bilibili/app/tool/bmgen/protoc-gen-bm v0.1.
 
 package 命名使用 {discovery_id}.{version} 的方式, version 形如 v1, v2, v1beta ..
 NOTE: 不知道的 discovery_id 请询问大佬, 新项目找大佬申请 discovery_id，先到先得抢注
@@ -17,8 +17,8 @@ package v1
 import (
 	"context"
 
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/binding"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/binding"
 )
 
 // to suppressed 'imported but not used warning'

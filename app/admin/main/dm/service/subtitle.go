@@ -6,13 +6,13 @@ import (
 	"sync"
 	"time"
 
-	"go-common/app/admin/main/dm/model"
-	accountApi "go-common/app/service/main/account/api"
-	"go-common/app/service/main/archive/api"
-	archiveMdl "go-common/app/service/main/archive/model/archive"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/admin/main/dm/model"
+	accountApi "github.com/namelessup/bilibili/app/service/main/account/api"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	archiveMdl "github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 const (

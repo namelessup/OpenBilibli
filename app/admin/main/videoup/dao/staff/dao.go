@@ -1,8 +1,8 @@
 package staff
 
 import (
-	"go-common/app/admin/main/videoup/conf"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/videoup/conf"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 const (

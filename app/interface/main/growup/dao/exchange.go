@@ -8,11 +8,11 @@ import (
 	"net/url"
 	"strconv"
 
-	"go-common/app/interface/main/growup/model"
-	vip "go-common/app/service/main/vip/model"
+	"github.com/namelessup/bilibili/app/interface/main/growup/model"
+	vip "github.com/namelessup/bilibili/app/service/main/vip/model"
 
-	xsql "go-common/library/database/sql"
-	"go-common/library/log"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

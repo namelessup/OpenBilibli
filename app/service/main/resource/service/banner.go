@@ -8,9 +8,9 @@ import (
 	"strings"
 	"time"
 
-	locmdl "go-common/app/service/main/location/model"
-	"go-common/app/service/main/resource/model"
-	"go-common/library/log"
+	locmdl "github.com/namelessup/bilibili/app/service/main/location/model"
+	"github.com/namelessup/bilibili/app/service/main/resource/model"
+	"github.com/namelessup/bilibili/library/log"
 
 	farm "github.com/dgryski/go-farm"
 )

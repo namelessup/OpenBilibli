@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/admin/main/up/dao/upcrm"
-	"go-common/app/admin/main/up/model/upcrmmodel"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/up/dao/upcrm"
+	"github.com/namelessup/bilibili/app/admin/main/up/model/upcrmmodel"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 //YesterdayRes struct

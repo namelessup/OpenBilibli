@@ -5,9 +5,9 @@ import (
 	"strings"
 	"testing"
 
-	"go-common/app/tool/gengo/generator"
-	"go-common/app/tool/gengo/namer"
-	"go-common/app/tool/gengo/parser"
+	"github.com/namelessup/bilibili/app/tool/gengo/generator"
+	"github.com/namelessup/bilibili/app/tool/gengo/namer"
+	"github.com/namelessup/bilibili/app/tool/gengo/parser"
 )
 
 func construct(t *testing.T, files map[string]string) *generator.Context {

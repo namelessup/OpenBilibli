@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["pgc.go"],
-    importpath = "go-common/app/admin/main/feed/service/pgc",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/feed/service/pgc",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

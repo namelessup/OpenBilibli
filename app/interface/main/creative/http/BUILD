@@ -56,7 +56,7 @@ go_library(
         "web_tag.go",
         "web_tpl.go",
     ],
-    importpath = "go-common/app/interface/main/creative/http",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/creative/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

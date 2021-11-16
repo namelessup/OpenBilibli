@@ -1,6 +1,6 @@
 package charge
 
-import "go-common/library/time"
+import "github.com/namelessup/bilibili/library/time"
 
 // UpCharge up charge
 type UpCharge struct {

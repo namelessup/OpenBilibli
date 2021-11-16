@@ -3,12 +3,12 @@ package service
 import (
 	"context"
 
-	"go-common/app/job/main/passport-user/conf"
-	"go-common/app/job/main/passport-user/dao"
-	"go-common/app/job/main/passport-user/model"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
-	"go-common/library/queue/databus/databusutil"
+	"github.com/namelessup/bilibili/app/job/main/passport-user/conf"
+	"github.com/namelessup/bilibili/app/job/main/passport-user/dao"
+	"github.com/namelessup/bilibili/app/job/main/passport-user/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
+	"github.com/namelessup/bilibili/library/queue/databus/databusutil"
 )
 
 const (

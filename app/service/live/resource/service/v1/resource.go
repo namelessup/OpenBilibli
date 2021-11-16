@@ -6,11 +6,11 @@ import (
 	"regexp"
 	"time"
 
-	v1pb "go-common/app/service/live/resource/api/grpc/v1"
-	"go-common/app/service/live/resource/conf"
-	"go-common/app/service/live/resource/dao"
-	"go-common/app/service/live/resource/model"
-	"go-common/library/ecode"
+	v1pb "github.com/namelessup/bilibili/app/service/live/resource/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/live/resource/conf"
+	"github.com/namelessup/bilibili/app/service/live/resource/dao"
+	"github.com/namelessup/bilibili/app/service/live/resource/model"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 // ResourceService struct

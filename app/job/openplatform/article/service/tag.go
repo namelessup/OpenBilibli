@@ -4,9 +4,9 @@ import (
 	"context"
 	"strings"
 
-	"go-common/app/interface/main/tag/model"
-	"go-common/app/job/openplatform/article/dao"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/tag/model"
+	"github.com/namelessup/bilibili/app/job/openplatform/article/dao"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // tags gets article tags.

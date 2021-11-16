@@ -15,7 +15,7 @@ go_library(
         "lottery.go",
         "point.go",
     ],
-    importpath = "go-common/app/interface/main/activity/service/bws",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/activity/service/bws",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -2,7 +2,7 @@ package fav
 
 import (
 	"flag"
-	"go-common/app/job/main/favorite/conf"
+	"github.com/namelessup/bilibili/app/job/main/favorite/conf"
 	"os"
 	"testing"
 )

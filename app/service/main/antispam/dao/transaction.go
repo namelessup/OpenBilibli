@@ -4,7 +4,7 @@ package dao
 import (
 	"context"
 
-	xsql "go-common/database/sql"
+	xsql "github.com/namelessup/bilibili/database/sql"
 )
 
 type TxImpl struct {

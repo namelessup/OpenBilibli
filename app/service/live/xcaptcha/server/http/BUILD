@@ -11,7 +11,7 @@ go_library(
         "http.go",
         "xcaptcha.go",
     ],
-    importpath = "go-common/app/service/live/xcaptcha/server/http",
+    importpath = "github.com/namelessup/bilibili/app/service/live/xcaptcha/server/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

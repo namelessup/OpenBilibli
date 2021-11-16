@@ -12,8 +12,8 @@ import (
 	"net/http"
 	"strconv"
 
-	"go-common/app/admin/main/up/conf"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/up/conf"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

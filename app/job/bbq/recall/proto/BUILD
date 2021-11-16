@@ -23,7 +23,7 @@ proto_library(
 go_proto_library(
     name = "proto_go_proto",
     compilers = ["@io_bazel_rules_go//proto:gogofast_proto"],
-    importpath = "go-common/app/job/bbq/recall/proto",
+    importpath = "github.com/namelessup/bilibili/app/job/bbq/recall/proto",
     proto = ":proto_proto",
     tags = ["automanaged"],
     deps = [
@@ -36,7 +36,7 @@ go_library(
     name = "go_default_library",
     srcs = [],
     embed = [":proto_go_proto"],
-    importpath = "go-common/app/job/bbq/recall/proto",
+    importpath = "github.com/namelessup/bilibili/app/job/bbq/recall/proto",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

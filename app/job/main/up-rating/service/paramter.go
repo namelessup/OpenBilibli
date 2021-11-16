@@ -3,7 +3,7 @@ package service
 import (
 	"context"
 
-	"go-common/app/job/main/up-rating/model"
+	"github.com/namelessup/bilibili/app/job/main/up-rating/model"
 )
 
 func (s *Service) getAllParamter(c context.Context) (rp *model.RatingParameter, err error) {

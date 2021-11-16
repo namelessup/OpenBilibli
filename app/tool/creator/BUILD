@@ -16,7 +16,7 @@ go_library(
         "upgrade.go",
         "utils.go",
     ],
-    importpath = "go-common/app/tool/creator",
+    importpath = "github.com/namelessup/bilibili/app/tool/creator",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

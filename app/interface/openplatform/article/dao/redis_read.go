@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/library/cache/redis"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // GetsetReadPing 设置并获取上次阅读心跳时间，不存在则返回0

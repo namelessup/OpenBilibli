@@ -64,7 +64,7 @@ go_library(
         "tag.go",
         "wechat.go",
     ],
-    importpath = "go-common/app/interface/main/web/service",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/web/service",
     tags = ["automanaged"],
     deps = [
         "//app/interface/main/dm2/model:go_default_library",

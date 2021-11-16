@@ -5,8 +5,8 @@ import (
 	"database/sql"
 	"time"
 
-	"go-common/app/job/main/mcn/model"
-	xsql "go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/job/main/mcn/model"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
 )
 
 const (

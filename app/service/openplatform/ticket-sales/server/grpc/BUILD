@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["server.go"],
-    importpath = "go-common/app/service/openplatform/ticket-sales/server/grpc",
+    importpath = "github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/server/grpc",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -5,17 +5,17 @@ import (
 	"flag"
 	"fmt"
 	"github.com/smartystreets/goconvey/convey"
-	"go-common/app/service/main/relation/model"
+	"github.com/namelessup/bilibili/app/service/main/relation/model"
 	"os"
 	"testing"
 	"time"
 
-	"go-common/app/service/main/relation/api"
-	pb "go-common/app/service/main/relation/api"
-	"go-common/app/service/main/relation/conf"
-	"go-common/app/service/main/relation/service"
-	"go-common/library/net/rpc/warden"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/service/main/relation/api"
+	pb "github.com/namelessup/bilibili/app/service/main/relation/api"
+	"github.com/namelessup/bilibili/app/service/main/relation/conf"
+	"github.com/namelessup/bilibili/app/service/main/relation/service"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 var (

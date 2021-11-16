@@ -7,9 +7,9 @@ import (
 	"log"
 	"time"
 
-	"go-common/app/service/bbq/notice-service/api/v1"
-	"go-common/library/net/rpc/warden"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/service/bbq/notice-service/api/v1"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 var (

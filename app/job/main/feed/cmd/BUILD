@@ -19,7 +19,7 @@ go_library(
         "feed-job-example.toml",
         "feed-job-test.toml",
     ],
-    importpath = "go-common/app/job/main/feed/cmd",
+    importpath = "github.com/namelessup/bilibili/app/job/main/feed/cmd",
     tags = ["automanaged"],
     deps = [
         "//app/job/main/feed/conf:go_default_library",

@@ -1,7 +1,7 @@
 package dao
 
 import (
-	"go-common/app/admin/ep/marthe/model"
+	"github.com/namelessup/bilibili/app/admin/ep/marthe/model"
 
 	pkgerr "github.com/pkg/errors"
 )

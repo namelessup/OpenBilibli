@@ -2,8 +2,8 @@ package dao
 
 import (
 	"context"
-	"go-common/app/service/openplatform/anti-fraud/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/openplatform/anti-fraud/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

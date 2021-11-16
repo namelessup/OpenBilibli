@@ -11,9 +11,9 @@ import (
 	"strings"
 	gotime "time"
 
-	"go-common/app/service/main/account-recovery/conf"
-	"go-common/library/log"
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/app/service/main/account-recovery/conf"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 // QueryInfoReq query mid info req

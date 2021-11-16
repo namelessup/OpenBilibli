@@ -24,7 +24,7 @@ go_library(
         "dao.go",
         "grpc.go",
     ],
-    importpath = "go-common/app/interface/main/app-feed/dao/bangumi",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-feed/dao/bangumi",
     tags = ["automanaged"],
     deps = [
         "//app/interface/main/app-card/model/card/bangumi:go_default_library",

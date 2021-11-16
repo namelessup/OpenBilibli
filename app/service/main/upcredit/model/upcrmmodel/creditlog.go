@@ -3,7 +3,7 @@ package upcrmmodel
 import (
 	"encoding/json"
 	"fmt"
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/library/time"
 	systime "time"
 )
 

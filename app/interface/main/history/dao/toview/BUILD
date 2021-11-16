@@ -30,7 +30,7 @@ go_library(
         "hbase.go",
         "redis.go",
     ],
-    importpath = "go-common/app/interface/main/history/dao/toview",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/history/dao/toview",
     tags = ["automanaged"],
     deps = [
         "//app/interface/main/history/conf:go_default_library",

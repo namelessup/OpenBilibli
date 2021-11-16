@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/job/main/app-wall/model"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/job/main/app-wall/model"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 type UserBind struct {

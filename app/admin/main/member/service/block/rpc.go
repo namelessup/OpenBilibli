@@ -3,10 +3,10 @@ package block
 import (
 	"context"
 
-	account "go-common/app/service/main/account/api"
-	mdlfigure "go-common/app/service/main/figure/model"
-	mdlspy "go-common/app/service/main/spy/model"
-	"go-common/library/net/metadata"
+	account "github.com/namelessup/bilibili/app/service/main/account/api"
+	mdlfigure "github.com/namelessup/bilibili/app/service/main/figure/model"
+	mdlspy "github.com/namelessup/bilibili/app/service/main/spy/model"
+	"github.com/namelessup/bilibili/library/net/metadata"
 
 	"github.com/pkg/errors"
 )

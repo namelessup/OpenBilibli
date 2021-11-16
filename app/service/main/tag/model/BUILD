@@ -22,7 +22,7 @@ go_library(
         "tag.go",
     ],
     embed = [":model_go_proto"],
-    importpath = "go-common/app/service/main/tag/model",
+    importpath = "github.com/namelessup/bilibili/app/service/main/tag/model",
     tags = ["automanaged"],
     deps = [
         "//library/time:go_default_library",
@@ -55,7 +55,7 @@ proto_library(
 go_proto_library(
     name = "model_go_proto",
     compilers = ["@io_bazel_rules_go//proto:gogofast_proto"],
-    importpath = "go-common/app/service/main/tag/model",
+    importpath = "github.com/namelessup/bilibili/app/service/main/tag/model",
     proto = ":model_proto",
     tags = ["automanaged"],
     deps = [

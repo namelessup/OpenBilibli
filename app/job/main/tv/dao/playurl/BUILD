@@ -27,7 +27,7 @@ go_library(
         "dao.go",
         "playurl.go",
     ],
-    importpath = "go-common/app/job/main/tv/dao/playurl",
+    importpath = "github.com/namelessup/bilibili/app/job/main/tv/dao/playurl",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

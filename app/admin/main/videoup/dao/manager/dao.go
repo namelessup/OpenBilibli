@@ -3,9 +3,9 @@ package manager
 import (
 	"context"
 
-	"go-common/app/admin/main/videoup/conf"
-	"go-common/library/database/sql"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/videoup/conf"
+	"github.com/namelessup/bilibili/library/database/sql"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // Dao is redis dao.

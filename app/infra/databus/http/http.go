@@ -1,11 +1,11 @@
 package http
 
 import (
-	"go-common/app/infra/databus/conf"
-	"go-common/app/infra/databus/service"
-	"go-common/app/infra/databus/tcp"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/infra/databus/conf"
+	"github.com/namelessup/bilibili/app/infra/databus/service"
+	"github.com/namelessup/bilibili/app/infra/databus/tcp"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 var (

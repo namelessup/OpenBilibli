@@ -5,16 +5,16 @@ import (
 	"fmt"
 	"time"
 
-	model "go-common/app/interface/main/reply/model/reply"
-	artmdl "go-common/app/interface/openplatform/article/model"
-	"go-common/app/service/main/archive/api"
-	arcmdl "go-common/app/service/main/archive/model/archive"
-	figmdl "go-common/app/service/main/figure/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
-	"go-common/library/queue/databus/report"
-	xtime "go-common/library/time"
+	model "github.com/namelessup/bilibili/app/interface/main/reply/model/reply"
+	artmdl "github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	arcmdl "github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	figmdl "github.com/namelessup/bilibili/app/service/main/figure/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/queue/databus/report"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 const (

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	lmdl "go-common/app/admin/main/activity/model"
+	lmdl "github.com/namelessup/bilibili/app/admin/main/activity/model"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["need.go"],
-    importpath = "go-common/app/admin/main/apm/model/need",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/apm/model/need",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/time:go_default_library"],

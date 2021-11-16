@@ -13,7 +13,7 @@ go_library(
         "none_template.go",
         "single_template.go",
     ],
-    importpath = "go-common/app/tool/cache",
+    importpath = "github.com/namelessup/bilibili/app/tool/cache",
     tags = ["automanaged"],
     visibility = ["//visibility:private"],
     deps = ["//app/tool/cache/common:go_default_library"],

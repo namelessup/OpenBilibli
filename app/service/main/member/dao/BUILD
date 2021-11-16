@@ -52,7 +52,7 @@ go_library(
         "realname.go",
         "redis.go",
     ],
-    importpath = "go-common/app/service/main/member/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/main/member/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

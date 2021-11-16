@@ -1,6 +1,6 @@
 package conf
 
-import xtime "go-common/library/time"
+import xtime "github.com/namelessup/bilibili/library/time"
 
 // Sync struct defines the parameters for the data sync to license owner
 type Sync struct {

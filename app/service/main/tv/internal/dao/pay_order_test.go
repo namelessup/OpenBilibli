@@ -2,13 +2,13 @@ package dao
 
 import (
 	"context"
-	"go-common/app/service/main/tv/internal/model"
+	"github.com/namelessup/bilibili/app/service/main/tv/internal/model"
 	"math/rand"
 	"strconv"
 	"testing"
 	"time"
 
-	xtime "go-common/library/time"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	"github.com/smartystreets/goconvey/convey"
 )

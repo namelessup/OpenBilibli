@@ -21,7 +21,7 @@ go_library(
         "send.go",
         "white_list.go",
     ],
-    importpath = "go-common/app/service/live/live-dm/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/live/live-dm/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

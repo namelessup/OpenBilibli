@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/service/video/stream-mng/api/v1"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/video/stream-mng/api/v1"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 //视频云接口调用

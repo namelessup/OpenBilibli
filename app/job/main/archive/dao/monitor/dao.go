@@ -1,8 +1,8 @@
 package monitor
 
 import (
-	"go-common/app/job/main/archive/conf"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/job/main/archive/conf"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // Dao is redis dao.

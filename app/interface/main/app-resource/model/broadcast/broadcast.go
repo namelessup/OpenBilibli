@@ -1,7 +1,7 @@
 package broadcast
 
 import (
-	wardensvr "go-common/app/service/main/broadcast/api/grpc/v1"
+	wardensvr "github.com/namelessup/bilibili/app/service/main/broadcast/api/grpc/v1"
 )
 
 type ServerListReply struct {

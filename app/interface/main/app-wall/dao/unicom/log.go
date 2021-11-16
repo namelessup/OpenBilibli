@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	"go-common/app/interface/main/app-wall/model/unicom"
-	"go-common/library/database/elastic"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/app-wall/model/unicom"
+	"github.com/namelessup/bilibili/library/database/elastic"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

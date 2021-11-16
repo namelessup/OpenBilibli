@@ -5,7 +5,7 @@ import (
 	. "github.com/smartystreets/goconvey/convey"
 	"testing"
 
-	"go-common/app/admin/main/videoup/model/archive"
+	"github.com/namelessup/bilibili/app/admin/main/videoup/model/archive"
 )
 
 func TestDao_TxAddFlowLog(t *testing.T) {

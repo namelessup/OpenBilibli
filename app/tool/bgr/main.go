@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"go-common/app/tool/bgr/log"
+	"github.com/namelessup/bilibili/app/tool/bgr/log"
 )
 
 var (

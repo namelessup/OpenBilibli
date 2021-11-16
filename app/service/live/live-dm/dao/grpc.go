@@ -3,14 +3,14 @@ package dao
 import (
 	"context"
 
-	broadcasrtService "go-common/app/service/live/broadcast-proxy/api/v1"
-	"go-common/app/service/live/live-dm/conf"
-	xuserService "go-common/app/service/live/xuser/api/grpc/v1"
-	acctountService "go-common/app/service/main/account/api"
-	filterService "go-common/app/service/main/filter/api/grpc/v1"
-	locationService "go-common/app/service/main/location/api"
-	spyService "go-common/app/service/main/spy/api"
-	"go-common/library/net/rpc/warden"
+	broadcasrtService "github.com/namelessup/bilibili/app/service/live/broadcast-proxy/api/v1"
+	"github.com/namelessup/bilibili/app/service/live/live-dm/conf"
+	xuserService "github.com/namelessup/bilibili/app/service/live/xuser/api/grpc/v1"
+	acctountService "github.com/namelessup/bilibili/app/service/main/account/api"
+	filterService "github.com/namelessup/bilibili/app/service/main/filter/api/grpc/v1"
+	locationService "github.com/namelessup/bilibili/app/service/main/location/api"
+	spyService "github.com/namelessup/bilibili/app/service/main/spy/api"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 
 	"google.golang.org/grpc"
 )

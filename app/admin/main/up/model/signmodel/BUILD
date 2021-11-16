@@ -11,7 +11,7 @@ go_library(
         "requestargs.go",
         "sign_up.go",
     ],
-    importpath = "go-common/app/admin/main/up/model/signmodel",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/up/model/signmodel",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

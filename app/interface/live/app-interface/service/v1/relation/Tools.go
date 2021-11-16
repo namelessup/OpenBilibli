@@ -3,7 +3,7 @@ package relation
 import (
 	"context"
 	"encoding/json"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/library/net/metadata"
 	"sort"
 	"strconv"
 )

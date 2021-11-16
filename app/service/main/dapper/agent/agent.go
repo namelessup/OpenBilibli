@@ -8,12 +8,12 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	"go-common/app/service/main/dapper/conf"
-	"go-common/app/service/main/dapper/pkg/deliver"
-	"go-common/app/service/main/dapper/pkg/diskqueue"
-	"go-common/app/service/main/dapper/server/udpcollect"
-	"go-common/library/log"
-	spanpb "go-common/library/net/trace/proto"
+	"github.com/namelessup/bilibili/app/service/main/dapper/conf"
+	"github.com/namelessup/bilibili/app/service/main/dapper/pkg/deliver"
+	"github.com/namelessup/bilibili/app/service/main/dapper/pkg/diskqueue"
+	"github.com/namelessup/bilibili/app/service/main/dapper/server/udpcollect"
+	"github.com/namelessup/bilibili/library/log"
+	spanpb "github.com/namelessup/bilibili/library/net/trace/proto"
 )
 
 // Agent dapper collect agent

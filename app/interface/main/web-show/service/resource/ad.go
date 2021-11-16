@@ -4,11 +4,11 @@ import (
 	"context"
 	"math/rand"
 
-	"go-common/app/interface/main/web-show/dao/ad"
-	resmdl "go-common/app/interface/main/web-show/model/resource"
-	account "go-common/app/service/main/account/model"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/main/web-show/dao/ad"
+	resmdl "github.com/namelessup/bilibili/app/interface/main/web-show/model/resource"
+	account "github.com/namelessup/bilibili/app/service/main/account/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 var (

@@ -3,12 +3,12 @@ package dao
 import (
 	"context"
 
-	"go-common/app/admin/main/search/conf"
-	"go-common/library/database/sql"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/stat/prom"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/admin/main/search/conf"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/stat/prom"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 
 	"gopkg.in/olivere/elastic.v5"
 )

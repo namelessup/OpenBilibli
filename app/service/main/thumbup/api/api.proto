@@ -118,7 +118,7 @@ message UserLikeState {
     // mid
     int64 mid = 1;
     // 点赞时间
-    int64 time = 2[(gogoproto.casttype) = "go-common/library/time.Time"];
+    int64 time = 2[(gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
     State state = 3;
 }
 
@@ -139,7 +139,7 @@ message ItemRecord {
     // 对象id
     int64 message_id = 1 [(gogoproto.customname) = "MessageID"];
     // 点赞时间
-    int64 time = 2[(gogoproto.casttype) = "go-common/library/time.Time"];
+    int64 time = 2[(gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
 }
 
 
@@ -152,7 +152,7 @@ message UserRecord {
     // mid
     int64 mid = 1;
     // 点赞时间
-    int64 time = 2[(gogoproto.casttype) = "go-common/library/time.Time"];
+    int64 time = 2[(gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
 }
 
 message ItemLikesReq {

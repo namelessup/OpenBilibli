@@ -6,15 +6,15 @@ import (
 	"strconv"
 	"strings"
 
-	"go-common/app/interface/main/reply/conf"
-	"go-common/app/interface/main/reply/model/adminlog"
-	model "go-common/app/interface/main/reply/model/reply"
-	xmodel "go-common/app/interface/main/reply/model/xreply"
-	"go-common/app/interface/main/reply/service"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/interface/main/reply/conf"
+	"github.com/namelessup/bilibili/app/interface/main/reply/model/adminlog"
+	model "github.com/namelessup/bilibili/app/interface/main/reply/model/reply"
+	xmodel "github.com/namelessup/bilibili/app/interface/main/reply/model/xreply"
+	"github.com/namelessup/bilibili/app/interface/main/reply/service"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 // regexp utf8 char 0x0e0d~0e4A

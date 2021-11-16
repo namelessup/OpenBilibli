@@ -6,7 +6,7 @@ import (
 
 	"flag"
 	. "github.com/smartystreets/goconvey/convey"
-	"go-common/app/service/live/recommend/internal/conf"
+	"github.com/namelessup/bilibili/app/service/live/recommend/internal/conf"
 )
 
 func init() {

@@ -16,7 +16,7 @@ go_library(
         "region.go",
         "show.go",
     ],
-    importpath = "go-common/app/interface/main/app-show/http",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-show/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -7,8 +7,8 @@ import (
 	"reflect"
 	"time"
 
-	"go-common/app/job/main/videoup/model/archive"
-	"go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/job/main/videoup/model/archive"
+	"github.com/namelessup/bilibili/library/database/sql"
 	"testing"
 
 	"github.com/bouk/monkey"

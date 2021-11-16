@@ -14,7 +14,7 @@ go_library(
         "service.go",
         "workflow.go",
     ],
-    importpath = "go-common/app/job/main/workflow/service",
+    importpath = "github.com/namelessup/bilibili/app/job/main/workflow/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -5,13 +5,13 @@ import (
 	"net/url"
 	"strconv"
 
-	article "go-common/app/interface/openplatform/article/rpc/client"
-	"go-common/app/job/main/creative/conf"
-	"go-common/app/job/main/creative/model"
-	archive "go-common/app/service/main/archive/api/gorpc"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	httpx "go-common/library/net/http/blademaster"
+	article "github.com/namelessup/bilibili/app/interface/openplatform/article/rpc/client"
+	"github.com/namelessup/bilibili/app/job/main/creative/conf"
+	"github.com/namelessup/bilibili/app/job/main/creative/model"
+	archive "github.com/namelessup/bilibili/app/service/main/archive/api/gorpc"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	httpx "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // Dao is archive dao.

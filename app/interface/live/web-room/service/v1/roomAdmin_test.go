@@ -4,9 +4,9 @@ import (
 	"context"
 	"flag"
 	"fmt"
-	"go-common/app/interface/live/web-room/api/http/v1"
-	"go-common/app/interface/live/web-room/conf"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/live/web-room/api/http/v1"
+	"github.com/namelessup/bilibili/app/interface/live/web-room/conf"
+	"github.com/namelessup/bilibili/library/net/metadata"
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"

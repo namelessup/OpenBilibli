@@ -2,13 +2,13 @@ package whitelist
 
 import (
 	"flag"
-	"go-common/app/interface/main/creative/conf"
-	accmdl "go-common/app/interface/main/creative/model/account"
+	"github.com/namelessup/bilibili/app/interface/main/creative/conf"
+	accmdl "github.com/namelessup/bilibili/app/interface/main/creative/model/account"
 	"path/filepath"
 	"testing"
 	"time"
 
-	"go-common/app/interface/main/creative/service"
+	"github.com/namelessup/bilibili/app/interface/main/creative/service"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

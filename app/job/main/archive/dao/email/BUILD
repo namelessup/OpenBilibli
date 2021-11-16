@@ -29,7 +29,7 @@ go_library(
         "dao.go",
         "email.go",
     ],
-    importpath = "go-common/app/job/main/archive/dao/email",
+    importpath = "github.com/namelessup/bilibili/app/job/main/archive/dao/email",
     tags = ["automanaged"],
     deps = [
         "//app/job/main/archive/conf:go_default_library",

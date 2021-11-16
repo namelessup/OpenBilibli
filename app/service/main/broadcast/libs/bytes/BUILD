@@ -20,7 +20,7 @@ go_library(
         "buffer.go",
         "writer.go",
     ],
-    importpath = "go-common/app/service/main/broadcast/libs/bytes",
+    importpath = "github.com/namelessup/bilibili/app/service/main/broadcast/libs/bytes",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

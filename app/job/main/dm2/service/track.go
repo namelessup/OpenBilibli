@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"time"
 
-	"go-common/app/job/main/dm2/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/dm2/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) trackSubject(c context.Context, m *model.BinlogMsg) (err error) {

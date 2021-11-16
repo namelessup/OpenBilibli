@@ -1,8 +1,8 @@
 package service
 
 import (
-	"go-common/app/admin/main/manager/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/manager/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) authItems(typ int) (items []*model.AuthItem, err error) {

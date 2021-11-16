@@ -3,9 +3,9 @@ package block
 import (
 	"time"
 
-	model "go-common/app/service/main/member/model/block"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
+	model "github.com/namelessup/bilibili/app/service/main/member/model/block"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func info(c *bm.Context) {

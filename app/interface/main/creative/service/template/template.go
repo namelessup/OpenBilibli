@@ -2,12 +2,12 @@ package template
 
 import (
 	"context"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/library/ecode"
 	"time"
 
-	"go-common/app/interface/main/creative/model/template"
-	"go-common/library/log"
-	timex "go-common/library/time"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/template"
+	"github.com/namelessup/bilibili/library/log"
+	timex "github.com/namelessup/bilibili/library/time"
 )
 
 // Templates get templates for archive.

@@ -3,8 +3,8 @@ package card
 import (
 	"context"
 
-	"go-common/app/interface/main/account/conf"
-	v1 "go-common/app/service/main/card/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/interface/main/account/conf"
+	v1 "github.com/namelessup/bilibili/app/service/main/card/api/grpc/v1"
 )
 
 // Service .

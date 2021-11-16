@@ -3,8 +3,8 @@ package account
 import (
 	"context"
 
-	"go-common/app/service/live/xuser/conf"
-	account "go-common/app/service/main/account/rpc/client"
+	"github.com/namelessup/bilibili/app/service/live/xuser/conf"
+	account "github.com/namelessup/bilibili/app/service/main/account/rpc/client"
 )
 
 // Dao dao

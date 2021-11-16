@@ -15,11 +15,11 @@ import (
 	"strings"
 	xtime "time"
 
-	"go-common/app/job/main/vip/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/time"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/job/main/vip/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/time"
+	"github.com/namelessup/bilibili/library/xstr"
 
 	"github.com/google/uuid"
 	"github.com/pkg/errors"

@@ -29,7 +29,7 @@ go_library(
         "service.go",
         "video.go",
     ],
-    importpath = "go-common/app/job/main/archive/service",
+    importpath = "github.com/namelessup/bilibili/app/job/main/archive/service",
     tags = ["automanaged"],
     deps = [
         "//app/interface/main/dm2/model:go_default_library",

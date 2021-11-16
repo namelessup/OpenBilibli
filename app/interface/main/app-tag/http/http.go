@@ -1,12 +1,12 @@
 package http
 
 import (
-	"go-common/app/interface/main/app-tag/conf"
-	pingSvr "go-common/app/interface/main/app-tag/service/ping"
-	"go-common/app/interface/main/app-tag/service/tag"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/auth"
+	"github.com/namelessup/bilibili/app/interface/main/app-tag/conf"
+	pingSvr "github.com/namelessup/bilibili/app/interface/main/app-tag/service/ping"
+	"github.com/namelessup/bilibili/app/interface/main/app-tag/service/tag"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/auth"
 )
 
 var (

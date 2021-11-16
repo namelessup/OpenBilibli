@@ -6,12 +6,12 @@ import (
 	"io"
 	"time"
 
-	"go-common/app/infra/canal/conf"
-	"go-common/app/infra/canal/model"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/infra/canal/conf"
+	"github.com/namelessup/bilibili/app/infra/canal/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
 
-	hbase "go-common/library/database/hbase.v2"
+	hbase "github.com/namelessup/bilibili/library/database/hbase.v2"
 
 	"github.com/pkg/errors"
 	"github.com/tsuna/gohbase/hrpc"

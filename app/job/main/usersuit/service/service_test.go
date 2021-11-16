@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"go-common/app/job/main/usersuit/conf"
+	"github.com/namelessup/bilibili/app/job/main/usersuit/conf"
 )
 
 var (

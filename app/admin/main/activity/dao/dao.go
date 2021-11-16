@@ -3,9 +3,9 @@ package dao
 import (
 	"context"
 
-	"go-common/app/admin/main/activity/conf"
-	"go-common/library/database/orm"
-	xhttp "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/activity/conf"
+	"github.com/namelessup/bilibili/library/database/orm"
+	xhttp "github.com/namelessup/bilibili/library/net/http/blademaster"
 
 	"github.com/jinzhu/gorm"
 )

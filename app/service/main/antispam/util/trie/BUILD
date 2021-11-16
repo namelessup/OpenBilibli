@@ -21,7 +21,7 @@ go_library(
         "rune_trie.go",
         "trie.go",
     ],
-    importpath = "go-common/app/service/main/antispam/util/trie",
+    importpath = "github.com/namelessup/bilibili/app/service/main/antispam/util/trie",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/app/interface/openplatform/article/model"
+	"github.com/namelessup/bilibili/app/interface/openplatform/article/model"
 )
 
 func listArtsKey(id int64) string {

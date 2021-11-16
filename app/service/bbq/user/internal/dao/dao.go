@@ -2,17 +2,17 @@ package dao
 
 import (
 	"context"
-	"go-common/app/service/bbq/user/api"
-	"go-common/library/log"
-	"go-common/library/sync/pipeline/fanout"
+	"github.com/namelessup/bilibili/app/service/bbq/user/api"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/pipeline/fanout"
 
-	notice "go-common/app/service/bbq/notice-service/api/v1"
-	"go-common/app/service/bbq/user/internal/conf"
-	acc "go-common/app/service/main/account/api"
-	filter "go-common/app/service/main/filter/api/grpc/v1"
-	"go-common/library/cache/redis"
-	xsql "go-common/library/database/sql"
-	"go-common/library/net/rpc/warden"
+	notice "github.com/namelessup/bilibili/app/service/bbq/notice-service/api/v1"
+	"github.com/namelessup/bilibili/app/service/bbq/user/internal/conf"
+	acc "github.com/namelessup/bilibili/app/service/main/account/api"
+	filter "github.com/namelessup/bilibili/app/service/main/filter/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 )
 
 // Dao dao
@@ -26,7 +26,7 @@ type Dao struct {
 	filterClient  filter.FilterClient
 }
 
-//go:generate $GOPATH/src/go-common/app/tool/cache/gen
+//go:generate $GOPATH/src/github.com/namelessup/bilibili/app/tool/cache/gen
 type _cache interface {
 	// cache: -batch=10 -max_group=10 -batch_err=break -nullcache=&api.UserBase{Mid:-1} -check_null_code=$==nil||$.Mid==-1
 	UserBase(c context.Context, mid []int64) (map[int64]*api.UserBase, error)

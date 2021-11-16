@@ -9,12 +9,12 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/library/ecode"
-	epb "go-common/library/ecode/pb"
-	"go-common/library/log"
-	"go-common/library/net/rpc/warden"
-	pb "go-common/library/net/rpc/warden/proto/testproto"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/library/ecode"
+	epb "github.com/namelessup/bilibili/library/ecode/pb"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
+	pb "github.com/namelessup/bilibili/library/net/rpc/warden/proto/testproto"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	"github.com/golang/protobuf/ptypes"
 	"google.golang.org/grpc"

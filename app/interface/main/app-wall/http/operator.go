@@ -3,7 +3,7 @@ package http
 import (
 	"time"
 
-	bm "go-common/library/net/http/blademaster"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func reddot(c *bm.Context) {

@@ -18,7 +18,7 @@ go_library(
         "upload_filter.toml",
         "video-c.toml",
     ],
-    importpath = "go-common/app/interface/bbq/app-bbq/cmd",
+    importpath = "github.com/namelessup/bilibili/app/interface/bbq/app-bbq/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

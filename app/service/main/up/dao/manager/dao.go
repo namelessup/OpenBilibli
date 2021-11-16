@@ -7,14 +7,14 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/service/main/up/conf"
-	"go-common/app/service/main/up/dao/global"
-	"go-common/library/cache/memcache"
-	"go-common/library/database/sql"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/sync/pipeline/fanout"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/service/main/up/conf"
+	"github.com/namelessup/bilibili/app/service/main/up/dao/global"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/sync/pipeline/fanout"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 const (

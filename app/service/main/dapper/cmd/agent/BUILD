@@ -19,7 +19,7 @@ go_library(
         "dapper-agent.toml",
         "dapper-agent-example.toml",
     ],
-    importpath = "go-common/app/service/main/dapper/cmd/agent",
+    importpath = "github.com/namelessup/bilibili/app/service/main/dapper/cmd/agent",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	"go-common/app/interface/main/player/conf"
+	"github.com/namelessup/bilibili/app/interface/main/player/conf"
 )
 
 // test func Player

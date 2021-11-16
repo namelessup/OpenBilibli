@@ -12,7 +12,7 @@ go_library(
         "data.go",
         "validate.go",
     ],
-    importpath = "go-common/app/interface/live/web-room/service/v1/dm",
+    importpath = "github.com/namelessup/bilibili/app/interface/live/web-room/service/v1/dm",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

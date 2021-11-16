@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/app/service/main/up/model"
+	"github.com/namelessup/bilibili/app/service/main/up/model"
 )
 
 const (
@@ -13,7 +13,7 @@ const (
 	_upInfoActive = "up_info_active_%d"
 )
 
-//go:generate $GOPATH/src/go-common/app/tool/cache/gen
+//go:generate $GOPATH/src/github.com/namelessup/bilibili/app/tool/cache/gen
 type _cache interface {
 	//cache: -nullcache=&model.Up{ID:-1} -check_null_code=$!=nil&&$.ID==-1
 	Up(c context.Context, mid int64) (up *model.Up, err error)
@@ -25,7 +25,7 @@ type _cache interface {
 	UpsInfoActive(c context.Context, mids []int64) (res map[int64]*model.UpInfoActiveReply, err error)
 }
 
-//go:generate $GOPATH/src/go-common/app/tool/cache/mc
+//go:generate $GOPATH/src/github.com/namelessup/bilibili/app/tool/cache/mc
 type _mc interface {
 	//mc: -key=upCacheKey -expire=d.upExpire -encode=json
 	AddCacheUp(c context.Context, mid int64, up *model.Up) (err error)

@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["redis.go"],
-    importpath = "go-common/app/service/bbq/recsys/dao/parallel",
+    importpath = "github.com/namelessup/bilibili/app/service/bbq/recsys/dao/parallel",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

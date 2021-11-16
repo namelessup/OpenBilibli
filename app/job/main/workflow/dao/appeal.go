@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/job/main/workflow/model"
+	"github.com/namelessup/bilibili/app/job/main/workflow/model"
 
 	"github.com/jinzhu/gorm"
 )

@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["model.go"],
-    importpath = "go-common/app/interface/main/creative/model/weeklyhonor",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/creative/model/weeklyhonor",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"go-common/app/admin/ep/melloi/model"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/admin/ep/melloi/model"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 // QueryServiceTreeToken get tree token by user sessionID

@@ -7,13 +7,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/rate"
-	"go-common/library/rate/limit"
-	"go-common/library/rate/limit/bench/stress/conf"
-	"go-common/library/rate/limit/bench/stress/service"
-	"go-common/library/rate/vegas"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/rate"
+	"github.com/namelessup/bilibili/library/rate/limit"
+	"github.com/namelessup/bilibili/library/rate/limit/bench/stress/conf"
+	"github.com/namelessup/bilibili/library/rate/limit/bench/stress/service"
+	"github.com/namelessup/bilibili/library/rate/vegas"
 )
 
 var (
@@ -111,7 +111,7 @@ func aqmTest(c *bm.Context) {
 	atomic.AddInt64(&req, 1)
 	for i := 0; i < 3000+rand.Intn(3000); i++ {
 		crc32.Checksum([]byte(`testasdwfwfsddsfgwddcscsc
-			http://git.bilibili.co/platform/go-common/merge_requests/new?merge_request%5Bsource_branch%5D=stress%2Fcodel`), crc32.IEEETable)
+			http://git.bilibili.co/platform/github.com/namelessup/bilibili/merge_requests/new?merge_request%5Bsource_branch%5D=stress%2Fcodel`), crc32.IEEETable)
 	}
 }
 

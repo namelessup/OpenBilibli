@@ -29,7 +29,7 @@ go_library(
         "mysql.go",
         "redis.go",
     ],
-    importpath = "go-common/app/service/main/archive/dao/videoshot",
+    importpath = "github.com/namelessup/bilibili/app/service/main/archive/dao/videoshot",
     tags = ["automanaged"],
     deps = [
         "//app/service/main/archive/conf:go_default_library",

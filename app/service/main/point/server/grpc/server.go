@@ -4,10 +4,10 @@ package server
 import (
 	"context"
 
-	pb "go-common/app/service/main/point/api"
-	"go-common/app/service/main/point/model"
-	service "go-common/app/service/main/point/service"
-	"go-common/library/net/rpc/warden"
+	pb "github.com/namelessup/bilibili/app/service/main/point/api"
+	"github.com/namelessup/bilibili/app/service/main/point/model"
+	service "github.com/namelessup/bilibili/app/service/main/point/service"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 )
 
 // New Point warden rpc server

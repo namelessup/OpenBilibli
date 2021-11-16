@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"go-common/app/interface/main/history/model"
-	rpcClient "go-common/app/interface/main/history/rpc/client"
+	"github.com/namelessup/bilibili/app/interface/main/history/model"
+	rpcClient "github.com/namelessup/bilibili/app/interface/main/history/rpc/client"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

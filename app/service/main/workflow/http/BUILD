@@ -16,7 +16,7 @@ go_library(
         "sobot.go",
         "tag.go",
     ],
-    importpath = "go-common/app/service/main/workflow/http",
+    importpath = "github.com/namelessup/bilibili/app/service/main/workflow/http",
     tags = ["automanaged"],
     deps = [
         "//app/service/main/workflow/conf:go_default_library",

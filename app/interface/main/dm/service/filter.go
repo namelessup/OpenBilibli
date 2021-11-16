@@ -7,9 +7,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go-common/app/interface/main/dm/model"
-	dm2Mdl "go-common/app/interface/main/dm2/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/dm/model"
+	dm2Mdl "github.com/namelessup/bilibili/app/interface/main/dm2/model"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/zhenjl/cityhash"
 )

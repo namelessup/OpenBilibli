@@ -5,10 +5,10 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/interface/main/app-show/model"
-	"go-common/app/interface/main/app-show/model/banner"
-	resource "go-common/app/service/main/resource/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/model/banner"
+	resource "github.com/namelessup/bilibili/app/service/main/resource/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 var (

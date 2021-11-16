@@ -1,12 +1,12 @@
 package http
 
 import (
-	"go-common/app/service/main/identify-game/api/grpc/v1"
-	"go-common/app/service/main/identify-game/model"
-	"go-common/app/service/main/identify-game/service"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/service/main/identify-game/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/main/identify-game/model"
+	"github.com/namelessup/bilibili/app/service/main/identify-game/service"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func oauth(c *bm.Context) {

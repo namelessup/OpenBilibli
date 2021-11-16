@@ -3,15 +3,15 @@ package http
 import (
 	"strconv"
 
-	"go-common/app/interface/main/creative/model/academy"
-	"go-common/app/interface/main/creative/model/archive"
-	whmdl "go-common/app/interface/main/creative/model/weeklyhonor"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/metadata"
-	"go-common/library/sync/errgroup"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/academy"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/archive"
+	whmdl "github.com/namelessup/bilibili/app/interface/main/creative/model/weeklyhonor"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 func appH5ArcTags(c *bm.Context) {

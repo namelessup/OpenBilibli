@@ -18,7 +18,7 @@ go_library(
         "tree.go",
         "wechat.go",
     ],
-    importpath = "go-common/app/admin/ep/merlin/model",
+    importpath = "github.com/namelessup/bilibili/app/admin/ep/merlin/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

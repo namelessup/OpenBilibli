@@ -7,11 +7,11 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/interface/main/app-tag/conf"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	httpx "go-common/library/net/http/blademaster"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/interface/main/app-tag/conf"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	httpx "github.com/namelessup/bilibili/library/net/http/blademaster"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 const (

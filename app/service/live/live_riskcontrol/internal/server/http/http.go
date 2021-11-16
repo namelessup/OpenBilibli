@@ -3,11 +3,11 @@ package http
 import (
 	"net/http"
 
-	"go-common/app/service/live/live_riskcontrol/internal/conf"
-	"go-common/app/service/live/live_riskcontrol/internal/service"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/verify"
+	"github.com/namelessup/bilibili/app/service/live/live_riskcontrol/internal/conf"
+	"github.com/namelessup/bilibili/app/service/live/live_riskcontrol/internal/service"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/verify"
 )
 
 var (

@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"strings"
 
-	"go-common/app/job/main/passport-user-compare/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/passport-user-compare/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // full compare data and fix data

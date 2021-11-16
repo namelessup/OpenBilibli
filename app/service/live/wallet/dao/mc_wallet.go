@@ -3,10 +3,10 @@ package dao
 import (
 	"context"
 	"fmt"
-	"go-common/app/service/live/wallet/model"
-	mc "go-common/library/cache/memcache"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/live/wallet/model"
+	mc "github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

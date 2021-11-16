@@ -20,12 +20,12 @@ import (
 
 	xhttp "net/http"
 
-	"go-common/library/conf/env"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
-	"go-common/library/net/netutil/breaker"
-	"go-common/library/stat"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/library/conf/env"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/net/netutil/breaker"
+	"github.com/namelessup/bilibili/library/stat"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	"github.com/gogo/protobuf/proto"
 	pkgerr "github.com/pkg/errors"

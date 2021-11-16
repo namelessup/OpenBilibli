@@ -3,7 +3,7 @@ package service
 import (
 	"context"
 
-	"go-common/app/job/main/growup/model"
+	"github.com/namelessup/bilibili/app/job/main/growup/model"
 )
 
 // AvIncomes av_income

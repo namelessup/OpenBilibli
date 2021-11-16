@@ -29,7 +29,7 @@ go_library(
         "dao.go",
         "redis.go",
     ],
-    importpath = "go-common/app/admin/main/videoup/dao/databus",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/videoup/dao/databus",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

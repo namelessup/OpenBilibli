@@ -15,9 +15,9 @@ import (
 	"strings"
 	"time"
 
-	"go-common/library/ecode"
-	xhttp "go-common/library/net/http/blademaster"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/library/ecode"
+	xhttp "github.com/namelessup/bilibili/library/net/http/blademaster"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 const (

@@ -2,7 +2,7 @@ package dao
 
 import (
 	"flag"
-	"go-common/app/interface/video/portal/conf"
+	"github.com/namelessup/bilibili/app/interface/video/portal/conf"
 	"os"
 	"testing"
 )

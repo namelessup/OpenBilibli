@@ -7,13 +7,13 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/app/interface/openplatform/article/conf"
-	"go-common/app/interface/openplatform/article/http"
-	artrpc "go-common/app/interface/openplatform/article/rpc/server"
-	"go-common/app/interface/openplatform/article/service"
-	ecode "go-common/library/ecode/tip"
-	"go-common/library/log"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/app/interface/openplatform/article/conf"
+	"github.com/namelessup/bilibili/app/interface/openplatform/article/http"
+	artrpc "github.com/namelessup/bilibili/app/interface/openplatform/article/rpc/server"
+	"github.com/namelessup/bilibili/app/interface/openplatform/article/service"
+	ecode "github.com/namelessup/bilibili/library/ecode/tip"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
 )
 
 func main() {

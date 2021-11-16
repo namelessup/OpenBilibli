@@ -23,7 +23,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["wrr.go"],
-    importpath = "go-common/library/net/rpc/warden/balancer/wrr",
+    importpath = "github.com/namelessup/bilibili/library/net/rpc/warden/balancer/wrr",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

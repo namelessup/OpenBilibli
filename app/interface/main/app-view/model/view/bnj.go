@@ -1,9 +1,9 @@
 package view
 
 import (
-	"go-common/app/interface/main/app-view/model/elec"
-	"go-common/app/service/main/archive/model/archive"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/interface/main/app-view/model/elec"
+	"github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // BnjMain is

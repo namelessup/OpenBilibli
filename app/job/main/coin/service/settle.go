@@ -6,11 +6,11 @@ import (
 	"sync"
 	"time"
 
-	"go-common/app/job/main/coin/dao"
-	"go-common/app/job/main/coin/model"
-	"go-common/app/service/main/archive/api"
-	comarcmdl "go-common/app/service/main/archive/model/archive"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/coin/dao"
+	"github.com/namelessup/bilibili/app/job/main/coin/model"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	comarcmdl "github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 var lockRedo sync.Mutex

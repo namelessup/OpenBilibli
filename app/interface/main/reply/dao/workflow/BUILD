@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["workflow.go"],
-    importpath = "go-common/app/interface/main/reply/dao/workflow",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/reply/dao/workflow",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

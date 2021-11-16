@@ -5,8 +5,8 @@ import (
 	"context"
 	"strconv"
 
-	"go-common/app/job/main/growup/model"
-	"go-common/app/job/main/growup/model/income"
+	"github.com/namelessup/bilibili/app/job/main/growup/model"
+	"github.com/namelessup/bilibili/app/job/main/growup/model/income"
 )
 
 func (s *Service) getAllUps(c context.Context, limit int64) (m map[int64]*model.UpInfoVideo, err error) {

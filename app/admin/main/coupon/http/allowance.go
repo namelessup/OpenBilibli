@@ -5,12 +5,12 @@ import (
 	"io"
 	"mime/multipart"
 
-	"go-common/app/admin/main/coupon/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/binding"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/admin/main/coupon/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/binding"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 // batchadd add.

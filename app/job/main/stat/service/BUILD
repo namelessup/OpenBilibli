@@ -25,7 +25,7 @@ go_library(
         "service.go",
         "stat.go",
     ],
-    importpath = "go-common/app/job/main/stat/service",
+    importpath = "github.com/namelessup/bilibili/app/job/main/stat/service",
     tags = ["automanaged"],
     deps = [
         "//app/job/main/stat/conf:go_default_library",

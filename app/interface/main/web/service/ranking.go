@@ -5,9 +5,9 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/interface/main/web/model"
-	arcmdl "go-common/app/service/main/archive/api"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/web/model"
+	arcmdl "github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

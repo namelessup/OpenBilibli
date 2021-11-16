@@ -3,8 +3,8 @@ package wechat
 import (
 	"context"
 
-	"go-common/app/interface/main/web-goblin/model/wechat"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/web-goblin/model/wechat"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Qrcode get qrcode from wechat.

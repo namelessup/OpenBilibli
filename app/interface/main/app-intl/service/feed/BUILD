@@ -17,7 +17,7 @@ go_library(
         "rank.go",
         "service.go",
     ],
-    importpath = "go-common/app/interface/main/app-intl/service/feed",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-intl/service/feed",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

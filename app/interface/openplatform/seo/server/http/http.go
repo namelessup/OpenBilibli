@@ -6,11 +6,11 @@ import (
 	"net/http"
 	"strings"
 
-	"go-common/app/interface/openplatform/seo/conf"
-	"go-common/app/interface/openplatform/seo/service"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/verify"
+	"github.com/namelessup/bilibili/app/interface/openplatform/seo/conf"
+	"github.com/namelessup/bilibili/app/interface/openplatform/seo/service"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/verify"
 )
 
 var (

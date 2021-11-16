@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["dao.go"],
-    importpath = "go-common/app/admin/main/passport/dao",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/passport/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

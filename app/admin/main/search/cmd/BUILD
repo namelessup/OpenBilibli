@@ -24,7 +24,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["search-admin-test.toml"],
-    importpath = "go-common/app/admin/main/search/cmd",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/search/cmd",
     tags = ["automanaged"],
     deps = [
         "//app/admin/main/search/conf:go_default_library",

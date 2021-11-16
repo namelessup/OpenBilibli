@@ -3,7 +3,7 @@ package dao
 import (
 	"context"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // UpdateUserTag 更新举报对象的第一个用户tag

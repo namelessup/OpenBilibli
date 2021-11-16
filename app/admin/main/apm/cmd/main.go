@@ -5,14 +5,14 @@ import (
 	"os"
 	"time"
 
-	"go-common/app/admin/main/apm/conf"
-	"go-common/app/admin/main/apm/http"
-	"go-common/app/admin/main/apm/service"
-	ecode "go-common/library/ecode/tip"
-	"go-common/library/log"
-	"go-common/library/os/signal"
-	"go-common/library/queue/databus/report"
-	"go-common/library/syscall"
+	"github.com/namelessup/bilibili/app/admin/main/apm/conf"
+	"github.com/namelessup/bilibili/app/admin/main/apm/http"
+	"github.com/namelessup/bilibili/app/admin/main/apm/service"
+	ecode "github.com/namelessup/bilibili/library/ecode/tip"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/os/signal"
+	"github.com/namelessup/bilibili/library/queue/databus/report"
+	"github.com/namelessup/bilibili/library/syscall"
 )
 
 var (

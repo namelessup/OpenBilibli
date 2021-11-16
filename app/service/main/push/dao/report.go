@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/service/main/push/dao/mi"
-	"go-common/app/service/main/push/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/push/dao/mi"
+	"github.com/namelessup/bilibili/app/service/main/push/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // DelMiInvalid .

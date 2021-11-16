@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["string.go"],
-    importpath = "go-common/app/tool/gengo/cmd/deepcopy-gen/sets",
+    importpath = "github.com/namelessup/bilibili/app/tool/gengo/cmd/deepcopy-gen/sets",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

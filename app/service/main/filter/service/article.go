@@ -4,10 +4,10 @@ import (
 	"context"
 	"sync"
 
-	"go-common/app/service/main/filter/conf"
-	"go-common/app/service/main/filter/model"
-	"go-common/app/service/main/filter/model/actriearea"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/filter/conf"
+	"github.com/namelessup/bilibili/app/service/main/filter/model"
+	"github.com/namelessup/bilibili/app/service/main/filter/model/actriearea"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Article .

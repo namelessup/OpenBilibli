@@ -28,7 +28,7 @@ go_library(
         "ecode.go",
         "http.go",
     ],
-    importpath = "go-common/app/service/main/msm/http",
+    importpath = "github.com/namelessup/bilibili/app/service/main/msm/http",
     tags = ["automanaged"],
     deps = [
         "//app/service/main/msm/conf:go_default_library",

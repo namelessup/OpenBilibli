@@ -43,7 +43,7 @@ go_library(
         "subtitle.go",
         "web.go",
     ],
-    importpath = "go-common/app/interface/main/videoup/service",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/videoup/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

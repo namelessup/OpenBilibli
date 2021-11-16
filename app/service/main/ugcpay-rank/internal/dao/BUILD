@@ -16,7 +16,7 @@ go_library(
         "mc.extra.go",
         "mysql.go",
     ],
-    importpath = "go-common/app/service/main/ugcpay-rank/internal/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/main/ugcpay-rank/internal/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

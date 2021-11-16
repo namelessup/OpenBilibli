@@ -1,8 +1,8 @@
 package notice
 
 import (
-	"go-common/app/job/main/reply/conf"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/job/main/reply/conf"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // Dao activity dao.

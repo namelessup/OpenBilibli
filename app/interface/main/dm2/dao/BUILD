@@ -77,7 +77,7 @@ go_library(
         "user_log.go",
         "workflow.go",
     ],
-    importpath = "go-common/app/interface/main/dm2/dao",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/dm2/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -2,15 +2,15 @@ package dao
 
 import (
 	"context"
-	"go-common/app/admin/main/member/model"
+	"github.com/namelessup/bilibili/app/admin/main/member/model"
 	"net/url"
 	"strconv"
 	"sync"
 
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 const (

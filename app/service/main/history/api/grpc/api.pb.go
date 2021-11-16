@@ -31,7 +31,7 @@ import proto "github.com/gogo/protobuf/proto"
 import fmt "fmt"
 import math "math"
 import _ "github.com/gogo/protobuf/gogoproto"
-import history "go-common/app/service/main/history/model"
+import history "github.com/namelessup/bilibili/app/service/main/history/model"
 
 import context "golang.org/x/net/context"
 import grpc "google.golang.org/grpc"

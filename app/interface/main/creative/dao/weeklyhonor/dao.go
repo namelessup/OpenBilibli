@@ -4,12 +4,12 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/interface/main/creative/conf"
-	up "go-common/app/service/main/up/api/v1"
-	"go-common/library/cache/memcache"
-	"go-common/library/database/hbase.v2"
-	"go-common/library/database/sql"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/creative/conf"
+	up "github.com/namelessup/bilibili/app/service/main/up/api/v1"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/database/hbase.v2"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Dao is data dao.

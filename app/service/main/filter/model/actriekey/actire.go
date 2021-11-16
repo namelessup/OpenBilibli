@@ -5,7 +5,7 @@ import (
 	"context"
 	"strings"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 type trieNode struct {

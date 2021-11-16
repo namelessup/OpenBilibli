@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"io/ioutil"
 
-	"go-common/app/interface/main/videoup/model/archive"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/interface/main/videoup/model/archive"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func webV2Add(c *bm.Context) {

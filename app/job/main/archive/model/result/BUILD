@@ -11,7 +11,7 @@ go_library(
         "archive.go",
         "video.go",
     ],
-    importpath = "go-common/app/job/main/archive/model/result",
+    importpath = "github.com/namelessup/bilibili/app/job/main/archive/model/result",
     tags = ["automanaged"],
 )
 

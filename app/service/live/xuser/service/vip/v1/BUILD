@@ -16,7 +16,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["vip.go"],
-    importpath = "go-common/app/service/live/xuser/service/vip/v1",
+    importpath = "github.com/namelessup/bilibili/app/service/live/xuser/service/vip/v1",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

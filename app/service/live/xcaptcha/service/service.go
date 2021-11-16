@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"go-common/app/service/live/xcaptcha/conf"
-	"go-common/app/service/live/xcaptcha/dao"
+	"github.com/namelessup/bilibili/app/service/live/xcaptcha/conf"
+	"github.com/namelessup/bilibili/app/service/live/xcaptcha/dao"
 )
 
 // Service struct

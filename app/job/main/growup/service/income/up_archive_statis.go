@@ -5,9 +5,9 @@ import (
 	"strconv"
 	"strings"
 
-	model "go-common/app/job/main/growup/model/income"
+	model "github.com/namelessup/bilibili/app/job/main/growup/model/income"
 
-	xtime "go-common/library/time"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 func (s *UpIncomeSvr) handleUpArchStatis(c context.Context, upArchStatisCh chan map[int64]*model.UpArchStatis, archiveCh chan []*model.ArchiveIncome) (err error) {

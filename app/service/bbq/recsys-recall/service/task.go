@@ -4,11 +4,11 @@ import (
 	"context"
 	"encoding/binary"
 
-	"go-common/app/service/bbq/recsys-recall/api/grpc/v1"
-	"go-common/app/service/bbq/recsys-recall/dao"
-	"go-common/app/service/bbq/recsys-recall/model"
-	"go-common/app/service/bbq/recsys-recall/service/index"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/bbq/recsys-recall/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/bbq/recsys-recall/dao"
+	"github.com/namelessup/bilibili/app/service/bbq/recsys-recall/model"
+	"github.com/namelessup/bilibili/app/service/bbq/recsys-recall/service/index"
+	"github.com/namelessup/bilibili/library/log"
 
 	jsoniter "github.com/json-iterator/go"
 )

@@ -22,7 +22,7 @@ filegroup(
 go_library(
     name = "go_default_library",
     srcs = ["xints.go"],
-    importpath = "go-common/app/service/main/relation/model/i64b",
+    importpath = "github.com/namelessup/bilibili/app/service/main/relation/model/i64b",
     tags = ["automanaged"],
 )
 

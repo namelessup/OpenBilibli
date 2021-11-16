@@ -1,8 +1,8 @@
 package archive
 
 import (
-	"go-common/app/admin/main/videoup/model/message"
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/app/admin/main/videoup/model/message"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 const (

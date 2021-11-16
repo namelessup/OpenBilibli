@@ -2,7 +2,7 @@ package service
 
 import (
 	"fmt"
-	"go-common/app/service/main/thumbup/model"
+	"github.com/namelessup/bilibili/app/service/main/thumbup/model"
 	"testing"
 
 	. "github.com/smartystreets/goconvey/convey"

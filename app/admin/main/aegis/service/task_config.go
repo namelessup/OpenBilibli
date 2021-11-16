@@ -4,9 +4,9 @@ import (
 	"context"
 	"encoding/json"
 
-	"go-common/app/admin/main/aegis/model"
-	"go-common/app/admin/main/aegis/model/task"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model/task"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 // QueryConfigs .

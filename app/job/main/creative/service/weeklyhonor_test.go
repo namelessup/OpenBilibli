@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	wkhmdl "go-common/app/interface/main/creative/model/weeklyhonor"
-	upgrpc "go-common/app/service/main/up/api/v1"
-	xtime "go-common/library/time"
+	wkhmdl "github.com/namelessup/bilibili/app/interface/main/creative/model/weeklyhonor"
+	upgrpc "github.com/namelessup/bilibili/app/service/main/up/api/v1"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	"github.com/smartystreets/goconvey/convey"
 )

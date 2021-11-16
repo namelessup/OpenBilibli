@@ -4,18 +4,18 @@ import (
 	"errors"
 	"flag"
 
-	"go-common/library/conf"
-	ecode "go-common/library/ecode/tip"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/verify"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/library/conf"
+	ecode "github.com/namelessup/bilibili/library/ecode/tip"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/verify"
+	"github.com/namelessup/bilibili/library/net/trace"
 
 	"github.com/BurntSushi/toml"
-	"go-common/library/database/orm"
-	"go-common/library/net/rpc"
-	"go-common/library/net/rpc/warden"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/library/database/orm"
+	"github.com/namelessup/bilibili/library/net/rpc"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
+	"github.com/namelessup/bilibili/library/queue/databus"
 	"path"
 )
 

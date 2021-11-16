@@ -26,7 +26,7 @@ go_library(
         "dao.go",
         "monitor.go",
     ],
-    importpath = "go-common/app/job/main/app/dao/monitor",
+    importpath = "github.com/namelessup/bilibili/app/job/main/app/dao/monitor",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

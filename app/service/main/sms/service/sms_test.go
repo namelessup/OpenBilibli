@@ -7,9 +7,9 @@ import (
 	"strings"
 	"testing"
 
-	pb "go-common/app/service/main/sms/api"
-	"go-common/app/service/main/sms/conf"
-	"go-common/library/log"
+	pb "github.com/namelessup/bilibili/app/service/main/sms/api"
+	"github.com/namelessup/bilibili/app/service/main/sms/conf"
+	"github.com/namelessup/bilibili/library/log"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

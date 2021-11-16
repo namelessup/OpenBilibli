@@ -8,8 +8,8 @@ import (
 
 	"github.com/satori/go.uuid"
 
-	"go-common/app/admin/main/usersuit/model"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/admin/main/usersuit/model"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

@@ -34,7 +34,7 @@ go_library(
         "memcache.go",
         "tag.go",
     ],
-    importpath = "go-common/app/service/main/dynamic/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/main/dynamic/dao",
     tags = ["automanaged"],
     deps = [
         "//app/service/main/dynamic/conf:go_default_library",

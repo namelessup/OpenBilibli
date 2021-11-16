@@ -1,6 +1,6 @@
 package model
 
-import "go-common/app/interface/main/dm2/model/oplog"
+import "github.com/namelessup/bilibili/app/interface/main/dm2/model/oplog"
 
 // ArgOids arguments passed by rpc client
 type ArgOids struct {

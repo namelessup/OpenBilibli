@@ -2,7 +2,7 @@ package search
 
 import (
 	"flag"
-	"go-common/app/admin/main/feed/conf"
+	"github.com/namelessup/bilibili/app/admin/main/feed/conf"
 	"os"
 	"testing"
 )

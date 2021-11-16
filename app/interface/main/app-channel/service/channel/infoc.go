@@ -5,9 +5,9 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/interface/main/app-channel/model/feed"
-	"go-common/library/log"
-	"go-common/library/log/infoc"
+	"github.com/namelessup/bilibili/app/interface/main/app-channel/model/feed"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/log/infoc"
 )
 
 type feedInfoc struct {

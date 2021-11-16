@@ -20,7 +20,7 @@ go_library(
         "up_charge.go",
         "up_info_video.go",
     ],
-    importpath = "go-common/app/job/main/growup/model/income",
+    importpath = "github.com/namelessup/bilibili/app/job/main/growup/model/income",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/time:go_default_library"],

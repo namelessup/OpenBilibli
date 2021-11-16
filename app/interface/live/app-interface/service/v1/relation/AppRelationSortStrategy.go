@@ -2,8 +2,8 @@ package relation
 
 import (
 	"context"
-	v1pb "go-common/app/interface/live/app-interface/api/http/v1"
-	"go-common/library/log"
+	v1pb "github.com/namelessup/bilibili/app/interface/live/app-interface/api/http/v1"
+	"github.com/namelessup/bilibili/library/log"
 	"sort"
 )
 

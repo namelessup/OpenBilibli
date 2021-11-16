@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["common.go"],
-    importpath = "go-common/app/service/video/stream-mng/common",
+    importpath = "github.com/namelessup/bilibili/app/service/video/stream-mng/common",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

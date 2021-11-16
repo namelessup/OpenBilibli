@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 
-	favmdl "go-common/app/service/main/favorite/model"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	favmdl "github.com/namelessup/bilibili/app/service/main/favorite/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 // favoriteds return aids is favs.

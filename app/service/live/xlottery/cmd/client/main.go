@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/app/service/live/xlottery/api/grpc/v1"
-	"go-common/library/net/rpc/warden"
+	"github.com/namelessup/bilibili/app/service/live/xlottery/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 )
 
 //测试grpc

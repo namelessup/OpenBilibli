@@ -3,10 +3,10 @@ package service
 import (
 	"context"
 
-	"go-common/app/job/main/coin/dao"
-	coinmdl "go-common/app/service/main/coin/model"
-	memmdl "go-common/app/service/main/member/api"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/coin/dao"
+	coinmdl "github.com/namelessup/bilibili/app/service/main/coin/model"
+	memmdl "github.com/namelessup/bilibili/app/service/main/member/api"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) addExp(c context.Context, mid int64, count float64, reason, ip string) (err error) {

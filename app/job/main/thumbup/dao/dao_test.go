@@ -2,7 +2,7 @@ package dao
 
 import (
 	"flag"
-	"go-common/app/job/main/thumbup/conf"
+	"github.com/namelessup/bilibili/app/job/main/thumbup/conf"
 	"os"
 	"testing"
 )

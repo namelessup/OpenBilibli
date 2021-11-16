@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/admin/ep/saga/conf"
+	"github.com/namelessup/bilibili/app/admin/ep/saga/conf"
 )
 
 // CalAverageTime 计算时间的平均/*分位 时间

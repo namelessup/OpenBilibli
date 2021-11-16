@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["monitor.toml"],
-    importpath = "go-common/app/interface/openplatform/monitor-end/cmd",
+    importpath = "github.com/namelessup/bilibili/app/interface/openplatform/monitor-end/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

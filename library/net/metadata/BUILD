@@ -25,7 +25,7 @@ go_library(
         "key.go",
         "metadata.go",
     ],
-    importpath = "go-common/library/net/metadata",
+    importpath = "github.com/namelessup/bilibili/library/net/metadata",
     tags = ["automanaged"],
 )
 

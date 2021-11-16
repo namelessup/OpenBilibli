@@ -11,7 +11,7 @@ go_library(
         "doc.go",
         "http.go",
     ],
-    importpath = "go-common/app/interface/main/kvo/http",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/kvo/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

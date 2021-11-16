@@ -30,7 +30,7 @@ go_library(
         "dao.go",
         "es.go",
     ],
-    importpath = "go-common/app/service/main/workflow/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/main/workflow/dao",
     tags = ["automanaged"],
     deps = [
         "//app/service/main/workflow/conf:go_default_library",

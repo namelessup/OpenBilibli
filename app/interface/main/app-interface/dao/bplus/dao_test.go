@@ -3,11 +3,11 @@ package bplus
 import (
 	"context"
 	"flag"
-	"go-common/app/interface/main/app-interface/conf"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/conf"
 	"os"
 	"strings"
 	"testing"
-	// "go-common/app/interface/main/app-interface/model/search"
+	// "github.com/namelessup/bilibili/app/interface/main/app-interface/model/search"
 
 	"gopkg.in/h2non/gock.v1"
 )

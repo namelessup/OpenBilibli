@@ -3,7 +3,7 @@ package show
 import (
 	"testing"
 
-	"go-common/app/admin/main/feed/model/show"
+	"github.com/namelessup/bilibili/app/admin/main/feed/model/show"
 
 	"github.com/smartystreets/goconvey/convey"
 )

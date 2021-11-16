@@ -1,12 +1,12 @@
 package server
 
 import (
-	"go-common/app/service/main/archive/api"
-	"go-common/app/service/main/dynamic/conf"
-	"go-common/app/service/main/dynamic/model"
-	"go-common/app/service/main/dynamic/service"
-	"go-common/library/net/rpc"
-	"go-common/library/net/rpc/context"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/app/service/main/dynamic/conf"
+	"github.com/namelessup/bilibili/app/service/main/dynamic/model"
+	"github.com/namelessup/bilibili/app/service/main/dynamic/service"
+	"github.com/namelessup/bilibili/library/net/rpc"
+	"github.com/namelessup/bilibili/library/net/rpc/context"
 )
 
 // RPC struct info.

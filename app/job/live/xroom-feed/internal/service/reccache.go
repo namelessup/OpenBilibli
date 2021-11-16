@@ -4,9 +4,9 @@ import (
 	"context"
 	"math"
 
-	daoAnchorV1 "go-common/app/service/live/dao-anchor/api/grpc/v1"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
+	daoAnchorV1 "github.com/namelessup/bilibili/app/service/live/dao-anchor/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 const (

@@ -7,9 +7,9 @@ import (
 	"sort"
 	"time"
 
-	"go-common/app/admin/main/answer/model"
-	"go-common/library/log"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/admin/main/answer/model"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // Page search page info

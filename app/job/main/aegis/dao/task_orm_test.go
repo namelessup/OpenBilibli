@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/job/main/aegis/model"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/job/main/aegis/model"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 
 	"github.com/smartystreets/goconvey/convey"
 )

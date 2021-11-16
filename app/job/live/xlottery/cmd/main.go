@@ -7,12 +7,12 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/app/job/live/xlottery/internal/conf"
-	"go-common/app/job/live/xlottery/internal/server/http"
-	"go-common/app/job/live/xlottery/internal/service"
-	ecode "go-common/library/ecode/tip"
-	"go-common/library/log"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/app/job/live/xlottery/internal/conf"
+	"github.com/namelessup/bilibili/app/job/live/xlottery/internal/server/http"
+	"github.com/namelessup/bilibili/app/job/live/xlottery/internal/service"
+	ecode "github.com/namelessup/bilibili/library/ecode/tip"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
 )
 
 func main() {

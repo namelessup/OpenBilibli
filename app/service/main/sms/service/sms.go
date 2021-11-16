@@ -7,11 +7,11 @@ import (
 	"strconv"
 	"strings"
 
-	pb "go-common/app/service/main/sms/api"
-	"go-common/app/service/main/sms/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/xstr"
+	pb "github.com/namelessup/bilibili/app/service/main/sms/api"
+	"github.com/namelessup/bilibili/app/service/main/sms/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 const mobilePattern = "^((13[0-9])|(14[1,4,5,6,7,8])|(15[^4])|(16[5-7])|(17[0-8])|(18[0-9])|(19[1,8,9]))\\d{8}$"

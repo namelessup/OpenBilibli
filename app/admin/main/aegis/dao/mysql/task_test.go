@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/admin/main/aegis/model/common"
-	modtask "go-common/app/admin/main/aegis/model/task"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model/common"
+	modtask "github.com/namelessup/bilibili/app/admin/main/aegis/model/task"
 
 	"github.com/smartystreets/goconvey/convey"
 )

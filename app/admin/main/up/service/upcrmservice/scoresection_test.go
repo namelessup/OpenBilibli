@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/admin/main/up/model/upcrmmodel"
+	"github.com/namelessup/bilibili/app/admin/main/up/model/upcrmmodel"
 
 	"github.com/smartystreets/goconvey/convey"
 )

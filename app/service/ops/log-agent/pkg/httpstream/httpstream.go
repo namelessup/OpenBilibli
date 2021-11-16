@@ -7,7 +7,7 @@ import (
 	"bytes"
 	"strconv"
 	"context"
-	"go-common/app/service/ops/log-agent/event"
+	"github.com/namelessup/bilibili/app/service/ops/log-agent/event"
 )
 
 type HttpStream struct {

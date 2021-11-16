@@ -3,17 +3,17 @@ package conf
 import (
 	"flag"
 
-	"go-common/library/cache/memcache"
-	"go-common/library/conf"
-	"go-common/library/database/hbase.v2"
-	"go-common/library/database/sql"
-	"go-common/library/log"
-	"go-common/library/log/infoc"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/rpc"
-	"go-common/library/net/rpc/warden"
-	"go-common/library/net/trace"
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/conf"
+	"github.com/namelessup/bilibili/library/database/hbase.v2"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/log/infoc"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/rpc"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
+	"github.com/namelessup/bilibili/library/net/trace"
+	"github.com/namelessup/bilibili/library/time"
 
 	"github.com/BurntSushi/toml"
 )

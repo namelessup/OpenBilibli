@@ -5,15 +5,15 @@ import (
 	"fmt"
 	"time"
 
-	"go-common/app/interface/main/app-show/model"
-	seasongrpc "go-common/app/service/openplatform/pgc-season/api/grpc/season/v1"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/model"
+	seasongrpc "github.com/namelessup/bilibili/app/service/openplatform/pgc-season/api/grpc/season/v1"
 
-	"go-common/app/interface/main/app-show/model/region"
-	"go-common/app/service/main/archive/api"
-	"go-common/app/service/main/archive/model/archive"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/model/region"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 const (

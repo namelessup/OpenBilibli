@@ -1,10 +1,10 @@
 package grpc
 
 import (
-	pb "go-common/app/service/bbq/comment/api"
-	"go-common/app/service/bbq/comment/internal/service"
-	"go-common/library/conf/paladin"
-	"go-common/library/net/rpc/warden"
+	pb "github.com/namelessup/bilibili/app/service/bbq/comment/api"
+	"github.com/namelessup/bilibili/app/service/bbq/comment/internal/service"
+	"github.com/namelessup/bilibili/library/conf/paladin"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 )
 
 // New new a grpc server.

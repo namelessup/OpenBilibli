@@ -12,7 +12,7 @@ go_library(
         "const.go",
         "shorturl.go",
     ],
-    importpath = "go-common/app/interface/main/shorturl/model",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/shorturl/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/time:go_default_library"],

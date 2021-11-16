@@ -29,9 +29,9 @@ func bazelAction(c *cli.Context) error {
 		return err
 	}
 
-	index := strings.Index(pwd, "go-common")
+	index := strings.Index(pwd, "github.com/namelessup/bilibili")
 	if index == -1 {
-		fmt.Println("not in go-common")
+		fmt.Println("not in github.com/namelessup/bilibili")
 		os.Exit(1)
 	}
 	result := strings.Split(pwd[index:], "/")

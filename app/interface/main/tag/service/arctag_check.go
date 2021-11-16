@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	"go-common/app/interface/main/tag/model"
-	rpcModel "go-common/app/service/main/tag/model"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/interface/main/tag/model"
+	rpcModel "github.com/namelessup/bilibili/app/service/main/tag/model"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 func (s *Service) checkTypeRole(umid, amid int64) (int8, int8, int8) {

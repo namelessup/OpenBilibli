@@ -4,7 +4,7 @@ import (
 	// "fmt"
 	"sync"
 	// "syscall"
-	// "go-common/log"
+	// "github.com/namelessup/bilibili/log"
 )
 
 var (

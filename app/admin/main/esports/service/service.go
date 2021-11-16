@@ -3,11 +3,11 @@ package service
 import (
 	"context"
 
-	"go-common/app/admin/main/esports/conf"
-	"go-common/app/admin/main/esports/dao"
-	accclient "go-common/app/service/main/account/api"
-	accwarden "go-common/app/service/main/account/api"
-	arcclient "go-common/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/app/admin/main/esports/conf"
+	"github.com/namelessup/bilibili/app/admin/main/esports/dao"
+	accclient "github.com/namelessup/bilibili/app/service/main/account/api"
+	accwarden "github.com/namelessup/bilibili/app/service/main/account/api"
+	arcclient "github.com/namelessup/bilibili/app/service/main/archive/api"
 )
 
 // Service biz service def.

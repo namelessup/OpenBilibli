@@ -3,10 +3,10 @@ package roomAdmin
 import (
 	"context"
 	"fmt"
-	"go-common/app/service/live/xuser/model"
-	"go-common/library/cache/memcache"
-	"go-common/library/log"
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/app/service/live/xuser/model"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/stat/prom"
 )
 
 // AddCacheNoneUser write an flag in cache represents empty

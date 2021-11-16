@@ -5,8 +5,8 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/job/main/workflow/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/workflow/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

@@ -1,6 +1,6 @@
 package faq
 
-import "go-common/library/time"
+import "github.com/namelessup/bilibili/library/time"
 
 // PhoneFaqName const
 const (

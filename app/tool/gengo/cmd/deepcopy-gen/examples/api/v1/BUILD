@@ -24,7 +24,7 @@ go_library(
         "doc.go",
     ],
     embed = [":v1_go_proto"],
-    importpath = "go-common/app/tool/gengo/cmd/deepcopy-gen/examples/api/v1",
+    importpath = "github.com/namelessup/bilibili/app/tool/gengo/cmd/deepcopy-gen/examples/api/v1",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [
@@ -52,7 +52,7 @@ filegroup(
 go_proto_library(
     name = "v1_go_proto",
     compilers = ["@io_bazel_rules_go//proto:gogofast_proto"],
-    importpath = "go-common/app/tool/gengo/cmd/deepcopy-gen/examples/api/v1",
+    importpath = "github.com/namelessup/bilibili/app/tool/gengo/cmd/deepcopy-gen/examples/api/v1",
     proto = ":v1_proto",
     tags = ["automanaged"],
     deps = [

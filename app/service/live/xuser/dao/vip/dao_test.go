@@ -4,7 +4,7 @@ import (
 	"context"
 	"flag"
 	. "github.com/smartystreets/goconvey/convey"
-	"go-common/app/service/live/xuser/conf"
+	"github.com/namelessup/bilibili/app/service/live/xuser/conf"
 	"math/rand"
 	"path/filepath"
 	"testing"

@@ -39,7 +39,7 @@ go_library(
         "sync_season.go",
         "zone_index.go",
     ],
-    importpath = "go-common/app/job/main/tv/service/pgc",
+    importpath = "github.com/namelessup/bilibili/app/job/main/tv/service/pgc",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

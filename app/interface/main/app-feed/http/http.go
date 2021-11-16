@@ -1,15 +1,15 @@
 package http
 
 import (
-	"go-common/app/interface/main/app-feed/conf"
-	"go-common/app/interface/main/app-feed/service/external"
-	"go-common/app/interface/main/app-feed/service/feed"
-	pingsvc "go-common/app/interface/main/app-feed/service/ping"
-	"go-common/app/interface/main/app-feed/service/region"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/auth"
-	"go-common/library/net/http/blademaster/middleware/verify"
+	"github.com/namelessup/bilibili/app/interface/main/app-feed/conf"
+	"github.com/namelessup/bilibili/app/interface/main/app-feed/service/external"
+	"github.com/namelessup/bilibili/app/interface/main/app-feed/service/feed"
+	pingsvc "github.com/namelessup/bilibili/app/interface/main/app-feed/service/ping"
+	"github.com/namelessup/bilibili/app/interface/main/app-feed/service/region"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/auth"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/verify"
 )
 
 var (

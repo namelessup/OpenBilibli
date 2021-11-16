@@ -5,11 +5,11 @@ import (
 
 	"fmt"
 	"github.com/jinzhu/gorm"
-	"go-common/app/common/openplatform/random"
-	"go-common/app/service/openplatform/ticket-item/model"
-	"go-common/library/database/elastic"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/common/openplatform/random"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-item/model"
+	"github.com/namelessup/bilibili/library/database/elastic"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // AddVersion 添加新版本

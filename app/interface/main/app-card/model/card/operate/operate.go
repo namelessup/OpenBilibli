@@ -2,11 +2,11 @@ package operate
 
 import (
 	"encoding/json"
-	"go-common/app/interface/main/app-card/model"
-	"go-common/app/interface/main/app-card/model/card/banner"
-	"go-common/app/interface/main/app-card/model/card/cm"
-	"go-common/app/interface/main/app-card/model/card/rank"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/app-card/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-card/model/card/banner"
+	"github.com/namelessup/bilibili/app/interface/main/app-card/model/card/cm"
+	"github.com/namelessup/bilibili/app/interface/main/app-card/model/card/rank"
+	"github.com/namelessup/bilibili/library/log"
 	"sort"
 	"strconv"
 )

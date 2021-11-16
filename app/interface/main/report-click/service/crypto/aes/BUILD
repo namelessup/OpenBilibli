@@ -21,7 +21,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["aes.go"],
-    importpath = "go-common/app/interface/main/report-click/service/crypto/aes",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/report-click/service/crypto/aes",
     tags = ["automanaged"],
     deps = [
         "//app/interface/main/report-click/service/crypto/cipher:go_default_library",

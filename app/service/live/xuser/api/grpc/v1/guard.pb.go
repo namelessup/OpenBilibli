@@ -6,7 +6,7 @@ package v1
 import proto "github.com/gogo/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import grpc1 "go-common/app/service/live/xuser/api/grpc"
+import grpc1 "github.com/namelessup/bilibili/app/service/live/xuser/api/grpc"
 import _ "github.com/gogo/protobuf/gogoproto"
 
 import (

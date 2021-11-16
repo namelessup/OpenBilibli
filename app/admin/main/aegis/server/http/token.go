@@ -4,10 +4,10 @@ import (
 	"strconv"
 	"strings"
 
-	"go-common/app/admin/main/aegis/model/common"
-	"go-common/app/admin/main/aegis/model/net"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model/common"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model/net"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func listToken(c *bm.Context) {

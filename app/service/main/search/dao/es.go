@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"strings"
 
-	"go-common/app/service/main/search/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/search/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 
 	elastic "gopkg.in/olivere/elastic.v5"
 )

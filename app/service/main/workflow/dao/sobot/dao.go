@@ -1,8 +1,8 @@
 package sobot
 
 import (
-	"go-common/app/service/main/workflow/conf"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/service/main/workflow/conf"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // Dao it

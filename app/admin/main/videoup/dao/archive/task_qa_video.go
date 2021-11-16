@@ -12,7 +12,7 @@ import (
 	"strings"
 	"time"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 //SendQAVideoAdd http request to add qa video task

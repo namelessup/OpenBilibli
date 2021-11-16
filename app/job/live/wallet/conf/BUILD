@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["conf.go"],
-    importpath = "go-common/app/job/live/wallet/conf",
+    importpath = "github.com/namelessup/bilibili/app/job/live/wallet/conf",
     tags = ["automanaged"],
     deps = [
         "//library/cache/memcache:go_default_library",

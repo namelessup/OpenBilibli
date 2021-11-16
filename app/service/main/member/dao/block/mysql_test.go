@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	model "go-common/app/service/main/member/model/block"
+	model "github.com/namelessup/bilibili/app/service/main/member/model/block"
 
 	"github.com/smartystreets/goconvey/convey"
 )

@@ -5,8 +5,8 @@ import (
 	"database/sql"
 	"fmt"
 
-	xsql "go-common/library/database/sql"
-	"go-common/library/log"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

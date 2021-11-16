@@ -22,7 +22,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["server.go"],
-    importpath = "go-common/app/service/main/dapper/pkg/collect/tcpcollect",
+    importpath = "github.com/namelessup/bilibili/app/service/main/dapper/pkg/collect/tcpcollect",
     tags = ["manual"],
     visibility = ["//visibility:public"],
     deps = [

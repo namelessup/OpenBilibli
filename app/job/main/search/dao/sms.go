@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const _smsURL = "http://ops-mng.bilibili.co/api/sendsms"

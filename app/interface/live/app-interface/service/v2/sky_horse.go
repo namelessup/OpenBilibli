@@ -5,9 +5,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	v2pb "go-common/app/interface/live/app-interface/api/http/v2"
-	"go-common/app/interface/live/app-interface/dao"
-	"go-common/library/ecode"
+	v2pb "github.com/namelessup/bilibili/app/interface/live/app-interface/api/http/v2"
+	"github.com/namelessup/bilibili/app/interface/live/app-interface/dao"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 const (

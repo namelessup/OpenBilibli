@@ -27,7 +27,7 @@ go_library(
         "mysql.go",
         "rpc.go",
     ],
-    importpath = "go-common/app/admin/main/block/dao",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/block/dao",
     tags = ["automanaged"],
     deps = [
         "//app/admin/main/block/conf:go_default_library",

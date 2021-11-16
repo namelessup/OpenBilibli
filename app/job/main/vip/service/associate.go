@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/job/main/vip/model"
-	v1 "go-common/app/service/main/vip/api"
-	vipmol "go-common/app/service/main/vip/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/vip/model"
+	v1 "github.com/namelessup/bilibili/app/service/main/vip/api"
+	vipmol "github.com/namelessup/bilibili/app/service/main/vip/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) eleEompensateJob() {

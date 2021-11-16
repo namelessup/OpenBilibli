@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"go-common/app/job/main/tv/conf"
+	"github.com/namelessup/bilibili/app/job/main/tv/conf"
 
 	"gopkg.in/h2non/gock.v1"
 )

@@ -11,7 +11,7 @@ go_library(
         "http.go",
         "thumbup.go",
     ],
-    importpath = "go-common/app/service/main/thumbup/server/http",
+    importpath = "github.com/namelessup/bilibili/app/service/main/thumbup/server/http",
     tags = ["automanaged"],
     deps = [
         "//app/service/main/thumbup/conf:go_default_library",

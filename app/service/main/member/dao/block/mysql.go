@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	model "go-common/app/service/main/member/model/block"
-	xsql "go-common/library/database/sql"
-	"go-common/library/xstr"
+	model "github.com/namelessup/bilibili/app/service/main/member/model/block"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/xstr"
 
 	"github.com/pkg/errors"
 )

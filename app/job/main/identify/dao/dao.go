@@ -1,9 +1,9 @@
 package dao
 
 import (
-	"go-common/app/job/main/identify/conf"
-	"go-common/library/cache/memcache"
-	xsql "go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/job/main/identify/conf"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
 )
 
 // Dao dao

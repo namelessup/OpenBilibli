@@ -1,8 +1,8 @@
 package archive
 
 import (
-	"go-common/app/service/main/archive/api"
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 // 各属性地址见 http://syncsvn.bilibili.co/platform/doc/blob/master/archive/field/state.md

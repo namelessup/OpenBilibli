@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["shorturl-test.toml"],
-    importpath = "go-common/app/interface/main/shorturl/cmd",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/shorturl/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

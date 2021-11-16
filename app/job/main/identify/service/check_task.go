@@ -5,10 +5,10 @@ import (
 	"sync"
 	"time"
 
-	"go-common/app/job/main/identify/model"
-	"go-common/library/cache/memcache"
-	"go-common/library/log"
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/app/job/main/identify/model"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/stat/prom"
 )
 
 func (s *Service) queryCookieDeleted() {

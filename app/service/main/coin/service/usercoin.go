@@ -4,10 +4,10 @@ import (
 	"context"
 	"regexp"
 
-	pb "go-common/app/service/main/coin/api"
-	"go-common/app/service/main/coin/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	pb "github.com/namelessup/bilibili/app/service/main/coin/api"
+	"github.com/namelessup/bilibili/app/service/main/coin/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // ModifyCoins modify user coins.

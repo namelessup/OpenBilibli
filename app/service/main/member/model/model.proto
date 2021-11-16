@@ -12,7 +12,7 @@ message BaseInfo {
     string face = 4 [(gogoproto.jsontag) = "face"];
     string sign = 5 [(gogoproto.jsontag) = "sign"];
     int64 rank = 6 [(gogoproto.jsontag) = "rank"];
-    int64 birthday = 7 [(gogoproto.jsontag) = "birthday", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int64 birthday = 7 [(gogoproto.jsontag) = "birthday", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
 }
 
 message LevelInfo {
@@ -33,5 +33,5 @@ message Moral {
     int64 moral = 2 [(gogoproto.jsontag) = "moral"];
     int64 added = 3 [(gogoproto.jsontag) = "added"];
     int64 deducted = 4 [(gogoproto.jsontag) = "deducted"];
-    int64 last_recover_date = 5 [(gogoproto.jsontag) = "last_recover_date", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int64 last_recover_date = 5 [(gogoproto.jsontag) = "last_recover_date", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
 }

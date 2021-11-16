@@ -7,11 +7,11 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/job/main/reply/model/reply"
-	model "go-common/app/job/main/reply/model/reply"
-	xsql "go-common/library/database/sql"
-	"go-common/library/log"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/job/main/reply/model/reply"
+	model "github.com/namelessup/bilibili/app/job/main/reply/model/reply"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 const (

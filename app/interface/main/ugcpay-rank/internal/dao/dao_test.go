@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"go-common/app/interface/main/ugcpay-rank/internal/conf"
+	"github.com/namelessup/bilibili/app/interface/main/ugcpay-rank/internal/conf"
 )
 
 var (

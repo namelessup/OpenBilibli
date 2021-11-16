@@ -7,14 +7,14 @@ import (
 	"net/url"
 	"time"
 
-	"go-common/app/job/main/history/conf"
-	"go-common/app/service/main/history/model"
-	"go-common/library/cache/redis"
-	"go-common/library/database/tidb"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/job/main/history/conf"
+	"github.com/namelessup/bilibili/app/service/main/history/model"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/database/tidb"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 
-	"go-common/library/database/hbase.v2"
+	"github.com/namelessup/bilibili/library/database/hbase.v2"
 )
 
 var errFlushRequest = errors.New("error flush history to store")

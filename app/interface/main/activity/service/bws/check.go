@@ -4,9 +4,9 @@ import (
 	"context"
 	"encoding/json"
 
-	bwsmdl "go-common/app/interface/main/activity/model/bws"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	bwsmdl "github.com/namelessup/bilibili/app/interface/main/activity/model/bws"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // RedisInfo .

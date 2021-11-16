@@ -8,15 +8,15 @@ import (
 	"testing"
 	"text/template"
 
-	"go-common/app/tool/gengo/args"
-	"go-common/app/tool/gengo/namer"
-	"go-common/app/tool/gengo/parser"
-	"go-common/app/tool/gengo/types"
+	"github.com/namelessup/bilibili/app/tool/gengo/args"
+	"github.com/namelessup/bilibili/app/tool/gengo/namer"
+	"github.com/namelessup/bilibili/app/tool/gengo/parser"
+	"github.com/namelessup/bilibili/app/tool/gengo/types"
 )
 
 func TestRecursive(t *testing.T) {
 	d := args.Default()
-	d.InputDirs = []string{"go-common/app/tool/gengo/testdata/a/..."}
+	d.InputDirs = []string{"github.com/namelessup/bilibili/app/tool/gengo/testdata/a/..."}
 	b, err := d.NewBuilder()
 	if err != nil {
 		t.Fatalf("Fail making builder: %v", err)
@@ -28,7 +28,7 @@ func TestRecursive(t *testing.T) {
 	foundB := false
 	for _, p := range b.FindPackages() {
 		t.Logf("Package: %v", p)
-		if p == "go-common/app/tool/gengo/testdata/a/b" {
+		if p == "github.com/namelessup/bilibili/app/tool/gengo/testdata/a/b" {
 			foundB = true
 		}
 	}

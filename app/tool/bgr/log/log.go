@@ -7,7 +7,7 @@ import (
 	"strings"
 	"sync"
 
-	"go-common/app/tool/bgr/log/color"
+	"github.com/namelessup/bilibili/app/tool/bgr/log/color"
 
 	"golang.org/x/crypto/ssh/terminal"
 )

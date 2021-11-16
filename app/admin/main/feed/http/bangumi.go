@@ -1,10 +1,10 @@
 package http
 
 import (
-	epgrpc "go-common/app/service/openplatform/pgc-season/api/grpc/episode/v1"
-	seasongrpc "go-common/app/service/openplatform/pgc-season/api/grpc/season/v1"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
+	epgrpc "github.com/namelessup/bilibili/app/service/openplatform/pgc-season/api/grpc/episode/v1"
+	seasongrpc "github.com/namelessup/bilibili/app/service/openplatform/pgc-season/api/grpc/season/v1"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 //getPgcSeason GetSeason get season from pgc with grpc

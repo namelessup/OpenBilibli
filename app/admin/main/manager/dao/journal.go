@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"strings"
 
-	"go-common/app/admin/main/manager/model"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/manager/model"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 const (

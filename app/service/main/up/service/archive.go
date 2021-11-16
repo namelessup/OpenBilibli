@@ -3,15 +3,15 @@ package service
 import (
 	"context"
 
-	arcgrpc "go-common/app/service/main/archive/api"
-	upgrpc "go-common/app/service/main/up/api/v1"
-	"go-common/app/service/main/up/dao/global"
-	"go-common/app/service/main/up/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/time"
+	arcgrpc "github.com/namelessup/bilibili/app/service/main/archive/api"
+	upgrpc "github.com/namelessup/bilibili/app/service/main/up/api/v1"
+	"github.com/namelessup/bilibili/app/service/main/up/dao/global"
+	"github.com/namelessup/bilibili/app/service/main/up/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/time"
 
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 // UpArcs upper passed.

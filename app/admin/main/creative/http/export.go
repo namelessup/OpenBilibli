@@ -5,8 +5,8 @@ import (
 	"encoding/csv"
 	"strconv"
 
-	"go-common/app/admin/main/creative/model/whitelist"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/creative/model/whitelist"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // FormatCSV  format csv data.

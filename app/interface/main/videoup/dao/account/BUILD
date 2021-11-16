@@ -37,7 +37,7 @@ go_library(
         "mc_limit.go",
         "rpc.go",
     ],
-    importpath = "go-common/app/interface/main/videoup/dao/account",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/videoup/dao/account",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

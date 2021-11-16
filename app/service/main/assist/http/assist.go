@@ -3,12 +3,12 @@ package http
 //assist 创作中心协管相关
 
 import (
-	"go-common/app/service/main/assist/model/assist"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/render"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/service/main/assist/model/assist"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/render"
+	"github.com/namelessup/bilibili/library/xstr"
 	"net/http"
 	"strconv"
 	"time"

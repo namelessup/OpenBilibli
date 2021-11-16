@@ -4,8 +4,8 @@ import (
 	"flag"
 	"testing"
 
-	"go-common/app/job/main/spy/conf"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/spy/conf"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func TestServiceReBuild(t *testing.T) {

@@ -21,7 +21,7 @@ go_library(
         "ugc.go",
         "video.go",
     ],
-    importpath = "go-common/app/service/main/videoup/http",
+    importpath = "github.com/namelessup/bilibili/app/service/main/videoup/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

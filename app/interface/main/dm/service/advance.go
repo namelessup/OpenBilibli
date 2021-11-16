@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	dm2Mdl "go-common/app/interface/main/dm2/model"
-	"go-common/library/log"
+	dm2Mdl "github.com/namelessup/bilibili/app/interface/main/dm2/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // BuyAdvance 购买高级弹幕

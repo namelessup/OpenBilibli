@@ -5,7 +5,7 @@ import (
 	"flag"
 	"path/filepath"
 
-	"go-common/app/interface/main/tv/conf"
+	"github.com/namelessup/bilibili/app/interface/main/tv/conf"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

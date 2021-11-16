@@ -12,7 +12,7 @@ go_library(
         "server.go",
         "tag.go",
     ],
-    importpath = "go-common/app/service/main/tag/server/grpc",
+    importpath = "github.com/namelessup/bilibili/app/service/main/tag/server/grpc",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

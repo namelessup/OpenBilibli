@@ -7,10 +7,10 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/interface/main/app-view/conf"
-	"go-common/app/service/main/archive/model/archive"
-	"go-common/library/net/rpc"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/interface/main/app-view/conf"
+	"github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/library/net/rpc"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	"github.com/smartystreets/goconvey/convey"
 )

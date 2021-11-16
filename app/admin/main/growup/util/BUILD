@@ -12,7 +12,7 @@ go_library(
         "time.go",
         "tools.go",
     ],
-    importpath = "go-common/app/admin/main/growup/util",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/growup/util",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

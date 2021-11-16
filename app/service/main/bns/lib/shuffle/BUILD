@@ -17,7 +17,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["shuffle.go"],
-    importpath = "go-common/app/service/main/bns/lib/shuffle",
+    importpath = "github.com/namelessup/bilibili/app/service/main/bns/lib/shuffle",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

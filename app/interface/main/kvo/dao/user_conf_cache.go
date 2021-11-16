@@ -5,10 +5,10 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"go-common/app/interface/main/kvo/model"
+	"github.com/namelessup/bilibili/app/interface/main/kvo/model"
 
-	mc "go-common/library/cache/memcache"
-	"go-common/library/log"
+	mc "github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

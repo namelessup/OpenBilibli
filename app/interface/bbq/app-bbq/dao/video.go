@@ -2,10 +2,10 @@ package dao
 
 import (
 	"context"
-	"go-common/app/service/bbq/common"
-	video "go-common/app/service/bbq/video/api/grpc/v1"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/bbq/common"
+	video "github.com/namelessup/bilibili/app/service/bbq/video/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // BatchVideoInfo .

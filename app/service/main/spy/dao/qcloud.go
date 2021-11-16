@@ -12,8 +12,8 @@ import (
 	"sort"
 	"time"
 
-	"go-common/app/service/main/spy/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/spy/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (d *Dao) hmacsha1(key, text string) (h string) {

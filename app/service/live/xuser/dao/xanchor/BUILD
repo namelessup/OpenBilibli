@@ -11,7 +11,7 @@ go_library(
         "anchorUpdate.go",
         "dao.go",
     ],
-    importpath = "go-common/app/service/live/xuser/dao/xanchor",
+    importpath = "github.com/namelessup/bilibili/app/service/live/xuser/dao/xanchor",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

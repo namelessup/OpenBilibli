@@ -2,7 +2,7 @@ package notice
 
 import (
 	"context"
-	"go-common/app/service/live/xuserex/conf"
+	"github.com/namelessup/bilibili/app/service/live/xuserex/conf"
 	"testing"
 	"time"
 

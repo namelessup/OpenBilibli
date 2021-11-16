@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/job/main/dm2/model"
-	"go-common/app/service/main/archive/api"
-	archiveMdl "go-common/app/service/main/archive/model/archive"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/dm2/model"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	archiveMdl "github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 var (

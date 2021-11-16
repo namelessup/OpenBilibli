@@ -5,9 +5,9 @@ import (
 	xsql "database/sql"
 	"fmt"
 
-	"go-common/app/service/main/vip/model"
-	"go-common/library/database/sql"
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/app/service/main/vip/model"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/time"
 
 	"github.com/pkg/errors"
 )

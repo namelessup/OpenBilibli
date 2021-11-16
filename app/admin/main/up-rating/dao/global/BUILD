@@ -12,7 +12,7 @@ go_library(
         "account.go",
         "resource.go",
     ],
-    importpath = "go-common/app/admin/main/up-rating/dao/global",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/up-rating/dao/global",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

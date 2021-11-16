@@ -2,10 +2,10 @@ package http
 
 import (
 	"context"
-	"go-common/app/job/main/up/model"
-	"go-common/app/job/main/up/model/upcrmmodel"
-	"go-common/library/log"
-	"go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/job/main/up/model"
+	"github.com/namelessup/bilibili/app/job/main/up/model/upcrmmodel"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/http/blademaster"
 	"strings"
 	"time"
 )

@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"testing"
 
-	"go-common/app/interface/main/account/conf"
-	v1 "go-common/app/service/main/coupon/api"
-	"go-common/app/service/main/coupon/model"
+	"github.com/namelessup/bilibili/app/interface/main/account/conf"
+	v1 "github.com/namelessup/bilibili/app/service/main/coupon/api"
+	"github.com/namelessup/bilibili/app/service/main/coupon/model"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

@@ -4,9 +4,9 @@ import (
 	"context"
 	"text/template"
 
-	model "go-common/app/interface/main/reply/model/reply"
-	"go-common/library/log"
-	"go-common/library/xstr"
+	model "github.com/namelessup/bilibili/app/interface/main/reply/model/reply"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 var _emptyRecords = make([]*model.Record, 0)

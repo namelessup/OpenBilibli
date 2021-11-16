@@ -32,7 +32,7 @@ go_library(
         "users.go",
         "view.go",
     ],
-    importpath = "go-common/app/interface/openplatform/article/http",
+    importpath = "github.com/namelessup/bilibili/app/interface/openplatform/article/http",
     tags = ["automanaged"],
     deps = [
         "//app/interface/openplatform/article/conf:go_default_library",

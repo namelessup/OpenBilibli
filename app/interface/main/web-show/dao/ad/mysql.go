@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/interface/main/web-show/model/resource"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/web-show/model/resource"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

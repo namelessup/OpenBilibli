@@ -3,13 +3,13 @@ package feedback
 import (
 	"context"
 	"flag"
-	"go-common/app/interface/main/creative/conf"
+	"github.com/namelessup/bilibili/app/interface/main/creative/conf"
 	"path/filepath"
 	"testing"
 	"time"
 
 	. "github.com/smartystreets/goconvey/convey"
-	"go-common/app/interface/main/creative/service"
+	"github.com/namelessup/bilibili/app/interface/main/creative/service"
 )
 
 var (

@@ -5,10 +5,10 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/admin/main/vip/model"
-	vipmol "go-common/app/service/main/vip/model"
+	"github.com/namelessup/bilibili/app/admin/main/vip/model"
+	vipmol "github.com/namelessup/bilibili/app/service/main/vip/model"
 
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/library/ecode"
 
 	"github.com/google/uuid"
 	"github.com/pkg/errors"

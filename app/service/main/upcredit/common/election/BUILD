@@ -18,7 +18,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["election.go"],
-    importpath = "go-common/app/service/main/upcredit/common/election",
+    importpath = "github.com/namelessup/bilibili/app/service/main/upcredit/common/election",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

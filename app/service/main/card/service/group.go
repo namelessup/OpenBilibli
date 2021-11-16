@@ -5,8 +5,8 @@ import (
 	"sort"
 	"time"
 
-	"go-common/app/service/main/card/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/card/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // AllGroup all group.

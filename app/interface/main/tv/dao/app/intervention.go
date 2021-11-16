@@ -5,11 +5,11 @@ import (
 	"database/sql"
 	"fmt"
 
-	"go-common/app/interface/main/tv/model"
-	"go-common/app/interface/main/tv/model/search"
-	xsql "go-common/library/database/sql"
-	"go-common/library/log"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/interface/main/tv/model"
+	"github.com/namelessup/bilibili/app/interface/main/tv/model/search"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 const (

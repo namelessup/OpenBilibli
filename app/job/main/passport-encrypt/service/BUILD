@@ -14,7 +14,7 @@ go_library(
         "passport_util.go",
         "service.go",
     ],
-    importpath = "go-common/app/job/main/passport-encrypt/service",
+    importpath = "github.com/namelessup/bilibili/app/job/main/passport-encrypt/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

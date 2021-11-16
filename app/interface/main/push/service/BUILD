@@ -28,7 +28,7 @@ go_library(
         "service.go",
         "setting.go",
     ],
-    importpath = "go-common/app/interface/main/push/service",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/push/service",
     tags = ["automanaged"],
     deps = [
         "//app/interface/main/push/conf:go_default_library",

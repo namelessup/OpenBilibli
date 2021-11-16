@@ -6,13 +6,13 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/interface/main/videoup/conf"
-	accapi "go-common/app/service/main/account/api"
-	relation "go-common/app/service/main/relation/rpc/client"
-	"go-common/library/cache/memcache"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/interface/main/videoup/conf"
+	accapi "github.com/namelessup/bilibili/app/service/main/account/api"
+	relation "github.com/namelessup/bilibili/app/service/main/relation/rpc/client"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 const (

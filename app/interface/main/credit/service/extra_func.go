@@ -6,11 +6,11 @@ import (
 	"sync"
 	"time"
 
-	model "go-common/app/interface/main/credit/model"
-	acmdl "go-common/app/service/main/account/api"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
+	model "github.com/namelessup/bilibili/app/interface/main/credit/model"
+	acmdl "github.com/namelessup/bilibili/app/service/main/account/api"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 func (s *Service) caseVoteID(c context.Context, mid int64, pubCid int64) (cid int64, err error) {

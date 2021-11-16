@@ -6,14 +6,14 @@ import (
 	"os/signal"
 	"syscall"
 
-	"go-common/app/admin/main/config/conf"
-	"go-common/app/admin/main/config/http"
-	"go-common/app/admin/main/config/service"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/config/conf"
+	"github.com/namelessup/bilibili/app/admin/main/config/http"
+	"github.com/namelessup/bilibili/app/admin/main/config/service"
+	"github.com/namelessup/bilibili/library/log"
 
 	// register config lint
-	_ "go-common/app/admin/main/config/pkg/lint/json"
-	_ "go-common/app/admin/main/config/pkg/lint/toml"
+	_ "github.com/namelessup/bilibili/app/admin/main/config/pkg/lint/json"
+	_ "github.com/namelessup/bilibili/app/admin/main/config/pkg/lint/toml"
 )
 
 func main() {

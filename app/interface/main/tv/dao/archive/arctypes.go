@@ -3,10 +3,10 @@ package archive
 import (
 	"context"
 
-	"go-common/app/interface/main/tv/model"
-	arcwar "go-common/app/service/main/archive/api"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/tv/model"
+	arcwar "github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // call ArcRPC for types data

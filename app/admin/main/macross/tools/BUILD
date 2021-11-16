@@ -13,7 +13,7 @@ go_library(
         "unzip.go",
         "writer.go",
     ],
-    importpath = "go-common/app/admin/main/macross/tools",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/macross/tools",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/log:go_default_library"],

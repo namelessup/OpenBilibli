@@ -17,7 +17,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["up.go"],
-    importpath = "go-common/app/service/main/up/api/gorpc",
+    importpath = "github.com/namelessup/bilibili/app/service/main/up/api/gorpc",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

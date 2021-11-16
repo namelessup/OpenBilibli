@@ -3,7 +3,7 @@ package grpc
 import (
 	"context"
 
-	"go-common/app/service/main/member/api"
+	"github.com/namelessup/bilibili/app/service/main/member/api"
 )
 
 // BlockInfo 查询封禁信息

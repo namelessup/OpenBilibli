@@ -3,8 +3,8 @@ package mysql
 import (
 	"context"
 
-	"go-common/app/admin/main/aegis/conf"
-	xsql "go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/conf"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
 )
 
 // Dao dao

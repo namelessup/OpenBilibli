@@ -3,8 +3,8 @@ package view
 import (
 	"context"
 
-	"go-common/app/interface/main/tv/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/tv/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // ArcMsg returns the arc auth msg

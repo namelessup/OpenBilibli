@@ -4,8 +4,8 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"go-common/app/service/video/stream-mng/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/video/stream-mng/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // 这是一个过渡接口，用于搬运现有数据到新表中

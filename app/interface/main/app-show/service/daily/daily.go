@@ -6,15 +6,15 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/interface/main/app-show/conf"
-	arcdao "go-common/app/interface/main/app-show/dao/archive"
-	carddao "go-common/app/interface/main/app-show/dao/card"
-	tagdao "go-common/app/interface/main/app-show/dao/tag"
-	"go-common/app/interface/main/app-show/model"
-	"go-common/app/interface/main/app-show/model/card"
-	"go-common/app/interface/main/app-show/model/daily"
-	"go-common/app/service/main/archive/api"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/conf"
+	arcdao "github.com/namelessup/bilibili/app/interface/main/app-show/dao/archive"
+	carddao "github.com/namelessup/bilibili/app/interface/main/app-show/dao/card"
+	tagdao "github.com/namelessup/bilibili/app/interface/main/app-show/dao/tag"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/model/card"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/model/daily"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

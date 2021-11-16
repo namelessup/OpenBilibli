@@ -4,12 +4,12 @@ import (
 	"context"
 	"time"
 
-	filtermdl "go-common/app/service/main/filter/model/rpc"
-	"go-common/app/service/main/push/dao"
-	"go-common/app/service/main/push/model"
-	xsql "go-common/library/database/sql"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	filtermdl "github.com/namelessup/bilibili/app/service/main/filter/model/rpc"
+	"github.com/namelessup/bilibili/app/service/main/push/dao"
+	"github.com/namelessup/bilibili/app/service/main/push/model"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // pickNewTask get a new task by tx.

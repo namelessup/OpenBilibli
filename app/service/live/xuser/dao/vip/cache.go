@@ -5,10 +5,10 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/pkg/errors"
-	"go-common/app/service/live/xuser/model"
-	"go-common/library/cache/redis"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/service/live/xuser/model"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 	"time"
 )
 

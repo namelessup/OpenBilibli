@@ -3,9 +3,9 @@ package http
 import (
 	"time"
 
-	"go-common/app/job/main/videoup-report/model/archive"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/job/main/videoup-report/model/archive"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // reportsByType request report by type

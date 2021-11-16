@@ -7,10 +7,10 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/job/main/reply/conf"
-	"go-common/app/job/main/reply/model/reply"
-	"go-common/library/cache/redis"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/reply/conf"
+	"github.com/namelessup/bilibili/app/job/main/reply/model/reply"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

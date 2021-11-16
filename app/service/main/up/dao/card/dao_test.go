@@ -5,9 +5,9 @@ import (
 	"os"
 	"testing"
 
-	"go-common/app/service/main/up/conf"
-	"go-common/app/service/main/up/dao"
-	"go-common/app/service/main/up/dao/global"
+	"github.com/namelessup/bilibili/app/service/main/up/conf"
+	"github.com/namelessup/bilibili/app/service/main/up/dao"
+	"github.com/namelessup/bilibili/app/service/main/up/dao/global"
 )
 
 var (

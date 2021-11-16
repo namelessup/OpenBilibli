@@ -2,12 +2,12 @@ package v2
 
 import (
 	"context"
-	v2pb "go-common/app/service/live/resource/api/grpc/v2"
-	"go-common/app/service/live/resource/conf"
-	"go-common/app/service/live/resource/dao"
-	"go-common/app/service/live/resource/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	v2pb "github.com/namelessup/bilibili/app/service/live/resource/api/grpc/v2"
+	"github.com/namelessup/bilibili/app/service/live/resource/conf"
+	"github.com/namelessup/bilibili/app/service/live/resource/dao"
+	"github.com/namelessup/bilibili/app/service/live/resource/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // UserResourceService struct

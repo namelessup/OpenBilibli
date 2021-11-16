@@ -3,14 +3,14 @@ package service
 import (
 	"context"
 
-	"go-common/app/interface/main/web/model"
-	artmdl "go-common/app/interface/openplatform/article/model"
-	accmdl "go-common/app/service/main/account/api"
-	"go-common/app/service/main/archive/model/archive"
-	relmdl "go-common/app/service/main/relation/model"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/interface/main/web/model"
+	artmdl "github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	accmdl "github.com/namelessup/bilibili/app/service/main/account/api"
+	"github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	relmdl "github.com/namelessup/bilibili/app/service/main/relation/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 const _cardBakCacheRand = 10

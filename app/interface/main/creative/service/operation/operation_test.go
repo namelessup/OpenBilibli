@@ -2,7 +2,7 @@ package operation
 
 import (
 	"context"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/library/ecode"
 	"testing"
 
 	. "github.com/smartystreets/goconvey/convey"

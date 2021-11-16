@@ -18,7 +18,7 @@ go_library(
         "search.go",
         "vip.go",
     ],
-    importpath = "go-common/app/service/main/account/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/main/account/dao",
     tags = ["automanaged"],
     deps = [
         "//app/service/main/account/api:go_default_library",

@@ -1,6 +1,6 @@
 package archive
 
-import xtime "go-common/library/time"
+import xtime "github.com/namelessup/bilibili/library/time"
 
 // Cover str
 type Cover struct {

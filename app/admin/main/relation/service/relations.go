@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"go-common/app/admin/main/relation/model"
-	relationPB "go-common/app/service/main/relation/api"
+	"github.com/namelessup/bilibili/app/admin/main/relation/model"
+	relationPB "github.com/namelessup/bilibili/app/service/main/relation/api"
 )
 
 // Followers is.

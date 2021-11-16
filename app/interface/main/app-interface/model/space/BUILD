@@ -12,7 +12,7 @@ go_library(
         "mine.go",
         "space.go",
     ],
-    importpath = "go-common/app/interface/main/app-interface/model/space",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-interface/model/space",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

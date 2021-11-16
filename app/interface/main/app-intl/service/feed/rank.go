@@ -1,8 +1,8 @@
 package feed
 
 import (
-	"go-common/app/interface/main/app-card/model/card/rank"
-	"go-common/app/interface/main/app-intl/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-card/model/card/rank"
+	"github.com/namelessup/bilibili/app/interface/main/app-intl/model"
 )
 
 // RankCard is.

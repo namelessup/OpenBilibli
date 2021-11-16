@@ -5,16 +5,16 @@ import (
 	"fmt"
 	"time"
 
-	"go-common/app/interface/main/history/conf"
-	"go-common/app/interface/main/history/dao/history"
-	"go-common/app/interface/main/history/dao/toview"
-	"go-common/app/interface/main/history/model"
-	arcrpc "go-common/app/service/main/archive/api/gorpc"
-	favrpc "go-common/app/service/main/favorite/api/gorpc"
-	hisrpc "go-common/app/service/main/history/api/grpc"
-	"go-common/library/log"
-	"go-common/library/queue/databus/report"
-	"go-common/library/sync/pipeline/fanout"
+	"github.com/namelessup/bilibili/app/interface/main/history/conf"
+	"github.com/namelessup/bilibili/app/interface/main/history/dao/history"
+	"github.com/namelessup/bilibili/app/interface/main/history/dao/toview"
+	"github.com/namelessup/bilibili/app/interface/main/history/model"
+	arcrpc "github.com/namelessup/bilibili/app/service/main/archive/api/gorpc"
+	favrpc "github.com/namelessup/bilibili/app/service/main/favorite/api/gorpc"
+	hisrpc "github.com/namelessup/bilibili/app/service/main/history/api/grpc"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus/report"
+	"github.com/namelessup/bilibili/library/sync/pipeline/fanout"
 )
 
 type playPro struct {

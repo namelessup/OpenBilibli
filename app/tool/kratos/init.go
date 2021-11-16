@@ -100,7 +100,7 @@ func check() (ok bool) {
 	if !validate() {
 		return
 	}
-	p.Path = fmt.Sprintf("%s/src/go-common/app/%s/%s/%s", strings.TrimRight(root, "/"), p.Type, p.Department, p.Name)
+	p.Path = fmt.Sprintf("%s/src/github.com/namelessup/bilibili/app/%s/%s/%s", strings.TrimRight(root, "/"), p.Type, p.Department, p.Name)
 	return true
 }
 

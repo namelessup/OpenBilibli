@@ -11,7 +11,7 @@ go_library(
         "elec.go",
         "service.go",
     ],
-    importpath = "go-common/app/interface/main/ugcpay-rank/internal/service",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/ugcpay-rank/internal/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strconv"
 
-	"go-common/app/service/live/dao-anchor/api/grpc/v1"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/live/dao-anchor/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 type redisKeyResp struct {

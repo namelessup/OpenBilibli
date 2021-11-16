@@ -1,8 +1,8 @@
 package dao
 
 import (
-	"go-common/app/infra/canal/conf"
-	"go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/infra/canal/conf"
+	"github.com/namelessup/bilibili/library/database/sql"
 )
 
 // Dao dao

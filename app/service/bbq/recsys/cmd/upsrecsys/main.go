@@ -4,9 +4,9 @@ import (
 	"context"
 	"flag"
 	"fmt"
-	rpc "go-common/app/service/bbq/recsys/api/grpc/v1"
-	"go-common/library/net/rpc/warden"
-	xtime "go-common/library/time"
+	rpc "github.com/namelessup/bilibili/app/service/bbq/recsys/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
+	xtime "github.com/namelessup/bilibili/library/time"
 	"log"
 	"time"
 )

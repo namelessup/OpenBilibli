@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/job/main/videoup-report/model/email"
-	"go-common/library/cache/redis"
+	"github.com/namelessup/bilibili/app/job/main/videoup-report/model/email"
+	"github.com/namelessup/bilibili/library/cache/redis"
 	"sync"
 )
 

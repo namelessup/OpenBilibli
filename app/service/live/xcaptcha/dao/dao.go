@@ -2,11 +2,11 @@ package dao
 
 import (
 	"context"
-	livecaptchaApi "go-common/app/service/live/captcha/api/liverpc"
-	"go-common/app/service/live/xcaptcha/conf"
-	"go-common/library/cache/redis"
-	"go-common/library/net/rpc/liverpc"
-	"go-common/library/queue/databus"
+	livecaptchaApi "github.com/namelessup/bilibili/app/service/live/captcha/api/liverpc"
+	"github.com/namelessup/bilibili/app/service/live/xcaptcha/conf"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/net/rpc/liverpc"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 // Dao dao

@@ -5,11 +5,11 @@ import (
 	"testing"
 	"time"
 
-	dc "go-common/app/infra/discovery/conf"
-	"go-common/app/infra/discovery/model"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/netutil/breaker"
-	xtime "go-common/library/time"
+	dc "github.com/namelessup/bilibili/app/infra/discovery/conf"
+	"github.com/namelessup/bilibili/app/infra/discovery/model"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/netutil/breaker"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	. "github.com/smartystreets/goconvey/convey"
 	gock "gopkg.in/h2non/gock.v1"

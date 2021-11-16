@@ -2,18 +2,18 @@ package dao
 
 import (
 	"context"
-	"go-common/app/service/bbq/topic/api"
-	"go-common/library/sync/pipeline/fanout"
+	"github.com/namelessup/bilibili/app/service/bbq/topic/api"
+	"github.com/namelessup/bilibili/library/sync/pipeline/fanout"
 	"time"
 
-	"go-common/library/cache/redis"
-	"go-common/library/conf/paladin"
-	"go-common/library/database/sql"
-	"go-common/library/log"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/conf/paladin"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
-//go:generate $GOPATH/src/go-common/app/tool/cache/gen
+//go:generate $GOPATH/src/github.com/namelessup/bilibili/app/tool/cache/gen
 type _cache interface {
 	// cache: -sync=true -batch=10 -max_group=10 -batch_err=break -nullcache=&api.VideoExtension{Svid:-1} -check_null_code=$==nil||$.Svid==-1
 	VideoExtension(c context.Context, ids []int64) (map[int64]*api.VideoExtension, error)

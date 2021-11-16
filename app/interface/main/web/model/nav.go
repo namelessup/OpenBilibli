@@ -1,7 +1,7 @@
 package model
 
 import (
-	account "go-common/app/service/main/account/model"
+	account "github.com/namelessup/bilibili/app/service/main/account/model"
 )
 
 // NavResp  struct of nav api response

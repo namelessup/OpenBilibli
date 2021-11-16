@@ -2,8 +2,8 @@ package splash
 
 import (
 	"encoding/json"
-	"go-common/app/interface/main/app-resource/model"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/interface/main/app-resource/model"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // Splash is splash type.

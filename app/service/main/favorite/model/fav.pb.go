@@ -14,7 +14,7 @@ import fmt "fmt"
 import math "math"
 import _ "github.com/gogo/protobuf/gogoproto"
 
-import go_common_library_time "go-common/library/time"
+import go_common_library_time "github.com/namelessup/bilibili/library/time"
 
 import strings "strings"
 import reflect "reflect"
@@ -43,8 +43,8 @@ type Folder struct {
 	Attr                 int32                       `protobuf:"varint,8,opt,name=Attr,proto3" json:"attr"`
 	State                int8                        `protobuf:"varint,9,opt,name=State,proto3,casttype=int8" json:"state"`
 	Favored              int8                        `protobuf:"varint,10,opt,name=Favored,proto3,casttype=int8" json:"favored"`
-	CTime                go_common_library_time.Time `protobuf:"varint,11,opt,name=CTime,proto3,casttype=go-common/library/time.Time" json:"ctime"`
-	MTime                go_common_library_time.Time `protobuf:"varint,12,opt,name=MTime,proto3,casttype=go-common/library/time.Time" json:"mtime"`
+	CTime                go_common_library_time.Time `protobuf:"varint,11,opt,name=CTime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"ctime"`
+	MTime                go_common_library_time.Time `protobuf:"varint,12,opt,name=MTime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"mtime"`
 	RecentOids           []int64                     `protobuf:"varint,13,rep,packed,name=RecentOids" json:"recent_oids"`
 	FavedCount           int32                       `protobuf:"varint,14,opt,name=FavedCount,proto3" json:"faved_count"`
 	PlayCount            int32                       `protobuf:"varint,15,opt,name=PlayCount,proto3" json:"play_count"`

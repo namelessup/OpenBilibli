@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/smartystreets/goconvey/convey"
-	"go-common/app/interface/main/growup/model"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/interface/main/growup/model"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 func TestDaoGetAccountState(t *testing.T) {

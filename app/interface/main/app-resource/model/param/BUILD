@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["param.go"],
-    importpath = "go-common/app/interface/main/app-resource/model/param",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-resource/model/param",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//app/interface/main/app-resource/model:go_default_library"],

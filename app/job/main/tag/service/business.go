@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/job/main/tag/model"
+	"github.com/namelessup/bilibili/app/job/main/tag/model"
 )
 
 func (s *Service) businessCacheproc() {

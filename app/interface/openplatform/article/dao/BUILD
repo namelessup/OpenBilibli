@@ -78,7 +78,7 @@ go_library(
         "redis_read.go",
         "redis_sort.go",
     ],
-    importpath = "go-common/app/interface/openplatform/article/dao",
+    importpath = "github.com/namelessup/bilibili/app/interface/openplatform/article/dao",
     tags = ["automanaged"],
     deps = [
         "//app/interface/main/creative/model/data:go_default_library",

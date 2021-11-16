@@ -24,8 +24,8 @@ go_library(
         "creditscore.go",
         "score_rules.go",
     ],
-    importmap = "go-common/app/service/main/upcredit/model/calculator",
-    importpath = "go-common/app/service/main/upcredit/model/calculator",
+    importmap = "github.com/namelessup/bilibili/app/service/main/upcredit/model/calculator",
+    importpath = "github.com/namelessup/bilibili/app/service/main/upcredit/model/calculator",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

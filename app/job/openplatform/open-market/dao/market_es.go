@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/job/openplatform/open-market/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/openplatform/open-market/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 var (

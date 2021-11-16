@@ -19,7 +19,7 @@ import fmt "fmt"
 import math "math"
 import _ "github.com/gogo/protobuf/gogoproto"
 
-import go_common_library_time "go-common/library/time"
+import go_common_library_time "github.com/namelessup/bilibili/library/time"
 
 import io "io"
 
@@ -37,9 +37,9 @@ const _ = proto.GoGoProtoPackageIsVersion2 // please upgrade the proto package
 // History model
 type History struct {
 	// ctime
-	Ctime go_common_library_time.Time `protobuf:"varint,1,opt,name=ctime,proto3,casttype=go-common/library/time.Time" json:"ctime"`
+	Ctime go_common_library_time.Time `protobuf:"varint,1,opt,name=ctime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"ctime"`
 	// mtime
-	Mtime go_common_library_time.Time `protobuf:"varint,2,opt,name=mtime,proto3,casttype=go-common/library/time.Time" json:"mtime"`
+	Mtime go_common_library_time.Time `protobuf:"varint,2,opt,name=mtime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"mtime"`
 	// mid
 	Mid int64 `protobuf:"varint,3,opt,name=mid,proto3" json:"mid" form:"mid" validate:"required,min=1"`
 	// business_id

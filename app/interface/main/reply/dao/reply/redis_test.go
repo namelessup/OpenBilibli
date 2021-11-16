@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/interface/main/reply/conf"
-	"go-common/app/interface/main/reply/model/reply"
+	"github.com/namelessup/bilibili/app/interface/main/reply/conf"
+	"github.com/namelessup/bilibili/app/interface/main/reply/model/reply"
 
 	"github.com/smartystreets/goconvey/convey"
 )

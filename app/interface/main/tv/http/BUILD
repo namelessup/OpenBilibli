@@ -22,7 +22,7 @@ go_library(
         "wild.go",
         "zone_index.go",
     ],
-    importpath = "go-common/app/interface/main/tv/http",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/tv/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -27,7 +27,7 @@ go_library(
         "dao.go",
         "mysql.go",
     ],
-    importpath = "go-common/app/infra/notify/dao",
+    importpath = "github.com/namelessup/bilibili/app/infra/notify/dao",
     tags = ["automanaged"],
     deps = [
         "//app/infra/notify/conf:go_default_library",

@@ -3,9 +3,9 @@ package dao
 import (
 	"context"
 
-	"go-common/app/job/main/passport-auth/conf"
-	xsql "go-common/library/database/sql"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/job/main/passport-auth/conf"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // Dao dao

@@ -5,10 +5,10 @@ import (
 	"math/rand"
 	"time"
 
-	"go-common/app/job/main/ugcpay/conf"
-	"go-common/app/job/main/ugcpay/dao"
-	"go-common/app/job/main/ugcpay/service/pay"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/job/main/ugcpay/conf"
+	"github.com/namelessup/bilibili/app/job/main/ugcpay/dao"
+	"github.com/namelessup/bilibili/app/job/main/ugcpay/service/pay"
+	"github.com/namelessup/bilibili/library/queue/databus"
 
 	"github.com/robfig/cron"
 )

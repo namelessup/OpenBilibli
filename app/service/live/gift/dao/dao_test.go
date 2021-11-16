@@ -2,7 +2,7 @@ package dao
 
 import (
 	"flag"
-	"go-common/app/service/live/gift/conf"
+	"github.com/namelessup/bilibili/app/service/live/gift/conf"
 	"os"
 	"testing"
 )

@@ -1,4 +1,4 @@
-# go-common/app/service/notify
+# github.com/namelessup/bilibili/app/service/notify
 
 ##### 项目简介
 > 1. 消息中间件，消息注册监听推送事件通知

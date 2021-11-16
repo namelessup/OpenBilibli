@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"go-common/app/admin/main/workflow/model"
+	"github.com/namelessup/bilibili/app/admin/main/workflow/model"
 
 	"github.com/smartystreets/goconvey/convey"
 )

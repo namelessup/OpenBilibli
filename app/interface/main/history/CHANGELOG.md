@@ -312,7 +312,7 @@
 
 ##### Version v4.5.6
 
-> 1.更新go-common v6.16.0，go-business v2.21.4  
+> 1.更新github.com/namelessup/bilibili v6.16.0，go-business v2.21.4  
 > 2.接入新prom
 > 3.删除delChan增加监控    
 
@@ -330,7 +330,7 @@
 
 > 1.读hbase降级
 > 2.去除hbase双写
-> 3.升级go-common go-business
+> 3.升级github.com/namelessup/bilibili go-business
 
 ##### Version v4.5.1
 
@@ -534,7 +534,7 @@
 
 ##### Version 1.1.0
 
-> 1.按照go-common重构
+> 1.按照github.com/namelessup/bilibili重构
 
 ##### Version 1.0.0
 

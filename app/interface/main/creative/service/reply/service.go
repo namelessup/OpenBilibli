@@ -3,16 +3,16 @@ package reply
 import (
 	"context"
 
-	"go-common/app/interface/main/creative/conf"
-	"go-common/app/interface/main/creative/dao/account"
-	"go-common/app/interface/main/creative/dao/archive"
-	"go-common/app/interface/main/creative/dao/article"
-	"go-common/app/interface/main/creative/dao/elec"
-	"go-common/app/interface/main/creative/dao/music"
-	"go-common/app/interface/main/creative/dao/reply"
-	"go-common/app/interface/main/creative/dao/search"
-	"go-common/app/interface/main/creative/service"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/creative/conf"
+	"github.com/namelessup/bilibili/app/interface/main/creative/dao/account"
+	"github.com/namelessup/bilibili/app/interface/main/creative/dao/archive"
+	"github.com/namelessup/bilibili/app/interface/main/creative/dao/article"
+	"github.com/namelessup/bilibili/app/interface/main/creative/dao/elec"
+	"github.com/namelessup/bilibili/app/interface/main/creative/dao/music"
+	"github.com/namelessup/bilibili/app/interface/main/creative/dao/reply"
+	"github.com/namelessup/bilibili/app/interface/main/creative/dao/search"
+	"github.com/namelessup/bilibili/app/interface/main/creative/service"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Service reply.

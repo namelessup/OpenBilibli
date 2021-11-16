@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 
-	"go-common/app/service/main/thumbup/model"
-	"go-common/library/stat/prom"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/service/main/thumbup/model"
+	"github.com/namelessup/bilibili/library/stat/prom"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // ItemLikes .

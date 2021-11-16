@@ -3,11 +3,11 @@ package service
 import (
 	"context"
 	"encoding/json"
-	"go-common/app/interface/live/push-live/dao"
-	"go-common/app/interface/live/push-live/model"
-	"go-common/library/cache/redis"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/interface/live/push-live/dao"
+	"github.com/namelessup/bilibili/app/interface/live/push-live/model"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 // LiveCommonMessage 直播通用消息

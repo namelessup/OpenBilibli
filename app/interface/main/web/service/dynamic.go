@@ -3,12 +3,12 @@ package service
 import (
 	"context"
 
-	"go-common/app/interface/main/web/conf"
-	"go-common/app/service/main/archive/api"
-	dymdl "go-common/app/service/main/dynamic/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/main/web/conf"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	dymdl "github.com/namelessup/bilibili/app/service/main/dynamic/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 // DynamicRegion get dynamic region.

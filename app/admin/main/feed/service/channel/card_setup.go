@@ -5,15 +5,15 @@ import (
 	"fmt"
 	"strconv"
 
-	"go-common/app/admin/main/feed/conf"
-	accdao "go-common/app/admin/main/feed/dao/account"
-	arcdao "go-common/app/admin/main/feed/dao/archive"
-	pgcdao "go-common/app/admin/main/feed/dao/pgc"
-	showdao "go-common/app/admin/main/feed/dao/show"
-	cardmodel "go-common/app/admin/main/feed/model/channel"
-	"go-common/app/admin/main/feed/model/common"
-	"go-common/app/admin/main/feed/util"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/feed/conf"
+	accdao "github.com/namelessup/bilibili/app/admin/main/feed/dao/account"
+	arcdao "github.com/namelessup/bilibili/app/admin/main/feed/dao/archive"
+	pgcdao "github.com/namelessup/bilibili/app/admin/main/feed/dao/pgc"
+	showdao "github.com/namelessup/bilibili/app/admin/main/feed/dao/show"
+	cardmodel "github.com/namelessup/bilibili/app/admin/main/feed/model/channel"
+	"github.com/namelessup/bilibili/app/admin/main/feed/model/common"
+	"github.com/namelessup/bilibili/app/admin/main/feed/util"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Service is search service

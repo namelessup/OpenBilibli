@@ -9,7 +9,7 @@ import math "math"
 import _ "github.com/gogo/protobuf/gogoproto"
 import empty "github.com/golang/protobuf/ptypes/empty"
 
-import go_common_library_time "go-common/library/time"
+import go_common_library_time "github.com/namelessup/bilibili/library/time"
 
 import (
 	context "golang.org/x/net/context"
@@ -747,8 +747,8 @@ type UserBase struct {
 	Birthday             string                      `protobuf:"bytes,4,opt,name=birthday,proto3" json:"birthday" form:"birthday"`
 	Exp                  int64                       `protobuf:"varint,5,opt,name=exp,proto3" json:"exp,omitempty" form:"exp"`
 	Level                int64                       `protobuf:"varint,6,opt,name=level,proto3" json:"level,omitempty" form:"level"`
-	Ctime                go_common_library_time.Time `protobuf:"varint,7,opt,name=ctime,proto3,casttype=go-common/library/time.Time" json:"ctime,omitempty"`
-	Mtime                go_common_library_time.Time `protobuf:"varint,8,opt,name=mtime,proto3,casttype=go-common/library/time.Time" json:"mtime,omitempty"`
+	Ctime                go_common_library_time.Time `protobuf:"varint,7,opt,name=ctime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"ctime,omitempty"`
+	Mtime                go_common_library_time.Time `protobuf:"varint,8,opt,name=mtime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"mtime,omitempty"`
 	Sex                  int8                        `protobuf:"varint,9,opt,name=sex,proto3,casttype=int8" json:"sex" form:"sex"`
 	Region               int64                       `protobuf:"varint,10,opt,name=region,proto3" json:"region" form:"region"`
 	Signature            string                      `protobuf:"bytes,11,opt,name=signature,proto3" json:"signature" form:"signature"`

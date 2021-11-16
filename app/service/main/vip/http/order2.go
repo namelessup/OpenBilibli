@@ -3,9 +3,9 @@ package http
 import (
 	"net"
 
-	"go-common/app/service/main/vip/model"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/service/main/vip/model"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 func createOrder2(c *bm.Context) {

@@ -22,7 +22,7 @@ filegroup(
 go_library(
     name = "go_default_library",
     srcs = ["time.go"],
-    importpath = "go-common/library/time",
+    importpath = "github.com/namelessup/bilibili/library/time",
     tags = ["automanaged"],
 )
 

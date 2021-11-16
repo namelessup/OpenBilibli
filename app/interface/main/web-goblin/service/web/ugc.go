@@ -3,10 +3,10 @@ package web
 import (
 	"context"
 
-	webmdl "go-common/app/interface/main/web-goblin/model/web"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
-	"go-common/library/xstr"
+	webmdl "github.com/namelessup/bilibili/app/interface/main/web-goblin/model/web"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 const (

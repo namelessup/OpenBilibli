@@ -3,9 +3,9 @@ package business
 import (
 	"encoding/json"
 
-	"go-common/app/admin/main/aegis/model/middleware"
-	"go-common/library/log"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model/middleware"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // BizCFG .

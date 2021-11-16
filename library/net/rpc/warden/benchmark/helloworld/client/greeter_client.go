@@ -9,10 +9,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go-common/library/net/netutil/breaker"
-	"go-common/library/net/rpc/warden"
-	pb "go-common/library/net/rpc/warden/proto/testproto"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/library/net/netutil/breaker"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
+	pb "github.com/namelessup/bilibili/library/net/rpc/warden/proto/testproto"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 var (

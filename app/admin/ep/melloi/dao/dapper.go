@@ -4,9 +4,9 @@ import (
 	"context"
 	"net/http"
 
-	"go-common/app/admin/ep/melloi/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/ep/melloi/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

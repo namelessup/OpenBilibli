@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"testing"
 
-	seaMdl "go-common/app/interface/main/tv/model/search"
-	"go-common/library/ecode"
+	seaMdl "github.com/namelessup/bilibili/app/interface/main/tv/model/search"
+	"github.com/namelessup/bilibili/library/ecode"
 
 	"github.com/smartystreets/goconvey/convey"
 )

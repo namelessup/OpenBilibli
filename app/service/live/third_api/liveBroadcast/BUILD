@@ -11,7 +11,7 @@ go_library(
         "client.go",
         "push.go",
     ],
-    importpath = "go-common/app/service/live/third_api/liveBroadcast",
+    importpath = "github.com/namelessup/bilibili/app/service/live/third_api/liveBroadcast",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

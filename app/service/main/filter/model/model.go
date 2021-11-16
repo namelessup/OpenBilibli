@@ -3,9 +3,9 @@ package model
 import (
 	"regexp"
 
-	"go-common/app/service/main/filter/model/actriearea"
-	"go-common/app/service/main/filter/model/actriekey"
-	xregexp "go-common/app/service/main/filter/service/regexp"
+	"github.com/namelessup/bilibili/app/service/main/filter/model/actriearea"
+	"github.com/namelessup/bilibili/app/service/main/filter/model/actriekey"
+	xregexp "github.com/namelessup/bilibili/app/service/main/filter/service/regexp"
 )
 
 // 规则状态

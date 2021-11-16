@@ -44,7 +44,7 @@ go_library(
         "redis.go",
         "reply.go",
     ],
-    importpath = "go-common/app/job/openplatform/article/dao",
+    importpath = "github.com/namelessup/bilibili/app/job/openplatform/article/dao",
     tags = ["automanaged"],
     deps = [
         "//app/interface/openplatform/article/model:go_default_library",

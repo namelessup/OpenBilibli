@@ -3,7 +3,7 @@ package income
 import (
 	"context"
 
-	model "go-common/app/job/main/growup/model/income"
+	model "github.com/namelessup/bilibili/app/job/main/growup/model/income"
 )
 
 // Signed signed up by business

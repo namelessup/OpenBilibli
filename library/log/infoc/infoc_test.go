@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 var (

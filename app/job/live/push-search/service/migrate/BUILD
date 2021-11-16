@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["service.go"],
-    importpath = "go-common/app/job/live/push-search/service/migrate",
+    importpath = "github.com/namelessup/bilibili/app/job/live/push-search/service/migrate",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

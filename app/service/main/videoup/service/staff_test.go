@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"github.com/davecgh/go-spew/spew"
 	. "github.com/smartystreets/goconvey/convey"
-	"go-common/app/service/main/videoup/model/archive"
+	"github.com/namelessup/bilibili/app/service/main/videoup/model/archive"
 )
 
 func TestService_AddApply(t *testing.T) {

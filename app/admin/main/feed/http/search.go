@@ -3,12 +3,12 @@ package http
 import (
 	"encoding/json"
 
-	searchModel "go-common/app/admin/main/feed/model/search"
-	"go-common/app/admin/main/feed/model/show"
-	"go-common/app/admin/main/feed/util"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/time"
+	searchModel "github.com/namelessup/bilibili/app/admin/main/feed/model/search"
+	"github.com/namelessup/bilibili/app/admin/main/feed/model/show"
+	"github.com/namelessup/bilibili/app/admin/main/feed/util"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 //Black 黑名单

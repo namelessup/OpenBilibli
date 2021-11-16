@@ -16,7 +16,7 @@ go_library(
         "map_data.go",
         "model.go",
     ],
-    importpath = "go-common/app/job/main/search/model",
+    importpath = "github.com/namelessup/bilibili/app/job/main/search/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

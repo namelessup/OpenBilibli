@@ -41,7 +41,7 @@ go_library(
         "subject.go",
         "web_data.go",
     ],
-    importpath = "go-common/app/job/main/activity/dao/like",
+    importpath = "github.com/namelessup/bilibili/app/job/main/activity/dao/like",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

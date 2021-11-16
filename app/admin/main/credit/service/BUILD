@@ -33,7 +33,7 @@ go_library(
         "service.go",
         "user.go",
     ],
-    importpath = "go-common/app/admin/main/credit/service",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/credit/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

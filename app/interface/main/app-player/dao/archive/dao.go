@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"runtime"
 
-	"go-common/app/interface/main/app-player/conf"
-	"go-common/app/interface/main/app-player/model/archive"
-	arcrpc "go-common/app/service/main/archive/api"
-	"go-common/library/cache/memcache"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/app-player/conf"
+	"github.com/namelessup/bilibili/app/interface/main/app-player/model/archive"
+	arcrpc "github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Dao is archive dao.

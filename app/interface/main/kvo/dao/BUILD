@@ -27,7 +27,7 @@ go_library(
         "user_conf.go",
         "user_conf_cache.go",
     ],
-    importpath = "go-common/app/interface/main/kvo/dao",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/kvo/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

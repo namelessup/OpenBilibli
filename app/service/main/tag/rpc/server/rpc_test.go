@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/service/main/tag/model"
-	rpc "go-common/app/service/main/tag/rpc/client"
+	"github.com/namelessup/bilibili/app/service/main/tag/model"
+	rpc "github.com/namelessup/bilibili/app/service/main/tag/rpc/client"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

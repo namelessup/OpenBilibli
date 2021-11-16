@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["model.go"],
-    importpath = "go-common/app/service/live/xcaptcha/model",
+    importpath = "github.com/namelessup/bilibili/app/service/live/xcaptcha/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

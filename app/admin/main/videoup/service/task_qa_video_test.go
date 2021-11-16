@@ -3,7 +3,7 @@ package service
 import (
 	"context"
 	"encoding/json"
-	"go-common/app/admin/main/videoup/model/archive"
+	"github.com/namelessup/bilibili/app/admin/main/videoup/model/archive"
 	"testing"
 )
 

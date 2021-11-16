@@ -1,7 +1,7 @@
 package v1
 
 import (
-	"go-common/app/interface/bbq/app-bbq/model"
+	"github.com/namelessup/bilibili/app/interface/bbq/app-bbq/model"
 )
 
 // LocationRequest .

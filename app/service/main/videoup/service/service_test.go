@@ -8,8 +8,8 @@ import (
 	"time"
 
 	. "github.com/smartystreets/goconvey/convey"
-	"go-common/app/service/main/videoup/conf"
-	"go-common/library/queue/databus/report"
+	"github.com/namelessup/bilibili/app/service/main/videoup/conf"
+	"github.com/namelessup/bilibili/library/queue/databus/report"
 )
 
 var (

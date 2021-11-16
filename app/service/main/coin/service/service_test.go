@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"go-common/app/service/main/coin/conf"
+	"github.com/namelessup/bilibili/app/service/main/coin/conf"
 )
 
 var (

@@ -6,9 +6,9 @@ import (
 	"net/url"
 	"strconv"
 
-	locmdl "go-common/app/service/main/location/model"
-	"go-common/app/service/main/resource/model"
-	"go-common/library/log"
+	locmdl "github.com/namelessup/bilibili/app/service/main/location/model"
+	"github.com/namelessup/bilibili/app/service/main/resource/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // CpmsAPP get ads from cpm platform.

@@ -31,7 +31,7 @@ go_library(
         "pendant.go",
         "rpc.go",
     ],
-    importpath = "go-common/app/service/main/usersuit/rpc/server",
+    importpath = "github.com/namelessup/bilibili/app/service/main/usersuit/rpc/server",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

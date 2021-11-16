@@ -15,8 +15,8 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/library/log"
-	"go-common/library/text/translate/chinese"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/text/translate/chinese"
 
 	"github.com/golang/freetype"
 )

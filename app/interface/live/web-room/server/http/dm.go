@@ -1,10 +1,10 @@
 package http
 
 import (
-	apiv1 "go-common/app/interface/live/web-room/api/http/v1"
-	v1index "go-common/app/interface/live/web-room/service/v1/dm"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
+	apiv1 "github.com/namelessup/bilibili/app/interface/live/web-room/api/http/v1"
+	v1index "github.com/namelessup/bilibili/app/interface/live/web-room/service/v1/dm"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func sendMsgSendMsg(ctx *bm.Context) {

@@ -3,10 +3,10 @@ package newbiedao
 import (
 	"context"
 
-	accApi "go-common/app/service/main/account/api"
+	accApi "github.com/namelessup/bilibili/app/service/main/account/api"
 
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // GetInfo get info

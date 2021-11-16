@@ -14,11 +14,11 @@ import (
 	"sync"
 	"time"
 
-	"go-common/library/conf/env"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	xip "go-common/library/net/ip"
-	"go-common/library/net/netutil"
+	"github.com/namelessup/bilibili/library/conf/env"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	xip "github.com/namelessup/bilibili/library/net/ip"
+	"github.com/namelessup/bilibili/library/net/netutil"
 
 	"github.com/pkg/errors"
 )

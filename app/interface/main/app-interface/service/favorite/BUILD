@@ -28,7 +28,7 @@ go_library(
         "favorite.go",
         "service.go",
     ],
-    importpath = "go-common/app/interface/main/app-interface/service/favorite",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-interface/service/favorite",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

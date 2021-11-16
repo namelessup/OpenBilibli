@@ -3,10 +3,10 @@ package service
 import (
 	"context"
 	"fmt"
-	"go-common/app/service/bbq/search/api/grpc/v1"
-	"go-common/app/service/bbq/search/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/bbq/search/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/bbq/search/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 	"time"
 
 	"github.com/json-iterator/go"

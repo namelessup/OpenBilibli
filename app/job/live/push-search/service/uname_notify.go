@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 	"encoding/json"
-	"go-common/app/job/live/push-search/model"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/job/live/push-search/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 	"strconv"
 )
 

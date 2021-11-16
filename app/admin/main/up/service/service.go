@@ -5,14 +5,14 @@ import (
 	"sync"
 	"time"
 
-	"go-common/app/admin/main/up/conf"
-	"go-common/app/admin/main/up/dao/global"
-	"go-common/app/admin/main/up/dao/manager"
-	"go-common/app/admin/main/up/service/upcrmservice"
-	"go-common/app/admin/main/up/util"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/app/admin/main/up/conf"
+	"github.com/namelessup/bilibili/app/admin/main/up/dao/global"
+	"github.com/namelessup/bilibili/app/admin/main/up/dao/manager"
+	"github.com/namelessup/bilibili/app/admin/main/up/service/upcrmservice"
+	"github.com/namelessup/bilibili/app/admin/main/up/util"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/stat/prom"
 )
 
 // Service is service.
@@ -37,7 +37,7 @@ type Service struct {
 	Crmservice *upcrmservice.Service
 }
 
-// New is go-common/business/service/videoup service implementation.
+// New is github.com/namelessup/bilibili/business/service/videoup service implementation.
 func New(c *conf.Config) (s *Service) {
 	s = &Service{
 		c:   c,

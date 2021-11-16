@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"go-common/library/log/internal/filewriter"
+	"github.com/namelessup/bilibili/library/log/internal/filewriter"
 )
 
 // level idx

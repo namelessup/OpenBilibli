@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/job/main/member/model"
-	xsql "go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/job/main/member/model"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
 
 	"github.com/bouk/monkey"
 	. "github.com/smartystreets/goconvey/convey"

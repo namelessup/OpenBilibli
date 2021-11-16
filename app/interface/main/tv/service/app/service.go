@@ -3,14 +3,14 @@ package service
 import (
 	"context"
 
-	"go-common/app/interface/main/tv/conf"
-	appDao "go-common/app/interface/main/tv/dao/app"
-	arcDao "go-common/app/interface/main/tv/dao/archive"
-	auditDao "go-common/app/interface/main/tv/dao/audit"
-	cmsDao "go-common/app/interface/main/tv/dao/cms"
-	"go-common/app/interface/main/tv/dao/search"
-	"go-common/app/interface/main/tv/model"
-	seaMdl "go-common/app/interface/main/tv/model/search"
+	"github.com/namelessup/bilibili/app/interface/main/tv/conf"
+	appDao "github.com/namelessup/bilibili/app/interface/main/tv/dao/app"
+	arcDao "github.com/namelessup/bilibili/app/interface/main/tv/dao/archive"
+	auditDao "github.com/namelessup/bilibili/app/interface/main/tv/dao/audit"
+	cmsDao "github.com/namelessup/bilibili/app/interface/main/tv/dao/cms"
+	"github.com/namelessup/bilibili/app/interface/main/tv/dao/search"
+	"github.com/namelessup/bilibili/app/interface/main/tv/model"
+	seaMdl "github.com/namelessup/bilibili/app/interface/main/tv/model/search"
 )
 
 var ctx = context.Background()

@@ -19,7 +19,7 @@ proto_library(
 go_proto_library(
     name = "api_go_proto",
     compilers = ["@io_bazel_rules_go//proto:go_grpc"],
-    importpath = "go-common/app/service/main/location/api",
+    importpath = "github.com/namelessup/bilibili/app/service/main/location/api",
     proto = ":api_proto",
     tags = ["automanaged"],
 )
@@ -28,7 +28,7 @@ go_library(
     name = "go_default_library",
     srcs = ["client.go"],
     embed = [":api_go_proto"],
-    importpath = "go-common/app/service/main/location/api",
+    importpath = "github.com/namelessup/bilibili/app/service/main/location/api",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

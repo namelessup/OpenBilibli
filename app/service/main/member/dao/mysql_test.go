@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"go-common/app/service/main/member/model"
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/app/service/main/member/model"
+	"github.com/namelessup/bilibili/library/time"
 
 	"github.com/smartystreets/goconvey/convey"
 )

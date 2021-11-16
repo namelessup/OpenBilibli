@@ -1,9 +1,9 @@
 package growup
 
 import (
-	httpx "go-common/library/net/http/blademaster"
+	httpx "github.com/namelessup/bilibili/library/net/http/blademaster"
 
-	"go-common/app/interface/main/creative/conf"
+	"github.com/namelessup/bilibili/app/interface/main/creative/conf"
 )
 
 const (

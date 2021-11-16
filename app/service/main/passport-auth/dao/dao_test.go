@@ -2,7 +2,7 @@ package dao
 
 import (
 	"flag"
-	"go-common/app/service/main/passport-auth/conf"
+	"github.com/namelessup/bilibili/app/service/main/passport-auth/conf"
 	"os"
 	"testing"
 )
@@ -23,7 +23,7 @@ func TestMain(m *testing.M) {
 		flag.Set("region", "sh")
 		flag.Set("zone", "sh001")
 	} else {
-		flag.Set("conf", "/Users/bilibili/gopath/src/go-common/app/service/main/passport-auth/cmd/passport-auth-service.toml")
+		flag.Set("conf", "/Users/bilibili/gopath/src/github.com/namelessup/bilibili/app/service/main/passport-auth/cmd/passport-auth-service.toml")
 	}
 	flag.Parse()
 	if err := conf.Init(); err != nil {

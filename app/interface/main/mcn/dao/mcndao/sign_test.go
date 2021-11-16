@@ -3,9 +3,9 @@ package mcndao
 import (
 	"testing"
 
-	"go-common/app/interface/main/mcn/model"
-	"go-common/app/interface/main/mcn/model/mcnmodel"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/interface/main/mcn/model"
+	"github.com/namelessup/bilibili/app/interface/main/mcn/model/mcnmodel"
+	"github.com/namelessup/bilibili/library/ecode"
 
 	"github.com/smartystreets/goconvey/convey"
 )

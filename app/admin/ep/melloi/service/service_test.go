@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"go-common/app/admin/ep/melloi/conf"
+	"github.com/namelessup/bilibili/app/admin/ep/melloi/conf"
 )
 
 var (

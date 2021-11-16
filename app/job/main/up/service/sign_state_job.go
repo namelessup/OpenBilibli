@@ -2,10 +2,10 @@ package service
 
 import (
 	"github.com/jinzhu/gorm"
-	"go-common/app/job/main/up/dao/upcrm"
-	"go-common/app/job/main/up/model/signmodel"
-	"go-common/app/service/main/upcredit/mathutil"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/up/dao/upcrm"
+	"github.com/namelessup/bilibili/app/job/main/up/model/signmodel"
+	"github.com/namelessup/bilibili/app/service/main/upcredit/mathutil"
+	"github.com/namelessup/bilibili/library/log"
 	"time"
 )
 

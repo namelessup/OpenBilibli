@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"go-common/library/container/pool"
+	"github.com/namelessup/bilibili/library/container/pool"
 )
 
 type poolTestConn struct {

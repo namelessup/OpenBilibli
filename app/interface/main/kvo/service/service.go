@@ -3,11 +3,11 @@ package service
 import (
 	"context"
 
-	conf "go-common/app/interface/main/kvo/conf"
-	"go-common/app/interface/main/kvo/dao"
-	"go-common/library/log"
+	conf "github.com/namelessup/bilibili/app/interface/main/kvo/conf"
+	"github.com/namelessup/bilibili/app/interface/main/kvo/dao"
+	"github.com/namelessup/bilibili/library/log"
 
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/library/stat/prom"
 )
 
 // Service kvo main service

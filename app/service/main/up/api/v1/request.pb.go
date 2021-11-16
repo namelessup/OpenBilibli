@@ -8,7 +8,7 @@ import fmt "fmt"
 import math "math"
 import _ "github.com/gogo/protobuf/gogoproto"
 
-import go_common_library_time "go-common/library/time"
+import go_common_library_time "github.com/namelessup/bilibili/library/time"
 
 import io "io"
 
@@ -293,7 +293,7 @@ type UpStatReq struct {
 	// mid 用户id 必传
 	Mid int64 `protobuf:"varint,1,opt,name=mid,proto3" json:"mid,omitempty" form:"mid" validate:"min=1,required"`
 	// date 获取计数时间范围
-	Date go_common_library_time.Time `protobuf:"varint,2,opt,name=date,proto3,casttype=go-common/library/time.Time" json:"date,omitempty" form:"date"`
+	Date go_common_library_time.Time `protobuf:"varint,2,opt,name=date,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"date,omitempty" form:"date"`
 }
 
 func (m *UpStatReq) Reset()                    { *m = UpStatReq{} }

@@ -3,8 +3,8 @@ package secure
 import (
 	"context"
 
-	model "go-common/app/service/main/secure/model"
-	"go-common/library/net/rpc"
+	model "github.com/namelessup/bilibili/app/service/main/secure/model"
+	"github.com/namelessup/bilibili/library/net/rpc"
 )
 
 const (

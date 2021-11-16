@@ -14,7 +14,7 @@ go_library(
         "mysql_hook_url.go",
         "mysql_url_event.go",
     ],
-    importpath = "go-common/app/admin/ep/tapd/dao",
+    importpath = "github.com/namelessup/bilibili/app/admin/ep/tapd/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

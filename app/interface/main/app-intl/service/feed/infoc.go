@@ -7,11 +7,11 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/interface/main/app-card/model/card/ai"
-	"go-common/app/interface/main/app-intl/model"
-	"go-common/library/log"
-	binfoc "go-common/library/log/infoc"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/main/app-card/model/card/ai"
+	"github.com/namelessup/bilibili/app/interface/main/app-intl/model"
+	"github.com/namelessup/bilibili/library/log"
+	binfoc "github.com/namelessup/bilibili/library/log/infoc"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 // infoc struct

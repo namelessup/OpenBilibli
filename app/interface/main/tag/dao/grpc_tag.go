@@ -3,9 +3,9 @@ package dao
 import (
 	"context"
 
-	"go-common/app/interface/main/tag/model"
-	taGrpcModel "go-common/app/service/main/tag/api"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/tag/model"
+	taGrpcModel "github.com/namelessup/bilibili/app/service/main/tag/api"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // AddReport add a report to tag-serivce.

@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"strings"
 
-	"go-common/app/interface/openplatform/article/model"
-	account "go-common/app/service/main/account/model"
+	"github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	account "github.com/namelessup/bilibili/app/service/main/account/model"
 )
 
 // AnniversaryInfo get reader and author info in passed year

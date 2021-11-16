@@ -1,6 +1,6 @@
 package xreply
 
-import "go-common/app/interface/main/reply/model/reply"
+import "github.com/namelessup/bilibili/app/interface/main/reply/model/reply"
 
 // const
 const (

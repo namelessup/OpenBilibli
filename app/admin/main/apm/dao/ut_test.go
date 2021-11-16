@@ -123,7 +123,7 @@ func TestDaoGetCoverage(t *testing.T) {
 		var (
 			c        = context.Background()
 			commitID = "8d2f1b49661c7089e2b595eafff326033a138c23"
-			pkg      = "go-common/app/admin/main/apm"
+			pkg      = "github.com/namelessup/bilibili/app/admin/main/apm"
 		)
 		ctx.Convey("When everything goes positive", func(ctx convey.C) {
 			cov, err := d.GetCoverage(c, commitID, pkg)

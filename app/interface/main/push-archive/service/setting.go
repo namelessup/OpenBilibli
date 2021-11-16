@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/interface/main/push-archive/model"
-	pb "go-common/app/service/main/push/api/grpc/v1"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/push-archive/model"
+	pb "github.com/namelessup/bilibili/app/service/main/push/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Setting gets user's archive-result setting.

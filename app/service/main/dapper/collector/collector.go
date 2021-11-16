@@ -5,16 +5,16 @@ import (
 	"fmt"
 	"time"
 
-	"go-common/app/service/main/dapper/conf"
-	"go-common/app/service/main/dapper/dao"
-	"go-common/app/service/main/dapper/model"
-	"go-common/app/service/main/dapper/pkg/batchwrite"
-	"go-common/app/service/main/dapper/pkg/collect"
-	"go-common/app/service/main/dapper/pkg/collect/kafkacollect"
-	"go-common/app/service/main/dapper/pkg/collect/tcpcollect"
-	"go-common/app/service/main/dapper/pkg/pointwrite"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/service/main/dapper/conf"
+	"github.com/namelessup/bilibili/app/service/main/dapper/dao"
+	"github.com/namelessup/bilibili/app/service/main/dapper/model"
+	"github.com/namelessup/bilibili/app/service/main/dapper/pkg/batchwrite"
+	"github.com/namelessup/bilibili/app/service/main/dapper/pkg/collect"
+	"github.com/namelessup/bilibili/app/service/main/dapper/pkg/collect/kafkacollect"
+	"github.com/namelessup/bilibili/app/service/main/dapper/pkg/collect/tcpcollect"
+	"github.com/namelessup/bilibili/app/service/main/dapper/pkg/pointwrite"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // Collector dapper collector receving trace data from tcp and write

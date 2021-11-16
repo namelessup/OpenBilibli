@@ -1,8 +1,8 @@
 package http
 
 import (
-	kfcmdl "go-common/app/admin/main/activity/model/kfc"
-	bm "go-common/library/net/http/blademaster"
+	kfcmdl "github.com/namelessup/bilibili/app/admin/main/activity/model/kfc"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func kfcList(c *bm.Context) {

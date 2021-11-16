@@ -15,7 +15,7 @@ go_library(
         "dm_date.go",
         "log.go",
     ],
-    importpath = "go-common/app/job/main/search/dao/business",
+    importpath = "github.com/namelessup/bilibili/app/job/main/search/dao/business",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

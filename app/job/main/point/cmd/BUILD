@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["point-job.toml"],
-    importpath = "go-common/app/job/main/point/cmd",
+    importpath = "github.com/namelessup/bilibili/app/job/main/point/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

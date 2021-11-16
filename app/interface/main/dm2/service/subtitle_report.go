@@ -3,12 +3,12 @@ package service
 import (
 	"context"
 
-	"go-common/app/interface/main/dm2/model"
-	"go-common/app/service/main/archive/api"
-	archiveMdl "go-common/app/service/main/archive/model/archive"
-	figureMdl "go-common/app/service/main/figure/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/dm2/model"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	archiveMdl "github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	figureMdl "github.com/namelessup/bilibili/app/service/main/figure/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

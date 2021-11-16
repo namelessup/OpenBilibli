@@ -2,7 +2,7 @@ package data
 
 import (
 	"context"
-	"go-common/app/interface/main/creative/model/data"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/data"
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"

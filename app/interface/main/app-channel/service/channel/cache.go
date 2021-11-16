@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/interface/main/app-card/model/card/operate"
-	"go-common/app/interface/main/app-channel/model/card"
-	"go-common/app/interface/main/app-channel/model/tab"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/app-card/model/card/operate"
+	"github.com/namelessup/bilibili/app/interface/main/app-channel/model/card"
+	"github.com/namelessup/bilibili/app/interface/main/app-channel/model/tab"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // loadCardCache card cache

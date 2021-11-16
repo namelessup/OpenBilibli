@@ -3,13 +3,13 @@ package faq
 import (
 	"context"
 	"flag"
-	"go-common/app/interface/main/creative/conf"
-	faqMdl "go-common/app/interface/main/creative/model/faq"
+	"github.com/namelessup/bilibili/app/interface/main/creative/conf"
+	faqMdl "github.com/namelessup/bilibili/app/interface/main/creative/model/faq"
 	"path/filepath"
 	"testing"
 	"time"
 
-	"go-common/app/interface/main/creative/service"
+	"github.com/namelessup/bilibili/app/interface/main/creative/service"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

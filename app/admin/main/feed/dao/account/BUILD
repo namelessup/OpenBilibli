@@ -22,7 +22,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["dao.go"],
-    importpath = "go-common/app/admin/main/feed/dao/account",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/feed/dao/account",
     tags = ["automanaged"],
     deps = [
         "//app/admin/main/feed/conf:go_default_library",

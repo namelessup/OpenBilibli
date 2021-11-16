@@ -114,7 +114,7 @@ func generate() {
 				return nil
 			}
 			GlobalStatue.Labels.Insert(owner.Labels...)
-			ts, ok := GlobalStatue.Template.JobConfig.Presubmits["platform/go-common"]
+			ts, ok := GlobalStatue.Template.JobConfig.Presubmits["platform/github.com/namelessup/bilibili"]
 			if !ok {
 				fmt.Println("wrong project name")
 				return nil
@@ -151,18 +151,18 @@ func generate() {
 				v.RunPRPushed = true
 				v.TrustedLabels = append(v.TrustedLabels, owner.Labels[0])
 				v.UntrustedLabels = append(v.UntrustedLabels, t.UntrustedLabels...)
-				GlobalStatue.Result.Presubmits["platform/go-common"] = append(GlobalStatue.Result.Presubmits["platform/go-common"], v)
+				GlobalStatue.Result.Presubmits["platform/github.com/namelessup/bilibili"] = append(GlobalStatue.Result.Presubmits["platform/github.com/namelessup/bilibili"], v)
 			}
 			return nil
 		}
 		return nil
 	})
-	//GlobalStatue.AlwaysRun.Presubmits["platform/go-common"][0].RunAfterSuccess = append(GlobalStatue.AlwaysRun.Presubmits["platform/go-common"][0].RunAfterSuccess, GlobalStatue.Result.Presubmits["platform/go-common"]...)
-	//GlobalStatue.AlwaysRun.Presubmits["platform/go-common"][0].RunAfterSuccess = append(GlobalStatue.AlwaysRun.Presubmits["platform/go-common"][0].RunAfterSuccess, GlobalStatue.AppendTask.Presubmits["platform/go-common"]...)
-	for _, v := range GlobalStatue.AppendTask.Presubmits["platform/go-common"] {
+	//GlobalStatue.AlwaysRun.Presubmits["platform/github.com/namelessup/bilibili"][0].RunAfterSuccess = append(GlobalStatue.AlwaysRun.Presubmits["platform/github.com/namelessup/bilibili"][0].RunAfterSuccess, GlobalStatue.Result.Presubmits["platform/github.com/namelessup/bilibili"]...)
+	//GlobalStatue.AlwaysRun.Presubmits["platform/github.com/namelessup/bilibili"][0].RunAfterSuccess = append(GlobalStatue.AlwaysRun.Presubmits["platform/github.com/namelessup/bilibili"][0].RunAfterSuccess, GlobalStatue.AppendTask.Presubmits["platform/github.com/namelessup/bilibili"]...)
+	for _, v := range GlobalStatue.AppendTask.Presubmits["platform/github.com/namelessup/bilibili"] {
 		v.Trigger = DefaultTriggerFor(v.Name)
 		v.RerunCommand = DefaultRerunCommandFor(v.Name)
-		GlobalStatue.Result.Presubmits["platform/go-common"] = append(GlobalStatue.Result.Presubmits["platform/go-common"], v)
+		GlobalStatue.Result.Presubmits["platform/github.com/namelessup/bilibili"] = append(GlobalStatue.Result.Presubmits["platform/github.com/namelessup/bilibili"], v)
 	}
 	d, err := yaml.Marshal(GlobalStatue.Result)
 	if err != nil {
@@ -173,7 +173,7 @@ func generate() {
 }
 
 func replaceimage() {
-	ts, ok := GlobalStatue.Template.JobConfig.Presubmits["platform/go-common"]
+	ts, ok := GlobalStatue.Template.JobConfig.Presubmits["platform/github.com/namelessup/bilibili"]
 	if !ok {
 		fmt.Println("wrong project name")
 		return
@@ -181,7 +181,7 @@ func replaceimage() {
 	for _, t := range ts {
 		t.Spec.Containers[0].Image = JobImage(t.Spec.Containers[0].Image)
 	}
-	at, ok := GlobalStatue.AppendTask.JobConfig.Presubmits["platform/go-common"]
+	at, ok := GlobalStatue.AppendTask.JobConfig.Presubmits["platform/github.com/namelessup/bilibili"]
 	if !ok {
 		fmt.Println("wrong project name")
 		return
@@ -190,7 +190,7 @@ func replaceimage() {
 		t.Spec.Containers[0].Image = JobImage(t.Spec.Containers[0].Image)
 	}
 
-	ar, ok := GlobalStatue.AlwaysRun.JobConfig.Presubmits["platform/go-common"]
+	ar, ok := GlobalStatue.AlwaysRun.JobConfig.Presubmits["platform/github.com/namelessup/bilibili"]
 	if !ok {
 		fmt.Println("wrong project name")
 		return
@@ -218,7 +218,7 @@ func generateLabel() (err error) {
 		})
 	}
 	GlobalStatue.TemplateLabels.Repos = make(map[string]RepoConfig)
-	GlobalStatue.TemplateLabels.Repos["platform/go-common"] = repo
+	GlobalStatue.TemplateLabels.Repos["platform/github.com/namelessup/bilibili"] = repo
 	d, err := yaml.Marshal(GlobalStatue.TemplateLabels)
 	if err != nil {
 		fmt.Println("fail to Marshal")

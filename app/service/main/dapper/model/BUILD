@@ -13,7 +13,7 @@ go_library(
         "spanpoint.go",
         "util.go",
     ],
-    importpath = "go-common/app/service/main/dapper/model",
+    importpath = "github.com/namelessup/bilibili/app/service/main/dapper/model",
     tags = ["manual"],
     visibility = ["//visibility:public"],
     deps = [

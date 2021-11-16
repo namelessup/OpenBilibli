@@ -4,10 +4,10 @@ import (
 	"context"
 	"strconv"
 
-	"go-common/app/admin/main/up/util/hbaseutil"
-	model "go-common/app/interface/main/creative/model/weeklyhonor"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/up/util/hbaseutil"
+	model "github.com/namelessup/bilibili/app/interface/main/creative/model/weeklyhonor"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/tsuna/gohbase/hrpc"
 )

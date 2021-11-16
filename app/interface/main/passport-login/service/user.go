@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"go-common/app/interface/main/passport-login/model"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/interface/main/passport-login/model"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 var (

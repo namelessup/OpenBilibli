@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	spym "go-common/app/service/main/spy/model"
+	spym "github.com/namelessup/bilibili/app/service/main/spy/model"
 	"testing"
 
 	. "github.com/smartystreets/goconvey/convey"

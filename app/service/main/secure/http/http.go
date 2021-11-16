@@ -3,11 +3,11 @@ package http
 import (
 	"net/http"
 
-	"go-common/app/service/main/secure/conf"
-	"go-common/app/service/main/secure/service"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/verify"
+	"github.com/namelessup/bilibili/app/service/main/secure/conf"
+	"github.com/namelessup/bilibili/app/service/main/secure/service"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/verify"
 )
 
 var (

@@ -3,10 +3,10 @@ package dao
 import (
 	"context"
 
-	"go-common/app/interface/main/space/model"
+	"github.com/namelessup/bilibili/app/interface/main/space/model"
 )
 
-//go:generate $GOPATH/src/go-common/app/tool/cache/gen
+//go:generate $GOPATH/src/github.com/namelessup/bilibili/app/tool/cache/gen
 type _cache interface {
 	// cache: -nullcache=&model.Notice{Notice:"ff2364a0be3d20e46cc69efb36afe9a5"} -check_null_code=$.Notice=="ff2364a0be3d20e46cc69efb36afe9a5"
 	Notice(c context.Context, mid int64) (*model.Notice, error)
@@ -20,7 +20,7 @@ type _cache interface {
 	TopDynamic(c context.Context, mid int64) (int64, error)
 }
 
-//go:generate $GOPATH/src/go-common/app/tool/cache/mc
+//go:generate $GOPATH/src/github.com/namelessup/bilibili/app/tool/cache/mc
 type _mc interface {
 	// get notice data from mc cache.
 	// mc: -key=noticeKey

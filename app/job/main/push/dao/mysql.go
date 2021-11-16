@@ -5,9 +5,9 @@ import (
 	"database/sql"
 	"time"
 
-	pushmdl "go-common/app/service/main/push/model"
-	xsql "go-common/library/database/sql"
-	"go-common/library/log"
+	pushmdl "github.com/namelessup/bilibili/app/service/main/push/model"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

@@ -28,7 +28,7 @@ go_library(
         "dao.go",
         "task.go",
     ],
-    importpath = "go-common/app/admin/main/aegis/dao/mc",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/aegis/dao/mc",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

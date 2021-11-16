@@ -8,10 +8,10 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/service/main/riot-search/model"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/service/main/riot-search/model"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	"github.com/ivpusic/grpool"
 )

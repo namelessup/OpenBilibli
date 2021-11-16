@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 const (

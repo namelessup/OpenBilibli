@@ -6,11 +6,11 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/job/main/account-recovery/conf"
-	"go-common/app/job/main/account-recovery/dao"
-	"go-common/app/job/main/account-recovery/model"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/job/main/account-recovery/conf"
+	"github.com/namelessup/bilibili/app/job/main/account-recovery/dao"
+	"github.com/namelessup/bilibili/app/job/main/account-recovery/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 const (

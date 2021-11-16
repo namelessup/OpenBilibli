@@ -5,7 +5,7 @@ import (
 	"encoding/hex"
 	"flag"
 	"fmt"
-	"go-common/app/admin/main/creative/conf"
+	"github.com/namelessup/bilibili/app/admin/main/creative/conf"
 	"io/ioutil"
 	"net/http"
 	"net/url"

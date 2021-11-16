@@ -11,7 +11,7 @@ go_library(
         "const.go",
         "model.go",
     ],
-    importpath = "go-common/app/interface/main/app-player/model",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-player/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

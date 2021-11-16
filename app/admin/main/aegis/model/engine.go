@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"reflect"
 
-	"go-common/app/admin/main/aegis/model/common"
-	"go-common/app/admin/main/aegis/model/net"
-	"go-common/app/admin/main/aegis/model/resource"
-	"go-common/app/admin/main/aegis/model/task"
-	member "go-common/app/service/main/account/api"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model/common"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model/net"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model/resource"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model/task"
+	member "github.com/namelessup/bilibili/app/service/main/account/api"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

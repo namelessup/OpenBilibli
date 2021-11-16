@@ -35,7 +35,7 @@ go_library(
         "databus.go",
         "redis.go",
     ],
-    importpath = "go-common/app/interface/main/app-interface/dao/bplus",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-interface/dao/bplus",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

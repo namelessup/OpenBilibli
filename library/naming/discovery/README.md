@@ -10,4 +10,4 @@ discovery的客户端SDK，包括了服务发现和服务注册功能
 
 ##### 依赖包
 
-> 1.公共包go-common
+> 1.公共包github.com/namelessup/bilibili

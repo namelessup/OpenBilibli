@@ -1,7 +1,7 @@
 package service
 
 import (
-	"go-common/app/service/main/passport/conf"
+	"github.com/namelessup/bilibili/app/service/main/passport/conf"
 	"sync"
 )
 

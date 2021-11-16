@@ -7,14 +7,14 @@ import (
 	"path/filepath"
 	"testing"
 
-	fansMedalService "go-common/app/service/live/fans_medal/api/liverpc"
-	"go-common/app/service/live/live-dm/conf"
-	liveUserService "go-common/app/service/live/live_user/api/liverpc"
-	roomService "go-common/app/service/live/room/api/liverpc"
-	userextService "go-common/app/service/live/userext/api/liverpc"
-	acctountService "go-common/app/service/main/account/api"
-	filterService "go-common/app/service/main/filter/api/grpc/v1"
-	spyService "go-common/app/service/main/spy/api"
+	fansMedalService "github.com/namelessup/bilibili/app/service/live/fans_medal/api/liverpc"
+	"github.com/namelessup/bilibili/app/service/live/live-dm/conf"
+	liveUserService "github.com/namelessup/bilibili/app/service/live/live_user/api/liverpc"
+	roomService "github.com/namelessup/bilibili/app/service/live/room/api/liverpc"
+	userextService "github.com/namelessup/bilibili/app/service/live/userext/api/liverpc"
+	acctountService "github.com/namelessup/bilibili/app/service/main/account/api"
+	filterService "github.com/namelessup/bilibili/app/service/main/filter/api/grpc/v1"
+	spyService "github.com/namelessup/bilibili/app/service/main/spy/api"
 )
 
 func init() {

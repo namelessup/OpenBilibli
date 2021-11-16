@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"go-common/app/admin/ep/merlin/conf"
+	"github.com/namelessup/bilibili/app/admin/ep/merlin/conf"
 
 	_ "github.com/go-sql-driver/mysql"
 	"gopkg.in/h2non/gock.v1"

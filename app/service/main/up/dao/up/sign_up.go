@@ -2,10 +2,10 @@ package up
 
 import (
 	"context"
-	"go-common/app/service/main/up/dao/global"
-	"go-common/app/service/main/up/model"
-	"go-common/library/log"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/service/main/up/dao/global"
+	"github.com/namelessup/bilibili/app/service/main/up/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/xstr"
 
 	"time"
 )

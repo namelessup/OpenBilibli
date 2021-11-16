@@ -11,7 +11,7 @@ go_library(
         "task.go",
         "task_log.go",
     ],
-    importpath = "go-common/app/interface/main/laser/model",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/laser/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/time:go_default_library"],

@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/service/live/userexp/conf"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/live/userexp/conf"
+	"github.com/namelessup/bilibili/library/log"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

@@ -26,7 +26,7 @@ go_library(
         "topic.go",
         "video.go",
     ],
-    importpath = "go-common/app/interface/main/favorite/http",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/favorite/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

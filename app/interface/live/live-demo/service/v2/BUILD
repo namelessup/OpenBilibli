@@ -25,7 +25,7 @@ go_library(
         "foo.go",
         "foo2.go",
     ],
-    importpath = "go-common/app/interface/live/live-demo/service/v2",
+    importpath = "github.com/namelessup/bilibili/app/interface/live/live-demo/service/v2",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -11,7 +11,7 @@ go_library(
         "from.go",
         "result.go",
     ],
-    importpath = "go-common/app/interface/main/app-intl/model/search",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-intl/model/search",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

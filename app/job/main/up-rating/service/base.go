@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/job/main/up-rating/model"
+	"github.com/namelessup/bilibili/app/job/main/up-rating/model"
 )
 
 // BaseInfoOffEnd get offset and end

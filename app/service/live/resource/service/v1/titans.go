@@ -4,18 +4,18 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"go-common/app/service/live/resource/lrucache"
-	"go-common/app/service/live/resource/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/live/resource/lrucache"
+	"github.com/namelessup/bilibili/app/service/live/resource/model"
+	"github.com/namelessup/bilibili/library/log"
 	"strconv"
 	"strings"
 	"time"
 
-	v1pb "go-common/app/service/live/resource/api/grpc/v1"
-	v1hpb "go-common/app/service/live/resource/api/http/v1"
-	"go-common/app/service/live/resource/conf"
-	"go-common/app/service/live/resource/dao"
-	"go-common/library/ecode"
+	v1pb "github.com/namelessup/bilibili/app/service/live/resource/api/grpc/v1"
+	v1hpb "github.com/namelessup/bilibili/app/service/live/resource/api/http/v1"
+	"github.com/namelessup/bilibili/app/service/live/resource/conf"
+	"github.com/namelessup/bilibili/app/service/live/resource/dao"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 // TitansService struct

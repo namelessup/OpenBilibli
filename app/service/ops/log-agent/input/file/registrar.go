@@ -10,7 +10,7 @@ import (
 	"encoding/json"
 	"context"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 type Registrar struct {

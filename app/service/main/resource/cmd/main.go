@@ -8,13 +8,13 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/app/service/main/resource/conf"
-	"go-common/app/service/main/resource/http"
-	rpc "go-common/app/service/main/resource/rpc/server"
-	grpc "go-common/app/service/main/resource/server/grpc"
-	"go-common/app/service/main/resource/service"
-	"go-common/library/log"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/app/service/main/resource/conf"
+	"github.com/namelessup/bilibili/app/service/main/resource/http"
+	rpc "github.com/namelessup/bilibili/app/service/main/resource/rpc/server"
+	grpc "github.com/namelessup/bilibili/app/service/main/resource/server/grpc"
+	"github.com/namelessup/bilibili/app/service/main/resource/service"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
 )
 
 func main() {

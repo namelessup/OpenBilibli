@@ -3,11 +3,11 @@ package v1
 import (
 	"context"
 
-	v1appconfpb "go-common/app/interface/live/app-interface/api/http/v1"
-	"go-common/app/interface/live/app-interface/conf"
-	titansSdk "go-common/app/service/live/resource/sdk"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	v1appconfpb "github.com/namelessup/bilibili/app/interface/live/app-interface/api/http/v1"
+	"github.com/namelessup/bilibili/app/interface/live/app-interface/conf"
+	titansSdk "github.com/namelessup/bilibili/app/service/live/resource/sdk"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 //AppConfService struct

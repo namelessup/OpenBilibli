@@ -16,7 +16,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["intimacy.go"],
-    importpath = "go-common/app/service/live/fans_medal/service/intimacy",
+    importpath = "github.com/namelessup/bilibili/app/service/live/fans_medal/service/intimacy",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

@@ -8,11 +8,11 @@ import (
 	"time"
 	"unsafe"
 
-	recsys "go-common/app/service/bbq/recsys/api/grpc/v1"
-	"go-common/app/service/bbq/recsys/dao/parallel"
-	"go-common/app/service/bbq/recsys/model"
-	"go-common/library/cache/redis"
-	"go-common/library/log"
+	recsys "github.com/namelessup/bilibili/app/service/bbq/recsys/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/bbq/recsys/dao/parallel"
+	"github.com/namelessup/bilibili/app/service/bbq/recsys/model"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/Dai0522/workpool"
 	"github.com/json-iterator/go"

@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"strings"
 
-	"go-common/app/interface/main/app-card/model/card/live"
-	"go-common/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/app/interface/main/app-card/model/card/live"
+	"github.com/namelessup/bilibili/app/service/main/archive/model/archive"
 )
 
 const (

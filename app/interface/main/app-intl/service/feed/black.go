@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // loadBlackCache is.

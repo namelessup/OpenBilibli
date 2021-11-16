@@ -12,7 +12,7 @@ go_library(
         "dao.go",
         "search.go",
     ],
-    importpath = "go-common/app/admin/main/feed/dao/search",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/feed/dao/search",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

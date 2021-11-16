@@ -39,7 +39,7 @@ go_library(
         "rubbish.go",
         "service.go",
     ],
-    importpath = "go-common/app/service/main/filter/service",
+    importpath = "github.com/namelessup/bilibili/app/service/main/filter/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	commonMdl "go-common/app/job/main/tv/model/common"
-	"go-common/library/cache/redis"
-	"go-common/library/log"
+	commonMdl "github.com/namelessup/bilibili/app/job/main/tv/model/common"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // keyZone gets the key of the zone in Redis

@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/admin/main/vip/model"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/admin/main/vip/model"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 // JointlysByState jointlys by state.

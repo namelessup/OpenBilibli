@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/admin/main/manager/conf"
-	"go-common/app/admin/main/manager/dao"
-	"go-common/app/admin/main/manager/model"
+	"github.com/namelessup/bilibili/app/admin/main/manager/conf"
+	"github.com/namelessup/bilibili/app/admin/main/manager/dao"
+	"github.com/namelessup/bilibili/app/admin/main/manager/model"
 )
 
 // Service biz service def.

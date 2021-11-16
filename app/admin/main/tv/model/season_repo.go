@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"strconv"
 
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/library/time"
 
 	"github.com/siddontang/go-mysql/mysql"
 )

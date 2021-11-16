@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/interface/main/passport-login/conf"
-	"go-common/library/cache/memcache"
-	xsql "go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/interface/main/passport-login/conf"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
 )
 
 // Dao dao

@@ -3,16 +3,16 @@ package service
 import (
 	"bytes"
 	"context"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/library/net/metadata"
 	"hash/crc32"
 	"net"
 	"strconv"
 	"strings"
 
-	"go-common/app/interface/main/videoup/model/archive"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/interface/main/videoup/model/archive"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 // CreatorEdit edit archive by creator.

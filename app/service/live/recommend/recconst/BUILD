@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["redis_keys.go"],
-    importpath = "go-common/app/service/live/recommend/recconst",
+    importpath = "github.com/namelessup/bilibili/app/service/live/recommend/recconst",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

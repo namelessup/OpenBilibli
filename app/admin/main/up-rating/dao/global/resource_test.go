@@ -5,8 +5,8 @@ import (
 	"os"
 	"testing"
 
-	"go-common/app/admin/main/up-rating/conf"
-	"go-common/library/net/rpc"
+	"github.com/namelessup/bilibili/app/admin/main/up-rating/conf"
+	"github.com/namelessup/bilibili/library/net/rpc"
 
 	"github.com/smartystreets/goconvey/convey"
 )

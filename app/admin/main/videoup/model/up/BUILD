@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["credit.go"],
-    importpath = "go-common/app/admin/main/videoup/model/up",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/videoup/model/up",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

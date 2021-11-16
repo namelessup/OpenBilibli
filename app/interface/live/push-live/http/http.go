@@ -4,11 +4,11 @@ import (
 	"errors"
 	"net/http"
 
-	"go-common/app/interface/live/push-live/conf"
-	"go-common/app/interface/live/push-live/service"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/interface/live/push-live/conf"
+	"github.com/namelessup/bilibili/app/interface/live/push-live/service"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 var (

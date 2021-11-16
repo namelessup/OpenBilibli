@@ -3,11 +3,11 @@ package v1
 import (
 	"flag"
 	. "github.com/smartystreets/goconvey/convey"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/metadata"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/metadata"
 
-	"go-common/app/service/live/xrewardcenter/api/grpc/v1"
-	"go-common/app/service/live/xrewardcenter/conf"
+	"github.com/namelessup/bilibili/app/service/live/xrewardcenter/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/live/xrewardcenter/conf"
 	"testing"
 )
 

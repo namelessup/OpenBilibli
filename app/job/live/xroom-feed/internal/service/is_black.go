@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	roomServeice "go-common/app/service/live/room/api/liverpc/v1"
-	"go-common/library/conf/env"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	roomServeice "github.com/namelessup/bilibili/app/service/live/room/api/liverpc/v1"
+	"github.com/namelessup/bilibili/library/conf/env"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 func (s *Service) isBlackRoomID(roomID int64) bool {

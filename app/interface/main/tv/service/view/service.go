@@ -3,13 +3,13 @@ package view
 import (
 	"context"
 
-	"go-common/app/interface/main/tv/conf"
-	"go-common/app/interface/main/tv/dao/account"
-	"go-common/app/interface/main/tv/dao/archive"
-	"go-common/app/interface/main/tv/dao/cms"
-	"go-common/app/interface/main/tv/dao/favorite"
-	"go-common/app/interface/main/tv/dao/upper"
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/app/interface/main/tv/conf"
+	"github.com/namelessup/bilibili/app/interface/main/tv/dao/account"
+	"github.com/namelessup/bilibili/app/interface/main/tv/dao/archive"
+	"github.com/namelessup/bilibili/app/interface/main/tv/dao/cms"
+	"github.com/namelessup/bilibili/app/interface/main/tv/dao/favorite"
+	"github.com/namelessup/bilibili/app/interface/main/tv/dao/upper"
+	"github.com/namelessup/bilibili/library/stat/prom"
 )
 
 // Service .

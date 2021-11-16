@@ -3,7 +3,7 @@ package model
 import (
 	"net"
 
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 // ArgDevice .

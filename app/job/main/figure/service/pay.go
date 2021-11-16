@@ -2,7 +2,7 @@ package service
 
 import (
 	"context"
-	"go-common/app/job/main/figure/model"
+	"github.com/namelessup/bilibili/app/job/main/figure/model"
 )
 
 const (

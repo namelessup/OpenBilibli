@@ -17,7 +17,7 @@ go_library(
         "mcn.go",
         "upload.go",
     ],
-    importpath = "go-common/app/interface/main/mcn/server/http",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/mcn/server/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

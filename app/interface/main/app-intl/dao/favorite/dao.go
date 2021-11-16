@@ -2,11 +2,11 @@ package favorite
 
 import (
 	"context"
-	"go-common/app/interface/main/app-intl/conf"
-	favrpc "go-common/app/service/main/favorite/api/gorpc"
-	fav "go-common/app/service/main/favorite/model"
-	httpx "go-common/library/net/http/blademaster"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/main/app-intl/conf"
+	favrpc "github.com/namelessup/bilibili/app/service/main/favorite/api/gorpc"
+	fav "github.com/namelessup/bilibili/app/service/main/favorite/model"
+	httpx "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 const (

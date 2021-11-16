@@ -34,7 +34,7 @@ go_library(
         "recruit.go",
         "ugc.go",
     ],
-    importpath = "go-common/app/interface/main/web-goblin/dao/web",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/web-goblin/dao/web",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

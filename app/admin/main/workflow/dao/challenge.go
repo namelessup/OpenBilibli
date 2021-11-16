@@ -6,7 +6,7 @@ import (
 	"encoding/json"
 	"time"
 
-	"go-common/app/admin/main/workflow/model"
+	"github.com/namelessup/bilibili/app/admin/main/workflow/model"
 
 	"github.com/jinzhu/gorm"
 	"github.com/pkg/errors"

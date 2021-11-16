@@ -4,16 +4,16 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/app/admin/main/reply/conf"
-	"go-common/app/admin/main/reply/dao"
-	artrpc "go-common/app/interface/openplatform/article/rpc/client"
-	accrpc "go-common/app/service/main/account/api"
-	arcrpc "go-common/app/service/main/archive/api/gorpc"
-	rlrpc "go-common/app/service/main/relation/rpc/client"
-	thumbup "go-common/app/service/main/thumbup/api"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/rpc/warden"
-	"go-common/library/sync/pipeline/fanout"
+	"github.com/namelessup/bilibili/app/admin/main/reply/conf"
+	"github.com/namelessup/bilibili/app/admin/main/reply/dao"
+	artrpc "github.com/namelessup/bilibili/app/interface/openplatform/article/rpc/client"
+	accrpc "github.com/namelessup/bilibili/app/service/main/account/api"
+	arcrpc "github.com/namelessup/bilibili/app/service/main/archive/api/gorpc"
+	rlrpc "github.com/namelessup/bilibili/app/service/main/relation/rpc/client"
+	thumbup "github.com/namelessup/bilibili/app/service/main/thumbup/api"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
+	"github.com/namelessup/bilibili/library/sync/pipeline/fanout"
 )
 
 // Service is a service.

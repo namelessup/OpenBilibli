@@ -3,10 +3,10 @@ package service
 import (
 	"context"
 
-	pb "go-common/app/service/main/sms/api"
-	smsmdl "go-common/app/service/main/sms/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	pb "github.com/namelessup/bilibili/app/service/main/sms/api"
+	smsmdl "github.com/namelessup/bilibili/app/service/main/sms/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

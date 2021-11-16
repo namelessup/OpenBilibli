@@ -3,11 +3,11 @@ package grpc
 import (
 	"context"
 
-	v1 "go-common/app/interface/main/app-resource/api/v1"
-	"go-common/app/interface/main/app-resource/http"
-	modulesvr "go-common/app/interface/main/app-resource/service/module"
-	"go-common/library/log"
-	"go-common/library/net/rpc/warden"
+	v1 "github.com/namelessup/bilibili/app/interface/main/app-resource/api/v1"
+	"github.com/namelessup/bilibili/app/interface/main/app-resource/http"
+	modulesvr "github.com/namelessup/bilibili/app/interface/main/app-resource/service/module"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 )
 
 // Server struct

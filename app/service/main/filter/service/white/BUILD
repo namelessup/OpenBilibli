@@ -18,7 +18,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["white.go"],
-    importpath = "go-common/app/service/main/filter/service/white",
+    importpath = "github.com/namelessup/bilibili/app/service/main/filter/service/white",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

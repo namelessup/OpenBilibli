@@ -15,7 +15,7 @@ go_library(
         "gaussian.go",
         "imgutil.go",
     ],
-    importpath = "go-common/app/interface/main/creative/dao/drawimg",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/creative/dao/drawimg",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

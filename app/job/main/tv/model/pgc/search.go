@@ -1,6 +1,6 @@
 package pgc
 
-import "go-common/library/time"
+import "github.com/namelessup/bilibili/library/time"
 
 // SearPgcCon is used for setting search pgc content
 type SearPgcCon struct {

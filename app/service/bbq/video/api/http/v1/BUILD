@@ -11,7 +11,7 @@ go_library(
         "api.go",
         "play.go",
     ],
-    importpath = "go-common/app/service/bbq/video/api/http/v1",
+    importpath = "github.com/namelessup/bilibili/app/service/bbq/video/api/http/v1",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

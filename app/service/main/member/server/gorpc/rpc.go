@@ -1,12 +1,12 @@
 package gorpc
 
 import (
-	"go-common/app/service/main/member/conf"
-	"go-common/app/service/main/member/model"
-	"go-common/app/service/main/member/service"
-	"go-common/app/service/main/member/service/block"
-	"go-common/library/net/rpc"
-	"go-common/library/net/rpc/context"
+	"github.com/namelessup/bilibili/app/service/main/member/conf"
+	"github.com/namelessup/bilibili/app/service/main/member/model"
+	"github.com/namelessup/bilibili/app/service/main/member/service"
+	"github.com/namelessup/bilibili/app/service/main/member/service/block"
+	"github.com/namelessup/bilibili/library/net/rpc"
+	"github.com/namelessup/bilibili/library/net/rpc/context"
 )
 
 // RPC is.

@@ -7,12 +7,12 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/admin/main/push/model"
-	pushmdl "go-common/app/service/main/push/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/admin/main/push/model"
+	pushmdl "github.com/namelessup/bilibili/app/service/main/push/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 func taskList(c *bm.Context) {

@@ -6,23 +6,23 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/jinzhu/gorm"
-	banned "go-common/app/service/live/banned_service/api/liverpc/v1"
-	v12 "go-common/app/service/live/fans_medal/api/liverpc/v2"
-	"go-common/app/service/live/room/api/liverpc/v1"
-	"go-common/app/service/live/room/api/liverpc/v2"
-	v1pb "go-common/app/service/live/xuser/api/grpc/v1"
-	"go-common/app/service/live/xuser/conf"
-	"go-common/app/service/live/xuser/dao"
-	"go-common/app/service/live/xuser/model"
-	account "go-common/app/service/main/account/model"
-	accrpc "go-common/app/service/main/account/rpc/client"
-	"go-common/library/cache/memcache"
-	"go-common/library/cache/redis"
-	"go-common/library/database/orm"
-	xsql "go-common/library/database/sql"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	banned "github.com/namelessup/bilibili/app/service/live/banned_service/api/liverpc/v1"
+	v12 "github.com/namelessup/bilibili/app/service/live/fans_medal/api/liverpc/v2"
+	"github.com/namelessup/bilibili/app/service/live/room/api/liverpc/v1"
+	"github.com/namelessup/bilibili/app/service/live/room/api/liverpc/v2"
+	v1pb "github.com/namelessup/bilibili/app/service/live/xuser/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/live/xuser/conf"
+	"github.com/namelessup/bilibili/app/service/live/xuser/dao"
+	"github.com/namelessup/bilibili/app/service/live/xuser/model"
+	account "github.com/namelessup/bilibili/app/service/main/account/model"
+	accrpc "github.com/namelessup/bilibili/app/service/main/account/rpc/client"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/database/orm"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 	"io/ioutil"
 	"math"
 	"net/http"
@@ -61,7 +61,7 @@ func KeyRoom(uid int64) string {
 	return fmt.Sprintf(roomPrefix, uid)
 }
 
-//go:generate $GOPATH/src/go-common/app/tool/cache/mc
+//go:generate $GOPATH/src/github.com/namelessup/bilibili/app/tool/cache/mc
 type _mc interface {
 	// 获取主播的房管列表
 	// mc: -key=KeyRoom

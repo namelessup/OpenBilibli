@@ -21,7 +21,7 @@ go_library(
         "service.go",
         "style.go",
     ],
-    importpath = "go-common/app/job/main/tv/service/report",
+    importpath = "github.com/namelessup/bilibili/app/job/main/tv/service/report",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

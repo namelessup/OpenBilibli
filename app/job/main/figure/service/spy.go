@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"go-common/app/job/main/figure/model"
-	spym "go-common/app/service/main/spy/model"
+	"github.com/namelessup/bilibili/app/job/main/figure/model"
+	spym "github.com/namelessup/bilibili/app/service/main/spy/model"
 )
 
 // PutSpyScore handle user spy score chenage message

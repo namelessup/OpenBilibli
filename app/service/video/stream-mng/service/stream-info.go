@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 	"fmt"
-	"go-common/app/service/video/stream-mng/common"
-	"go-common/app/service/video/stream-mng/model"
+	"github.com/namelessup/bilibili/app/service/video/stream-mng/common"
+	"github.com/namelessup/bilibili/app/service/video/stream-mng/model"
 )
 
 // GetStreamInfo 获取单个流信息

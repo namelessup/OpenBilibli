@@ -1,7 +1,7 @@
 package model
 
 import (
-	arcwar "go-common/app/service/main/archive/api"
+	arcwar "github.com/namelessup/bilibili/app/service/main/archive/api"
 )
 
 // FormFav is the form validation for favorites display

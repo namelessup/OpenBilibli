@@ -15,8 +15,8 @@ message ModelTemplate {
     string approver = 6 [(gogoproto.moretags) = 'json:"approver"'];
     string submitter = 7 [(gogoproto.moretags) = 'json:"submitter"'];
     repeated string param = 8 [(gogoproto.moretags) = 'json:"param" gorm:"-"'];
-    int64 ctime = 9 [(gogoproto.moretags) = 'json:"ctime" gorm:"column:ctime"', (gogoproto.casttype) = "go-common/library/time.Time"];
-    int64 mtime = 10 [(gogoproto.moretags) = 'json:"mtime" gorm:"column:mtime"', (gogoproto.casttype) = "go-common/library/time.Time"];
+    int64 ctime = 9 [(gogoproto.moretags) = 'json:"ctime" gorm:"column:ctime"', (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
+    int64 mtime = 10 [(gogoproto.moretags) = 'json:"mtime" gorm:"column:mtime"', (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
 }
 
 message ModelSend {
@@ -52,8 +52,8 @@ message ModelTask {
     string desc = 6;
     string file_name = 7;
     string file_path = 8;
-    int64 send_time = 9 [(gogoproto.casttype) = "go-common/library/time.Time"];
+    int64 send_time = 9 [(gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
     int32 status = 10;
-    int64 ctime = 11 [(gogoproto.moretags) = 'gorm:"column:ctime"', (gogoproto.casttype) = "go-common/library/time.Time"];
-    int64 mtime = 12 [(gogoproto.moretags) = 'gorm:"column:mtime"', (gogoproto.casttype) = "go-common/library/time.Time"];
+    int64 ctime = 11 [(gogoproto.moretags) = 'gorm:"column:ctime"', (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
+    int64 mtime = 12 [(gogoproto.moretags) = 'gorm:"column:mtime"', (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
 }

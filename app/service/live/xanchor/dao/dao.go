@@ -3,10 +3,10 @@ package dao
 import (
 	"context"
 
-	v1pb "go-common/app/service/live/xanchor/api/grpc/v1"
-	"go-common/app/service/live/xanchor/conf"
-	"go-common/library/cache/redis"
-	xsql "go-common/library/database/sql"
+	v1pb "github.com/namelessup/bilibili/app/service/live/xanchor/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/live/xanchor/conf"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
 )
 
 type refValue struct {

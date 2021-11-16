@@ -4,9 +4,9 @@ import (
 	"context"
 	"sync"
 
-	"go-common/app/job/main/passport-game-local/conf"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/job/main/passport-game-local/conf"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 const (

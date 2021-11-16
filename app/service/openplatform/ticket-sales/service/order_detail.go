@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/app/service/openplatform/ticket-sales/api/grpc/type"
-	rpc "go-common/app/service/openplatform/ticket-sales/api/grpc/v1"
-	"go-common/app/service/openplatform/ticket-sales/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/api/grpc/type"
+	rpc "github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // UpdateBuyer 更新购买信息

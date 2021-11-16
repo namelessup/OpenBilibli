@@ -10,10 +10,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"go-common/library/cache/redis"
-	"go-common/library/container/pool"
-	bm "go-common/library/net/http/blademaster"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/container/pool"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 func TestAntiSpamHandler(t *testing.T) {

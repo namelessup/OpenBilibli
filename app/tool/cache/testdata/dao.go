@@ -3,7 +3,7 @@ package testdata
 import (
 	"context"
 
-	"go-common/library/sync/pipeline/fanout"
+	"github.com/namelessup/bilibili/library/sync/pipeline/fanout"
 )
 
 // Article test struct
@@ -22,7 +22,7 @@ func New() *Dao {
 	return &Dao{cache: fanout.New("cache")}
 }
 
-//go:generate $GOPATH/src/go-common/app/tool/cache/gen
+//go:generate $GOPATH/src/github.com/namelessup/bilibili/app/tool/cache/gen
 type _cache interface {
 	// cache: -batch=10 -max_group=10 -batch_err=break -nullcache=&Article{ID:-1} -check_null_code=$.ID==-1
 	Articles(c context.Context, keys []int64) (map[int64]*Article, error)

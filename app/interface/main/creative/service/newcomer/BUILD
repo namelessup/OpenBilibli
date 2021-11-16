@@ -25,7 +25,7 @@ go_library(
         "state.go",
         "task.go",
     ],
-    importpath = "go-common/app/interface/main/creative/service/newcomer",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/creative/service/newcomer",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

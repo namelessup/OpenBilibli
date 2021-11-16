@@ -15,7 +15,7 @@ go_library(
         "platform.go",
         "wlog.go",
     ],
-    importpath = "go-common/app/admin/main/workflow/model/param",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/workflow/model/param",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/xstr:go_default_library"],

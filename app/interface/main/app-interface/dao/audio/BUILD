@@ -23,7 +23,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["dao.go"],
-    importpath = "go-common/app/interface/main/app-interface/dao/audio",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-interface/dao/audio",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

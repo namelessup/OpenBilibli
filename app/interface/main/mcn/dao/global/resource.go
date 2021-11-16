@@ -1,13 +1,13 @@
 package global
 
 import (
-	"go-common/app/interface/main/mcn/conf"
-	taggrpc "go-common/app/interface/main/tag/api"
-	accgrpc "go-common/app/service/main/account/api"
-	arcgrpc "go-common/app/service/main/archive/api"
-	memgrpc "go-common/app/service/main/member/api"
-	"go-common/library/cache/memcache"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/interface/main/mcn/conf"
+	taggrpc "github.com/namelessup/bilibili/app/interface/main/tag/api"
+	accgrpc "github.com/namelessup/bilibili/app/service/main/account/api"
+	arcgrpc "github.com/namelessup/bilibili/app/service/main/archive/api"
+	memgrpc "github.com/namelessup/bilibili/app/service/main/member/api"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 
 	"github.com/pkg/errors"
 )

@@ -4,11 +4,11 @@ import (
 	"context"
 	"fmt"
 
-	ugcmdl "go-common/app/job/main/tv/model/ugc"
-	arccli "go-common/app/service/main/archive/api"
-	arcmdl "go-common/app/service/main/archive/model/archive"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	ugcmdl "github.com/namelessup/bilibili/app/job/main/tv/model/ugc"
+	arccli "github.com/namelessup/bilibili/app/service/main/archive/api"
+	arcmdl "github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // VideoApi calls the rpc of video, pick videos of an archive

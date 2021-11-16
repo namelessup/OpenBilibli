@@ -3,7 +3,7 @@ package tag
 import (
 	"context"
 
-	model "go-common/app/job/main/growup/model/tag"
+	model "github.com/namelessup/bilibili/app/job/main/growup/model/tag"
 )
 
 // getAvDailyCharge get av_daily_charge

@@ -7,9 +7,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"go-common/app/admin/main/spy/conf"
-	"go-common/app/admin/main/spy/model"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/admin/main/spy/conf"
+	"github.com/namelessup/bilibili/app/admin/main/spy/model"
+	"github.com/namelessup/bilibili/library/ecode"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

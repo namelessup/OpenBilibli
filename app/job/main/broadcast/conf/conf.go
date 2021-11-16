@@ -1,13 +1,13 @@
 package conf
 
 import (
-	ecode "go-common/library/ecode/tip"
-	"go-common/library/log"
-	"go-common/library/naming/discovery"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/rpc/warden"
-	"go-common/library/queue/databus"
-	xtime "go-common/library/time"
+	ecode "github.com/namelessup/bilibili/library/ecode/tip"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/naming/discovery"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
+	"github.com/namelessup/bilibili/library/queue/databus"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	"github.com/BurntSushi/toml"
 )

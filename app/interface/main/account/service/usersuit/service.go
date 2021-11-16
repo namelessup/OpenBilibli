@@ -3,13 +3,13 @@ package usersuit
 import (
 	"context"
 
-	"go-common/app/interface/main/account/conf"
-	"go-common/app/interface/main/account/dao/usersuit"
-	"go-common/app/interface/main/account/dao/vip"
-	accrpc "go-common/app/service/main/account/rpc/client"
-	coinrpc "go-common/app/service/main/coin/api/gorpc"
-	memrpc "go-common/app/service/main/member/api/gorpc"
-	usrpc "go-common/app/service/main/usersuit/rpc/client"
+	"github.com/namelessup/bilibili/app/interface/main/account/conf"
+	"github.com/namelessup/bilibili/app/interface/main/account/dao/usersuit"
+	"github.com/namelessup/bilibili/app/interface/main/account/dao/vip"
+	accrpc "github.com/namelessup/bilibili/app/service/main/account/rpc/client"
+	coinrpc "github.com/namelessup/bilibili/app/service/main/coin/api/gorpc"
+	memrpc "github.com/namelessup/bilibili/app/service/main/member/api/gorpc"
+	usrpc "github.com/namelessup/bilibili/app/service/main/usersuit/rpc/client"
 )
 
 // Service struct.

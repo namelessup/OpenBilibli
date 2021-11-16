@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"context"
-	"go-common/app/admin/main/laser/model"
+	"github.com/namelessup/bilibili/app/admin/main/laser/model"
 )
 
 // QueryTaskLog is query the finished task

@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"go-common/app/job/main/creative/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/creative/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 //UserTasks get user unfinish  task.

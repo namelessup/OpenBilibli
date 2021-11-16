@@ -9,10 +9,10 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/service/main/history/model"
-	"go-common/library/log"
-	"go-common/library/stat/prom"
-	"go-common/library/sync/pipeline"
+	"github.com/namelessup/bilibili/app/service/main/history/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/stat/prom"
+	"github.com/namelessup/bilibili/library/sync/pipeline"
 )
 
 func (s *Service) serviceConsumeproc() {

@@ -12,7 +12,7 @@ go_library(
         "dao.go",
         "upload.go",
     ],
-    importpath = "go-common/app/admin/main/mcn/dao/bfs",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/mcn/dao/bfs",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

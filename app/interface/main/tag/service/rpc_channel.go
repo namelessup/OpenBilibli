@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 
-	rpcModel "go-common/app/service/main/tag/model"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	rpcModel "github.com/namelessup/bilibili/app/service/main/tag/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 // AddCustomSubChannel AddCustomSubChannel.

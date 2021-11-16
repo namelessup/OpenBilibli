@@ -5,8 +5,8 @@ import (
 	"database/sql"
 	"fmt"
 
-	"go-common/app/admin/main/filter/model"
-	xsql "go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/admin/main/filter/model"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
 )
 
 const (

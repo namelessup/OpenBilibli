@@ -21,7 +21,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["reply.go"],
-    importpath = "go-common/app/interface/main/account/dao/reply",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/account/dao/reply",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

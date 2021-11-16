@@ -2,7 +2,7 @@ package dao
 
 import (
 	"context"
-	"go-common/app/interface/openplatform/article/model"
+	"github.com/namelessup/bilibili/app/interface/openplatform/article/model"
 	"testing"
 
 	. "github.com/smartystreets/goconvey/convey"

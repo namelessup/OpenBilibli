@@ -11,7 +11,7 @@ go_library(
         "model.go",
         "room_info.go",
     ],
-    importpath = "go-common/app/job/live/push-search/model",
+    importpath = "github.com/namelessup/bilibili/app/job/live/push-search/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

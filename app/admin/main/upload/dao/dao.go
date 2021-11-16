@@ -4,7 +4,7 @@ import (
 	"context"
 	"strings"
 
-	"go-common/app/admin/main/upload/conf"
+	"github.com/namelessup/bilibili/app/admin/main/upload/conf"
 
 	"github.com/tsuna/gohbase"
 )

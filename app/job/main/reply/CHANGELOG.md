@@ -414,7 +414,7 @@
 > 6.更新基础库依赖
 
 ##### Version 3.3.0
-> 1.更新go-common依赖
+> 1.更新github.com/namelessup/bilibili依赖
 
 ##### Version 3.2.2
 > 1.修复二级评论计数
@@ -429,7 +429,7 @@
 ##### Version 3.1.0
 > 1.增加电影区评论跳转
 > 2.更新go-business至1.6.0
-> 3.更新go-common至4.1.3
+> 3.更新github.com/namelessup/bilibili至4.1.3
 
 ##### v3.0.1
 > 1.更新基础库依赖包

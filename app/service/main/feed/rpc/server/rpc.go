@@ -1,12 +1,12 @@
 package server
 
 import (
-	artmdl "go-common/app/interface/openplatform/article/model"
-	"go-common/app/service/main/feed/conf"
-	feedmdl "go-common/app/service/main/feed/model"
-	"go-common/app/service/main/feed/service"
-	"go-common/library/net/rpc"
-	"go-common/library/net/rpc/context"
+	artmdl "github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	"github.com/namelessup/bilibili/app/service/main/feed/conf"
+	feedmdl "github.com/namelessup/bilibili/app/service/main/feed/model"
+	"github.com/namelessup/bilibili/app/service/main/feed/service"
+	"github.com/namelessup/bilibili/library/net/rpc"
+	"github.com/namelessup/bilibili/library/net/rpc/context"
 )
 
 // RPC struct info

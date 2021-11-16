@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/job/main/tv/conf"
+	"github.com/namelessup/bilibili/app/job/main/tv/conf"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

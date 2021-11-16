@@ -6,7 +6,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["input.go"],
-    importpath = "go-common/app/tool/gorpc/input",
+    importpath = "github.com/namelessup/bilibili/app/tool/gorpc/input",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//app/tool/gorpc/model:go_default_library"],

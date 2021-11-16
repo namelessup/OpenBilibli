@@ -3,10 +3,10 @@ package http
 import (
 	"net/http"
 
-	"go-common/app/job/main/feed/conf"
-	"go-common/app/job/main/feed/service"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/job/main/feed/conf"
+	"github.com/namelessup/bilibili/app/job/main/feed/service"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 var fjSrv *service.Service

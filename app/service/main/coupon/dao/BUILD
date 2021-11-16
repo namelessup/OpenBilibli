@@ -44,7 +44,7 @@ go_library(
         "mysql.go",
         "prize.go",
     ],
-    importpath = "go-common/app/service/main/coupon/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/main/coupon/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

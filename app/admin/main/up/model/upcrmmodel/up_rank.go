@@ -1,6 +1,6 @@
 package upcrmmodel
 
-import "go-common/library/time"
+import "github.com/namelessup/bilibili/library/time"
 
 const (
 	//UpRankTypeFans30day1k 7

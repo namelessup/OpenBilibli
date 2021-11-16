@@ -3,13 +3,13 @@ package http
 import (
 	"net/http"
 
-	"go-common/app/service/live/recommend/api/grpc/v1"
-	"go-common/app/service/live/recommend/internal/conf"
-	"go-common/app/service/live/recommend/internal/service"
-	v12 "go-common/app/service/live/recommend/internal/service/v1"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/verify"
+	"github.com/namelessup/bilibili/app/service/live/recommend/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/live/recommend/internal/conf"
+	"github.com/namelessup/bilibili/app/service/live/recommend/internal/service"
+	v12 "github.com/namelessup/bilibili/app/service/live/recommend/internal/service/v1"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/verify"
 )
 
 var (

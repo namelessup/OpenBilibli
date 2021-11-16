@@ -4,14 +4,14 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/interface/openplatform/article/conf"
-	"go-common/app/interface/openplatform/article/dao"
-	"go-common/app/interface/openplatform/article/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/metadata"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/interface/openplatform/article/conf"
+	"github.com/namelessup/bilibili/app/interface/openplatform/article/dao"
+	"github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 const (

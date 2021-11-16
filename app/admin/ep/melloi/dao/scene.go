@@ -4,8 +4,8 @@ import (
 	"strconv"
 	"strings"
 
-	"go-common/app/admin/ep/melloi/conf"
-	"go-common/app/admin/ep/melloi/model"
+	"github.com/namelessup/bilibili/app/admin/ep/melloi/conf"
+	"github.com/namelessup/bilibili/app/admin/ep/melloi/model"
 )
 
 // AddScene Add Scene

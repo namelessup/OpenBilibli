@@ -13,7 +13,7 @@ go_library(
         "rpc.go",
         "zlimit.go",
     ],
-    importpath = "go-common/app/service/main/location/model",
+    importpath = "github.com/namelessup/bilibili/app/service/main/location/model",
     tags = ["automanaged"],
 )
 

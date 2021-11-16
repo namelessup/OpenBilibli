@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/admin/main/point/model"
-	"go-common/library/database/elastic"
+	"github.com/namelessup/bilibili/app/admin/main/point/model"
+	"github.com/namelessup/bilibili/library/database/elastic"
 
 	"github.com/pkg/errors"
 )

@@ -12,7 +12,7 @@ go_library(
         "bom.go",
         "discard_go15.go",
     ],
-    importpath = "go-common/app/admin/main/member/model/bom",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/member/model/bom",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

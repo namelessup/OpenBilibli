@@ -9,11 +9,11 @@ import (
 	"time"
 
 	"github.com/jinzhu/gorm"
-	"go-common/app/admin/main/aegis/model"
-	"go-common/app/admin/main/aegis/model/net"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model/net"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 func (s *Service) checkBindToken(c context.Context, tokenID []int64) (tokenMap map[string]*net.Token, err error, msg string) {

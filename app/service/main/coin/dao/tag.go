@@ -5,7 +5,7 @@ import (
 	"net/url"
 	"strconv"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // TagIds get tag ids from tag

@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"context"
 
-	"go-common/app/interface/main/account/model"
-	v1 "go-common/app/service/main/vip/api"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/account/model"
+	v1 "github.com/namelessup/bilibili/app/service/main/vip/api"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // ElemeOAuthURI get ele oauth uri.

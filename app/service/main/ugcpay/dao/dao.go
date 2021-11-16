@@ -4,13 +4,13 @@ import (
 	"context"
 	"fmt"
 
-	arcGRPC "go-common/app/service/main/archive/api"
-	"go-common/app/service/main/ugcpay/conf"
-	"go-common/app/service/main/ugcpay/model"
-	"go-common/library/cache"
-	"go-common/library/cache/memcache"
-	"go-common/library/cache/redis"
-	xsql "go-common/library/database/sql"
+	arcGRPC "github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/app/service/main/ugcpay/conf"
+	"github.com/namelessup/bilibili/app/service/main/ugcpay/model"
+	"github.com/namelessup/bilibili/library/cache"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
 )
 
 // Dao dao
@@ -63,7 +63,7 @@ func (d *Dao) cacheSFAsset(oid int64, otype string, currency string) string {
 	return fmt.Sprintf("up_a_sf_%d_%s_%s", oid, otype, currency)
 }
 
-//go:generate $GOPATH/src/go-common/app/tool/cache/mc
+//go:generate $GOPATH/src/github.com/namelessup/bilibili/app/tool/cache/mc
 type _mc interface {
 	//mc: -key=orderKey -type=get
 	CacheOrderUser(c context.Context, id int64) (*model.Order, error)
@@ -80,7 +80,7 @@ type _mc interface {
 	DelCacheAsset(c context.Context, oid int64, otype string, currency string) error
 }
 
-//go:generate $GOPATH/src/go-common/app/tool/cache/gen
+//go:generate $GOPATH/src/github.com/namelessup/bilibili/app/tool/cache/gen
 type _cache interface {
 	// cache: -nullcache=&model.Order{ID:-1} -check_null_code=$!=nil&&$.ID==-1
 	OrderUser(c context.Context, id int64) (*model.Order, error)

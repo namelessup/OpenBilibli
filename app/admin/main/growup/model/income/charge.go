@@ -1,6 +1,6 @@
 package income
 
-import "go-common/library/time"
+import "github.com/namelessup/bilibili/library/time"
 
 // ArchiveCharge av charge
 type ArchiveCharge struct {

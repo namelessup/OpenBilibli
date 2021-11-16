@@ -11,7 +11,7 @@ go_library(
         "http.go",
         "task.go",
     ],
-    importpath = "go-common/app/interface/main/laser/http",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/laser/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

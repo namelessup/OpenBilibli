@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["model.go"],
-    importpath = "go-common/app/job/main/web-goblin/model/esports",
+    importpath = "github.com/namelessup/bilibili/app/job/main/web-goblin/model/esports",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

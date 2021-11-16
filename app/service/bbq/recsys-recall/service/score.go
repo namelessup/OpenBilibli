@@ -1,7 +1,7 @@
 package service
 
 import (
-	"go-common/app/service/bbq/recsys-recall/dao"
+	"github.com/namelessup/bilibili/app/service/bbq/recsys-recall/dao"
 	"math/rand"
 )
 

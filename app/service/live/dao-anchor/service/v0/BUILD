@@ -23,7 +23,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["createData.go"],
-    importpath = "go-common/app/service/live/dao-anchor/service/v0",
+    importpath = "github.com/namelessup/bilibili/app/service/live/dao-anchor/service/v0",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

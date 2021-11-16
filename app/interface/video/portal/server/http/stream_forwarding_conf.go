@@ -1,8 +1,8 @@
 package http
 
 import (
-	"go-common/app/interface/video/portal/conf"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/interface/video/portal/conf"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func txStreamForwardingConf(c *bm.Context) {

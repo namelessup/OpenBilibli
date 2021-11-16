@@ -3,13 +3,13 @@ package reply
 import (
 	"context"
 	"flag"
-	"go-common/app/interface/main/creative/conf"
-	seamdl "go-common/app/interface/main/creative/model/search"
+	"github.com/namelessup/bilibili/app/interface/main/creative/conf"
+	seamdl "github.com/namelessup/bilibili/app/interface/main/creative/model/search"
 	"path/filepath"
 	"testing"
 	"time"
 
-	"go-common/app/interface/main/creative/service"
+	"github.com/namelessup/bilibili/app/interface/main/creative/service"
 
 	"github.com/davecgh/go-spew/spew"
 	. "github.com/smartystreets/goconvey/convey"

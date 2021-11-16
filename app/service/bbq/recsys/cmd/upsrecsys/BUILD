@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["main.go"],
-    importpath = "go-common/app/service/bbq/recsys/cmd/upsrecsys",
+    importpath = "github.com/namelessup/bilibili/app/service/bbq/recsys/cmd/upsrecsys",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

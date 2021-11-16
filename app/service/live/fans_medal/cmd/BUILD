@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["test.toml"],
-    importpath = "go-common/app/service/live/fans_medal/cmd",
+    importpath = "github.com/namelessup/bilibili/app/service/live/fans_medal/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

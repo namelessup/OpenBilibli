@@ -17,7 +17,7 @@ go_library(
         "date_statia.go",
         "up_charge.go",
     ],
-    importpath = "go-common/app/job/main/growup/dao/charge",
+    importpath = "github.com/namelessup/bilibili/app/job/main/growup/dao/charge",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

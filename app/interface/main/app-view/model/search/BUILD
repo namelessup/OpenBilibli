@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["search.go"],
-    importpath = "go-common/app/interface/main/app-view/model/search",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-view/model/search",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

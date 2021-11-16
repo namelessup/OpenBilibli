@@ -14,7 +14,7 @@ go_library(
         "report.go",
         "view.go",
     ],
-    importpath = "go-common/app/interface/main/app-view/http",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-view/http",
     tags = ["automanaged"],
     deps = [
         "//app/interface/main/app-view/conf:go_default_library",

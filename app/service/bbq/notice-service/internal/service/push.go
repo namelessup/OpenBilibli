@@ -8,12 +8,12 @@ import (
 
 	"github.com/json-iterator/go"
 
-	"go-common/app/service/bbq/notice-service/api/v1"
-	"go-common/app/service/bbq/notice-service/internal/conf"
-	"go-common/app/service/bbq/notice-service/internal/model"
-	push "go-common/app/service/bbq/push/api/grpc/v1"
-	"go-common/library/log"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/app/service/bbq/notice-service/api/v1"
+	"github.com/namelessup/bilibili/app/service/bbq/notice-service/internal/conf"
+	"github.com/namelessup/bilibili/app/service/bbq/notice-service/internal/model"
+	push "github.com/namelessup/bilibili/app/service/bbq/push/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
 )
 
 func (s *Service) needPush(c context.Context, notice *v1.NoticeBase) bool {

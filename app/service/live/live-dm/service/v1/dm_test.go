@@ -3,9 +3,9 @@ package v1
 import (
 	"context"
 	"flag"
-	v1pb "go-common/app/service/live/live-dm/api/grpc/v1"
-	"go-common/app/service/live/live-dm/conf"
-	"go-common/app/service/live/live-dm/dao"
+	v1pb "github.com/namelessup/bilibili/app/service/live/live-dm/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/live/live-dm/conf"
+	"github.com/namelessup/bilibili/app/service/live/live-dm/dao"
 	"path/filepath"
 	"testing"
 )

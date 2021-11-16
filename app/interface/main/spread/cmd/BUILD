@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["spread-test.toml"],
-    importpath = "go-common/app/interface/main/spread/cmd",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/spread/cmd",
     tags = ["automanaged"],
     deps = [
         "//app/interface/main/spread/conf:go_default_library",

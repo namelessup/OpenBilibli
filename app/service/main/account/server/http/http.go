@@ -4,13 +4,13 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"go-common/app/service/main/account/conf"
-	"go-common/app/service/main/account/model"
-	"go-common/app/service/main/account/service"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	v "go-common/library/net/http/blademaster/middleware/verify"
+	"github.com/namelessup/bilibili/app/service/main/account/conf"
+	"github.com/namelessup/bilibili/app/service/main/account/model"
+	"github.com/namelessup/bilibili/app/service/main/account/service"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	v "github.com/namelessup/bilibili/library/net/http/blademaster/middleware/verify"
 )
 
 var (

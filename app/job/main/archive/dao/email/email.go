@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"strconv"
 
-	"go-common/app/job/main/archive/model/result"
-	"go-common/app/service/main/archive/api"
-	"go-common/app/service/main/archive/model/archive"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/archive/model/result"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/library/log"
 
 	gomail "gopkg.in/gomail.v2"
 )

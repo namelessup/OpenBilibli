@@ -5,8 +5,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"go-common/app/admin/main/tag/conf"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/tag/conf"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 var testSvc *Service

@@ -22,7 +22,7 @@ import fmt "fmt"
 import math "math"
 import _ "github.com/gogo/protobuf/gogoproto"
 
-import go_common_library_time "go-common/library/time"
+import go_common_library_time "github.com/namelessup/bilibili/library/time"
 
 import strings "strings"
 import reflect "reflect"
@@ -45,7 +45,7 @@ type Field struct {
 	Oid     int64                       `protobuf:"varint,2,opt,name=Oid,proto3" json:"oid"`
 	Pid     int16                       `protobuf:"varint,3,opt,name=Pid,proto3,casttype=int16" json:"pid"`
 	Click   int                         `protobuf:"varint,4,opt,name=Click,proto3,casttype=int" json:"click"`
-	Pubtime go_common_library_time.Time `protobuf:"varint,5,opt,name=Pubtime,proto3,casttype=go-common/library/time.Time" json:"pubtime"`
+	Pubtime go_common_library_time.Time `protobuf:"varint,5,opt,name=Pubtime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"pubtime"`
 	Result  int8                        `protobuf:"varint,6,opt,name=Result,proto3,casttype=int8" json:"result"`
 	Deleted int8                        `protobuf:"varint,7,opt,name=Deleted,proto3,casttype=int8" json:"deleted"`
 	Valid   int8                        `protobuf:"varint,8,opt,name=Valid,proto3,casttype=int8" json:"valid"`

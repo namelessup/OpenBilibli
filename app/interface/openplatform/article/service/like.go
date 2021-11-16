@@ -3,11 +3,11 @@ package service
 import (
 	"context"
 
-	"go-common/app/interface/openplatform/article/dao"
-	artmdl "go-common/app/interface/openplatform/article/model"
-	thumbupmdl "go-common/app/service/main/thumbup/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/openplatform/article/dao"
+	artmdl "github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	thumbupmdl "github.com/namelessup/bilibili/app/service/main/thumbup/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) isLike(c context.Context, mid, aid int64) (res int8, err error) {

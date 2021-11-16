@@ -2,12 +2,12 @@ package service
 
 import (
 	"context"
-	"go-common/app/admin/main/aegis/model/net"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model/net"
 	"testing"
 
 	"encoding/json"
 	"github.com/smartystreets/goconvey/convey"
-	"go-common/app/admin/main/aegis/model"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model"
 )
 
 func TestServiceShowDirection(t *testing.T) {

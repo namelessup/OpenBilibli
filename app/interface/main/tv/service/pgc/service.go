@@ -3,11 +3,11 @@ package pgc
 import (
 	"context"
 
-	"go-common/app/interface/main/tv/conf"
-	appDao "go-common/app/interface/main/tv/dao/app"
-	"go-common/app/interface/main/tv/dao/cms"
-	"go-common/app/interface/main/tv/dao/pgc"
-	"go-common/app/interface/main/tv/model"
+	"github.com/namelessup/bilibili/app/interface/main/tv/conf"
+	appDao "github.com/namelessup/bilibili/app/interface/main/tv/dao/app"
+	"github.com/namelessup/bilibili/app/interface/main/tv/dao/cms"
+	"github.com/namelessup/bilibili/app/interface/main/tv/dao/pgc"
+	"github.com/namelessup/bilibili/app/interface/main/tv/model"
 )
 
 var ctx = context.Background()

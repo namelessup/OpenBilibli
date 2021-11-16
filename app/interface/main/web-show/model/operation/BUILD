@@ -11,7 +11,7 @@ go_library(
         "operation.go",
         "promote.go",
     ],
-    importpath = "go-common/app/interface/main/web-show/model/operation",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/web-show/model/operation",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//app/service/main/archive/api:go_default_library"],

@@ -7,8 +7,8 @@ import (
 	"os"
 	"strings"
 
-	"go-common/app/job/bbq/recall/proto"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/bbq/recall/proto"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/golang/snappy"
 )

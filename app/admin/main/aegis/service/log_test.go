@@ -7,11 +7,11 @@ import (
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"
-	"go-common/app/admin/main/aegis/model"
-	"go-common/app/admin/main/aegis/model/common"
-	"go-common/app/admin/main/aegis/model/net"
-	"go-common/app/admin/main/aegis/model/resource"
-	"go-common/app/admin/main/aegis/model/task"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model/common"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model/net"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model/resource"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model/task"
 )
 
 func Test_AuditLog(t *testing.T) {

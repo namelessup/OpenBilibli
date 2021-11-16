@@ -8,11 +8,11 @@ import (
 	"sync"
 	"time"
 
-	"go-common/app/infra/databus/conf"
-	"go-common/app/infra/databus/dsn"
-	"go-common/app/infra/databus/model"
-	"go-common/app/infra/databus/service"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/infra/databus/conf"
+	"github.com/namelessup/bilibili/app/infra/databus/dsn"
+	"github.com/namelessup/bilibili/app/infra/databus/model"
+	"github.com/namelessup/bilibili/app/infra/databus/service"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/Shopify/sarama"
 	metrics "github.com/rcrowley/go-metrics"

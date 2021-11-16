@@ -28,7 +28,7 @@ go_library(
         "pool.go",
         "slice.go",
     ],
-    importpath = "go-common/library/container/pool",
+    importpath = "github.com/namelessup/bilibili/library/container/pool",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/time:go_default_library"],

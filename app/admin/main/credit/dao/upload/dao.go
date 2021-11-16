@@ -11,9 +11,9 @@ import (
 	"net/http"
 	"strconv"
 
-	"go-common/app/admin/main/credit/conf"
-	"go-common/library/log"
-	httpx "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/credit/conf"
+	"github.com/namelessup/bilibili/library/log"
+	httpx "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 const (

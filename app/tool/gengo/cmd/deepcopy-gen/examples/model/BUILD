@@ -11,7 +11,7 @@ go_library(
         "doc.go",
         "model.go",
     ],
-    importpath = "go-common/app/tool/gengo/cmd/deepcopy-gen/examples/model",
+    importpath = "github.com/namelessup/bilibili/app/tool/gengo/cmd/deepcopy-gen/examples/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/time:go_default_library"],

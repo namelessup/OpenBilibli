@@ -1,8 +1,8 @@
 package dao
 
 import (
-	"go-common/app/service/main/account-recovery/conf"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/account-recovery/conf"
+	"github.com/namelessup/bilibili/library/log"
 
 	"gopkg.in/gomail.v2"
 )

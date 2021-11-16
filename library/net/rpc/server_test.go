@@ -12,7 +12,7 @@ import (
 	"testing"
 	"time"
 
-	"go-common/library/net/rpc/context"
+	"github.com/namelessup/bilibili/library/net/rpc/context"
 )
 
 var (

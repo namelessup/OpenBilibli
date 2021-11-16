@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // ReviewConf 复审配置

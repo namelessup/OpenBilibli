@@ -6,10 +6,10 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/service/main/sms/model"
-	xsql "go-common/library/database/sql"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/service/main/sms/model"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 func (s *Service) loadTaskproc() {

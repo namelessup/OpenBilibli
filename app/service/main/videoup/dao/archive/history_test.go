@@ -6,7 +6,7 @@ import (
 	"time"
 
 	. "github.com/smartystreets/goconvey/convey"
-	"go-common/app/service/main/videoup/model/archive"
+	"github.com/namelessup/bilibili/app/service/main/videoup/model/archive"
 )
 
 func TestDao_TxAddArcHistory(t *testing.T) {

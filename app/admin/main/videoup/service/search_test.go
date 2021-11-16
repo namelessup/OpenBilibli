@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 	. "github.com/smartystreets/goconvey/convey"
-	"go-common/app/admin/main/videoup/model/search"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/videoup/model/search"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 	"testing"
 )
 

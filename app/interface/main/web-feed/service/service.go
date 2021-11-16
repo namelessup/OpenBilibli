@@ -3,11 +3,11 @@ package service
 import (
 	"context"
 
-	"go-common/app/interface/main/web-feed/conf"
-	"go-common/app/interface/main/web-feed/dao"
-	accrpc "go-common/app/service/main/account/rpc/client"
-	feedrpc "go-common/app/service/main/feed/rpc/client"
-	"go-common/library/cache"
+	"github.com/namelessup/bilibili/app/interface/main/web-feed/conf"
+	"github.com/namelessup/bilibili/app/interface/main/web-feed/dao"
+	accrpc "github.com/namelessup/bilibili/app/service/main/account/rpc/client"
+	feedrpc "github.com/namelessup/bilibili/app/service/main/feed/rpc/client"
+	"github.com/namelessup/bilibili/library/cache"
 )
 
 // Service service struct info

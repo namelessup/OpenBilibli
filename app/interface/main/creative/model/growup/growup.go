@@ -1,6 +1,6 @@
 package growup
 
-import "go-common/library/time"
+import "github.com/namelessup/bilibili/library/time"
 
 //UpInfo get up state info
 type UpInfo struct {

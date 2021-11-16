@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strconv"
 
-	"go-common/app/job/main/member-cache/model"
-	"go-common/library/cache/memcache"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/member-cache/model"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/pkg/errors"
 )

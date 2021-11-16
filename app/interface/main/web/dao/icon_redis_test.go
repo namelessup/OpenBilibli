@@ -2,7 +2,7 @@ package dao
 
 import (
 	"context"
-	resmdl "go-common/app/service/main/resource/model"
+	resmdl "github.com/namelessup/bilibili/app/service/main/resource/model"
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"

@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"time"
 
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/render"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/render"
 )
 
 func upWithdraw(c *bm.Context) {

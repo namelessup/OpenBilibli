@@ -33,7 +33,7 @@ function GetPackages(){
         if [[ "${file}" =~ "/mock" ]]; then
             continue
         fi
-        package="go-common/$(dirname ${file})"
+        package="github.com/namelessup/bilibili/$(dirname ${file})"
         if [[ ${packages} =~ ${package} ]]; then
             continue
         fi
@@ -114,7 +114,7 @@ function Check(){
 }
 
 function ReadDir(){
-    # get go-common/app all dir path
+    # get github.com/namelessup/bilibili/app all dir path
     gopath=${GOPATH%..}
     PathDirs=`find ${gopath}app -maxdepth 3 -type d`
     value=""
@@ -124,7 +124,7 @@ function ReadDir(){
             for file in `find ${dir} -maxdepth 1 -type f |grep "OWNERS"`
             do
                 owner=""
-                substr=${dir#*"go-common"}
+                substr=${dir#*"github.com/namelessup/bilibili"}
                 while read line
                 do
                     if [[ "${line}" = "#"* ]] || [[ "${line}" = "" ]] || [[ "${line}" = "approvers:" ]];then
@@ -135,7 +135,7 @@ function ReadDir(){
                         owner+="${line:1},"
                     fi
                 done < ${file}
-                value+="{\"path\":\"go-common${substr}\",\"owner\":\"${owner%,}\"},"
+                value+="{\"path\":\"github.com/namelessup/bilibili${substr}\",\"owner\":\"${owner%,}\"},"
             done
         fi
     done
@@ -170,9 +170,9 @@ function UTLint()
 # BazelTest execute bazel coverage and go tool
 # $1: pkg
 function BazelTest(){
-    cd $GOPATH/go-common
-    pkg=${1//go-common//}":go_default_test"
-    path=${1//go-common\//}
+    cd $GOPATH/github.com/namelessup/bilibili
+    pkg=${1//github.com/namelessup/bilibili//}":go_default_test"
+    path=${1//github.com/namelessup/bilibili\//}
 
     bazel coverage --config=ci --instrumentation_filter="//${path}[:],-//${path}/mock[/:]" --test_env=DEPLOY_ENV=uat --test_timeout=60 --test_env=APP_ID=bazel.test --test_output=all --cache_test_results=auto --test_arg=-convey-json ${pkg} > result.out
     if [[ ! -s result.out ]]; then 
@@ -181,17 +181,17 @@ function BazelTest(){
         exit 1
     else
         echo $?
-        cp $GOPATH/go-common/bazel-out/k8-fastbuild/testlogs/${path}/go_default_test/coverage.dat ./
+        cp $GOPATH/github.com/namelessup/bilibili/bazel-out/k8-fastbuild/testlogs/${path}/go_default_test/coverage.dat ./
         go tool cover -html=coverage.dat -o cover.html
     fi
 }
 
 # BazelTest execute bazel coverage for All files
-# $1: pkg(go-common/app/admin/main/xxx/dao)
+# $1: pkg(github.com/namelessup/bilibili/app/admin/main/xxx/dao)
 function BazelTestAll(){
-    cd $GOPATH/go-common
-    pkg=${1//go-common//}"/..."
-    path=${1//go-common\//}
+    cd $GOPATH/github.com/namelessup/bilibili
+    pkg=${1//github.com/namelessup/bilibili//}"/..."
+    path=${1//github.com/namelessup/bilibili\//}
     echo "RunProjUT.BazelTestAll(${1}) pkg(${pkg}) path(${path}) pwd($(pwd))"
     bazel coverage --config=ci --instrumentation_filter="//${path}[/:],-//${path}/mock[/:]" --test_env=DEPLOY_ENV=uat --test_timeout=60 --test_env=APP_ID=bazel.test --test_output=all --cache_test_results=auto --test_arg=-convey-json ${pkg} > result.out
     find bazel-out/k8-fastbuild/testlogs/${path} -name "coverage.dat" | xargs cat | sort -nr | rev | uniq -s 1 | rev > coverage.dat

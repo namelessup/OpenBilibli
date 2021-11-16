@@ -6,14 +6,14 @@ import (
 	"runtime"
 	"time"
 
-	"go-common/app/admin/main/filter/conf"
-	"go-common/app/admin/main/filter/http"
-	"go-common/app/admin/main/filter/service"
-	ecode "go-common/library/ecode/tip"
-	"go-common/library/log"
-	"go-common/library/net/trace"
-	"go-common/library/os/signal"
-	"go-common/library/syscall"
+	"github.com/namelessup/bilibili/app/admin/main/filter/conf"
+	"github.com/namelessup/bilibili/app/admin/main/filter/http"
+	"github.com/namelessup/bilibili/app/admin/main/filter/service"
+	ecode "github.com/namelessup/bilibili/library/ecode/tip"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
+	"github.com/namelessup/bilibili/library/os/signal"
+	"github.com/namelessup/bilibili/library/syscall"
 )
 
 func main() {

@@ -2,16 +2,16 @@ package search
 
 import (
 	"context"
-	"go-common/library/sync/errgroup"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
+	"github.com/namelessup/bilibili/library/xstr"
 	"net/http"
 	"net/url"
 	"strconv"
 
-	mdlSearch "go-common/app/interface/main/tv/model/search"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	mdlSearch "github.com/namelessup/bilibili/app/interface/main/tv/model/search"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 // UserSearch search user .

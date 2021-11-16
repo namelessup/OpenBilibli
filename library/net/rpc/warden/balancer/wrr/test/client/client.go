@@ -7,12 +7,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go-common/library/exp/feature"
-	"go-common/library/log"
-	"go-common/library/net/rpc/warden"
-	pb "go-common/library/net/rpc/warden/proto/testproto"
-	"go-common/library/net/rpc/warden/resolver"
-	"go-common/library/net/rpc/warden/resolver/direct"
+	"github.com/namelessup/bilibili/library/exp/feature"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
+	pb "github.com/namelessup/bilibili/library/net/rpc/warden/proto/testproto"
+	"github.com/namelessup/bilibili/library/net/rpc/warden/resolver"
+	"github.com/namelessup/bilibili/library/net/rpc/warden/resolver/direct"
 )
 
 var addrs string

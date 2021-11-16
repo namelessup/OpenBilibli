@@ -8,10 +8,10 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/service/bbq/notice-service/api/v1"
-	push "go-common/app/service/bbq/push/api/grpc/v1"
-	"go-common/library/cache/redis"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/bbq/notice-service/api/v1"
+	push "github.com/namelessup/bilibili/app/service/bbq/push/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

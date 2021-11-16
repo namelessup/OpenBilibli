@@ -3,9 +3,9 @@ package relation
 import (
 	"context"
 
-	"go-common/app/interface/main/app-view/conf"
-	relation "go-common/app/service/main/relation/model"
-	relrpc "go-common/app/service/main/relation/rpc/client"
+	"github.com/namelessup/bilibili/app/interface/main/app-view/conf"
+	relation "github.com/namelessup/bilibili/app/service/main/relation/model"
+	relrpc "github.com/namelessup/bilibili/app/service/main/relation/rpc/client"
 
 	"github.com/pkg/errors"
 )

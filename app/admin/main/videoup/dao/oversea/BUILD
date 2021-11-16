@@ -27,7 +27,7 @@ go_library(
         "dao.go",
         "oversea.go",
     ],
-    importpath = "go-common/app/admin/main/videoup/dao/oversea",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/videoup/dao/oversea",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

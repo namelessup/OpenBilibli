@@ -5,8 +5,8 @@ import (
 	"os"
 	"testing"
 
-	"go-common/app/interface/main/dm/conf"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/dm/conf"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 var testDao *Dao

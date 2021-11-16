@@ -31,7 +31,7 @@ go_library(
         "mask.go",
         "subtitle.go",
     ],
-    importpath = "go-common/app/interface/main/dm2/rpc/client",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/dm2/rpc/client",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

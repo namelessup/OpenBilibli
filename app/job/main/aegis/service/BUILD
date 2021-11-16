@@ -21,7 +21,7 @@ go_library(
         "task_log.go",
         "weight.go",
     ],
-    importpath = "go-common/app/job/main/aegis/service",
+    importpath = "github.com/namelessup/bilibili/app/job/main/aegis/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

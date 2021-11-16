@@ -16,11 +16,11 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/interface/main/app-wall/model"
-	"go-common/app/interface/main/app-wall/model/unicom"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	httpx "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/interface/main/app-wall/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-wall/model/unicom"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	httpx "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 const (

@@ -3,7 +3,7 @@
 
 /*
 Package v2 is a generated liverpc stub package.
-This code was generated with go-common/app/tool/liverpc/protoc-gen-liverpc v0.1.
+This code was generated with github.com/namelessup/bilibili/app/tool/liverpc/protoc-gen-liverpc v0.1.
 
 It is generated from these files:
 	v2/Anchor.proto
@@ -14,7 +14,7 @@ package v2
 import context "context"
 
 import proto "github.com/golang/protobuf/proto"
-import "go-common/library/net/rpc/liverpc"
+import "github.com/namelessup/bilibili/library/net/rpc/liverpc"
 
 var _ proto.Message // generate to suppress unused imports
 // Imports only used by utility functions:

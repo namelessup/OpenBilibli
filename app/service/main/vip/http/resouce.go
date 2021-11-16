@@ -1,9 +1,9 @@
 package http
 
 import (
-	"go-common/app/service/main/vip/model"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/service/main/vip/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func codeInfo(c *bm.Context) {

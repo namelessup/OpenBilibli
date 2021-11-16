@@ -12,7 +12,7 @@ go_library(
         "dao.go",
         "workflow.go",
     ],
-    importpath = "go-common/app/interface/main/creative/dao/appeal",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/creative/dao/appeal",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

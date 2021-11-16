@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/library/net/trace"
 )
 
 const (

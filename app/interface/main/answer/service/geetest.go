@@ -10,8 +10,8 @@ import (
 	"strconv"
 	"strings"
 
-	"go-common/app/interface/main/answer/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/answer/model"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/pkg/errors"
 )

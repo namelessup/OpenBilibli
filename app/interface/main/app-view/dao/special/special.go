@@ -3,9 +3,9 @@ package special
 import (
 	"context"
 
-	"go-common/app/interface/main/app-view/conf"
-	"go-common/app/interface/main/app-view/model/special"
-	"go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/interface/main/app-view/conf"
+	"github.com/namelessup/bilibili/app/interface/main/app-view/model/special"
+	"github.com/namelessup/bilibili/library/database/sql"
 )
 
 const (

@@ -7,10 +7,10 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/interface/main/push-archive/dao"
-	"go-common/app/interface/main/push-archive/model"
-	accmdl "go-common/app/service/main/account/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/push-archive/dao"
+	"github.com/namelessup/bilibili/app/interface/main/push-archive/model"
+	accmdl "github.com/namelessup/bilibili/app/service/main/account/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

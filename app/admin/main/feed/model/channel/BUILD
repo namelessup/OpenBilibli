@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["card.go"],
-    importpath = "go-common/app/admin/main/feed/model/channel",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/feed/model/channel",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//app/admin/main/feed/model/common:go_default_library"],

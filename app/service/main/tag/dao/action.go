@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/app/service/main/tag/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/tag/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 var actionsSQL = "SELECT oid,tid,action FROM resource_tag_action_%s WHERE mid=? AND type=? LIMIT 500"

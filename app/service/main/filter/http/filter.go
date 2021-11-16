@@ -4,9 +4,9 @@ import (
 	"strconv"
 	"strings"
 
-	"go-common/app/service/main/filter/model"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/service/main/filter/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func filter(c *bm.Context) {

@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"strings"
 
-	"go-common/app/service/main/passport-game/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/passport-game/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // TokenPBCache get token pb cache.

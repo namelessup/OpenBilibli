@@ -2,8 +2,8 @@ package source
 
 import (
 	"encoding/json"
-	resource "go-common/app/service/main/resource/model"
-	xtime "go-common/library/time"
+	resource "github.com/namelessup/bilibili/app/service/main/resource/model"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // Banner str

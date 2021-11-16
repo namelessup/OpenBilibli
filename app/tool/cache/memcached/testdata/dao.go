@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	"go-common/library/cache/memcache"
-	"go-common/library/container/pool"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/container/pool"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // Dao .
@@ -39,7 +39,7 @@ func New() (d *Dao) {
 	return
 }
 
-//go:generate $GOPATH/src/go-common/app/tool/cache/mc
+//go:generate $GOPATH/src/github.com/namelessup/bilibili/app/tool/cache/mc
 type _mc interface {
 	// mc: -key=articleKey
 	CacheArticles(c context.Context, keys []int64) (map[int64]*Article, error)

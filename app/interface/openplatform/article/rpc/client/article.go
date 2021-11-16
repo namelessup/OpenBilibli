@@ -3,8 +3,8 @@ package client
 import (
 	"context"
 
-	"go-common/app/interface/openplatform/article/model"
-	"go-common/library/net/rpc"
+	"github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	"github.com/namelessup/bilibili/library/net/rpc"
 )
 
 const (

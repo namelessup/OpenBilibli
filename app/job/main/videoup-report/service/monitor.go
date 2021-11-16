@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 	"fmt"
-	"go-common/app/job/main/videoup-report/model/archive"
-	"go-common/app/job/main/videoup-report/model/monitor"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/videoup-report/model/archive"
+	"github.com/namelessup/bilibili/app/job/main/videoup-report/model/monitor"
+	"github.com/namelessup/bilibili/library/log"
 	"time"
 )
 

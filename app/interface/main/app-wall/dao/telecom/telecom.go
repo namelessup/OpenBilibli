@@ -6,13 +6,13 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/interface/main/app-wall/conf"
-	"go-common/app/interface/main/app-wall/model/telecom"
-	"go-common/library/cache/memcache"
-	"go-common/library/cache/redis"
-	xsql "go-common/library/database/sql"
-	"go-common/library/log"
-	httpx "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/interface/main/app-wall/conf"
+	"github.com/namelessup/bilibili/app/interface/main/app-wall/model/telecom"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	httpx "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 const (

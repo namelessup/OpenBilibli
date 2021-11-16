@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"strings"
 
-	"go-common/app/service/ep/footman/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/ep/footman/model"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/360EntSecGroup-Skylar/excelize"
 )

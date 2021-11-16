@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"strings"
 
-	"go-common/app/admin/main/apm/model/ut"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/apm/model/ut"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/smartystreets/goconvey/web/server/contract"
 	"github.com/smartystreets/goconvey/web/server/parser"

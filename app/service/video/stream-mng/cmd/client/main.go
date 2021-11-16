@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/app/service/video/stream-mng/api/v1"
-	"go-common/library/ecode"
-	"go-common/library/net/rpc/warden"
+	"github.com/namelessup/bilibili/app/service/video/stream-mng/api/v1"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 )
 
 func main() {

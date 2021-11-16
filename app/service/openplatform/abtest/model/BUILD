@@ -23,7 +23,7 @@ go_library(
         "stra.go",
         "version.go",
     ],
-    importpath = "go-common/app/service/openplatform/abtest/model",
+    importpath = "github.com/namelessup/bilibili/app/service/openplatform/abtest/model",
     tags = ["automanaged"],
     deps = [
         "//library/log:go_default_library",

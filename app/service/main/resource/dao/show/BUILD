@@ -35,7 +35,7 @@ go_library(
         "relate.go",
         "sidebar.go",
     ],
-    importpath = "go-common/app/service/main/resource/dao/show",
+    importpath = "github.com/namelessup/bilibili/app/service/main/resource/dao/show",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

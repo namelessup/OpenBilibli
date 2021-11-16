@@ -6,8 +6,8 @@ import (
 	"os"
 	"testing"
 
-	"go-common/app/service/main/location/conf"
-	"go-common/library/cache/redis"
+	"github.com/namelessup/bilibili/app/service/main/location/conf"
+	"github.com/namelessup/bilibili/library/cache/redis"
 
 	"github.com/smartystreets/goconvey/convey"
 )

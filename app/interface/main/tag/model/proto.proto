@@ -27,8 +27,8 @@ message Channel {
     int32 Rank = 9 [(gogoproto.jsontag) = "rank"];
     int32 Attr = 10 [(gogoproto.jsontag) = "attr"];
     int32 State = 11 [(gogoproto.jsontag) = "state"];
-    int64 CTime = 12 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "go-common/library/time.Time"];
-    int64 MTime = 13 [(gogoproto.jsontag) = "-", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int64 CTime = 12 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
+    int64 MTime = 13 [(gogoproto.jsontag) = "-", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
     int32 TopRank = 14 [(gogoproto.jsontag) = "-"];
     string head_cover = 15 [(gogoproto.jsontag) = "head_cover"];
     string short_content = 16 [(gogoproto.jsontag) = "short_content"];
@@ -39,6 +39,6 @@ message ChannelSynonym {
     string  Name = 2 [(gogoproto.jsontag) = "name"];
     string alias = 3 [(gogoproto.jsontag) = "alias"];
     string rank = 4 [(gogoproto.jsontag) = "-"];
-    int64 CTime = 5 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "go-common/library/time.Time"];
-    int64 MTime = 6 [(gogoproto.jsontag) = "-", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int64 CTime = 5 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
+    int64 MTime = 6 [(gogoproto.jsontag) = "-", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
 }

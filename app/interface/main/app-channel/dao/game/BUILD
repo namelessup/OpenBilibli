@@ -21,7 +21,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["game.go"],
-    importpath = "go-common/app/interface/main/app-channel/dao/game",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-channel/dao/game",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -3,7 +3,7 @@ package drawyoo
 import (
 	"context"
 	"flag"
-	"go-common/app/interface/main/reply/conf"
+	"github.com/namelessup/bilibili/app/interface/main/reply/conf"
 	"os"
 	"testing"
 

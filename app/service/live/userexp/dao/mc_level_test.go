@@ -3,7 +3,7 @@ package dao
 import (
 	"testing"
 
-	"go-common/app/service/live/userexp/model"
+	"github.com/namelessup/bilibili/app/service/live/userexp/model"
 )
 
 func TestLevelCache(t *testing.T) {

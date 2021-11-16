@@ -35,7 +35,7 @@ go_library(
         "memcache.go",
         "redis.go",
     ],
-    importpath = "go-common/app/interface/main/app-feed/dao/recommend",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-feed/dao/recommend",
     tags = ["automanaged"],
     deps = [
         "//app/interface/main/app-card/model:go_default_library",

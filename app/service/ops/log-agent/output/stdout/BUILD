@@ -11,7 +11,7 @@ go_library(
         "config.go",
         "stdout.go",
     ],
-    importpath = "go-common/app/service/ops/log-agent/output/stdout",
+    importpath = "github.com/namelessup/bilibili/app/service/ops/log-agent/output/stdout",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

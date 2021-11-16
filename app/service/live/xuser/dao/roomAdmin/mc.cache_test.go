@@ -2,7 +2,7 @@ package roomAdmin
 
 import (
 	"context"
-	"go-common/app/service/live/xuser/model"
+	"github.com/namelessup/bilibili/app/service/live/xuser/model"
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"

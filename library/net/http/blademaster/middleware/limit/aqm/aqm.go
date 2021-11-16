@@ -3,12 +3,12 @@ package aqm
 import (
 	"context"
 
-	"go-common/library/container/queue/aqm"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/rate"
-	"go-common/library/rate/limit"
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/library/container/queue/aqm"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/rate"
+	"github.com/namelessup/bilibili/library/rate/limit"
+	"github.com/namelessup/bilibili/library/stat/prom"
 )
 
 const (

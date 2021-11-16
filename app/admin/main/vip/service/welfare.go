@@ -7,10 +7,10 @@ import (
 	"net/url"
 	"strings"
 
-	"go-common/app/admin/main/vip/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/app/admin/main/vip/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 const (

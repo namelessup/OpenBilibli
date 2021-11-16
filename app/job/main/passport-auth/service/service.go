@@ -3,11 +3,11 @@ package service
 import (
 	"context"
 
-	"go-common/app/job/main/passport-auth/conf"
-	"go-common/app/job/main/passport-auth/dao"
-	auth "go-common/app/service/main/passport-auth/rpc/client"
-	"go-common/library/queue/databus"
-	"go-common/library/queue/databus/databusutil"
+	"github.com/namelessup/bilibili/app/job/main/passport-auth/conf"
+	"github.com/namelessup/bilibili/app/job/main/passport-auth/dao"
+	auth "github.com/namelessup/bilibili/app/service/main/passport-auth/rpc/client"
+	"github.com/namelessup/bilibili/library/queue/databus"
+	"github.com/namelessup/bilibili/library/queue/databus/databusutil"
 )
 
 // Service struct

@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/service/main/passport-auth/conf"
-	"go-common/library/cache/memcache"
-	"go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/service/main/passport-auth/conf"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/database/sql"
 )
 
 // Dao dao struct

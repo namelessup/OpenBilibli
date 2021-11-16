@@ -11,7 +11,7 @@ go_library(
         "match.go",
         "service.go",
     ],
-    importpath = "go-common/app/service/live/zeus/internal/service",
+    importpath = "github.com/namelessup/bilibili/app/service/live/zeus/internal/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

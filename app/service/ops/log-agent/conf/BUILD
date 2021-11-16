@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["conf.go"],
-    importpath = "go-common/app/service/ops/log-agent/conf",
+    importpath = "github.com/namelessup/bilibili/app/service/ops/log-agent/conf",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

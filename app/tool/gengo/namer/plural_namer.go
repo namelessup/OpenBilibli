@@ -3,7 +3,7 @@ package namer
 import (
 	"strings"
 
-	"go-common/app/tool/gengo/types"
+	"github.com/namelessup/bilibili/app/tool/gengo/types"
 )
 
 var consonants = "bcdfghjklmnpqrsttvwxyz"

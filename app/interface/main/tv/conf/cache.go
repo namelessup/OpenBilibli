@@ -1,9 +1,9 @@
 package conf
 
 import (
-	"go-common/library/cache/memcache"
-	"go-common/library/cache/redis"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // Redis redis

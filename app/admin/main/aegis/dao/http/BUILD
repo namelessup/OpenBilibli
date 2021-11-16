@@ -39,7 +39,7 @@ go_library(
         "search.go",
         "upload.go",
     ],
-    importpath = "go-common/app/admin/main/aegis/dao/http",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/aegis/dao/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

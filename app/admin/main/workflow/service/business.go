@@ -6,10 +6,10 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/admin/main/workflow/model"
-	"go-common/app/admin/main/workflow/model/param"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/workflow/model"
+	"github.com/namelessup/bilibili/app/admin/main/workflow/model/param"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

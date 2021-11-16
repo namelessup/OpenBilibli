@@ -3,8 +3,8 @@ package http
 import (
 	"strconv"
 
-	"go-common/library/log"
-	"go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // setContextMid 把form中的mid写入context中，用以调用interface的http接口

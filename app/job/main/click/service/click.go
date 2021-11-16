@@ -6,8 +6,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go-common/app/job/main/click/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/click/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) isAllow(ctx context.Context, c *model.ClickMsg) (rtype int8, err error) {

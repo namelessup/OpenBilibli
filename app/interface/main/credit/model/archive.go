@@ -1,7 +1,7 @@
 package model
 
 import (
-	arcMDL "go-common/app/service/main/archive/model/archive"
+	arcMDL "github.com/namelessup/bilibili/app/service/main/archive/model/archive"
 )
 
 // ArcVisible .

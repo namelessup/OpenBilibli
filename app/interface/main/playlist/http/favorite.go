@@ -3,11 +3,11 @@ package http
 import (
 	"strconv"
 
-	"go-common/app/interface/main/playlist/conf"
-	"go-common/app/interface/main/playlist/model"
-	favmdl "go-common/app/service/main/favorite/model"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/interface/main/playlist/conf"
+	"github.com/namelessup/bilibili/app/interface/main/playlist/model"
+	favmdl "github.com/namelessup/bilibili/app/service/main/favorite/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func whiteList(c *bm.Context) {

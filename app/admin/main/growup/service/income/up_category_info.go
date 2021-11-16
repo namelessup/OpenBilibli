@@ -3,8 +3,8 @@ package income
 import (
 	"context"
 
-	model "go-common/app/admin/main/growup/model/income"
-	"go-common/library/log"
+	model "github.com/namelessup/bilibili/app/admin/main/growup/model/income"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // GetUpInfoByAIDs get up_info by av id

@@ -2,11 +2,11 @@ package v1
 
 import (
 	"context"
-	v1pb "go-common/app/service/live/xuserex/api/grpc/v1"
-	"go-common/app/service/live/xuserex/conf"
-	"go-common/app/service/live/xuserex/dao/notice"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	v1pb "github.com/namelessup/bilibili/app/service/live/xuserex/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/live/xuserex/conf"
+	"github.com/namelessup/bilibili/app/service/live/xuserex/dao/notice"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // RoomNoticeService struct

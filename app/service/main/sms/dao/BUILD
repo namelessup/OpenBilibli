@@ -26,7 +26,7 @@ go_library(
         "databus.go",
         "mysql.go",
     ],
-    importpath = "go-common/app/service/main/sms/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/main/sms/dao",
     tags = ["automanaged"],
     deps = [
         "//app/service/main/sms/conf:go_default_library",

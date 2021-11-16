@@ -14,7 +14,7 @@ go_library(
     name = "go_default_library",
     srcs = ["predict.go"],
     embed = [":treelite_go_proto"],
-    importpath = "go-common/app/service/bbq/recsys/service/rank/treelite",
+    importpath = "github.com/namelessup/bilibili/app/service/bbq/recsys/service/rank/treelite",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["@com_github_gogo_protobuf//proto:go_default_library"],
@@ -43,7 +43,7 @@ proto_library(
 go_proto_library(
     name = "treelite_go_proto",
     compilers = ["@io_bazel_rules_go//proto:go_proto"],
-    importpath = "go-common/app/service/bbq/recsys/service/rank/treelite",
+    importpath = "github.com/namelessup/bilibili/app/service/bbq/recsys/service/rank/treelite",
     proto = ":treelite_proto",
     tags = ["automanaged"],
 )

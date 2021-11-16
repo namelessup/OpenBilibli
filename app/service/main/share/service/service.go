@@ -3,9 +3,9 @@ package service
 import (
 	"time"
 
-	"go-common/app/service/main/share/conf"
-	"go-common/app/service/main/share/dao"
-	"go-common/app/service/main/share/model"
+	"github.com/namelessup/bilibili/app/service/main/share/conf"
+	"github.com/namelessup/bilibili/app/service/main/share/dao"
+	"github.com/namelessup/bilibili/app/service/main/share/model"
 )
 
 // Service is service.

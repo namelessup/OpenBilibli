@@ -3,9 +3,9 @@ package http
 import (
 	"time"
 
-	"go-common/app/admin/main/app/model/bottom"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/app/model/bottom"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // bottoms select all

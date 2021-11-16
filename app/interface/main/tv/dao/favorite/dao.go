@@ -5,14 +5,14 @@ import (
 	"fmt"
 	"net/url"
 
-	"go-common/app/interface/main/tv/conf"
-	"go-common/app/interface/main/tv/model"
-	favrpc "go-common/app/service/main/favorite/api/gorpc"
-	favmdl "go-common/app/service/main/favorite/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/main/tv/conf"
+	"github.com/namelessup/bilibili/app/interface/main/tv/model"
+	favrpc "github.com/namelessup/bilibili/app/service/main/favorite/api/gorpc"
+	favmdl "github.com/namelessup/bilibili/app/service/main/favorite/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/metadata"
 
 	"github.com/pkg/errors"
 )

@@ -4,10 +4,10 @@ import (
 	"context"
 	"sync"
 
-	accountApi "go-common/app/service/main/account/api"
-	account "go-common/app/service/main/account/model"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
+	accountApi "github.com/namelessup/bilibili/app/service/main/account/api"
+	account "github.com/namelessup/bilibili/app/service/main/account/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 const (

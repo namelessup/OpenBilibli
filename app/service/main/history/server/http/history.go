@@ -1,9 +1,9 @@
 package http
 
 import (
-	pb "go-common/app/service/main/history/api/grpc"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/binding"
+	pb "github.com/namelessup/bilibili/app/service/main/history/api/grpc"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/binding"
 )
 
 func add(c *bm.Context) {

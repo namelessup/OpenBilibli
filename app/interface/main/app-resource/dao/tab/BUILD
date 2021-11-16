@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["tab.go"],
-    importpath = "go-common/app/interface/main/app-resource/dao/tab",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-resource/dao/tab",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

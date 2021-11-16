@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["logcli.go"],
-    importpath = "go-common/app/admin/main/creative/model/logcli",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/creative/model/logcli",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

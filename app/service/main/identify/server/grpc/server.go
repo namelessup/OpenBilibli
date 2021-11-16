@@ -4,12 +4,12 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/app/service/main/identify/api/grpc"
-	"go-common/app/service/main/identify/service"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
-	"go-common/library/net/rpc/warden"
+	"github.com/namelessup/bilibili/app/service/main/identify/api/grpc"
+	"github.com/namelessup/bilibili/app/service/main/identify/service"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 
 	"google.golang.org/grpc"
 )

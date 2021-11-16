@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	hmdl "go-common/app/interface/main/history/model"
-	"go-common/app/interface/main/tv/model/history"
+	hmdl "github.com/namelessup/bilibili/app/interface/main/history/model"
+	"github.com/namelessup/bilibili/app/interface/main/tv/model/history"
 
 	"github.com/smartystreets/goconvey/convey"
 )

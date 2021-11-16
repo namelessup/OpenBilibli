@@ -12,7 +12,7 @@ go_library(
         "http.go",
         "local.go",
     ],
-    importpath = "go-common/app/service/main/assist/http",
+    importpath = "github.com/namelessup/bilibili/app/service/main/assist/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

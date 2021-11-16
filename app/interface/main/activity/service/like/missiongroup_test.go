@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	l "go-common/app/interface/main/activity/model/like"
+	l "github.com/namelessup/bilibili/app/interface/main/activity/model/like"
 
 	"encoding/json"
 

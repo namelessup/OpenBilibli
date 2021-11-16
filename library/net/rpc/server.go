@@ -19,13 +19,13 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"go-common/library/conf/dsn"
-	"go-common/library/conf/env"
-	xlog "go-common/library/log"
-	"go-common/library/net/metadata"
-	"go-common/library/net/rpc/context"
-	"go-common/library/net/rpc/interceptor"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/library/conf/dsn"
+	"github.com/namelessup/bilibili/library/conf/env"
+	xlog "github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/net/rpc/context"
+	"github.com/namelessup/bilibili/library/net/rpc/interceptor"
+	"github.com/namelessup/bilibili/library/net/trace"
 
 	pkgerr "github.com/pkg/errors"
 )

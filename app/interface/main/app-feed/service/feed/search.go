@@ -4,8 +4,8 @@ import (
 	"context"
 	"strconv"
 
-	"go-common/app/interface/main/app-card/model"
-	"go-common/app/interface/main/app-card/model/card/operate"
+	"github.com/namelessup/bilibili/app/interface/main/app-card/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-card/model/card/operate"
 )
 
 func (s *Service) SearchFollow(c context.Context, platform, mobiApp, device, buvid string, build int, mid int64) (follow *operate.Follow, err error) {

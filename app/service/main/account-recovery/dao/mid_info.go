@@ -6,10 +6,10 @@ import (
 	"strconv"
 	"strings"
 
-	"go-common/app/service/main/account-recovery/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/service/main/account-recovery/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 // GetMidInfo get mid info by more condition

@@ -176,7 +176,7 @@
 > 1.模块分层  
 
 ##### Version 2.0.0
-> 1.大仓库版本，依赖新的go-common  
+> 1.大仓库版本，依赖新的github.com/namelessup/bilibili  
 > 2.archive_result库的archive_video表有数据更新会调archive-service接口更新分P详情信息  
 
 ##### Version 1.14.0
@@ -199,7 +199,7 @@
 > 1.archive的channal根据aid取余，每个channal只有一个goroutine消费，避免消费乱序  
 
 ##### Version 1.9.0
-> 1.升级go-common&go-business  
+> 1.升级github.com/namelessup/bilibili&go-business  
 > 2.兼容manager后台修改稿件归属的mid缓存  
 
 ##### Version 1.8.0
@@ -246,7 +246,7 @@
 > 1.去掉feed push  
 
 ##### Version 1.7.3
-> 1.升级go-common和go-business  
+> 1.升级github.com/namelessup/bilibili和go-business  
 > 2.接入新版配置中心  
 
 ##### Version 1.7.2

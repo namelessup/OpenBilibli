@@ -1,8 +1,8 @@
 package http
 
 import (
-	match "go-common/app/interface/main/activity/model/like"
-	bm "go-common/library/net/http/blademaster"
+	match "github.com/namelessup/bilibili/app/interface/main/activity/model/like"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func matchs(c *bm.Context) {

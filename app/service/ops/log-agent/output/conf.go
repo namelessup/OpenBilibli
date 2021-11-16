@@ -2,7 +2,7 @@ package output
 
 import (
 	"errors"
-	"go-common/app/service/ops/log-agent/conf/configcenter"
+	"github.com/namelessup/bilibili/app/service/ops/log-agent/conf/configcenter"
 )
 
 const (

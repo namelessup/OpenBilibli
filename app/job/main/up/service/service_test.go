@@ -2,9 +2,9 @@ package service
 
 import (
 	"flag"
-	"go-common/app/job/main/up/conf"
-	"go-common/app/job/main/up/dao/upcrm"
-	"go-common/app/job/main/up/model/signmodel"
+	"github.com/namelessup/bilibili/app/job/main/up/conf"
+	"github.com/namelessup/bilibili/app/job/main/up/dao/upcrm"
+	"github.com/namelessup/bilibili/app/job/main/up/model/signmodel"
 	"html/template"
 	"os"
 	"testing"

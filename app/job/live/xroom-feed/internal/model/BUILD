@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["model.go"],
-    importpath = "go-common/app/job/live/xroom-feed/internal/model",
+    importpath = "github.com/namelessup/bilibili/app/job/live/xroom-feed/internal/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

@@ -5,11 +5,11 @@ import (
 	"regexp"
 	"time"
 
-	"go-common/app/service/main/filter/model"
-	"go-common/app/service/main/filter/model/actriearea"
-	"go-common/app/service/main/filter/model/actriekey"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/filter/model"
+	"github.com/namelessup/bilibili/app/service/main/filter/model/actriearea"
+	"github.com/namelessup/bilibili/app/service/main/filter/model/actriekey"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // FilterTest 测试敏感词

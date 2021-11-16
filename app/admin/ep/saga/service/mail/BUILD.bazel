@@ -10,7 +10,7 @@ go_library(
         "mail.go",
         "tpl.go",
     ],
-    importpath = "go-common/app/admin/ep/saga/service/mail",
+    importpath = "github.com/namelessup/bilibili/app/admin/ep/saga/service/mail",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

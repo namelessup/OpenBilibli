@@ -4,8 +4,8 @@ import (
 	"context"
 	"flag"
 	. "github.com/smartystreets/goconvey/convey"
-	"go-common/app/interface/live/web-ucenter/conf"
-	"go-common/app/interface/live/web-ucenter/dao"
+	"github.com/namelessup/bilibili/app/interface/live/web-ucenter/conf"
+	"github.com/namelessup/bilibili/app/interface/live/web-ucenter/dao"
 	"testing"
 )
 

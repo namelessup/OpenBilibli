@@ -4,9 +4,9 @@ import (
 	"context"
 	"strconv"
 
-	"go-common/app/interface/main/history/model"
-	"go-common/library/cache/redis"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/history/model"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const _key = "v_" // mid -> score:time member:aid

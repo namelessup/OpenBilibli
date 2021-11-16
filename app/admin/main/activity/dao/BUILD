@@ -30,7 +30,7 @@ go_library(
         "likes.go",
         "subject.go",
     ],
-    importpath = "go-common/app/admin/main/activity/dao",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/activity/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -13,7 +13,7 @@ go_library(
         "service.go",
         "topic.go",
     ],
-    importpath = "go-common/app/service/bbq/topic/internal/service",
+    importpath = "github.com/namelessup/bilibili/app/service/bbq/topic/internal/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/admin/main/bfs/conf"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/bfs/conf"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 
 	"github.com/samuel/go-zookeeper/zk"
 )

@@ -6,7 +6,7 @@ import (
 	xhttp "net/http"
 	"strings"
 
-	bm "go-common/library/net/http/blademaster"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 
 	pkgerr "github.com/pkg/errors"
 )

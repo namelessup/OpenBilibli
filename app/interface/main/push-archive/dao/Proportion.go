@@ -4,9 +4,9 @@ import (
 	"strconv"
 	"strings"
 
-	"go-common/app/interface/main/push-archive/conf"
-	"go-common/app/interface/main/push-archive/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/push-archive/conf"
+	"github.com/namelessup/bilibili/app/interface/main/push-archive/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Proportion 普通关注粉丝的灰度比例

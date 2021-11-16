@@ -8,9 +8,9 @@ import (
 	"math/rand"
 	"time"
 
-	"go-common/app/admin/main/coupon/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/coupon/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // CodePage code page.

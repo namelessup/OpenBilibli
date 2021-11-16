@@ -2,10 +2,10 @@ package converge
 
 import (
 	"encoding/json"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 	"strconv"
 
-	"go-common/app/interface/main/app-channel/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-channel/model"
 )
 
 type Card struct {

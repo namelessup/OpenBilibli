@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"go-common/app/service/main/share/conf"
+	"github.com/namelessup/bilibili/app/service/main/share/conf"
 
 	"github.com/smartystreets/goconvey/convey"
 )

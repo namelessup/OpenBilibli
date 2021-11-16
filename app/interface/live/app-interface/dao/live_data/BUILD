@@ -11,7 +11,7 @@ go_library(
         "dao.go",
         "record.go",
     ],
-    importpath = "go-common/app/interface/live/app-interface/dao/live_data",
+    importpath = "github.com/namelessup/bilibili/app/interface/live/app-interface/dao/live_data",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

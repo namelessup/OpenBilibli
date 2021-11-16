@@ -4,9 +4,9 @@ import (
 	"context"
 	sql2 "database/sql"
 
-	"go-common/app/job/main/videoup-report/model/archive"
-	"go-common/library/database/sql"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/videoup-report/model/archive"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

@@ -21,7 +21,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["assist.go"],
-    importpath = "go-common/app/service/main/assist/rpc/client",
+    importpath = "github.com/namelessup/bilibili/app/service/main/assist/rpc/client",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

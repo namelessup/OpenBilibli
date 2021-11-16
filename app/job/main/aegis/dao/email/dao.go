@@ -3,10 +3,10 @@ package email
 import (
 	"context"
 	"encoding/json"
-	"go-common/app/job/main/aegis/conf"
-	"go-common/app/job/main/aegis/model"
-	"go-common/library/cache/redis"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/aegis/conf"
+	"github.com/namelessup/bilibili/app/job/main/aegis/model"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/log"
 	"gopkg.in/gomail.v2"
 	"time"
 )

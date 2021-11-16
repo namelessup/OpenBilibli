@@ -32,7 +32,7 @@ go_library(
         "sql.go",
         "subject.go",
     ],
-    importpath = "go-common/app/admin/main/reply/model",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/reply/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

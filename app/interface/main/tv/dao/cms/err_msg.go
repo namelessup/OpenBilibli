@@ -1,6 +1,6 @@
 package cms
 
-import "go-common/app/interface/main/tv/model"
+import "github.com/namelessup/bilibili/app/interface/main/tv/model"
 
 const (
 	// auth failure cases

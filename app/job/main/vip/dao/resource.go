@@ -1,8 +1,8 @@
 package dao
 
 import (
-	"go-common/app/job/main/vip/model"
-	"go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/job/main/vip/model"
+	"github.com/namelessup/bilibili/library/database/sql"
 
 	"github.com/pkg/errors"
 )

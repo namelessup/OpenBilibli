@@ -9,13 +9,13 @@ import (
 	"strconv"
 	"time"
 
-	dmv1pb "go-common/app/interface/live/open-interface/api/http/v1"
-	"go-common/app/interface/live/open-interface/internal/dao"
-	broadcasrtService "go-common/app/service/live/broadcast-proxy/api/v1"
-	titansSdk "go-common/app/service/live/resource/sdk"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	dmv1pb "github.com/namelessup/bilibili/app/interface/live/open-interface/api/http/v1"
+	"github.com/namelessup/bilibili/app/interface/live/open-interface/internal/dao"
+	broadcasrtService "github.com/namelessup/bilibili/app/service/live/broadcast-proxy/api/v1"
+	titansSdk "github.com/namelessup/bilibili/app/service/live/resource/sdk"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 func checksign(ts string, sign string, group string) bool {

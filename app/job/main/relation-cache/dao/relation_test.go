@@ -2,8 +2,8 @@ package dao
 
 import (
 	"context"
-	relation "go-common/app/service/main/relation/model"
-	xtime "go-common/library/time"
+	relation "github.com/namelessup/bilibili/app/service/main/relation/model"
+	xtime "github.com/namelessup/bilibili/library/time"
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"

@@ -50,7 +50,7 @@ go_library(
         "router.go",
         "service.go",
     ],
-    importpath = "go-common/app/service/main/msm/service",
+    importpath = "github.com/namelessup/bilibili/app/service/main/msm/service",
     tags = ["automanaged"],
     deps = [
         "//app/infra/config/model:go_default_library",

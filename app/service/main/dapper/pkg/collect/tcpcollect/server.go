@@ -14,13 +14,13 @@ import (
 	"github.com/golang/protobuf/ptypes/duration"
 	"github.com/golang/protobuf/ptypes/timestamp"
 
-	"go-common/app/service/main/dapper/conf"
-	"go-common/app/service/main/dapper/model"
-	"go-common/app/service/main/dapper/pkg/process"
-	"go-common/library/log"
-	protogen "go-common/library/net/trace/proto"
-	"go-common/library/stat/counter"
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/app/service/main/dapper/conf"
+	"github.com/namelessup/bilibili/app/service/main/dapper/model"
+	"github.com/namelessup/bilibili/app/service/main/dapper/pkg/process"
+	"github.com/namelessup/bilibili/library/log"
+	protogen "github.com/namelessup/bilibili/library/net/trace/proto"
+	"github.com/namelessup/bilibili/library/stat/counter"
+	"github.com/namelessup/bilibili/library/stat/prom"
 )
 
 var (

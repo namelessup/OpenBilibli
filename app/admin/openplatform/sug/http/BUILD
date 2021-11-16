@@ -11,7 +11,7 @@ go_library(
         "http.go",
         "season.go",
     ],
-    importpath = "go-common/app/admin/openplatform/sug/http",
+    importpath = "github.com/namelessup/bilibili/app/admin/openplatform/sug/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

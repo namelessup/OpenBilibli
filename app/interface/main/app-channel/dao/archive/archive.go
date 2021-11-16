@@ -3,11 +3,11 @@ package archive
 import (
 	"context"
 
-	"go-common/app/interface/main/app-channel/conf"
-	"go-common/app/service/main/archive/api"
-	arcrpc "go-common/app/service/main/archive/api/gorpc"
-	"go-common/app/service/main/archive/model/archive"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/main/app-channel/conf"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	arcrpc "github.com/namelessup/bilibili/app/service/main/archive/api/gorpc"
+	"github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/library/net/metadata"
 
 	"github.com/pkg/errors"
 )

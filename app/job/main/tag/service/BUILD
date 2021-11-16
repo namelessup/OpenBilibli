@@ -28,7 +28,7 @@ go_library(
         "tag_ftp.go",
         "tagarc.go",
     ],
-    importpath = "go-common/app/job/main/tag/service",
+    importpath = "github.com/namelessup/bilibili/app/job/main/tag/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

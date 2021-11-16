@@ -6,10 +6,10 @@ import (
 	"net/url"
 	"strconv"
 
-	schmdl "go-common/app/service/main/riot-search/model"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
-	"go-common/library/xstr"
+	schmdl "github.com/namelessup/bilibili/app/service/main/riot-search/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 const _search = "http://api.bilibili.co/x/internal/riot-search/arc/ids"

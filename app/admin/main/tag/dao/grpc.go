@@ -3,8 +3,8 @@ package dao
 import (
 	"context"
 
-	accwarden "go-common/app/service/main/account/api"
-	"go-common/library/log"
+	accwarden "github.com/namelessup/bilibili/app/service/main/account/api"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // UserInfo user info.

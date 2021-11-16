@@ -1,21 +1,21 @@
 package http
 
 import (
-	"go-common/app/interface/main/app-interface/conf"
-	acc "go-common/app/interface/main/app-interface/service/account"
-	"go-common/app/interface/main/app-interface/service/dataflow"
-	"go-common/app/interface/main/app-interface/service/display"
-	"go-common/app/interface/main/app-interface/service/favorite"
-	"go-common/app/interface/main/app-interface/service/history"
-	"go-common/app/interface/main/app-interface/service/relation"
-	"go-common/app/interface/main/app-interface/service/search"
-	"go-common/app/interface/main/app-interface/service/space"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/auth"
-	"go-common/library/net/http/blademaster/middleware/proxy"
-	"go-common/library/net/http/blademaster/middleware/verify"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/conf"
+	acc "github.com/namelessup/bilibili/app/interface/main/app-interface/service/account"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/service/dataflow"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/service/display"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/service/favorite"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/service/history"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/service/relation"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/service/search"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/service/space"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/auth"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/proxy"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/verify"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 var (

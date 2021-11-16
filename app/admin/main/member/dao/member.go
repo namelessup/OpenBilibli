@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"go-common/app/admin/main/member/model"
+	"github.com/namelessup/bilibili/app/admin/main/member/model"
 
 	"github.com/pkg/errors"
 )

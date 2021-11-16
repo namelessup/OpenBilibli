@@ -2,9 +2,9 @@ package tag
 
 import (
 	"context"
-	"go-common/app/interface/main/creative/model/tag"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/tag"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 	"net/url"
 	"strconv"
 )

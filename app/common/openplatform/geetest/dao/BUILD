@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["geetest.go"],
-    importpath = "go-common/app/common/openplatform/geetest/dao",
+    importpath = "github.com/namelessup/bilibili/app/common/openplatform/geetest/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//app/common/openplatform/geetest/model:go_default_library"],

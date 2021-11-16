@@ -8,10 +8,10 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/interface/main/app-resource/conf"
-	"go-common/app/interface/main/app-resource/model/guide"
-	"go-common/library/log"
-	"go-common/library/log/infoc"
+	"github.com/namelessup/bilibili/app/interface/main/app-resource/conf"
+	"github.com/namelessup/bilibili/app/interface/main/app-resource/model/guide"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/log/infoc"
 )
 
 var (

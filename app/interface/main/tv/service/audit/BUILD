@@ -22,7 +22,7 @@ go_library(
         "service.go",
         "transcode.go",
     ],
-    importpath = "go-common/app/interface/main/tv/service/audit",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/tv/service/audit",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

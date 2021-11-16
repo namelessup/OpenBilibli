@@ -3,11 +3,11 @@ package tag
 import (
 	"context"
 
-	"go-common/app/interface/main/app-view/conf"
-	tagmdl "go-common/app/interface/main/app-view/model/tag"
-	tag "go-common/app/interface/main/tag/model"
-	tagrpc "go-common/app/interface/main/tag/rpc/client"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/main/app-view/conf"
+	tagmdl "github.com/namelessup/bilibili/app/interface/main/app-view/model/tag"
+	tag "github.com/namelessup/bilibili/app/interface/main/tag/model"
+	tagrpc "github.com/namelessup/bilibili/app/interface/main/tag/rpc/client"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 // Dao is tag dao

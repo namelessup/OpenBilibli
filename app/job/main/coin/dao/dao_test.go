@@ -6,7 +6,7 @@ import (
 	"os"
 	"testing"
 
-	"go-common/app/job/main/coin/conf"
+	"github.com/namelessup/bilibili/app/job/main/coin/conf"
 )
 
 var (

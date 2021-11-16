@@ -5,7 +5,7 @@ import (
 	"net/url"
 	"time"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const _purgeURL = "http://cp.bilibili.co/api_purge.php"

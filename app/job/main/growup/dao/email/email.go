@@ -5,7 +5,7 @@ import (
 	"os"
 	"time"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 
 	gomail "gopkg.in/gomail.v2"
 )

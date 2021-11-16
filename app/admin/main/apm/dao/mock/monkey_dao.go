@@ -2,13 +2,13 @@ package mock
 
 import (
 	"context"
-	"go-common/app/admin/main/apm/dao"
-	cml "go-common/app/admin/main/apm/model/canal"
-	"go-common/app/admin/main/apm/model/need"
+	"github.com/namelessup/bilibili/app/admin/main/apm/dao"
+	cml "github.com/namelessup/bilibili/app/admin/main/apm/model/canal"
+	"github.com/namelessup/bilibili/app/admin/main/apm/model/need"
 
-	"go-common/app/admin/main/apm/model/ecode"
-	"go-common/app/admin/main/apm/model/pprof"
-	"go-common/app/admin/main/apm/model/ut"
+	"github.com/namelessup/bilibili/app/admin/main/apm/model/ecode"
+	"github.com/namelessup/bilibili/app/admin/main/apm/model/pprof"
+	"github.com/namelessup/bilibili/app/admin/main/apm/model/ut"
 
 	"reflect"
 

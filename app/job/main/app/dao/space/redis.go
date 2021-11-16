@@ -2,7 +2,7 @@ package space
 
 import (
 	"context"
-	"go-common/app/job/main/app/model"
+	"github.com/namelessup/bilibili/app/job/main/app/model"
 	"strconv"
 
 	"github.com/pkg/errors"

@@ -7,11 +7,11 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/job/main/videoup/model/archive"
-	"go-common/app/job/main/videoup/model/message"
-	"go-common/app/job/main/videoup/model/redis"
-	xsql "go-common/library/database/sql"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/videoup/model/archive"
+	"github.com/namelessup/bilibili/app/job/main/videoup/model/message"
+	"github.com/namelessup/bilibili/app/job/main/videoup/model/redis"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // bvc2VuConsumer is bvc 2 videoup message consumer.

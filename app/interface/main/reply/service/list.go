@@ -6,13 +6,13 @@ import (
 	"sort"
 	"strconv"
 
-	model "go-common/app/interface/main/reply/model/reply"
-	accmdl "go-common/app/service/main/account/api"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	model "github.com/namelessup/bilibili/app/interface/main/reply/model/reply"
+	accmdl "github.com/namelessup/bilibili/app/service/main/account/api"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 
-	"go-common/library/sync/errgroup.v2"
+	"github.com/namelessup/bilibili/library/sync/errgroup.v2"
 )
 
 const (

@@ -6,7 +6,7 @@ import (
 	"runtime"
 	"sync"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func NewUnboundedExecutor() *UnboundedExecutor {

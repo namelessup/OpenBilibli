@@ -5,15 +5,15 @@ import (
 	"flag"
 
 	"github.com/BurntSushi/toml"
-	"go-common/library/cache/redis"
-	"go-common/library/conf"
-	"go-common/library/database/sql"
-	ecode "go-common/library/ecode/tip"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/permit"
-	"go-common/library/net/trace"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/conf"
+	"github.com/namelessup/bilibili/library/database/sql"
+	ecode "github.com/namelessup/bilibili/library/ecode/tip"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/permit"
+	"github.com/namelessup/bilibili/library/net/trace"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // global var

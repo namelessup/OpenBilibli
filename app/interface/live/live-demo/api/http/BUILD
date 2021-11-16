@@ -20,7 +20,7 @@ proto_library(
 go_proto_library(
     name = "livedemo_go_proto",
     compilers = ["@io_bazel_rules_go//proto:gogofast_grpc"],
-    importpath = "go-common/app/interface/live/live-demo/api/http",
+    importpath = "github.com/namelessup/bilibili/app/interface/live/live-demo/api/http",
     proto = ":livedemo_proto",
     tags = ["automanaged"],
     deps = ["@com_github_gogo_protobuf//gogoproto:go_default_library"],
@@ -30,7 +30,7 @@ go_library(
     name = "go_default_library",
     srcs = ["service.bm.go"],
     embed = [":livedemo_go_proto"],
-    importpath = "go-common/app/interface/live/live-demo/api/http",
+    importpath = "github.com/namelessup/bilibili/app/interface/live/live-demo/api/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

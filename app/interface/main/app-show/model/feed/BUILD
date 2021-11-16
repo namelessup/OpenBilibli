@@ -8,8 +8,8 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["feed.go"],
-    importmap = "go-common/app/interface/main/app-show/model/feed",
-    importpath = "go-common/app/interface/main/app-show/model/feed",
+    importmap = "github.com/namelessup/bilibili/app/interface/main/app-show/model/feed",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-show/model/feed",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

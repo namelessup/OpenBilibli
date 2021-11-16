@@ -3,14 +3,14 @@ package http
 import (
 	"net/http"
 
-	"go-common/app/interface/main/history/conf"
-	"go-common/app/interface/main/history/model"
-	"go-common/app/interface/main/history/service"
-	"go-common/library/log"
-	"go-common/library/log/anticheat"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/auth"
-	"go-common/library/net/http/blademaster/middleware/verify"
+	"github.com/namelessup/bilibili/app/interface/main/history/conf"
+	"github.com/namelessup/bilibili/app/interface/main/history/model"
+	"github.com/namelessup/bilibili/app/interface/main/history/service"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/log/anticheat"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/auth"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/verify"
 )
 
 var (

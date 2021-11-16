@@ -1,9 +1,9 @@
 package model
 
 import (
-	xtime "go-common/library/time"
+	xtime "github.com/namelessup/bilibili/library/time"
 
-	avmdl "go-common/app/interface/main/app-view/model"
+	avmdl "github.com/namelessup/bilibili/app/interface/main/app-view/model"
 )
 
 // ads const

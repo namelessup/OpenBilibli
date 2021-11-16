@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"go-common/library/net/rpc/warden"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

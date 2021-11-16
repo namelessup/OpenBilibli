@@ -28,7 +28,7 @@ go_library(
         "realtion.go",
         "utils.go",
     ],
-    importpath = "go-common/app/job/main/relation/fsm",
+    importpath = "github.com/namelessup/bilibili/app/job/main/relation/fsm",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

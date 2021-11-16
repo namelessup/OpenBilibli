@@ -6,13 +6,13 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/interface/main/creative/conf"
-	gD "go-common/app/interface/main/creative/dao/game"
-	porderD "go-common/app/interface/main/creative/dao/porder"
-	gM "go-common/app/interface/main/creative/model/game"
-	porderM "go-common/app/interface/main/creative/model/porder"
-	"go-common/app/interface/main/creative/service"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/creative/conf"
+	gD "github.com/namelessup/bilibili/app/interface/main/creative/dao/game"
+	porderD "github.com/namelessup/bilibili/app/interface/main/creative/dao/porder"
+	gM "github.com/namelessup/bilibili/app/interface/main/creative/model/game"
+	porderM "github.com/namelessup/bilibili/app/interface/main/creative/model/porder"
+	"github.com/namelessup/bilibili/app/interface/main/creative/service"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 //Service struct.

@@ -15,7 +15,7 @@ go_library(
         "mc.go",
         "mysql.go",
     ],
-    importpath = "go-common/app/service/main/vipinfo/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/main/vipinfo/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

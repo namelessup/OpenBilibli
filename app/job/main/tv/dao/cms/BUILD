@@ -30,7 +30,7 @@ go_library(
         "merak.go",
         "shelve.go",
     ],
-    importpath = "go-common/app/job/main/tv/dao/cms",
+    importpath = "github.com/namelessup/bilibili/app/job/main/tv/dao/cms",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

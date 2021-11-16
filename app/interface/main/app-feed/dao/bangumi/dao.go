@@ -7,14 +7,14 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/interface/main/app-card/model/card/bangumi"
-	"go-common/app/interface/main/app-feed/conf"
-	feed "go-common/app/service/main/feed/model"
-	episodegrpc "go-common/app/service/openplatform/pgc-season/api/grpc/episode/v1"
-	"go-common/library/ecode"
-	httpx "go-common/library/net/http/blademaster"
-	"go-common/library/net/metadata"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/interface/main/app-card/model/card/bangumi"
+	"github.com/namelessup/bilibili/app/interface/main/app-feed/conf"
+	feed "github.com/namelessup/bilibili/app/service/main/feed/model"
+	episodegrpc "github.com/namelessup/bilibili/app/service/openplatform/pgc-season/api/grpc/episode/v1"
+	"github.com/namelessup/bilibili/library/ecode"
+	httpx "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/xstr"
 
 	"github.com/pkg/errors"
 )

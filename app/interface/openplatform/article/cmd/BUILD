@@ -19,7 +19,7 @@ go_library(
         "article-test.toml",
         "convey-test.toml",
     ],
-    importpath = "go-common/app/interface/openplatform/article/cmd",
+    importpath = "github.com/namelessup/bilibili/app/interface/openplatform/article/cmd",
     tags = ["automanaged"],
     deps = [
         "//app/interface/openplatform/article/conf:go_default_library",

@@ -8,17 +8,17 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/app/service/main/rank/conf"
-	rpc "go-common/app/service/main/rank/server/gorpc"
-	"go-common/app/service/main/rank/server/http"
-	"go-common/app/service/main/rank/service"
-	"go-common/library/conf/env"
-	ecode "go-common/library/ecode/tip"
-	"go-common/library/log"
-	"go-common/library/naming"
-	"go-common/library/naming/discovery"
-	xip "go-common/library/net/ip"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/app/service/main/rank/conf"
+	rpc "github.com/namelessup/bilibili/app/service/main/rank/server/gorpc"
+	"github.com/namelessup/bilibili/app/service/main/rank/server/http"
+	"github.com/namelessup/bilibili/app/service/main/rank/service"
+	"github.com/namelessup/bilibili/library/conf/env"
+	ecode "github.com/namelessup/bilibili/library/ecode/tip"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/naming"
+	"github.com/namelessup/bilibili/library/naming/discovery"
+	xip "github.com/namelessup/bilibili/library/net/ip"
+	"github.com/namelessup/bilibili/library/net/trace"
 )
 
 func main() {

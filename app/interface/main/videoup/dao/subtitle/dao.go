@@ -1,8 +1,8 @@
 package subtitle
 
 import (
-	"go-common/app/interface/main/dm2/rpc/client"
-	"go-common/app/interface/main/videoup/conf"
+	"github.com/namelessup/bilibili/app/interface/main/dm2/rpc/client"
+	"github.com/namelessup/bilibili/app/interface/main/videoup/conf"
 )
 
 // Dao fn

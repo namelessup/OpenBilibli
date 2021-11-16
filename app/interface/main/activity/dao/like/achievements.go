@@ -3,8 +3,8 @@ package like
 import (
 	"context"
 
-	likemdl "go-common/app/interface/main/activity/model/like"
-	xsql "go-common/library/database/sql"
+	likemdl "github.com/namelessup/bilibili/app/interface/main/activity/model/like"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
 
 	"github.com/pkg/errors"
 )

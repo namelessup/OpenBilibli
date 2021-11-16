@@ -5,8 +5,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"go-common/app/service/live/relation/api/liverpc/v1"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/live/relation/api/liverpc/v1"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 //GetUserFc 获取用户关注数

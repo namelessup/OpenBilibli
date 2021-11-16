@@ -52,7 +52,7 @@ go_library(
         "realname.go",
         "redis.go",
     ],
-    importpath = "go-common/app/job/main/member/dao",
+    importpath = "github.com/namelessup/bilibili/app/job/main/member/dao",
     tags = ["automanaged"],
     deps = [
         "//app/job/main/member/conf:go_default_library",

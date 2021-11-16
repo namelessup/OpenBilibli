@@ -6,11 +6,11 @@ import (
 	"os/signal"
 	"syscall"
 
-	"go-common/app/job/main/member/conf"
-	"go-common/app/job/main/member/http"
-	"go-common/app/job/main/member/service"
-	"go-common/library/log"
-	"go-common/library/queue/databus/report"
+	"github.com/namelessup/bilibili/app/job/main/member/conf"
+	"github.com/namelessup/bilibili/app/job/main/member/http"
+	"github.com/namelessup/bilibili/app/job/main/member/service"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus/report"
 )
 
 var (

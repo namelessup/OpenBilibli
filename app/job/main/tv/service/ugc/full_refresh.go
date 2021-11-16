@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	"go-common/app/job/main/tv/dao/app"
-	"go-common/app/job/main/tv/model/ugc"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/tv/dao/app"
+	"github.com/namelessup/bilibili/app/job/main/tv/model/ugc"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

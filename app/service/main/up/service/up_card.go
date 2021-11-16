@@ -3,12 +3,12 @@ package service
 import (
 	"context"
 
-	accgrpc "go-common/app/service/main/account/api"
-	"go-common/app/service/main/up/dao/global"
-	"go-common/app/service/main/up/model"
-	"go-common/library/log"
-	"go-common/library/net/http/blademaster"
-	"go-common/library/net/metadata"
+	accgrpc "github.com/namelessup/bilibili/app/service/main/account/api"
+	"github.com/namelessup/bilibili/app/service/main/up/dao/global"
+	"github.com/namelessup/bilibili/app/service/main/up/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 // ListCardBase list card mids

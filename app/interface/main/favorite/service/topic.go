@@ -3,10 +3,10 @@ package service
 import (
 	"context"
 
-	"go-common/app/interface/main/favorite/model"
-	favmdl "go-common/app/service/main/favorite/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/favorite/model"
+	favmdl "github.com/namelessup/bilibili/app/service/main/favorite/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 var _emptyTopics = []*model.Topic{}

@@ -13,7 +13,7 @@ go_library(
         "service.go",
         "upbfs.go",
     ],
-    importpath = "go-common/app/job/main/appstatic/service",
+    importpath = "github.com/namelessup/bilibili/app/job/main/appstatic/service",
     tags = ["automanaged"],
     deps = [
         "//app/job/main/appstatic/conf:go_default_library",

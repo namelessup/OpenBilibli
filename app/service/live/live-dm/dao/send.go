@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"strconv"
 
-	broadcasrtService "go-common/app/service/live/broadcast-proxy/api/v1"
-	"go-common/app/service/live/live-dm/model"
-	roomService "go-common/app/service/live/room/api/liverpc/v1"
-	"go-common/library/cache/redis"
-	"go-common/library/log"
+	broadcasrtService "github.com/namelessup/bilibili/app/service/live/broadcast-proxy/api/v1"
+	"github.com/namelessup/bilibili/app/service/live/live-dm/model"
+	roomService "github.com/namelessup/bilibili/app/service/live/room/api/liverpc/v1"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

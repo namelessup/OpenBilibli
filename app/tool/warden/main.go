@@ -8,14 +8,14 @@ import (
 	"path"
 	"strings"
 
-	"go-common/app/tool/warden/generator"
-	"go-common/app/tool/warden/goparser"
-	"go-common/app/tool/warden/types"
+	"github.com/namelessup/bilibili/app/tool/warden/generator"
+	"github.com/namelessup/bilibili/app/tool/warden/goparser"
+	"github.com/namelessup/bilibili/app/tool/warden/types"
 )
 
 const (
 	// GoCommon .
-	GoCommon = "go-common"
+	GoCommon = "github.com/namelessup/bilibili"
 )
 
 var (

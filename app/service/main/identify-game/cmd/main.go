@@ -3,18 +3,18 @@ package main
 import (
 	"context"
 	"flag"
-	"go-common/app/service/main/identify-game/server/grpc"
+	"github.com/namelessup/bilibili/app/service/main/identify-game/server/grpc"
 	"os"
 	"os/signal"
 	"syscall"
 	"time"
 
-	"go-common/app/service/main/identify-game/conf"
-	rpc "go-common/app/service/main/identify-game/rpc/server"
-	"go-common/app/service/main/identify-game/server/http"
-	"go-common/app/service/main/identify-game/service"
-	"go-common/library/log"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/app/service/main/identify-game/conf"
+	rpc "github.com/namelessup/bilibili/app/service/main/identify-game/rpc/server"
+	"github.com/namelessup/bilibili/app/service/main/identify-game/server/http"
+	"github.com/namelessup/bilibili/app/service/main/identify-game/service"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
 )
 
 func main() {

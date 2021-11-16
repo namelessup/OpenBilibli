@@ -5,10 +5,10 @@ import (
 	"context"
 	"time"
 
-	pb "go-common/app/interface/main/broadcast/api/grpc/v1"
-	"go-common/app/interface/main/broadcast/conf"
-	service "go-common/app/interface/main/broadcast/server"
-	"go-common/library/net/rpc/warden"
+	pb "github.com/namelessup/bilibili/app/interface/main/broadcast/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/interface/main/broadcast/conf"
+	service "github.com/namelessup/bilibili/app/interface/main/broadcast/server"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 )
 
 // New boradcast grpc server.

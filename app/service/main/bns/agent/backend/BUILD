@@ -17,7 +17,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["backend.go"],
-    importpath = "go-common/app/service/main/bns/agent/backend",
+    importpath = "github.com/namelessup/bilibili/app/service/main/bns/agent/backend",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

@@ -55,7 +55,7 @@ go_library(
         "video_oper.go",
         "video_shot.go",
     ],
-    importpath = "go-common/app/job/main/videoup/dao/archive",
+    importpath = "github.com/namelessup/bilibili/app/job/main/videoup/dao/archive",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

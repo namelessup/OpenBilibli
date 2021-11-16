@@ -29,7 +29,7 @@ go_library(
         "relations.go",
         "service.go",
     ],
-    importpath = "go-common/app/admin/main/relation/service",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/relation/service",
     tags = ["automanaged"],
     deps = [
         "//app/admin/main/relation/conf:go_default_library",

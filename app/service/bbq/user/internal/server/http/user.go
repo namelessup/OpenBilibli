@@ -1,8 +1,8 @@
 package http
 
 import (
-	"go-common/app/service/bbq/user/api"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/service/bbq/user/api"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 
 	"github.com/pkg/errors"
 )

@@ -5,14 +5,14 @@ import (
 	"html/template"
 	"time"
 
-	"go-common/app/interface/main/space/model"
-	arcmdl "go-common/app/service/main/archive/api"
-	filmdl "go-common/app/service/main/filter/model/rpc"
-	upmdl "go-common/app/service/main/up/api/v1"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/space/model"
+	arcmdl "github.com/namelessup/bilibili/app/service/main/archive/api"
+	filmdl "github.com/namelessup/bilibili/app/service/main/filter/model/rpc"
+	upmdl "github.com/namelessup/bilibili/app/service/main/up/api/v1"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 
-	"go-common/library/sync/errgroup.v2"
+	"github.com/namelessup/bilibili/library/sync/errgroup.v2"
 )
 
 const (

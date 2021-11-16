@@ -4,7 +4,7 @@ import (
 	"context"
 	"strconv"
 
-	"go-common/app/interface/openplatform/article/model"
+	"github.com/namelessup/bilibili/app/interface/openplatform/article/model"
 )
 
 func (d *Dao) cacheSFList(id int64) string {
@@ -19,7 +19,7 @@ func (d *Dao) cacheSFUpLists(id int64) string {
 	return strconv.FormatInt(id, 10)
 }
 
-//go:generate $GOPATH/src/go-common/app/tool/cache/gen
+//go:generate $GOPATH/src/github.com/namelessup/bilibili/app/tool/cache/gen
 type _cache interface {
 	// cache: -nullcache=&model.List{ID:-1} -check_null_code=$!=nil&&$.ID==-1 -singleflight=true
 	List(c context.Context, id int64) (*model.List, error)
@@ -37,7 +37,7 @@ type _cache interface {
 	Author(c context.Context, mid int64) (*model.AuthorLimit, error)
 }
 
-//go:generate $GOPATH/src/go-common/app/tool/cache/mc
+//go:generate $GOPATH/src/github.com/namelessup/bilibili/app/tool/cache/mc
 type _mc interface {
 	// 获取文集文章列表缓存
 	//mc: -key=listArtsKey

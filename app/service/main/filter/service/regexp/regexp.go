@@ -1,7 +1,7 @@
 package regexp
 
 import (
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 
 	pcre "github.com/GRbit/go-pcre"
 )

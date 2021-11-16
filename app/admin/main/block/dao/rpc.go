@@ -3,9 +3,9 @@ package dao
 import (
 	"context"
 
-	mdlaccount "go-common/app/service/main/account/model"
-	mdlfigure "go-common/app/service/main/figure/model"
-	mdlspy "go-common/app/service/main/spy/model"
+	mdlaccount "github.com/namelessup/bilibili/app/service/main/account/model"
+	mdlfigure "github.com/namelessup/bilibili/app/service/main/figure/model"
+	mdlspy "github.com/namelessup/bilibili/app/service/main/spy/model"
 
 	"github.com/pkg/errors"
 )

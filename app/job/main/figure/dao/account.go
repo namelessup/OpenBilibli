@@ -5,8 +5,8 @@ import (
 	"encoding/binary"
 	"time"
 
-	"go-common/app/job/main/figure/conf"
-	"go-common/app/job/main/figure/model"
+	"github.com/namelessup/bilibili/app/job/main/figure/conf"
+	"github.com/namelessup/bilibili/app/job/main/figure/model"
 
 	"github.com/pkg/errors"
 )

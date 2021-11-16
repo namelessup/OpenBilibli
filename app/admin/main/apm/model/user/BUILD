@@ -12,7 +12,7 @@ go_library(
         "rule.go",
         "user.go",
     ],
-    importpath = "go-common/app/admin/main/apm/model/user",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/apm/model/user",
     tags = ["automanaged"],
     deps = ["//library/time:go_default_library"],
 )

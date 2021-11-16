@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"go-common/library/cache/redis"
+	"github.com/namelessup/bilibili/library/cache/redis"
 )
 
 // AddRctFollower is

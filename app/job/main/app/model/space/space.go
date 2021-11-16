@@ -1,6 +1,6 @@
 package space
 
-import xtime "go-common/library/time"
+import xtime "github.com/namelessup/bilibili/library/time"
 
 type Attrs struct {
 	Archive bool `json:"archive,omitempty"`

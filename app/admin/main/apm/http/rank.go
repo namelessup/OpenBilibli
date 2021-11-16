@@ -1,8 +1,8 @@
 package http
 
 import (
-	"go-common/app/admin/main/apm/model/ut"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/apm/model/ut"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // @params RankReq

@@ -3,8 +3,8 @@ package dao
 import (
 	"context"
 
-	"go-common/app/job/main/click/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/click/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

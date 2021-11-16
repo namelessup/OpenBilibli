@@ -3,7 +3,7 @@ package model
 import (
 	"errors"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 //Stra 实验策略

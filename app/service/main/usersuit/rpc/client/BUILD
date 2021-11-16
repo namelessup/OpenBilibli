@@ -22,7 +22,7 @@ go_library(
         "medal.go",
         "pendant.go",
     ],
-    importpath = "go-common/app/service/main/usersuit/rpc/client",
+    importpath = "github.com/namelessup/bilibili/app/service/main/usersuit/rpc/client",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

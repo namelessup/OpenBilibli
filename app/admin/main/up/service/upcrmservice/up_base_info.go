@@ -6,15 +6,15 @@ import (
 	"sync"
 	"time"
 
-	"go-common/app/admin/main/up/dao/global"
-	"go-common/app/admin/main/up/model/datamodel"
-	"go-common/app/admin/main/up/model/upcrmmodel"
-	"go-common/app/admin/main/up/util"
-	accgrpc "go-common/app/service/main/account/api"
-	"go-common/library/database/elastic"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/admin/main/up/dao/global"
+	"github.com/namelessup/bilibili/app/admin/main/up/model/datamodel"
+	"github.com/namelessup/bilibili/app/admin/main/up/model/upcrmmodel"
+	"github.com/namelessup/bilibili/app/admin/main/up/util"
+	accgrpc "github.com/namelessup/bilibili/app/service/main/account/api"
+	"github.com/namelessup/bilibili/library/database/elastic"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 const (

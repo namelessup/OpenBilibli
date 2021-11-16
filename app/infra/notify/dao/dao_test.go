@@ -2,7 +2,7 @@ package dao
 
 import (
 	"flag"
-	"go-common/app/infra/notify/conf"
+	"github.com/namelessup/bilibili/app/infra/notify/conf"
 	"os"
 	"testing"
 )

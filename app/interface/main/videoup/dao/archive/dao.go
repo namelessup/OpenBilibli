@@ -2,10 +2,10 @@ package archive
 
 import (
 	"context"
-	"go-common/app/interface/main/videoup/conf"
-	upapi "go-common/app/service/main/up/api/v1"
-	"go-common/library/cache/redis"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/interface/main/videoup/conf"
+	upapi "github.com/namelessup/bilibili/app/service/main/up/api/v1"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 	"time"
 )
 

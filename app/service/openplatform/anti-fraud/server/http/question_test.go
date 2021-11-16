@@ -5,8 +5,8 @@ import (
 	"net/url"
 	"testing"
 
-	"go-common/app/service/openplatform/anti-fraud/model"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/service/openplatform/anti-fraud/model"
+	"github.com/namelessup/bilibili/library/ecode"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

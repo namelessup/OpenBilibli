@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["verify.go"],
-    importpath = "go-common/app/service/main/vip/verify",
+    importpath = "github.com/namelessup/bilibili/app/service/main/vip/verify",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

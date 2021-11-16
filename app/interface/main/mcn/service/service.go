@@ -4,16 +4,16 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/admin/main/mcn/model"
-	"go-common/app/interface/main/mcn/conf"
-	"go-common/app/interface/main/mcn/dao/bfs"
-	"go-common/app/interface/main/mcn/dao/cache"
-	"go-common/app/interface/main/mcn/dao/global"
-	"go-common/app/interface/main/mcn/dao/mcndao"
-	"go-common/app/interface/main/mcn/dao/msg"
-	"go-common/app/interface/main/mcn/tool/worker"
+	"github.com/namelessup/bilibili/app/admin/main/mcn/model"
+	"github.com/namelessup/bilibili/app/interface/main/mcn/conf"
+	"github.com/namelessup/bilibili/app/interface/main/mcn/dao/bfs"
+	"github.com/namelessup/bilibili/app/interface/main/mcn/dao/cache"
+	"github.com/namelessup/bilibili/app/interface/main/mcn/dao/global"
+	"github.com/namelessup/bilibili/app/interface/main/mcn/dao/mcndao"
+	"github.com/namelessup/bilibili/app/interface/main/mcn/dao/msg"
+	"github.com/namelessup/bilibili/app/interface/main/mcn/tool/worker"
 
-	"go-common/app/interface/main/mcn/dao/datadao"
+	"github.com/namelessup/bilibili/app/interface/main/mcn/dao/datadao"
 
 	"github.com/bluele/gcache"
 )

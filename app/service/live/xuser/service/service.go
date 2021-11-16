@@ -2,11 +2,11 @@ package service
 
 import (
 	"context"
-	"go-common/app/service/live/xuser/conf"
-	expv1 "go-common/app/service/live/xuser/service/exp/v1"
-	guardv1 "go-common/app/service/live/xuser/service/guard/v1"
-	roomadminv1 "go-common/app/service/live/xuser/service/roomAdmin/v1"
-	vipv1 "go-common/app/service/live/xuser/service/vip/v1"
+	"github.com/namelessup/bilibili/app/service/live/xuser/conf"
+	expv1 "github.com/namelessup/bilibili/app/service/live/xuser/service/exp/v1"
+	guardv1 "github.com/namelessup/bilibili/app/service/live/xuser/service/guard/v1"
+	roomadminv1 "github.com/namelessup/bilibili/app/service/live/xuser/service/roomAdmin/v1"
+	vipv1 "github.com/namelessup/bilibili/app/service/live/xuser/service/vip/v1"
 )
 
 // Service struct

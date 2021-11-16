@@ -24,7 +24,7 @@ go_library(
         "cache.go",
         "regexp.go",
     ],
-    importpath = "go-common/app/service/main/filter/service/regexp",
+    importpath = "github.com/namelessup/bilibili/app/service/main/filter/service/regexp",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

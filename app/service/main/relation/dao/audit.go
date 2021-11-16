@@ -5,8 +5,8 @@ import (
 	"net/url"
 	"strconv"
 
-	"go-common/app/service/main/relation/model"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/service/main/relation/model"
+	"github.com/namelessup/bilibili/library/ecode"
 
 	"github.com/pkg/errors"
 )

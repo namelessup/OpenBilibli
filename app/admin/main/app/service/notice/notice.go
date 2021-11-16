@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/admin/main/app/conf"
-	noticedao "go-common/app/admin/main/app/dao/notice"
-	"go-common/app/admin/main/app/model/notice"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/app/conf"
+	noticedao "github.com/namelessup/bilibili/app/admin/main/app/dao/notice"
+	"github.com/namelessup/bilibili/app/admin/main/app/model/notice"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Service notice service.

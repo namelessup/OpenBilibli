@@ -4,7 +4,7 @@ import (
 	"flag"
 	"path/filepath"
 
-	"go-common/app/job/main/videoup/conf"
+	"github.com/namelessup/bilibili/app/job/main/videoup/conf"
 
 	_ "github.com/go-sql-driver/mysql"
 	. "github.com/smartystreets/goconvey/convey"

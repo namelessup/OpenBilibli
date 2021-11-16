@@ -2,9 +2,9 @@ package app
 
 import (
 	"context"
-	"go-common/app/job/main/tv/model/common"
-	"go-common/library/database/sql"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/tv/model/common"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

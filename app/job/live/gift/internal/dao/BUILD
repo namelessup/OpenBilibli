@@ -12,7 +12,7 @@ go_library(
         "mysql.go",
         "redis.go",
     ],
-    importpath = "go-common/app/job/live/gift/internal/dao",
+    importpath = "github.com/namelessup/bilibili/app/job/live/gift/internal/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

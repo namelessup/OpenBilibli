@@ -27,7 +27,7 @@ go_library(
         "dao.go",
         "dataplatform.go",
     ],
-    importpath = "go-common/app/job/main/growup/dao/dataplatform",
+    importpath = "github.com/namelessup/bilibili/app/job/main/growup/dao/dataplatform",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

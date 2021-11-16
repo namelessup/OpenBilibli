@@ -2,7 +2,7 @@ package service
 
 import (
 	"fmt"
-	rpc "go-common/app/service/bbq/recsys/api/grpc/v1"
+	rpc "github.com/namelessup/bilibili/app/service/bbq/recsys/api/grpc/v1"
 
 	"github.com/go-ego/murmur"
 )

@@ -20,7 +20,7 @@ go_library(
         "verification.go",
         "version.go",
     ],
-    importpath = "go-common/app/tool/kratos",
+    importpath = "github.com/namelessup/bilibili/app/tool/kratos",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

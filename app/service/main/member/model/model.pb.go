@@ -20,7 +20,7 @@ import fmt "fmt"
 import math "math"
 import _ "github.com/gogo/protobuf/gogoproto"
 
-import go_common_time "go-common/library/time"
+import go_common_time "github.com/namelessup/bilibili/library/time"
 
 import io "io"
 
@@ -42,7 +42,7 @@ type BaseInfo struct {
 	Face     string              `protobuf:"bytes,4,opt,name=face,proto3" json:"face"`
 	Sign     string              `protobuf:"bytes,5,opt,name=sign,proto3" json:"sign"`
 	Rank     int64               `protobuf:"varint,6,opt,name=rank,proto3" json:"rank"`
-	Birthday go_common_time.Time `protobuf:"varint,7,opt,name=birthday,proto3,casttype=go-common/library/time.Time" json:"birthday"`
+	Birthday go_common_time.Time `protobuf:"varint,7,opt,name=birthday,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"birthday"`
 }
 
 func (m *BaseInfo) Reset()                    { *m = BaseInfo{} }
@@ -176,7 +176,7 @@ type Moral struct {
 	Moral           int64               `protobuf:"varint,2,opt,name=moral,proto3" json:"moral"`
 	Added           int64               `protobuf:"varint,3,opt,name=added,proto3" json:"added"`
 	Deducted        int64               `protobuf:"varint,4,opt,name=deducted,proto3" json:"deducted"`
-	LastRecoverDate go_common_time.Time `protobuf:"varint,5,opt,name=last_recover_date,json=lastRecoverDate,proto3,casttype=go-common/library/time.Time" json:"last_recover_date"`
+	LastRecoverDate go_common_time.Time `protobuf:"varint,5,opt,name=last_recover_date,json=lastRecoverDate,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"last_recover_date"`
 }
 
 func (m *Moral) Reset()                    { *m = Moral{} }

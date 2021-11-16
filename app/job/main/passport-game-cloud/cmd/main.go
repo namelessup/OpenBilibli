@@ -7,11 +7,11 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/app/job/main/passport-game-cloud/conf"
-	"go-common/app/job/main/passport-game-cloud/http"
-	"go-common/app/job/main/passport-game-cloud/service"
-	"go-common/library/log"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/app/job/main/passport-game-cloud/conf"
+	"github.com/namelessup/bilibili/app/job/main/passport-game-cloud/http"
+	"github.com/namelessup/bilibili/app/job/main/passport-game-cloud/service"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
 )
 
 func main() {

@@ -21,7 +21,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["collect.go"],
-    importpath = "go-common/app/service/main/dapper/pkg/collect/kafkacollect",
+    importpath = "github.com/namelessup/bilibili/app/service/main/dapper/pkg/collect/kafkacollect",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

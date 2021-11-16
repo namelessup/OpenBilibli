@@ -1,6 +1,6 @@
 package blocked
 
-import xtime "go-common/library/time"
+import xtime "github.com/namelessup/bilibili/library/time"
 
 // Reason is blocked_reason model.
 type Reason struct {

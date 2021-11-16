@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/app/interface/main/app-view/conf"
-	thumbup "go-common/app/service/main/thumbup/api"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/main/app-view/conf"
+	thumbup "github.com/namelessup/bilibili/app/service/main/thumbup/api"
+	"github.com/namelessup/bilibili/library/net/metadata"
 
 	"github.com/pkg/errors"
 )

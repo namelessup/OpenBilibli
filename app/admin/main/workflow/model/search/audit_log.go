@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"strings"
 
-	"go-common/app/admin/main/workflow/model"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/admin/main/workflow/model"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 // AuditLogGroupSearchCond is the common condition model to send challenge search request

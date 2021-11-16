@@ -3,7 +3,7 @@ package archive
 import (
 	"fmt"
 
-	"go-common/app/admin/main/videoup/model/utils"
+	"github.com/namelessup/bilibili/app/admin/main/videoup/model/utils"
 )
 
 // .

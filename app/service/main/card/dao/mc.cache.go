@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"strconv"
 
-	"go-common/app/service/main/card/model"
-	mc "go-common/library/cache/memcache"
-	"go-common/library/log"
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/app/service/main/card/model"
+	mc "github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/stat/prom"
 
 	"github.com/pkg/errors"
 )

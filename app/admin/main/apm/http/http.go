@@ -3,13 +3,13 @@ package http
 import (
 	"net/http"
 
-	"go-common/app/admin/main/apm/conf"
-	per "go-common/app/admin/main/apm/model/user"
-	"go-common/app/admin/main/apm/service"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	mpermit "go-common/library/net/http/blademaster/middleware/permit"
+	"github.com/namelessup/bilibili/app/admin/main/apm/conf"
+	per "github.com/namelessup/bilibili/app/admin/main/apm/model/user"
+	"github.com/namelessup/bilibili/app/admin/main/apm/service"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	mpermit "github.com/namelessup/bilibili/library/net/http/blademaster/middleware/permit"
 )
 
 var (

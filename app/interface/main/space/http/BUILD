@@ -26,7 +26,7 @@ go_library(
         "tag.go",
         "web.go",
     ],
-    importpath = "go-common/app/interface/main/space/http",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/space/http",
     tags = ["automanaged"],
     deps = [
         "//app/interface/main/space/conf:go_default_library",

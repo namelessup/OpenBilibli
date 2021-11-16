@@ -7,12 +7,12 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/app/job/main/tv/conf"
-	"go-common/app/job/main/tv/http"
-	"go-common/app/job/main/tv/service/pgc"
-	"go-common/app/job/main/tv/service/ugc"
-	"go-common/library/log"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/app/job/main/tv/conf"
+	"github.com/namelessup/bilibili/app/job/main/tv/http"
+	"github.com/namelessup/bilibili/app/job/main/tv/service/pgc"
+	"github.com/namelessup/bilibili/app/job/main/tv/service/ugc"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
 )
 
 var (

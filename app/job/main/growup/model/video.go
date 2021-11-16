@@ -1,7 +1,7 @@
 package model
 
 import (
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 // CategoryInfo query from up_category_info,used to update up_info_xxx

@@ -1,6 +1,6 @@
 package model
 
-import "go-common/library/time"
+import "github.com/namelessup/bilibili/library/time"
 
 // SKUStockLog sku 库存操作日志
 type SKUStockLog struct {

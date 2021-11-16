@@ -40,7 +40,7 @@ go_library(
         "up_group.go",
         "up_mc.go",
     ],
-    importpath = "go-common/app/service/main/up/dao/manager",
+    importpath = "github.com/namelessup/bilibili/app/service/main/up/dao/manager",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

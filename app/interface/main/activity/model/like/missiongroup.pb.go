@@ -8,7 +8,7 @@ import fmt "fmt"
 import math "math"
 import _ "github.com/gogo/protobuf/gogoproto"
 
-import go_common_library_time "go-common/library/time"
+import go_common_library_time "github.com/namelessup/bilibili/library/time"
 
 import io "io"
 
@@ -28,8 +28,8 @@ type MissionGroup struct {
 	Sid                  int64                       `protobuf:"varint,2,opt,name=Sid,proto3" json:"sid"`
 	Mid                  int64                       `protobuf:"varint,3,opt,name=Mid,proto3" json:"mid"`
 	State                int64                       `protobuf:"varint,4,opt,name=State,proto3" json:"state"`
-	Ctime                go_common_library_time.Time `protobuf:"varint,5,opt,name=Ctime,proto3,casttype=go-common/library/time.Time" json:"ctime"`
-	Mtime                go_common_library_time.Time `protobuf:"varint,6,opt,name=Mtime,proto3,casttype=go-common/library/time.Time" json:"mtime"`
+	Ctime                go_common_library_time.Time `protobuf:"varint,5,opt,name=Ctime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"ctime"`
+	Mtime                go_common_library_time.Time `protobuf:"varint,6,opt,name=Mtime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"mtime"`
 	XXX_NoUnkeyedLiteral struct{}                    `json:"-"`
 	XXX_unrecognized     []byte                      `json:"-"`
 	XXX_sizecache        int32                       `json:"-"`
@@ -73,8 +73,8 @@ type ActMissionGroup struct {
 	Lid                  int64                       `protobuf:"varint,2,opt,name=Lid,proto3" json:"lid"`
 	Mid                  int64                       `protobuf:"varint,3,opt,name=Mid,proto3" json:"mid"`
 	Action               int64                       `protobuf:"varint,4,opt,name=Action,proto3" json:"action"`
-	Ctime                go_common_library_time.Time `protobuf:"varint,5,opt,name=Ctime,proto3,casttype=go-common/library/time.Time" json:"ctime"`
-	Mtime                go_common_library_time.Time `protobuf:"varint,6,opt,name=Mtime,proto3,casttype=go-common/library/time.Time" json:"mtime"`
+	Ctime                go_common_library_time.Time `protobuf:"varint,5,opt,name=Ctime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"ctime"`
+	Mtime                go_common_library_time.Time `protobuf:"varint,6,opt,name=Mtime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"mtime"`
 	Sid                  int64                       `protobuf:"varint,7,opt,name=Sid,proto3" json:"sid"`
 	IP                   int64                       `protobuf:"varint,8,opt,name=IP,proto3" json:"ip"`
 	IPv6                 []byte                      `protobuf:"bytes,9,opt,name=IPv6,proto3" json:"ipv6"`

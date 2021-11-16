@@ -4,9 +4,9 @@ import (
 	"flag"
 	"fmt"
 
-	"go-common/app/service/openplatform/abtest/conf"
-	"go-common/app/service/openplatform/abtest/service"
-	httpx "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/service/openplatform/abtest/conf"
+	"github.com/namelessup/bilibili/app/service/openplatform/abtest/service"
+	httpx "github.com/namelessup/bilibili/library/net/http/blademaster"
 
 	_ "github.com/smartystreets/goconvey/convey"
 )

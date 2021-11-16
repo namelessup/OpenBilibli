@@ -4,11 +4,11 @@ import (
 	"context"
 	"sort"
 
-	artmdl "go-common/app/interface/openplatform/article/model"
-	"go-common/app/service/main/feed/dao"
-	"go-common/app/service/main/feed/model"
-	feedmdl "go-common/app/service/main/feed/model"
-	"go-common/library/log"
+	artmdl "github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	"github.com/namelessup/bilibili/app/service/main/feed/dao"
+	"github.com/namelessup/bilibili/app/service/main/feed/model"
+	feedmdl "github.com/namelessup/bilibili/app/service/main/feed/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // ArticleFeed get feed of ups.

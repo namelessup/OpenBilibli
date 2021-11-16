@@ -5,10 +5,10 @@ import (
 	"sort"
 	"time"
 
-	bwsmdl "go-common/app/interface/main/activity/model/bws"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	xtime "go-common/library/time"
+	bwsmdl "github.com/namelessup/bilibili/app/interface/main/activity/model/bws"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 func (s *Service) points(c context.Context, bid int64) (rs map[string][]*bwsmdl.Point, err error) {

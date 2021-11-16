@@ -5,11 +5,11 @@ import (
 	"encoding/json"
 	"time"
 
-	"go-common/app/job/main/card/model"
-	cardapi "go-common/app/service/main/card/api/grpc/v1"
-	cardmol "go-common/app/service/main/card/model"
-	vipmol "go-common/app/service/main/vip/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/card/model"
+	cardapi "github.com/namelessup/bilibili/app/service/main/card/api/grpc/v1"
+	cardmol "github.com/namelessup/bilibili/app/service/main/card/model"
+	vipmol "github.com/namelessup/bilibili/app/service/main/vip/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // ChangeEquipTime change vip equip time.

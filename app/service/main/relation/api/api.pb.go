@@ -8,7 +8,7 @@ import (
 	fmt "fmt"
 	_ "github.com/gogo/protobuf/gogoproto"
 	proto "github.com/gogo/protobuf/proto"
-	go_common_library_time "go-common/library/time"
+	go_common_library_time "github.com/namelessup/bilibili/library/time"
 	grpc "google.golang.org/grpc"
 	io "io"
 	math "math"
@@ -89,13 +89,13 @@ func (m *RelationReq) GetRealIp() string {
 }
 
 // +bili:deepcopy-gen=true
-// +bili:deepcopy-gen:structs=go-common/app/service/main/relation/model.Following
+// +bili:deepcopy-gen:structs=github.com/namelessup/bilibili/app/service/main/relation/model.Following
 type FollowingReply struct {
 	Mid                  int64                       `protobuf:"varint,1,opt,name=mid,proto3" json:"mid"`
 	Attribute            uint32                      `protobuf:"varint,2,opt,name=attribute,proto3" json:"attribute"`
 	Source               uint32                      `protobuf:"varint,3,opt,name=source,proto3" json:"-"`
-	CTime                go_common_library_time.Time `protobuf:"varint,4,opt,name=ctime,proto3,casttype=go-common/library/time.Time" json:"-"`
-	MTime                go_common_library_time.Time `protobuf:"varint,5,opt,name=mtime,proto3,casttype=go-common/library/time.Time" json:"mtime"`
+	CTime                go_common_library_time.Time `protobuf:"varint,4,opt,name=ctime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"-"`
+	MTime                go_common_library_time.Time `protobuf:"varint,5,opt,name=mtime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"mtime"`
 	Tag                  []int64                     `protobuf:"varint,6,rep,packed,name=tag,proto3" json:"tag"`
 	Special              int32                       `protobuf:"varint,7,opt,name=special,proto3" json:"special"`
 	XXX_NoUnkeyedLiteral struct{}                    `json:"-"`
@@ -398,15 +398,15 @@ func (m *MidReq) GetRealIp() string {
 }
 
 // +bili:deepcopy-gen=true
-// +bili:deepcopy-gen:structs=go-common/app/service/main/relation/model.Stat
+// +bili:deepcopy-gen:structs=github.com/namelessup/bilibili/app/service/main/relation/model.Stat
 type StatReply struct {
 	Mid                  int64                       `protobuf:"varint,1,opt,name=mid,proto3" json:"mid"`
 	Following            int64                       `protobuf:"varint,2,opt,name=following,proto3" json:"following"`
 	Whisper              int64                       `protobuf:"varint,3,opt,name=whisper,proto3" json:"whisper"`
 	Black                int64                       `protobuf:"varint,4,opt,name=black,proto3" json:"black"`
 	Follower             int64                       `protobuf:"varint,5,opt,name=follower,proto3" json:"follower"`
-	CTime                go_common_library_time.Time `protobuf:"varint,6,opt,name=ctime,proto3,casttype=go-common/library/time.Time" json:"-"`
-	MTime                go_common_library_time.Time `protobuf:"varint,7,opt,name=mtime,proto3,casttype=go-common/library/time.Time" json:"-"`
+	CTime                go_common_library_time.Time `protobuf:"varint,6,opt,name=ctime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"-"`
+	MTime                go_common_library_time.Time `protobuf:"varint,7,opt,name=mtime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"-"`
 	XXX_NoUnkeyedLiteral struct{}                    `json:"-"`
 	XXX_unrecognized     []byte                      `json:"-"`
 	XXX_sizecache        int32                       `json:"-"`
@@ -834,7 +834,7 @@ func (m *TagReply) GetMids() []int64 {
 }
 
 // +bili:deepcopy-gen=true
-// +bili:deepcopy-gen:structs=go-common/app/service/main/relation/model.TagCount
+// +bili:deepcopy-gen:structs=github.com/namelessup/bilibili/app/service/main/relation/model.TagCount
 type TagCountReply struct {
 	Tagid                int64    `protobuf:"varint,1,opt,name=tagid,proto3" json:"tagid"`
 	Name                 string   `protobuf:"bytes,2,opt,name=name,proto3" json:"name"`

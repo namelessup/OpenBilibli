@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"go-common/app/service/main/usersuit/conf"
+	"github.com/namelessup/bilibili/app/service/main/usersuit/conf"
 
 	"gopkg.in/h2non/gock.v1"
 )

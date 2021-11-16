@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	bwsmdl "go-common/app/interface/main/activity/model/bws"
+	bwsmdl "github.com/namelessup/bilibili/app/interface/main/activity/model/bws"
 )
 
 func midKey(id int64) string {
@@ -22,7 +22,7 @@ func achievesKey(id int64) string {
 	return fmt.Sprintf("b_a_%d", id)
 }
 
-//go:generate $GOPATH/src/go-common/app/tool/cache/gen
+//go:generate $GOPATH/src/github.com/namelessup/bilibili/app/tool/cache/gen
 type _cache interface {
 	//cache: -sync=true
 	UsersMid(c context.Context, key int64) (*bwsmdl.Users, error)
@@ -40,7 +40,7 @@ type _cache interface {
 	AchieveCounts(c context.Context, bid int64, day string) ([]*bwsmdl.CountAchieves, error)
 }
 
-//go:generate $GOPATH/src/go-common/app/tool/cache/mc
+//go:generate $GOPATH/src/github.com/namelessup/bilibili/app/tool/cache/mc
 type _mc interface {
 	//mc: -key=midKey
 	CacheUsersMid(c context.Context, key int64) (*bwsmdl.Users, error)

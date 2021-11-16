@@ -1,8 +1,8 @@
 package net
 
 import (
-	"go-common/app/admin/main/aegis/model/common"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model/common"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 const (

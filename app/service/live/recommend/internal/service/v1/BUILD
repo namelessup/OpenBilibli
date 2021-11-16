@@ -21,7 +21,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["recommend.go"],
-    importpath = "go-common/app/service/live/recommend/internal/service/v1",
+    importpath = "github.com/namelessup/bilibili/app/service/live/recommend/internal/service/v1",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

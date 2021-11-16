@@ -12,7 +12,7 @@ go_library(
         "capsule.go",
         "storm.go",
     ],
-    importpath = "go-common/app/service/live/xlottery/service/v1",
+    importpath = "github.com/namelessup/bilibili/app/service/live/xlottery/service/v1",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

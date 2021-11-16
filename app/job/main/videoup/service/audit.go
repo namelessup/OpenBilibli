@@ -4,12 +4,12 @@ import (
 	"context"
 	"encoding/json"
 
-	"go-common/app/job/main/videoup/model/archive"
-	"go-common/app/job/main/videoup/model/message"
-	"go-common/app/job/main/videoup/model/redis"
-	xsql "go-common/library/database/sql"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/job/main/videoup/model/archive"
+	"github.com/namelessup/bilibili/app/job/main/videoup/model/message"
+	"github.com/namelessup/bilibili/app/job/main/videoup/model/redis"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 // videoupConsumer is videoup message consumer.

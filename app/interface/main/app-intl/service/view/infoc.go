@@ -6,11 +6,11 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/interface/main/app-intl/conf"
-	"go-common/app/interface/main/app-intl/model/view"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/log/infoc"
+	"github.com/namelessup/bilibili/app/interface/main/app-intl/conf"
+	"github.com/namelessup/bilibili/app/interface/main/app-intl/model/view"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/log/infoc"
 )
 
 // viewInfoc struct

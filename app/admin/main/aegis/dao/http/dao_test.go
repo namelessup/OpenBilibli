@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"go-common/app/admin/main/aegis/conf"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/conf"
 
 	"github.com/smartystreets/goconvey/convey"
 	"gopkg.in/h2non/gock.v1"

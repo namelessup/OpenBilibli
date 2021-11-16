@@ -2,10 +2,10 @@ package v1
 
 import (
 	"context"
-	dahanghaiModel "go-common/app/service/live/xuser/model/dhh"
-	"go-common/library/net/metadata"
+	dahanghaiModel "github.com/namelessup/bilibili/app/service/live/xuser/model/dhh"
+	"github.com/namelessup/bilibili/library/net/metadata"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *GuardService) asyncCLearExpCache(ctx context.Context, uid int64) (err error) {

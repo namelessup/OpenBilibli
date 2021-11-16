@@ -5,8 +5,8 @@ import (
 	"context"
 	"strconv"
 
-	"go-common/app/admin/main/card/model"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/admin/main/card/model"
+	"github.com/namelessup/bilibili/library/xstr"
 
 	"github.com/pkg/errors"
 )

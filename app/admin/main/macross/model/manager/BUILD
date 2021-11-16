@@ -11,7 +11,7 @@ go_library(
         "manager.go",
         "model.go",
     ],
-    importpath = "go-common/app/admin/main/macross/model/manager",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/macross/model/manager",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/time:go_default_library"],

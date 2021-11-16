@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"go-common/app/service/live/xlottery/conf"
-	"go-common/app/service/live/xlottery/dao"
+	"github.com/namelessup/bilibili/app/service/live/xlottery/conf"
+	"github.com/namelessup/bilibili/app/service/live/xlottery/dao"
 )
 
 // Service struct

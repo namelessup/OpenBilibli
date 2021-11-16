@@ -7,7 +7,7 @@
 > 请使用golang v1.7.x以上版本编译执行。  
 
 ##### 依赖包
-> 1.公共包go-common  
+> 1.公共包github.com/namelessup/bilibili  
 
 ##### 编译执行
 > 在主目录执行go build。   

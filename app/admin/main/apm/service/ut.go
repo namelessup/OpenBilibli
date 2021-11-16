@@ -7,10 +7,10 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/admin/main/apm/conf"
-	"go-common/app/admin/main/apm/model/ut"
-	"go-common/library/log"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/admin/main/apm/conf"
+	"github.com/namelessup/bilibili/app/admin/main/apm/model/ut"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	"github.com/jinzhu/gorm"
 )
@@ -51,7 +51,7 @@ func (s *Service) UtList(c context.Context, arg *ut.MergeReq) (mrInfs []*ut.Merg
 			return
 		}
 		if err = s.DB.Select(`max(commit_id) as commit_id, substring_index(pkg,"/",5) as pkg, ROUND(AVG(coverage/100),2) as coverage, SUM(assertions) as assertions, SUM(panics) as panics, SUM(passed) as passed, ROUND(SUM(passed)/SUM(assertions)*100,2) as pass_rate, SUM(failures) as failures, MAX(mtime) as mtime`).
-			Where(`commit_id=? and (pkg!=substring_index(pkg, "/", 5) or pkg like "go-common/library/%")`, commit.CommitID).
+			Where(`commit_id=? and (pkg!=substring_index(pkg, "/", 5) or pkg like "github.com/namelessup/bilibili/library/%")`, commit.CommitID).
 			Group(`substring_index(pkg, "/", 5)`).Find(&commit.PkgAnls).Error; err != nil {
 			log.Error("service.UtList commitID(%s) error(%v)", commit.CommitID, err)
 			return
@@ -71,7 +71,7 @@ func (s *Service) UtDetailList(c context.Context, arg *ut.DetailReq) (utpkgs []*
 		hql += fmt.Sprintf(" and commit_id='%s'", arg.CommitID)
 	}
 	if arg.PKG != "" {
-		hql += fmt.Sprintf(" and substring_index(pkg,'/',5)='%s' and (pkg!=substring_index(pkg,'/',5) or pkg like 'go-common/library/%%')", arg.PKG)
+		hql += fmt.Sprintf(" and substring_index(pkg,'/',5)='%s' and (pkg!=substring_index(pkg,'/',5) or pkg like 'github.com/namelessup/bilibili/library/%%')", arg.PKG)
 	}
 	if err = s.dao.DB.Select("id, commit_id, merge_id, pkg, ROUND(coverage/100,2) as coverage, ROUND(passed/assertions*100,2) as pass_rate,panics,failures,skipped,passed,assertions,html_url,report_url,mtime,ctime").Where(hql).Find(&utpkgs).Error; err != nil {
 		log.Error("service.UTDetilList commitID(%s) project(%s) error(%v)", arg.CommitID, arg.PKG, err)
@@ -97,7 +97,7 @@ func (s *Service) UtHistoryCommit(c context.Context, arg *ut.HistoryCommitReq) (
 	}
 	for _, commit := range utcmts {
 		if err = s.dao.DB.Select(`max(commit_id) as commit_id, substring_index(pkg,"/",5) as pkg, ROUND(AVG(coverage/100),2) as coverage, SUM(assertions) as assertions, SUM(panics) as panics, SUM(passed) as passed, ROUND(SUM(passed)/SUM(assertions)*100,2) as pass_rate, SUM(failures) as failures, MAX(mtime) as mtime`).
-			Where("commit_id=? and (pkg!=substring_index(pkg,'/',5) or pkg like 'go-common/library/%')", commit.CommitID).Group(`substring_index(pkg, "/", 5)`).
+			Where("commit_id=? and (pkg!=substring_index(pkg,'/',5) or pkg like 'github.com/namelessup/bilibili/library/%')", commit.CommitID).Group(`substring_index(pkg, "/", 5)`).
 			Order(`substring_index(pkg, "/", 5)`).Find(&commit.PkgAnls).Error; err != nil {
 			log.Error("service.UTHistoryCommit commitID(%s) error(%v)", commit.CommitID, err)
 			return
@@ -275,7 +275,7 @@ func (s *Service) CheckUT(c context.Context, cid string) (t *ut.Tyrant, err erro
 	var (
 		pkgs = make([]*ut.PkgAnls, 0)
 	)
-	if err = s.DB.Where("commit_id=? and (pkg!=substring_index(pkg,'/',5) or pkg like 'go-common/library/%')", cid).Find(&pkgs).Error; err != nil {
+	if err = s.DB.Where("commit_id=? and (pkg!=substring_index(pkg,'/',5) or pkg like 'github.com/namelessup/bilibili/library/%')", cid).Find(&pkgs).Error; err != nil {
 		log.Error("s.Tyrant query by commit_id error(%v)", err)
 		return
 	}
@@ -330,7 +330,7 @@ func (s *Service) QATrend(c context.Context, arg *ut.QATrendReq) (trend *ut.QATr
 	var (
 		date, group, order string
 		details            []*ut.PkgAnls
-		where              = "1=1 and (ut_pkganls.pkg!=substring_index(ut_pkganls.pkg,'/',5) or ut_pkganls.pkg like 'go-common/library/%')"
+		where              = "1=1 and (ut_pkganls.pkg!=substring_index(ut_pkganls.pkg,'/',5) or ut_pkganls.pkg like 'github.com/namelessup/bilibili/library/%')"
 	)
 	if arg.User != "" {
 		where += fmt.Sprintf(" and ut_commit.username = '%s'", arg.User)
@@ -422,7 +422,7 @@ func (s *Service) CommitHistory(c context.Context, username string, times int64)
 	pkgs = make([]*ut.PkgAnls, 0)
 	if err = s.DB.Table("ut_pkganls p").
 		Select("p.merge_id, p.commit_id, group_concat( p.pkg ) AS pkg,group_concat( ROUND( p.coverage / 100, 2 ) ) AS coverages,group_concat( ROUND( p.passed / p.assertions * 100, 2 ) ) AS pass_rates,p.mtime").
-		Joins("left join ut_commit c on c.commit_id=p.commit_id").Where(" c.username=? AND (p.pkg!=substring_index(p.pkg,'/',5) or p.pkg like 'go-common/library/%')", username).
+		Joins("left join ut_commit c on c.commit_id=p.commit_id").Where(" c.username=? AND (p.pkg!=substring_index(p.pkg,'/',5) or p.pkg like 'github.com/namelessup/bilibili/library/%')", username).
 		Group("p.commit_id").Order("p.mtime desc").Limit(times).Find(&pkgs).Error; err != nil {
 		log.Error("s.CommitHistory query error(%v)", err)
 	}

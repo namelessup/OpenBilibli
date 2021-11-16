@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"time"
 
-	"go-common/app/admin/main/app/conf"
-	auditdao "go-common/app/admin/main/app/dao/audit"
-	"go-common/app/admin/main/app/model/audit"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/app/conf"
+	auditdao "github.com/namelessup/bilibili/app/admin/main/app/dao/audit"
+	"github.com/namelessup/bilibili/app/admin/main/app/model/audit"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

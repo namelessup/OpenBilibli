@@ -85,7 +85,7 @@ go_library(
         "vip2.go",
         "welfare.go",
     ],
-    importpath = "go-common/app/service/main/vip/service",
+    importpath = "github.com/namelessup/bilibili/app/service/main/vip/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

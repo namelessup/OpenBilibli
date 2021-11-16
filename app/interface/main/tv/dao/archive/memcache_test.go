@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"testing"
 
-	"go-common/app/interface/main/tv/model/view"
-	arcwar "go-common/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/app/interface/main/tv/model/view"
+	arcwar "github.com/namelessup/bilibili/app/service/main/archive/api"
 
 	"github.com/smartystreets/goconvey/convey"
 )

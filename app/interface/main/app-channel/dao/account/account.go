@@ -3,10 +3,10 @@ package account
 import (
 	"context"
 
-	"go-common/app/interface/main/app-channel/conf"
-	account "go-common/app/service/main/account/model"
-	accrpc "go-common/app/service/main/account/rpc/client"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/main/app-channel/conf"
+	account "github.com/namelessup/bilibili/app/service/main/account/model"
+	accrpc "github.com/namelessup/bilibili/app/service/main/account/rpc/client"
+	"github.com/namelessup/bilibili/library/net/metadata"
 
 	"github.com/pkg/errors"
 )

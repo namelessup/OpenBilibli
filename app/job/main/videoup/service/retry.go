@@ -6,10 +6,10 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/job/main/videoup/model/archive"
-	"go-common/app/job/main/videoup/model/message"
-	"go-common/app/job/main/videoup/model/redis"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/videoup/model/archive"
+	"github.com/namelessup/bilibili/app/job/main/videoup/model/message"
+	"github.com/namelessup/bilibili/app/job/main/videoup/model/redis"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) syncRetry(c context.Context, aid, mid int64, action, route, content string) (err error) {

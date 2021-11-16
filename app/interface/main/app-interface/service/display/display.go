@@ -2,13 +2,13 @@ package display
 
 import (
 	"context"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/library/net/metadata"
 	"strconv"
 	"time"
 
-	locmdl "go-common/app/service/main/location/model"
-	"go-common/library/log"
-	xip "go-common/library/net/ip"
+	locmdl "github.com/namelessup/bilibili/app/service/main/location/model"
+	"github.com/namelessup/bilibili/library/log"
+	xip "github.com/namelessup/bilibili/library/net/ip"
 )
 
 // DisplayID is display id .

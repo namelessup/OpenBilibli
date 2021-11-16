@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/interface/main/app-interface/conf"
-	// "go-common/app/interface/main/app-interface/model/search"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/conf"
+	// "github.com/namelessup/bilibili/app/interface/main/app-interface/model/search"
 
 	. "github.com/smartystreets/goconvey/convey"
 	"gopkg.in/h2non/gock.v1"

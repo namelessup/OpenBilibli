@@ -39,7 +39,7 @@ go_library(
         "online.go",
         "playurl.go",
     ],
-    importpath = "go-common/app/interface/main/player/dao",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/player/dao",
     tags = ["automanaged"],
     deps = [
         "//app/interface/main/player/conf:go_default_library",

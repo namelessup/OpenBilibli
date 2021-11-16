@@ -3,13 +3,13 @@ package service
 import (
 	"context"
 
-	"go-common/app/interface/main/web-feed/dao"
-	"go-common/app/interface/main/web-feed/model"
-	artmdl "go-common/app/interface/openplatform/article/model"
-	account "go-common/app/service/main/account/model"
-	feedmdl "go-common/app/service/main/feed/model"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/main/web-feed/dao"
+	"github.com/namelessup/bilibili/app/interface/main/web-feed/model"
+	artmdl "github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	account "github.com/namelessup/bilibili/app/service/main/account/model"
+	feedmdl "github.com/namelessup/bilibili/app/service/main/feed/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 // Feed get feed of ups and bangumi.

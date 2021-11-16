@@ -3,13 +3,13 @@ package service
 import (
 	"context"
 
-	"go-common/app/admin/main/dm/model"
-	accountApi "go-common/app/service/main/account/api"
-	"go-common/app/service/main/archive/api"
-	arcMdl "go-common/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/app/admin/main/dm/model"
+	accountApi "github.com/namelessup/bilibili/app/service/main/account/api"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	arcMdl "github.com/namelessup/bilibili/app/service/main/archive/model/archive"
 
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // MaskState get mask state

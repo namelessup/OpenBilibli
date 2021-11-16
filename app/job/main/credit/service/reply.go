@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"time"
 
-	"go-common/app/job/main/credit/model"
-	"go-common/app/service/main/archive/model/archive"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/credit/model"
+	"github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) replyAllConsumer() {

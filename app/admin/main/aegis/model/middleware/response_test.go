@@ -5,8 +5,8 @@ import (
 
 	"fmt"
 	"github.com/smartystreets/goconvey/convey"
-	"go-common/app/admin/main/aegis/model"
-	"go-common/app/admin/main/aegis/model/resource"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model/resource"
 )
 
 func TestMiddlewareRequest(t *testing.T) {

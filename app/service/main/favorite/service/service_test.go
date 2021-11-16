@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"go-common/app/service/main/favorite/conf"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/service/main/favorite/conf"
+	"github.com/namelessup/bilibili/library/ecode"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	webmdl "go-common/app/interface/main/web-goblin/model/web"
-	"go-common/library/database/elastic"
-	"go-common/library/log"
+	webmdl "github.com/namelessup/bilibili/app/interface/main/web-goblin/model/web"
+	"github.com/namelessup/bilibili/library/database/elastic"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const _ugcIncre = "web_goblin"

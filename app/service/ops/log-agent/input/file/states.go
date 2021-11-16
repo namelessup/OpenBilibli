@@ -3,7 +3,7 @@ package file
 import (
 	"sync"
 	"time"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // States handles list of FileState. One must use NewStates to instantiate a

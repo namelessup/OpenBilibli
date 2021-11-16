@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/admin/main/apm/model/ut"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/apm/model/ut"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // DashCurveGraph is a curve graph for leader to show the team members' code coverage
@@ -18,7 +18,7 @@ func (s *Service) DashCurveGraph(c context.Context, username string, req *ut.PCu
 	s.appsCache.Unlock()
 
 	if err = s.DB.Table("ut_pkganls").Select("SUBSTRING_INDEX(pkg, '/', 5) AS pkg, ROUND(AVG(coverage/100),2) as coverage, SUM(assertions) as assertions, SUM(panics) as panics, SUM(passed) as passed, ROUND(SUM(passed)/SUM(assertions)*100,2) as pass_rate, SUM(failures) as failures, mtime").
-		Where("mtime BETWEEN ? AND ? AND SUBSTRING_INDEX(pkg, '/', 5) IN (?) AND (pkg!=SUBSTRING_INDEX(pkg, '/', 5) OR p.pkg like 'go-common/library/%')", time.Unix(req.StartTime, 0).Format("2006-01-02"), time.Unix(req.EndTime, 0).Format("2006-01-02"), paths).
+		Where("mtime BETWEEN ? AND ? AND SUBSTRING_INDEX(pkg, '/', 5) IN (?) AND (pkg!=SUBSTRING_INDEX(pkg, '/', 5) OR p.pkg like 'github.com/namelessup/bilibili/library/%')", time.Unix(req.StartTime, 0).Format("2006-01-02"), time.Unix(req.EndTime, 0).Format("2006-01-02"), paths).
 		Group("date(mtime),SUBSTRING_INDEX(pkg, '/', 5)").Order("mtime DESC").Find(&res).Error; err != nil {
 		log.Error("s.ProjectCurveGraph execute sql error(%v)", err)
 		return
@@ -56,7 +56,7 @@ func (s *Service) DashGraphDetailSingle(c context.Context, username string, req 
 
 	if err = s.DB.Table("ut_pkganls").Select("SUBSTRING_INDEX(pkg, '/', 5) AS pkg, ROUND(AVG(coverage/100),2) as coverage, SUM(assertions) as assertions, SUM(panics) as panics, SUM(passed) as passed, ROUND(SUM(passed)/SUM(assertions)*100,2) as pass_rate, SUM(failures) as failures, ut_commit.mtime, ut_commit.username").
 		Joins("INNER JOIN  ut_commit ON ut_commit.commit_id=ut_pkganls.commit_id").
-		Where("ut_commit.mtime BETWEEN ? AND ? AND SUBSTRING_INDEX(pkg, '/', 5) IN (?) AND ut_commit.username=? AND (pkg!=SUBSTRING_INDEX(pkg, '/', 5) OR p.pkg like 'go-common/library/%')", time.Unix(req.StartTime, 0).Format("2006-01-02"), time.Unix(req.EndTime, 0).Format("2006-01-02"), paths, req.User).
+		Where("ut_commit.mtime BETWEEN ? AND ? AND SUBSTRING_INDEX(pkg, '/', 5) IN (?) AND ut_commit.username=? AND (pkg!=SUBSTRING_INDEX(pkg, '/', 5) OR p.pkg like 'github.com/namelessup/bilibili/library/%')", time.Unix(req.StartTime, 0).Format("2006-01-02"), time.Unix(req.EndTime, 0).Format("2006-01-02"), paths, req.User).
 		Group("SUBSTRING_INDEX(pkg,'/',5)").Find(&res).Error; err != nil {
 		log.Error("s.ProjectGraphDetailSingle execute sql error(%v)", err)
 		return
@@ -81,7 +81,7 @@ func (s *Service) DashPkgsTree(c context.Context, path string, username string) 
 			continue
 		}
 		if path == pkg.PKG {
-			if strings.HasPrefix(path, "go-common/app") && strings.Count(path, "/") < 6 {
+			if strings.HasPrefix(path, "github.com/namelessup/bilibili/app") && strings.Count(path, "/") < 6 {
 				continue
 			}
 			var files []*ut.PkgAnls

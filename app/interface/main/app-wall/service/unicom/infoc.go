@@ -4,9 +4,9 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/interface/main/app-wall/conf"
-	log "go-common/library/log"
-	binfoc "go-common/library/log/infoc"
+	"github.com/namelessup/bilibili/app/interface/main/app-wall/conf"
+	log "github.com/namelessup/bilibili/library/log"
+	binfoc "github.com/namelessup/bilibili/library/log/infoc"
 )
 
 type orderInfoc struct {

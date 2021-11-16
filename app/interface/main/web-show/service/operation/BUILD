@@ -26,7 +26,7 @@ go_library(
         "promote.go",
         "service.go",
     ],
-    importpath = "go-common/app/interface/main/web-show/service/operation",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/web-show/service/operation",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

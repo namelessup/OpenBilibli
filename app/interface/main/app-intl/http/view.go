@@ -4,11 +4,11 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/interface/main/app-intl/model"
-	"go-common/app/interface/main/app-intl/model/view"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/main/app-intl/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-intl/model/view"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 const (

@@ -21,7 +21,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["bplus.go"],
-    importpath = "go-common/app/interface/main/app-resource/dao/bplus",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-resource/dao/bplus",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

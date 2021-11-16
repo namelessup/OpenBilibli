@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	coin "go-common/app/service/main/coin/api/gorpc"
-	coinMdl "go-common/app/service/main/coin/model"
+	coin "github.com/namelessup/bilibili/app/service/main/coin/api/gorpc"
+	coinMdl "github.com/namelessup/bilibili/app/service/main/coin/model"
 
 	"github.com/golang/mock/gomock"
 	. "github.com/smartystreets/goconvey/convey"

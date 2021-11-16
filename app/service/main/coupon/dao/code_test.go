@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"go-common/app/service/main/coupon/model"
-	"go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/service/main/coupon/model"
+	"github.com/namelessup/bilibili/library/database/sql"
 
 	"github.com/smartystreets/goconvey/convey"
 )

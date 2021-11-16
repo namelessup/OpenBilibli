@@ -4,7 +4,7 @@ import (
 	"context"
 	"sync"
 
-	"go-common/app/service/main/vip/model"
+	"github.com/namelessup/bilibili/app/service/main/vip/model"
 )
 
 // Price .

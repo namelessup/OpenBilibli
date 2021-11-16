@@ -4,10 +4,10 @@ import (
 	"context"
 	"strconv"
 
-	"go-common/app/interface/main/app-show/model"
-	"go-common/app/interface/main/app-show/model/show"
-	locmdl "go-common/app/service/main/location/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/model/show"
+	locmdl "github.com/namelessup/bilibili/app/service/main/location/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // cpmRecommend

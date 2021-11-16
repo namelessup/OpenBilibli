@@ -4,14 +4,14 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/admin/main/up/util"
-	"go-common/app/job/main/up/conf"
-	"go-common/app/job/main/up/dao/upcrm"
-	"go-common/app/job/main/up/model/signmodel"
-	"go-common/app/job/main/up/model/upcrmmodel"
-	v1 "go-common/app/service/main/archive/api"
-	"go-common/library/log"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/admin/main/up/util"
+	"github.com/namelessup/bilibili/app/job/main/up/conf"
+	"github.com/namelessup/bilibili/app/job/main/up/dao/upcrm"
+	"github.com/namelessup/bilibili/app/job/main/up/model/signmodel"
+	"github.com/namelessup/bilibili/app/job/main/up/model/upcrmmodel"
+	v1 "github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	"github.com/jinzhu/gorm"
 )

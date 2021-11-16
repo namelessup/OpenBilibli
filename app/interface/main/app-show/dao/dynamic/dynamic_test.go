@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	. "github.com/smartystreets/goconvey/convey"
-	"go-common/app/interface/main/app-show/conf"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/conf"
 )
 
 var (

@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/job/openplatform/open-market/conf"
-	"go-common/app/job/openplatform/open-market/dao"
+	"github.com/namelessup/bilibili/app/job/openplatform/open-market/conf"
+	"github.com/namelessup/bilibili/app/job/openplatform/open-market/dao"
 )
 
 // Service struct of service.

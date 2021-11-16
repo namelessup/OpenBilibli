@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func Test_logFn(t *testing.T) {

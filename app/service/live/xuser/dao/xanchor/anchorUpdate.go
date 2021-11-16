@@ -2,7 +2,7 @@ package xanchor
 
 import (
 	"context"
-	XanchorV1 "go-common/app/service/live/dao-anchor/api/grpc/v1"
+	XanchorV1 "github.com/namelessup/bilibili/app/service/live/dao-anchor/api/grpc/v1"
 )
 
 // UpdateAnchorInfo 更新主播经验db

@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
-	"go-common/library/net/metadata"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // ErrFull channel full error

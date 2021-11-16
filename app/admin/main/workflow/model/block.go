@@ -1,6 +1,6 @@
 package model
 
-import credit "go-common/app/job/main/credit/model"
+import credit "github.com/namelessup/bilibili/app/job/main/credit/model"
 
 // BlockReason 封禁理由
 var BlockReason = map[int8]string{

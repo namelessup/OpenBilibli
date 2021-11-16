@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"net/http"
 
-	modsvg "go-common/app/admin/main/aegis/model/svg"
-	bm "go-common/library/net/http/blademaster"
+	modsvg "github.com/namelessup/bilibili/app/admin/main/aegis/model/svg"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 
 	"github.com/pkg/errors"
 )

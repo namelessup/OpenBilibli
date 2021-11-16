@@ -4,11 +4,11 @@ import (
 	"context"
 	"encoding/json"
 
-	appDao "go-common/app/job/main/tv/dao/app"
-	ugcmdl "go-common/app/job/main/tv/model/ugc"
-	arcmdl "go-common/app/service/main/archive/api"
-	"go-common/library/database/sql"
-	"go-common/library/log"
+	appDao "github.com/namelessup/bilibili/app/job/main/tv/dao/app"
+	ugcmdl "github.com/namelessup/bilibili/app/job/main/tv/model/ugc"
+	arcmdl "github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

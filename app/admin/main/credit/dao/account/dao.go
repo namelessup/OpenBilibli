@@ -6,12 +6,12 @@ import (
 
 	"github.com/pkg/errors"
 
-	"go-common/app/admin/main/credit/conf"
-	creditMDL "go-common/app/admin/main/credit/model"
-	blocked "go-common/app/admin/main/credit/model/blocked"
-	accgrpc "go-common/app/service/main/account/api"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/admin/main/credit/conf"
+	creditMDL "github.com/namelessup/bilibili/app/admin/main/credit/model"
+	blocked "github.com/namelessup/bilibili/app/admin/main/credit/model/blocked"
+	accgrpc "github.com/namelessup/bilibili/app/service/main/account/api"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 // Dao is account dao.

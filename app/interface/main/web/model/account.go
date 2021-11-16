@@ -3,8 +3,8 @@ package model
 import (
 	"strconv"
 
-	accmdl "go-common/app/service/main/account/api"
-	account "go-common/app/service/main/account/model"
+	accmdl "github.com/namelessup/bilibili/app/service/main/account/api"
+	account "github.com/namelessup/bilibili/app/service/main/account/model"
 )
 
 // Space space top photo

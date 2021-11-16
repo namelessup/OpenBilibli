@@ -8,14 +8,14 @@ import (
 	"time"
 
 	"context"
-	"go-common/app/service/video/stream-mng/conf"
-	"go-common/app/service/video/stream-mng/server/grpc"
-	"go-common/app/service/video/stream-mng/server/http"
-	"go-common/app/service/video/stream-mng/service"
-	"go-common/library/conf/env"
-	ecode "go-common/library/ecode/tip"
-	"go-common/library/log"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/app/service/video/stream-mng/conf"
+	"github.com/namelessup/bilibili/app/service/video/stream-mng/server/grpc"
+	"github.com/namelessup/bilibili/app/service/video/stream-mng/server/http"
+	"github.com/namelessup/bilibili/app/service/video/stream-mng/service"
+	"github.com/namelessup/bilibili/library/conf/env"
+	ecode "github.com/namelessup/bilibili/library/ecode/tip"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
 )
 
 func main() {

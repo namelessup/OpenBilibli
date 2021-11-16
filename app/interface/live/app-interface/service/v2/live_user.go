@@ -4,11 +4,11 @@ import (
 	"context"
 	"fmt"
 
-	v2pb "go-common/app/interface/live/app-interface/api/http/v2"
-	liveUserDao "go-common/app/interface/live/app-interface/dao/live_user"
-	liveUserV1 "go-common/app/service/live/live_user/api/liverpc/v1"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	v2pb "github.com/namelessup/bilibili/app/interface/live/app-interface/api/http/v2"
+	liveUserDao "github.com/namelessup/bilibili/app/interface/live/app-interface/dao/live_user"
+	liveUserV1 "github.com/namelessup/bilibili/app/service/live/live_user/api/liverpc/v1"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 const (

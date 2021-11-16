@@ -8,9 +8,9 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/admin/main/passport/model"
-	"go-common/library/database/elastic"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/passport/model"
+	"github.com/namelessup/bilibili/library/database/elastic"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 type userLogsExtra struct {

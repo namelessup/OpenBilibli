@@ -3,10 +3,10 @@ package http
 import (
 	"net/http"
 
-	"go-common/app/service/openplatform/abtest/conf"
-	"go-common/app/service/openplatform/abtest/service"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/service/openplatform/abtest/conf"
+	"github.com/namelessup/bilibili/app/service/openplatform/abtest/service"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 var (

@@ -3,7 +3,7 @@ package dao
 import (
 	"context"
 	. "github.com/smartystreets/goconvey/convey"
-	"go-common/app/service/openplatform/ticket-item/model"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-item/model"
 	"sync"
 	"testing"
 )

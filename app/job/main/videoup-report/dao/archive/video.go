@@ -2,11 +2,11 @@ package archive
 
 import (
 	"context"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 	"time"
 
 	"database/sql"
-	"go-common/app/job/main/videoup-report/model/archive"
+	"github.com/namelessup/bilibili/app/job/main/videoup-report/model/archive"
 
 	farm "github.com/dgryski/go-farm"
 )

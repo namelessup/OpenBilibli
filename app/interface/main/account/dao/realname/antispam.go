@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/app/interface/main/account/conf"
-	"go-common/library/cache/memcache"
+	"github.com/namelessup/bilibili/app/interface/main/account/conf"
+	"github.com/namelessup/bilibili/library/cache/memcache"
 
 	"github.com/pkg/errors"
 )

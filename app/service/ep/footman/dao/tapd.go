@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"net/http"
 
-	"go-common/app/service/ep/footman/model"
-	"go-common/library/cache/memcache"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/ep/footman/model"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

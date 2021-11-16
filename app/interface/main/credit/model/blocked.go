@@ -1,6 +1,6 @@
 package model
 
-import "go-common/library/time"
+import "github.com/namelessup/bilibili/library/time"
 
 // BlockedUserCard usr blocked info.
 type BlockedUserCard struct {

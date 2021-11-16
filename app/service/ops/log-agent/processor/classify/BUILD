@@ -11,7 +11,7 @@ go_library(
         "classify.go",
         "config.go",
     ],
-    importpath = "go-common/app/service/ops/log-agent/processor/classify",
+    importpath = "github.com/namelessup/bilibili/app/service/ops/log-agent/processor/classify",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

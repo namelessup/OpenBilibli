@@ -3,7 +3,7 @@ package esports
 import (
 	"testing"
 
-	mdlesp "go-common/app/job/main/web-goblin/model/esports"
+	mdlesp "github.com/namelessup/bilibili/app/job/main/web-goblin/model/esports"
 
 	"github.com/smartystreets/goconvey/convey"
 )

@@ -4,12 +4,12 @@ import (
 	"context"
 	"math"
 
-	"go-common/app/interface/main/tv/dao/thirdp"
-	"go-common/app/interface/main/tv/model"
-	tpMdl "go-common/app/interface/main/tv/model/thirdp"
-	arcwar "go-common/app/service/main/archive/api"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/tv/dao/thirdp"
+	"github.com/namelessup/bilibili/app/interface/main/tv/model"
+	tpMdl "github.com/namelessup/bilibili/app/interface/main/tv/model/thirdp"
+	arcwar "github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/pkg/errors"
 )

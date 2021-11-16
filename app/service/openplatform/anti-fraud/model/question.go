@@ -2,7 +2,7 @@ package model
 
 import (
 	"database/sql"
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 // 常量

@@ -15,7 +15,7 @@ go_library(
         "question.go",
         "risk.go",
     ],
-    importpath = "go-common/app/service/openplatform/anti-fraud/model",
+    importpath = "github.com/namelessup/bilibili/app/service/openplatform/anti-fraud/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/time:go_default_library"],

@@ -10,9 +10,9 @@ import (
 	"strconv"
 	"sync"
 
-	"go-common/app/interface/main/push-archive/model"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/interface/main/push-archive/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 
 	"github.com/tsuna/gohbase/hrpc"
 )

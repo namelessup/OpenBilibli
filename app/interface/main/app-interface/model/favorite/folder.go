@@ -1,6 +1,6 @@
 package favorite
 
-import "go-common/app/service/main/archive/api"
+import "github.com/namelessup/bilibili/app/service/main/archive/api"
 
 type Folder struct {
 	MediaID    int64   `json:"media_id"`

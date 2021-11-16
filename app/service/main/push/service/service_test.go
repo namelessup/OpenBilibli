@@ -9,10 +9,10 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/service/main/push/conf"
-	"go-common/app/service/main/push/model"
-	"go-common/library/cache/redis"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/service/main/push/conf"
+	"github.com/namelessup/bilibili/app/service/main/push/model"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

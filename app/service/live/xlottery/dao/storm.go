@@ -3,7 +3,7 @@ package dao
 import (
 	"context"
 
-	"go-common/app/service/live/xlottery/model"
+	"github.com/namelessup/bilibili/app/service/live/xlottery/model"
 
 	"github.com/pkg/errors"
 )

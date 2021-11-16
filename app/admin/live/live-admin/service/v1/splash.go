@@ -2,8 +2,8 @@ package v1
 
 import (
 	"context"
-	v1pb "go-common/app/admin/live/live-admin/api/http/v1"
-	"go-common/app/admin/live/live-admin/conf"
+	v1pb "github.com/namelessup/bilibili/app/admin/live/live-admin/api/http/v1"
+	"github.com/namelessup/bilibili/app/admin/live/live-admin/conf"
 )
 
 // SplashService struct

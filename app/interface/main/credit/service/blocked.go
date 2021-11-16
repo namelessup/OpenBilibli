@@ -5,13 +5,13 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/interface/main/credit/model"
-	acmdl "go-common/app/service/main/account/api"
-	blkmdl "go-common/app/service/main/member/model/block"
-	xsql "go-common/library/database/sql"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/interface/main/credit/model"
+	acmdl "github.com/namelessup/bilibili/app/service/main/account/api"
+	blkmdl "github.com/namelessup/bilibili/app/service/main/member/model/block"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	"github.com/pkg/errors"
 )

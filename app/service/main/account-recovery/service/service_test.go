@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"go-common/app/service/main/account-recovery/conf"
+	"github.com/namelessup/bilibili/app/service/main/account-recovery/conf"
 )
 
 var (

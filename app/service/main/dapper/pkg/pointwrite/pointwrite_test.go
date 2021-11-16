@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/service/main/dapper/model"
+	"github.com/namelessup/bilibili/app/service/main/dapper/model"
 )
 
 func TestPointWrite(t *testing.T) {

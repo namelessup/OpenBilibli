@@ -22,8 +22,8 @@ message CouponInfo {
     int64 Oid = 11 [(gogoproto.jsontag) = "oid"];
     string Remark   = 12 [(gogoproto.jsontag) = "remark"];  
     int64 UseVer = 13 [(gogoproto.jsontag) = "use_ver"]; 
-    int64 CTime = 14 [(gogoproto.jsontag) = "-", (gogoproto.casttype) = "go-common/library/time.Time"];
-    int64 MTime = 15 [(gogoproto.jsontag) = "-", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int64 CTime = 14 [(gogoproto.jsontag) = "-", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
+    int64 MTime = 15 [(gogoproto.jsontag) = "-", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
     string BatchToken   = 16 [(gogoproto.jsontag) = "batch_token"];  
 }
 
@@ -41,8 +41,8 @@ message CouponBalanceInfo {
     int64 Origin = 7 [(gogoproto.jsontag) = "origin"];
     int64 CouponType = 8 [(gogoproto.jsontag) = "coupon_type"];
     int64 Ver = 9 [(gogoproto.jsontag) = "ver"]; 
-    int64 CTime = 10 [(gogoproto.jsontag) = "-", (gogoproto.casttype) = "go-common/library/time.Time"];
-    int64 MTime = 11 [(gogoproto.jsontag) = "-", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int64 CTime = 10 [(gogoproto.jsontag) = "-", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
+    int64 MTime = 11 [(gogoproto.jsontag) = "-", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
 }
 
 message CouponBalanceList {
@@ -60,8 +60,8 @@ message CouponAllowanceInfo {
     string OrderNO   = 8 [(gogoproto.jsontag) = "order_no"]; 
     int64 Ver = 9 [(gogoproto.jsontag) = "ver"]; 
     string Remark   = 10 [(gogoproto.jsontag) = "remark"];  
-    int64 CTime = 11 [(gogoproto.jsontag) = "-", (gogoproto.casttype) = "go-common/library/time.Time"];
-    int64 MTime = 12 [(gogoproto.jsontag) = "-", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int64 CTime = 11 [(gogoproto.jsontag) = "-", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
+    int64 MTime = 12 [(gogoproto.jsontag) = "-", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
     string BatchToken   = 13 [(gogoproto.jsontag) = "batch_token"];
     double Amount = 14 [(gogoproto.jsontag) = "amount"]; 
     double FullAmount = 15 [(gogoproto.jsontag) = "full_amount"]; 

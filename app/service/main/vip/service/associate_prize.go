@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 
-	col "go-common/app/service/main/coupon/model"
-	"go-common/app/service/main/vip/model"
-	"go-common/library/ecode"
+	col "github.com/namelessup/bilibili/app/service/main/coupon/model"
+	"github.com/namelessup/bilibili/app/service/main/vip/model"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 // ThirdPrizeGrant associate prize grant[bilibili->third].

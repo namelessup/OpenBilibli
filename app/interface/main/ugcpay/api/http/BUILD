@@ -11,7 +11,7 @@ go_library(
         "income.go",
         "model.go",
     ],
-    importpath = "go-common/app/interface/main/ugcpay/api/http",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/ugcpay/api/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

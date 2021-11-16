@@ -28,7 +28,7 @@ go_library(
         "bangumi.go",
         "dao.go",
     ],
-    importpath = "go-common/app/interface/main/spread/dao",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/spread/dao",
     tags = ["automanaged"],
     deps = [
         "//app/interface/main/spread/conf:go_default_library",

@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["notify-test.toml"],
-    importpath = "go-common/app/infra/notify/cmd",
+    importpath = "github.com/namelessup/bilibili/app/infra/notify/cmd",
     tags = ["automanaged"],
     deps = [
         "//app/infra/notify/conf:go_default_library",

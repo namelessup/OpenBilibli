@@ -19,7 +19,7 @@ go_library(
         "convey-test.toml",
         "usersuit-job.toml",
     ],
-    importpath = "go-common/app/job/main/usersuit/cmd",
+    importpath = "github.com/namelessup/bilibili/app/job/main/usersuit/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

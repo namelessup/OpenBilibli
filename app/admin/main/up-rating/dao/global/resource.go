@@ -1,8 +1,8 @@
 package global
 
 import (
-	"go-common/app/admin/main/up-rating/conf"
-	accrpc "go-common/app/service/main/account/rpc/client"
+	"github.com/namelessup/bilibili/app/admin/main/up-rating/conf"
+	accrpc "github.com/namelessup/bilibili/app/service/main/account/rpc/client"
 )
 
 var (

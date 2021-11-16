@@ -6,10 +6,10 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/admin/main/app/conf"
-	walldao "go-common/app/admin/main/app/dao/wall"
-	"go-common/app/admin/main/app/model/wall"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/app/conf"
+	walldao "github.com/namelessup/bilibili/app/admin/main/app/dao/wall"
+	"github.com/namelessup/bilibili/app/admin/main/app/model/wall"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Service wall service.

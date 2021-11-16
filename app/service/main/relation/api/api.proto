@@ -56,19 +56,19 @@ message RelationReq {
 }
 
 // +bili:deepcopy-gen=true
-// +bili:deepcopy-gen:structs=go-common/app/service/main/relation/model.Following
+// +bili:deepcopy-gen:structs=github.com/namelessup/bilibili/app/service/main/relation/model.Following
 message FollowingReply {
   int64 mid = 1 [ (gogoproto.jsontag) = "mid" ];
   uint32 attribute = 2 [ (gogoproto.jsontag) = "attribute" ];
   uint32 source = 3 [ (gogoproto.jsontag) = "-" ];
   int64 ctime = 4 [
     (gogoproto.jsontag) = "-",
-    (gogoproto.casttype) = "go-common/library/time.Time",
+    (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time",
     (gogoproto.customname) = "CTime"
   ];
   int64 mtime = 5 [
     (gogoproto.jsontag) = "mtime",
-    (gogoproto.casttype) = "go-common/library/time.Time",
+    (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time",
     (gogoproto.customname) = "MTime"
   ];
   repeated int64 tag = 6 [ (gogoproto.jsontag) = "tag" ];
@@ -91,7 +91,7 @@ message MidReq {
 }
 
 // +bili:deepcopy-gen=true
-// +bili:deepcopy-gen:structs=go-common/app/service/main/relation/model.Stat
+// +bili:deepcopy-gen:structs=github.com/namelessup/bilibili/app/service/main/relation/model.Stat
 message StatReply {
   int64 mid = 1 [ (gogoproto.jsontag) = "mid" ];
   int64 following = 2 [ (gogoproto.jsontag) = "following" ];
@@ -100,12 +100,12 @@ message StatReply {
   int64 follower = 5 [ (gogoproto.jsontag) = "follower" ];
   int64 ctime = 6 [
     (gogoproto.jsontag) = "-",
-    (gogoproto.casttype) = "go-common/library/time.Time",
+    (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time",
     (gogoproto.customname) = "CTime"
   ];
   int64 mtime = 7 [
     (gogoproto.jsontag) = "-",
-    (gogoproto.casttype) = "go-common/library/time.Time",
+    (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time",
     (gogoproto.customname) = "MTime"
   ];
 }
@@ -138,7 +138,7 @@ message TagIdReq {
 message TagReply { repeated int64 mids = 1; }
 
 // +bili:deepcopy-gen=true
-// +bili:deepcopy-gen:structs=go-common/app/service/main/relation/model.TagCount
+// +bili:deepcopy-gen:structs=github.com/namelessup/bilibili/app/service/main/relation/model.TagCount
 message TagCountReply {
   int64 tagid = 1 [ (gogoproto.jsontag) = "tagid" ];
   string name = 2 [ (gogoproto.jsontag) = "name" ];

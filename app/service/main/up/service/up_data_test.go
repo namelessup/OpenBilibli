@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	upgrpc "go-common/app/service/main/up/api/v1"
+	upgrpc "github.com/namelessup/bilibili/app/service/main/up/api/v1"
 
 	"github.com/smartystreets/goconvey/convey"
 )

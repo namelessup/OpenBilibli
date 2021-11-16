@@ -5,16 +5,16 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go-common/library/log"
-	"go-common/library/net/rpc/liverpc"
-	"go-common/library/net/rpc/warden"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/rpc/liverpc"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
+	xtime "github.com/namelessup/bilibili/library/time"
 
-	"go-common/app/job/live/xroom-feed/internal/dao"
-	daoAnchor "go-common/app/service/live/dao-anchor/api/grpc/v1"
-	roomClient "go-common/app/service/live/room/api/liverpc"
+	"github.com/namelessup/bilibili/app/job/live/xroom-feed/internal/dao"
+	daoAnchor "github.com/namelessup/bilibili/app/service/live/dao-anchor/api/grpc/v1"
+	roomClient "github.com/namelessup/bilibili/app/service/live/room/api/liverpc"
 
-	"go-common/library/conf/paladin"
+	"github.com/namelessup/bilibili/library/conf/paladin"
 )
 
 // Service service.

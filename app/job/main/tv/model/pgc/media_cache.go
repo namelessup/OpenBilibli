@@ -1,6 +1,6 @@
 package pgc
 
-import "go-common/library/time"
+import "github.com/namelessup/bilibili/library/time"
 
 // SeasonCMS defines the elements could be changed from TV CMS side
 type SeasonCMS struct {

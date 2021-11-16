@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"testing"
 
-	artmdl "go-common/app/interface/openplatform/article/model"
-	"go-common/app/job/openplatform/article/dao"
-	"go-common/library/cache/redis"
+	artmdl "github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	"github.com/namelessup/bilibili/app/job/openplatform/article/dao"
+	"github.com/namelessup/bilibili/library/cache/redis"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

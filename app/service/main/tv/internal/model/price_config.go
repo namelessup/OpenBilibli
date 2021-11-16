@@ -1,7 +1,7 @@
 package model
 
 import (
-	xtime "go-common/library/time"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // PriceConfig represents price config of tv vip.

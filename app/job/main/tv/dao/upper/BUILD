@@ -31,7 +31,7 @@ go_library(
         "refresh.go",
         "sync.go",
     ],
-    importpath = "go-common/app/job/main/tv/dao/upper",
+    importpath = "github.com/namelessup/bilibili/app/job/main/tv/dao/upper",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

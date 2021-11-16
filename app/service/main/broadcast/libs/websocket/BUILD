@@ -12,7 +12,7 @@ go_library(
         "request.go",
         "server.go",
     ],
-    importpath = "go-common/app/service/main/broadcast/libs/websocket",
+    importpath = "github.com/namelessup/bilibili/app/service/main/broadcast/libs/websocket",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//app/service/main/broadcast/libs/bufio:go_default_library"],

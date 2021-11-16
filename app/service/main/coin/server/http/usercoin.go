@@ -3,9 +3,9 @@ package http
 import (
 	"time"
 
-	pb "go-common/app/service/main/coin/api"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/metadata"
+	pb "github.com/namelessup/bilibili/app/service/main/coin/api"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 // @params ModifyCoinsReq

@@ -2,8 +2,8 @@ package tvvip
 
 import (
 	"context"
-	tvmdl "go-common/app/interface/main/tv/model/tvvip"
-	pb "go-common/app/service/main/tv/api"
+	tvmdl "github.com/namelessup/bilibili/app/interface/main/tv/model/tvvip"
+	pb "github.com/namelessup/bilibili/app/service/main/tv/api"
 )
 
 const (

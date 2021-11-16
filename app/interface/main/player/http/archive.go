@@ -3,9 +3,9 @@ package http
 import (
 	"strconv"
 
-	"go-common/app/service/main/archive/api"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func pageList(c *bm.Context) {

@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	vipmol "go-common/app/service/main/vip/model"
-	"go-common/library/ecode"
+	vipmol "github.com/namelessup/bilibili/app/service/main/vip/model"
+	"github.com/namelessup/bilibili/library/ecode"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

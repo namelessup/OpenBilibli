@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

@@ -8,14 +8,14 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/app/service/main/coupon/conf"
-	"go-common/app/service/main/coupon/http"
-	rpc "go-common/app/service/main/coupon/rpc/server"
-	grpc "go-common/app/service/main/coupon/server/grpc"
-	"go-common/app/service/main/coupon/service"
-	ecode "go-common/library/ecode/tip"
-	"go-common/library/log"
-	xrpc "go-common/library/net/rpc"
+	"github.com/namelessup/bilibili/app/service/main/coupon/conf"
+	"github.com/namelessup/bilibili/app/service/main/coupon/http"
+	rpc "github.com/namelessup/bilibili/app/service/main/coupon/rpc/server"
+	grpc "github.com/namelessup/bilibili/app/service/main/coupon/server/grpc"
+	"github.com/namelessup/bilibili/app/service/main/coupon/service"
+	ecode "github.com/namelessup/bilibili/library/ecode/tip"
+	"github.com/namelessup/bilibili/library/log"
+	xrpc "github.com/namelessup/bilibili/library/net/rpc"
 )
 
 var (

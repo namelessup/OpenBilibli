@@ -28,7 +28,7 @@ go_library(
         "feedback.go",
         "service.go",
     ],
-    importpath = "go-common/app/interface/main/feedback/service",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/feedback/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

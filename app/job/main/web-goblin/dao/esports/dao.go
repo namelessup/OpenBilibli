@@ -3,9 +3,9 @@ package esports
 import (
 	"context"
 
-	"go-common/app/job/main/web-goblin/conf"
-	"go-common/library/database/sql"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/job/main/web-goblin/conf"
+	"github.com/namelessup/bilibili/library/database/sql"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 const _pushURL = "/x/internal/push-strategy/task/add"

@@ -15,7 +15,7 @@ go_library(
         "mc.cache.go",
         "redis.go",
     ],
-    importpath = "go-common/app/interface/main/activity/dao/bnj",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/activity/dao/bnj",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

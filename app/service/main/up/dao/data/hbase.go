@@ -5,9 +5,9 @@ import (
 	"context"
 	"crypto/md5"
 	"encoding/hex"
-	"go-common/app/service/main/up/model/data"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/up/model/data"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 	"strconv"
 )
 

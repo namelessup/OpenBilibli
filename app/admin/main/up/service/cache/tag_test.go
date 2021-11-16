@@ -1,7 +1,7 @@
 package cache
 
 import (
-	"go-common/app/interface/main/creative/model/tag"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/tag"
 	"testing"
 	"time"
 

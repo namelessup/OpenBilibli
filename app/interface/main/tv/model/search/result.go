@@ -1,7 +1,7 @@
 package search
 
 import (
-	"go-common/app/interface/main/tv/model"
+	"github.com/namelessup/bilibili/app/interface/main/tv/model"
 )
 
 // ResultResponse def .

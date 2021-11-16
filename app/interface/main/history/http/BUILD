@@ -13,7 +13,7 @@ go_library(
         "param.go",
         "toview.go",
     ],
-    importpath = "go-common/app/interface/main/history/http",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/history/http",
     tags = ["automanaged"],
     deps = [
         "//app/interface/main/history/conf:go_default_library",

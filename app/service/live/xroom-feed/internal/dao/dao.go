@@ -4,12 +4,12 @@ import (
 	"context"
 	"time"
 
-	"go-common/library/cache/memcache"
-	"go-common/library/cache/redis"
-	"go-common/library/conf/paladin"
-	"go-common/library/database/sql"
-	"go-common/library/log"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/conf/paladin"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // Dao dao.

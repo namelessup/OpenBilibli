@@ -21,7 +21,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["fans.go"],
-    importpath = "go-common/app/interface/main/reply/dao/fans",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/reply/dao/fans",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

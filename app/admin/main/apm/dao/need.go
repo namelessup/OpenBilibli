@@ -3,8 +3,8 @@ package dao
 import (
 	"fmt"
 
-	"go-common/app/admin/main/apm/model/need"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/apm/model/need"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/pkg/errors"
 )

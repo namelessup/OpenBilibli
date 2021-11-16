@@ -3,10 +3,10 @@ package up
 import (
 	"context"
 
-	upgrpc "go-common/app/service/main/up/api/v1"
-	"go-common/app/service/main/up/dao/global"
-	"go-common/app/service/main/up/model"
-	"go-common/library/database/sql"
+	upgrpc "github.com/namelessup/bilibili/app/service/main/up/api/v1"
+	"github.com/namelessup/bilibili/app/service/main/up/dao/global"
+	"github.com/namelessup/bilibili/app/service/main/up/model"
+	"github.com/namelessup/bilibili/library/database/sql"
 )
 
 const (

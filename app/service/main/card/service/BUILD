@@ -14,7 +14,7 @@ go_library(
         "group.go",
         "service.go",
     ],
-    importpath = "go-common/app/service/main/card/service",
+    importpath = "github.com/namelessup/bilibili/app/service/main/card/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

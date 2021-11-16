@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"strings"
 
-	"go-common/app/admin/ep/saga/conf"
-	"go-common/app/admin/ep/saga/dao"
-	"go-common/app/admin/ep/saga/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/ep/saga/conf"
+	"github.com/namelessup/bilibili/app/admin/ep/saga/dao"
+	"github.com/namelessup/bilibili/app/admin/ep/saga/model"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/pkg/errors"
 )

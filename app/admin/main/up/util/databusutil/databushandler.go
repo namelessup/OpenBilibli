@@ -4,8 +4,8 @@ import (
 	"github.com/pkg/errors"
 	"sync"
 
-	"go-common/library/log"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 //NewDatabusHandler new handler

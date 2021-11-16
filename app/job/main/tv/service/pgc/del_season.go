@@ -4,8 +4,8 @@ import (
 	"database/sql"
 	"time"
 
-	"go-common/app/job/main/tv/dao/lic"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/tv/dao/lic"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // sync the deleted season data to the license owner

@@ -2,7 +2,7 @@ package message
 
 import (
 	"encoding/json"
-	"go-common/app/job/main/videoup/model/archive"
+	"github.com/namelessup/bilibili/app/job/main/videoup/model/archive"
 )
 
 //RouteVideocovers routes.

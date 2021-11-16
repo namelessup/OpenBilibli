@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"go-common/app/job/openplatform/open-sug/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/openplatform/open-sug/model"
+	"github.com/namelessup/bilibili/library/log"
 
 	"gopkg.in/olivere/elastic.v5"
 )

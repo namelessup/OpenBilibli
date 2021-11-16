@@ -4,8 +4,8 @@ import (
 	"context"
 	"errors"
 
-	"go-common/app/service/main/workflow/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/workflow/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Callback callback message

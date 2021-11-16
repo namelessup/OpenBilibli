@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["label.go"],
-    importpath = "go-common/app/interface/main/tv/model/goblin",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/tv/model/goblin",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//app/interface/main/tv/conf:go_default_library"],

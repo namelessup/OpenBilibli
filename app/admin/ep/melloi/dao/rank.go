@@ -1,7 +1,7 @@
 package dao
 
 import (
-	"go-common/app/admin/ep/melloi/model"
+	"github.com/namelessup/bilibili/app/admin/ep/melloi/model"
 )
 
 //TreesQuery query department and performance test count of department

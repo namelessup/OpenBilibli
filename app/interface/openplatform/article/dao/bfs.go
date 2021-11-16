@@ -10,9 +10,9 @@ import (
 	"strings"
 	"time"
 
-	"go-common/library/conf/env"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/conf/env"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 //Capture performs a HTTP Get request for the image url and upload bfs.

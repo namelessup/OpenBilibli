@@ -3,7 +3,7 @@ package model
 import (
 	"fmt"
 
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 const _treeEditSQL = "UPDATE es_matchs_tree  SET mid = CASE %s END  WHERE id IN (%s)"

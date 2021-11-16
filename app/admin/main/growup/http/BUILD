@@ -30,7 +30,7 @@ go_library(
         "white.go",
         "withdraw.go",
     ],
-    importpath = "go-common/app/admin/main/growup/http",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/growup/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

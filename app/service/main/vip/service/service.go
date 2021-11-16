@@ -8,16 +8,16 @@ import (
 	"sync"
 	"time"
 
-	v1 "go-common/app/service/main/coupon/api"
-	couponrpc "go-common/app/service/main/coupon/rpc/client"
-	memrpc "go-common/app/service/main/member/api/gorpc"
-	memmdl "go-common/app/service/main/member/model"
-	pointrpc "go-common/app/service/main/point/rpc/client"
-	"go-common/app/service/main/vip/conf"
-	"go-common/app/service/main/vip/dao"
-	"go-common/app/service/main/vip/model"
-	"go-common/app/service/main/vip/service/price"
-	"go-common/library/log"
+	v1 "github.com/namelessup/bilibili/app/service/main/coupon/api"
+	couponrpc "github.com/namelessup/bilibili/app/service/main/coupon/rpc/client"
+	memrpc "github.com/namelessup/bilibili/app/service/main/member/api/gorpc"
+	memmdl "github.com/namelessup/bilibili/app/service/main/member/model"
+	pointrpc "github.com/namelessup/bilibili/app/service/main/point/rpc/client"
+	"github.com/namelessup/bilibili/app/service/main/vip/conf"
+	"github.com/namelessup/bilibili/app/service/main/vip/dao"
+	"github.com/namelessup/bilibili/app/service/main/vip/model"
+	"github.com/namelessup/bilibili/app/service/main/vip/service/price"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 var (

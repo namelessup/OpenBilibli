@@ -5,7 +5,7 @@ import (
 	"crypto/tls"
 	"encoding/json"
 	"errors"
-	"go-common/app/common/openplatform/geetest/model"
+	"github.com/namelessup/bilibili/app/common/openplatform/geetest/model"
 	"io/ioutil"
 	"net"
 	"net/http"

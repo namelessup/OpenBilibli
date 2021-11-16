@@ -2,11 +2,11 @@ package grpc
 
 import (
 	"context"
-	rpc "go-common/app/service/openplatform/ticket-sales/api/grpc/v1"
-	"go-common/app/service/openplatform/ticket-sales/service"
-	"go-common/library/net/rpc/warden"
+	rpc "github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/service"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 
-	"go-common/app/service/openplatform/ticket-sales/service/mis"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/service/mis"
 	"google.golang.org/grpc"
 )
 

@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"go-common/app/service/live/live_riskcontrol/internal/conf"
-	"go-common/app/service/live/live_riskcontrol/internal/dao"
+	"github.com/namelessup/bilibili/app/service/live/live_riskcontrol/internal/conf"
+	"github.com/namelessup/bilibili/app/service/live/live_riskcontrol/internal/dao"
 )
 
 // Service struct

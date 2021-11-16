@@ -2,7 +2,7 @@ package anchorReward
 
 import (
 	"context"
-	model "go-common/app/service/live/xrewardcenter/model/anchorTask"
+	model "github.com/namelessup/bilibili/app/service/live/xrewardcenter/model/anchorTask"
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"

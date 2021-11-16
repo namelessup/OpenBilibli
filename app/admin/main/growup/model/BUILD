@@ -23,7 +23,7 @@ go_library(
         "trade.go",
         "up.go",
     ],
-    importpath = "go-common/app/admin/main/growup/model",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/growup/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

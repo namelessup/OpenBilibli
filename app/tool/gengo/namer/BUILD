@@ -27,7 +27,7 @@ go_library(
         "order.go",
         "plural_namer.go",
     ],
-    importpath = "go-common/app/tool/gengo/namer",
+    importpath = "github.com/namelessup/bilibili/app/tool/gengo/namer",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//app/tool/gengo/types:go_default_library"],

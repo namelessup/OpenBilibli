@@ -3,12 +3,12 @@ package service
 import (
 	"context"
 	"fmt"
-	v1 "go-common/app/service/bbq/video/api/grpc/v1"
-	httpV1 "go-common/app/service/bbq/video/api/http/v1"
-	"go-common/app/service/bbq/video/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
+	v1 "github.com/namelessup/bilibili/app/service/bbq/video/api/grpc/v1"
+	httpV1 "github.com/namelessup/bilibili/app/service/bbq/video/api/http/v1"
+	"github.com/namelessup/bilibili/app/service/bbq/video/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 	"sync/atomic"
 	"time"
 

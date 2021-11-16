@@ -3,12 +3,12 @@ package dao
 import (
 	"context"
 
-	"go-common/app/interface/live/app-room/conf"
-	userextApi "go-common/app/service/live/userext/api/liverpc"
-	xUserEx "go-common/app/service/live/xuserex/api/grpc/v1"
-	"go-common/library/cache"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/interface/live/app-room/conf"
+	userextApi "github.com/namelessup/bilibili/app/service/live/userext/api/liverpc"
+	xUserEx "github.com/namelessup/bilibili/app/service/live/xuserex/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/cache"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 const (

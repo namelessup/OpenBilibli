@@ -20,7 +20,7 @@ go_library(
         "param.go",
         "style.go",
     ],
-    importpath = "go-common/app/tool/protoc-gen-bm/util",
+    importpath = "github.com/namelessup/bilibili/app/tool/protoc-gen-bm/util",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

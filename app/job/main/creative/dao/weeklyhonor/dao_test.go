@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"go-common/app/job/main/creative/conf"
+	"github.com/namelessup/bilibili/app/job/main/creative/conf"
 
 	"github.com/golang/mock/gomock"
 	"gopkg.in/h2non/gock.v1"

@@ -3,10 +3,10 @@ package resource
 import (
 	"context"
 
-	"go-common/app/interface/main/creative/conf"
-	resmdl "go-common/app/service/main/resource/model"
-	resrpc "go-common/app/service/main/resource/rpc/client"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/creative/conf"
+	resmdl "github.com/namelessup/bilibili/app/service/main/resource/model"
+	resrpc "github.com/namelessup/bilibili/app/service/main/resource/rpc/client"
+	"github.com/namelessup/bilibili/library/log"
 	"strconv"
 )
 

@@ -18,7 +18,7 @@ go_library(
         "tag.go",
         "user.go",
     ],
-    importpath = "go-common/app/admin/main/manager/model",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/manager/model",
     tags = ["automanaged"],
     deps = ["//library/time:go_default_library"],
 )

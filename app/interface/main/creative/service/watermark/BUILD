@@ -30,7 +30,7 @@ go_library(
         "service.go",
         "watermark.go",
     ],
-    importpath = "go-common/app/interface/main/creative/service/watermark",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/creative/service/watermark",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

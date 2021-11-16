@@ -30,7 +30,7 @@ go_library(
         "region.go",
         "service.go",
     ],
-    importpath = "go-common/app/interface/main/app-feed/service/region",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-feed/service/region",
     tags = ["automanaged"],
     deps = [
         "//app/interface/main/app-feed/conf:go_default_library",

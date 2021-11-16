@@ -33,7 +33,7 @@ go_library(
         "redis.go",
         "tidb.go",
     ],
-    importpath = "go-common/app/service/main/history/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/main/history/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

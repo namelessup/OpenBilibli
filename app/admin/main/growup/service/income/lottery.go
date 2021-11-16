@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"time"
 
-	model "go-common/app/admin/main/growup/model/income"
+	model "github.com/namelessup/bilibili/app/admin/main/growup/model/income"
 
-	"go-common/library/log"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 func (s *Service) lotteryStatis(c context.Context, categoryID []int64, from, to time.Time, groupType int) (data interface{}, err error) {

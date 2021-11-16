@@ -6,9 +6,9 @@ import (
 	"sync"
 	"time"
 
-	"go-common/app/interface/main/creative/model/data"
-	"go-common/app/service/main/archive/api"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/data"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // UpPlaySourceAnalysis get play analysis.

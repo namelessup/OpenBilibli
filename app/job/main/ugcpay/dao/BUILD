@@ -18,7 +18,7 @@ go_library(
         "mysql.go",
         "redis.go",
     ],
-    importpath = "go-common/app/job/main/ugcpay/dao",
+    importpath = "github.com/namelessup/bilibili/app/job/main/ugcpay/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

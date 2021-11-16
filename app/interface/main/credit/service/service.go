@@ -6,14 +6,14 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/interface/main/credit/conf"
-	dao "go-common/app/interface/main/credit/dao"
-	model "go-common/app/interface/main/credit/model"
-	accgrpc "go-common/app/service/main/account/api"
-	arcrpc "go-common/app/service/main/archive/api/gorpc"
-	fligrpc "go-common/app/service/main/filter/api/grpc/v1"
-	memrpc "go-common/app/service/main/member/api/gorpc"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/credit/conf"
+	dao "github.com/namelessup/bilibili/app/interface/main/credit/dao"
+	model "github.com/namelessup/bilibili/app/interface/main/credit/model"
+	accgrpc "github.com/namelessup/bilibili/app/service/main/account/api"
+	arcrpc "github.com/namelessup/bilibili/app/service/main/archive/api/gorpc"
+	fligrpc "github.com/namelessup/bilibili/app/service/main/filter/api/grpc/v1"
+	memrpc "github.com/namelessup/bilibili/app/service/main/member/api/gorpc"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/pkg/errors"
 )

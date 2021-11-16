@@ -1,7 +1,7 @@
 package grpc
 
 import (
-	v1 "go-common/app/service/main/archive/api"
+	v1 "github.com/namelessup/bilibili/app/service/main/archive/api"
 )
 
 func (s *server) archive3ToArc(a *v1.Arc) (arc *v1.Arc) {

@@ -1,9 +1,9 @@
 package data
 
 import (
-	"go-common/app/admin/main/up/conf"
-	"go-common/app/admin/main/up/dao/data"
-	"go-common/app/admin/main/up/dao/tag"
+	"github.com/namelessup/bilibili/app/admin/main/up/conf"
+	"github.com/namelessup/bilibili/app/admin/main/up/dao/data"
+	"github.com/namelessup/bilibili/app/admin/main/up/dao/tag"
 	"time"
 )
 

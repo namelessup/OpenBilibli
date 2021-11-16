@@ -4,13 +4,13 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/interface/main/tv/model"
-	upMdl "go-common/app/interface/main/tv/model/upper"
-	"go-common/app/interface/main/tv/model/view"
-	arcwar "go-common/app/service/main/archive/api"
-	"go-common/app/service/main/archive/model/archive"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/tv/model"
+	upMdl "github.com/namelessup/bilibili/app/interface/main/tv/model/upper"
+	"github.com/namelessup/bilibili/app/interface/main/tv/model/view"
+	arcwar "github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // View  all view data.

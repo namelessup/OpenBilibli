@@ -11,7 +11,7 @@ go_library(
         "push.go",
         "service.go",
     ],
-    importpath = "go-common/app/service/bbq/notice-service/internal/service",
+    importpath = "github.com/namelessup/bilibili/app/service/bbq/notice-service/internal/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

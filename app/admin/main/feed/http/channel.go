@@ -3,13 +3,13 @@ package http
 import (
 	"strings"
 
-	"go-common/app/admin/main/feed/model/channel"
-	cardmodel "go-common/app/admin/main/feed/model/channel"
-	"go-common/app/admin/main/feed/model/common"
-	"go-common/app/admin/main/feed/model/show"
-	"go-common/app/admin/main/feed/util"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/feed/model/channel"
+	cardmodel "github.com/namelessup/bilibili/app/admin/main/feed/model/channel"
+	"github.com/namelessup/bilibili/app/admin/main/feed/model/common"
+	"github.com/namelessup/bilibili/app/admin/main/feed/model/show"
+	"github.com/namelessup/bilibili/app/admin/main/feed/util"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func trimSpace(v string) string {

@@ -4,11 +4,11 @@ import (
 	"context"
 	"strconv"
 
-	"go-common/app/interface/main/tv/model"
-	searchMdl "go-common/app/interface/main/tv/model/search"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/interface/main/tv/model"
+	searchMdl "github.com/namelessup/bilibili/app/interface/main/tv/model/search"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 const (

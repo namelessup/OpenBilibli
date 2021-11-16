@@ -11,7 +11,7 @@ go_library(
         "http.go",
         "test.go",
     ],
-    importpath = "go-common/app/job/main/mcn/server/http",
+    importpath = "github.com/namelessup/bilibili/app/job/main/mcn/server/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"sync"
 
-	"go-common/app/job/main/relation-cache/conf"
-	"go-common/app/job/main/relation-cache/dao"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/job/main/relation-cache/conf"
+	"github.com/namelessup/bilibili/app/job/main/relation-cache/dao"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 // Service struct

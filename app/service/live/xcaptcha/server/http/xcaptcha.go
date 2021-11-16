@@ -1,8 +1,8 @@
 package http
 
 import (
-	v12 "go-common/app/service/live/xcaptcha/api/grpc/v1"
-	"go-common/library/net/http/blademaster"
+	v12 "github.com/namelessup/bilibili/app/service/live/xcaptcha/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // captchaVerify

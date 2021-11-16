@@ -3,7 +3,7 @@ package service
 import (
 	"context"
 
-	"go-common/app/job/main/passport-encrypt/model"
+	"github.com/namelessup/bilibili/app/job/main/passport-encrypt/model"
 )
 
 func (s *Service) saveEncryptAccount(c context.Context, account *model.EncryptAccount) (err error) {

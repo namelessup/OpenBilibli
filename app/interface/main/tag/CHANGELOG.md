@@ -680,7 +680,7 @@
 
 #### Version 2.2.0
 > 1.修复change接口,新增tag tid=0问题  
-> 2.升级vendor:go-business,go-common,golang
+> 2.升级vendor:go-business,github.com/namelessup/bilibili,golang
 
 #### Version 2.1.2
 > 1.up主可自由增删tag不存在等级和稿件up主不能增加tag限制  
@@ -780,7 +780,7 @@
 ##### Version 1.2.0
 
 > 1.新增修改稿件关联tag内部接口  
-> 2.兼容最新go-common  
+> 2.兼容最新github.com/namelessup/bilibili  
 
 ##### Version 1.1.1
 

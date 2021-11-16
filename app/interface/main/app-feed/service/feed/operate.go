@@ -2,8 +2,8 @@ package feed
 
 import (
 	"context"
-	"go-common/app/interface/main/app-card/model"
-	"go-common/app/interface/main/app-card/model/card/operate"
+	"github.com/namelessup/bilibili/app/interface/main/app-card/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-card/model/card/operate"
 )
 
 func (s *Service) convergeCard(c context.Context, limit int, ids ...int64) (cardm map[int64]*operate.Card, aids, roomIDs, metaIDs []int64) {

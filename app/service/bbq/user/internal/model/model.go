@@ -2,8 +2,8 @@ package model
 
 import (
 	"encoding/json"
-	"go-common/library/ecode"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/library/ecode"
+	xtime "github.com/namelessup/bilibili/library/time"
 	"time"
 )
 

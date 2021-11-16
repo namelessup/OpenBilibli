@@ -4,11 +4,11 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/app/interface/main/tv/model"
-	arcwar "go-common/app/service/main/archive/api"
-	tvapi "go-common/app/service/main/tv/api"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/tv/model"
+	arcwar "github.com/namelessup/bilibili/app/service/main/archive/api"
+	tvapi "github.com/namelessup/bilibili/app/service/main/tv/api"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

@@ -1,10 +1,10 @@
 package search
 
 import (
-	"go-common/app/interface/main/tv/conf"
-	arcdao "go-common/app/interface/main/tv/dao/archive"
-	cmsDao "go-common/app/interface/main/tv/dao/cms"
-	"go-common/app/interface/main/tv/dao/search"
+	"github.com/namelessup/bilibili/app/interface/main/tv/conf"
+	arcdao "github.com/namelessup/bilibili/app/interface/main/tv/dao/archive"
+	cmsDao "github.com/namelessup/bilibili/app/interface/main/tv/dao/cms"
+	"github.com/namelessup/bilibili/app/interface/main/tv/dao/search"
 )
 
 // Service .

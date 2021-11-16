@@ -8,16 +8,16 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/app/service/main/seq-server/conf"
-	"go-common/app/service/main/seq-server/http"
-	rpc "go-common/app/service/main/seq-server/rpc/server"
-	"go-common/app/service/main/seq-server/service"
-	"go-common/library/conf/env"
-	"go-common/library/log"
-	"go-common/library/naming"
-	"go-common/library/naming/discovery"
-	xip "go-common/library/net/ip"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/app/service/main/seq-server/conf"
+	"github.com/namelessup/bilibili/app/service/main/seq-server/http"
+	rpc "github.com/namelessup/bilibili/app/service/main/seq-server/rpc/server"
+	"github.com/namelessup/bilibili/app/service/main/seq-server/service"
+	"github.com/namelessup/bilibili/library/conf/env"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/naming"
+	"github.com/namelessup/bilibili/library/naming/discovery"
+	xip "github.com/namelessup/bilibili/library/net/ip"
+	"github.com/namelessup/bilibili/library/net/trace"
 )
 
 func main() {

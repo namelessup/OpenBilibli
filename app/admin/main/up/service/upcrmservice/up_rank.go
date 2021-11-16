@@ -5,10 +5,10 @@ import (
 	"sort"
 	"time"
 
-	"go-common/app/admin/main/up/model/upcrmmodel"
-	"go-common/app/admin/main/up/util/mathutil"
-	"go-common/library/log"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/admin/main/up/model/upcrmmodel"
+	"github.com/namelessup/bilibili/app/admin/main/up/util/mathutil"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 var (

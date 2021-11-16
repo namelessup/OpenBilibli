@@ -20,7 +20,7 @@ fi
 # BGR rule
 echo -e "\n====Bili golang rule check:===="
 diffFiles=`.rider/changefiles.sh`
-cd $GOPATH/src/go-common
+cd $GOPATH/src/github.com/namelessup/bilibili
 go build ./app/tool/bgr
 ./bgr -script=./app/tool/bgr -hit=main -type=file ${diffFiles}
 exitCode=$?

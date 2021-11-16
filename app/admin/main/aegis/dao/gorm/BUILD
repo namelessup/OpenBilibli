@@ -57,7 +57,7 @@ go_library(
         "token.go",
         "transition.go",
     ],
-    importpath = "go-common/app/admin/main/aegis/dao/gorm",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/aegis/dao/gorm",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

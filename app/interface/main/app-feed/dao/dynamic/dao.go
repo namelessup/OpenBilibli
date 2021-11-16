@@ -4,9 +4,9 @@ import (
 	"context"
 	"encoding/json"
 
-	"go-common/app/interface/main/app-feed/conf"
-	httpx "go-common/library/net/http/blademaster"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/main/app-feed/conf"
+	httpx "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/metadata"
 
 	"github.com/pkg/errors"
 )

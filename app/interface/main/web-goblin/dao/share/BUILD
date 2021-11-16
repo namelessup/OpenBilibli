@@ -12,7 +12,7 @@ go_library(
         "mysql.go",
         "redis.go",
     ],
-    importpath = "go-common/app/interface/main/web-goblin/dao/share",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/web-goblin/dao/share",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

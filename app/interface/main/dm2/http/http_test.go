@@ -14,7 +14,7 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/interface/main/dm2/model"
+	"github.com/namelessup/bilibili/app/interface/main/dm2/model"
 )
 
 const (

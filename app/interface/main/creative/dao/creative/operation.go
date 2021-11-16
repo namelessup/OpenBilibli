@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/interface/main/creative/model/operation"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/operation"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

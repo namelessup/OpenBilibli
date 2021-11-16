@@ -11,7 +11,7 @@ go_library(
         "model.go",
         "push.go",
     ],
-    importpath = "go-common/app/service/bbq/notice-service/internal/model",
+    importpath = "github.com/namelessup/bilibili/app/service/bbq/notice-service/internal/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

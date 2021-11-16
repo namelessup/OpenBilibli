@@ -6,9 +6,9 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/admin/main/apm/model/monitor"
-	"go-common/library/log"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/admin/main/apm/model/monitor"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // AddMonitor get monitor data and insert

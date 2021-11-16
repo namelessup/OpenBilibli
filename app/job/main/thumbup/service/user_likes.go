@@ -4,10 +4,10 @@ import (
 	"context"
 	"encoding/json"
 
-	"go-common/app/job/main/thumbup/model"
-	xmdl "go-common/app/service/main/thumbup/model"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/job/main/thumbup/model"
+	xmdl "github.com/namelessup/bilibili/app/service/main/thumbup/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 func newUserLikeMsg(msg *databus.Message) (res interface{}, err error) {

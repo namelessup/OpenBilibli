@@ -4,8 +4,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"go-common/app/interface/main/broadcast/conf"
-	"go-common/app/service/main/broadcast/model"
+	"github.com/namelessup/bilibili/app/interface/main/broadcast/conf"
+	"github.com/namelessup/bilibili/app/service/main/broadcast/model"
 )
 
 // ProtoRoom room proto.

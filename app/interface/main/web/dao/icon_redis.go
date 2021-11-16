@@ -4,9 +4,9 @@ import (
 	"context"
 	"encoding/json"
 
-	resmdl "go-common/app/service/main/resource/model"
-	"go-common/library/cache/redis"
-	"go-common/library/log"
+	resmdl "github.com/namelessup/bilibili/app/service/main/resource/model"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

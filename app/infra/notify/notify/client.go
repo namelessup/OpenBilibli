@@ -3,10 +3,10 @@ package notify
 import (
 	"context"
 	"errors"
-	"go-common/app/infra/notify/conf"
-	"go-common/app/infra/notify/model"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/infra/notify/conf"
+	"github.com/namelessup/bilibili/app/infra/notify/model"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 	"net/url"
 )
 

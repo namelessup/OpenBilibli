@@ -3,10 +3,10 @@ package dao
 import (
 	"context"
 
-	"go-common/app/job/main/up-rating/conf"
+	"github.com/namelessup/bilibili/app/job/main/up-rating/conf"
 
-	"go-common/library/database/sql"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Dao dao

@@ -11,7 +11,7 @@ go_library(
         "dynamic.go",
         "http.go",
     ],
-    importpath = "go-common/app/service/main/dynamic/http",
+    importpath = "github.com/namelessup/bilibili/app/service/main/dynamic/http",
     tags = ["automanaged"],
     deps = [
         "//app/service/main/archive/api:go_default_library",

@@ -2,8 +2,8 @@ package service
 
 import (
 	"flag"
-	"go-common/app/job/main/figure/conf"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/figure/conf"
+	"github.com/namelessup/bilibili/library/log"
 	"path/filepath"
 	"sync"
 	"time"

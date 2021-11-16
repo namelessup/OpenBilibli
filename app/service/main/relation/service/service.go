@@ -3,11 +3,11 @@ package service
 import (
 	"context"
 
-	memrpc "go-common/app/service/main/member/api/gorpc"
-	"go-common/app/service/main/relation/conf"
-	"go-common/app/service/main/relation/dao"
-	"go-common/app/service/main/relation/model"
-	"go-common/library/log"
+	memrpc "github.com/namelessup/bilibili/app/service/main/member/api/gorpc"
+	"github.com/namelessup/bilibili/app/service/main/relation/conf"
+	"github.com/namelessup/bilibili/app/service/main/relation/dao"
+	"github.com/namelessup/bilibili/app/service/main/relation/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 var (

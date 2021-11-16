@@ -1,7 +1,7 @@
 package model
 
 import (
-	bcmdl "go-common/app/service/main/broadcast/api/grpc/v1"
+	bcmdl "github.com/namelessup/bilibili/app/service/main/broadcast/api/grpc/v1"
 )
 
 // Coin add type.

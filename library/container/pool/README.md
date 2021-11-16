@@ -10,4 +10,4 @@
 
 ##### 依赖包
 
-> 1.公共包go-common
+> 1.公共包github.com/namelessup/bilibili

@@ -3,13 +3,13 @@ package growup
 import (
 	"context"
 	"flag"
-	"go-common/app/interface/main/creative/conf"
-	"go-common/app/interface/main/creative/model/growup"
+	"github.com/namelessup/bilibili/app/interface/main/creative/conf"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/growup"
 	"path/filepath"
 	"testing"
 	"time"
 
-	"go-common/app/interface/main/creative/service"
+	"github.com/namelessup/bilibili/app/interface/main/creative/service"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

@@ -1,7 +1,7 @@
 package dao
 
 import (
-	"go-common/app/service/ep/footman/model"
+	"github.com/namelessup/bilibili/app/service/ep/footman/model"
 )
 
 // FindBugTemplates Find Bug Templates.

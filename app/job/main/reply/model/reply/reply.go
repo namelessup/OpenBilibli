@@ -8,9 +8,9 @@ import (
 	"text/template"
 
 	"database/sql/driver"
-	accmdl "go-common/app/service/main/account/model"
-	"go-common/library/ecode"
-	xtime "go-common/library/time"
+	accmdl "github.com/namelessup/bilibili/app/service/main/account/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // reply cnost

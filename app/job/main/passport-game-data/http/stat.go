@@ -1,7 +1,7 @@
 package http
 
 // import (
-// 	wctx "go-common/library/net/http/context"
+// 	wctx "github.com/namelessup/bilibili/library/net/http/context"
 // )
 
 // func compareProcStat(c wctx.Context) {

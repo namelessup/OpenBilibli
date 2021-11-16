@@ -6,8 +6,8 @@ import (
 	"os"
 	"time"
 
-	"go-common/app/job/main/passport-game-data/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/passport-game-data/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // local2cloudcompareproc compare aso accounts between local and cloud, delay for the given duration.

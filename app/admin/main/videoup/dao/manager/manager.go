@@ -3,8 +3,8 @@ package manager
 import (
 	"context"
 
-	"go-common/app/admin/main/videoup/model/manager"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/videoup/model/manager"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

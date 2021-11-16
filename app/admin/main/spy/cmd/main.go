@@ -5,12 +5,12 @@ import (
 	"os"
 	"time"
 
-	"go-common/app/admin/main/spy/conf"
-	"go-common/app/admin/main/spy/http"
-	"go-common/app/admin/main/spy/service"
-	"go-common/library/log"
-	"go-common/library/os/signal"
-	"go-common/library/syscall"
+	"github.com/namelessup/bilibili/app/admin/main/spy/conf"
+	"github.com/namelessup/bilibili/app/admin/main/spy/http"
+	"github.com/namelessup/bilibili/app/admin/main/spy/service"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/os/signal"
+	"github.com/namelessup/bilibili/library/syscall"
 )
 
 var (

@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["typemap.go"],
-    importpath = "go-common/app/tool/liverpc/protoc-gen-liverpc/gen/typemap",
+    importpath = "github.com/namelessup/bilibili/app/tool/liverpc/protoc-gen-liverpc/gen/typemap",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -12,7 +12,7 @@ go_library(
         "archive.go",
         "dao.go",
     ],
-    importpath = "go-common/app/job/main/tv/dao/archive",
+    importpath = "github.com/namelessup/bilibili/app/job/main/tv/dao/archive",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

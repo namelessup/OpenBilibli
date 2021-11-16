@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["handlersignal.go"],
-    importpath = "go-common/app/service/main/dapper/pkg/util",
+    importpath = "github.com/namelessup/bilibili/app/service/main/dapper/pkg/util",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

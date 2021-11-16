@@ -6,11 +6,11 @@ import (
 	"os/signal"
 	"syscall"
 
-	"go-common/app/interface/live/push-live/conf"
-	"go-common/app/interface/live/push-live/http"
-	"go-common/app/interface/live/push-live/service"
-	"go-common/library/log"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/app/interface/live/push-live/conf"
+	"github.com/namelessup/bilibili/app/interface/live/push-live/http"
+	"github.com/namelessup/bilibili/app/interface/live/push-live/service"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
 	"time"
 )
 

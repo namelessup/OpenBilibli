@@ -11,7 +11,7 @@ go_library(
         "offset.go",
         "reader.go",
     ],
-    importpath = "go-common/app/infra/canal/service/reader",
+    importpath = "github.com/namelessup/bilibili/app/infra/canal/service/reader",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

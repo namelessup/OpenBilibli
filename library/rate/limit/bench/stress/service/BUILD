@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["service.go"],
-    importpath = "go-common/library/rate/limit/bench/stress/service",
+    importpath = "github.com/namelessup/bilibili/library/rate/limit/bench/stress/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/rate/limit/bench/stress/conf:go_default_library"],

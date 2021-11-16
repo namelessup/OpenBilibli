@@ -10,11 +10,11 @@ import (
 	"sync"
 	"time"
 
-	"go-common/app/service/main/bns/agent/backend"
-	"go-common/app/service/main/bns/conf"
-	"go-common/library/conf/env"
-	"go-common/library/log"
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/app/service/main/bns/agent/backend"
+	"github.com/namelessup/bilibili/app/service/main/bns/conf"
+	"github.com/namelessup/bilibili/library/conf/env"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/stat/prom"
 )
 
 // Agent easyns agent

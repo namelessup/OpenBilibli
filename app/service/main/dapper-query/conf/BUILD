@@ -6,7 +6,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["config.go"],
-    importpath = "go-common/app/service/main/dapper-query/conf",
+    importpath = "github.com/namelessup/bilibili/app/service/main/dapper-query/conf",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

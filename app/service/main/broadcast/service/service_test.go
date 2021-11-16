@@ -5,8 +5,8 @@ import (
 	"path/filepath"
 	"time"
 
-	"go-common/library/conf/paladin"
-	"go-common/library/naming/discovery"
+	"github.com/namelessup/bilibili/library/conf/paladin"
+	"github.com/namelessup/bilibili/library/naming/discovery"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

@@ -11,7 +11,7 @@ go_library(
         "elec.go",
         "http.go",
     ],
-    importpath = "go-common/app/service/main/ugcpay-rank/internal/server/http",
+    importpath = "github.com/namelessup/bilibili/app/service/main/ugcpay-rank/internal/server/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"go-common/app/service/main/passport/conf"
-	"go-common/app/service/main/passport/dao"
+	"github.com/namelessup/bilibili/app/service/main/passport/conf"
+	"github.com/namelessup/bilibili/app/service/main/passport/dao"
 )
 
 // Service struct of service.

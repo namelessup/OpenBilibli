@@ -4,9 +4,9 @@ import (
 	"context"
 	"database/sql"
 
-	"go-common/app/admin/main/videoup/model/archive"
-	"go-common/library/log"
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/app/admin/main/videoup/model/archive"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 const (

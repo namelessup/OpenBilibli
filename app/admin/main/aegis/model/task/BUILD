@@ -11,7 +11,7 @@ go_library(
         "consumer.go",
         "task.go",
     ],
-    importpath = "go-common/app/admin/main/aegis/model/task",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/aegis/model/task",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

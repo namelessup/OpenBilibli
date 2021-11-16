@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"testing"
 
-	"go-common/app/admin/main/apm/dao/mock"
-	"go-common/app/admin/main/apm/model/need"
+	"github.com/namelessup/bilibili/app/admin/main/apm/dao/mock"
+	"github.com/namelessup/bilibili/app/admin/main/apm/model/need"
 
 	"github.com/bouk/monkey"
 	"github.com/smartystreets/goconvey/convey"

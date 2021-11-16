@@ -3,11 +3,11 @@ package service
 import (
 	"context"
 	"fmt"
-	notice "go-common/app/service/bbq/notice-service/api/v1"
-	"go-common/app/service/bbq/user/api"
-	"go-common/app/service/bbq/user/internal/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	notice "github.com/namelessup/bilibili/app/service/bbq/notice-service/api/v1"
+	"github.com/namelessup/bilibili/app/service/bbq/user/api"
+	"github.com/namelessup/bilibili/app/service/bbq/user/internal/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // AddLike 添加点赞

@@ -22,7 +22,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["rpcserver.go"],
-    importpath = "go-common/app/service/main/up/server/gorpc",
+    importpath = "github.com/namelessup/bilibili/app/service/main/up/server/gorpc",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

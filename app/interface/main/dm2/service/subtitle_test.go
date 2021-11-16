@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/interface/main/dm2/model"
-	account "go-common/app/service/main/account/api"
-	rpcmodel "go-common/app/service/main/member/model/block"
+	"github.com/namelessup/bilibili/app/interface/main/dm2/model"
+	account "github.com/namelessup/bilibili/app/service/main/account/api"
+	rpcmodel "github.com/namelessup/bilibili/app/service/main/member/model/block"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"go-common/library/net/rpc/liverpc"
+	"github.com/namelessup/bilibili/library/net/rpc/liverpc"
 )
 
 // WithHeader returns new context with header

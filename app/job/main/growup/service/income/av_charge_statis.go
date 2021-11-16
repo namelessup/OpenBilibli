@@ -5,9 +5,9 @@ import (
 	"context"
 	"strconv"
 
-	model "go-common/app/job/main/growup/model/income"
+	model "github.com/namelessup/bilibili/app/job/main/growup/model/income"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // GetAvChargeStatisMap get av charge statis map

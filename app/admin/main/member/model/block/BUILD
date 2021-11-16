@@ -13,7 +13,7 @@ go_library(
         "model.go",
         "notify.go",
     ],
-    importpath = "go-common/app/admin/main/member/model/block",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/member/model/block",
     tags = ["automanaged"],
 )
 

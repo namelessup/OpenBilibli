@@ -17,7 +17,7 @@ go_library(
         "pendant.go",
         "question.go",
     ],
-    importpath = "go-common/app/interface/main/answer/model",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/answer/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

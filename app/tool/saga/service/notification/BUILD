@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["notification.go"],
-    importpath = "go-common/app/tool/saga/service/notification",
+    importpath = "github.com/namelessup/bilibili/app/tool/saga/service/notification",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

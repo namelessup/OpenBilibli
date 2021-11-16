@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["resource.go"],
-    importpath = "go-common/app/admin/main/aegis/model/resource",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/aegis/model/resource",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

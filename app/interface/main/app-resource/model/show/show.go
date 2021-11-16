@@ -1,9 +1,9 @@
 package show
 
 import (
-	"go-common/app/interface/main/app-resource/model"
-	"go-common/app/interface/main/app-resource/model/tab"
-	resource "go-common/app/service/main/resource/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-resource/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-resource/model/tab"
+	resource "github.com/namelessup/bilibili/app/service/main/resource/model"
 	"strconv"
 )
 

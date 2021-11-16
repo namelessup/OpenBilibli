@@ -8,11 +8,11 @@ import (
 
 	"github.com/Shopify/sarama"
 
-	"go-common/app/service/main/dapper/model"
-	"go-common/app/service/main/dapper/pkg/collect"
-	"go-common/app/service/main/dapper/pkg/process"
-	"go-common/library/log"
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/app/service/main/dapper/model"
+	"github.com/namelessup/bilibili/app/service/main/dapper/pkg/collect"
+	"github.com/namelessup/bilibili/app/service/main/dapper/pkg/process"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/stat/prom"
 )
 
 var (

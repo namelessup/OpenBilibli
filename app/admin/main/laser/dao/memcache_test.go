@@ -2,7 +2,7 @@ package dao
 
 import (
 	"context"
-	"go-common/app/admin/main/laser/model"
+	"github.com/namelessup/bilibili/app/admin/main/laser/model"
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"

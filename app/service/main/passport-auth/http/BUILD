@@ -12,7 +12,7 @@ go_library(
         "http.go",
         "token.go",
     ],
-    importpath = "go-common/app/service/main/passport-auth/http",
+    importpath = "github.com/namelessup/bilibili/app/service/main/passport-auth/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

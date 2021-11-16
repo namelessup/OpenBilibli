@@ -6,13 +6,13 @@ import (
 	"sort"
 	"time"
 
-	"go-common/app/service/main/archive/api"
-	arcmdl "go-common/app/service/main/archive/model/archive"
-	"go-common/app/service/main/feed/dao"
-	feedmdl "go-common/app/service/main/feed/model"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	arcmdl "github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/app/service/main/feed/dao"
+	feedmdl "github.com/namelessup/bilibili/app/service/main/feed/model"
+	xtime "github.com/namelessup/bilibili/library/time"
 
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 func archiveAppName(ft int) string {

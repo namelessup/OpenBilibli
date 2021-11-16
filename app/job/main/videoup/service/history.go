@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) delArcEditHistory(limit int64) (delRows int64, err error) {

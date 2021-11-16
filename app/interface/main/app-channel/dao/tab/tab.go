@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/interface/main/app-channel/conf"
-	"go-common/app/interface/main/app-channel/model/tab"
-	"go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/interface/main/app-channel/conf"
+	"github.com/namelessup/bilibili/app/interface/main/app-channel/model/tab"
+	"github.com/namelessup/bilibili/library/database/sql"
 )
 
 const (

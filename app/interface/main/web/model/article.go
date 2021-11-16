@@ -1,9 +1,9 @@
 package model
 
 import (
-	artmdl "go-common/app/interface/openplatform/article/model"
-	accmdl "go-common/app/service/main/account/model"
-	"go-common/library/time"
+	artmdl "github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	accmdl "github.com/namelessup/bilibili/app/service/main/account/model"
+	"github.com/namelessup/bilibili/library/time"
 	"strconv"
 )
 

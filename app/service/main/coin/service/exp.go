@@ -3,10 +3,10 @@ package service
 import (
 	"context"
 
-	pb "go-common/app/service/main/coin/api"
-	"go-common/app/service/main/coin/dao"
-	memmdl "go-common/app/service/main/member/api"
-	"go-common/library/log"
+	pb "github.com/namelessup/bilibili/app/service/main/coin/api"
+	"github.com/namelessup/bilibili/app/service/main/coin/dao"
+	memmdl "github.com/namelessup/bilibili/app/service/main/member/api"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // AddUserCoinExp .

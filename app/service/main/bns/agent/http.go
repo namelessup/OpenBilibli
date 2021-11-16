@@ -8,7 +8,7 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // HTTPServer provides an HTTP api for an agent.

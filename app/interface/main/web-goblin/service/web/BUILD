@@ -35,7 +35,7 @@ go_library(
         "service.go",
         "ugc.go",
     ],
-    importpath = "go-common/app/interface/main/web-goblin/service/web",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/web-goblin/service/web",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

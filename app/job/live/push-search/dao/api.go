@@ -1,11 +1,11 @@
 package dao
 
 import (
-	"go-common/app/job/live/push-search/conf"
-	userApi "go-common/app/service/live/user/api/liverpc"
-	relationApi "go-common/app/service/live/relation/api/liverpc"
-	roomApi "go-common/app/service/live/room/api/liverpc"
-	"go-common/library/net/rpc/liverpc"
+	"github.com/namelessup/bilibili/app/job/live/push-search/conf"
+	userApi "github.com/namelessup/bilibili/app/service/live/user/api/liverpc"
+	relationApi "github.com/namelessup/bilibili/app/service/live/relation/api/liverpc"
+	roomApi "github.com/namelessup/bilibili/app/service/live/room/api/liverpc"
+	"github.com/namelessup/bilibili/library/net/rpc/liverpc"
 )
 
 var UserApi *userApi.Client

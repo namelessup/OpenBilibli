@@ -15,7 +15,7 @@ go_library(
         "memcache.go",
         "recommend.go",
     ],
-    importpath = "go-common/app/job/main/mcn/dao",
+    importpath = "github.com/namelessup/bilibili/app/job/main/mcn/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

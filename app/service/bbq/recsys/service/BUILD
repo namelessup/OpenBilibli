@@ -18,7 +18,7 @@ go_library(
         "store.go",
         "upsrec.go",
     ],
-    importpath = "go-common/app/service/bbq/recsys/service",
+    importpath = "github.com/namelessup/bilibili/app/service/bbq/recsys/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

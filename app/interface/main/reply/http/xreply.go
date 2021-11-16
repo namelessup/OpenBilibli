@@ -1,10 +1,10 @@
 package http
 
 import (
-	xmodel "go-common/app/interface/main/reply/model/xreply"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/metadata"
+	xmodel "github.com/namelessup/bilibili/app/interface/main/reply/model/xreply"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 func xreply(c *bm.Context) {

@@ -3,10 +3,10 @@ package ugc
 import (
 	"encoding/json"
 
-	appDao "go-common/app/job/main/tv/dao/app"
-	ugcmdl "go-common/app/job/main/tv/model/ugc"
-	"go-common/library/log"
-	xtime "go-common/library/time"
+	appDao "github.com/namelessup/bilibili/app/job/main/tv/dao/app"
+	ugcmdl "github.com/namelessup/bilibili/app/job/main/tv/model/ugc"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // arcDatabus refreshes the mc cache for archive media info

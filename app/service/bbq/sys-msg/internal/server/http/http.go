@@ -4,14 +4,14 @@ import (
 	"github.com/pkg/errors"
 	"net/http"
 
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/binding"
-	"go-common/library/net/http/blademaster/middleware/verify"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/binding"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/verify"
 
-	"go-common/app/service/bbq/sys-msg/api/v1"
-	"go-common/app/service/bbq/sys-msg/internal/conf"
-	"go-common/app/service/bbq/sys-msg/internal/service"
+	"github.com/namelessup/bilibili/app/service/bbq/sys-msg/api/v1"
+	"github.com/namelessup/bilibili/app/service/bbq/sys-msg/internal/conf"
+	"github.com/namelessup/bilibili/app/service/bbq/sys-msg/internal/service"
 )
 
 var (

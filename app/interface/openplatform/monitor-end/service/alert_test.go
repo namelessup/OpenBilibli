@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"go-common/app/interface/openplatform/monitor-end/model"
-	"go-common/app/interface/openplatform/monitor-end/model/monitor"
+	"github.com/namelessup/bilibili/app/interface/openplatform/monitor-end/model"
+	"github.com/namelessup/bilibili/app/interface/openplatform/monitor-end/model/monitor"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

@@ -1,8 +1,8 @@
 package service
 
 import (
-	"go-common/app/interface/main/push-archive/dao"
-	"go-common/app/interface/main/push-archive/model"
+	"github.com/namelessup/bilibili/app/interface/main/push-archive/dao"
+	"github.com/namelessup/bilibili/app/interface/main/push-archive/model"
 )
 
 var (

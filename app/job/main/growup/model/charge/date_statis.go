@@ -1,7 +1,7 @@
 package charge
 
 import (
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 // DateStatis archive_charge_daily_statis archive_charge_weekly_statis archive_charge_monthly_statis

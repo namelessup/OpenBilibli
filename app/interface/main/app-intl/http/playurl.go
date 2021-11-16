@@ -1,13 +1,13 @@
 package http
 
 import (
-	"go-common/app/interface/main/app-intl/model"
-	"go-common/app/interface/main/app-intl/model/player"
-	"go-common/library/conf/env"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/app/interface/main/app-intl/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-intl/model/player"
+	"github.com/namelessup/bilibili/library/conf/env"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/stat/prom"
 )
 
 var errCount = prom.BusinessErrCount

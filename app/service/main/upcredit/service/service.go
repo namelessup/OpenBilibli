@@ -1,14 +1,14 @@
 package service
 
 import (
-	"go-common/app/service/main/upcredit/common/election"
-	"go-common/app/service/main/upcredit/conf"
-	"go-common/app/service/main/upcredit/dao/upcrmdao"
-	"go-common/app/service/main/upcredit/mathutil"
-	"go-common/app/service/main/upcredit/model/upcrmmodel"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/service/main/upcredit/common/election"
+	"github.com/namelessup/bilibili/app/service/main/upcredit/conf"
+	"github.com/namelessup/bilibili/app/service/main/upcredit/dao/upcrmdao"
+	"github.com/namelessup/bilibili/app/service/main/upcredit/mathutil"
+	"github.com/namelessup/bilibili/app/service/main/upcredit/model/upcrmmodel"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/queue/databus"
 	"sync"
 	"time"
 )
@@ -30,7 +30,7 @@ type Service struct {
 	zkElection           *election.ZkElection
 }
 
-// New is go-common/app/service/videoup service implementation.
+// New is github.com/namelessup/bilibili/app/service/videoup service implementation.
 func New(c *conf.Config) (s *Service) {
 	s = &Service{
 		c:                    c,

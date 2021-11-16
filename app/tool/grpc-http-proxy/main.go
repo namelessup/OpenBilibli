@@ -7,9 +7,9 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 var bind = flag.String("bind", "localhost:10010", "bind addr example: localhost:10010")

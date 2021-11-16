@@ -13,7 +13,7 @@ go_library(
         "service.go",
         "user_act_log.go",
     ],
-    importpath = "go-common/app/admin/main/passport/service",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/passport/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -2,8 +2,8 @@
 // NOTE: need registery discovery resovler into grpc before use this client
 /*
 import (
-	"go-common/library/naming/discovery"
-	"go-common/library/net/rpc/warden/resolver"
+	"github.com/namelessup/bilibili/library/naming/discovery"
+	"github.com/namelessup/bilibili/library/net/rpc/warden/resolver"
 )
 
 func main() {
@@ -17,7 +17,7 @@ import (
 
 	"google.golang.org/grpc"
 
-	"go-common/library/net/rpc/warden"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 )
 
 // AppID unique app id for service discovery

@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/admin/main/feed/conf"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/admin/main/feed/conf"
+	"github.com/namelessup/bilibili/library/ecode"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

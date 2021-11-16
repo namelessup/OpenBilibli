@@ -2,10 +2,10 @@ package v2
 
 import (
 	"context"
-	v2pb "go-common/app/admin/live/live-admin/api/http/v2"
-	"go-common/app/admin/live/live-admin/conf"
-	v2rspb "go-common/app/service/live/resource/api/grpc/v2"
-	"go-common/library/log"
+	v2pb "github.com/namelessup/bilibili/app/admin/live/live-admin/api/http/v2"
+	"github.com/namelessup/bilibili/app/admin/live/live-admin/conf"
+	v2rspb "github.com/namelessup/bilibili/app/service/live/resource/api/grpc/v2"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // UserResourceService struct

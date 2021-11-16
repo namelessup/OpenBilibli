@@ -2,9 +2,9 @@ package monitor
 
 import (
 	"context"
-	"go-common/app/job/main/aegis/model/monitor"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/aegis/model/monitor"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 	"net/url"
 	"strconv"
 )

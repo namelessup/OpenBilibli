@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 
-	artmdl "go-common/app/interface/openplatform/article/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	artmdl "github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s Service) checkDraftAuthor(c context.Context, aid, mid int64) (d *artmdl.Draft, err error) {

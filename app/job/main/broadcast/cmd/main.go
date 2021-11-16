@@ -6,12 +6,12 @@ import (
 	"os/signal"
 	"syscall"
 
-	"go-common/app/job/main/broadcast/conf"
-	"go-common/app/job/main/broadcast/server/http"
-	"go-common/app/job/main/broadcast/service"
-	"go-common/library/conf/paladin"
-	ecode "go-common/library/ecode/tip"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/broadcast/conf"
+	"github.com/namelessup/bilibili/app/job/main/broadcast/server/http"
+	"github.com/namelessup/bilibili/app/job/main/broadcast/service"
+	"github.com/namelessup/bilibili/library/conf/paladin"
+	ecode "github.com/namelessup/bilibili/library/ecode/tip"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func main() {

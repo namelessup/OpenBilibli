@@ -11,7 +11,7 @@ go_library(
         "player.go",
         "playurl.go",
     ],
-    importpath = "go-common/app/interface/main/player/model",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/player/model",
     tags = ["automanaged"],
     deps = [
         "//app/service/main/archive/api:go_default_library",

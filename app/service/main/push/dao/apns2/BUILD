@@ -24,7 +24,7 @@ go_library(
         "client.go",
         "notification.go",
     ],
-    importpath = "go-common/app/service/main/push/dao/apns2",
+    importpath = "github.com/namelessup/bilibili/app/service/main/push/dao/apns2",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

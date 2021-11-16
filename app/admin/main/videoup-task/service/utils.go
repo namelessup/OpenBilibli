@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // 每个ID单独查询 strict严格模式下一次错误，直接返回

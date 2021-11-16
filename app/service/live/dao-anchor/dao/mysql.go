@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"time"
 
-	"go-common/app/service/live/dao-anchor/model"
+	"github.com/namelessup/bilibili/app/service/live/dao-anchor/model"
 
-	v1pb "go-common/app/service/live/dao-anchor/api/grpc/v1"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	v1pb "github.com/namelessup/bilibili/app/service/live/dao-anchor/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/pkg/errors"
 )

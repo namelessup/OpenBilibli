@@ -8,7 +8,7 @@ import fmt "fmt"
 import math "math"
 import _ "github.com/gogo/protobuf/gogoproto"
 
-import go_common_library_time "go-common/library/time"
+import go_common_library_time "github.com/namelessup/bilibili/library/time"
 
 import (
 	context "golang.org/x/net/context"
@@ -688,7 +688,7 @@ type BaseInfoReply struct {
 	// 排名
 	Rank int64 `protobuf:"varint,6,opt,name=rank,proto3" json:"rank"`
 	// 生日
-	Birthday             go_common_library_time.Time `protobuf:"varint,7,opt,name=birthday,proto3,casttype=go-common/library/time.Time" json:"birthday"`
+	Birthday             go_common_library_time.Time `protobuf:"varint,7,opt,name=birthday,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"birthday"`
 	XXX_NoUnkeyedLiteral struct{}                    `json:"-"`
 	XXX_unrecognized     []byte                      `json:"-"`
 	XXX_sizecache        int32                       `json:"-"`
@@ -1574,7 +1574,7 @@ type UpdateBirthdayReq struct {
 	// mid
 	Mid int64 `protobuf:"varint,1,opt,name=mid,proto3" json:"mid"`
 	// 生日
-	Birthday go_common_library_time.Time `protobuf:"varint,2,opt,name=birthday,proto3,casttype=go-common/library/time.Time" json:"birthday"`
+	Birthday go_common_library_time.Time `protobuf:"varint,2,opt,name=birthday,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"birthday"`
 	// 远端ip
 	Remote_IP            string   `protobuf:"bytes,3,opt,name=remote_IP,json=remoteIP,proto3" json:"remoteIP"`
 	XXX_NoUnkeyedLiteral struct{} `json:"-"`
@@ -1959,7 +1959,7 @@ type MoralReply struct {
 	// 减量
 	Deducted int64 `protobuf:"varint,4,opt,name=deducted,proto3" json:"deducted"`
 	// 上一次节操低于70时的恢复时间
-	LastRecoverDate      go_common_library_time.Time `protobuf:"varint,5,opt,name=last_recover_date,json=lastRecoverDate,proto3,casttype=go-common/library/time.Time" json:"last_recover_date"`
+	LastRecoverDate      go_common_library_time.Time `protobuf:"varint,5,opt,name=last_recover_date,json=lastRecoverDate,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"last_recover_date"`
 	XXX_NoUnkeyedLiteral struct{}                    `json:"-"`
 	XXX_unrecognized     []byte                      `json:"-"`
 	XXX_sizecache        int32                       `json:"-"`

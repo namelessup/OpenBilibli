@@ -9,9 +9,9 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/job/main/dm2/model"
-	"go-common/app/job/main/dm2/model/oplog"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/dm2/model"
+	"github.com/namelessup/bilibili/app/job/main/dm2/model/oplog"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) taskResProc() {

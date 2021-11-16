@@ -11,7 +11,7 @@ go_library(
         "check.go",
         "sobot.go",
     ],
-    importpath = "go-common/app/service/main/workflow/model/sobot",
+    importpath = "github.com/namelessup/bilibili/app/service/main/workflow/model/sobot",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

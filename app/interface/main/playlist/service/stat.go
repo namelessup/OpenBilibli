@@ -3,10 +3,10 @@ package service
 import (
 	"context"
 
-	"go-common/app/interface/main/playlist/model"
-	favmdl "go-common/app/service/main/favorite/model"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/main/playlist/model"
+	favmdl "github.com/namelessup/bilibili/app/service/main/favorite/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 func (s *Service) plsByMid(c context.Context, mid int64) (res []*model.PlStat, err error) {

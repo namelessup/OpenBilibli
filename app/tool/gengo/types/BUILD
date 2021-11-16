@@ -26,7 +26,7 @@ go_library(
         "flatten.go",
         "types.go",
     ],
-    importpath = "go-common/app/tool/gengo/types",
+    importpath = "github.com/namelessup/bilibili/app/tool/gengo/types",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

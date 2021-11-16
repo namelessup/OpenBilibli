@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["notice.go"],
-    importpath = "go-common/app/admin/main/app/model/notice",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/app/model/notice",
     tags = ["automanaged"],
 )
 

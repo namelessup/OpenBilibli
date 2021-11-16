@@ -3,10 +3,10 @@ package account
 import (
 	"context"
 	"github.com/pkg/errors"
-	v1 "go-common/app/service/main/account/api"
-	accountM "go-common/app/service/main/account/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	v1 "github.com/namelessup/bilibili/app/service/main/account/api"
+	accountM "github.com/namelessup/bilibili/app/service/main/account/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // GetUserCard3 ...

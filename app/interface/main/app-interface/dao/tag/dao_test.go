@@ -5,9 +5,9 @@ import (
 	"reflect"
 	"testing"
 
-	"go-common/app/interface/main/app-interface/conf"
-	tagmdl "go-common/app/interface/main/app-interface/model/tag"
-	tagrpc "go-common/app/interface/main/tag/rpc/client"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/conf"
+	tagmdl "github.com/namelessup/bilibili/app/interface/main/app-interface/model/tag"
+	tagrpc "github.com/namelessup/bilibili/app/interface/main/tag/rpc/client"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

@@ -5,8 +5,8 @@ import (
 	xsql "database/sql"
 	"time"
 
-	"go-common/app/job/main/point/model"
-	"go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/job/main/point/model"
+	"github.com/namelessup/bilibili/library/database/sql"
 
 	"github.com/pkg/errors"
 )

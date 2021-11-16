@@ -33,7 +33,7 @@ go_library(
         "upper_rds.go",
         "upper_staff.go",
     ],
-    importpath = "go-common/app/service/main/up/dao/archive",
+    importpath = "github.com/namelessup/bilibili/app/service/main/up/dao/archive",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -2,10 +2,10 @@ package dao
 
 import (
 	"context"
-	v1pb "go-common/app/interface/live/web-room/api/http/v1"
-	"go-common/app/service/live/xuser/api/grpc/v1"
-	account "go-common/app/service/main/account/model"
-	"go-common/library/log"
+	v1pb "github.com/namelessup/bilibili/app/interface/live/web-room/api/http/v1"
+	"github.com/namelessup/bilibili/app/service/live/xuser/api/grpc/v1"
+	account "github.com/namelessup/bilibili/app/service/main/account/model"
+	"github.com/namelessup/bilibili/library/log"
 	"math"
 )
 

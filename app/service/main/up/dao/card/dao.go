@@ -3,9 +3,9 @@ package card
 import (
 	"context"
 
-	"go-common/app/service/main/up/conf"
-	"go-common/app/service/main/up/dao/global"
-	"go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/service/main/up/conf"
+	"github.com/namelessup/bilibili/app/service/main/up/dao/global"
+	"github.com/namelessup/bilibili/library/database/sql"
 )
 
 // Dao is redis dao.

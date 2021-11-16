@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["bplus.go"],
-    importpath = "go-common/app/interface/main/app-card/model/bplus",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-card/model/bplus",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/time:go_default_library"],

@@ -5,9 +5,9 @@ import (
 	xlog "log"
 	"time"
 
-	"go-common/app/job/main/vip/model"
-	comol "go-common/app/service/main/coupon/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/vip/model"
+	comol "github.com/namelessup/bilibili/app/service/main/coupon/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) couponnotifyproc() {

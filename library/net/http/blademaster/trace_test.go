@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/library/net/trace"
 )
 
 func TestTrace(t *testing.T) {

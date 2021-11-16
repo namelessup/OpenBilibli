@@ -11,7 +11,7 @@ go_library(
         "dao.go",
         "grpc.go",
     ],
-    importpath = "go-common/app/interface/live/open-interface/internal/dao",
+    importpath = "github.com/namelessup/bilibili/app/interface/live/open-interface/internal/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//app/service/live/broadcast-proxy/api/v1:go_default_library"],

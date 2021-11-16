@@ -16,7 +16,7 @@ go_library(
         "search.go",
         "service.go",
     ],
-    importpath = "go-common/app/interface/main/esports/service",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/esports/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"sync"
 
-	"go-common/library/conf/env"
-	"go-common/library/net/metadata"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/library/conf/env"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/net/trace"
 )
 
 var fm sync.Map

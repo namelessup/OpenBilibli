@@ -4,14 +4,14 @@ import (
 	"fmt"
 	"net/http"
 
-	grpc "go-common/app/service/bbq/recsys-recall/api/grpc/v1"
-	"go-common/app/service/bbq/recsys-recall/conf"
-	"go-common/app/service/bbq/recsys-recall/service"
-	"go-common/app/service/bbq/recsys-recall/service/index"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/binding"
-	"go-common/library/net/http/blademaster/middleware/verify"
+	grpc "github.com/namelessup/bilibili/app/service/bbq/recsys-recall/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/bbq/recsys-recall/conf"
+	"github.com/namelessup/bilibili/app/service/bbq/recsys-recall/service"
+	"github.com/namelessup/bilibili/app/service/bbq/recsys-recall/service/index"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/binding"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/verify"
 )
 
 var (

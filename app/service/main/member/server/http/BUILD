@@ -14,7 +14,7 @@ go_library(
         "moral.go",
         "realname.go",
     ],
-    importpath = "go-common/app/service/main/member/server/http",
+    importpath = "github.com/namelessup/bilibili/app/service/main/member/server/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

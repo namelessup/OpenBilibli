@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"encoding/json"
 	"errors"
-	test "go-common/library/cache/memcache/test"
+	test "github.com/namelessup/bilibili/library/cache/memcache/test"
 	"testing"
 	"time"
 

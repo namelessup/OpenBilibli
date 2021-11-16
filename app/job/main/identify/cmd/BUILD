@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["identify-job-test.toml"],
-    importpath = "go-common/app/job/main/identify/cmd",
+    importpath = "github.com/namelessup/bilibili/app/job/main/identify/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

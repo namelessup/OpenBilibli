@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	artmdl "go-common/app/interface/openplatform/article/model"
-	"go-common/library/ecode"
+	artmdl "github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 // RankCategories rank categoires

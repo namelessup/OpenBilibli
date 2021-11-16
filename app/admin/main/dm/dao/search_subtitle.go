@@ -3,9 +3,9 @@ package dao
 import (
 	"context"
 
-	"go-common/app/admin/main/dm/model"
-	"go-common/library/database/elastic"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/dm/model"
+	"github.com/namelessup/bilibili/library/database/elastic"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 var (

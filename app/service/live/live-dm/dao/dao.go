@@ -3,9 +3,9 @@ package dao
 import (
 	"context"
 
-	"go-common/app/service/live/live-dm/conf"
-	"go-common/library/cache/redis"
-	"go-common/library/sync/pipeline/fanout"
+	"github.com/namelessup/bilibili/app/service/live/live-dm/conf"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/sync/pipeline/fanout"
 )
 
 // Dao dao

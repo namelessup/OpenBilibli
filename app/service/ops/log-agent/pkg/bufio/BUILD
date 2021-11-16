@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["bufio.go"],
-    importpath = "go-common/app/service/ops/log-agent/pkg/bufio",
+    importpath = "github.com/namelessup/bilibili/app/service/ops/log-agent/pkg/bufio",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

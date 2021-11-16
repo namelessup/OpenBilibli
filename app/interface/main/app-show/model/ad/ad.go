@@ -3,8 +3,8 @@ package ad
 import (
 	"strconv"
 
-	"go-common/app/interface/main/app-show/model/banner"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/model/banner"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 type ADRequest struct {

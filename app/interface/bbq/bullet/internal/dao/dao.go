@@ -5,17 +5,17 @@ import (
 	"database/sql"
 	"encoding/json"
 	"fmt"
-	"go-common/app/interface/bbq/bullet/api"
-	"go-common/app/interface/bbq/bullet/internal/model"
-	"go-common/library/log"
-	"go-common/library/net/rpc/warden"
+	"github.com/namelessup/bilibili/app/interface/bbq/bullet/api"
+	"github.com/namelessup/bilibili/app/interface/bbq/bullet/internal/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 
-	"go-common/app/interface/bbq/bullet/internal/conf"
-	user "go-common/app/service/bbq/user/api"
-	video "go-common/app/service/bbq/video/api/grpc/v1"
-	filter "go-common/app/service/main/filter/api/grpc/v1"
-	"go-common/library/cache/redis"
-	xsql "go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/interface/bbq/bullet/internal/conf"
+	user "github.com/namelessup/bilibili/app/service/bbq/user/api"
+	video "github.com/namelessup/bilibili/app/service/bbq/video/api/grpc/v1"
+	filter "github.com/namelessup/bilibili/app/service/main/filter/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
 )
 
 // Dao dao

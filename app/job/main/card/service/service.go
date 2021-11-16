@@ -4,10 +4,10 @@ import (
 	"context"
 	"sync"
 
-	"go-common/app/job/main/card/conf"
-	"go-common/app/job/main/card/dao"
-	cardCli "go-common/app/service/main/card/api/grpc/v1"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/job/main/card/conf"
+	"github.com/namelessup/bilibili/app/job/main/card/dao"
+	cardCli "github.com/namelessup/bilibili/app/service/main/card/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 const (

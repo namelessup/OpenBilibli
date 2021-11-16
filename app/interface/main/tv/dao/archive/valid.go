@@ -1,8 +1,8 @@
 package archive
 
 import (
-	arcwar "go-common/app/service/main/archive/api"
-	"go-common/app/service/main/archive/model/archive"
+	arcwar "github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/app/service/main/archive/model/archive"
 )
 
 // validView distinguishes whether an view is valid

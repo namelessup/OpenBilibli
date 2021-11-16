@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["recommend.go"],
-    importpath = "go-common/app/interface/main/app-show/model/recommend",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-show/model/recommend",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//app/interface/main/app-show/model/card:go_default_library"],

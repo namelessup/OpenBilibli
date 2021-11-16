@@ -3,12 +3,12 @@ package service
 import (
 	"context"
 	"fmt"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 	"strings"
 	"time"
 
-	"go-common/app/admin/main/videoup-task/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/videoup-task/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // HandsUp 签入

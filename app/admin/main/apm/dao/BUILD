@@ -47,7 +47,7 @@ go_library(
         "ut_app.go",
         "ut_rank.go",
     ],
-    importpath = "go-common/app/admin/main/apm/dao",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/apm/dao",
     tags = ["automanaged"],
     deps = [
         "//app/admin/main/apm/conf:go_default_library",

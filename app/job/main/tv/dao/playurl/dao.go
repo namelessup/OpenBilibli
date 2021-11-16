@@ -1,8 +1,8 @@
 package playurl
 
 import (
-	"go-common/app/job/main/tv/conf"
-	httpx "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/job/main/tv/conf"
+	httpx "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // Dao dao.

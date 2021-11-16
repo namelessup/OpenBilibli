@@ -7,7 +7,7 @@ import (
 	"math/rand"
 	"time"
 	// xsql"database/sql"
-	"go-common/app/admin/main/coupon/model"
+	"github.com/namelessup/bilibili/app/admin/main/coupon/model"
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"

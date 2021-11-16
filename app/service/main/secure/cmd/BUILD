@@ -8,7 +8,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["secure-service-test.toml"],
-    importpath = "go-common/app/service/main/secure/cmd",
+    importpath = "github.com/namelessup/bilibili/app/service/main/secure/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:private"],
     deps = [

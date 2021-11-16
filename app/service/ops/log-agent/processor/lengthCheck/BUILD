@@ -11,7 +11,7 @@ go_library(
         "config.go",
         "lengthCheck.go",
     ],
-    importpath = "go-common/app/service/ops/log-agent/processor/lengthCheck",
+    importpath = "github.com/namelessup/bilibili/app/service/ops/log-agent/processor/lengthCheck",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

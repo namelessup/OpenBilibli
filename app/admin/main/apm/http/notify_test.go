@@ -11,9 +11,9 @@ package http
 // 	"testing"
 // 	"time"
 
-// 	"go-common/app/admin/main/apm/conf"
-// 	"go-common/app/admin/main/apm/service"
-// 	bm "go-common/library/net/http/context"
+// 	"github.com/namelessup/bilibili/app/admin/main/apm/conf"
+// 	"github.com/namelessup/bilibili/app/admin/main/apm/service"
+// 	bm "github.com/namelessup/bilibili/library/net/http/context"
 // )
 
 // var path = "http://127.0.0.1:80/xx"

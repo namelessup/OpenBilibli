@@ -3,11 +3,11 @@ package dao
 import (
 	"context"
 
-	"go-common/app/admin/main/growup/conf"
-	"go-common/library/database/orm"
-	"go-common/library/database/sql"
-	"go-common/library/log"
-	httpx "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/growup/conf"
+	"github.com/namelessup/bilibili/library/database/orm"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	httpx "github.com/namelessup/bilibili/library/net/http/blademaster"
 
 	"github.com/jinzhu/gorm"
 )

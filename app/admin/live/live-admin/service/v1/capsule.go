@@ -3,7 +3,7 @@ package v1
 import (
 	"context"
 	"encoding/json"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/library/ecode"
 	"regexp"
 	"strconv"
 	"strings"
@@ -11,10 +11,10 @@ import (
 
 	"google.golang.org/grpc/status"
 
-	v1pb "go-common/app/admin/live/live-admin/api/http/v1"
-	"go-common/app/admin/live/live-admin/conf"
-	rspb "go-common/app/service/live/xlottery/api/grpc/v1"
-	"go-common/library/log"
+	v1pb "github.com/namelessup/bilibili/app/admin/live/live-admin/api/http/v1"
+	"github.com/namelessup/bilibili/app/admin/live/live-admin/conf"
+	rspb "github.com/namelessup/bilibili/app/service/live/xlottery/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // CapsuleService struct

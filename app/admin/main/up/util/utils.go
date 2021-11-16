@@ -5,10 +5,10 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/admin/main/up/util/timerqueue"
-	"go-common/library/log"
-	"go-common/library/net/http/blademaster"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/admin/main/up/util/timerqueue"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/http/blademaster"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 var (

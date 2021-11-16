@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	mdlpgc "go-common/app/job/main/tv/model/pgc"
-	"go-common/library/cache/memcache"
-	"go-common/library/log"
+	mdlpgc "github.com/namelessup/bilibili/app/job/main/tv/model/pgc"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

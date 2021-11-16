@@ -2,7 +2,7 @@ package model
 
 import (
 	"encoding/json"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 // Response .

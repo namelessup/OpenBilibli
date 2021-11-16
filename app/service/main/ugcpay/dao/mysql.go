@@ -4,8 +4,8 @@ import (
 	"context"
 	"database/sql"
 
-	"go-common/app/service/main/ugcpay/model"
-	xsql "go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/service/main/ugcpay/model"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
 )
 
 var (

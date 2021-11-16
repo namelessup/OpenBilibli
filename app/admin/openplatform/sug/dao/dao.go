@@ -5,11 +5,11 @@ import (
 	"net/http"
 	"time"
 
-	"go-common/app/admin/openplatform/sug/conf"
-	"go-common/library/cache/redis"
-	"go-common/library/database/sql"
-	"go-common/library/log"
-	xhttp "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/openplatform/sug/conf"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	xhttp "github.com/namelessup/bilibili/library/net/http/blademaster"
 
 	elastic "gopkg.in/olivere/elastic.v5"
 )

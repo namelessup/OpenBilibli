@@ -1,10 +1,10 @@
 package history
 
 import (
-	"go-common/app/interface/main/tv/conf"
-	"go-common/app/interface/main/tv/dao/archive"
-	"go-common/app/interface/main/tv/dao/cms"
-	"go-common/app/interface/main/tv/dao/history"
+	"github.com/namelessup/bilibili/app/interface/main/tv/conf"
+	"github.com/namelessup/bilibili/app/interface/main/tv/dao/archive"
+	"github.com/namelessup/bilibili/app/interface/main/tv/dao/cms"
+	"github.com/namelessup/bilibili/app/interface/main/tv/dao/history"
 )
 
 // Service .

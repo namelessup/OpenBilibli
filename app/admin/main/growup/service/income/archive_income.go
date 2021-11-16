@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"time"
 
-	model "go-common/app/admin/main/growup/model/income"
-	"go-common/library/log"
-	"go-common/library/xstr"
+	model "github.com/namelessup/bilibili/app/admin/main/growup/model/income"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 // ArchiveStatis archive income statis

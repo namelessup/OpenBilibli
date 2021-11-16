@@ -3,9 +3,9 @@ package dao
 import (
 	"context"
 
-	"go-common/app/admin/main/open/conf"
-	"go-common/library/database/orm"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/open/conf"
+	"github.com/namelessup/bilibili/library/database/orm"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/jinzhu/gorm"
 )

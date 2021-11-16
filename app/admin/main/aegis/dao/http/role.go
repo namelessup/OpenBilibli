@@ -5,9 +5,9 @@ import (
 	"net/url"
 	"strconv"
 
-	"go-common/app/admin/main/aegis/model/task"
-	"go-common/library/log"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model/task"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 const (

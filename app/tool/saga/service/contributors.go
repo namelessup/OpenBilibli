@@ -5,8 +5,8 @@ import (
 	"runtime/debug"
 	"strings"
 
-	"go-common/app/tool/saga/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/tool/saga/model"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/pkg/errors"
 )

@@ -4,16 +4,16 @@ import (
 	"context"
 	"strconv"
 
-	"go-common/app/interface/live/app-interface/dao"
-	"go-common/app/interface/live/app-interface/model"
-	"go-common/app/service/main/account/api"
+	"github.com/namelessup/bilibili/app/interface/live/app-interface/dao"
+	"github.com/namelessup/bilibili/app/interface/live/app-interface/model"
+	"github.com/namelessup/bilibili/app/service/main/account/api"
 
-	v2pb "go-common/app/interface/live/app-interface/api/http/v2"
-	"go-common/app/interface/live/app-interface/conf"
-	roomV1 "go-common/app/service/live/room/api/liverpc/v1"
-	roomV2 "go-common/app/service/live/room/api/liverpc/v2"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
+	v2pb "github.com/namelessup/bilibili/app/interface/live/app-interface/api/http/v2"
+	"github.com/namelessup/bilibili/app/interface/live/app-interface/conf"
+	roomV1 "github.com/namelessup/bilibili/app/service/live/room/api/liverpc/v1"
+	roomV2 "github.com/namelessup/bilibili/app/service/live/room/api/liverpc/v2"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 // 统一cover获取方式

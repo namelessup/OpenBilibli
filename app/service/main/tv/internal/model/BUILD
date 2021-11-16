@@ -19,7 +19,7 @@ go_library(
         "user_info.go",
         "yst.go",
     ],
-    importpath = "go-common/app/service/main/tv/internal/model",
+    importpath = "github.com/namelessup/bilibili/app/service/main/tv/internal/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["http.go"],
-    importpath = "go-common/app/infra/notify/http",
+    importpath = "github.com/namelessup/bilibili/app/infra/notify/http",
     tags = ["automanaged"],
     deps = [
         "//app/infra/notify/conf:go_default_library",

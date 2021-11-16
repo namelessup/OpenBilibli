@@ -5,11 +5,11 @@ import (
 	"sort"
 	"time"
 
-	"go-common/app/interface/main/creative/model/data"
-	"go-common/app/interface/main/creative/model/tag"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/data"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/tag"
 
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func beginningOfDay(t time.Time) time.Time {

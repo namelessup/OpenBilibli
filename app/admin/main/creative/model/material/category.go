@@ -1,7 +1,7 @@
 package material
 
 import (
-	xtime "go-common/library/time"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // consts for workflow event

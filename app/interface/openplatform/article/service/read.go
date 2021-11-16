@@ -3,7 +3,7 @@ package service
 import (
 	"context"
 
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 // ReadPing 处理用户阅读心跳

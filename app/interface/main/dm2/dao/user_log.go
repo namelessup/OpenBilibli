@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"time"
 
-	"go-common/app/interface/main/dm2/model"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
-	"go-common/library/queue/databus/report"
+	"github.com/namelessup/bilibili/app/interface/main/dm2/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/queue/databus/report"
 )
 
 const (

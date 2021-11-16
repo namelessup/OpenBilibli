@@ -6,10 +6,10 @@ import (
 	"runtime"
 	"time"
 
-	"go-common/app/interface/main/mcn/conf"
-	"go-common/app/interface/main/mcn/dao/global"
-	"go-common/library/cache/memcache"
-	"go-common/library/sync/pipeline/fanout"
+	"github.com/namelessup/bilibili/app/interface/main/mcn/conf"
+	"github.com/namelessup/bilibili/app/interface/main/mcn/dao/global"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/sync/pipeline/fanout"
 
 	"github.com/bluele/gcache"
 	"github.com/jinzhu/gorm"

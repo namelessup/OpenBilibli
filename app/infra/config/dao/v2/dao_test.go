@@ -2,7 +2,7 @@ package v2
 
 import (
 	"flag"
-	"go-common/app/infra/config/conf"
+	"github.com/namelessup/bilibili/app/infra/config/conf"
 	"os"
 	"testing"
 )

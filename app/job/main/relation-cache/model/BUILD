@@ -11,7 +11,7 @@ go_library(
         "model.go",
         "retry.go",
     ],
-    importpath = "go-common/app/job/main/relation-cache/model",
+    importpath = "github.com/namelessup/bilibili/app/job/main/relation-cache/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

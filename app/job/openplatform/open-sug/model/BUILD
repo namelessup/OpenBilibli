@@ -13,7 +13,7 @@ go_library(
         "model.go",
         "sug.go",
     ],
-    importpath = "go-common/app/job/openplatform/open-sug/model",
+    importpath = "github.com/namelessup/bilibili/app/job/openplatform/open-sug/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

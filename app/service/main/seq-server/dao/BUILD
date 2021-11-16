@@ -27,7 +27,7 @@ go_library(
         "dao.go",
         "seq.go",
     ],
-    importpath = "go-common/app/service/main/seq-server/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/main/seq-server/dao",
     tags = ["automanaged"],
     deps = [
         "//app/service/main/seq-server/conf:go_default_library",

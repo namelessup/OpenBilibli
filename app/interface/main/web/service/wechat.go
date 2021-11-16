@@ -4,12 +4,12 @@ import (
 	"context"
 	"sync"
 
-	tagmdl "go-common/app/interface/main/tag/model"
-	"go-common/app/interface/main/web/model"
-	arcmdl "go-common/app/service/main/archive/api"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
-	"go-common/library/sync/errgroup"
+	tagmdl "github.com/namelessup/bilibili/app/interface/main/tag/model"
+	"github.com/namelessup/bilibili/app/interface/main/web/model"
+	arcmdl "github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 const (

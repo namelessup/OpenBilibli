@@ -11,7 +11,7 @@ go_library(
         "management.go",
         "pipeline.go",
     ],
-    importpath = "go-common/app/service/ops/log-agent/pipeline",
+    importpath = "github.com/namelessup/bilibili/app/service/ops/log-agent/pipeline",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

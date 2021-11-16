@@ -7,11 +7,11 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/app/job/openplatform/open-sug/conf"
-	"go-common/app/job/openplatform/open-sug/server/http"
-	"go-common/app/job/openplatform/open-sug/service"
-	"go-common/library/log"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/app/job/openplatform/open-sug/conf"
+	"github.com/namelessup/bilibili/app/job/openplatform/open-sug/server/http"
+	"github.com/namelessup/bilibili/app/job/openplatform/open-sug/service"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
 )
 
 func main() {

@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["aids.go"],
-    importpath = "go-common/app/admin/main/app/model/aids",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/app/model/aids",
     tags = ["automanaged"],
 )
 

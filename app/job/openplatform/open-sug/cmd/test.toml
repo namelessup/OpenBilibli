@@ -1,5 +1,5 @@
 env = "uat"
-sourcePath = "/Users/caocao/Code/go/src/go-common/app/job/openplatform/open-sug/source/"
+sourcePath = "/Users/caocao/Code/go/src/github.com/namelessup/bilibili/app/job/openplatform/open-sug/source/"
 
 
 

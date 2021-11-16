@@ -26,7 +26,7 @@ go_library(
         "pub.go",
         "service.go",
     ],
-    importpath = "go-common/app/infra/notify/service",
+    importpath = "github.com/namelessup/bilibili/app/infra/notify/service",
     tags = ["automanaged"],
     deps = [
         "//app/infra/notify/conf:go_default_library",

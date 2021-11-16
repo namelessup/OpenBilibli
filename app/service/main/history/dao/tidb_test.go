@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	pb "go-common/app/service/main/history/api/grpc"
-	"go-common/app/service/main/history/model"
+	pb "github.com/namelessup/bilibili/app/service/main/history/api/grpc"
+	"github.com/namelessup/bilibili/app/service/main/history/model"
 
 	"github.com/smartystreets/goconvey/convey"
 )

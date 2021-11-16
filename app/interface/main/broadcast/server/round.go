@@ -1,9 +1,9 @@
 package server
 
 import (
-	"go-common/app/interface/main/broadcast/conf"
-	"go-common/app/service/main/broadcast/libs/bytes"
-	"go-common/app/service/main/broadcast/libs/time"
+	"github.com/namelessup/bilibili/app/interface/main/broadcast/conf"
+	"github.com/namelessup/bilibili/app/service/main/broadcast/libs/bytes"
+	"github.com/namelessup/bilibili/app/service/main/broadcast/libs/time"
 )
 
 // RoundOptions .

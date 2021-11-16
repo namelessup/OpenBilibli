@@ -9,12 +9,12 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/job/main/upload/conf"
-	"go-common/app/job/main/upload/dao"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	xhttp "go-common/library/net/http/blademaster"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/job/main/upload/conf"
+	"github.com/namelessup/bilibili/app/job/main/upload/dao"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	xhttp "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 const (

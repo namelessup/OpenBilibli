@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"go-common/app/interface/openplatform/article/model"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 // UserNoticeState .

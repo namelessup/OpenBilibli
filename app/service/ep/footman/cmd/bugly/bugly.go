@@ -4,15 +4,15 @@ import (
 	"context"
 	"flag"
 
-	"go-common/app/service/ep/footman/conf"
-	"go-common/app/service/ep/footman/service"
-	"go-common/library/cache/memcache"
-	"go-common/library/container/pool"
-	"go-common/library/database/orm"
-	"go-common/library/log"
-	xhttp "go-common/library/net/http/blademaster"
-	"go-common/library/net/netutil/breaker"
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/app/service/ep/footman/conf"
+	"github.com/namelessup/bilibili/app/service/ep/footman/service"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/container/pool"
+	"github.com/namelessup/bilibili/library/database/orm"
+	"github.com/namelessup/bilibili/library/log"
+	xhttp "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/netutil/breaker"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 func main() {

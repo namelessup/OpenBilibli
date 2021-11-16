@@ -5,9 +5,9 @@ import (
 	"encoding/json"
 	"time"
 
-	"go-common/app/job/main/tag/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/tag/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) parseResTagMessage(msg *model.ResTagMessage) (res *model.ResTag, err error) {

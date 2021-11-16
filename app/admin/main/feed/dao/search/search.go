@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	searchModel "go-common/app/admin/main/feed/model/search"
-	"go-common/library/cache/memcache"
+	searchModel "github.com/namelessup/bilibili/app/admin/main/feed/model/search"
+	"github.com/namelessup/bilibili/library/cache/memcache"
 )
 
 //SetSearchAuditStat set hot publish state to MC

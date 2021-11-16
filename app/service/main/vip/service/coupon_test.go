@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"testing"
 
-	col "go-common/app/service/main/coupon/model"
-	v1 "go-common/app/service/main/vip/api"
-	"go-common/app/service/main/vip/model"
+	col "github.com/namelessup/bilibili/app/service/main/coupon/model"
+	v1 "github.com/namelessup/bilibili/app/service/main/vip/api"
+	"github.com/namelessup/bilibili/app/service/main/vip/model"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

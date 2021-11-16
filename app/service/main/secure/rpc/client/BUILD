@@ -7,7 +7,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["secure.go"],
-    importpath = "go-common/app/service/main/secure/rpc/client",
+    importpath = "github.com/namelessup/bilibili/app/service/main/secure/rpc/client",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

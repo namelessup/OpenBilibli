@@ -11,7 +11,7 @@ go_library(
         "click.go",
         "http.go",
     ],
-    importpath = "go-common/app/job/main/click/http",
+    importpath = "github.com/namelessup/bilibili/app/job/main/click/http",
     tags = ["automanaged"],
     deps = [
         "//app/job/main/click/conf:go_default_library",

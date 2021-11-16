@@ -4,10 +4,10 @@ import (
 	"context"
 	"strconv"
 
-	"go-common/app/interface/openplatform/article/model"
-	"go-common/app/service/main/archive/api"
-	"go-common/library/ecode"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 // FindCard find card from source

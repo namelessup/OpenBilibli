@@ -28,7 +28,7 @@ go_library(
         "reply.go",
         "search.go",
     ],
-    importpath = "go-common/app/interface/main/creative/dao/search",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/creative/dao/search",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

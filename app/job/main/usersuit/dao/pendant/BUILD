@@ -30,7 +30,7 @@ go_library(
         "mysql.go",
         "redis.go",
     ],
-    importpath = "go-common/app/job/main/usersuit/dao/pendant",
+    importpath = "github.com/namelessup/bilibili/app/job/main/usersuit/dao/pendant",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

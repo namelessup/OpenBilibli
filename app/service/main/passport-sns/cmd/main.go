@@ -7,10 +7,10 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/app/service/main/passport-sns/conf"
-	"go-common/app/service/main/passport-sns/server/http"
-	"go-common/library/log"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/app/service/main/passport-sns/conf"
+	"github.com/namelessup/bilibili/app/service/main/passport-sns/server/http"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
 )
 
 func main() {

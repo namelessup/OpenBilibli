@@ -11,7 +11,7 @@ go_library(
         "category.go",
         "material.go",
     ],
-    importpath = "go-common/app/admin/main/creative/model/material",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/creative/model/material",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/time:go_default_library"],

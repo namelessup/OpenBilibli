@@ -6,10 +6,10 @@ import (
 	"os/signal"
 	"syscall"
 
-	"go-common/app/job/main/thumbup/conf"
-	"go-common/app/job/main/thumbup/server/http"
-	"go-common/app/job/main/thumbup/service"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/thumbup/conf"
+	"github.com/namelessup/bilibili/app/job/main/thumbup/server/http"
+	"github.com/namelessup/bilibili/app/job/main/thumbup/service"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func main() {

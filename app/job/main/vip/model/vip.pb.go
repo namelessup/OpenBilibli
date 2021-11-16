@@ -17,7 +17,7 @@ import fmt "fmt"
 import math "math"
 import _ "github.com/gogo/protobuf/gogoproto"
 
-import go_common_time "go-common/library/time"
+import go_common_time "github.com/namelessup/bilibili/library/time"
 
 import io "io"
 
@@ -36,13 +36,13 @@ type VipInfo struct {
 	Mid                  int64               `protobuf:"varint,1,opt,name=Mid,proto3" json:"mid"`
 	VipType              int32               `protobuf:"varint,2,opt,name=VipType,proto3" json:"vip_type"`
 	VipStatus            int32               `protobuf:"varint,3,opt,name=VipStatus,proto3" json:"vip_status"`
-	VipStartTime         go_common_time.Time `protobuf:"varint,4,opt,name=VipStartTime,proto3,casttype=go-common/library/time.Time" json:"vip_start_time"`
-	VipOverdueTime       go_common_time.Time `protobuf:"varint,5,opt,name=VipOverdueTime,proto3,casttype=go-common/library/time.Time" json:"vip_overdue_time"`
-	AnnualVipOverdueTime go_common_time.Time `protobuf:"varint,6,opt,name=AnnualVipOverdueTime,proto3,casttype=go-common/library/time.Time" json:"annual_vip_overdue_time"`
+	VipStartTime         go_common_time.Time `protobuf:"varint,4,opt,name=VipStartTime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"vip_start_time"`
+	VipOverdueTime       go_common_time.Time `protobuf:"varint,5,opt,name=VipOverdueTime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"vip_overdue_time"`
+	AnnualVipOverdueTime go_common_time.Time `protobuf:"varint,6,opt,name=AnnualVipOverdueTime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"annual_vip_overdue_time"`
 	AccessStatus         int32               `protobuf:"varint,7,opt,name=AccessStatus,proto3" json:"access_status"`
-	FrozenDate           go_common_time.Time `protobuf:"varint,8,opt,name=FrozenDate,proto3,casttype=go-common/library/time.Time" json:"frozen_date"`
+	FrozenDate           go_common_time.Time `protobuf:"varint,8,opt,name=FrozenDate,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"frozen_date"`
 	VipStatusWarn        string              `protobuf:"bytes,9,opt,name=VipStatusWarn,proto3" json:"vip_status_warn"`
-	VipRecentTime        go_common_time.Time `protobuf:"varint,10,opt,name=VipRecentTime,proto3,casttype=go-common/library/time.Time" json:"vip_recent_time"`
+	VipRecentTime        go_common_time.Time `protobuf:"varint,10,opt,name=VipRecentTime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"vip_recent_time"`
 }
 
 func (m *VipInfo) Reset()                    { *m = VipInfo{} }

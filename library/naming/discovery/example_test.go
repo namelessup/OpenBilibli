@@ -3,8 +3,8 @@ package discovery_test
 import (
 	"context"
 	"fmt"
-	"go-common/library/naming"
-	"go-common/library/naming/discovery"
+	"github.com/namelessup/bilibili/library/naming"
+	"github.com/namelessup/bilibili/library/naming/discovery"
 	"time"
 )
 

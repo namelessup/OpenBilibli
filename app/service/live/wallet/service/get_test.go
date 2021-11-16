@@ -7,9 +7,9 @@ import (
 	"time"
 
 	. "github.com/smartystreets/goconvey/convey"
-	"go-common/app/service/live/wallet/conf"
-	"go-common/app/service/live/wallet/model"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/service/live/wallet/conf"
+	"github.com/namelessup/bilibili/app/service/live/wallet/model"
+	"github.com/namelessup/bilibili/library/ecode"
 	"math/rand"
 	"os"
 	"strconv"

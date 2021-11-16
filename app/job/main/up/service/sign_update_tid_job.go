@@ -1,11 +1,11 @@
 package service
 
 import (
-	"go-common/app/admin/main/up/util"
-	"go-common/app/admin/main/up/util/mathutil"
-	"go-common/app/job/main/up/model/signmodel"
-	"go-common/app/job/main/up/model/upcrmmodel"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/up/util"
+	"github.com/namelessup/bilibili/app/admin/main/up/util/mathutil"
+	"github.com/namelessup/bilibili/app/job/main/up/model/signmodel"
+	"github.com/namelessup/bilibili/app/job/main/up/model/upcrmmodel"
+	"github.com/namelessup/bilibili/library/log"
 	"time"
 )
 

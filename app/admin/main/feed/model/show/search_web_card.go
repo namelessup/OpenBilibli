@@ -1,8 +1,8 @@
 package show
 
 import (
-	"go-common/app/admin/main/feed/model/common"
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/app/admin/main/feed/model/common"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 //SearchWebCard web card

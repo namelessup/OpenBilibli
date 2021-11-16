@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	upgrpc "go-common/app/service/main/up/api/v1"
-	"go-common/app/service/main/up/model"
+	upgrpc "github.com/namelessup/bilibili/app/service/main/up/api/v1"
+	"github.com/namelessup/bilibili/app/service/main/up/model"
 )
 
 //SetSwitch insert or update switch。

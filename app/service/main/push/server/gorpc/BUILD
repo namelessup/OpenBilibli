@@ -21,7 +21,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["server.go"],
-    importpath = "go-common/app/service/main/push/server/gorpc",
+    importpath = "github.com/namelessup/bilibili/app/service/main/push/server/gorpc",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -23,7 +23,7 @@ go_library(
         "lrucache.go",
         "synccache.go",
     ],
-    importpath = "go-common/app/service/live/resource/lrucache",
+    importpath = "github.com/namelessup/bilibili/app/service/live/resource/lrucache",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

@@ -2,10 +2,10 @@ package dm
 
 import (
 	"context"
-	"go-common/app/interface/main/app-intl/conf"
-	dm "go-common/app/interface/main/dm2/model"
-	dmrpc "go-common/app/interface/main/dm2/rpc/client"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/main/app-intl/conf"
+	dm "github.com/namelessup/bilibili/app/interface/main/dm2/model"
+	dmrpc "github.com/namelessup/bilibili/app/interface/main/dm2/rpc/client"
+	"github.com/namelessup/bilibili/library/net/metadata"
 
 	"github.com/pkg/errors"
 )

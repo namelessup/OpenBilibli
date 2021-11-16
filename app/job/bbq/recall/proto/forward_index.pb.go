@@ -6,7 +6,7 @@ package proto
 import proto "github.com/gogo/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import quality "go-common/app/job/bbq/recall/proto/quality"
+import quality "github.com/namelessup/bilibili/app/job/bbq/recall/proto/quality"
 import _ "github.com/gogo/protobuf/gogoproto"
 
 import strings "strings"

@@ -6,10 +6,10 @@ import (
 	"os/signal"
 	"syscall"
 
-	"go-common/app/admin/main/upload/conf"
-	"go-common/app/admin/main/upload/http"
-	"go-common/app/admin/main/upload/service"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/upload/conf"
+	"github.com/namelessup/bilibili/app/admin/main/upload/http"
+	"github.com/namelessup/bilibili/app/admin/main/upload/service"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func main() {

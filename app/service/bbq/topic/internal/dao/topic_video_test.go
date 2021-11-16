@@ -3,8 +3,8 @@ package dao
 import (
 	"context"
 	"encoding/json"
-	"go-common/app/service/bbq/topic/internal/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/bbq/topic/internal/model"
+	"github.com/namelessup/bilibili/library/log"
 	"math/rand"
 	"testing"
 

@@ -12,8 +12,8 @@ go_library(
         "base_utils.go",
         "limiter.go",
     ],
-    importmap = "go-common/app/service/main/upcredit/mathutil",
-    importpath = "go-common/app/service/main/upcredit/mathutil",
+    importmap = "github.com/namelessup/bilibili/app/service/main/upcredit/mathutil",
+    importpath = "github.com/namelessup/bilibili/app/service/main/upcredit/mathutil",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

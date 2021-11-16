@@ -24,7 +24,7 @@ go_library(
         "cache.go",
         "card.go",
     ],
-    importpath = "go-common/app/interface/main/app-show/dao/card",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-show/dao/card",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

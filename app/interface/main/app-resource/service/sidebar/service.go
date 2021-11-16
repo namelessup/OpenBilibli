@@ -6,15 +6,15 @@ import (
 	"sync"
 	"time"
 
-	"go-common/app/interface/main/app-resource/conf"
-	bplusdao "go-common/app/interface/main/app-resource/dao/bplus"
-	resdao "go-common/app/interface/main/app-resource/dao/resource"
-	whitedao "go-common/app/interface/main/app-resource/dao/white"
-	"go-common/app/interface/main/app-resource/model"
-	"go-common/app/interface/main/app-resource/model/sidebar"
-	resource "go-common/app/service/main/resource/model"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/interface/main/app-resource/conf"
+	bplusdao "github.com/namelessup/bilibili/app/interface/main/app-resource/dao/bplus"
+	resdao "github.com/namelessup/bilibili/app/interface/main/app-resource/dao/resource"
+	whitedao "github.com/namelessup/bilibili/app/interface/main/app-resource/dao/white"
+	"github.com/namelessup/bilibili/app/interface/main/app-resource/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-resource/model/sidebar"
+	resource "github.com/namelessup/bilibili/app/service/main/resource/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 const (

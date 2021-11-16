@@ -7,11 +7,11 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/app/job/main/passport-encrypt/conf"
-	"go-common/app/job/main/passport-encrypt/http"
-	"go-common/app/job/main/passport-encrypt/service"
-	"go-common/library/log"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/app/job/main/passport-encrypt/conf"
+	"github.com/namelessup/bilibili/app/job/main/passport-encrypt/http"
+	"github.com/namelessup/bilibili/app/job/main/passport-encrypt/service"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
 )
 
 func main() {

@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	account "go-common/app/service/main/account/api"
-	"go-common/library/log"
+	account "github.com/namelessup/bilibili/app/service/main/account/api"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // UserInfo get account info.

@@ -23,7 +23,7 @@ proto_library(
 go_proto_library(
     name = "v2_go_proto",
     compilers = ["@io_bazel_rules_go//proto:gogofast_grpc"],
-    importpath = "go-common/app/service/live/fans_medal/api/liverpc/v2",
+    importpath = "github.com/namelessup/bilibili/app/service/live/fans_medal/api/liverpc/v2",
     proto = ":v2_proto",
     tags = ["automanaged"],
     deps = ["@com_github_gogo_protobuf//gogoproto:go_default_library"],
@@ -36,7 +36,7 @@ go_library(
         "HighQps.liverpc.go",
     ],
     embed = [":v2_go_proto"],
-    importpath = "go-common/app/service/live/fans_medal/api/liverpc/v2",
+    importpath = "github.com/namelessup/bilibili/app/service/live/fans_medal/api/liverpc/v2",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

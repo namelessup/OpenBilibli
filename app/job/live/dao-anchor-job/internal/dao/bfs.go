@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"strconv"
 
-	"go-common/library/database/bfs"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/database/bfs"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const BUCKET = "live"

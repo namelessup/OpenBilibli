@@ -3,7 +3,7 @@ package service
 import (
 	"context"
 
-	"go-common/app/admin/main/dm/model"
+	"github.com/namelessup/bilibili/app/admin/main/dm/model"
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"

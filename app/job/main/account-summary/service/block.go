@@ -4,8 +4,8 @@ import (
 	"context"
 	"encoding/json"
 
-	"go-common/app/job/main/account-summary/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/account-summary/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) blockBinLogproc(ctx context.Context) {

@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"go-common/app/interface/live/app-blink/conf"
-	"go-common/app/interface/live/app-blink/dao"
+	"github.com/namelessup/bilibili/app/interface/live/app-blink/conf"
+	"github.com/namelessup/bilibili/app/interface/live/app-blink/dao"
 )
 
 // Service struct

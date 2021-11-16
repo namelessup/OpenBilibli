@@ -2,7 +2,7 @@ package ugc
 
 import (
 	"context"
-	ugcmdl "go-common/app/job/main/tv/model/ugc"
+	ugcmdl "github.com/namelessup/bilibili/app/job/main/tv/model/ugc"
 	"testing"
 
 	"fmt"

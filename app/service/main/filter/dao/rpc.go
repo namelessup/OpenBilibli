@@ -3,8 +3,8 @@ package dao
 import (
 	"context"
 
-	"go-common/app/service/main/antispam/model"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/service/main/antispam/model"
+	"github.com/namelessup/bilibili/library/ecode"
 
 	"github.com/pkg/errors"
 )

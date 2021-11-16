@@ -6,11 +6,11 @@ import (
 	"sync"
 	"time"
 
-	"go-common/app/job/main/answer/conf"
-	"go-common/app/job/main/answer/dao"
-	"go-common/app/job/main/answer/model"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/job/main/answer/conf"
+	"github.com/namelessup/bilibili/app/job/main/answer/dao"
+	"github.com/namelessup/bilibili/app/job/main/answer/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 const (

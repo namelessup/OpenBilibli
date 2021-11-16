@@ -3,7 +3,7 @@ package service
 import (
 	"context"
 	"fmt"
-	"go-common/app/admin/main/activity/model"
+	"github.com/namelessup/bilibili/app/admin/main/activity/model"
 	"testing"
 
 	. "github.com/smartystreets/goconvey/convey"

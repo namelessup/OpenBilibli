@@ -13,7 +13,7 @@ go_library(
         "setting.go",
         "upload.go",
     ],
-    importpath = "go-common/app/service/main/push/server/http",
+    importpath = "github.com/namelessup/bilibili/app/service/main/push/server/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -23,7 +23,7 @@ go_library(
         "user_like.go",
         "user_stat.go",
     ],
-    importpath = "go-common/app/service/bbq/user/internal/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/bbq/user/internal/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

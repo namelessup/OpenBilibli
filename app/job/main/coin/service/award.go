@@ -5,15 +5,15 @@ import (
 	"encoding/json"
 	"time"
 
-	"go-common/app/job/main/coin/dao"
-	"go-common/app/job/main/coin/model"
-	accmdl "go-common/app/service/main/account/api"
-	coinmdl "go-common/app/service/main/coin/model"
-	mmdl "go-common/app/service/main/member/api"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/app/job/main/coin/dao"
+	"github.com/namelessup/bilibili/app/job/main/coin/model"
+	accmdl "github.com/namelessup/bilibili/app/service/main/account/api"
+	coinmdl "github.com/namelessup/bilibili/app/service/main/coin/model"
+	mmdl "github.com/namelessup/bilibili/app/service/main/member/api"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
+	"github.com/namelessup/bilibili/library/stat/prom"
 )
 
 var _passportLog = 53

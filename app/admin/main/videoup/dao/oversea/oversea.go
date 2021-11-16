@@ -3,8 +3,8 @@ package manager
 import (
 	"context"
 
-	"go-common/app/admin/main/videoup/model/oversea"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/videoup/model/oversea"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // UpPolicyRelation update or into archive_relation.

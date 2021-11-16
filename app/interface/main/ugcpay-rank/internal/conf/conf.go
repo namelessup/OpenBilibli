@@ -4,13 +4,13 @@ import (
 	"errors"
 	"flag"
 
-	"go-common/library/conf"
-	ecode "go-common/library/ecode/tip"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/auth"
-	"go-common/library/net/rpc/warden"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/library/conf"
+	ecode "github.com/namelessup/bilibili/library/ecode/tip"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/auth"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
+	"github.com/namelessup/bilibili/library/net/trace"
 
 	"github.com/BurntSushi/toml"
 )

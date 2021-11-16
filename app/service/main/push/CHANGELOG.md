@@ -67,4 +67,4 @@
 1. add RPC.AddMidProgress
 
 ### v1.0.0
-1. 使用 go-common/env
+1. 使用 github.com/namelessup/bilibili/env

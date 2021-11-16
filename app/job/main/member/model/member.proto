@@ -34,17 +34,17 @@ message BaseInfo {
     string Face = 4 [(gogoproto.jsontag) = "face"];
     string Sign = 5 [(gogoproto.jsontag) = "sign"];
     int64 Rank = 8 [(gogoproto.jsontag) = "rank"];
-    int64 Birthday = 9 [(gogoproto.jsontag) = "birthday", (gogoproto.casttype) = "go-common/library/time.Time"];
-    int64 CTime = 10 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "go-common/library/time.Time"];
-    int64 MTime = 11 [(gogoproto.jsontag) = "mtime", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int64 Birthday = 9 [(gogoproto.jsontag) = "birthday", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
+    int64 CTime = 10 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
+    int64 MTime = 11 [(gogoproto.jsontag) = "mtime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
 }
 message Detail {
     int64 Mid = 1 [(gogoproto.jsontag) = "mid"];
-    int64 Birthday = 2 [(gogoproto.jsontag) = "birthday", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int64 Birthday = 2 [(gogoproto.jsontag) = "birthday", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
     int64 Place = 3 [(gogoproto.jsontag) = "place"];
     int64 Marital = 4 [(gogoproto.jsontag) = "marital"];
     int64 Dating = 5 [(gogoproto.jsontag) = "dating"];
     string Tags = 6 [(gogoproto.jsontag) = "tags"];
-    int64 CTime = 7 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "go-common/library/time.Time"];
-    int64 MTime = 8 [(gogoproto.jsontag) = "mtime", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int64 CTime = 7 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
+    int64 MTime = 8 [(gogoproto.jsontag) = "mtime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
 }

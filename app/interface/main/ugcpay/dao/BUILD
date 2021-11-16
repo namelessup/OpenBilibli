@@ -12,7 +12,7 @@ go_library(
         "dao.go",
         "grpc.go",
     ],
-    importpath = "go-common/app/interface/main/ugcpay/dao",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/ugcpay/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

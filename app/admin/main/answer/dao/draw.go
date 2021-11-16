@@ -7,7 +7,7 @@ import (
 	"math"
 	"unicode/utf8"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/golang/freetype"
 	"golang.org/x/image/font"

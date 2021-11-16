@@ -5,10 +5,10 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/library/ecode"
-	nmd "go-common/library/net/metadata"
-	"go-common/library/stat/summary"
-	"go-common/library/stat/sys/cpu"
+	"github.com/namelessup/bilibili/library/ecode"
+	nmd "github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/stat/summary"
+	"github.com/namelessup/bilibili/library/stat/sys/cpu"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"

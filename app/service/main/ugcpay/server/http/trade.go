@@ -3,9 +3,9 @@ package http
 import (
 	"net/http"
 
-	api "go-common/app/service/main/ugcpay/api/http"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
+	api "github.com/namelessup/bilibili/app/service/main/ugcpay/api/http"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func tradePayRefund(ctx *bm.Context) {

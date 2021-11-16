@@ -3,9 +3,9 @@ package model
 import (
 	"strconv"
 
-	accountv1 "go-common/app/service/main/account/api"
-	relation "go-common/app/service/main/relation/model"
-	bm "go-common/library/net/http/blademaster"
+	accountv1 "github.com/namelessup/bilibili/app/service/main/account/api"
+	relation "github.com/namelessup/bilibili/app/service/main/relation/model"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // Vip .

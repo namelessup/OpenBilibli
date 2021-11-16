@@ -2,14 +2,14 @@ package service
 
 import (
 	"flag"
-	"go-common/app/interface/main/videoup/conf"
+	"github.com/namelessup/bilibili/app/interface/main/videoup/conf"
 	"path/filepath"
 	"time"
 
 	"context"
 	. "github.com/smartystreets/goconvey/convey"
-	"go-common/app/interface/main/videoup/model/archive"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/interface/main/videoup/model/archive"
+	"github.com/namelessup/bilibili/library/ecode"
 	"testing"
 	"unicode/utf8"
 )

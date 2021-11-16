@@ -27,7 +27,7 @@ go_library(
         "breaker.go",
         "sre_breaker.go",
     ],
-    importpath = "go-common/library/net/netutil/breaker",
+    importpath = "github.com/namelessup/bilibili/library/net/netutil/breaker",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -7,8 +7,8 @@ import (
 	"strings"
 	"text/template"
 
-	assets "go-common/app/tool/warden/generator/templates"
-	"go-common/app/tool/warden/types"
+	assets "github.com/namelessup/bilibili/app/tool/warden/generator/templates"
+	"github.com/namelessup/bilibili/app/tool/warden/types"
 )
 
 // GenCSCodeOptions options

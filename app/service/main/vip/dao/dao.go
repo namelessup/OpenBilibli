@@ -4,15 +4,15 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/service/main/vip/conf"
-	eleclient "go-common/app/service/main/vip/dao/ele-api-client"
-	mailclient "go-common/app/service/main/vip/dao/mail-api-client"
-	"go-common/library/cache/memcache"
-	"go-common/library/cache/redis"
-	"go-common/library/database/sql"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/stat/prom"
-	"go-common/library/sync/pipeline/fanout"
+	"github.com/namelessup/bilibili/app/service/main/vip/conf"
+	eleclient "github.com/namelessup/bilibili/app/service/main/vip/dao/ele-api-client"
+	mailclient "github.com/namelessup/bilibili/app/service/main/vip/dao/mail-api-client"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/database/sql"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/stat/prom"
+	"github.com/namelessup/bilibili/library/sync/pipeline/fanout"
 )
 
 // Dao struct info of Dao.

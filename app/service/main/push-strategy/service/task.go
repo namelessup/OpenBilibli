@@ -10,13 +10,13 @@ import (
 	"sync"
 	"time"
 
-	filtermdl "go-common/app/service/main/filter/model/rpc"
-	"go-common/app/service/main/push-strategy/dao"
-	"go-common/app/service/main/push-strategy/model"
-	pushmdl "go-common/app/service/main/push/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
+	filtermdl "github.com/namelessup/bilibili/app/service/main/filter/model/rpc"
+	"github.com/namelessup/bilibili/app/service/main/push-strategy/dao"
+	"github.com/namelessup/bilibili/app/service/main/push-strategy/model"
+	pushmdl "github.com/namelessup/bilibili/app/service/main/push/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 const (

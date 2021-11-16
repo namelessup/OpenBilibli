@@ -78,7 +78,7 @@
     sourceItemExpire = "5m"
     protocolExpire = "1h"
     [memcache.like]
-    name = "go-common/app/interface/main/activity/test"
+    name = "github.com/namelessup/bilibili/app/interface/main/activity/test"
     proto = "tcp"
     addr = "172.18.33.61:11220"
     idle = 5

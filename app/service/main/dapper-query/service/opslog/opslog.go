@@ -6,15 +6,15 @@ import (
 	"strings"
 	"time"
 
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 
-	"go-common/app/service/main/dapper-query/api/v1"
-	"go-common/app/service/main/dapper-query/conf"
-	"go-common/app/service/main/dapper-query/dao"
-	"go-common/app/service/main/dapper-query/model"
-	"go-common/app/service/main/dapper-query/pkg/opslog"
-	"go-common/app/service/main/dapper-query/util"
+	"github.com/namelessup/bilibili/app/service/main/dapper-query/api/v1"
+	"github.com/namelessup/bilibili/app/service/main/dapper-query/conf"
+	"github.com/namelessup/bilibili/app/service/main/dapper-query/dao"
+	"github.com/namelessup/bilibili/app/service/main/dapper-query/model"
+	"github.com/namelessup/bilibili/app/service/main/dapper-query/pkg/opslog"
+	"github.com/namelessup/bilibili/app/service/main/dapper-query/util"
 )
 
 // Service OpslogService

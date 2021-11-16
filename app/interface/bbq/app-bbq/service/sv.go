@@ -3,19 +3,19 @@ package service
 import (
 	"context"
 	"fmt"
-	"go-common/app/service/bbq/common"
-	"go-common/library/conf/env"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/service/bbq/common"
+	"github.com/namelessup/bilibili/library/conf/env"
+	"github.com/namelessup/bilibili/library/ecode"
 	"time"
 
-	"go-common/app/interface/bbq/app-bbq/api/http/v1"
-	"go-common/app/interface/bbq/app-bbq/model"
-	"go-common/app/interface/bbq/app-bbq/model/grpc"
-	rec "go-common/app/service/bbq/recsys/api/grpc/v1"
-	user "go-common/app/service/bbq/user/api"
-	video "go-common/app/service/bbq/video/api/grpc/v1"
-	"go-common/library/log"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/app/interface/bbq/app-bbq/api/http/v1"
+	"github.com/namelessup/bilibili/app/interface/bbq/app-bbq/model"
+	"github.com/namelessup/bilibili/app/interface/bbq/app-bbq/model/grpc"
+	rec "github.com/namelessup/bilibili/app/service/bbq/recsys/api/grpc/v1"
+	user "github.com/namelessup/bilibili/app/service/bbq/user/api"
+	video "github.com/namelessup/bilibili/app/service/bbq/video/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
 )
 
 // SvList 短视屏推荐列表

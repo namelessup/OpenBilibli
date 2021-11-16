@@ -4,7 +4,7 @@ import (
 	"context"
 	"flag"
 	"github.com/smartystreets/goconvey/convey"
-	"go-common/app/job/main/aegis/conf"
+	"github.com/namelessup/bilibili/app/job/main/aegis/conf"
 	"os"
 	"testing"
 )

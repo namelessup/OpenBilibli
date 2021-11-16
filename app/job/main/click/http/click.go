@@ -3,9 +3,9 @@ package http
 import (
 	"strconv"
 
-	"go-common/app/job/main/click/model"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/job/main/click/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func click(c *bm.Context) {

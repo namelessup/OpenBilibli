@@ -5,7 +5,7 @@ import (
 	"sort"
 	"time"
 
-	"go-common/app/admin/main/laser/model"
+	"github.com/namelessup/bilibili/app/admin/main/laser/model"
 )
 
 const (

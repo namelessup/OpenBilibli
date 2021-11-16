@@ -56,7 +56,7 @@ go_library(
         "user.go",
         "wechat.go",
     ],
-    importpath = "go-common/app/admin/ep/melloi/dao",
+    importpath = "github.com/namelessup/bilibili/app/admin/ep/melloi/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

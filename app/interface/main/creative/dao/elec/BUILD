@@ -12,7 +12,7 @@ go_library(
         "api.go",
         "dao.go",
     ],
-    importpath = "go-common/app/interface/main/creative/dao/elec",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/creative/dao/elec",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

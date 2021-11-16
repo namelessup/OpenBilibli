@@ -11,7 +11,7 @@ go_library(
         "http.go",
         "sms.go",
     ],
-    importpath = "go-common/app/service/main/sms/server/http",
+    importpath = "github.com/namelessup/bilibili/app/service/main/sms/server/http",
     tags = ["automanaged"],
     deps = [
         "//app/service/main/sms/api:go_default_library",

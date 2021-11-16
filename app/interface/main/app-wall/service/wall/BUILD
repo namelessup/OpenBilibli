@@ -21,7 +21,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["wall.go"],
-    importpath = "go-common/app/interface/main/app-wall/service/wall",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-wall/service/wall",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

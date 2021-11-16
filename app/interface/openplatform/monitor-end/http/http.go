@@ -1,11 +1,11 @@
 package http
 
 import (
-	"go-common/app/interface/openplatform/monitor-end/conf"
-	"go-common/app/interface/openplatform/monitor-end/service"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/auth"
+	"github.com/namelessup/bilibili/app/interface/openplatform/monitor-end/conf"
+	"github.com/namelessup/bilibili/app/interface/openplatform/monitor-end/service"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/auth"
 	"net/http"
 )
 

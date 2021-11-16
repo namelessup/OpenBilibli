@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["service.go"],
-    importpath = "go-common/app/interface/main/creative/service/pay",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/creative/service/pay",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

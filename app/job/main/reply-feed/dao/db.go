@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"strings"
 
-	"go-common/app/job/main/reply-feed/model"
-	"go-common/library/database/sql"
-	"go-common/library/log"
-	xtime "go-common/library/time"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/job/main/reply-feed/model"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 const (

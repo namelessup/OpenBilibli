@@ -7,13 +7,13 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/app/service/main/videoup/conf"
-	"go-common/app/service/main/videoup/http"
-	"go-common/app/service/main/videoup/service"
-	ecode "go-common/library/ecode/tip"
-	"go-common/library/log"
-	"go-common/library/net/trace"
-	"go-common/library/queue/databus/report"
+	"github.com/namelessup/bilibili/app/service/main/videoup/conf"
+	"github.com/namelessup/bilibili/app/service/main/videoup/http"
+	"github.com/namelessup/bilibili/app/service/main/videoup/service"
+	ecode "github.com/namelessup/bilibili/library/ecode/tip"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
+	"github.com/namelessup/bilibili/library/queue/databus/report"
 )
 
 func main() {
@@ -29,7 +29,7 @@ func main() {
 	defer log.Close()
 	ecode.Init(conf.Conf.Ecode)
 	report.InitUser(nil)
-	log.Info("go-common/app/service/videoup start")
+	log.Info("github.com/namelessup/bilibili/app/service/videoup start")
 	// service init
 	svr := service.New(conf.Conf)
 	// statsd init
@@ -39,11 +39,11 @@ func main() {
 	signal.Notify(c, syscall.SIGHUP, syscall.SIGQUIT, syscall.SIGTERM, syscall.SIGINT)
 	for {
 		s := <-c
-		log.Info("go-common/app/service/videoup get a signal %s", s.String())
+		log.Info("github.com/namelessup/bilibili/app/service/videoup get a signal %s", s.String())
 		switch s {
 		case syscall.SIGQUIT, syscall.SIGTERM, syscall.SIGSTOP, syscall.SIGINT:
 			svr.Close()
-			log.Info("go-common/app/service/videoup exit")
+			log.Info("github.com/namelessup/bilibili/app/service/videoup exit")
 			time.Sleep(1 * time.Second)
 			return
 		case syscall.SIGHUP:

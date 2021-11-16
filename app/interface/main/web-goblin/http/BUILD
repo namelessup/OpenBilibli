@@ -17,7 +17,7 @@ go_library(
         "ugc.go",
         "wechat.go",
     ],
-    importpath = "go-common/app/interface/main/web-goblin/http",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/web-goblin/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

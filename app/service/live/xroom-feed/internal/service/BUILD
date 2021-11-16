@@ -12,7 +12,7 @@ go_library(
         "rec_pool.go",
         "service.go",
     ],
-    importpath = "go-common/app/service/live/xroom-feed/internal/service",
+    importpath = "github.com/namelessup/bilibili/app/service/live/xroom-feed/internal/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

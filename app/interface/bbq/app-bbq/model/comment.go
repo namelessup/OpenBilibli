@@ -1,8 +1,8 @@
 package model
 
 import (
-	user "go-common/app/service/bbq/user/api"
-	xtime "go-common/library/time"
+	user "github.com/namelessup/bilibili/app/service/bbq/user/api"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 const (

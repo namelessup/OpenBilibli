@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"go-common/app/job/main/growup/conf"
-	"go-common/app/job/main/growup/service/ctrl"
+	"github.com/namelessup/bilibili/app/job/main/growup/conf"
+	"github.com/namelessup/bilibili/app/job/main/growup/service/ctrl"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

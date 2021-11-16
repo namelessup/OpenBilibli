@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["open-abtest.toml"],
-    importpath = "go-common/app/service/openplatform/abtest/cmd",
+    importpath = "github.com/namelessup/bilibili/app/service/openplatform/abtest/cmd",
     tags = ["automanaged"],
     deps = [
         "//app/service/openplatform/abtest/conf:go_default_library",

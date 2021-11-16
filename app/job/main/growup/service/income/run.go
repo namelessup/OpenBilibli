@@ -6,9 +6,9 @@ import (
 	"sort"
 	"time"
 
-	model "go-common/app/job/main/growup/model/income"
-	task "go-common/app/job/main/growup/service"
-	"go-common/library/log"
+	model "github.com/namelessup/bilibili/app/job/main/growup/model/income"
+	task "github.com/namelessup/bilibili/app/job/main/growup/service"
+	"github.com/namelessup/bilibili/library/log"
 
 	"golang.org/x/sync/errgroup"
 )

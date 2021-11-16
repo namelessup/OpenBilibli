@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"go-common/app/interface/main/ugcpay/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/ugcpay/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // IncomeAssetOverview 获得收入总览数据

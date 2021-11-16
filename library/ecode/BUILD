@@ -35,7 +35,7 @@ go_library(
         "open_ecode.go",
         "status.go",
     ],
-    importpath = "go-common/library/ecode",
+    importpath = "github.com/namelessup/bilibili/library/ecode",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -1,7 +1,7 @@
 package cache
 
 import (
-	"go-common/app/service/ops/log-agent/event"
+	"github.com/namelessup/bilibili/app/service/ops/log-agent/event"
 )
 
 type Cahce interface {

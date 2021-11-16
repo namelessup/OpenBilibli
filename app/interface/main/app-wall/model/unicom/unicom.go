@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/interface/main/app-wall/model"
-	"go-common/library/log"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/interface/main/app-wall/model"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 type Unicom struct {

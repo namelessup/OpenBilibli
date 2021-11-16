@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["bangumi.go"],
-    importpath = "go-common/app/interface/main/app-tag/model/bangumi",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-tag/model/bangumi",
     tags = ["automanaged"],
 )
 

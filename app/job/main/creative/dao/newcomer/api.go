@@ -5,8 +5,8 @@ import (
 	"errors"
 	"net/url"
 
-	"go-common/library/log"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 // SendNotify send msg notify user

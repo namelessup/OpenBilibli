@@ -6,10 +6,10 @@ import (
 	"strconv"
 	"strings"
 
-	v1pb "go-common/app/service/live/xlottery/api/grpc/v1"
-	"go-common/app/service/live/xlottery/model"
-	"go-common/library/database/sql"
-	"go-common/library/log"
+	v1pb "github.com/namelessup/bilibili/app/service/live/xlottery/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/live/xlottery/model"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

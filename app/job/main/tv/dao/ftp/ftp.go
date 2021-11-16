@@ -10,7 +10,7 @@ import (
 	"os"
 	"time"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/ftp-master"
 )

@@ -6,7 +6,7 @@ import (
 	"io"
 	"time"
 
-	xtime "go-common/library/time"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 var (

@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/job/main/up/conf"
+	"github.com/namelessup/bilibili/app/job/main/up/conf"
 )
 
 var (

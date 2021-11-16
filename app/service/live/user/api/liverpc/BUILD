@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["client.go"],
-    importpath = "go-common/app/service/live/user/api/liverpc",
+    importpath = "github.com/namelessup/bilibili/app/service/live/user/api/liverpc",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -3,8 +3,8 @@ package dao
 import (
 	"time"
 
-	"go-common/app/service/openplatform/ticket-item/conf"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-item/conf"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func initConf() {

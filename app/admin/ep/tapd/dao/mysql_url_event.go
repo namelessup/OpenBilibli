@@ -1,8 +1,8 @@
 package dao
 
 import (
-	"go-common/app/admin/ep/tapd/model"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/admin/ep/tapd/model"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 // AddURLEvent Add URL Event.

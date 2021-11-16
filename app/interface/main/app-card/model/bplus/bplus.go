@@ -1,7 +1,7 @@
 package bplus
 
 import (
-	xtime "go-common/library/time"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // Picture struct

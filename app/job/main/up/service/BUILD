@@ -32,7 +32,7 @@ go_library(
         "sign_task_job.go",
         "sign_update_tid_job.go",
     ],
-    importpath = "go-common/app/job/main/up/service",
+    importpath = "github.com/namelessup/bilibili/app/job/main/up/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -26,7 +26,7 @@ go_library(
         "notify.go",
         "service.go",
     ],
-    importpath = "go-common/app/job/main/coupon/service",
+    importpath = "github.com/namelessup/bilibili/app/job/main/coupon/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

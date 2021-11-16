@@ -5,11 +5,11 @@ import (
 	"sync"
 	"time"
 
-	"go-common/app/admin/main/reply/model"
-	"go-common/library/database/sql"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/admin/main/reply/model"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/ecode"
 
-	"go-common/library/sync/errgroup.v2"
+	"github.com/namelessup/bilibili/library/sync/errgroup.v2"
 )
 
 func compose(oids, tps, rpIDs []int64) (rpMap map[int64][]int64, tpMap map[int64]int64) {

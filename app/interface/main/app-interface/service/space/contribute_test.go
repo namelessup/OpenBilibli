@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/interface/main/app-interface/model"
-	"go-common/app/interface/main/app-interface/model/space"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/model/space"
 )
 
 func TestService_Contribute(t *testing.T) {

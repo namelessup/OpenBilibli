@@ -12,9 +12,9 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/job/main/push/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/push/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

@@ -3,8 +3,8 @@ package academy
 import (
 	"context"
 
-	"go-common/app/interface/main/creative/model/academy"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/academy"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

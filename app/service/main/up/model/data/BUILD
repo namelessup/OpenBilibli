@@ -11,7 +11,7 @@ go_library(
         "data.go",
         "hbase.go",
     ],
-    importpath = "go-common/app/service/main/up/model/data",
+    importpath = "github.com/namelessup/bilibili/app/service/main/up/model/data",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

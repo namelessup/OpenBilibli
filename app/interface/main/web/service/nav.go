@@ -3,11 +3,11 @@ package service
 import (
 	"context"
 
-	"go-common/app/interface/main/web/model"
-	accmdl "go-common/app/service/main/account/api"
-	coupon "go-common/app/service/main/coupon/model"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/interface/main/web/model"
+	accmdl "github.com/namelessup/bilibili/app/service/main/account/api"
+	coupon "github.com/namelessup/bilibili/app/service/main/coupon/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 // Nav api service

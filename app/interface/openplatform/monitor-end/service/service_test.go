@@ -3,14 +3,14 @@ package service
 import (
 	"context"
 
-	"go-common/app/interface/openplatform/monitor-end/conf"
-	"go-common/app/interface/openplatform/monitor-end/model/kafka"
-	"go-common/app/interface/openplatform/monitor-end/model/monitor"
-	"go-common/library/cache/redis"
-	"go-common/library/container/pool"
-	"go-common/library/database/sql"
-	"go-common/library/log/infoc"
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/app/interface/openplatform/monitor-end/conf"
+	"github.com/namelessup/bilibili/app/interface/openplatform/monitor-end/model/kafka"
+	"github.com/namelessup/bilibili/app/interface/openplatform/monitor-end/model/monitor"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/container/pool"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log/infoc"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 var (

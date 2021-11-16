@@ -2,7 +2,7 @@ package fav
 
 import (
 	"context"
-	favmdl "go-common/app/service/main/favorite/model"
+	favmdl "github.com/namelessup/bilibili/app/service/main/favorite/model"
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"

@@ -8,7 +8,7 @@ import fmt "fmt"
 import math "math"
 import _ "github.com/gogo/protobuf/gogoproto"
 
-import go_common_library_time "go-common/library/time"
+import go_common_library_time "github.com/namelessup/bilibili/library/time"
 
 import (
 	context "golang.org/x/net/context"
@@ -69,14 +69,14 @@ func (m *UserInfoReq) XXX_DiscardUnknown() {
 var xxx_messageInfo_UserInfoReq proto.InternalMessageInfo
 
 // +bili:deepcopy-gen=true
-// +bili:deepcopy-gen:structs=go-common/app/service/main/tv/internal/model.UserInfo
+// +bili:deepcopy-gen:structs=github.com/namelessup/bilibili/app/service/main/tv/internal/model.UserInfo
 type UserInfoReply struct {
 	Mid                  int64                       `protobuf:"varint,1,opt,name=mid,proto3" json:"mid"`
 	VipType              int8                        `protobuf:"varint,2,opt,name=vip_type,json=vipType,proto3,casttype=int8" json:"vip_type"`
 	PayType              int8                        `protobuf:"varint,3,opt,name=pay_type,json=payType,proto3,casttype=int8" json:"pay_type"`
 	PayChannelId         string                      `protobuf:"bytes,4,opt,name=pay_channel_id,json=payChannelId,proto3" json:"pay_channel_id"`
 	Status               int8                        `protobuf:"varint,5,opt,name=status,proto3,casttype=int8" json:"status"`
-	OverdueTime          go_common_library_time.Time `protobuf:"varint,6,opt,name=overdue_time,json=overdueTime,proto3,casttype=go-common/library/time.Time" json:"overdue_time"`
+	OverdueTime          go_common_library_time.Time `protobuf:"varint,6,opt,name=overdue_time,json=overdueTime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"overdue_time"`
 	XXX_NoUnkeyedLiteral struct{}                    `json:"-"`
 	XXX_unrecognized     []byte                      `json:"-"`
 	XXX_sizecache        int32                       `json:"-"`
@@ -156,17 +156,17 @@ func (m *ChangeHistoryReq) XXX_DiscardUnknown() {
 var xxx_messageInfo_ChangeHistoryReq proto.InternalMessageInfo
 
 // +bili:deepcopy-gen=true
-// +bili:deepcopy-gen:structs=go-common/app/service/main/tv/internal/model.UserChangeHistory
+// +bili:deepcopy-gen:structs=github.com/namelessup/bilibili/app/service/main/tv/internal/model.UserChangeHistory
 type ChangeHistoryReply struct {
 	Id                   int32                       `protobuf:"varint,1,opt,name=id,proto3" json:"id"`
 	Mid                  int64                       `protobuf:"varint,2,opt,name=mid,proto3" json:"mid"`
 	ChangeType           int8                        `protobuf:"varint,3,opt,name=change_type,json=changeType,proto3,casttype=int8" json:"change_type"`
-	ChangeTime           go_common_library_time.Time `protobuf:"varint,4,opt,name=change_time,json=changeTime,proto3,casttype=go-common/library/time.Time" json:"change_time"`
+	ChangeTime           go_common_library_time.Time `protobuf:"varint,4,opt,name=change_time,json=changeTime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"change_time"`
 	OrderNo              string                      `protobuf:"bytes,5,opt,name=order_no,json=orderNo,proto3" json:"order_no"`
 	Days                 int32                       `protobuf:"varint,6,opt,name=days,proto3" json:"days"`
 	OperatorId           string                      `protobuf:"bytes,7,opt,name=operator_id,json=operatorId,proto3" json:"operator_id"`
-	Ctime                go_common_library_time.Time `protobuf:"varint,8,opt,name=ctime,proto3,casttype=go-common/library/time.Time" json:"ctime"`
-	Mtime                go_common_library_time.Time `protobuf:"varint,9,opt,name=mtime,proto3,casttype=go-common/library/time.Time" json:"mtime"`
+	Ctime                go_common_library_time.Time `protobuf:"varint,8,opt,name=ctime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"ctime"`
+	Mtime                go_common_library_time.Time `protobuf:"varint,9,opt,name=mtime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"mtime"`
 	XXX_NoUnkeyedLiteral struct{}                    `json:"-"`
 	XXX_unrecognized     []byte                      `json:"-"`
 	XXX_sizecache        int32                       `json:"-"`
@@ -331,7 +331,7 @@ func (m *PanelInfoReq) XXX_DiscardUnknown() {
 var xxx_messageInfo_PanelInfoReq proto.InternalMessageInfo
 
 // +bili:deepcopy-gen=true
-// +bili:deepcopy-gen:structs=go-common/app/service/main/tv/internal/model.PanelPriceConfig
+// +bili:deepcopy-gen:structs=github.com/namelessup/bilibili/app/service/main/tv/internal/model.PanelPriceConfig
 type PanelPriceConfig struct {
 	Id                   int32    `protobuf:"varint,1,opt,name=id,proto3" json:"id"`
 	Pid                  int32    `protobuf:"varint,2,opt,name=pid,proto3" json:"pid"`
@@ -586,7 +586,7 @@ func (m *PayOrderReq) XXX_DiscardUnknown() {
 var xxx_messageInfo_PayOrderReq proto.InternalMessageInfo
 
 // +bili:deepcopy-gen=true
-// +bili:deepcopy-gen:structs=go-common/app/service/main/tv/internal/model.PayOrder
+// +bili:deepcopy-gen:structs=github.com/namelessup/bilibili/app/service/main/tv/internal/model.PayOrder
 type PayOrderReply struct {
 	Id                   int32                       `protobuf:"varint,1,opt,name=id,proto3" json:"id"`
 	OrderNo              string                      `protobuf:"bytes,2,opt,name=order_no,json=orderNo,proto3" json:"order_no"`
@@ -601,9 +601,9 @@ type PayOrderReply struct {
 	ThirdTradeNo         string                      `protobuf:"bytes,11,opt,name=third_trade_no,json=thirdTradeNo,proto3" json:"third_trade_no"`
 	PaymentMoney         int32                       `protobuf:"varint,12,opt,name=payment_money,json=paymentMoney,proto3" json:"payment_money"`
 	PaymentType          string                      `protobuf:"bytes,13,opt,name=payment_type,json=paymentType,proto3" json:"payment_type"`
-	PaymentTime          go_common_library_time.Time `protobuf:"varint,14,opt,name=payment_time,json=paymentTime,proto3,casttype=go-common/library/time.Time" json:"payment_time"`
-	Ctime                go_common_library_time.Time `protobuf:"varint,15,opt,name=ctime,proto3,casttype=go-common/library/time.Time" json:"ctime"`
-	Mtime                go_common_library_time.Time `protobuf:"varint,16,opt,name=mtime,proto3,casttype=go-common/library/time.Time" json:"mtime"`
+	PaymentTime          go_common_library_time.Time `protobuf:"varint,14,opt,name=payment_time,json=paymentTime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"payment_time"`
+	Ctime                go_common_library_time.Time `protobuf:"varint,15,opt,name=ctime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"ctime"`
+	Mtime                go_common_library_time.Time `protobuf:"varint,16,opt,name=mtime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"mtime"`
 	XXX_NoUnkeyedLiteral struct{}                    `json:"-"`
 	XXX_unrecognized     []byte                      `json:"-"`
 	XXX_sizecache        int32                       `json:"-"`
@@ -687,9 +687,9 @@ func (m *CreateQrReq) XXX_DiscardUnknown() {
 var xxx_messageInfo_CreateQrReq proto.InternalMessageInfo
 
 // +bili:deepcopy-gen=true
-// +bili:deepcopy-gen:structs=go-common/app/service/main/tv/internal/model.QR
+// +bili:deepcopy-gen:structs=github.com/namelessup/bilibili/app/service/main/tv/internal/model.QR
 type CreateQrReply struct {
-	ExpireAt             go_common_library_time.Time `protobuf:"varint,1,opt,name=expire_at,json=expireAt,proto3,casttype=go-common/library/time.Time" json:"expire_at"`
+	ExpireAt             go_common_library_time.Time `protobuf:"varint,1,opt,name=expire_at,json=expireAt,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"expire_at"`
 	Url                  string                      `protobuf:"bytes,2,opt,name=url,proto3" json:"url"`
 	Token                string                      `protobuf:"bytes,3,opt,name=token,proto3" json:"token"`
 	XXX_NoUnkeyedLiteral struct{}                    `json:"-"`
@@ -774,9 +774,9 @@ func (m *CreateGuestQrReq) XXX_DiscardUnknown() {
 var xxx_messageInfo_CreateGuestQrReq proto.InternalMessageInfo
 
 // +bili:deepcopy-gen=true
-// +bili:deepcopy-gen:structs=go-common/app/service/main/tv/internal/model.QR
+// +bili:deepcopy-gen:structs=github.com/namelessup/bilibili/app/service/main/tv/internal/model.QR
 type CreateGuestQrReply struct {
-	ExpireAt             go_common_library_time.Time `protobuf:"varint,1,opt,name=expire_at,json=expireAt,proto3,casttype=go-common/library/time.Time" json:"expire_at"`
+	ExpireAt             go_common_library_time.Time `protobuf:"varint,1,opt,name=expire_at,json=expireAt,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"expire_at"`
 	Url                  string                      `protobuf:"bytes,2,opt,name=url,proto3" json:"url"`
 	Token                string                      `protobuf:"bytes,3,opt,name=token,proto3" json:"token"`
 	XXX_NoUnkeyedLiteral struct{}                    `json:"-"`
@@ -818,7 +818,7 @@ func (m *CreateGuestQrReply) XXX_DiscardUnknown() {
 var xxx_messageInfo_CreateGuestQrReply proto.InternalMessageInfo
 
 // +bili:deepcopy-gen=true
-// +bili:deepcopy-gen:structs=go-common/app/service/main/tv/internal/model.YstPayCallbackReq
+// +bili:deepcopy-gen:structs=github.com/namelessup/bilibili/app/service/main/tv/internal/model.YstPayCallbackReq
 type PayCallbackReq struct {
 	SeqNo                string   `protobuf:"bytes,1,opt,name=seq_no,json=seqNo,proto3" json:"seq_no,omitempty"`
 	TraceNo              string   `protobuf:"bytes,2,opt,name=trace_no,json=traceNo,proto3" json:"trace_no,omitempty"`
@@ -864,7 +864,7 @@ func (m *PayCallbackReq) XXX_DiscardUnknown() {
 var xxx_messageInfo_PayCallbackReq proto.InternalMessageInfo
 
 // +bili:deepcopy-gen=true
-// +bili:deepcopy-gen:structs=go-common/app/service/main/tv/internal/model.YstPayCallbackReply
+// +bili:deepcopy-gen:structs=github.com/namelessup/bilibili/app/service/main/tv/internal/model.YstPayCallbackReply
 type PayCallbackReply struct {
 	TraceNo              string   `protobuf:"bytes,1,opt,name=trace_no,json=traceNo,proto3" json:"traceno"`
 	Result               string   `protobuf:"bytes,2,opt,name=result,proto3" json:"result"`
@@ -951,7 +951,7 @@ func (m *CreateOrderReq) XXX_DiscardUnknown() {
 var xxx_messageInfo_CreateOrderReq proto.InternalMessageInfo
 
 // +bili:deepcopy-gen=true
-// +bili:deepcopy-gen:structs=go-common/app/service/main/tv/internal/model.PayInfo
+// +bili:deepcopy-gen:structs=github.com/namelessup/bilibili/app/service/main/tv/internal/model.PayInfo
 type CreateOrderReply struct {
 	OrderNo              string   `protobuf:"bytes,1,opt,name=order_no,json=orderNo,proto3" json:"order_no"`
 	PaymentType          string   `protobuf:"bytes,2,opt,name=payment_type,json=paymentType,proto3" json:"payment_type"`
@@ -1162,7 +1162,7 @@ func (m *RenewVipReply) XXX_DiscardUnknown() {
 var xxx_messageInfo_RenewVipReply proto.InternalMessageInfo
 
 // +bili:deepcopy-gen=true
-// +bili:deepcopy-gen:structs=go-common/app/service/main/tv/internal/model.WxContractCallbackReq
+// +bili:deepcopy-gen:structs=github.com/namelessup/bilibili/app/service/main/tv/internal/model.WxContractCallbackReq
 type WxContractCallbackReq struct {
 	ContractId              string   `protobuf:"bytes,1,opt,name=contract_id,json=contractId,proto3" json:"contract_id,omitempty"`
 	ContractCode            string   `protobuf:"bytes,2,opt,name=contract_code,json=contractCode,proto3" json:"contract_code,omitempty"`
@@ -1208,7 +1208,7 @@ func (m *WxContractCallbackReq) XXX_DiscardUnknown() {
 var xxx_messageInfo_WxContractCallbackReq proto.InternalMessageInfo
 
 // +bili:deepcopy-gen=true
-// +bili:deepcopy-gen:structs=go-common/app/service/main/tv/internal/model.WxContractCallbackReply
+// +bili:deepcopy-gen:structs=github.com/namelessup/bilibili/app/service/main/tv/internal/model.WxContractCallbackReply
 type WxContractCallbackReply struct {
 	ContractId           string   `protobuf:"bytes,1,opt,name=contract_id,json=contractId,proto3" json:"contract_id"`
 	Result               string   `protobuf:"bytes,2,opt,name=result,proto3" json:"result"`
@@ -1292,7 +1292,7 @@ func (m *TokenInfoReq) XXX_DiscardUnknown() {
 var xxx_messageInfo_TokenInfoReq proto.InternalMessageInfo
 
 // +bili:deepcopy-gen=true
-// +bili:deepcopy-gen:structs=go-common/app/service/main/tv/internal/model.TokenInfo
+// +bili:deepcopy-gen:structs=github.com/namelessup/bilibili/app/service/main/tv/internal/model.TokenInfo
 type TokenInfo struct {
 	OrderNo              string   `protobuf:"bytes,1,opt,name=order_no,json=orderNo,proto3" json:"order_no"`
 	Status               int8     `protobuf:"varint,2,opt,name=status,proto3,casttype=int8" json:"status"`
@@ -1423,7 +1423,7 @@ type YstUserInfoReply struct {
 	PayType              int8                        `protobuf:"varint,3,opt,name=pay_type,json=payType,proto3,casttype=int8" json:"pay_type"`
 	PayChannelId         string                      `protobuf:"bytes,4,opt,name=pay_channel_id,json=payChannelId,proto3" json:"pay_channel_id"`
 	Status               int8                        `protobuf:"varint,5,opt,name=status,proto3,casttype=int8" json:"status"`
-	OverdueTime          go_common_library_time.Time `protobuf:"varint,6,opt,name=overdue_time,json=overdueTime,proto3,casttype=go-common/library/time.Time" json:"overdue_time"`
+	OverdueTime          go_common_library_time.Time `protobuf:"varint,6,opt,name=overdue_time,json=overdueTime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"overdue_time"`
 	Result               string                      `protobuf:"bytes,7,opt,name=result,proto3" json:"result"`
 	Msg                  string                      `protobuf:"bytes,8,opt,name=msg,proto3" json:"msg"`
 	XXX_NoUnkeyedLiteral struct{}                    `json:"-"`

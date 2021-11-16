@@ -7,7 +7,7 @@ import (
 	"net/http"
 
 	"fmt"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // UpVideoCovers upload video covers.

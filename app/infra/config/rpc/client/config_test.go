@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/infra/config/model"
+	"github.com/namelessup/bilibili/app/infra/config/model"
 )
 
 func TestConf(t *testing.T) {

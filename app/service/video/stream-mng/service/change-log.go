@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 	"fmt"
-	"go-common/app/service/video/stream-mng/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/video/stream-mng/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // RecordChangeLog 记录操作日志

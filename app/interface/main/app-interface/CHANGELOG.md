@@ -1293,7 +1293,7 @@
 
 ### Version 3.5.0
 
-> 1.升级go-business 与go-common
+> 1.升级go-business 与github.com/namelessup/bilibili
 
 ### Version 3.4.0
 
@@ -1370,7 +1370,7 @@
 ### Version 3.0.0
 
 > 1.vendor支持
-> 2.go-common/xhttp/router替换为go-business/router
+> 2.github.com/namelessup/bilibili/xhttp/router替换为go-business/router
 > 3.view返回tag详情
 > 4.view通过movieid查询
 > 5.点击日志增加客户端Build号
@@ -1394,7 +1394,7 @@
 
 ### Version 2.0.0
 
-> 1.替换go-common/business为go-business
+> 1.替换github.com/namelessup/bilibili/business为go-business
 
 ### Version 1.6.4
 
@@ -1513,7 +1513,7 @@
 
 ### Version 1.2.0
 
-> 1.使用go-common/log打印日志
+> 1.使用github.com/namelessup/bilibili/log打印日志
 > 2.view影视增加活动相关字段
 > 3.view锁定稿件露出bugfix
 

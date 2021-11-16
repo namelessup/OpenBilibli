@@ -6,11 +6,11 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/job/main/relation-cache/model"
-	relation "go-common/app/service/main/relation/model"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/job/main/relation-cache/model"
+	relation "github.com/namelessup/bilibili/app/service/main/relation/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	"github.com/pkg/errors"
 )

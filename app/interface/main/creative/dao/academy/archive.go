@@ -5,12 +5,12 @@ import (
 	"fmt"
 
 	"database/sql"
-	sqlx "go-common/library/database/sql"
-	"go-common/library/xstr"
+	sqlx "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/xstr"
 
-	"go-common/app/interface/main/creative/dao/tool"
-	"go-common/app/interface/main/creative/model/academy"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/creative/dao/tool"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/academy"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

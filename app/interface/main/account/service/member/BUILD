@@ -40,7 +40,7 @@ go_library(
         "sudo.go",
         "web_info.go",
     ],
-    importpath = "go-common/app/interface/main/account/service/member",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/account/service/member",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

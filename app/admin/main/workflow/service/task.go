@@ -7,12 +7,12 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/admin/main/workflow/model"
-	"go-common/app/admin/main/workflow/model/param"
-	credit "go-common/app/job/main/credit/model"
-	"go-common/library/log"
-	"go-common/library/queue/databus/report"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/admin/main/workflow/model"
+	"github.com/namelessup/bilibili/app/admin/main/workflow/model/param"
+	credit "github.com/namelessup/bilibili/app/job/main/credit/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus/report"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 func (s *Service) afterSetGrpResult(grp *param.GroupResParam, g *model.Group, tinyChalls map[int64]*model.TinyChall) {

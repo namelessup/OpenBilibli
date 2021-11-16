@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 
-	"go-common/app/infra/notify/model"
-	"go-common/app/infra/notify/notify"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/infra/notify/model"
+	"github.com/namelessup/bilibili/app/infra/notify/notify"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 // Pub pub message.

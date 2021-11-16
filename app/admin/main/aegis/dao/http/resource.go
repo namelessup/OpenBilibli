@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"net/url"
 
-	"go-common/app/admin/main/aegis/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // SyncResource 同步到业务方

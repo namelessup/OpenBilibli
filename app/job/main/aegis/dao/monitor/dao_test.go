@@ -2,7 +2,7 @@ package monitor
 
 import (
 	"flag"
-	"go-common/app/job/main/aegis/conf"
+	"github.com/namelessup/bilibili/app/job/main/aegis/conf"
 	"gopkg.in/h2non/gock.v1"
 	"os"
 	"strings"

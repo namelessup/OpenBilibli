@@ -2,7 +2,7 @@ package search
 
 import (
 	"context"
-	searchMdl "go-common/app/interface/main/tv/model/search"
+	searchMdl "github.com/namelessup/bilibili/app/interface/main/tv/model/search"
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"

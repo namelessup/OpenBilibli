@@ -2,11 +2,11 @@ package exp
 
 import (
 	"context"
-	expModel "go-common/app/service/live/xuser/model/exp"
-	gmc "go-common/library/cache/memcache"
-	"go-common/library/log"
-	"go-common/library/stat/prom"
-	"go-common/library/sync/errgroup"
+	expModel "github.com/namelessup/bilibili/app/service/live/xuser/model/exp"
+	gmc "github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/stat/prom"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 	"math/rand"
 	"strconv"
 	"time"

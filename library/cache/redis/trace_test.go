@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/library/net/trace"
 )
 
 type mockTrace struct {

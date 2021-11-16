@@ -8,8 +8,8 @@ import (
 	"io"
 	"net/http"
 
-	"go-common/app/admin/main/appstatic/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/appstatic/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Upload can upload a file object: store the info in Redis, and transfer the file to Bfs

@@ -12,7 +12,7 @@ go_library(
         "shellrequest.go",
         "sign.go",
     ],
-    importpath = "go-common/app/admin/main/growup/dao/shell",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/growup/dao/shell",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

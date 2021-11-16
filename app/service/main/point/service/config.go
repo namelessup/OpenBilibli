@@ -5,8 +5,8 @@ import (
 	"math"
 	"strconv"
 
-	"go-common/app/service/main/point/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/point/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

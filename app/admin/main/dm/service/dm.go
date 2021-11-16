@@ -7,13 +7,13 @@ import (
 	"strconv"
 	"sync"
 
-	"go-common/app/admin/main/dm/model"
-	"go-common/app/admin/main/dm/model/oplog"
-	accountApi "go-common/app/service/main/account/api"
-	account "go-common/app/service/main/account/model"
-	"go-common/app/service/main/archive/model/archive"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/admin/main/dm/model"
+	"github.com/namelessup/bilibili/app/admin/main/dm/model/oplog"
+	accountApi "github.com/namelessup/bilibili/app/service/main/account/api"
+	account "github.com/namelessup/bilibili/app/service/main/account/model"
+	"github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 const (

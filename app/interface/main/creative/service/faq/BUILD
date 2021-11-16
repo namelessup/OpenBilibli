@@ -23,7 +23,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["service.go"],
-    importpath = "go-common/app/interface/main/creative/service/faq",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/creative/service/faq",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

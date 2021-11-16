@@ -14,7 +14,7 @@ go_library(
         "retrieve2.go",
         "upsrecretrive.go",
     ],
-    importpath = "go-common/app/service/bbq/recsys/service/retrieve",
+    importpath = "github.com/namelessup/bilibili/app/service/bbq/recsys/service/retrieve",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

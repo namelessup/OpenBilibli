@@ -1,6 +1,6 @@
 package dao
 
-import "go-common/app/admin/ep/melloi/model"
+import "github.com/namelessup/bilibili/app/admin/ep/melloi/model"
 
 //AddClientMoni add ClientMoni
 func (d *Dao) AddClientMoni(clientMoni *model.ClientMoni) (clientMoniID int, err error) {

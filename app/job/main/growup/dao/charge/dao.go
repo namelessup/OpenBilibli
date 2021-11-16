@@ -3,8 +3,8 @@ package charge
 import (
 	"context"
 
-	"go-common/app/job/main/growup/conf"
-	"go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/job/main/growup/conf"
+	"github.com/namelessup/bilibili/library/database/sql"
 )
 
 // Dao dao

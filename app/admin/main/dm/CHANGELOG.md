@@ -364,7 +364,7 @@
 > 1. 弹幕状态批量修改优化
 
 #### version 3.5.0
-> 1. 升级go-common,go-business
+> 1. 升级github.com/namelessup/bilibili,go-business
 
 #### version 3.4.1
 > 1. 并发获取稿件详情

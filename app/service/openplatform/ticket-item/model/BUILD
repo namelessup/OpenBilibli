@@ -16,7 +16,7 @@ go_library(
         "ticket.go",
         "util.go",
     ],
-    importpath = "go-common/app/service/openplatform/ticket-item/model",
+    importpath = "github.com/namelessup/bilibili/app/service/openplatform/ticket-item/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

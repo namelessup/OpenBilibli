@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"go-common/app/service/main/thumbup/conf"
+	"github.com/namelessup/bilibili/app/service/main/thumbup/conf"
 )
 
 var d *Dao

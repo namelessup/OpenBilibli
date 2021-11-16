@@ -13,7 +13,7 @@ go_library(
         "inverted_index.go",
         "service.go",
     ],
-    importpath = "go-common/app/job/bbq/recall/internal/service",
+    importpath = "github.com/namelessup/bilibili/app/job/bbq/recall/internal/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

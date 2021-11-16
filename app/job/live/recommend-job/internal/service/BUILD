@@ -12,7 +12,7 @@ go_library(
         "service.go",
         "user_area_job.go",
     ],
-    importpath = "go-common/app/job/live/recommend-job/internal/service",
+    importpath = "github.com/namelessup/bilibili/app/job/live/recommend-job/internal/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

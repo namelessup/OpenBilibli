@@ -6,9 +6,9 @@ import (
 	"sync"
 	"time"
 
-	"go-common/app/job/openplatform/article/conf"
-	"go-common/app/job/openplatform/article/dao"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/job/openplatform/article/conf"
+	"github.com/namelessup/bilibili/app/job/openplatform/article/dao"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 // func WithService(f func(s *Service)) func() {

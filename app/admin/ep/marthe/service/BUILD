@@ -15,7 +15,7 @@ go_library(
         "tapd.go",
         "user.go",
     ],
-    importpath = "go-common/app/admin/ep/marthe/service",
+    importpath = "github.com/namelessup/bilibili/app/admin/ep/marthe/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

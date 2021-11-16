@@ -11,7 +11,7 @@ go_library(
         "dao.go",
         "roomAdmin.go",
     ],
-    importpath = "go-common/app/interface/live/web-room/dao",
+    importpath = "github.com/namelessup/bilibili/app/interface/live/web-room/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -18,7 +18,7 @@ go_library(
         "token.go",
         "user_info.go",
     ],
-    importpath = "go-common/app/service/main/tv/internal/service",
+    importpath = "github.com/namelessup/bilibili/app/service/main/tv/internal/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

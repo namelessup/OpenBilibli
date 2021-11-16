@@ -5,9 +5,9 @@ import (
 	"database/sql"
 	"net/url"
 
-	"go-common/app/interface/main/creative/model/archive"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/archive"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

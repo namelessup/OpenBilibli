@@ -7,11 +7,11 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/app/interface/openplatform/monitor-end/conf"
-	"go-common/app/interface/openplatform/monitor-end/http"
-	"go-common/app/interface/openplatform/monitor-end/service"
-	"go-common/library/log"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/app/interface/openplatform/monitor-end/conf"
+	"github.com/namelessup/bilibili/app/interface/openplatform/monitor-end/http"
+	"github.com/namelessup/bilibili/app/interface/openplatform/monitor-end/service"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
 )
 
 func main() {

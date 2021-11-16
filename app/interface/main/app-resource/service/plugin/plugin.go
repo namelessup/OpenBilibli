@@ -5,10 +5,10 @@ import (
 	"sort"
 	"time"
 
-	"go-common/app/interface/main/app-resource/conf"
-	pgdao "go-common/app/interface/main/app-resource/dao/plugin"
-	"go-common/app/interface/main/app-resource/model/plugin"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/app-resource/conf"
+	pgdao "github.com/namelessup/bilibili/app/interface/main/app-resource/dao/plugin"
+	"github.com/namelessup/bilibili/app/interface/main/app-resource/model/plugin"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 type Service struct {

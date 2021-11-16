@@ -8,7 +8,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["passport-game-cloud-job.toml"],
-    importpath = "go-common/app/job/main/passport-game-cloud/cmd",
+    importpath = "github.com/namelessup/bilibili/app/job/main/passport-game-cloud/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:private"],
     deps = [

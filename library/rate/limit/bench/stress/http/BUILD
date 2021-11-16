@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["http.go"],
-    importpath = "go-common/library/rate/limit/bench/stress/http",
+    importpath = "github.com/namelessup/bilibili/library/rate/limit/bench/stress/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

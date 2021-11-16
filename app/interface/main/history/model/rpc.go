@@ -1,6 +1,6 @@
 package model
 
-import hismdl "go-common/app/service/main/history/model"
+import hismdl "github.com/namelessup/bilibili/app/service/main/history/model"
 
 // History video hisotry info.
 type History struct {

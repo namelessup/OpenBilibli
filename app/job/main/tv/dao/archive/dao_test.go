@@ -2,7 +2,7 @@ package archive
 
 import (
 	"flag"
-	"go-common/app/job/main/tv/conf"
+	"github.com/namelessup/bilibili/app/job/main/tv/conf"
 	"os"
 	"testing"
 )

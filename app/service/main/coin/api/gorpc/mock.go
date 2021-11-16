@@ -7,7 +7,7 @@ package coin
 import (
 	context "context"
 	gomock "github.com/golang/mock/gomock"
-	model "go-common/app/service/main/coin/model"
+	model "github.com/namelessup/bilibili/app/service/main/coin/model"
 	reflect "reflect"
 )
 

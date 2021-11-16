@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["apm-admin-test.toml"],
-    importpath = "go-common/app/admin/main/apm/cmd",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/apm/cmd",
     tags = ["automanaged"],
     deps = [
         "//app/admin/main/apm/conf:go_default_library",

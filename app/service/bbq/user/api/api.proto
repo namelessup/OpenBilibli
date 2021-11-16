@@ -132,8 +132,8 @@ message UserBase {
     string  birthday            = 4 [(gogoproto.jsontag) = "birthday", (gogoproto.moretags)='form:"birthday"'];
     int64   exp                 = 5 [(gogoproto.moretags)='form:"exp"'];
     int64   level               = 6 [(gogoproto.moretags)='form:"level"'];
-    int64   ctime               = 7 [(gogoproto.casttype) = "go-common/library/time.Time"];
-    int64   mtime               = 8 [(gogoproto.casttype) = "go-common/library/time.Time"];
+    int64   ctime               = 7 [(gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
+    int64   mtime               = 8 [(gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
     int32   sex                 = 9 [(gogoproto.jsontag) = "sex", (gogoproto.moretags)='form:"sex"', (gogoproto.casttype) = "int8"];
     int64   region              = 10[(gogoproto.jsontag) = "region", (gogoproto.moretags)='form:"region"'];
     string  signature           = 11[(gogoproto.jsontag) = "signature", (gogoproto.moretags)='form:"signature"'];

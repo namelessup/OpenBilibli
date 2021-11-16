@@ -11,7 +11,7 @@ go_library(
         "academy.go",
         "skill.go",
     ],
-    importpath = "go-common/app/interface/main/creative/model/academy",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/creative/model/academy",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

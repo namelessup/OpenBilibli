@@ -3,14 +3,14 @@ package lottery
 import (
 	"context"
 	"flag"
-	"go-common/app/interface/main/creative/model/lottery"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/lottery"
 	"gopkg.in/h2non/gock.v1"
 	"os"
 	"strings"
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"
-	"go-common/app/interface/main/creative/conf"
+	"github.com/namelessup/bilibili/app/interface/main/creative/conf"
 )
 
 var (

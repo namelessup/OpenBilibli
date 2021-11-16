@@ -7,10 +7,10 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/admin/main/growup/dao/resource"
-	model "go-common/app/admin/main/growup/model/income"
+	"github.com/namelessup/bilibili/app/admin/main/growup/dao/resource"
+	model "github.com/namelessup/bilibili/app/admin/main/growup/model/income"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // ArchiveChargeStatis av_charge statis

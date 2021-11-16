@@ -18,7 +18,7 @@ go_library(
         "tag.go",
         "tagarc.go",
     ],
-    importpath = "go-common/app/interface/main/tag/http",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/tag/http",
     tags = ["automanaged"],
     deps = [
         "//app/interface/main/tag/conf:go_default_library",

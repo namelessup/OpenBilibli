@@ -21,7 +21,7 @@ proto_library(
 go_proto_library(
     name = "render_go_proto",
     compilers = ["@io_bazel_rules_go//proto:gogo_proto"],
-    importpath = "go-common/library/net/http/blademaster/render",
+    importpath = "github.com/namelessup/bilibili/library/net/http/blademaster/render",
     proto = ":render_proto",
     tags = ["manual"],
     visibility = ["//visibility:public"],
@@ -43,7 +43,7 @@ go_library(
         "xml.go",
     ],
     embed = [":render_go_proto"],
-    importpath = "go-common/library/net/http/blademaster/render",
+    importpath = "github.com/namelessup/bilibili/library/net/http/blademaster/render",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

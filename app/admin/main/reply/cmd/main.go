@@ -6,13 +6,13 @@ import (
 	"os/signal"
 	"syscall"
 
-	"go-common/app/admin/main/reply/conf"
-	"go-common/app/admin/main/reply/http"
-	ecode "go-common/library/ecode/tip"
-	"go-common/library/exp/feature"
-	"go-common/library/log"
-	"go-common/library/net/trace"
-	"go-common/library/queue/databus/report"
+	"github.com/namelessup/bilibili/app/admin/main/reply/conf"
+	"github.com/namelessup/bilibili/app/admin/main/reply/http"
+	ecode "github.com/namelessup/bilibili/library/ecode/tip"
+	"github.com/namelessup/bilibili/library/exp/feature"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
+	"github.com/namelessup/bilibili/library/queue/databus/report"
 )
 
 func main() {

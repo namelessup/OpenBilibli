@@ -13,7 +13,7 @@ go_library(
         "model.go",
         "rank.go",
     ],
-    importpath = "go-common/app/service/bbq/recsys/service/rank",
+    importpath = "github.com/namelessup/bilibili/app/service/bbq/recsys/service/rank",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

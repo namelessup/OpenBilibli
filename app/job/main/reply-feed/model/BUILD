@@ -11,7 +11,7 @@ go_library(
         "algorithm.go",
         "model.go",
     ],
-    importpath = "go-common/app/job/main/reply-feed/model",
+    importpath = "github.com/namelessup/bilibili/app/job/main/reply-feed/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/time:go_default_library"],

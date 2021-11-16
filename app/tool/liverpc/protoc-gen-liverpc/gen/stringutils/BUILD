@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["stringutils.go"],
-    importpath = "go-common/app/tool/liverpc/protoc-gen-liverpc/gen/stringutils",
+    importpath = "github.com/namelessup/bilibili/app/tool/liverpc/protoc-gen-liverpc/gen/stringutils",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

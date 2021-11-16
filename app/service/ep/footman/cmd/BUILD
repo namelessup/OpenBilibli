@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["tapd.toml"],
-    importpath = "go-common/app/service/ep/footman/cmd",
+    importpath = "github.com/namelessup/bilibili/app/service/ep/footman/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

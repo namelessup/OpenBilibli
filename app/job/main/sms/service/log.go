@@ -4,9 +4,9 @@ import (
 	"strings"
 	"time"
 
-	smsmdl "go-common/app/service/main/sms/model"
-	"go-common/library/log"
-	"go-common/library/queue/databus/report"
+	smsmdl "github.com/namelessup/bilibili/app/service/main/sms/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus/report"
 )
 
 const (

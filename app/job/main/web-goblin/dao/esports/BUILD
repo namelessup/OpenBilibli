@@ -14,7 +14,7 @@ go_library(
         "mysql.go",
         "push.go",
     ],
-    importpath = "go-common/app/job/main/web-goblin/dao/esports",
+    importpath = "github.com/namelessup/bilibili/app/job/main/web-goblin/dao/esports",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

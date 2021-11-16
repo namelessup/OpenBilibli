@@ -13,7 +13,7 @@ go_library(
         "outer.go",
         "point.go",
     ],
-    importpath = "go-common/app/service/main/point/server/http",
+    importpath = "github.com/namelessup/bilibili/app/service/main/point/server/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

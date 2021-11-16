@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"time"
 
-	"go-common/app/service/bbq/notice-service/api/v1"
-	"go-common/app/service/bbq/notice-service/internal/conf"
-	"go-common/app/service/bbq/notice-service/internal/dao"
-	"go-common/library/log"
-	"go-common/library/log/infoc"
+	"github.com/namelessup/bilibili/app/service/bbq/notice-service/api/v1"
+	"github.com/namelessup/bilibili/app/service/bbq/notice-service/internal/conf"
+	"github.com/namelessup/bilibili/app/service/bbq/notice-service/internal/dao"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/log/infoc"
 
 	"github.com/golang/protobuf/ptypes/empty"
 )

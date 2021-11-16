@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["agent.go"],
-    importpath = "go-common/app/service/main/dapper/agent",
+    importpath = "github.com/namelessup/bilibili/app/service/main/dapper/agent",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

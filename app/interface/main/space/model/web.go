@@ -1,6 +1,6 @@
 package model
 
-import artmdl "go-common/app/interface/openplatform/article/model"
+import artmdl "github.com/namelessup/bilibili/app/interface/openplatform/article/model"
 
 var (
 	// ArticleSortType article list sort types.

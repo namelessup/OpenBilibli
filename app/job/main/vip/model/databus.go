@@ -3,7 +3,7 @@ package model
 import (
 	"encoding/json"
 
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 //VipUserInfoMsg get databus  vip_user_info msg

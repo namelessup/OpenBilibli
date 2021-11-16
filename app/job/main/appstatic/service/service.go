@@ -4,10 +4,10 @@ import (
 	"context"
 	"sync"
 
-	"go-common/app/job/main/appstatic/conf"
-	"go-common/app/job/main/appstatic/dao/caldiff"
-	"go-common/app/job/main/appstatic/dao/push"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/appstatic/conf"
+	"github.com/namelessup/bilibili/app/job/main/appstatic/dao/caldiff"
+	"github.com/namelessup/bilibili/app/job/main/appstatic/dao/push"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 var ctx = context.Background()

@@ -3,8 +3,8 @@ package show
 import (
 	"context"
 
-	"go-common/app/interface/main/app-show/model/show"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/model/show"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

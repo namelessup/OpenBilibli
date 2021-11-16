@@ -3,8 +3,8 @@ package archive
 import (
 	"time"
 
-	"go-common/app/job/main/tv/conf"
-	"go-common/library/cache/memcache"
+	"github.com/namelessup/bilibili/app/job/main/tv/conf"
+	"github.com/namelessup/bilibili/library/cache/memcache"
 )
 
 // Dao is archive dao.

@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["titansSdk.go"],
-    importpath = "go-common/app/service/live/resource/sdk",
+    importpath = "github.com/namelessup/bilibili/app/service/live/resource/sdk",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

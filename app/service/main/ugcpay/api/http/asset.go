@@ -1,7 +1,7 @@
 package http
 
 import (
-	"go-common/app/service/main/ugcpay/model"
+	"github.com/namelessup/bilibili/app/service/main/ugcpay/model"
 )
 
 // ArgAssetRegister .

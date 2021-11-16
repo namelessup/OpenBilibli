@@ -3,9 +3,9 @@ package http
 import (
 	"strings"
 
-	"go-common/app/interface/main/account/model"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/interface/main/account/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // getChallenge get geetest params gt ,challenge

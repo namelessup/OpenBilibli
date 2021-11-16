@@ -5,8 +5,8 @@ import (
 	"sort"
 	"time"
 
-	"go-common/app/service/main/vip/model"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/service/main/vip/model"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // Tips config tips.

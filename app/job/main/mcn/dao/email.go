@@ -3,8 +3,8 @@ package dao
 import (
 	"os"
 
-	"go-common/app/job/main/mcn/conf"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/mcn/conf"
+	"github.com/namelessup/bilibili/library/log"
 
 	"gopkg.in/gomail.v2"
 )

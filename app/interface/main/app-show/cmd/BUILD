@@ -19,7 +19,7 @@ go_library(
         "app-show-example.toml",
         "app-show-test.toml",
     ],
-    importpath = "go-common/app/interface/main/app-show/cmd",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-show/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

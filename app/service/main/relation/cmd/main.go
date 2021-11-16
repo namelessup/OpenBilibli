@@ -8,14 +8,14 @@ import (
 	"time"
 
 	"context"
-	"go-common/app/service/main/relation/conf"
-	"go-common/app/service/main/relation/http"
-	"go-common/app/service/main/relation/rpc/server"
-	"go-common/app/service/main/relation/server/grpc"
-	"go-common/app/service/main/relation/service"
-	"go-common/library/log"
-	"go-common/library/net/trace"
-	"go-common/library/queue/databus/report"
+	"github.com/namelessup/bilibili/app/service/main/relation/conf"
+	"github.com/namelessup/bilibili/app/service/main/relation/http"
+	"github.com/namelessup/bilibili/app/service/main/relation/rpc/server"
+	"github.com/namelessup/bilibili/app/service/main/relation/server/grpc"
+	"github.com/namelessup/bilibili/app/service/main/relation/service"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
+	"github.com/namelessup/bilibili/library/queue/databus/report"
 )
 
 func main() {

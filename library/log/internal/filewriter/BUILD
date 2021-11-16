@@ -20,7 +20,7 @@ go_library(
         "filewriter.go",
         "option.go",
     ],
-    importpath = "go-common/library/log/internal/filewriter",
+    importpath = "github.com/namelessup/bilibili/library/log/internal/filewriter",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

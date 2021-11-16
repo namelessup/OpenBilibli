@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	l "go-common/app/interface/main/activity/model/like"
-	"go-common/library/xstr"
+	l "github.com/namelessup/bilibili/app/interface/main/activity/model/like"
+	"github.com/namelessup/bilibili/library/xstr"
 
 	"github.com/pkg/errors"
 )

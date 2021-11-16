@@ -12,7 +12,7 @@ go_library(
         "bits.go",
         "utils.go",
     ],
-    importpath = "go-common/app/admin/main/up/util",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/up/util",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

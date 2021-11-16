@@ -1,8 +1,8 @@
 package feed
 
 import (
-	"go-common/app/interface/main/app-card/model/card/rank"
-	"go-common/app/interface/main/app-feed/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-card/model/card/rank"
+	"github.com/namelessup/bilibili/app/interface/main/app-feed/model"
 )
 
 func (s *Service) RankCard(plat int8) (ranks []*rank.Rank, aids []int64) {

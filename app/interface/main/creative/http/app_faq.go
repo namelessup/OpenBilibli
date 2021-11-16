@@ -2,14 +2,14 @@ package http
 
 import (
 	"context"
-	"go-common/app/interface/main/creative/model/faq"
-	mMdl "go-common/app/interface/main/creative/model/music"
-	resMdl "go-common/app/interface/main/creative/model/resource"
-	resmdl "go-common/app/service/main/resource/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/faq"
+	mMdl "github.com/namelessup/bilibili/app/interface/main/creative/model/music"
+	resMdl "github.com/namelessup/bilibili/app/interface/main/creative/model/resource"
+	resmdl "github.com/namelessup/bilibili/app/service/main/resource/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 	"strconv"
 )
 

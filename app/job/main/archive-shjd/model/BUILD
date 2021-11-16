@@ -13,7 +13,7 @@ go_library(
         "retry.go",
         "stat.go",
     ],
-    importpath = "go-common/app/job/main/archive-shjd/model",
+    importpath = "github.com/namelessup/bilibili/app/job/main/archive-shjd/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//app/service/main/archive/api:go_default_library"],

@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strings"
 
-	"go-common/library/conf/env"
-	"go-common/library/naming"
-	"go-common/library/net/rpc/warden/resolver"
+	"github.com/namelessup/bilibili/library/conf/env"
+	"github.com/namelessup/bilibili/library/naming"
+	"github.com/namelessup/bilibili/library/net/rpc/warden/resolver"
 )
 
 const (

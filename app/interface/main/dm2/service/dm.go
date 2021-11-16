@@ -8,10 +8,10 @@ import (
 	"html"
 	"sort"
 
-	"go-common/app/interface/main/dm2/model"
-	arcMdl "go-common/app/service/main/archive/model/archive"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/dm2/model"
+	arcMdl "github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) dmsCache(c context.Context, tp int32, oid, maxlimit int64, needTrim bool) (dms []*model.DM, err error) {

@@ -6,14 +6,14 @@ import (
 	"math"
 	"time"
 
-	"go-common/app/admin/main/up/util/mathutil"
-	"go-common/app/job/main/up/model"
-	"go-common/app/job/main/up/model/upcrmmodel"
-	upGRPCv1 "go-common/app/service/main/up/api/v1"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/admin/main/up/util/mathutil"
+	"github.com/namelessup/bilibili/app/job/main/up/model"
+	"github.com/namelessup/bilibili/app/job/main/up/model/upcrmmodel"
+	upGRPCv1 "github.com/namelessup/bilibili/app/service/main/up/api/v1"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
 
-	"go-common/app/job/main/up/model/archivemodel"
+	"github.com/namelessup/bilibili/app/job/main/up/model/archivemodel"
 )
 
 // action

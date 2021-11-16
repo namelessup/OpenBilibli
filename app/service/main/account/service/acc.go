@@ -3,15 +3,15 @@ package service
 import (
 	"context"
 
-	v1 "go-common/app/service/main/account/api"
-	"go-common/app/service/main/account/model"
-	coin "go-common/app/service/main/coin/model"
-	member "go-common/app/service/main/member/model"
-	relation "go-common/app/service/main/relation/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
-	"go-common/library/sync/errgroup"
+	v1 "github.com/namelessup/bilibili/app/service/main/account/api"
+	"github.com/namelessup/bilibili/app/service/main/account/model"
+	coin "github.com/namelessup/bilibili/app/service/main/coin/model"
+	member "github.com/namelessup/bilibili/app/service/main/member/model"
+	relation "github.com/namelessup/bilibili/app/service/main/relation/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 // Info get info by mid.

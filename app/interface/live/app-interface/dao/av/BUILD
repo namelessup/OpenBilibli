@@ -11,7 +11,7 @@ go_library(
         "dao.go",
         "pk_id.go",
     ],
-    importpath = "go-common/app/interface/live/app-interface/dao/av",
+    importpath = "github.com/namelessup/bilibili/app/interface/live/app-interface/dao/av",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -3,9 +3,9 @@ package http
 import (
 	"context"
 
-	"go-common/app/admin/main/aegis/conf"
-	"go-common/library/database/elastic"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/conf"
+	"github.com/namelessup/bilibili/library/database/elastic"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // Dao dao

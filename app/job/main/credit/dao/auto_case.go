@@ -4,9 +4,9 @@ import (
 	"context"
 	"database/sql"
 
-	"go-common/app/job/main/credit/model"
-	"go-common/library/log"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/job/main/credit/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 const (

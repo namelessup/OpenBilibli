@@ -1,7 +1,7 @@
 package v2
 
 import (
-	"go-common/app/infra/config/model"
+	"github.com/namelessup/bilibili/app/infra/config/model"
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"

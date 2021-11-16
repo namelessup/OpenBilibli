@@ -3,7 +3,7 @@ package dao
 import (
 	"context"
 	"flag"
-	"go-common/app/service/live/live-dm/conf"
+	"github.com/namelessup/bilibili/app/service/live/live-dm/conf"
 	"path/filepath"
 	"testing"
 )

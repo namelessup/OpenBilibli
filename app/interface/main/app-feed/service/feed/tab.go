@@ -5,16 +5,16 @@ import (
 	"sort"
 	"time"
 
-	"go-common/app/interface/main/app-card/model/card/bangumi"
-	"go-common/app/interface/main/app-card/model/card/live"
-	"go-common/app/interface/main/app-card/model/card/operate"
-	"go-common/app/interface/main/app-feed/model"
-	"go-common/app/interface/main/app-feed/model/feed"
-	tag "go-common/app/interface/main/tag/model"
-	article "go-common/app/interface/openplatform/article/model"
-	"go-common/app/service/main/archive/model/archive"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/interface/main/app-card/model/card/bangumi"
+	"github.com/namelessup/bilibili/app/interface/main/app-card/model/card/live"
+	"github.com/namelessup/bilibili/app/interface/main/app-card/model/card/operate"
+	"github.com/namelessup/bilibili/app/interface/main/app-feed/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-feed/model/feed"
+	tag "github.com/namelessup/bilibili/app/interface/main/tag/model"
+	article "github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	"github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 func (s *Service) Menus(c context.Context, plat int8, build int, now time.Time) (menus []*operate.Menu) {

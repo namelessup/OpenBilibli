@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/service/main/coupon/model"
-	"go-common/library/database/sql"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/service/main/coupon/model"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/ecode"
 
 	"github.com/pkg/errors"
 )

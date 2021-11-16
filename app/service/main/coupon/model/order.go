@@ -2,7 +2,7 @@ package model
 
 // 临时逻辑  --- start ----
 
-import "go-common/library/time"
+import "github.com/namelessup/bilibili/library/time"
 
 // OrderInfo order info.
 type OrderInfo struct {

@@ -2,7 +2,7 @@ package data
 
 import (
 	"context"
-	"go-common/app/admin/main/up/model/datamodel"
+	"github.com/namelessup/bilibili/app/admin/main/up/model/datamodel"
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"

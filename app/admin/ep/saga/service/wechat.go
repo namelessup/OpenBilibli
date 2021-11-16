@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"net/url"
 
-	"go-common/app/admin/ep/saga/conf"
-	"go-common/app/admin/ep/saga/model"
-	"go-common/app/admin/ep/saga/service/wechat"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/ep/saga/conf"
+	"github.com/namelessup/bilibili/app/admin/ep/saga/model"
+	"github.com/namelessup/bilibili/app/admin/ep/saga/service/wechat"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/pkg/errors"
 )

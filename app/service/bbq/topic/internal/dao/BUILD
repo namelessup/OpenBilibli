@@ -16,7 +16,7 @@ go_library(
         "topic.go",
         "topic_video.go",
     ],
-    importpath = "go-common/app/service/bbq/topic/internal/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/bbq/topic/internal/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

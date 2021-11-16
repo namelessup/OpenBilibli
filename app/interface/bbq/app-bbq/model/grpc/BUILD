@@ -17,7 +17,7 @@ proto_library(
 go_proto_library(
     name = "grpc_go_proto",
     compilers = ["@io_bazel_rules_go//proto:gogofast_grpc"],
-    importpath = "go-common/app/interface/bbq/app-bbq/model/grpc",
+    importpath = "github.com/namelessup/bilibili/app/interface/bbq/app-bbq/model/grpc",
     proto = ":grpc_proto",
     tags = ["automanaged"],
     deps = ["@com_github_gogo_protobuf//gogoproto:go_default_library"],
@@ -27,7 +27,7 @@ go_library(
     name = "go_default_library",
     srcs = [],
     embed = [":grpc_go_proto"],
-    importpath = "go-common/app/interface/bbq/app-bbq/model/grpc",
+    importpath = "github.com/namelessup/bilibili/app/interface/bbq/app-bbq/model/grpc",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

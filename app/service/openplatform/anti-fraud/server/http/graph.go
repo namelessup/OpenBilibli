@@ -1,8 +1,8 @@
 package http
 
 import (
-	"go-common/app/service/openplatform/anti-fraud/api/grpc/v1"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/service/openplatform/anti-fraud/api/grpc/v1"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 //graphPrepare 拉起图形验证

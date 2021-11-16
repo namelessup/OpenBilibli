@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"testing"
 
-	pb "go-common/app/service/live/resource/api/grpc/v1"
-	"go-common/app/service/live/resource/conf"
+	pb "github.com/namelessup/bilibili/app/service/live/resource/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/live/resource/conf"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

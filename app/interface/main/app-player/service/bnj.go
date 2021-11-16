@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	arcmdl "go-common/app/interface/main/app-player/model/archive"
-	"go-common/library/log"
+	arcmdl "github.com/namelessup/bilibili/app/interface/main/app-player/model/archive"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) loadBnjArc() {

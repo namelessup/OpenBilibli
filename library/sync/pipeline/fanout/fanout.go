@@ -6,10 +6,10 @@ import (
 	"runtime"
 	"sync"
 
-	"go-common/library/log"
-	"go-common/library/net/metadata"
-	"go-common/library/net/trace"
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/net/trace"
+	"github.com/namelessup/bilibili/library/stat/prom"
 )
 
 var (

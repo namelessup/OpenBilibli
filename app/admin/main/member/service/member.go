@@ -11,14 +11,14 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/admin/main/member/model"
-	"go-common/app/admin/main/member/model/bom"
-	coin "go-common/app/service/main/coin/model"
-	member "go-common/app/service/main/member/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
-	"go-common/library/queue/databus/report"
+	"github.com/namelessup/bilibili/app/admin/main/member/model"
+	"github.com/namelessup/bilibili/app/admin/main/member/model/bom"
+	coin "github.com/namelessup/bilibili/app/service/main/coin/model"
+	member "github.com/namelessup/bilibili/app/service/main/member/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/queue/databus/report"
 
 	"github.com/pkg/errors"
 )

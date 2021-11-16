@@ -3,8 +3,8 @@ package operator
 import (
 	"time"
 
-	"go-common/app/interface/main/app-wall/conf"
-	"go-common/app/interface/main/app-wall/model/operator"
+	"github.com/namelessup/bilibili/app/interface/main/app-wall/conf"
+	"github.com/namelessup/bilibili/app/interface/main/app-wall/model/operator"
 )
 
 // Service reddot service

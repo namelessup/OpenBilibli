@@ -4,12 +4,12 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/app/admin/main/feed/model/common"
-	showModel "go-common/app/admin/main/feed/model/show"
-	account "go-common/app/service/main/account/model"
-	"go-common/app/service/main/archive/api"
-	seasondao "go-common/app/service/openplatform/pgc-season/api/grpc/season/v1"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/admin/main/feed/model/common"
+	showModel "github.com/namelessup/bilibili/app/admin/main/feed/model/show"
+	account "github.com/namelessup/bilibili/app/service/main/account/model"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	seasondao "github.com/namelessup/bilibili/app/service/openplatform/pgc-season/api/grpc/season/v1"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 //CardPreview card preview

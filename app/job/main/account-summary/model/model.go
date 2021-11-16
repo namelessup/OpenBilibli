@@ -3,7 +3,7 @@ package model
 import (
 	"encoding/json"
 	"errors"
-	xtime "go-common/library/time"
+	xtime "github.com/namelessup/bilibili/library/time"
 	"strconv"
 	"strings"
 )

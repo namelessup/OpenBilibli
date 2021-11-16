@@ -5,10 +5,10 @@ import (
 
 	"github.com/prometheus/common/log"
 
-	"go-common/app/service/live/xanchor/conf"
-	"go-common/app/service/live/xanchor/dao"
-	"go-common/app/service/live/xanchor/dao/consumer"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/service/live/xanchor/conf"
+	"github.com/namelessup/bilibili/app/service/live/xanchor/dao"
+	"github.com/namelessup/bilibili/app/service/live/xanchor/dao/consumer"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 // XAnchorService struct

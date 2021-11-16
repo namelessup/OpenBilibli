@@ -15,7 +15,7 @@ go_binary(
 go_library(
     name = "go_default_library",
     srcs = ["main.go"],
-    importpath = "go-common/app/service/bbq/recsys/cmd/client",
+    importpath = "github.com/namelessup/bilibili/app/service/bbq/recsys/cmd/client",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

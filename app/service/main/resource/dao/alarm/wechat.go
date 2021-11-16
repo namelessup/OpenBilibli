@@ -12,8 +12,8 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/service/main/resource/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/resource/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 var (

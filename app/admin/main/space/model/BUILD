@@ -12,7 +12,7 @@ go_library(
         "common.go",
         "notice.go",
     ],
-    importpath = "go-common/app/admin/main/space/model",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/space/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/time:go_default_library"],

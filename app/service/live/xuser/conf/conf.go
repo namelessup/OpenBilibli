@@ -3,23 +3,23 @@ package conf
 import (
 	"errors"
 	"flag"
-	"go-common/library/net/rpc/warden"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/library/queue/databus"
 
-	"go-common/library/cache/memcache"
-	"go-common/library/cache/redis"
-	"go-common/library/conf"
-	"go-common/library/database/orm"
-	"go-common/library/database/sql"
-	eCode "go-common/library/ecode/tip"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/conf"
+	"github.com/namelessup/bilibili/library/database/orm"
+	"github.com/namelessup/bilibili/library/database/sql"
+	eCode "github.com/namelessup/bilibili/library/ecode/tip"
+	"github.com/namelessup/bilibili/library/log"
 
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/verify"
-	"go-common/library/net/rpc"
-	liverRPC "go-common/library/net/rpc/liverpc"
-	"go-common/library/net/trace"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/verify"
+	"github.com/namelessup/bilibili/library/net/rpc"
+	liverRPC "github.com/namelessup/bilibili/library/net/rpc/liverpc"
+	"github.com/namelessup/bilibili/library/net/trace"
 
 	"github.com/BurntSushi/toml"
 )

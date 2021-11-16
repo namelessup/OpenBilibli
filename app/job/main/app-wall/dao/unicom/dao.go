@@ -5,12 +5,12 @@ import (
 	"database/sql"
 	"time"
 
-	"go-common/app/job/main/app-wall/conf"
-	"go-common/app/job/main/app-wall/model/unicom"
-	"go-common/library/cache/memcache"
-	xsql "go-common/library/database/sql"
-	"go-common/library/log"
-	httpx "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/job/main/app-wall/conf"
+	"github.com/namelessup/bilibili/app/job/main/app-wall/model/unicom"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	httpx "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 const (

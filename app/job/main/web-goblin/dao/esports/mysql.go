@@ -6,11 +6,11 @@ import (
 	"strconv"
 	"time"
 
-	mdlesp "go-common/app/job/main/web-goblin/model/esports"
-	arcmdl "go-common/app/service/main/archive/api"
-	xsql "go-common/library/database/sql"
-	"go-common/library/log"
-	"go-common/library/xstr"
+	mdlesp "github.com/namelessup/bilibili/app/job/main/web-goblin/model/esports"
+	arcmdl "github.com/namelessup/bilibili/app/service/main/archive/api"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/xstr"
 
 	"github.com/pkg/errors"
 )

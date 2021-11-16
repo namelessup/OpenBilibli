@@ -5,8 +5,8 @@ import (
 	"io"
 	"path"
 
-	"go-common/app/admin/main/macross/conf"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/macross/conf"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/aliyun/aliyun-oss-go-sdk/oss"
 )

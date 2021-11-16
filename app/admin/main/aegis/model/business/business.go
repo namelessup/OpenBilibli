@@ -6,10 +6,10 @@ import (
 	"strconv"
 	"strings"
 
-	"go-common/app/admin/main/aegis/model"
-	"go-common/app/admin/main/aegis/model/common"
-	"go-common/library/log"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model/common"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 const (

@@ -5,8 +5,8 @@ import (
 	icipher "crypto/cipher"
 	"errors"
 
-	"go-common/app/interface/main/report-click/service/crypto/cipher"
-	"go-common/app/interface/main/report-click/service/crypto/padding"
+	"github.com/namelessup/bilibili/app/interface/main/report-click/service/crypto/cipher"
+	"github.com/namelessup/bilibili/app/interface/main/report-click/service/crypto/padding"
 )
 
 var (

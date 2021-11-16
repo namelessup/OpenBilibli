@@ -3,7 +3,7 @@ package thirdp
 import (
 	"fmt"
 
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 // MangoRecom is mango recom table structure

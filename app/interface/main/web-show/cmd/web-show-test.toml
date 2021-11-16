@@ -189,7 +189,7 @@ timer = 1000
 [degradeConfig]
     expire = 86400
     [degradeConfig.memcache]
-    name = "go-common/app/interface/activity/web-show"
+    name = "github.com/namelessup/bilibili/app/interface/activity/web-show"
     proto = "tcp"
     addr = "172.16.13.140:11211"
     idle = 5

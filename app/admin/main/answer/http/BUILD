@@ -11,7 +11,7 @@ go_library(
         "http.go",
         "question.go",
     ],
-    importpath = "go-common/app/admin/main/answer/http",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/answer/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

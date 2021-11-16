@@ -3,10 +3,10 @@ package coupon
 import (
 	"context"
 
-	"go-common/app/interface/main/account/conf"
-	v1 "go-common/app/service/main/coupon/api"
-	"go-common/app/service/main/coupon/model"
-	courpc "go-common/app/service/main/coupon/rpc/client"
+	"github.com/namelessup/bilibili/app/interface/main/account/conf"
+	v1 "github.com/namelessup/bilibili/app/service/main/coupon/api"
+	"github.com/namelessup/bilibili/app/service/main/coupon/model"
+	courpc "github.com/namelessup/bilibili/app/service/main/coupon/rpc/client"
 )
 
 // Service .

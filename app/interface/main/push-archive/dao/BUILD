@@ -38,7 +38,7 @@ go_library(
         "redis.go",
         "statistics.go",
     ],
-    importpath = "go-common/app/interface/main/push-archive/dao",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/push-archive/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

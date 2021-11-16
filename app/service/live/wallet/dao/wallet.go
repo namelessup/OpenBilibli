@@ -4,8 +4,8 @@ import (
 	"context"
 	"database/sql"
 	"fmt"
-	"go-common/app/service/live/wallet/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/live/wallet/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

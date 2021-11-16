@@ -12,7 +12,7 @@ go_library(
         "dao.go",
         "rpc.go",
     ],
-    importpath = "go-common/app/interface/main/creative/dao/coin",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/creative/dao/coin",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

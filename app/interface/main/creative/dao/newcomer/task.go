@@ -5,9 +5,9 @@ import (
 	"fmt"
 
 	"database/sql"
-	"go-common/app/interface/main/creative/model/newcomer"
-	"go-common/library/log"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/newcomer"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/xstr"
 	"strings"
 )
 

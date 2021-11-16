@@ -4,10 +4,10 @@ import (
 	"context"
 	"sort"
 
-	"go-common/app/interface/main/reply/model/reply"
-	xmodel "go-common/app/interface/main/reply/model/xreply"
+	"github.com/namelessup/bilibili/app/interface/main/reply/model/reply"
+	xmodel "github.com/namelessup/bilibili/app/interface/main/reply/model/xreply"
 
-	"go-common/library/sync/errgroup.v2"
+	"github.com/namelessup/bilibili/library/sync/errgroup.v2"
 )
 
 const (

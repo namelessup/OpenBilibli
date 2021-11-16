@@ -1,6 +1,6 @@
 package operate
 
-import "go-common/app/interface/main/app-card/model"
+import "github.com/namelessup/bilibili/app/interface/main/app-card/model"
 
 type Download struct {
 	ID          int64  `json:"id,omitempty"`

@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["context.go"],
-    importpath = "go-common/library/net/rpc/liverpc/context",
+    importpath = "github.com/namelessup/bilibili/library/net/rpc/liverpc/context",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/net/rpc/liverpc:go_default_library"],

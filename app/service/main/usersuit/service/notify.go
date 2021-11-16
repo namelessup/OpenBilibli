@@ -4,7 +4,7 @@ import (
 	"context"
 	"strconv"
 
-	"go-common/app/service/main/usersuit/model"
+	"github.com/namelessup/bilibili/app/service/main/usersuit/model"
 
 	"github.com/pkg/errors"
 )

@@ -6,10 +6,10 @@ import (
 	"strconv"
 	"sync"
 
-	pb "go-common/app/service/main/history/api/grpc"
-	"go-common/app/service/main/history/model"
-	"go-common/library/sync/errgroup"
-	"go-common/library/sync/pipeline"
+	pb "github.com/namelessup/bilibili/app/service/main/history/api/grpc"
+	"github.com/namelessup/bilibili/app/service/main/history/model"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
+	"github.com/namelessup/bilibili/library/sync/pipeline"
 )
 
 const _delBatch = 20

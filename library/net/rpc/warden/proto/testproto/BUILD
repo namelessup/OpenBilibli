@@ -20,7 +20,7 @@ proto_library(
 go_proto_library(
     name = "testproto_go_proto",
     compilers = ["@io_bazel_rules_go//proto:gogofast_grpc"],
-    importpath = "go-common/library/net/rpc/warden/proto/testproto",
+    importpath = "github.com/namelessup/bilibili/library/net/rpc/warden/proto/testproto",
     proto = ":testproto_proto",
     tags = ["automanaged"],
     deps = ["@com_github_gogo_protobuf//gogoproto:go_default_library"],
@@ -30,7 +30,7 @@ go_library(
     name = "go_default_library",
     srcs = [],
     embed = [":testproto_go_proto"],
-    importpath = "go-common/library/net/rpc/warden/proto/testproto",
+    importpath = "github.com/namelessup/bilibili/library/net/rpc/warden/proto/testproto",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/interface/main/history/model"
-	hisapi "go-common/app/service/main/history/api/grpc"
-	history "go-common/app/service/main/history/model"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/main/history/model"
+	hisapi "github.com/namelessup/bilibili/app/service/main/history/api/grpc"
+	history "github.com/namelessup/bilibili/app/service/main/history/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 
 	"github.com/pkg/errors"
 )

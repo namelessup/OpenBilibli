@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["history-interface-test.toml"],
-    importpath = "go-common/app/interface/main/history/cmd",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/history/cmd",
     tags = ["automanaged"],
     deps = [
         "//app/interface/main/history/conf:go_default_library",

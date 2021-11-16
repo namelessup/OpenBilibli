@@ -1,8 +1,8 @@
 package http
 
 import (
-	rpcV1 "go-common/app/service/openplatform/ticket-sales/api/grpc/v1"
-	bm "go-common/library/net/http/blademaster"
+	rpcV1 "github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/api/grpc/v1"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func checkCreatePromoOrder(c *bm.Context) {

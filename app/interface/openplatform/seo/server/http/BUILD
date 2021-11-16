@@ -13,7 +13,7 @@ go_library(
         "pro.go",
         "sitemap.go",
     ],
-    importpath = "go-common/app/interface/openplatform/seo/server/http",
+    importpath = "github.com/namelessup/bilibili/app/interface/openplatform/seo/server/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

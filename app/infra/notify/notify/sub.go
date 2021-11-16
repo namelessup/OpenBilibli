@@ -12,12 +12,12 @@ import (
 	"sync"
 	"time"
 
-	"go-common/app/infra/notify/conf"
-	"go-common/app/infra/notify/dao"
-	"go-common/app/infra/notify/model"
-	"go-common/library/log"
-	"go-common/library/net/netutil"
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/app/infra/notify/conf"
+	"github.com/namelessup/bilibili/app/infra/notify/dao"
+	"github.com/namelessup/bilibili/app/infra/notify/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/netutil"
+	"github.com/namelessup/bilibili/library/stat/prom"
 
 	"github.com/Shopify/sarama"
 	cluster "github.com/bsm/sarama-cluster"

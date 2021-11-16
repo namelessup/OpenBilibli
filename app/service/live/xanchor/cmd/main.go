@@ -9,13 +9,13 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/app/service/live/xanchor/conf"
-	"go-common/app/service/live/xanchor/server/grpc"
-	"go-common/app/service/live/xanchor/server/http"
-	"go-common/app/service/live/xanchor/service"
-	ecode "go-common/library/ecode/tip"
-	"go-common/library/log"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/app/service/live/xanchor/conf"
+	"github.com/namelessup/bilibili/app/service/live/xanchor/server/grpc"
+	"github.com/namelessup/bilibili/app/service/live/xanchor/server/http"
+	"github.com/namelessup/bilibili/app/service/live/xanchor/service"
+	ecode "github.com/namelessup/bilibili/library/ecode/tip"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
 )
 
 func main() {

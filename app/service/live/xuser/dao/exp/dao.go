@@ -2,9 +2,9 @@ package exp
 
 import (
 	"context"
-	"go-common/app/service/live/xuser/conf"
-	"go-common/library/cache/memcache"
-	xsql "go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/service/live/xuser/conf"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
 )
 
 // Dao exp dao

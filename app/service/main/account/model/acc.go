@@ -3,8 +3,8 @@ package model
 import (
 	"strconv"
 
-	v1 "go-common/app/service/main/account/api"
-	mmodel "go-common/app/service/main/member/model"
+	v1 "github.com/namelessup/bilibili/app/service/main/account/api"
+	mmodel "github.com/namelessup/bilibili/app/service/main/member/model"
 )
 
 // AccJavaInfo thin infomartion

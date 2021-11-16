@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/admin/main/growup/model"
+	"github.com/namelessup/bilibili/app/admin/main/growup/model"
 )
 
 var (

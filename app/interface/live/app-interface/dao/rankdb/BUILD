@@ -11,7 +11,7 @@ go_library(
         "api.go",
         "dao.go",
     ],
-    importpath = "go-common/app/interface/live/app-interface/dao/rankdb",
+    importpath = "github.com/namelessup/bilibili/app/interface/live/app-interface/dao/rankdb",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

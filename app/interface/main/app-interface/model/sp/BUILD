@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["specil.go"],
-    importpath = "go-common/app/interface/main/app-interface/model/sp",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-interface/model/sp",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

@@ -4,10 +4,10 @@ import (
 	"context"
 	"strconv"
 
-	"go-common/app/interface/main/app-view/conf"
-	locmdl "go-common/app/service/main/location/model"
-	locrpc "go-common/app/service/main/location/rpc/client"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/app-view/conf"
+	locmdl "github.com/namelessup/bilibili/app/service/main/location/model"
+	locrpc "github.com/namelessup/bilibili/app/service/main/location/rpc/client"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Dao is location dao.

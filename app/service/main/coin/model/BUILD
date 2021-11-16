@@ -11,7 +11,7 @@ go_library(
         "coin.go",
         "rpc.go",
     ],
-    importpath = "go-common/app/service/main/coin/model",
+    importpath = "github.com/namelessup/bilibili/app/service/main/coin/model",
     tags = ["automanaged"],
     deps = [
         "//app/service/main/archive/api:go_default_library",

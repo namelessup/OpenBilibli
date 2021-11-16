@@ -25,6 +25,6 @@ message Tag {
     int64 hates = 15 [(gogoproto.jsontag) = "hates"];
     int32 liked = 16 [(gogoproto.jsontag) = "liked"];
     int32 hated = 17 [(gogoproto.jsontag) = "hated"];
-    int64 ctime = 18 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "go-common/library/time.Time"];
-    int64 mtime = 19 [(gogoproto.jsontag) = "-", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int64 ctime = 18 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
+    int64 mtime = 19 [(gogoproto.jsontag) = "-", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
 }

@@ -21,7 +21,7 @@ go_library(
         "dao.go",
         "redis.go",
     ],
-    importpath = "go-common/app/service/main/videoup/dao/dede",
+    importpath = "github.com/namelessup/bilibili/app/service/main/videoup/dao/dede",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

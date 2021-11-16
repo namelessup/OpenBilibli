@@ -2,8 +2,8 @@ package dao
 
 import (
 	"context"
-	notice "go-common/app/service/bbq/notice-service/api/v1"
-	"go-common/library/log"
+	notice "github.com/namelessup/bilibili/app/service/bbq/notice-service/api/v1"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // NoticeList 获取通知列表

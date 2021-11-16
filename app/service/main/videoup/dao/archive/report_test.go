@@ -4,9 +4,9 @@ import (
 	"context"
 	"database/sql"
 	"fmt"
-	"go-common/app/service/main/videoup/model/archive"
-	xsql "go-common/library/database/sql"
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/app/service/main/videoup/model/archive"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/time"
 	"reflect"
 	"testing"
 

@@ -17,7 +17,7 @@ go_library(
         "param.go",
         "pendant.go",
     ],
-    importpath = "go-common/app/admin/main/usersuit/model",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/usersuit/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

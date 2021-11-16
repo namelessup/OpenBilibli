@@ -13,7 +13,7 @@ go_library(
         "online_filter.go",
         "room_feature.go",
     ],
-    importpath = "go-common/app/service/live/recommend/internal/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/live/recommend/internal/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

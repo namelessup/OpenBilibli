@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"go-common/app/interface/main/tag/conf"
-	"go-common/library/cache/redis"
+	"github.com/namelessup/bilibili/app/interface/main/tag/conf"
+	"github.com/namelessup/bilibili/library/cache/redis"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

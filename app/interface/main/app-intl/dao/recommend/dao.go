@@ -3,10 +3,10 @@ package recommend
 import (
 	"time"
 
-	"go-common/app/interface/main/app-intl/conf"
-	"go-common/library/cache/memcache"
-	"go-common/library/cache/redis"
-	httpx "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/interface/main/app-intl/conf"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	httpx "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // Dao is show dao.

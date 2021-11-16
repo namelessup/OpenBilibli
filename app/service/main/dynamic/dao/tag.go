@@ -4,7 +4,7 @@ import (
 	"context"
 	"net/url"
 
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 // Hot Second type hot tag ids.

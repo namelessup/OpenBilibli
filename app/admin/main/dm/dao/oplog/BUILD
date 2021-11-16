@@ -28,7 +28,7 @@ go_library(
         "dao.go",
         "query.go",
     ],
-    importpath = "go-common/app/admin/main/dm/dao/oplog",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/dm/dao/oplog",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -3,13 +3,13 @@ package goblin
 import (
 	"context"
 
-	"go-common/app/interface/main/tv/conf"
-	"go-common/app/interface/main/tv/dao/account"
-	"go-common/app/interface/main/tv/dao/archive"
-	gobDao "go-common/app/interface/main/tv/dao/goblin"
-	"go-common/app/interface/main/tv/model"
-	"go-common/app/interface/main/tv/model/goblin"
-	tvapi "go-common/app/service/main/tv/api"
+	"github.com/namelessup/bilibili/app/interface/main/tv/conf"
+	"github.com/namelessup/bilibili/app/interface/main/tv/dao/account"
+	"github.com/namelessup/bilibili/app/interface/main/tv/dao/archive"
+	gobDao "github.com/namelessup/bilibili/app/interface/main/tv/dao/goblin"
+	"github.com/namelessup/bilibili/app/interface/main/tv/model"
+	"github.com/namelessup/bilibili/app/interface/main/tv/model/goblin"
+	tvapi "github.com/namelessup/bilibili/app/service/main/tv/api"
 )
 
 // Service .

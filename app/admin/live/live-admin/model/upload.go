@@ -1,6 +1,6 @@
 package model
 
-import "go-common/library/database/bfs"
+import "github.com/namelessup/bilibili/library/database/bfs"
 
 const (
 	_defaultPaddingX = 10

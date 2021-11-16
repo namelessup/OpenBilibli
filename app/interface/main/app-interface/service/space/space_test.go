@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/interface/main/app-interface/model/space"
-	account "go-common/app/service/main/account/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/model/space"
+	account "github.com/namelessup/bilibili/app/service/main/account/model"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

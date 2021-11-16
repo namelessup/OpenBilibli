@@ -5,9 +5,9 @@ import (
 	"net/url"
 	"strconv"
 
-	"go-common/app/job/main/passport/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/passport/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // SetToken set token via passport api.

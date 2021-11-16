@@ -6,8 +6,8 @@ import (
 	"os"
 	"testing"
 
-	"go-common/app/admin/main/growup/conf"
-	"go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/growup/conf"
+	"github.com/namelessup/bilibili/library/net/http/blademaster"
 
 	"github.com/smartystreets/goconvey/convey"
 )

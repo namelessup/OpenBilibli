@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"go-common/app/infra/canal/conf"
+	"github.com/namelessup/bilibili/app/infra/canal/conf"
 )
 
 var d *Dao

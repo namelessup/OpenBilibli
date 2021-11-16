@@ -2,8 +2,8 @@ package app
 
 import (
 	"context"
-	"go-common/app/interface/main/creative/conf"
-	"go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/interface/main/creative/conf"
+	"github.com/namelessup/bilibili/library/database/sql"
 )
 
 // Dao  define

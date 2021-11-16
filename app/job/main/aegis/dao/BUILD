@@ -18,7 +18,7 @@ go_library(
         "task_report.go",
         "task_rpc.go",
     ],
-    importpath = "go-common/app/job/main/aegis/dao",
+    importpath = "github.com/namelessup/bilibili/app/job/main/aegis/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

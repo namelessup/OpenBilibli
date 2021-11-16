@@ -4,10 +4,10 @@ package server
 import (
 	"context"
 
-	pb "go-common/app/service/main/spy/api"
-	"go-common/app/service/main/spy/model"
-	service "go-common/app/service/main/spy/service"
-	"go-common/library/net/rpc/warden"
+	pb "github.com/namelessup/bilibili/app/service/main/spy/api"
+	"github.com/namelessup/bilibili/app/service/main/spy/model"
+	service "github.com/namelessup/bilibili/app/service/main/spy/service"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 )
 
 // New Spy warden rpc server

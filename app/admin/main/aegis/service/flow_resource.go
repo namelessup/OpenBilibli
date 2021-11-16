@@ -4,8 +4,8 @@ import (
 	"context"
 
 	"github.com/jinzhu/gorm"
-	"go-common/app/admin/main/aegis/model/net"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model/net"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) addFlowResources(tx *gorm.DB, netID int64, rids []int64, flowID int64, state int8) (err error) {

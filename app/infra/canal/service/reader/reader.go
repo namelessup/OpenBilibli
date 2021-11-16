@@ -16,7 +16,7 @@ package reader
 import (
 	"fmt"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/Shopify/sarama"
 	pb "github.com/pingcap/tidb-tools/tidb_binlog/slave_binlog_proto/go-binlog"

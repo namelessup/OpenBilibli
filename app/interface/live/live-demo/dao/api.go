@@ -1,9 +1,9 @@
 package dao
 
 import (
-	"go-common/app/interface/live/live-demo/conf"
-	room_api "go-common/app/service/live/room/api/liverpc"
-	"go-common/library/net/rpc/liverpc"
+	"github.com/namelessup/bilibili/app/interface/live/live-demo/conf"
+	room_api "github.com/namelessup/bilibili/app/service/live/room/api/liverpc"
+	"github.com/namelessup/bilibili/library/net/rpc/liverpc"
 )
 
 // RoomAPI liverpc room-service api

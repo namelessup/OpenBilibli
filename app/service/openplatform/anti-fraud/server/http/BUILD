@@ -32,7 +32,7 @@ go_library(
         "question.go",
         "risk.go",
     ],
-    importpath = "go-common/app/service/openplatform/anti-fraud/server/http",
+    importpath = "github.com/namelessup/bilibili/app/service/openplatform/anti-fraud/server/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

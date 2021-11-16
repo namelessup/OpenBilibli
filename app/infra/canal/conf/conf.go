@@ -5,11 +5,11 @@ import (
 	"flag"
 	"time"
 
-	"go-common/library/conf"
-	"go-common/library/database/sql"
-	"go-common/library/log"
-	"go-common/library/naming/discovery"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/conf"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/naming/discovery"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 
 	"github.com/BurntSushi/toml"
 )

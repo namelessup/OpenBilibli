@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/app/job/main/relation/model/i64b"
-	sml "go-common/app/service/main/relation/model"
-	"go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/job/main/relation/model/i64b"
+	sml "github.com/namelessup/bilibili/app/service/main/relation/model"
+	"github.com/namelessup/bilibili/library/database/sql"
 )
 
 const (

@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["service.go"],
-    importpath = "go-common/app/admin/main/activity/service/kfc",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/activity/service/kfc",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

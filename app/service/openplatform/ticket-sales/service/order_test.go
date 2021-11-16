@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	rpc "go-common/app/service/openplatform/ticket-sales/api/grpc/v1"
+	rpc "github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/api/grpc/v1"
 
-	"go-common/app/service/openplatform/ticket-sales/api/grpc/type"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/api/grpc/type"
 
 	"github.com/davecgh/go-spew/spew"
 	"github.com/smartystreets/goconvey/convey"

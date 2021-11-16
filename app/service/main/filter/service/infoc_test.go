@@ -3,7 +3,7 @@ package service
 import (
 	"testing"
 
-	"go-common/app/service/main/filter/model/actriearea"
+	"github.com/namelessup/bilibili/app/service/main/filter/model/actriearea"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

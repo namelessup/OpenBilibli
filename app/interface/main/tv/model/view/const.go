@@ -3,7 +3,7 @@ package view
 import (
 	"fmt"
 
-	arcwar "go-common/app/service/main/archive/api"
+	arcwar "github.com/namelessup/bilibili/app/service/main/archive/api"
 )
 
 // Goto

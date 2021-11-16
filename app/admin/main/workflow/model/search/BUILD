@@ -13,7 +13,7 @@ go_library(
         "search.go",
         "search2.go",
     ],
-    importpath = "go-common/app/admin/main/workflow/model/search",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/workflow/model/search",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

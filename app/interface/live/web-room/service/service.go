@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"go-common/app/interface/live/web-room/conf"
-	"go-common/app/interface/live/web-room/dao"
+	"github.com/namelessup/bilibili/app/interface/live/web-room/conf"
+	"github.com/namelessup/bilibili/app/interface/live/web-room/dao"
 )
 
 // Service struct

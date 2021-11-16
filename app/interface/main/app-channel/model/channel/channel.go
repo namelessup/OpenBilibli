@@ -1,10 +1,10 @@
 package channel
 
 import (
-	"go-common/app/interface/main/app-card/model/card"
-	"go-common/app/interface/main/app-channel/model"
-	"go-common/app/interface/main/app-channel/model/tab"
-	tag "go-common/app/interface/main/tag/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-card/model/card"
+	"github.com/namelessup/bilibili/app/interface/main/app-channel/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-channel/model/tab"
+	tag "github.com/namelessup/bilibili/app/interface/main/tag/model"
 	"strconv"
 )
 

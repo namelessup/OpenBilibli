@@ -5,11 +5,11 @@ import (
 	"strconv"
 	"time"
 
-	shamdl "go-common/app/interface/main/web-goblin/model/share"
-	accmdl "go-common/app/service/main/account/model"
-	suitmdl "go-common/app/service/main/usersuit/model"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
+	shamdl "github.com/namelessup/bilibili/app/interface/main/web-goblin/model/share"
+	accmdl "github.com/namelessup/bilibili/app/service/main/account/model"
+	suitmdl "github.com/namelessup/bilibili/app/service/main/usersuit/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 // Encourage  share encourage.

@@ -3,21 +3,21 @@ package anchorReward
 import (
 	"context"
 	"fmt"
-	"go-common/app/service/live/xrewardcenter/conf"
-	AnchorTaskModel "go-common/app/service/live/xrewardcenter/model/anchorTask"
-	model "go-common/app/service/live/xrewardcenter/model/anchorTask"
-	"go-common/library/cache/memcache"
-	"go-common/library/cache/redis"
-	"go-common/library/database/orm"
-	xsql "go-common/library/database/sql"
-	"go-common/library/log"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/service/live/xrewardcenter/conf"
+	AnchorTaskModel "github.com/namelessup/bilibili/app/service/live/xrewardcenter/model/anchorTask"
+	model "github.com/namelessup/bilibili/app/service/live/xrewardcenter/model/anchorTask"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/database/orm"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
 	"math"
 	"time"
 
 	"bytes"
 	"encoding/json"
-	bm "go-common/library/net/http/blademaster"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 	"io/ioutil"
 	"net/http"
 	"strconv"
@@ -67,13 +67,13 @@ func (d *Dao) initORM() {
 	d.orm.SingularTable(true)
 }
 
-//go:generate $GOPATH/src/go-common/app/tool/cache/gen
+//go:generate $GOPATH/src/github.com/namelessup/bilibili/app/tool/cache/gen
 type _cache interface {
 	// cache: -sync=true -nullcache=&model.AnchorRewardConf{ID:-1} -check_null_code=$.ID==-1
 	RewardConf(c context.Context, id int64) (*model.AnchorRewardConf, error)
 }
 
-//go:generate $GOPATH/src/go-common/app/tool/cache/mc
+//go:generate $GOPATH/src/github.com/namelessup/bilibili/app/tool/cache/mc
 type _mc interface {
 	// 获取奖励配置
 	// mc: -key=keyRewardConf

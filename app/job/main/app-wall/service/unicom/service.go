@@ -4,13 +4,13 @@ import (
 	"sync"
 	"time"
 
-	"go-common/app/job/main/app-wall/conf"
-	seqDao "go-common/app/job/main/app-wall/dao/seq"
-	unicomDao "go-common/app/job/main/app-wall/dao/unicom"
-	"go-common/app/job/main/app-wall/model/unicom"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/app/job/main/app-wall/conf"
+	seqDao "github.com/namelessup/bilibili/app/job/main/app-wall/dao/seq"
+	unicomDao "github.com/namelessup/bilibili/app/job/main/app-wall/dao/unicom"
+	"github.com/namelessup/bilibili/app/job/main/app-wall/model/unicom"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
+	"github.com/namelessup/bilibili/library/stat/prom"
 )
 
 type Service struct {

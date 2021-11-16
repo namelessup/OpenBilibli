@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"time"
 
-	"go-common/app/admin/main/space/model"
-	"go-common/library/log"
-	"go-common/library/queue/databus/report"
+	"github.com/namelessup/bilibili/app/admin/main/space/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus/report"
 
 	"github.com/jinzhu/gorm"
 )

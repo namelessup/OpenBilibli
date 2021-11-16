@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["market.go"],
-    importpath = "go-common/app/job/openplatform/open-market/model",
+    importpath = "github.com/namelessup/bilibili/app/job/openplatform/open-market/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

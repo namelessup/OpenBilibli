@@ -1,12 +1,12 @@
 package dao
 
 import (
-	giftApi "go-common/app/service/live/gift/api/liverpc"
-	rcApi "go-common/app/service/live/rc/api/liverpc"
-	userExtApi "go-common/app/service/live/userext/api/liverpc"
-	"go-common/app/service/live/xlottery/conf"
-	account "go-common/app/service/main/account/rpc/client"
-	"go-common/library/net/rpc/liverpc"
+	giftApi "github.com/namelessup/bilibili/app/service/live/gift/api/liverpc"
+	rcApi "github.com/namelessup/bilibili/app/service/live/rc/api/liverpc"
+	userExtApi "github.com/namelessup/bilibili/app/service/live/userext/api/liverpc"
+	"github.com/namelessup/bilibili/app/service/live/xlottery/conf"
+	account "github.com/namelessup/bilibili/app/service/main/account/rpc/client"
+	"github.com/namelessup/bilibili/library/net/rpc/liverpc"
 )
 
 // AccountApi liverpc user api

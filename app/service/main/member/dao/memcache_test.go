@@ -7,8 +7,8 @@ import (
 
 	"github.com/bouk/monkey"
 
-	"go-common/app/service/main/member/model"
-	"go-common/library/cache/memcache"
+	"github.com/namelessup/bilibili/app/service/main/member/model"
+	"github.com/namelessup/bilibili/library/cache/memcache"
 
 	"github.com/smartystreets/goconvey/convey"
 )

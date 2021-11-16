@@ -5,10 +5,10 @@ import (
 	"encoding/json"
 	"time"
 
-	"go-common/app/job/main/credit/model"
-	"go-common/library/log"
-	xtime "go-common/library/time"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/job/main/credit/model"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 // loadCase load grant case to list.

@@ -9,12 +9,12 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/service/live/xuser/model"
-	"go-common/library/log"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/service/live/xuser/model"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	"github.com/pkg/errors"
-	xsql "go-common/library/database/sql"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
 )
 
 const (

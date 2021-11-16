@@ -2,8 +2,8 @@ package service
 
 import (
 	"context"
-	"go-common/app/interface/live/push-live/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/live/push-live/model"
+	"github.com/namelessup/bilibili/library/log"
 	"time"
 )
 

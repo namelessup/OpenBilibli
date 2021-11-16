@@ -14,7 +14,7 @@ go_library(
         "sync.go",
         "upper.go",
     ],
-    importpath = "go-common/app/job/main/tv/model/ugc",
+    importpath = "github.com/namelessup/bilibili/app/job/main/tv/model/ugc",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

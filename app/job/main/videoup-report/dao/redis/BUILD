@@ -30,7 +30,7 @@ go_library(
         "redis.go",
         "task.go",
     ],
-    importpath = "go-common/app/job/main/videoup-report/dao/redis",
+    importpath = "github.com/namelessup/bilibili/app/job/main/videoup-report/dao/redis",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

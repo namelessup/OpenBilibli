@@ -3,8 +3,8 @@ package rank
 import (
 	"context"
 
-	"go-common/app/service/main/ugcpay-rank/internal/dao"
-	"go-common/app/service/main/ugcpay-rank/internal/model"
+	"github.com/namelessup/bilibili/app/service/main/ugcpay-rank/internal/dao"
+	"github.com/namelessup/bilibili/app/service/main/ugcpay-rank/internal/model"
 
 	"github.com/pkg/errors"
 )

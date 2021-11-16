@@ -12,7 +12,7 @@ go_library(
         "dto.go",
         "tapd.go",
     ],
-    importpath = "go-common/app/admin/ep/tapd/model",
+    importpath = "github.com/namelessup/bilibili/app/admin/ep/tapd/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/ecode:go_default_library"],

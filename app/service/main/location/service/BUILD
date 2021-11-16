@@ -34,7 +34,7 @@ go_library(
         "service.go",
         "zlimit.go",
     ],
-    importpath = "go-common/app/service/main/location/service",
+    importpath = "github.com/namelessup/bilibili/app/service/main/location/service",
     tags = ["automanaged"],
     deps = [
         "//app/service/main/account/api:go_default_library",

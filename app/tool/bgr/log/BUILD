@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["log.go"],
-    importpath = "go-common/app/tool/bgr/log",
+    importpath = "github.com/namelessup/bilibili/app/tool/bgr/log",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

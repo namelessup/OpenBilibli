@@ -11,7 +11,7 @@ go_library(
         "conf.go",
         "sock.go",
     ],
-    importpath = "go-common/app/service/ops/log-agent/input/sock",
+    importpath = "github.com/namelessup/bilibili/app/service/ops/log-agent/input/sock",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -12,7 +12,7 @@ go_library(
         "lexer.go",
         "parser.go",
     ],
-    importpath = "go-common/app/interface/main/dm2/lib/xregex",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/dm2/lib/xregex",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

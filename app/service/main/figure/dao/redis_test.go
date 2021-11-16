@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"
-	"go-common/app/service/main/figure/model"
+	"github.com/namelessup/bilibili/app/service/main/figure/model"
 )
 
 func TestDaofigureKey(t *testing.T) {

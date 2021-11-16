@@ -32,7 +32,7 @@ go_library(
         "upper.go",
         "video.go",
     ],
-    importpath = "go-common/app/service/main/archive/server/http",
+    importpath = "github.com/namelessup/bilibili/app/service/main/archive/server/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

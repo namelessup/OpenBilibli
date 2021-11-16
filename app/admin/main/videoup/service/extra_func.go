@@ -8,15 +8,15 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/admin/main/videoup/model/archive"
-	mngmdl "go-common/app/admin/main/videoup/model/manager"
-	accApi "go-common/app/service/main/account/api"
-	upsrpc "go-common/app/service/main/up/api/v1"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/admin/main/videoup/model/archive"
+	mngmdl "github.com/namelessup/bilibili/app/admin/main/videoup/model/manager"
+	accApi "github.com/namelessup/bilibili/app/service/main/account/api"
+	upsrpc "github.com/namelessup/bilibili/app/service/main/up/api/v1"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
+	xtime "github.com/namelessup/bilibili/library/time"
 
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 //ERROR

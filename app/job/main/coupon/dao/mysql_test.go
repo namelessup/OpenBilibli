@@ -3,7 +3,7 @@ package dao
 import (
 	"context"
 	// "database/sql"
-	"go-common/app/job/main/coupon/model"
+	"github.com/namelessup/bilibili/app/job/main/coupon/model"
 	"testing"
 	"time"
 

@@ -1,4 +1,4 @@
-# go-common/app/service/msm
+# github.com/namelessup/bilibili/app/service/msm
 
 ##### 项目简介
 > 1. 提供code,限流等接口

@@ -4,17 +4,17 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/interface/main/web/model"
-	accmdl "go-common/app/service/main/account/api"
-	arcmdl "go-common/app/service/main/archive/api"
-	coinmdl "go-common/app/service/main/coin/api"
-	favmdl "go-common/app/service/main/favorite/model"
-	thumbup "go-common/app/service/main/thumbup/model"
-	"go-common/library/conf/env"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/interface/main/web/model"
+	accmdl "github.com/namelessup/bilibili/app/service/main/account/api"
+	arcmdl "github.com/namelessup/bilibili/app/service/main/archive/api"
+	coinmdl "github.com/namelessup/bilibili/app/service/main/coin/api"
+	favmdl "github.com/namelessup/bilibili/app/service/main/favorite/model"
+	thumbup "github.com/namelessup/bilibili/app/service/main/thumbup/model"
+	"github.com/namelessup/bilibili/library/conf/env"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 func (s *Service) checkBnjAccess(mid int64) bool {

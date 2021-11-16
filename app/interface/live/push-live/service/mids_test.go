@@ -4,9 +4,9 @@ import (
 	"testing"
 
 	. "github.com/smartystreets/goconvey/convey"
-	"go-common/app/interface/live/push-live/dao"
-	"go-common/app/interface/live/push-live/model"
-	"go-common/library/cache/redis"
+	"github.com/namelessup/bilibili/app/interface/live/push-live/dao"
+	"github.com/namelessup/bilibili/app/interface/live/push-live/model"
+	"github.com/namelessup/bilibili/library/cache/redis"
 	"math/rand"
 )
 

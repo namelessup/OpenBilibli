@@ -4,8 +4,8 @@ import (
 	"errors"
 
 	"context"
-	"go-common/app/admin/main/aegis/model/common"
-	libtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model/common"
+	libtime "github.com/namelessup/bilibili/library/time"
 )
 
 //...

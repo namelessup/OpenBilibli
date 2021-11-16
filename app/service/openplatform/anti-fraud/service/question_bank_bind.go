@@ -4,9 +4,9 @@ import (
 	"context"
 	"strconv"
 
-	"go-common/app/service/openplatform/anti-fraud/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/openplatform/anti-fraud/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // QuestionBankBind 绑定题库

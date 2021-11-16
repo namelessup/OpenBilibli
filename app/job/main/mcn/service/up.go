@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/job/main/mcn/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/mcn/model"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/pkg/errors"
 )

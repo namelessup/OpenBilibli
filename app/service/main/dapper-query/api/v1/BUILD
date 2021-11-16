@@ -31,7 +31,7 @@ go_library(
         "api.pb.go",
         "marshal.go",
     ],
-    importpath = "go-common/app/service/main/dapper-query/api/v1",
+    importpath = "github.com/namelessup/bilibili/app/service/main/dapper-query/api/v1",
     tags = ["manual"],
     visibility = ["//visibility:public"],
     deps = [

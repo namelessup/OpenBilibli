@@ -11,12 +11,12 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/interface/main/creative/model/newcomer"
-	"go-common/app/interface/main/creative/model/watermark"
-	"go-common/app/service/main/account/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/newcomer"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/watermark"
+	"github.com/namelessup/bilibili/app/service/main/account/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 var (

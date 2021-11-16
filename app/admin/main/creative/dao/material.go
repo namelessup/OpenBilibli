@@ -4,8 +4,8 @@ import (
 	"context"
 
 	"github.com/jinzhu/gorm"
-	"go-common/app/admin/main/creative/model/material"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/creative/model/material"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // CategoryByID .

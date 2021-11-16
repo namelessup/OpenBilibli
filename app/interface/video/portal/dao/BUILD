@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["dao.go"],
-    importpath = "go-common/app/interface/video/portal/dao",
+    importpath = "github.com/namelessup/bilibili/app/interface/video/portal/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

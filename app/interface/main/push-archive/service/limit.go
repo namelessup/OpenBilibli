@@ -2,9 +2,9 @@ package service
 
 import (
 	"context"
-	"go-common/app/interface/main/push-archive/dao"
-	"go-common/app/interface/main/push-archive/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/push-archive/dao"
+	"github.com/namelessup/bilibili/app/interface/main/push-archive/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) pushLimit(fan int64, upper int64, g *dao.FanGroup, noLimitFans *map[int64]int) (allow bool) {

@@ -16,7 +16,7 @@ go_library(
         "mysql.go",
         "remote.go",
     ],
-    importpath = "go-common/app/admin/main/coupon/dao",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/coupon/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

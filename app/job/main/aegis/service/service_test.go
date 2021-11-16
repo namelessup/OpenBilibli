@@ -5,8 +5,8 @@ import (
 	"flag"
 	"testing"
 
-	"go-common/app/job/main/aegis/conf"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/aegis/conf"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 var (

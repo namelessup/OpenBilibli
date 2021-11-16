@@ -6,7 +6,7 @@ import (
 
 	. "github.com/smartystreets/goconvey/convey"
 
-	"go-common/app/service/openplatform/anti-fraud/model"
+	"github.com/namelessup/bilibili/app/service/openplatform/anti-fraud/model"
 )
 
 func TestGetQusBankInfo(t *testing.T) {

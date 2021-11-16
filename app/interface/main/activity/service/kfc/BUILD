@@ -20,7 +20,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["kfc.go"],
-    importpath = "go-common/app/interface/main/activity/service/kfc",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/activity/service/kfc",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

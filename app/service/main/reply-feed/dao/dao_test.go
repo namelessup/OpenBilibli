@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"go-common/app/service/main/reply-feed/conf"
+	"github.com/namelessup/bilibili/app/service/main/reply-feed/conf"
 )
 
 var (

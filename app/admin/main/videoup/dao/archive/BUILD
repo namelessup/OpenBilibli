@@ -82,7 +82,7 @@ go_library(
         "video_history.go",
         "watermark.go",
     ],
-    importpath = "go-common/app/admin/main/videoup/dao/archive",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/videoup/dao/archive",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

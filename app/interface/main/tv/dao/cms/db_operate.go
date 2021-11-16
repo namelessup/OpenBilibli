@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 const (

@@ -30,7 +30,7 @@ go_library(
         "roomAdmin.go",
         "topic.go",
     ],
-    importpath = "go-common/app/interface/live/app-ucenter/service/v1",
+    importpath = "github.com/namelessup/bilibili/app/interface/live/app-ucenter/service/v1",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

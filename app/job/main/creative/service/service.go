@@ -5,16 +5,16 @@ import (
 	"sync"
 	"time"
 
-	"go-common/app/job/main/creative/conf"
-	"go-common/app/job/main/creative/dao/academy"
-	"go-common/app/job/main/creative/dao/archive"
-	"go-common/app/job/main/creative/dao/monitor"
-	"go-common/app/job/main/creative/dao/newcomer"
-	"go-common/app/job/main/creative/dao/weeklyhonor"
-	"go-common/app/job/main/creative/model"
-	"go-common/library/conf/env"
-	"go-common/library/queue/databus"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/job/main/creative/conf"
+	"github.com/namelessup/bilibili/app/job/main/creative/dao/academy"
+	"github.com/namelessup/bilibili/app/job/main/creative/dao/archive"
+	"github.com/namelessup/bilibili/app/job/main/creative/dao/monitor"
+	"github.com/namelessup/bilibili/app/job/main/creative/dao/newcomer"
+	"github.com/namelessup/bilibili/app/job/main/creative/dao/weeklyhonor"
+	"github.com/namelessup/bilibili/app/job/main/creative/model"
+	"github.com/namelessup/bilibili/library/conf/env"
+	"github.com/namelessup/bilibili/library/queue/databus"
+	"github.com/namelessup/bilibili/library/xstr"
 
 	"github.com/robfig/cron"
 )
@@ -75,7 +75,7 @@ type Service struct {
 	testNotifyMids    map[int64]struct{}
 }
 
-// New is go-common/app/service/videoup service implementation.
+// New is github.com/namelessup/bilibili/app/service/videoup service implementation.
 func New(c *conf.Config) (s *Service) {
 	s = &Service{
 		c:            c,

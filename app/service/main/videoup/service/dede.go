@@ -5,11 +5,11 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/service/main/videoup/model/archive"
-	"go-common/app/service/main/videoup/model/dede"
-	"go-common/app/service/main/videoup/model/prom"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/videoup/model/archive"
+	"github.com/namelessup/bilibili/app/service/main/videoup/model/dede"
+	"github.com/namelessup/bilibili/app/service/main/videoup/model/prom"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // syncCid init cid and send sync_cid message.

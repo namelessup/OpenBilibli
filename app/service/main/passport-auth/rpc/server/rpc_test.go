@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/service/main/passport-auth/conf"
-	"go-common/app/service/main/passport-auth/model"
-	"go-common/app/service/main/passport-auth/service"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/passport-auth/conf"
+	"github.com/namelessup/bilibili/app/service/main/passport-auth/model"
+	"github.com/namelessup/bilibili/app/service/main/passport-auth/service"
+	"github.com/namelessup/bilibili/library/log"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

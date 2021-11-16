@@ -4,8 +4,8 @@ import (
 	"context"
 	"net/url"
 
-	"go-common/app/service/main/coupon/model"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/service/main/coupon/model"
+	"github.com/namelessup/bilibili/library/ecode"
 
 	"github.com/pkg/errors"
 )

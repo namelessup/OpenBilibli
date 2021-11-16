@@ -51,7 +51,7 @@ go_library(
         "search2.go",
         "tag.go",
     ],
-    importpath = "go-common/app/admin/main/workflow/dao",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/workflow/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

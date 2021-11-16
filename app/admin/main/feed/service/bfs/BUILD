@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["bfs.go"],
-    importpath = "go-common/app/admin/main/feed/service/bfs",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/feed/service/bfs",
     tags = ["automanaged"],
     deps = [
         "//app/admin/main/feed/conf:go_default_library",

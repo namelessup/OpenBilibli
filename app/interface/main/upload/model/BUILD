@@ -13,7 +13,7 @@ go_library(
         "model.go",
         "upload.go",
     ],
-    importpath = "go-common/app/interface/main/upload/model",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/upload/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/time:go_default_library"],

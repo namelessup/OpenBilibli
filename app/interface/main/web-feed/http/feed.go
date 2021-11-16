@@ -4,11 +4,11 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/interface/main/web-feed/conf"
-	"go-common/app/interface/main/web-feed/model"
-	artmdl "go-common/app/interface/openplatform/article/model"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/interface/main/web-feed/conf"
+	"github.com/namelessup/bilibili/app/interface/main/web-feed/model"
+	artmdl "github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func feed(c *bm.Context) {

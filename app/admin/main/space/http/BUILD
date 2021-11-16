@@ -13,7 +13,7 @@ go_library(
         "http.go",
         "notice.go",
     ],
-    importpath = "go-common/app/admin/main/space/http",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/space/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["monitor.go"],
-    importpath = "go-common/app/interface/main/creative/model/monitor",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/creative/model/monitor",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

@@ -3,8 +3,8 @@ package mcnmodel
 import (
 	"encoding/json"
 	"fmt"
-	model2 "go-common/app/admin/main/mcn/model"
-	"go-common/app/interface/main/mcn/model"
+	model2 "github.com/namelessup/bilibili/app/admin/main/mcn/model"
+	"github.com/namelessup/bilibili/app/interface/main/mcn/model"
 	"testing"
 )
 

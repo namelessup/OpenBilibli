@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/job/main/up-rating/model"
+	"github.com/namelessup/bilibili/app/job/main/up-rating/model"
 )
 
 // ratingTop get top ups

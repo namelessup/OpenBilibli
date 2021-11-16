@@ -5,10 +5,10 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/service/main/antispam/model"
-	"go-common/app/service/main/antispam/util"
+	"github.com/namelessup/bilibili/app/service/main/antispam/model"
+	"github.com/namelessup/bilibili/app/service/main/antispam/util"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // UserGeneratedContent .

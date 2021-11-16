@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"go-common/app/interface/main/app-resource/model/tab"
+	"github.com/namelessup/bilibili/app/interface/main/app-resource/model/tab"
 )
 
 const (

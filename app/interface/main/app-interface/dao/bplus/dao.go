@@ -1,10 +1,10 @@
 package bplus
 
 import (
-	"go-common/app/interface/main/app-interface/conf"
-	"go-common/library/cache/redis"
-	httpx "go-common/library/net/http/blademaster"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/conf"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	httpx "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 // Dao is favorite dao

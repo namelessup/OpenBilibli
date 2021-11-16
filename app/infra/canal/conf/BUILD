@@ -12,7 +12,7 @@ go_library(
         "conf.go",
         "tidb_conf.go",
     ],
-    importpath = "go-common/app/infra/canal/conf",
+    importpath = "github.com/namelessup/bilibili/app/infra/canal/conf",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

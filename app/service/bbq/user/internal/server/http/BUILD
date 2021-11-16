@@ -11,7 +11,7 @@ go_library(
         "http.go",
         "user.go",
     ],
-    importpath = "go-common/app/service/bbq/user/internal/server/http",
+    importpath = "github.com/namelessup/bilibili/app/service/bbq/user/internal/server/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

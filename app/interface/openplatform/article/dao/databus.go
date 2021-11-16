@@ -4,8 +4,8 @@ import (
 	"context"
 	"strconv"
 
-	artmdl "go-common/app/interface/openplatform/article/model"
-	"go-common/library/log"
+	artmdl "github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 var _defaultAdd = int64(1)

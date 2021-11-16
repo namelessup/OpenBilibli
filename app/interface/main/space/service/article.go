@@ -3,10 +3,10 @@ package service
 import (
 	"context"
 
-	"go-common/app/interface/main/space/model"
-	artmdl "go-common/app/interface/openplatform/article/model"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/main/space/model"
+	artmdl "github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 var _emptyArticle = make([]*artmdl.Meta, 0)

@@ -18,7 +18,7 @@ go_library(
         "venue.go",
         "version.go",
     ],
-    importpath = "go-common/app/service/openplatform/ticket-item/server/http",
+    importpath = "github.com/namelessup/bilibili/app/service/openplatform/ticket-item/server/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

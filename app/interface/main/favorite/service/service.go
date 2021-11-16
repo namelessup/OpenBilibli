@@ -3,15 +3,15 @@ package service
 import (
 	"context"
 
-	"go-common/app/interface/main/favorite/conf"
-	musicDao "go-common/app/interface/main/favorite/dao/music"
-	topicDao "go-common/app/interface/main/favorite/dao/topic"
-	videoDao "go-common/app/interface/main/favorite/dao/video"
-	arcrpc "go-common/app/service/main/archive/api/gorpc"
-	favpb "go-common/app/service/main/favorite/api"
-	"go-common/library/log"
-	"go-common/library/stat/prom"
-	"go-common/library/sync/pipeline/fanout"
+	"github.com/namelessup/bilibili/app/interface/main/favorite/conf"
+	musicDao "github.com/namelessup/bilibili/app/interface/main/favorite/dao/music"
+	topicDao "github.com/namelessup/bilibili/app/interface/main/favorite/dao/topic"
+	videoDao "github.com/namelessup/bilibili/app/interface/main/favorite/dao/video"
+	arcrpc "github.com/namelessup/bilibili/app/service/main/archive/api/gorpc"
+	favpb "github.com/namelessup/bilibili/app/service/main/favorite/api"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/stat/prom"
+	"github.com/namelessup/bilibili/library/sync/pipeline/fanout"
 )
 
 // Service define fav service

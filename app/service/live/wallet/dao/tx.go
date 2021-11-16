@@ -3,10 +3,10 @@ package dao
 import (
 	"context"
 	"fmt"
-	"go-common/app/service/live/wallet/model"
-	"go-common/library/database/sql"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/live/wallet/model"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 	"time"
 )
 

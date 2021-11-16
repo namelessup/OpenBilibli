@@ -5,9 +5,9 @@ import (
 	"net/url"
 	"time"
 
-	"go-common/app/job/main/app/model/feed"
-	"go-common/library/ecode"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/job/main/app/model/feed"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/xstr"
 
 	"github.com/pkg/errors"
 )

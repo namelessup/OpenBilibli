@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["server.go"],
-    importpath = "go-common/app/service/main/passport-auth/rpc/grpc",
+    importpath = "github.com/namelessup/bilibili/app/service/main/passport-auth/rpc/grpc",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

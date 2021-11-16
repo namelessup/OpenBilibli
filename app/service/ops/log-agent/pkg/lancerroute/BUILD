@@ -11,7 +11,7 @@ go_library(
         "config.go",
         "lancerroute.go",
     ],
-    importpath = "go-common/app/service/ops/log-agent/pkg/lancerroute",
+    importpath = "github.com/namelessup/bilibili/app/service/ops/log-agent/pkg/lancerroute",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -31,7 +31,7 @@ go_library(
         "monitor.go",
         "task.go",
     ],
-    importpath = "go-common/app/admin/main/aegis/dao/mysql",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/aegis/dao/mysql",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

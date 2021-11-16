@@ -76,7 +76,7 @@
 1. 加用户活跃心跳接口
 
 ### v1.2.1
-1. 更新go-common
+1. 更新github.com/namelessup/bilibili
 
 ### v1.2.0
 1. 稿件权限组相关

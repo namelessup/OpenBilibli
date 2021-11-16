@@ -7,9 +7,9 @@ import (
 
 	. "github.com/smartystreets/goconvey/convey"
 
-	api "go-common/app/interface/live/app-interface/api/http/v1"
-	"go-common/app/interface/live/app-interface/conf"
-	bm "go-common/library/net/http/blademaster"
+	api "github.com/namelessup/bilibili/app/interface/live/app-interface/api/http/v1"
+	"github.com/namelessup/bilibili/app/interface/live/app-interface/conf"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 var (

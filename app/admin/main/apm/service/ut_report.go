@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 	"fmt"
-	"go-common/app/admin/main/apm/model/ut"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/apm/model/ut"
+	"github.com/namelessup/bilibili/library/log"
 	"sort"
 	"strings"
 	"time"
@@ -22,7 +22,7 @@ func (s *Service) GitReport(c context.Context, projID int, mrID int, commitID st
 		root = ""
 		file = &ut.File{}
 	)
-	if err = s.DB.Where("commit_id=? AND (pkg!=substring_index(pkg, '/', 5) OR pkg like 'go-common/library/%')", commitID).Find(&pkgs).Error; err != nil {
+	if err = s.DB.Where("commit_id=? AND (pkg!=substring_index(pkg, '/', 5) OR pkg like 'github.com/namelessup/bilibili/library/%')", commitID).Find(&pkgs).Error; err != nil {
 		log.Error("apmSvc.GitReport query error(%v)", err)
 		return
 	}
@@ -40,7 +40,7 @@ func (s *Service) GitReport(c context.Context, projID int, mrID int, commitID st
 		}
 	}
 	if err = s.DB.Select(`count(id) as id, commit_id, sum(statements) as statements, sum(covered_statements) as covered_statements`).
-		Where(`pkg!=substring_index(pkg, "/", 5) OR ut_pkganls.pkg like 'go-common/library/%'`).Group(`commit_id`).Having("commit_id=?", commitID).First(file).Error; err != nil {
+		Where(`pkg!=substring_index(pkg, "/", 5) OR ut_pkganls.pkg like 'github.com/namelessup/bilibili/library/%'`).Group(`commit_id`).Having("commit_id=?", commitID).First(file).Error; err != nil {
 		if err != gorm.ErrRecordNotFound {
 			log.Error("apmSvc.GitReport query error(%v)", err)
 			return
@@ -62,14 +62,14 @@ func (s *Service) WechatReport(c context.Context, mrid int64, cid, src, des stri
 	var (
 		pkgs []*ut.PkgAnls
 		mr   = &ut.Merge{}
-		foot = fmt.Sprintf("\n*覆盖率增长:该包本次合并最后一次commit与过往已合并记录中最大覆盖率进行比较\nMR:http://git.bilibili.co/platform/go-common/merge_requests/%d\n单测报告:http://sven.bilibili.co/#/ut?merge_id=%d&pn=1&ps=20\n", mrid, mrid)
+		foot = fmt.Sprintf("\n*覆盖率增长:该包本次合并最后一次commit与过往已合并记录中最大覆盖率进行比较\nMR:http://git.bilibili.co/platform/github.com/namelessup/bilibili/merge_requests/%d\n单测报告:http://sven.bilibili.co/#/ut?merge_id=%d&pn=1&ps=20\n", mrid, mrid)
 	)
 	if err = s.dao.DB.Where("merge_id=? AND is_merged=?", mrid, 1).First(mr).Error; err != nil {
 		log.Error("apmSvc.WechatReport Error(%v)", err)
 		return
 	}
 	msg := "【测试姬】新鲜的单测速报出炉啦ᕕ( ᐛ )ᕗ\n\n" + fmt.Sprintf("由 %s 发起的 MR (%s->%s) 合并成功！\n\n", mr.UserName, src, des)
-	if err = s.dao.DB.Where("commit_id=? AND (pkg!=substring_index(pkg, '/', 5) OR ut_pkganls.pkg like 'go-common/library/%')", cid).Find(&pkgs).Error; err != nil || len(pkgs) == 0 {
+	if err = s.dao.DB.Where("commit_id=? AND (pkg!=substring_index(pkg, '/', 5) OR ut_pkganls.pkg like 'github.com/namelessup/bilibili/library/%')", cid).Find(&pkgs).Error; err != nil || len(pkgs) == 0 {
 		log.Error("apmSvc.WechatReport Error(%v)", err)
 		return
 	}

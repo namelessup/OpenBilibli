@@ -20,7 +20,7 @@ go_library(
         "rpc2.go",
     ],
     embed = [":archive_go_proto"],
-    importpath = "go-common/app/service/main/archive/model/archive",
+    importpath = "github.com/namelessup/bilibili/app/service/main/archive/model/archive",
     tags = ["automanaged"],
     deps = [
         "//app/service/main/archive/api:go_default_library",
@@ -44,7 +44,7 @@ proto_library(
 go_proto_library(
     name = "archive_go_proto",
     compilers = ["@io_bazel_rules_go//proto:gogofast_proto"],
-    importpath = "go-common/app/service/main/archive/model/archive",
+    importpath = "github.com/namelessup/bilibili/app/service/main/archive/model/archive",
     proto = ":archive_proto",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],

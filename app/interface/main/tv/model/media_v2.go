@@ -1,6 +1,6 @@
 package model
 
-import "go-common/library/ecode"
+import "github.com/namelessup/bilibili/library/ecode"
 
 // SnDetailCore is the common part of pgc media v1 and v2
 type SnDetailCore struct {

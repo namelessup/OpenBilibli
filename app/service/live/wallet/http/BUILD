@@ -36,7 +36,7 @@ go_library(
         "http.go",
         "wallet.go",
     ],
-    importpath = "go-common/app/service/live/wallet/http",
+    importpath = "github.com/namelessup/bilibili/app/service/live/wallet/http",
     tags = ["automanaged"],
     deps = [
         "//app/service/live/wallet/conf:go_default_library",

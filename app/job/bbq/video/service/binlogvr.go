@@ -4,9 +4,9 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"go-common/app/job/bbq/video/model"
-	videov1 "go-common/app/service/bbq/video/api/grpc/v1"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/bbq/video/model"
+	videov1 "github.com/namelessup/bilibili/app/service/bbq/video/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 //videoRepositorySub video_repository subscription .

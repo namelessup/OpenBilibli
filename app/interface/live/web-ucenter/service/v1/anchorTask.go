@@ -3,12 +3,12 @@ package v1
 import (
 	"context"
 
-	v1pb "go-common/app/interface/live/web-ucenter/api/http/v1"
-	"go-common/app/interface/live/web-ucenter/conf"
-	"go-common/app/service/live/xrewardcenter/api/grpc/v1"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	v1pb "github.com/namelessup/bilibili/app/interface/live/web-ucenter/api/http/v1"
+	"github.com/namelessup/bilibili/app/interface/live/web-ucenter/conf"
+	"github.com/namelessup/bilibili/app/service/live/xrewardcenter/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 // AnchorTaskService struct

@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/job/main/credit-timer/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/credit-timer/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) caseProc(ctx context.Context) {

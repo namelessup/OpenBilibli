@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"time"
 
-	model "go-common/app/service/main/secure/model"
-	"go-common/library/cache/redis"
-	"go-common/library/log"
+	model "github.com/namelessup/bilibili/app/service/main/secure/model"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

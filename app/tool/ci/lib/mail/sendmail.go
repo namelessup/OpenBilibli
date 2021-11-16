@@ -1,9 +1,9 @@
 package sendmail
 
 import (
-	"go-common/app/tool/saga/model"
-	"go-common/app/tool/saga/service/mail"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/tool/saga/model"
+	"github.com/namelessup/bilibili/app/tool/saga/service/mail"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 /*
@@ -12,7 +12,7 @@ mail model:
 【Saga 提醒】+mailTitle
 Saga 事件通知
 执行状态 : 成功
-Pipeline信息: http://gitlab.bilibili.co/platform/go-common/pipelines/1551
+Pipeline信息: http://gitlab.bilibili.co/platform/github.com/namelessup/bilibili/pipelines/1551
 来源分支 : ci-commit/test
 修改说明 :
 额外信息: 你真是棒棒的，合并成功了

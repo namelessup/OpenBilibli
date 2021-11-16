@@ -12,7 +12,7 @@ go_library(
         "dao.go",
         "subtitle.go",
     ],
-    importpath = "go-common/app/interface/main/videoup/dao/subtitle",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/videoup/dao/subtitle",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

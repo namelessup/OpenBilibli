@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	shamdl "go-common/app/interface/main/web-goblin/model/share"
-	xsql "go-common/library/database/sql"
-	"go-common/library/log"
+	shamdl "github.com/namelessup/bilibili/app/interface/main/web-goblin/model/share"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

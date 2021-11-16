@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["sms-admin-test.toml"],
-    importpath = "go-common/app/admin/main/sms/cmd",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/sms/cmd",
     tags = ["automanaged"],
     deps = [
         "//app/admin/main/sms/conf:go_default_library",

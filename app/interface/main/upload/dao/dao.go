@@ -3,8 +3,8 @@ package dao
 import (
 	"context"
 
-	"go-common/app/interface/main/upload/conf"
-	"go-common/library/database/orm"
+	"github.com/namelessup/bilibili/app/interface/main/upload/conf"
+	"github.com/namelessup/bilibili/library/database/orm"
 
 	"github.com/jinzhu/gorm"
 )

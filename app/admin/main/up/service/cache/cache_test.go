@@ -5,7 +5,7 @@ import (
 
 	"flag"
 	"github.com/smartystreets/goconvey/convey"
-	"go-common/app/admin/main/up/conf"
+	"github.com/namelessup/bilibili/app/admin/main/up/conf"
 	"os"
 )
 

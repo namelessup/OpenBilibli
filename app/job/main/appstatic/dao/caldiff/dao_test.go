@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"go-common/app/job/main/appstatic/conf"
+	"github.com/namelessup/bilibili/app/job/main/appstatic/conf"
 
 	"gopkg.in/h2non/gock.v1"
 )

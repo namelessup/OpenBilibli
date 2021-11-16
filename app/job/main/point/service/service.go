@@ -7,15 +7,15 @@ import (
 	"sync"
 	"time"
 
-	"go-common/app/job/main/point/conf"
-	"go-common/app/job/main/point/dao"
-	"go-common/app/job/main/point/model"
-	rpcmdl "go-common/app/service/main/point/model"
-	"go-common/app/service/main/point/rpc/client"
-	xsql "go-common/library/database/sql"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/job/main/point/conf"
+	"github.com/namelessup/bilibili/app/job/main/point/dao"
+	"github.com/namelessup/bilibili/app/job/main/point/model"
+	rpcmdl "github.com/namelessup/bilibili/app/service/main/point/model"
+	"github.com/namelessup/bilibili/app/service/main/point/rpc/client"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 const (

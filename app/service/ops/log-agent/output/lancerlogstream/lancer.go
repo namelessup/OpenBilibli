@@ -9,13 +9,13 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/service/ops/log-agent/event"
-	"go-common/app/service/ops/log-agent/output"
-	"go-common/app/service/ops/log-agent/pkg/flowmonitor"
-	"go-common/app/service/ops/log-agent/pkg/common"
-	"go-common/app/service/ops/log-agent/output/cache/file"
-	"go-common/library/log"
-	"go-common/app/service/ops/log-agent/pkg/lancermonitor"
+	"github.com/namelessup/bilibili/app/service/ops/log-agent/event"
+	"github.com/namelessup/bilibili/app/service/ops/log-agent/output"
+	"github.com/namelessup/bilibili/app/service/ops/log-agent/pkg/flowmonitor"
+	"github.com/namelessup/bilibili/app/service/ops/log-agent/pkg/common"
+	"github.com/namelessup/bilibili/app/service/ops/log-agent/output/cache/file"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/app/service/ops/log-agent/pkg/lancermonitor"
 )
 
 const (

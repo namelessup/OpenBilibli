@@ -7,7 +7,7 @@
 golang > 1.10
 
 ## 依赖包
-go-common
+github.com/namelessup/bilibili
 
 ## 编译执行
 go run ./cmd/main.go -conf test.toml

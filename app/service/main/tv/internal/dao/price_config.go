@@ -2,8 +2,8 @@ package dao
 
 import (
 	"context"
-	"go-common/app/service/main/tv/internal/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/tv/internal/model"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/pkg/errors"
 )

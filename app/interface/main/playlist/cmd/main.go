@@ -7,13 +7,13 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/app/interface/main/playlist/conf"
-	"go-common/app/interface/main/playlist/http"
-	rpc "go-common/app/interface/main/playlist/rpc/server"
-	"go-common/app/interface/main/playlist/service"
-	ecode "go-common/library/ecode/tip"
-	"go-common/library/log"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/app/interface/main/playlist/conf"
+	"github.com/namelessup/bilibili/app/interface/main/playlist/http"
+	rpc "github.com/namelessup/bilibili/app/interface/main/playlist/rpc/server"
+	"github.com/namelessup/bilibili/app/interface/main/playlist/service"
+	ecode "github.com/namelessup/bilibili/library/ecode/tip"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
 )
 
 func main() {

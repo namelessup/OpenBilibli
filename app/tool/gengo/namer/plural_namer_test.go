@@ -3,7 +3,7 @@ package namer
 import (
 	"testing"
 
-	"go-common/app/tool/gengo/types"
+	"github.com/namelessup/bilibili/app/tool/gengo/types"
 )
 
 func TestPluralNamer(t *testing.T) {

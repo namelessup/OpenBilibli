@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"time"
 
-	"go-common/app/admin/main/aegis/model"
-	"go-common/app/admin/main/aegis/model/net"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model/net"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/jinzhu/gorm"
 )

@@ -7,10 +7,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"go-common/app/tool/saga/conf"
-	"go-common/app/tool/saga/dao"
-	"go-common/app/tool/saga/model"
-	"go-common/app/tool/saga/service/gitlab"
+	"github.com/namelessup/bilibili/app/tool/saga/conf"
+	"github.com/namelessup/bilibili/app/tool/saga/dao"
+	"github.com/namelessup/bilibili/app/tool/saga/model"
+	"github.com/namelessup/bilibili/app/tool/saga/service/gitlab"
 
 	"github.com/smartystreets/goconvey/convey"
 )

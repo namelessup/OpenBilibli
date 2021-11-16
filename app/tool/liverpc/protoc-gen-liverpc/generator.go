@@ -25,9 +25,9 @@ import (
 	"strconv"
 	"strings"
 
-	"go-common/app/tool/liverpc/protoc-gen-liverpc/gen"
-	"go-common/app/tool/liverpc/protoc-gen-liverpc/gen/stringutils"
-	"go-common/app/tool/liverpc/protoc-gen-liverpc/gen/typemap"
+	"github.com/namelessup/bilibili/app/tool/liverpc/protoc-gen-liverpc/gen"
+	"github.com/namelessup/bilibili/app/tool/liverpc/protoc-gen-liverpc/gen/stringutils"
+	"github.com/namelessup/bilibili/app/tool/liverpc/protoc-gen-liverpc/gen/typemap"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/protoc-gen-go/descriptor"
@@ -193,7 +193,7 @@ func (t *liverpc) generateFileHeader(file *descriptor.FileDescriptorProto) {
 	if t.filesHandled == 0 {
 		t.P("/*")
 		t.P("Package ", t.genPkgName, " is a generated liverpc stub package.")
-		t.P("This code was generated with go-common/app/tool/liverpc/protoc-gen-liverpc ", gen.Version, ".")
+		t.P("This code was generated with github.com/namelessup/bilibili/app/tool/liverpc/protoc-gen-liverpc ", gen.Version, ".")
 		t.P()
 		comment, err := t.reg.FileComments(file)
 		if err == nil && comment.Leading != "" {
@@ -222,7 +222,7 @@ func (t *liverpc) generateImports(file *descriptor.FileDescriptorProto) {
 	t.P(`import `, t.pkgs["context"], ` "context"`)
 	t.P()
 	t.P(`import `, t.pkgs["proto"], ` "github.com/golang/protobuf/proto"`)
-	t.P(`import "go-common/library/net/rpc/liverpc"`)
+	t.P(`import "github.com/namelessup/bilibili/library/net/rpc/liverpc"`)
 	t.P()
 
 	// It's legal to import a message and use it as an input or output for a

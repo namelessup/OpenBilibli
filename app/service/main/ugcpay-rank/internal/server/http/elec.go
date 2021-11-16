@@ -3,10 +3,10 @@ package http
 import (
 	"net/http"
 
-	api "go-common/app/service/main/ugcpay-rank/api/http"
-	"go-common/app/service/main/ugcpay-rank/internal/conf"
-	"go-common/app/service/main/ugcpay-rank/internal/model"
-	bm "go-common/library/net/http/blademaster"
+	api "github.com/namelessup/bilibili/app/service/main/ugcpay-rank/api/http"
+	"github.com/namelessup/bilibili/app/service/main/ugcpay-rank/internal/conf"
+	"github.com/namelessup/bilibili/app/service/main/ugcpay-rank/internal/model"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 
 	"github.com/json-iterator/go"
 )

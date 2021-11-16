@@ -1,7 +1,7 @@
 package v1
 
 import (
-	"go-common/app/service/live/xuser/conf"
+	"github.com/namelessup/bilibili/app/service/live/xuser/conf"
 )
 
 const (

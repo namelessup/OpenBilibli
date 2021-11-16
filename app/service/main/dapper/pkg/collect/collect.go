@@ -1,7 +1,7 @@
 package collect
 
 import (
-	"go-common/app/service/main/dapper/pkg/process"
+	"github.com/namelessup/bilibili/app/service/main/dapper/pkg/process"
 )
 
 // Collecter collect span from different source

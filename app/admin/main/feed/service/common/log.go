@@ -5,9 +5,9 @@ import (
 	"net/url"
 	"strconv"
 
-	"go-common/app/admin/main/feed/model/common"
-	searchModel "go-common/app/admin/main/search/model"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/feed/model/common"
+	searchModel "github.com/namelessup/bilibili/app/admin/main/search/model"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 const (

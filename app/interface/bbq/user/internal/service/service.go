@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"go-common/app/interface/bbq/user/internal/dao"
-	"go-common/library/conf/paladin"
+	"github.com/namelessup/bilibili/app/interface/bbq/user/internal/dao"
+	"github.com/namelessup/bilibili/library/conf/paladin"
 )
 
 // Service service.

@@ -1,12 +1,12 @@
 package server
 
 import (
-	"go-common/app/service/main/resource/conf"
-	"go-common/app/service/main/resource/model"
-	"go-common/app/service/main/resource/service"
-	"go-common/library/ecode"
-	"go-common/library/net/rpc"
-	"go-common/library/net/rpc/context"
+	"github.com/namelessup/bilibili/app/service/main/resource/conf"
+	"github.com/namelessup/bilibili/app/service/main/resource/model"
+	"github.com/namelessup/bilibili/app/service/main/resource/service"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/net/rpc"
+	"github.com/namelessup/bilibili/library/net/rpc/context"
 )
 
 // RPC struct

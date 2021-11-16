@@ -3,7 +3,7 @@ package archive
 import (
 	"context"
 	"flag"
-	"go-common/app/admin/main/videoup/conf"
+	"github.com/namelessup/bilibili/app/admin/main/videoup/conf"
 	"testing"
 
 	. "github.com/smartystreets/goconvey/convey"

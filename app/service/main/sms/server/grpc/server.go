@@ -1,9 +1,9 @@
 package grpc
 
 import (
-	pb "go-common/app/service/main/sms/api"
-	"go-common/app/service/main/sms/service"
-	"go-common/library/net/rpc/warden"
+	pb "github.com/namelessup/bilibili/app/service/main/sms/api"
+	"github.com/namelessup/bilibili/app/service/main/sms/service"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 )
 
 // New Sms warden rpc server

@@ -12,7 +12,7 @@ go_library(
         "search.go",
         "video.go",
     ],
-    importpath = "go-common/app/job/bbq/video/model",
+    importpath = "github.com/namelessup/bilibili/app/job/bbq/video/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/time:go_default_library"],

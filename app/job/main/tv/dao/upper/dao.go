@@ -4,13 +4,13 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/job/main/tv/conf"
-	acccli "go-common/app/service/main/account/api"
-	accwar "go-common/app/service/main/account/api"
-	account "go-common/app/service/main/account/model"
-	"go-common/library/cache/memcache"
-	"go-common/library/database/sql"
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/app/job/main/tv/conf"
+	acccli "github.com/namelessup/bilibili/app/service/main/account/api"
+	accwar "github.com/namelessup/bilibili/app/service/main/account/api"
+	account "github.com/namelessup/bilibili/app/service/main/account/model"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/stat/prom"
 
 	"github.com/pkg/errors"
 )

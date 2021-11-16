@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"testing"
 
-	ugcmdl "go-common/app/job/main/tv/model/ugc"
+	ugcmdl "github.com/namelessup/bilibili/app/job/main/tv/model/ugc"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

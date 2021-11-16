@@ -2,14 +2,14 @@ package elec
 
 import (
 	"context"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 
-	"go-common/app/interface/main/creative/conf"
-	"go-common/app/interface/main/creative/dao/account"
-	"go-common/app/interface/main/creative/dao/archive"
-	"go-common/app/interface/main/creative/dao/elec"
-	elecMdl "go-common/app/interface/main/creative/model/elec"
-	"go-common/app/interface/main/creative/service"
+	"github.com/namelessup/bilibili/app/interface/main/creative/conf"
+	"github.com/namelessup/bilibili/app/interface/main/creative/dao/account"
+	"github.com/namelessup/bilibili/app/interface/main/creative/dao/archive"
+	"github.com/namelessup/bilibili/app/interface/main/creative/dao/elec"
+	elecMdl "github.com/namelessup/bilibili/app/interface/main/creative/model/elec"
+	"github.com/namelessup/bilibili/app/interface/main/creative/service"
 )
 
 //Service struct.

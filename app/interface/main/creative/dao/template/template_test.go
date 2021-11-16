@@ -2,7 +2,7 @@ package template
 
 import (
 	"context"
-	"go-common/app/interface/main/creative/model/template"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/template"
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"

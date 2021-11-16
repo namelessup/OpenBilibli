@@ -3,9 +3,9 @@ package dao
 import (
 	"context"
 
-	"go-common/app/interface/main/push/conf"
-	"go-common/library/queue/databus"
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/app/interface/main/push/conf"
+	"github.com/namelessup/bilibili/library/queue/databus"
+	"github.com/namelessup/bilibili/library/stat/prom"
 )
 
 // Dao .

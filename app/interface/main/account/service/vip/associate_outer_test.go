@@ -3,7 +3,7 @@ package vip
 import (
 	"context"
 	"fmt"
-	"go-common/app/interface/main/account/model"
+	"github.com/namelessup/bilibili/app/interface/main/account/model"
 	"testing"
 
 	. "github.com/smartystreets/goconvey/convey"

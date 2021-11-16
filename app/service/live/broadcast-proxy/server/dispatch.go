@@ -4,10 +4,10 @@ import (
 	"errors"
 	"fmt"
 	"github.com/ipipdotnet/ipdb-go"
-	"go-common/app/service/live/broadcast-proxy/conf"
-	"go-common/app/service/live/broadcast-proxy/dispatch"
-	"go-common/app/service/live/broadcast-proxy/grocery"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/live/broadcast-proxy/conf"
+	"github.com/namelessup/bilibili/app/service/live/broadcast-proxy/dispatch"
+	"github.com/namelessup/bilibili/app/service/live/broadcast-proxy/grocery"
+	"github.com/namelessup/bilibili/library/log"
 	"sync"
 )
 

@@ -4,9 +4,9 @@ import (
 	"strconv"
 	"strings"
 
-	"go-common/app/service/main/resource/model"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/service/main/resource/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func resource(c *bm.Context) {

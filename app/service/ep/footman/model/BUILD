@@ -13,7 +13,7 @@ go_library(
         "model.go",
         "tapd.go",
     ],
-    importpath = "go-common/app/service/ep/footman/model",
+    importpath = "github.com/namelessup/bilibili/app/service/ep/footman/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

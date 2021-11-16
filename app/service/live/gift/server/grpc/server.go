@@ -2,12 +2,12 @@ package grpc
 
 import (
 	"fmt"
-	pb "go-common/app/service/live/gift/api/grpc/v1"
-	"go-common/app/service/live/gift/conf"
-	"go-common/app/service/live/gift/dao"
-	svc "go-common/app/service/live/gift/service/v1"
-	"go-common/library/log"
-	"go-common/library/net/rpc/warden"
+	pb "github.com/namelessup/bilibili/app/service/live/gift/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/live/gift/conf"
+	"github.com/namelessup/bilibili/app/service/live/gift/dao"
+	svc "github.com/namelessup/bilibili/app/service/live/gift/service/v1"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 )
 
 //Init Init

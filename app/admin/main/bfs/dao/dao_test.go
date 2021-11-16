@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"go-common/app/admin/main/bfs/conf"
+	"github.com/namelessup/bilibili/app/admin/main/bfs/conf"
 )
 
 var (

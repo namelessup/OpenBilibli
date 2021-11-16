@@ -3,12 +3,12 @@ package dao
 import (
 	"context"
 
-	"go-common/app/job/main/growup/conf"
+	"github.com/namelessup/bilibili/app/job/main/growup/conf"
 
-	"go-common/library/database/hbase.v2"
-	"go-common/library/database/sql"
-	"go-common/library/log"
-	xhttp "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/database/hbase.v2"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	xhttp "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // Dao dao

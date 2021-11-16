@@ -4,12 +4,12 @@ import (
 	"context"
 	"strings"
 
-	"go-common/app/admin/main/apm/conf"
-	"go-common/app/admin/main/apm/model/canal"
-	"go-common/app/admin/main/apm/model/user"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/apm/conf"
+	"github.com/namelessup/bilibili/app/admin/main/apm/model/canal"
+	"github.com/namelessup/bilibili/app/admin/main/apm/model/user"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 const (

@@ -3,8 +3,8 @@ package model
 import (
 	"encoding/json"
 	"fmt"
-	"go-common/app/service/main/archive/api"
-	"go-common/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/app/service/main/archive/model/archive"
 	"net/url"
 	"strings"
 )

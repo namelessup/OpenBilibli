@@ -5,7 +5,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"go-common/app/admin/main/usersuit/model"
+	"github.com/namelessup/bilibili/app/admin/main/usersuit/model"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

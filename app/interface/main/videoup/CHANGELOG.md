@@ -473,7 +473,7 @@
 > 1. 实名认证, 只针对web端
 
 ##### Version 1.2.29
-> 1. govendor升级一波， go-business  v2.34.0， go-common v6.24.4
+> 1. govendor升级一波， go-business  v2.34.0， github.com/namelessup/bilibili v6.24.4
 > 2. 对接新的bfs上传的错误代码
 
 ##### Version 1.2.28
@@ -493,7 +493,7 @@
 > 1. fix bug: 编辑稿件的时候防止活动id为负数参数传递
 
 ##### Version 1.2.22
-> 1. 升级go-common v6.17.0 和 go-business v2.24.1
+> 1. 升级github.com/namelessup/bilibili v6.17.0 和 go-business v2.24.1
 
 ##### Version 1.2.21
 > 1.修复活动tag剔除

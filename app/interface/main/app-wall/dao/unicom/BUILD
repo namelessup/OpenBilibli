@@ -27,7 +27,7 @@ go_library(
         "log.go",
         "unicom.go",
     ],
-    importpath = "go-common/app/interface/main/app-wall/dao/unicom",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-wall/dao/unicom",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

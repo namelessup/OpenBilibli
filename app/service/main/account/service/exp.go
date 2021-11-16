@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	mmodel "go-common/app/service/main/member/model"
-	"go-common/library/net/metadata"
+	mmodel "github.com/namelessup/bilibili/app/service/main/member/model"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 // AddExp add user exp.

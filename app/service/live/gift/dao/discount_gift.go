@@ -4,10 +4,10 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"go-common/app/service/live/gift/model"
-	"go-common/library/database/sql"
-	"go-common/library/log"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/service/live/gift/model"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 var _getDiscountGift = "SELECT id,discount_id,gift_id,user_type,discount_price,corner_mark,corner_position FROM discount_gift WHERE discount_id in (%s)"

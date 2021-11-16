@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"testing"
 
-	"go-common/app/service/main/vip/dao"
-	"go-common/app/service/main/vip/model"
+	"github.com/namelessup/bilibili/app/service/main/vip/dao"
+	"github.com/namelessup/bilibili/app/service/main/vip/model"
 
 	"github.com/bouk/monkey"
 	. "github.com/smartystreets/goconvey/convey"

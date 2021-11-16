@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/admin/main/tv/model"
+	"github.com/namelessup/bilibili/app/admin/main/tv/model"
 
 	"github.com/smartystreets/goconvey/convey"
 )

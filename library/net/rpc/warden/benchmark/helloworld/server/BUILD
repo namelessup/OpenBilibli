@@ -15,7 +15,7 @@ go_binary(
 go_library(
     name = "go_default_library",
     srcs = ["greeter_server.go"],
-    importpath = "go-common/library/net/rpc/warden/benchmark/helloworld/server",
+    importpath = "github.com/namelessup/bilibili/library/net/rpc/warden/benchmark/helloworld/server",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

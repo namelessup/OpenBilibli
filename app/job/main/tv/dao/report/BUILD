@@ -31,7 +31,7 @@ go_library(
         "report.go",
         "style.go",
     ],
-    importpath = "go-common/app/job/main/tv/dao/report",
+    importpath = "github.com/namelessup/bilibili/app/job/main/tv/dao/report",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

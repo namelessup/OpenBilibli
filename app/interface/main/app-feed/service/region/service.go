@@ -6,9 +6,9 @@ import (
 	"encoding/json"
 	"time"
 
-	"go-common/app/interface/main/app-feed/conf"
-	tagdao "go-common/app/interface/main/app-feed/dao/tag"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/app-feed/conf"
+	tagdao "github.com/namelessup/bilibili/app/interface/main/app-feed/dao/tag"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 type Service struct {

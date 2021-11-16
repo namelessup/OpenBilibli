@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"testing"
 
-	model "go-common/app/job/main/activity/model/dm"
+	model "github.com/namelessup/bilibili/app/job/main/activity/model/dm"
 
 	"github.com/smartystreets/goconvey/convey"
 	"gopkg.in/h2non/gock.v1"

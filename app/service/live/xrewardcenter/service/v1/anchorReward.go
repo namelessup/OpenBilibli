@@ -3,19 +3,19 @@ package v1
 import (
 	"context"
 
-	v1pb "go-common/app/service/live/xrewardcenter/api/grpc/v1"
-	"go-common/app/service/live/xrewardcenter/conf"
-	"go-common/app/service/live/xrewardcenter/dao/anchorReward"
-	model "go-common/app/service/live/xrewardcenter/model/anchorTask"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	v1pb "github.com/namelessup/bilibili/app/service/live/xrewardcenter/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/live/xrewardcenter/conf"
+	"github.com/namelessup/bilibili/app/service/live/xrewardcenter/dao/anchorReward"
+	model "github.com/namelessup/bilibili/app/service/live/xrewardcenter/model/anchorTask"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 
 	"fmt"
 	"time"
 
-	"go-common/app/service/live/gift/api/liverpc/v0"
-	"go-common/app/service/live/room/api/liverpc/v2"
-	"go-common/app/service/live/xrewardcenter/dao"
+	"github.com/namelessup/bilibili/app/service/live/gift/api/liverpc/v0"
+	"github.com/namelessup/bilibili/app/service/live/room/api/liverpc/v2"
+	"github.com/namelessup/bilibili/app/service/live/xrewardcenter/dao"
 
 	"github.com/pkg/errors"
 	"github.com/robfig/cron"

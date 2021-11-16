@@ -11,13 +11,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go-common/app/infra/canal/conf"
-	"go-common/app/infra/canal/dao"
-	"go-common/library/conf/env"
-	"go-common/library/log"
-	xhttp "go-common/library/net/http/blademaster"
-	"go-common/library/net/netutil"
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/app/infra/canal/conf"
+	"github.com/namelessup/bilibili/app/infra/canal/dao"
+	"github.com/namelessup/bilibili/library/conf/env"
+	"github.com/namelessup/bilibili/library/log"
+	xhttp "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/netutil"
+	"github.com/namelessup/bilibili/library/stat/prom"
 
 	"github.com/siddontang/go-mysql/client"
 )

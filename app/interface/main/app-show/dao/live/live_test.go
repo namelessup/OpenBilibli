@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/interface/main/app-show/conf"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/conf"
 
 	. "github.com/smartystreets/goconvey/convey"
 	gock "gopkg.in/h2non/gock.v1"

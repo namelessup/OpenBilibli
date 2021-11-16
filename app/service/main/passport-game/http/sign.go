@@ -8,10 +8,10 @@ import (
 	"sort"
 	"strings"
 
-	"go-common/app/service/main/passport-game/model"
-	"go-common/app/service/main/passport-game/service"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/service/main/passport-game/model"
+	"github.com/namelessup/bilibili/app/service/main/passport-game/service"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // VerifySign verify sign.

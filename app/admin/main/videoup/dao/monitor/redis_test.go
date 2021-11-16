@@ -2,7 +2,7 @@ package monitor
 
 import (
 	"context"
-	"go-common/app/admin/main/videoup/model/monitor"
+	"github.com/namelessup/bilibili/app/admin/main/videoup/model/monitor"
 	"testing"
 
 	. "github.com/smartystreets/goconvey/convey"

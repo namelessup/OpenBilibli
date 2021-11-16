@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["prom.go"],
-    importpath = "go-common/app/interface/openplatform/monitor-end/model/prom",
+    importpath = "github.com/namelessup/bilibili/app/interface/openplatform/monitor-end/model/prom",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

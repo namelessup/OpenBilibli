@@ -2,8 +2,8 @@ package service
 
 import (
 	"context"
-	http "go-common/app/interface/bbq/app-bbq/api/http/v1"
-	"go-common/app/interface/bbq/app-bbq/model"
+	http "github.com/namelessup/bilibili/app/interface/bbq/app-bbq/api/http/v1"
+	"github.com/namelessup/bilibili/app/interface/bbq/app-bbq/model"
 )
 
 // GetLocaitonAll .

@@ -3,8 +3,8 @@ package dao
 import (
 	"context"
 
-	"go-common/app/admin/main/workflow/model"
-	"go-common/app/admin/main/workflow/model/param"
+	"github.com/namelessup/bilibili/app/admin/main/workflow/model"
+	"github.com/namelessup/bilibili/app/admin/main/workflow/model/param"
 
 	"github.com/jinzhu/gorm"
 	"github.com/pkg/errors"

@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"go-common/app/service/live/resource/api/grpc/v1"
-	"go-common/app/service/live/resource/conf"
+	"github.com/namelessup/bilibili/app/service/live/resource/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/live/resource/conf"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

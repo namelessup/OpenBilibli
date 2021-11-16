@@ -3,11 +3,11 @@ package dao
 import (
 	"context"
 
-	"go-common/app/admin/main/relation/conf"
-	accountGRPC "go-common/app/service/main/account/api"
-	relationGRPC "go-common/app/service/main/relation/api"
-	"go-common/library/database/hbase.v2"
-	"go-common/library/database/orm"
+	"github.com/namelessup/bilibili/app/admin/main/relation/conf"
+	accountGRPC "github.com/namelessup/bilibili/app/service/main/account/api"
+	relationGRPC "github.com/namelessup/bilibili/app/service/main/relation/api"
+	"github.com/namelessup/bilibili/library/database/hbase.v2"
+	"github.com/namelessup/bilibili/library/database/orm"
 
 	"github.com/jinzhu/gorm"
 )

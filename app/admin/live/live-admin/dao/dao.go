@@ -2,12 +2,12 @@ package dao
 
 import (
 	"context"
-	"go-common/library/cache/redis"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/log"
 
-	"go-common/app/admin/live/live-admin/conf"
+	"github.com/namelessup/bilibili/app/admin/live/live-admin/conf"
 
-	relationApi "go-common/app/service/live/relation/api/liverpc"
+	relationApi "github.com/namelessup/bilibili/app/service/live/relation/api/liverpc"
 )
 
 // Dao dao

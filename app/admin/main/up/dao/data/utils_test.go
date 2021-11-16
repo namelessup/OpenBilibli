@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"go-common/library/database/hbase.v2"
+	"github.com/namelessup/bilibili/library/database/hbase.v2"
 
 	"github.com/smartystreets/goconvey/convey"
 	"github.com/tsuna/gohbase/hrpc"

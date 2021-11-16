@@ -2,8 +2,8 @@ package monitor
 
 import (
 	"fmt"
-	"go-common/app/admin/main/videoup/model/archive"
-	"go-common/app/admin/main/videoup/model/manager"
+	"github.com/namelessup/bilibili/app/admin/main/videoup/model/archive"
+	"github.com/namelessup/bilibili/app/admin/main/videoup/model/manager"
 )
 
 const (

@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 
-	"go-common/app/job/main/up-rating/conf"
-	"go-common/app/job/main/up-rating/dao"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/up-rating/conf"
+	"github.com/namelessup/bilibili/app/job/main/up-rating/dao"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Service struct

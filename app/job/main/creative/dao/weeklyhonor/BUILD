@@ -17,7 +17,7 @@ go_library(
         "mysql.go",
         "rpc.go",
     ],
-    importpath = "go-common/app/job/main/creative/dao/weeklyhonor",
+    importpath = "github.com/namelessup/bilibili/app/job/main/creative/dao/weeklyhonor",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

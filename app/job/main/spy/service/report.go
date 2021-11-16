@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/job/main/spy/conf"
-	"go-common/app/job/main/spy/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/spy/conf"
+	"github.com/namelessup/bilibili/app/job/main/spy/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // AddReport add daill report.

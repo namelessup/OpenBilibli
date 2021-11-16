@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"go-common/app/admin/main/member/model/block"
-	"go-common/library/log"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/admin/main/member/model/block"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // review state const.

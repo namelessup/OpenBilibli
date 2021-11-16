@@ -3,10 +3,10 @@ package rank
 import (
 	"context"
 
-	"go-common/app/interface/main/app-card/model/card/rank"
-	"go-common/app/interface/main/app-feed/conf"
-	"go-common/library/ecode"
-	httpx "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/interface/main/app-card/model/card/rank"
+	"github.com/namelessup/bilibili/app/interface/main/app-feed/conf"
+	"github.com/namelessup/bilibili/library/ecode"
+	httpx "github.com/namelessup/bilibili/library/net/http/blademaster"
 
 	"github.com/pkg/errors"
 )

@@ -11,7 +11,7 @@ go_library(
         "dm.go",
         "http.go",
     ],
-    importpath = "go-common/app/interface/live/web-room/server/http",
+    importpath = "github.com/namelessup/bilibili/app/interface/live/web-room/server/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

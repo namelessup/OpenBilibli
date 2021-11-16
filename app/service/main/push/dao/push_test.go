@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"go-common/app/service/main/push/dao/oppo"
-	"go-common/app/service/main/push/model"
+	"github.com/namelessup/bilibili/app/service/main/push/dao/oppo"
+	"github.com/namelessup/bilibili/app/service/main/push/model"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

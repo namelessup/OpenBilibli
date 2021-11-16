@@ -2,8 +2,8 @@ package dao
 
 import (
 	"context"
-	"go-common/app/service/bbq/user/api"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/bbq/user/api"
+	"github.com/namelessup/bilibili/library/log"
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"

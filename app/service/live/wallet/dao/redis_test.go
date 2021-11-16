@@ -2,8 +2,8 @@ package dao
 
 import (
 	. "github.com/smartystreets/goconvey/convey"
-	"go-common/app/service/live/wallet/model"
-	"go-common/library/cache/redis"
+	"github.com/namelessup/bilibili/app/service/live/wallet/model"
+	"github.com/namelessup/bilibili/library/cache/redis"
 	"testing"
 )
 

@@ -8,15 +8,15 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/app/service/main/coin/conf"
-	"go-common/app/service/main/coin/server/gorpc"
-	grpc "go-common/app/service/main/coin/server/grpc"
-	"go-common/app/service/main/coin/server/http"
-	"go-common/app/service/main/coin/service"
-	ecode "go-common/library/ecode/tip"
-	"go-common/library/log"
-	"go-common/library/net/trace"
-	"go-common/library/queue/databus/report"
+	"github.com/namelessup/bilibili/app/service/main/coin/conf"
+	"github.com/namelessup/bilibili/app/service/main/coin/server/gorpc"
+	grpc "github.com/namelessup/bilibili/app/service/main/coin/server/grpc"
+	"github.com/namelessup/bilibili/app/service/main/coin/server/http"
+	"github.com/namelessup/bilibili/app/service/main/coin/service"
+	ecode "github.com/namelessup/bilibili/library/ecode/tip"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
+	"github.com/namelessup/bilibili/library/queue/databus/report"
 )
 
 func main() {

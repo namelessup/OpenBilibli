@@ -6,7 +6,7 @@ import (
 	"os"
 	"testing"
 
-	"go-common/app/tool/saga/conf"
+	"github.com/namelessup/bilibili/app/tool/saga/conf"
 )
 
 var (

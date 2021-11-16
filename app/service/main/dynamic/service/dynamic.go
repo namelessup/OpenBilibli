@@ -5,13 +5,13 @@ import (
 	"strconv"
 	"sync"
 
-	"go-common/app/service/main/archive/api"
-	arcmdl "go-common/app/service/main/archive/model/archive"
-	"go-common/app/service/main/dynamic/conf"
-	"go-common/app/service/main/dynamic/dao"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	arcmdl "github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/app/service/main/dynamic/conf"
+	"github.com/namelessup/bilibili/app/service/main/dynamic/dao"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 var (

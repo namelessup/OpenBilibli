@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["test.toml"],
-    importpath = "go-common/app/service/bbq/recsys/cmd",
+    importpath = "github.com/namelessup/bilibili/app/service/bbq/recsys/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

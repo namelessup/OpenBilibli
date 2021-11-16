@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["bfs-upload-job.toml"],
-    importpath = "go-common/app/job/main/upload/cmd",
+    importpath = "github.com/namelessup/bilibili/app/job/main/upload/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

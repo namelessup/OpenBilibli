@@ -33,7 +33,7 @@ import fmt "fmt"
 import math "math"
 import _ "github.com/gogo/protobuf/gogoproto"
 
-import go_common_library_time "go-common/library/time"
+import go_common_library_time "github.com/namelessup/bilibili/library/time"
 
 import io "io"
 
@@ -56,8 +56,8 @@ type Archive3 struct {
 	Copyright    int32                       `protobuf:"varint,5,opt,name=Copyright,proto3" json:"copyright"`
 	Pic          string                      `protobuf:"bytes,6,opt,name=Pic,proto3" json:"pic"`
 	Title        string                      `protobuf:"bytes,7,opt,name=Title,proto3" json:"title"`
-	PubDate      go_common_library_time.Time `protobuf:"varint,8,opt,name=PubDate,proto3,casttype=go-common/library/time.Time" json:"pubdate"`
-	Ctime        go_common_library_time.Time `protobuf:"varint,9,opt,name=Ctime,proto3,casttype=go-common/library/time.Time" json:"ctime"`
+	PubDate      go_common_library_time.Time `protobuf:"varint,8,opt,name=PubDate,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"pubdate"`
+	Ctime        go_common_library_time.Time `protobuf:"varint,9,opt,name=Ctime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"ctime"`
 	Desc         string                      `protobuf:"bytes,10,opt,name=Desc,proto3" json:"desc"`
 	State        int32                       `protobuf:"varint,11,opt,name=State,proto3" json:"state"`
 	Access       int32                       `protobuf:"varint,12,opt,name=Access,proto3" json:"access,omitempty"`

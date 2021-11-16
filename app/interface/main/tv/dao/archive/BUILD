@@ -37,7 +37,7 @@ go_library(
         "valid.go",
         "view.go",
     ],
-    importpath = "go-common/app/interface/main/tv/dao/archive",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/tv/dao/archive",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

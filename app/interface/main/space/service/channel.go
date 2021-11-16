@@ -5,14 +5,14 @@ import (
 	"sync"
 	"time"
 
-	"go-common/app/interface/main/space/conf"
-	"go-common/app/interface/main/space/model"
-	arcmdl "go-common/app/service/main/archive/api"
-	filmdl "go-common/app/service/main/filter/model/rpc"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/interface/main/space/conf"
+	"github.com/namelessup/bilibili/app/interface/main/space/model"
+	arcmdl "github.com/namelessup/bilibili/app/service/main/archive/api"
+	filmdl "github.com/namelessup/bilibili/app/service/main/filter/model/rpc"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 var (

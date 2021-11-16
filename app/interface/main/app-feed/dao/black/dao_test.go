@@ -5,9 +5,9 @@ import (
 	"reflect"
 	"testing"
 
-	"go-common/app/interface/main/app-feed/conf"
-	"go-common/library/cache/redis"
-	httpx "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/interface/main/app-feed/conf"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	httpx "github.com/namelessup/bilibili/library/net/http/blademaster"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

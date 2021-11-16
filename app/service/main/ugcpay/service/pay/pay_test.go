@@ -7,7 +7,7 @@ import (
 	"os"
 	"testing"
 
-	"go-common/app/service/main/ugcpay/conf"
+	"github.com/namelessup/bilibili/app/service/main/ugcpay/conf"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

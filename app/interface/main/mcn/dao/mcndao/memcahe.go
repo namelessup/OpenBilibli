@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"time"
 
-	"go-common/app/interface/main/mcn/model/mcnmodel"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/mcn/model/mcnmodel"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/jinzhu/gorm"
 )
 
-//go:generate $GOPATH/src/go-common/app/tool/cache/gen
+//go:generate $GOPATH/src/github.com/namelessup/bilibili/app/tool/cache/gen
 type _cache interface {
 	//cache: -nullcache=&mcnmodel.McnSign{ID:-1} -check_null_code=$!=nil&&$.ID==-1
 	McnSign(c context.Context, mcnmid int64) (up *mcnmodel.McnSign, err error)
@@ -23,7 +23,7 @@ type _cache interface {
 	UpPermission(c context.Context, signID int64, mid int64) (data *mcnmodel.UpPermissionCache, err error)
 }
 
-//go:generate $GOPATH/src/go-common/app/tool/cache/mc
+//go:generate $GOPATH/src/github.com/namelessup/bilibili/app/tool/cache/mc
 type _mc interface {
 	//mc: -key=mcnSignCacheKey -expire=d.mcnSignExpire -encode=json
 	AddCacheMcnSign(c context.Context, mcnmid int64, up *mcnmodel.McnSign) (err error)

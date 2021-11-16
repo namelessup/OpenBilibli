@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	ugcMdl "go-common/app/job/main/tv/model/ugc"
+	ugcMdl "github.com/namelessup/bilibili/app/job/main/tv/model/ugc"
 
 	"github.com/smartystreets/goconvey/convey"
 )

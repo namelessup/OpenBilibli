@@ -6,9 +6,9 @@ import (
 	"math/rand"
 	"time"
 
-	"go-common/app/interface/main/app-card/model/card/ai"
-	"go-common/app/interface/main/app-intl/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/app-card/model/card/ai"
+	"github.com/namelessup/bilibili/app/interface/main/app-intl/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // indexCache is.

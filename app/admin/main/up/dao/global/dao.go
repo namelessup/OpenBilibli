@@ -1,8 +1,8 @@
 package global
 
 import (
-	"go-common/app/admin/main/up/conf"
-	accgrpc "go-common/app/service/main/account/api"
+	"github.com/namelessup/bilibili/app/admin/main/up/conf"
+	accgrpc "github.com/namelessup/bilibili/app/service/main/account/api"
 
 	"github.com/pkg/errors"
 )

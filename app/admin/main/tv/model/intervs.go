@@ -2,7 +2,7 @@ package model
 
 import (
 	"encoding/json"
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/library/time"
 
 	"github.com/jinzhu/gorm"
 	"github.com/siddontang/go-mysql/mysql"

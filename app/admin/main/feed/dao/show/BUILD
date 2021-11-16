@@ -17,7 +17,7 @@ go_library(
         "search_web.go",
         "search_web_card.go",
     ],
-    importpath = "go-common/app/admin/main/feed/dao/show",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/feed/dao/show",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

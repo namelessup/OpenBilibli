@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"net/url"
 
-	"go-common/app/job/main/vip/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/vip/model"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/pkg/errors"
 )

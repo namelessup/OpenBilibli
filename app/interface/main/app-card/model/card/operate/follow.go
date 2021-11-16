@@ -3,8 +3,8 @@ package operate
 import (
 	"encoding/json"
 
-	"go-common/app/interface/main/app-card/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/app-card/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 type Follow struct {

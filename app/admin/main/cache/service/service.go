@@ -7,10 +7,10 @@ import (
 	"fmt"
 	"strings"
 
-	"go-common/app/admin/main/cache/conf"
-	"go-common/app/admin/main/cache/dao"
-	"go-common/app/admin/main/cache/model"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/admin/main/cache/conf"
+	"github.com/namelessup/bilibili/app/admin/main/cache/dao"
+	"github.com/namelessup/bilibili/app/admin/main/cache/model"
+	"github.com/namelessup/bilibili/library/ecode"
 
 	"github.com/BurntSushi/toml"
 )

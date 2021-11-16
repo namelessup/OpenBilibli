@@ -3,8 +3,8 @@ package http
 import (
 	"context"
 
-	"go-common/app/admin/main/mcn/model"
-	"go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/mcn/model"
+	"github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func arcTopDataStatistics(c *blademaster.Context) {

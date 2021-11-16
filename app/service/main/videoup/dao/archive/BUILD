@@ -60,7 +60,7 @@ go_library(
         "type.go",
         "video.go",
     ],
-    importpath = "go-common/app/service/main/videoup/dao/archive",
+    importpath = "github.com/namelessup/bilibili/app/service/main/videoup/dao/archive",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

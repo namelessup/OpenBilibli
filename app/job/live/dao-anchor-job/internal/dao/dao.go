@@ -3,14 +3,14 @@ package dao
 import (
 	"context"
 
-	"go-common/app/job/live/dao-anchor-job/internal/conf"
-	av_api "go-common/app/service/live/av/api/liverpc"
-	daoAnchor_api_v0 "go-common/app/service/live/dao-anchor/api/grpc/v0"
-	daoAnchor_api "go-common/app/service/live/dao-anchor/api/grpc/v1"
-	video_api "go-common/app/service/video/stream-mng/api/v1"
-	"go-common/library/database/bfs"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/rpc/liverpc"
+	"github.com/namelessup/bilibili/app/job/live/dao-anchor-job/internal/conf"
+	av_api "github.com/namelessup/bilibili/app/service/live/av/api/liverpc"
+	daoAnchor_api_v0 "github.com/namelessup/bilibili/app/service/live/dao-anchor/api/grpc/v0"
+	daoAnchor_api "github.com/namelessup/bilibili/app/service/live/dao-anchor/api/grpc/v1"
+	video_api "github.com/namelessup/bilibili/app/service/video/stream-mng/api/v1"
+	"github.com/namelessup/bilibili/library/database/bfs"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/rpc/liverpc"
 )
 
 // Dao dao

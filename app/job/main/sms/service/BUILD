@@ -29,7 +29,7 @@ go_library(
         "service.go",
         "sms.go",
     ],
-    importpath = "go-common/app/job/main/sms/service",
+    importpath = "github.com/namelessup/bilibili/app/job/main/sms/service",
     tags = ["automanaged"],
     deps = [
         "//app/job/main/sms/conf:go_default_library",

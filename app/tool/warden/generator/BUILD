@@ -21,7 +21,7 @@ go_library(
         "genservice.go",
         "protoc.go",
     ],
-    importpath = "go-common/app/tool/warden/generator",
+    importpath = "github.com/namelessup/bilibili/app/tool/warden/generator",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

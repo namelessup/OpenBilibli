@@ -3,7 +3,7 @@ package bangumi
 import (
 	"context"
 
-	seasongrpc "go-common/app/service/openplatform/pgc-season/api/grpc/season/v1"
+	seasongrpc "github.com/namelessup/bilibili/app/service/openplatform/pgc-season/api/grpc/season/v1"
 
 	"github.com/pkg/errors"
 )

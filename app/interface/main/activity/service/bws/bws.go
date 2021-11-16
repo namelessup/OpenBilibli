@@ -5,16 +5,16 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/interface/main/activity/conf"
-	"go-common/app/interface/main/activity/dao/bws"
-	bwsmdl "go-common/app/interface/main/activity/model/bws"
-	accapi "go-common/app/service/main/account/api"
-	suitmdl "go-common/app/service/main/usersuit/model"
-	suitrpc "go-common/app/service/main/usersuit/rpc/client"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
-	"go-common/library/sync/pipeline/fanout"
+	"github.com/namelessup/bilibili/app/interface/main/activity/conf"
+	"github.com/namelessup/bilibili/app/interface/main/activity/dao/bws"
+	bwsmdl "github.com/namelessup/bilibili/app/interface/main/activity/model/bws"
+	accapi "github.com/namelessup/bilibili/app/service/main/account/api"
+	suitmdl "github.com/namelessup/bilibili/app/service/main/usersuit/model"
+	suitrpc "github.com/namelessup/bilibili/app/service/main/usersuit/rpc/client"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
+	"github.com/namelessup/bilibili/library/sync/pipeline/fanout"
 )
 
 const (

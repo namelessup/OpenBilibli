@@ -4,13 +4,13 @@ import (
 	"context"
 	"time"
 
-	archive "go-common/app/service/main/archive/api"
-	"go-common/app/service/main/workflow/conf"
-	"go-common/app/service/main/workflow/dao"
-	"go-common/app/service/main/workflow/dao/sobot"
-	"go-common/app/service/main/workflow/model"
-	"go-common/library/log"
-	"go-common/library/sync/pipeline/fanout"
+	archive "github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/app/service/main/workflow/conf"
+	"github.com/namelessup/bilibili/app/service/main/workflow/dao"
+	"github.com/namelessup/bilibili/app/service/main/workflow/dao/sobot"
+	"github.com/namelessup/bilibili/app/service/main/workflow/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/pipeline/fanout"
 
 	"github.com/pkg/errors"
 )

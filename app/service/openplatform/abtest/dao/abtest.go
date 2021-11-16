@@ -6,9 +6,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"go-common/app/service/openplatform/abtest/model"
-	"go-common/library/cache/redis"
-	"go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/service/openplatform/abtest/model"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/database/sql"
 
 	"github.com/pkg/errors"
 )

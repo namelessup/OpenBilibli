@@ -5,8 +5,8 @@ import (
 	"os"
 	"testing"
 
-	"go-common/app/admin/main/reply/conf"
-	"go-common/library/conf/env"
+	"github.com/namelessup/bilibili/app/admin/main/reply/conf"
+	"github.com/namelessup/bilibili/library/conf/env"
 
 	_ "github.com/go-sql-driver/mysql"
 	. "github.com/smartystreets/goconvey/convey"

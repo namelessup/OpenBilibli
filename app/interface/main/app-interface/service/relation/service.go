@@ -1,10 +1,10 @@
 package relation
 
 import (
-	"go-common/app/interface/main/app-interface/conf"
-	accdao "go-common/app/interface/main/app-interface/dao/account"
-	livedao "go-common/app/interface/main/app-interface/dao/live"
-	reldao "go-common/app/interface/main/app-interface/dao/relation"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/conf"
+	accdao "github.com/namelessup/bilibili/app/interface/main/app-interface/dao/account"
+	livedao "github.com/namelessup/bilibili/app/interface/main/app-interface/dao/live"
+	reldao "github.com/namelessup/bilibili/app/interface/main/app-interface/dao/relation"
 )
 
 // Service is favorite.

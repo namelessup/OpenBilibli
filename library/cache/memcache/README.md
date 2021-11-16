@@ -1,4 +1,4 @@
-# go-common/cache/memcache
+# github.com/namelessup/bilibili/cache/memcache
 
 ##### 项目简介
 > 1. 提供protobuf，gob，json序列化方式，gzip的memcache接口

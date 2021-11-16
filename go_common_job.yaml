@@ -24,7 +24,7 @@ plank:
   max_goroutines: 20
 pod_namespace: default
 presubmits:
-  platform/go-common:
+  platform/github.com/namelessup/bilibili:
   - agent: kubernetes
     always_run: true
     cluster: default
@@ -97,7 +97,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/admin/ep/melloi/...
@@ -171,7 +171,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/admin/ep/merlin/...
@@ -245,7 +245,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/admin/ep/saga/...
@@ -319,7 +319,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/admin/ep/tapd/...
@@ -393,7 +393,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/admin/live/live-admin/...
@@ -467,7 +467,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/admin/main/activity/...
@@ -541,7 +541,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/admin/main/aegis/...
@@ -615,7 +615,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/admin/main/answer/...
@@ -689,7 +689,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/admin/main/apm/...
@@ -763,7 +763,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/admin/main/app/...
@@ -837,7 +837,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/admin/main/appstatic/...
@@ -911,7 +911,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/admin/main/bfs/...
@@ -985,7 +985,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/admin/main/block/...
@@ -1059,7 +1059,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/admin/main/cache/...
@@ -1133,7 +1133,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/admin/main/card/...
@@ -1207,7 +1207,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/admin/main/config/...
@@ -1281,7 +1281,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/admin/main/coupon/...
@@ -1355,7 +1355,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/admin/main/creative/...
@@ -1429,7 +1429,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/admin/main/credit/...
@@ -1503,7 +1503,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/admin/main/dm/...
@@ -1577,7 +1577,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/admin/main/esports/...
@@ -1651,7 +1651,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/admin/main/feed/...
@@ -1725,7 +1725,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/admin/main/filter/...
@@ -1799,7 +1799,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/admin/main/growup/...
@@ -1873,7 +1873,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/admin/main/laser/...
@@ -1947,7 +1947,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/admin/main/macross/...
@@ -2021,7 +2021,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/admin/main/manager/...
@@ -2095,7 +2095,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/admin/main/mcn/...
@@ -2169,7 +2169,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/admin/main/member/...
@@ -2243,7 +2243,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/admin/main/open/...
@@ -2317,7 +2317,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/admin/main/passport/...
@@ -2391,7 +2391,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/admin/main/point/...
@@ -2465,7 +2465,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/admin/main/push/...
@@ -2539,7 +2539,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/admin/main/relation/...
@@ -2613,7 +2613,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/admin/main/reply/...
@@ -2687,7 +2687,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/admin/main/search/...
@@ -2761,7 +2761,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/admin/main/sms/...
@@ -2835,7 +2835,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/admin/main/space/...
@@ -2909,7 +2909,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/admin/main/spy/...
@@ -2983,7 +2983,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/admin/main/tag/...
@@ -3057,7 +3057,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/admin/main/tv/...
@@ -3131,7 +3131,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/admin/main/up/...
@@ -3205,7 +3205,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/admin/main/up-rating/...
@@ -3279,7 +3279,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/admin/main/upload/...
@@ -3353,7 +3353,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/admin/main/usersuit/...
@@ -3427,7 +3427,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/admin/main/videoup/...
@@ -3501,7 +3501,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/admin/main/videoup-task/...
@@ -3575,7 +3575,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/admin/main/vip/...
@@ -3649,7 +3649,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/admin/main/workflow/...
@@ -3723,7 +3723,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/admin/openplatform/sug/...
@@ -3797,7 +3797,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/bbq/bullet/...
@@ -3871,7 +3871,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/bbq/video/...
@@ -3945,7 +3945,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/bbq/wechat/...
@@ -4019,7 +4019,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/live/app-blink/...
@@ -4093,7 +4093,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/live/app-interface/...
@@ -4167,7 +4167,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/live/app-room/...
@@ -4241,7 +4241,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/live/app-ucenter/...
@@ -4315,7 +4315,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/live/live-demo/...
@@ -4389,7 +4389,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/live/lottery-interface/...
@@ -4463,7 +4463,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/live/push-live/...
@@ -4537,7 +4537,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/live/web-room/...
@@ -4611,7 +4611,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/live/web-ucenter/...
@@ -4685,7 +4685,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/main/account/...
@@ -4759,7 +4759,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/main/activity/...
@@ -4833,7 +4833,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/main/answer/...
@@ -4907,7 +4907,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/main/app-card/...
@@ -4981,7 +4981,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/main/app-channel/...
@@ -5055,7 +5055,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/main/app-feed/...
@@ -5129,7 +5129,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/main/app-interface/...
@@ -5203,7 +5203,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/main/app-intl/...
@@ -5277,7 +5277,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/main/app-player/...
@@ -5351,7 +5351,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/main/app-resource/...
@@ -5425,7 +5425,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/main/app-show/...
@@ -5499,7 +5499,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/main/app-tag/...
@@ -5573,7 +5573,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/main/app-view/...
@@ -5647,7 +5647,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/main/app-wall/...
@@ -5721,7 +5721,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/main/broadcast/...
@@ -5795,7 +5795,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/main/captcha/...
@@ -5869,7 +5869,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/main/creative/...
@@ -5943,7 +5943,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/main/credit/...
@@ -6017,7 +6017,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/main/dm/...
@@ -6091,7 +6091,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/main/dm2/...
@@ -6165,7 +6165,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/main/esports/...
@@ -6239,7 +6239,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/main/favorite/...
@@ -6313,7 +6313,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/main/feedback/...
@@ -6387,7 +6387,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/main/growup/...
@@ -6461,7 +6461,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/main/history/...
@@ -6535,7 +6535,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/main/kvo/...
@@ -6609,7 +6609,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/main/laser/...
@@ -6683,7 +6683,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/main/mcn/...
@@ -6757,7 +6757,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/main/passport-login/...
@@ -6831,7 +6831,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/main/player/...
@@ -6905,7 +6905,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/main/playlist/...
@@ -6979,7 +6979,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/main/push/...
@@ -7053,7 +7053,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/main/push-archive/...
@@ -7127,7 +7127,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/main/reply/...
@@ -7201,7 +7201,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/main/report-click/...
@@ -7275,7 +7275,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/main/shorturl/...
@@ -7349,7 +7349,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/main/space/...
@@ -7423,7 +7423,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/main/spread/...
@@ -7497,7 +7497,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/main/tag/...
@@ -7571,7 +7571,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/main/tv/...
@@ -7645,7 +7645,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/main/ugcpay/...
@@ -7719,7 +7719,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/main/ugcpay-rank/...
@@ -7793,7 +7793,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/main/up-rating/...
@@ -7867,7 +7867,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/main/upload/...
@@ -7941,7 +7941,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/main/videoup/...
@@ -8015,7 +8015,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/main/web/...
@@ -8089,7 +8089,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/main/web-feed/...
@@ -8163,7 +8163,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/main/web-goblin/...
@@ -8237,7 +8237,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/main/web-show/...
@@ -8311,7 +8311,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/openplatform/article/...
@@ -8385,7 +8385,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/openplatform/monitor-end/...
@@ -8459,7 +8459,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/interface/video/portal/...
@@ -8533,7 +8533,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/bbq/recall/...
@@ -8607,7 +8607,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/bbq/video/...
@@ -8681,7 +8681,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/live/gift/...
@@ -8755,7 +8755,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/live/push-search/...
@@ -8829,7 +8829,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/live/recommend-job/...
@@ -8903,7 +8903,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/live/wallet/...
@@ -8977,7 +8977,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/live/xlottery/...
@@ -9051,7 +9051,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/account-notify/...
@@ -9125,7 +9125,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/account-recovery/...
@@ -9199,7 +9199,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/account-summary/...
@@ -9273,7 +9273,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/activity/...
@@ -9347,7 +9347,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/aegis/...
@@ -9421,7 +9421,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/answer/...
@@ -9495,7 +9495,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/app/...
@@ -9569,7 +9569,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/app-player/...
@@ -9643,7 +9643,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/app-wall/...
@@ -9717,7 +9717,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/archive/...
@@ -9791,7 +9791,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/archive-shjd/...
@@ -9865,7 +9865,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/block/...
@@ -9939,7 +9939,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/broadcast/...
@@ -10013,7 +10013,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/card/...
@@ -10087,7 +10087,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/click/...
@@ -10161,7 +10161,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/coin/...
@@ -10235,7 +10235,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/coupon/...
@@ -10309,7 +10309,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/creative/...
@@ -10383,7 +10383,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/credit/...
@@ -10457,7 +10457,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/credit-timer/...
@@ -10531,7 +10531,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/dm/...
@@ -10605,7 +10605,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/dm2/...
@@ -10679,7 +10679,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/favorite/...
@@ -10753,7 +10753,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/feed/...
@@ -10827,7 +10827,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/figure/...
@@ -10901,7 +10901,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/figure-timer/...
@@ -10975,7 +10975,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/growup/...
@@ -11049,7 +11049,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/history/...
@@ -11123,7 +11123,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/identify/...
@@ -11197,7 +11197,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/mcn/...
@@ -11271,7 +11271,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/member/...
@@ -11345,7 +11345,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/member-cache/...
@@ -11419,7 +11419,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/passport/...
@@ -11493,7 +11493,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/passport-auth/...
@@ -11567,7 +11567,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/passport-encrypt/...
@@ -11641,7 +11641,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/passport-game-cloud/...
@@ -11715,7 +11715,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/passport-game-data/...
@@ -11789,7 +11789,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/passport-game-local/...
@@ -11863,7 +11863,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/passport-user/...
@@ -11937,7 +11937,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/passport-user-compare/...
@@ -12011,7 +12011,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/playlist/...
@@ -12085,7 +12085,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/point/...
@@ -12159,7 +12159,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/push/...
@@ -12233,7 +12233,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/relation/...
@@ -12307,7 +12307,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/relation-cache/...
@@ -12381,7 +12381,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/reply/...
@@ -12455,7 +12455,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/reply-feed/...
@@ -12529,7 +12529,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/search/...
@@ -12603,7 +12603,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/sms/...
@@ -12677,7 +12677,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/spy/...
@@ -12751,7 +12751,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/stat/...
@@ -12825,7 +12825,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/tag/...
@@ -12899,7 +12899,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/tv/...
@@ -12973,7 +12973,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/ugcpay/...
@@ -13047,7 +13047,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/up/...
@@ -13121,7 +13121,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/up-rating/...
@@ -13195,7 +13195,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/upload/...
@@ -13269,7 +13269,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/usersuit/...
@@ -13343,7 +13343,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/videoup/...
@@ -13417,7 +13417,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/videoup-report/...
@@ -13491,7 +13491,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/vip/...
@@ -13565,7 +13565,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/web-goblin/...
@@ -13639,7 +13639,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/main/workflow/...
@@ -13713,7 +13713,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/openplatform/article/...
@@ -13787,7 +13787,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/openplatform/open-market/...
@@ -13861,7 +13861,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/job/openplatform/open-sug/...
@@ -13935,7 +13935,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/bbq/notice-service/...
@@ -14009,7 +14009,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/bbq/push/...
@@ -14083,7 +14083,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/bbq/recsys/...
@@ -14157,7 +14157,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/bbq/recsys-recall/...
@@ -14231,7 +14231,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/bbq/search/...
@@ -14305,7 +14305,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/bbq/sys-msg/...
@@ -14379,7 +14379,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/bbq/user/...
@@ -14453,7 +14453,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/bbq/video/...
@@ -14527,7 +14527,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/bbq/video-image/...
@@ -14601,7 +14601,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/ep/footman/...
@@ -14675,7 +14675,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/ep/saga-agent/...
@@ -14749,7 +14749,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/live/activity/...
@@ -14823,7 +14823,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/live/broadcast-proxy/...
@@ -14897,7 +14897,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/live/fans_medal/...
@@ -14971,7 +14971,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/live/gift/...
@@ -15045,7 +15045,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/live/grpc-demo/...
@@ -15119,7 +15119,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/live/live-dm/...
@@ -15193,7 +15193,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/live/live_riskcontrol/...
@@ -15267,7 +15267,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/live/rankdb/...
@@ -15341,7 +15341,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/live/recommend/...
@@ -15415,7 +15415,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/live/resource/...
@@ -15489,7 +15489,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/live/rtc/...
@@ -15563,7 +15563,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/live/userexp/...
@@ -15637,7 +15637,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/live/wallet/...
@@ -15711,7 +15711,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/live/xanchor/...
@@ -15785,7 +15785,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/live/xfansmedal/...
@@ -15859,7 +15859,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/live/xlottery/...
@@ -15933,7 +15933,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/live/xrewardcenter/...
@@ -16007,7 +16007,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/live/xuser/...
@@ -16081,7 +16081,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/live/zeus/...
@@ -16155,7 +16155,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/main/account/...
@@ -16229,7 +16229,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/main/account-recovery/...
@@ -16303,7 +16303,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/main/antispam/...
@@ -16377,7 +16377,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/main/archive/...
@@ -16451,7 +16451,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/main/assist/...
@@ -16525,7 +16525,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/main/bns/...
@@ -16599,7 +16599,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/main/broadcast/...
@@ -16673,7 +16673,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/main/card/...
@@ -16747,7 +16747,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/main/coin/...
@@ -16775,7 +16775,7 @@ presubmits:
           - --command
           - make
           - bazel-build
-          - WHAT=go-common/app/infra/config
+          - WHAT=github.com/namelessup/bilibili/app/infra/config
           image: hub.bilibili.co/k8s-prow/build:v20181018-53e2a28a1-dirty
           name: service-main-config
           resources: {}
@@ -16801,7 +16801,7 @@ presubmits:
           - --root=/root
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
-          - ./build/unit-test.sh go-common/app/infra/config
+          - ./build/unit-test.sh github.com/namelessup/bilibili/app/infra/config
           image: hub.bilibili.co/k8s-prow/build:v20181018-53e2a28a1-dirty
           name: service-main-config
           resources: {}
@@ -16821,10 +16821,10 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
-          - gometalinter ./go-common/app/infra/config/...
+          - gometalinter ./github.com/namelessup/bilibili/app/infra/config/...
           image: hub.bilibili.co/k8s-prow/golint:v20181216-121e13014-dirty
           name: service-main-config
           resources: {}
@@ -16895,7 +16895,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/main/coupon/...
@@ -16969,7 +16969,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/main/dapper/...
@@ -17043,7 +17043,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/main/dapper-query/...
@@ -17117,7 +17117,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/main/dynamic/...
@@ -17191,7 +17191,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/main/favorite/...
@@ -17265,7 +17265,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/main/feed/...
@@ -17339,7 +17339,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/main/figure/...
@@ -17413,7 +17413,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/main/filter/...
@@ -17487,7 +17487,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/main/history/...
@@ -17561,7 +17561,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/main/identify/...
@@ -17635,7 +17635,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/main/identify-game/...
@@ -17709,7 +17709,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/main/location/...
@@ -17783,7 +17783,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/main/member/...
@@ -17857,7 +17857,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/main/msm/...
@@ -17931,7 +17931,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/main/notify/...
@@ -18005,7 +18005,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/main/open/...
@@ -18079,7 +18079,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/main/passport/...
@@ -18153,7 +18153,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/main/passport-auth/...
@@ -18227,7 +18227,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/main/passport-game/...
@@ -18301,7 +18301,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/main/point/...
@@ -18375,7 +18375,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/main/push/...
@@ -18449,7 +18449,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/main/push-strategy/...
@@ -18523,7 +18523,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/main/rank/...
@@ -18597,7 +18597,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/main/relation/...
@@ -18671,7 +18671,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/main/reply-feed/...
@@ -18745,7 +18745,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/main/resource/...
@@ -18819,7 +18819,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/main/riot-search/...
@@ -18893,7 +18893,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/main/search/...
@@ -18967,7 +18967,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/main/secure/...
@@ -19041,7 +19041,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/main/seq-server/...
@@ -19115,7 +19115,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/main/share/...
@@ -19189,7 +19189,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/main/sms/...
@@ -19263,7 +19263,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/main/spy/...
@@ -19337,7 +19337,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/main/tag/...
@@ -19411,7 +19411,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/main/thumbup/...
@@ -19485,7 +19485,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/main/tv/...
@@ -19559,7 +19559,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/main/ugcpay/...
@@ -19633,7 +19633,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/main/up/...
@@ -19707,7 +19707,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/main/upcredit/...
@@ -19781,7 +19781,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/main/usersuit/...
@@ -19855,7 +19855,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/main/videoup/...
@@ -19929,7 +19929,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/main/vip/...
@@ -20003,7 +20003,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/main/vipinfo/...
@@ -20077,7 +20077,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/main/workflow/...
@@ -20151,7 +20151,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/openplatform/abtest/...
@@ -20225,7 +20225,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/openplatform/anti-fraud/...
@@ -20299,7 +20299,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/openplatform/pgc-season/...
@@ -20373,7 +20373,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/openplatform/ticket-item/...
@@ -20447,7 +20447,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/openplatform/ticket-sales/...
@@ -20521,7 +20521,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/ops/log-agent/...
@@ -20595,7 +20595,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/service/video/stream-mng/...
@@ -20669,7 +20669,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/tool/mkprow/...
@@ -20743,7 +20743,7 @@ presubmits:
         - args:
           - --id=$(BUILD_ID)
           - --job=$(JOB_NAME)
-          - --root=/go/src/go-common
+          - --root=/go/src/github.com/namelessup/bilibili
           - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
           - --command
           - gometalinter ./app/tool/owner/...
@@ -20784,7 +20784,7 @@ presubmits:
       - args:
         - --id=$(BUILD_ID)
         - --job=$(JOB_NAME)
-        - --root=/go/src/go-common
+        - --root=/go/src/github.com/namelessup/bilibili
         - --repo=git.bilibili.co/$(REPO_OWNER)/$(REPO_NAME)=$(PULL_REFS)
         - --command
         - ./build/update-bazel.sh

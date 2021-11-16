@@ -1,8 +1,8 @@
 package model
 
 import (
-	v1 "go-common/app/service/main/archive/api"
-	xtime "go-common/library/time"
+	v1 "github.com/namelessup/bilibili/app/service/main/archive/api"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // Channel channel struct

@@ -6,18 +6,18 @@ import (
 	"strings"
 	"time"
 
-	v1 "go-common/app/service/main/account/api"
-	"go-common/app/service/main/account/conf"
-	member "go-common/app/service/main/member/api/gorpc"
-	mmodel "go-common/app/service/main/member/model"
-	usersuit "go-common/app/service/main/usersuit/rpc/client"
-	"go-common/library/cache/memcache"
-	"go-common/library/database/elastic"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/sync/pipeline/fanout"
+	v1 "github.com/namelessup/bilibili/app/service/main/account/api"
+	"github.com/namelessup/bilibili/app/service/main/account/conf"
+	member "github.com/namelessup/bilibili/app/service/main/member/api/gorpc"
+	mmodel "github.com/namelessup/bilibili/app/service/main/member/model"
+	usersuit "github.com/namelessup/bilibili/app/service/main/usersuit/rpc/client"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/database/elastic"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/sync/pipeline/fanout"
 )
 
-//go:generate $GOPATH/src/go-common/app/tool/cache/gen
+//go:generate $GOPATH/src/github.com/namelessup/bilibili/app/tool/cache/gen
 type _cache interface {
 	Info(c context.Context, key int64) (*v1.Info, error)
 	//cache: -batch=50 -max_group=10 -batch_err=continue

@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"testing"
 
-	"go-common/app/service/openplatform/anti-fraud/conf"
+	"github.com/namelessup/bilibili/app/service/openplatform/anti-fraud/conf"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

@@ -22,7 +22,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["banner.go"],
-    importpath = "go-common/app/interface/main/app-show/service/banner",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-show/service/banner",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

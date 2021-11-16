@@ -1,7 +1,7 @@
 package model
 
 import (
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 //VipChangeHistory vip_change_history table

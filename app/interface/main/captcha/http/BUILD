@@ -12,7 +12,7 @@ go_library(
         "http.go",
         "render_image.go",
     ],
-    importpath = "go-common/app/interface/main/captcha/http",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/captcha/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

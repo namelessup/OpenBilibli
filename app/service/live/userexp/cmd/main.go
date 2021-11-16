@@ -2,17 +2,17 @@ package main
 
 import (
 	"flag"
-	"go-common/library/queue/databus/report"
+	"github.com/namelessup/bilibili/library/queue/databus/report"
 	"os"
 	"os/signal"
 	"time"
 
-	"go-common/app/service/live/userexp/conf"
-	"go-common/app/service/live/userexp/http"
-	"go-common/app/service/live/userexp/service"
-	"go-common/library/log"
-	"go-common/library/net/trace"
-	"go-common/library/syscall"
+	"github.com/namelessup/bilibili/app/service/live/userexp/conf"
+	"github.com/namelessup/bilibili/app/service/live/userexp/http"
+	"github.com/namelessup/bilibili/app/service/live/userexp/service"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
+	"github.com/namelessup/bilibili/library/syscall"
 )
 
 func main() {

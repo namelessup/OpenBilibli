@@ -8,9 +8,9 @@ import (
 	"sync"
 	"time"
 
-	"go-common/app/job/main/growup/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/growup/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 
 	"golang.org/x/sync/errgroup"
 )

@@ -3,14 +3,14 @@ package service
 import (
 	"context"
 
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/library/net/trace"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/robfig/cron"
 
-	"go-common/app/job/live/dao-anchor-job/internal/conf"
-	"go-common/app/job/live/dao-anchor-job/internal/dao"
+	"github.com/namelessup/bilibili/app/job/live/dao-anchor-job/internal/conf"
+	"github.com/namelessup/bilibili/app/job/live/dao-anchor-job/internal/dao"
 )
 
 // Service struct

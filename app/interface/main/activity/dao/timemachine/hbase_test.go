@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"go-common/app/interface/main/activity/model/timemachine"
+	"github.com/namelessup/bilibili/app/interface/main/activity/model/timemachine"
 
 	"github.com/smartystreets/goconvey/convey"
 	"github.com/tsuna/gohbase/hrpc"

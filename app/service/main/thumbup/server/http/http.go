@@ -3,12 +3,12 @@ package http
 import (
 	"net/http"
 
-	"go-common/app/service/main/thumbup/conf"
-	"go-common/app/service/main/thumbup/service"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/rate"
-	"go-common/library/net/http/blademaster/middleware/verify"
+	"github.com/namelessup/bilibili/app/service/main/thumbup/conf"
+	"github.com/namelessup/bilibili/app/service/main/thumbup/service"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/rate"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/verify"
 )
 
 var (

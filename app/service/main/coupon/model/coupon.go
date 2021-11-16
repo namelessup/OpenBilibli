@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 // coupon_batch_info表 product_limit_renewal字段.

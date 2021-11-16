@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
-	"go-common/app/admin/main/manager/model"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/admin/main/manager/model"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 // AddType .

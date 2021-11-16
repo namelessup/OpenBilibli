@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"go-common/library/net/http/blademaster/middleware/permit"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/permit"
 
 	"github.com/smartystreets/goconvey/convey"
 )

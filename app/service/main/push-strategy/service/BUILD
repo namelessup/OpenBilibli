@@ -25,7 +25,7 @@ go_library(
         "service.go",
         "task.go",
     ],
-    importpath = "go-common/app/service/main/push-strategy/service",
+    importpath = "github.com/namelessup/bilibili/app/service/main/push-strategy/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

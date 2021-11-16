@@ -6,8 +6,8 @@ import (
 	"os"
 	"testing"
 
-	"go-common/app/admin/main/block/conf"
-	"go-common/app/admin/main/block/model"
+	"github.com/namelessup/bilibili/app/admin/main/block/conf"
+	"github.com/namelessup/bilibili/app/admin/main/block/model"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

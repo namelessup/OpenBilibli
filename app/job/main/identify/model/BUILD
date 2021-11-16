@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["message.go"],
-    importpath = "go-common/app/job/main/identify/model",
+    importpath = "github.com/namelessup/bilibili/app/job/main/identify/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

@@ -3,9 +3,9 @@ package http
 import (
 	"strconv"
 
-	"go-common/app/service/live/wallet/model"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/service/live/wallet/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func getBasicParam(c *bm.Context) *model.BasicParam {

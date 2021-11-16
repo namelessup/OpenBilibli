@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"go-common/app/interface/main/spread/conf"
+	"github.com/namelessup/bilibili/app/interface/main/spread/conf"
 )
 
 var (

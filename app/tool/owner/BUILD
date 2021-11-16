@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["main.go"],
-    importpath = "go-common/app/tool/owner",
+    importpath = "github.com/namelessup/bilibili/app/tool/owner",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

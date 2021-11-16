@@ -3,9 +3,9 @@ package watermark
 import (
 	"context"
 
-	"go-common/app/interface/main/creative/conf"
-	"go-common/library/database/sql"
-	httpx "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/interface/main/creative/conf"
+	"github.com/namelessup/bilibili/library/database/sql"
+	httpx "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // Dao  define

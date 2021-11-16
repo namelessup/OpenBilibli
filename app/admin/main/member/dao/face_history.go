@@ -9,10 +9,10 @@ import (
 	"strings"
 	"sync"
 
-	"go-common/app/admin/main/member/model"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/admin/main/member/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	"github.com/tsuna/gohbase/hrpc"
 )

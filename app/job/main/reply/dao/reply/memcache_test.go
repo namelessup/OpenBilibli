@@ -2,7 +2,7 @@ package reply
 
 import (
 	"context"
-	model "go-common/app/job/main/reply/model/reply"
+	model "github.com/namelessup/bilibili/app/job/main/reply/model/reply"
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"

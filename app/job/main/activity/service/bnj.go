@@ -7,10 +7,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go-common/app/admin/main/activity/model"
-	"go-common/app/job/main/activity/model/bnj"
-	"go-common/app/service/main/account/api"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/activity/model"
+	"github.com/namelessup/bilibili/app/job/main/activity/model/bnj"
+	"github.com/namelessup/bilibili/app/service/main/account/api"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

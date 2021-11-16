@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["splash.go"],
-    importpath = "go-common/app/interface/main/app-resource/model/splash",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-resource/model/splash",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

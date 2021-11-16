@@ -33,7 +33,7 @@ go_library(
         "query.go",
         "upsert.go",
     ],
-    importpath = "go-common/app/admin/main/search/http",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/search/http",
     tags = ["automanaged"],
     deps = [
         "//app/admin/main/search/conf:go_default_library",

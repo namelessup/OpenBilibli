@@ -52,7 +52,7 @@ go_library(
         "tag.go",
         "tagarc.go",
     ],
-    importpath = "go-common/app/interface/main/tag/service",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/tag/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

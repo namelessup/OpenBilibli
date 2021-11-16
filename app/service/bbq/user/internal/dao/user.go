@@ -3,12 +3,12 @@ package dao
 import (
 	"context"
 	"fmt"
-	"go-common/app/service/bbq/user/api"
-	"go-common/app/service/bbq/user/internal/model"
-	accountv1 "go-common/app/service/main/account/api"
-	"go-common/library/log"
-	"go-common/library/time"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/service/bbq/user/api"
+	"github.com/namelessup/bilibili/app/service/bbq/user/internal/model"
+	accountv1 "github.com/namelessup/bilibili/app/service/main/account/api"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/time"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 const (

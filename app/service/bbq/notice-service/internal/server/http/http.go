@@ -4,13 +4,13 @@ import (
 	"net/http"
 
 	"github.com/pkg/errors"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/verify"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/verify"
 
-	"go-common/app/service/bbq/notice-service/api/v1"
-	"go-common/app/service/bbq/notice-service/internal/conf"
-	"go-common/app/service/bbq/notice-service/internal/service"
+	"github.com/namelessup/bilibili/app/service/bbq/notice-service/api/v1"
+	"github.com/namelessup/bilibili/app/service/bbq/notice-service/internal/conf"
+	"github.com/namelessup/bilibili/app/service/bbq/notice-service/internal/service"
 )
 
 var (

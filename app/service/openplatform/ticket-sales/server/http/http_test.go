@@ -9,10 +9,10 @@ import (
 	"sync"
 	"testing"
 
-	"go-common/app/service/openplatform/ticket-sales/conf"
-	"go-common/app/service/openplatform/ticket-sales/service"
-	"go-common/library/conf/paladin"
-	httpx "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/conf"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/service"
+	"github.com/namelessup/bilibili/library/conf/paladin"
+	httpx "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 var (

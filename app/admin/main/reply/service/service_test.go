@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/admin/main/reply/conf"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/reply/conf"
+	"github.com/namelessup/bilibili/library/log"
 
 	_ "github.com/go-sql-driver/mysql"
 )

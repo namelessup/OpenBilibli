@@ -3,9 +3,9 @@ package resource
 import (
 	"context"
 
-	accgrpc "go-common/app/service/main/account/api"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	accgrpc "github.com/namelessup/bilibili/app/service/main/account/api"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // MidByNickname .

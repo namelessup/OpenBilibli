@@ -4,12 +4,12 @@ import (
 	"context"
 	"encoding/json"
 
-	jobmdl "go-common/app/job/main/archive/model/databus"
-	"go-common/app/job/main/archive/model/retry"
-	"go-common/app/service/main/archive/model/archive"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
+	jobmdl "github.com/namelessup/bilibili/app/job/main/archive/model/databus"
+	"github.com/namelessup/bilibili/app/job/main/archive/model/retry"
+	"github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 func (s *Service) videoupConsumer() {

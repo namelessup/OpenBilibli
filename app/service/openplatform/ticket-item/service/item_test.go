@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	item "go-common/app/service/openplatform/ticket-item/api/grpc/v1"
-	"go-common/app/service/openplatform/ticket-item/model"
+	item "github.com/namelessup/bilibili/app/service/openplatform/ticket-item/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-item/model"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

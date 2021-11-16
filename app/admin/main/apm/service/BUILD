@@ -76,7 +76,7 @@ go_library(
         "ut_rank.go",
         "ut_report.go",
     ],
-    importpath = "go-common/app/admin/main/apm/service",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/apm/service",
     tags = ["automanaged"],
     deps = [
         "//app/admin/main/apm/conf:go_default_library",

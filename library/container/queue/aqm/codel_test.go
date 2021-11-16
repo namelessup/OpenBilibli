@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 var testConf = &Config{

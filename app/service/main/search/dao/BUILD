@@ -31,7 +31,7 @@ go_library(
         "reply.go",
         "sms.go",
     ],
-    importpath = "go-common/app/service/main/search/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/main/search/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

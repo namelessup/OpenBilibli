@@ -18,7 +18,7 @@ go_library(
         "state.go",
         "states.go",
     ],
-    importpath = "go-common/app/service/ops/log-agent/input/file",
+    importpath = "github.com/namelessup/bilibili/app/service/ops/log-agent/input/file",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

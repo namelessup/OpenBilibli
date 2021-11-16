@@ -4,13 +4,13 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/service/main/account/conf"
-	"go-common/app/service/main/account/dao"
-	"go-common/app/service/main/account/model/queue"
-	"go-common/app/service/main/coin/api/gorpc"
-	"go-common/app/service/main/relation/rpc/client"
-	mc "go-common/library/cache/memcache"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/account/conf"
+	"github.com/namelessup/bilibili/app/service/main/account/dao"
+	"github.com/namelessup/bilibili/app/service/main/account/model/queue"
+	"github.com/namelessup/bilibili/app/service/main/coin/api/gorpc"
+	"github.com/namelessup/bilibili/app/service/main/relation/rpc/client"
+	mc "github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/pkg/errors"
 )

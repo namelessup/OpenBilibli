@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["admin.toml"],
-    importpath = "go-common/app/admin/ep/marthe/cmd",
+    importpath = "github.com/namelessup/bilibili/app/admin/ep/marthe/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

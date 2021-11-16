@@ -7,8 +7,8 @@ package service
 //	"strings"
 //	"time"
 //
-//	arcmdl "go-common/app/service/videoup/model/archive"
-//	"go-common/log"
+//	arcmdl "github.com/namelessup/bilibili/app/service/videoup/model/archive"
+//	"github.com/namelessup/bilibili/log"
 //)
 
 //monitorConsume

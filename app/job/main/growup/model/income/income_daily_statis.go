@@ -1,7 +1,7 @@
 package income
 
 import (
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 // DateStatis up_income_daily_statis and av_income_daily_statis struct

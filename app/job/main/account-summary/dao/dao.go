@@ -3,13 +3,13 @@ package dao
 import (
 	"context"
 
-	"go-common/app/job/main/account-summary/conf"
-	member "go-common/app/service/main/member/api/gorpc"
-	relation "go-common/app/service/main/relation/rpc/client"
-	"go-common/library/database/sql"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/job/main/account-summary/conf"
+	member "github.com/namelessup/bilibili/app/service/main/member/api/gorpc"
+	relation "github.com/namelessup/bilibili/app/service/main/relation/rpc/client"
+	"github.com/namelessup/bilibili/library/database/sql"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 
-	"go-common/library/database/hbase.v2"
+	"github.com/namelessup/bilibili/library/database/hbase.v2"
 )
 
 // Dao dao

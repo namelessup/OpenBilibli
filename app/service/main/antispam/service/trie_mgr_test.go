@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/service/main/antispam/util"
-	"go-common/app/service/main/antispam/util/trie"
+	"github.com/namelessup/bilibili/app/service/main/antispam/util"
+	"github.com/namelessup/bilibili/app/service/main/antispam/util/trie"
 )
 
 func TestConcurrentTrieFind(t *testing.T) {

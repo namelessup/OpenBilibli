@@ -8,9 +8,9 @@ import (
 	"github.com/bouk/monkey"
 	"github.com/tsuna/gohbase/hrpc"
 
-	"go-common/app/admin/main/up/model/datamodel"
+	"github.com/namelessup/bilibili/app/admin/main/up/model/datamodel"
 
-	hbase "go-common/library/database/hbase.v2"
+	hbase "github.com/namelessup/bilibili/library/database/hbase.v2"
 
 	"github.com/smartystreets/goconvey/convey"
 )

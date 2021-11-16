@@ -3,8 +3,8 @@ package archive
 import (
 	"context"
 	"encoding/json"
-	"go-common/app/interface/main/creative/model/archive"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/archive"
+	"github.com/namelessup/bilibili/library/ecode"
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"

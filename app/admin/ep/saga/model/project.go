@@ -1,6 +1,6 @@
 package model
 
-import "go-common/library/ecode"
+import "github.com/namelessup/bilibili/library/ecode"
 
 // ProjectInfo def
 type ProjectInfo struct {

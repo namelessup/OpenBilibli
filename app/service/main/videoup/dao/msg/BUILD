@@ -12,7 +12,7 @@ go_library(
         "dao.go",
         "msg.go",
     ],
-    importpath = "go-common/app/service/main/videoup/dao/msg",
+    importpath = "github.com/namelessup/bilibili/app/service/main/videoup/dao/msg",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

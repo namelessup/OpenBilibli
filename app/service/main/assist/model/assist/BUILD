@@ -11,7 +11,7 @@ go_library(
         "assist.go",
         "rpc.go",
     ],
-    importpath = "go-common/app/service/main/assist/model/assist",
+    importpath = "github.com/namelessup/bilibili/app/service/main/assist/model/assist",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

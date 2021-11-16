@@ -26,7 +26,7 @@ go_library(
         "service.go",
         "version.go",
     ],
-    importpath = "go-common/app/interface/main/creative/service/version",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/creative/service/version",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -4,11 +4,11 @@ import (
 	"context"
 	"strings"
 
-	"go-common/app/service/openplatform/ticket-sales/model"
-	"go-common/app/service/openplatform/ticket-sales/model/consts"
-	"go-common/library/database/sql"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/model"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/model/consts"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // StockLock 锁定库存 单个订单锁定多个 sku

@@ -5,11 +5,11 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/job/live/dao-anchor-job/internal/dao"
+	"github.com/namelessup/bilibili/app/job/live/dao-anchor-job/internal/dao"
 
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 //封面图/关键帧相关脚本

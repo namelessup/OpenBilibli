@@ -3,7 +3,7 @@ package member
 import (
 	"context"
 	. "github.com/smartystreets/goconvey/convey"
-	"go-common/app/interface/main/account/model"
+	"github.com/namelessup/bilibili/app/interface/main/account/model"
 	"testing"
 	"time"
 )

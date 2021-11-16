@@ -2,9 +2,9 @@ package service
 
 import (
 	"context"
-	"go-common/app/service/live/wallet/model"
-	"go-common/library/database/sql"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/service/live/wallet/model"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 type RechargeHandler struct {

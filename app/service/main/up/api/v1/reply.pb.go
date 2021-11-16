@@ -6,7 +6,7 @@ package v1
 import proto "github.com/gogo/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import archive_service_v1 "go-common/app/service/main/archive/api"
+import archive_service_v1 "github.com/namelessup/bilibili/app/service/main/archive/api"
 import _ "github.com/gogo/protobuf/gogoproto"
 
 import io "io"

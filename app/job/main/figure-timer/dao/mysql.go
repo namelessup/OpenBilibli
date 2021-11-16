@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"time"
 
-	"go-common/app/job/main/figure-timer/model"
-	xsql "go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/job/main/figure-timer/model"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
 
 	"github.com/pkg/errors"
 )

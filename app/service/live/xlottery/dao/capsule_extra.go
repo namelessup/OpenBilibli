@@ -3,11 +3,11 @@ package dao
 import (
 	"context"
 	"fmt"
-	"go-common/app/service/live/xlottery/model"
+	"github.com/namelessup/bilibili/app/service/live/xlottery/model"
 	"strings"
 
-	"go-common/library/database/sql"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

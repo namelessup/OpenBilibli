@@ -5,7 +5,7 @@ import (
 	"path"
 	"path/filepath"
 
-	"go-common/app/tool/gorpc/model"
+	"github.com/namelessup/bilibili/app/tool/gorpc/model"
 )
 
 // Returns all the Golang files for the given path. Ignores hidden files.

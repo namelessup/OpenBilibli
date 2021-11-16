@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["xreply.go"],
-    importpath = "go-common/app/interface/main/reply/model/xreply",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/reply/model/xreply",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//app/interface/main/reply/model/reply:go_default_library"],

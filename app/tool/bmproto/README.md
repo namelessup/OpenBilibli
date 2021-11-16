@@ -73,7 +73,7 @@ GET  /department.app.Greeter/SayHello?param1=p1
 ## 安装
 
 ```shell
-go install go-common/app/tool/bmproto/...
+go install github.com/namelessup/bilibili/app/tool/bmproto/...
 ```
 
 ## 用法
@@ -238,7 +238,7 @@ service Greeter {
 }
 
 // server/http/http.go
-import bm "go-common/library/net/http/blademaster"
+import bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 ....
 userAuthMiddleware := xxxxx
 pb.RegisterXXService(e, svc, map[string]bm.HandlerFunc{"user":userAuthMiddleware})

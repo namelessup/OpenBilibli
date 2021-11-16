@@ -3,8 +3,8 @@ package coin
 import (
 	"context"
 	"fmt"
-	coinclient "go-common/app/service/main/coin/api"
-	"go-common/library/log"
+	coinclient "github.com/namelessup/bilibili/app/service/main/coin/api"
+	"github.com/namelessup/bilibili/library/log"
 	"time"
 )
 

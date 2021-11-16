@@ -10,10 +10,10 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/admin/ep/saga/conf"
-	"go-common/app/admin/ep/saga/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/ep/saga/conf"
+	"github.com/namelessup/bilibili/app/admin/ep/saga/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/BurntSushi/toml"
 )

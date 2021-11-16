@@ -29,7 +29,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["mockdiscovery.go"],
-    importpath = "go-common/library/net/rpc/warden/resolver/test",
+    importpath = "github.com/namelessup/bilibili/library/net/rpc/warden/resolver/test",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"go-common/app/admin/main/spy/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/spy/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // UserInfo get UserInfo by mid , from cache or db or generate.

@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["dao.go"],
-    importpath = "go-common/app/interface/bbq/video/internal/dao",
+    importpath = "github.com/namelessup/bilibili/app/interface/bbq/video/internal/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

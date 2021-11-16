@@ -4,15 +4,15 @@ import (
 	"errors"
 	"flag"
 
-	"go-common/library/conf"
-	"go-common/library/log"
-	"go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/verify"
-	"go-common/library/net/rpc"
-	"go-common/library/net/trace"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/library/conf"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/verify"
+	"github.com/namelessup/bilibili/library/net/rpc"
+	"github.com/namelessup/bilibili/library/net/trace"
+	xtime "github.com/namelessup/bilibili/library/time"
 
-	"go-common/library/database/hbase.v2"
+	"github.com/namelessup/bilibili/library/database/hbase.v2"
 
 	"github.com/BurntSushi/toml"
 )

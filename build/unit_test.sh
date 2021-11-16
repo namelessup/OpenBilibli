@@ -23,7 +23,7 @@ function GetPackages(){
     do
         len=`ls ${value}| grep .go | wc -l`
         if [[ ${len} -gt 0 ]];then
-            packages+="go-common/"${value}" "
+            packages+="github.com/namelessup/bilibili/"${value}" "
         fi
     done
 }
@@ -66,8 +66,8 @@ function GoTest(){
 # BazelTest execute bazel coverage and go tool
 # $1: pkg
 function BazelTest(){
-    pkg=${1//go-common//}":go_default_test"
-    path=${1//go-common\//}
+    pkg=${1//github.com/namelessup/bilibili//}":go_default_test"
+    path=${1//github.com/namelessup/bilibili\//}
 
     bazel coverage --instrumentation_filter="//${path}[:]" --test_env=DEPLOY_ENV=uat --test_timeout=60 --test_env=APP_ID=bazel.test --test_output=all --cache_test_results=no --test_arg=-convey-json ${pkg} > result.out
     if [[ ! -s result.out ]]; then
@@ -85,7 +85,7 @@ function BazelTest(){
 # $1: pkg
 function UTLint()
 {
-    path=${1//go-common\//}
+    path=${1//github.com/namelessup/bilibili\//}
     declare -i numCase=0
     declare -i numAssertion=0
     files=$(ls ${path} | grep -E "(.*)_test\.go")
@@ -112,7 +112,7 @@ function UpPath() {
     curl $1 -H "Content-type: multipart/form-data" -F "path_file=@$2/path.out"
 }
 function ReadDir(){
-    # get go-common/app all dir path
+    # get github.com/namelessup/bilibili/app all dir path
     PathDirs=`find app -maxdepth 3 -type d`
     value=""
     for dir in ${PathDirs}
@@ -121,7 +121,7 @@ function ReadDir(){
             for file in `find ${dir} -maxdepth 1 -type f |grep "CONTRIBUTORS.md"`
             do
                 owner=""
-                substr=${dir#*"go-common"}
+                substr=${dir#*"github.com/namelessup/bilibili"}
                 while read line
                 do
                     if [[ "${line}" = "# Owner" ]];then
@@ -132,7 +132,7 @@ function ReadDir(){
                         owner+="${line},"
                     fi
                 done < ${file}
-                value+="{\"path\":\"go-common${substr}\",\"owner\":\"${owner%,}\"},"
+                value+="{\"path\":\"github.com/namelessup/bilibili${substr}\",\"owner\":\"${owner%,}\"},"
             done
         fi
     done

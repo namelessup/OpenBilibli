@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/job/openplatform/article/dao"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/openplatform/article/dao"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) updateSortproc() {

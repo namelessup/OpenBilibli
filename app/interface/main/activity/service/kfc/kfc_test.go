@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"flag"
-	"go-common/app/interface/main/activity/conf"
+	"github.com/namelessup/bilibili/app/interface/main/activity/conf"
 	"path/filepath"
 
 	"context"

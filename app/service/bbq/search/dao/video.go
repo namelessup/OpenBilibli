@@ -2,9 +2,9 @@ package dao
 
 import (
 	"context"
-	"go-common/app/service/bbq/search/api/grpc/v1"
-	"go-common/app/service/bbq/search/conf"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/bbq/search/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/bbq/search/conf"
+	"github.com/namelessup/bilibili/library/log"
 	"io/ioutil"
 	"math/rand"
 	"net/http"

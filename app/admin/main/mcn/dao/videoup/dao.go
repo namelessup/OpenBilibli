@@ -1,9 +1,9 @@
 package videoup
 
 import (
-	"go-common/app/admin/main/mcn/conf"
-	"go-common/app/service/main/videoup/model/archive"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/mcn/conf"
+	"github.com/namelessup/bilibili/app/service/main/videoup/model/archive"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 const (

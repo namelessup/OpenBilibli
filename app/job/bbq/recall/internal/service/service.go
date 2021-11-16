@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 
-	"go-common/app/job/bbq/recall/internal/conf"
-	"go-common/app/job/bbq/recall/internal/dao"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/bbq/recall/internal/conf"
+	"github.com/namelessup/bilibili/app/job/bbq/recall/internal/dao"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/robfig/cron"
 )

@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["banner.go"],
-    importpath = "go-common/app/interface/main/app-interface/model/banner",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-interface/model/banner",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//app/service/main/resource/model:go_default_library"],

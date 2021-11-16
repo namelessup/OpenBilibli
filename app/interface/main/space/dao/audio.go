@@ -5,10 +5,10 @@ import (
 	"net/url"
 	"strconv"
 
-	"go-common/app/interface/main/space/model"
-	"go-common/library/ecode"
-	"go-common/library/net/metadata"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/interface/main/space/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/xstr"
 
 	"github.com/pkg/errors"
 )

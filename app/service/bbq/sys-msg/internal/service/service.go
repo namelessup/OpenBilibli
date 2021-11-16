@@ -3,11 +3,11 @@ package service
 import (
 	"context"
 	"github.com/golang/protobuf/ptypes/empty"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 
-	"go-common/app/service/bbq/sys-msg/api/v1"
-	"go-common/app/service/bbq/sys-msg/internal/conf"
-	"go-common/app/service/bbq/sys-msg/internal/dao"
+	"github.com/namelessup/bilibili/app/service/bbq/sys-msg/api/v1"
+	"github.com/namelessup/bilibili/app/service/bbq/sys-msg/internal/conf"
+	"github.com/namelessup/bilibili/app/service/bbq/sys-msg/internal/dao"
 )
 
 // Service struct

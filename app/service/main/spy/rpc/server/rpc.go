@@ -1,13 +1,13 @@
 package rpc
 
 import (
-	cmmdl "go-common/app/service/main/spy/model"
-	"go-common/library/net/rpc"
-	"go-common/library/net/rpc/context"
+	cmmdl "github.com/namelessup/bilibili/app/service/main/spy/model"
+	"github.com/namelessup/bilibili/library/net/rpc"
+	"github.com/namelessup/bilibili/library/net/rpc/context"
 
-	"go-common/app/service/main/spy/conf"
-	"go-common/app/service/main/spy/model"
-	"go-common/app/service/main/spy/service"
+	"github.com/namelessup/bilibili/app/service/main/spy/conf"
+	"github.com/namelessup/bilibili/app/service/main/spy/model"
+	"github.com/namelessup/bilibili/app/service/main/spy/service"
 )
 
 // RPC server def.

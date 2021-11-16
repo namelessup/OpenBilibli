@@ -6,12 +6,12 @@ import (
 	"net/url"
 	"time"
 
-	"go-common/app/infra/discovery/conf"
-	"go-common/app/infra/discovery/dao"
-	"go-common/app/infra/discovery/model"
-	libenv "go-common/library/conf/env"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/infra/discovery/conf"
+	"github.com/namelessup/bilibili/app/infra/discovery/dao"
+	"github.com/namelessup/bilibili/app/infra/discovery/model"
+	libenv "github.com/namelessup/bilibili/library/conf/env"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 var (

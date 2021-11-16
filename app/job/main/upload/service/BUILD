@@ -12,7 +12,7 @@ go_library(
         "aiyellowing.go",
         "service.go",
     ],
-    importpath = "go-common/app/job/main/upload/service",
+    importpath = "github.com/namelessup/bilibili/app/job/main/upload/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

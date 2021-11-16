@@ -13,7 +13,7 @@ go_library(
         "mc.cache.go",
         "roomNotice.go",
     ],
-    importpath = "go-common/app/service/live/xuserex/dao/notice",
+    importpath = "github.com/namelessup/bilibili/app/service/live/xuserex/dao/notice",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

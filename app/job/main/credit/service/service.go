@@ -7,12 +7,12 @@ import (
 	"sync"
 	"time"
 
-	"go-common/app/job/main/credit/conf"
-	"go-common/app/job/main/credit/dao"
-	archive "go-common/app/service/main/archive/api/gorpc"
-	memrpc "go-common/app/service/main/member/api/gorpc"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/job/main/credit/conf"
+	"github.com/namelessup/bilibili/app/job/main/credit/dao"
+	archive "github.com/namelessup/bilibili/app/service/main/archive/api/gorpc"
+	memrpc "github.com/namelessup/bilibili/app/service/main/member/api/gorpc"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 // Service struct of service.

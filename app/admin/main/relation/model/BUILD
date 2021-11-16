@@ -13,7 +13,7 @@ go_library(
         "page.go",
         "params.go",
     ],
-    importpath = "go-common/app/admin/main/relation/model",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/relation/model",
     tags = ["automanaged"],
     deps = [
         "//app/service/main/relation/model:go_default_library",

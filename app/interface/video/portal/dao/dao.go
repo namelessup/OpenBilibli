@@ -3,8 +3,8 @@ package dao
 import (
 	"context"
 
-	"go-common/app/interface/video/portal/conf"
-	xsql "go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/interface/video/portal/conf"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
 )
 
 // Dao dao

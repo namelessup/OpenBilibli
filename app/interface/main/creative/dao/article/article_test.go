@@ -2,12 +2,12 @@ package article
 
 import (
 	"context"
-	artMdl "go-common/app/interface/main/creative/model/article"
+	artMdl "github.com/namelessup/bilibili/app/interface/main/creative/model/article"
 	"testing"
 
-	"go-common/app/interface/openplatform/article/model"
-	"go-common/app/interface/openplatform/article/rpc/client"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	"github.com/namelessup/bilibili/app/interface/openplatform/article/rpc/client"
+	"github.com/namelessup/bilibili/library/ecode"
 	"reflect"
 
 	"github.com/bouk/monkey"

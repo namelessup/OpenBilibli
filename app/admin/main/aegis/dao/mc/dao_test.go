@@ -7,7 +7,7 @@ import (
 	"os"
 	"testing"
 
-	"go-common/app/admin/main/aegis/conf"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/conf"
 )
 
 var (

@@ -35,7 +35,7 @@ go_library(
         "redis.go",
         "search.go",
     ],
-    importpath = "go-common/app/service/main/favorite/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/main/favorite/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

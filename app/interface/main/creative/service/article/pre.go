@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"strings"
 
-	artMdl "go-common/app/interface/main/creative/model/article"
-	"go-common/library/ecode"
+	artMdl "github.com/namelessup/bilibili/app/interface/main/creative/model/article"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 // ParseParam  parse article param which type is int.

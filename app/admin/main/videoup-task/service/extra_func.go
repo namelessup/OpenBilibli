@@ -4,11 +4,11 @@ import (
 	"context"
 	"errors"
 
-	tmod "go-common/app/admin/main/videoup-task/model"
-	account "go-common/app/service/main/account/api"
-	upsrpc "go-common/app/service/main/up/api/v1"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
+	tmod "github.com/namelessup/bilibili/app/admin/main/videoup-task/model"
+	account "github.com/namelessup/bilibili/app/service/main/account/api"
+	upsrpc "github.com/namelessup/bilibili/app/service/main/up/api/v1"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 //ERROR

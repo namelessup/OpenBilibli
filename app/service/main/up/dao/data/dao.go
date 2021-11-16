@@ -1,8 +1,8 @@
 package data
 
 import (
-	"go-common/app/service/main/up/conf"
-	"go-common/library/database/hbase.v2"
+	"github.com/namelessup/bilibili/app/service/main/up/conf"
+	"github.com/namelessup/bilibili/library/database/hbase.v2"
 	"time"
 )
 

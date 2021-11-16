@@ -3,8 +3,8 @@ package watermark
 import (
 	"context"
 	"database/sql"
-	"go-common/app/interface/main/creative/model/watermark"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/watermark"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

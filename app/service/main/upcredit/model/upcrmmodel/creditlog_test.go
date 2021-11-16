@@ -3,7 +3,7 @@ package upcrmmodel
 import (
 	"encoding/json"
 	. "github.com/smartystreets/goconvey/convey"
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/library/time"
 	"testing"
 	xtime "time"
 )

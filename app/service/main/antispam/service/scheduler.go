@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/service/main/antispam/conf"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/antispam/conf"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Scheduler .

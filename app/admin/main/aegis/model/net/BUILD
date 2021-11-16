@@ -16,7 +16,7 @@ go_library(
         "token.go",
         "transition.go",
     ],
-    importpath = "go-common/app/admin/main/aegis/model/net",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/aegis/model/net",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

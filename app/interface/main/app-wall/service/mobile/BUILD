@@ -24,7 +24,7 @@ go_library(
         "mobile.go",
         "service.go",
     ],
-    importpath = "go-common/app/interface/main/app-wall/service/mobile",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-wall/service/mobile",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

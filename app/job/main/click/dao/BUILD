@@ -34,7 +34,7 @@ go_library(
         "dao.go",
         "forbid.go",
     ],
-    importpath = "go-common/app/job/main/click/dao",
+    importpath = "github.com/namelessup/bilibili/app/job/main/click/dao",
     tags = ["automanaged"],
     deps = [
         "//app/job/main/click/conf:go_default_library",

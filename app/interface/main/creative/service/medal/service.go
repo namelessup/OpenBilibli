@@ -3,12 +3,12 @@ package medal
 import (
 	"context"
 
-	"go-common/app/interface/main/creative/conf"
-	"go-common/app/interface/main/creative/dao/medal"
-	mdMdl "go-common/app/interface/main/creative/model/medal"
-	"go-common/app/interface/main/creative/model/newcomer"
-	"go-common/app/interface/main/creative/service"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/creative/conf"
+	"github.com/namelessup/bilibili/app/interface/main/creative/dao/medal"
+	mdMdl "github.com/namelessup/bilibili/app/interface/main/creative/model/medal"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/newcomer"
+	"github.com/namelessup/bilibili/app/interface/main/creative/service"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 //Service struct

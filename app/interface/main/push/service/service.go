@@ -4,12 +4,12 @@ import (
 	"context"
 	"sync"
 
-	"go-common/app/interface/main/push/conf"
-	"go-common/app/interface/main/push/dao"
-	pushrpc "go-common/app/service/main/push/api/grpc/v1"
-	pushmdl "go-common/app/service/main/push/model"
-	"go-common/library/cache"
-	httpx "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/interface/main/push/conf"
+	"github.com/namelessup/bilibili/app/interface/main/push/dao"
+	pushrpc "github.com/namelessup/bilibili/app/service/main/push/api/grpc/v1"
+	pushmdl "github.com/namelessup/bilibili/app/service/main/push/model"
+	"github.com/namelessup/bilibili/library/cache"
+	httpx "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // Service push service.

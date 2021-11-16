@@ -3,13 +3,13 @@ package videoshot
 import (
 	"context"
 
-	"go-common/library/cache/redis"
-	"go-common/library/database/sql"
-	"go-common/library/log"
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/stat/prom"
 
-	"go-common/app/service/main/archive/conf"
-	"go-common/app/service/main/archive/model/videoshot"
+	"github.com/namelessup/bilibili/app/service/main/archive/conf"
+	"github.com/namelessup/bilibili/app/service/main/archive/model/videoshot"
 )
 
 // Dao is videoshot dao.

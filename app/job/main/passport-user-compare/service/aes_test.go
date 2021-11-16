@@ -8,7 +8,7 @@ import (
 
 	"encoding/hex"
 
-	"go-common/app/job/main/passport-user-compare/model"
+	"github.com/namelessup/bilibili/app/job/main/passport-user-compare/model"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

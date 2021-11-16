@@ -3,15 +3,15 @@ package dao
 import (
 	"context"
 
-	"go-common/app/interface/live/app-blink/conf"
-	fans_medal_api "go-common/app/service/live/fans_medal/api/liverpc"
-	relation_api "go-common/app/service/live/relation/api/liverpc"
-	resource_cli "go-common/app/service/live/resource/api/grpc/v1"
-	room_api "go-common/app/service/live/room/api/liverpc"
-	user_api "go-common/app/service/live/user/api/liverpc"
-	member_cli "go-common/app/service/main/member/api"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/rpc/liverpc"
+	"github.com/namelessup/bilibili/app/interface/live/app-blink/conf"
+	fans_medal_api "github.com/namelessup/bilibili/app/service/live/fans_medal/api/liverpc"
+	relation_api "github.com/namelessup/bilibili/app/service/live/relation/api/liverpc"
+	resource_cli "github.com/namelessup/bilibili/app/service/live/resource/api/grpc/v1"
+	room_api "github.com/namelessup/bilibili/app/service/live/room/api/liverpc"
+	user_api "github.com/namelessup/bilibili/app/service/live/user/api/liverpc"
+	member_cli "github.com/namelessup/bilibili/app/service/main/member/api"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/rpc/liverpc"
 )
 
 // Dao dao

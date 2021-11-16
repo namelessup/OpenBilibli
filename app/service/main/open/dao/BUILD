@@ -13,7 +13,7 @@ go_library(
         "dao.go",
         "memcache.go",
     ],
-    importpath = "go-common/app/service/main/open/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/main/open/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

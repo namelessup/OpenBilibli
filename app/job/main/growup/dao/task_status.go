@@ -5,7 +5,7 @@ import (
 	"database/sql"
 	"fmt"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

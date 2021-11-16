@@ -6,9 +6,9 @@ import (
 	"net/url"
 	"strconv"
 
-	ad "go-common/app/interface/main/web-show/model/resource"
-	"go-common/library/log"
-	"go-common/library/xstr"
+	ad "github.com/namelessup/bilibili/app/interface/main/web-show/model/resource"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 // Cpms get ads from cpm platform

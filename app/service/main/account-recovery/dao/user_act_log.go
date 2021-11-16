@@ -8,9 +8,9 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/service/main/account-recovery/model"
-	"go-common/library/database/elastic"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/account-recovery/model"
+	"github.com/namelessup/bilibili/library/database/elastic"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // NickNameLog NickNameLog

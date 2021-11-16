@@ -177,9 +177,9 @@ message Arc {
     // 稿件标题
     string Title = 7 [(gogoproto.jsontag) = "title"];
     // 稿件发布时间 对外展示的标准时间  时间戳格式
-    int64 PubDate = 8 [(gogoproto.jsontag) = "pubdate", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int64 PubDate = 8 [(gogoproto.jsontag) = "pubdate", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
     // 用户提交稿件的时间 一般不对外展示 时间戳格式
-    int64 Ctime = 9 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int64 Ctime = 9 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
     // 稿件简介
     string Desc = 10 [(gogoproto.jsontag) = "desc"];
     // 稿件状态，>=0为前台用户可见状态，其他值详见 http://info.bilibili.co/pages/viewpage.action?pageId=3686597#id-%E7%A8%BF%E4%BB%B6%E5%AD%97%E6%AE%B5%E6%9E%9A%E4%B8%BE%E5%80%BC%E5%B1%9E%E6%80%A7%E8%AF%B4%E6%98%8E-%E7%A8%BF%E4%BB%B6%E7%8A%B6%E6%80%81state&access

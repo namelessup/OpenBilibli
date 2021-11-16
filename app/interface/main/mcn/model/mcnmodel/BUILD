@@ -17,7 +17,7 @@ go_library(
         "tables.go",
         "upcheck.go",
     ],
-    importpath = "go-common/app/interface/main/mcn/model/mcnmodel",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/mcn/model/mcnmodel",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -11,7 +11,7 @@ go_library(
         "dao.go",
         "userInfo.go",
     ],
-    importpath = "go-common/app/service/live/xuser/dao/account",
+    importpath = "github.com/namelessup/bilibili/app/service/live/xuser/dao/account",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

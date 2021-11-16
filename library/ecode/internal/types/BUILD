@@ -20,7 +20,7 @@ proto_library(
 go_proto_library(
     name = "types_go_proto",
     compilers = ["@io_bazel_rules_go//proto:go_proto"],
-    importpath = "go-common/library/ecode/internal/types",
+    importpath = "github.com/namelessup/bilibili/library/ecode/internal/types",
     proto = ":types_proto",
     tags = ["automanaged"],
     deps = ["@io_bazel_rules_go//proto/wkt:any_go_proto"],
@@ -30,7 +30,7 @@ go_library(
     name = "go_default_library",
     srcs = [],
     embed = [":types_go_proto"],
-    importpath = "go-common/library/ecode/internal/types",
+    importpath = "github.com/namelessup/bilibili/library/ecode/internal/types",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

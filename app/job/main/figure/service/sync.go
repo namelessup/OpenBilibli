@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) SyncUserVIP(ctx context.Context, file string) {

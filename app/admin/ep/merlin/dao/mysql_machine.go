@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/admin/ep/merlin/model"
+	"github.com/namelessup/bilibili/app/admin/ep/merlin/model"
 
 	pkgerr "github.com/pkg/errors"
 )

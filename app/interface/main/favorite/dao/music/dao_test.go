@@ -6,7 +6,7 @@ import (
 	"os"
 	"testing"
 
-	"go-common/app/interface/main/favorite/conf"
+	"github.com/namelessup/bilibili/app/interface/main/favorite/conf"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

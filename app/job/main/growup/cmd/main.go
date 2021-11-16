@@ -7,9 +7,9 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/app/job/main/growup/conf"
-	"go-common/app/job/main/growup/http"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/growup/conf"
+	"github.com/namelessup/bilibili/app/job/main/growup/http"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func main() {

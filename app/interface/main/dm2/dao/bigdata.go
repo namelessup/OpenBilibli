@@ -7,8 +7,8 @@ import (
 	"net/url"
 	"strconv"
 
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 const (

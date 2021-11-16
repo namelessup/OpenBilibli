@@ -55,7 +55,7 @@ go_library(
         "query.go",
         "query_extra.go",
     ],
-    importpath = "go-common/app/admin/main/search/dao",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/search/dao",
     tags = ["automanaged"],
     deps = [
         "//app/admin/main/search/conf:go_default_library",

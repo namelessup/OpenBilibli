@@ -29,7 +29,7 @@ go_library(
         "log.go",
         "tag.go",
     ],
-    importpath = "go-common/app/service/main/workflow/model",
+    importpath = "github.com/namelessup/bilibili/app/service/main/workflow/model",
     tags = ["automanaged"],
     deps = ["//library/time:go_default_library"],
 )

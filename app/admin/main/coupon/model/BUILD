@@ -11,7 +11,7 @@ go_library(
         "model.go",
         "search.go",
     ],
-    importpath = "go-common/app/admin/main/coupon/model",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/coupon/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/time:go_default_library"],

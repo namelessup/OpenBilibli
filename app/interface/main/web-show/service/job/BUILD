@@ -24,7 +24,7 @@ go_library(
         "jobs.go",
         "service.go",
     ],
-    importpath = "go-common/app/interface/main/web-show/service/job",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/web-show/service/job",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

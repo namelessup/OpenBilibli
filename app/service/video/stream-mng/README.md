@@ -7,6 +7,6 @@
 1. golang 1.9+以上版本编译执行。
 
 # 依赖包
-1.公共包go-common
+1.公共包github.com/namelessup/bilibili
 
 # 编译执行

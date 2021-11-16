@@ -20,7 +20,7 @@ go_library(
         "doc.go",
         "parse.go",
     ],
-    importpath = "go-common/app/tool/gengo/parser",
+    importpath = "github.com/namelessup/bilibili/app/tool/gengo/parser",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

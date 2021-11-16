@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/service/main/identify-game/model"
+	"github.com/namelessup/bilibili/app/service/main/identify-game/model"
 )
 
 func TestNew(t *testing.T) {

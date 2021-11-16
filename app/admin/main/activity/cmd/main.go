@@ -5,13 +5,13 @@ import (
 	"os"
 	"time"
 
-	"go-common/app/admin/main/activity/conf"
-	"go-common/app/admin/main/activity/http"
-	"go-common/app/admin/main/activity/service"
-	"go-common/library/log"
-	"go-common/library/net/trace"
-	"go-common/library/os/signal"
-	"go-common/library/syscall"
+	"github.com/namelessup/bilibili/app/admin/main/activity/conf"
+	"github.com/namelessup/bilibili/app/admin/main/activity/http"
+	"github.com/namelessup/bilibili/app/admin/main/activity/service"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
+	"github.com/namelessup/bilibili/library/os/signal"
+	"github.com/namelessup/bilibili/library/syscall"
 )
 
 var (

@@ -5,8 +5,8 @@ import (
 	"context"
 	"strconv"
 
-	incomeD "go-common/app/job/main/growup/dao/income"
-	model "go-common/app/job/main/growup/model/income"
+	incomeD "github.com/namelessup/bilibili/app/job/main/growup/dao/income"
+	model "github.com/namelessup/bilibili/app/job/main/growup/model/income"
 )
 
 // AvIncomeSvr Av income service

@@ -7,11 +7,11 @@ import (
 	"sync"
 	"time"
 
-	"go-common/app/job/live-userexp/conf"
-	"go-common/app/job/live-userexp/dao"
-	"go-common/app/job/live-userexp/model"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/job/live-userexp/conf"
+	"github.com/namelessup/bilibili/app/job/live-userexp/dao"
+	"github.com/namelessup/bilibili/app/job/live-userexp/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 // Service http service

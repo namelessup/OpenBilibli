@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"go-common/app/job/openplatform/open-market/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/openplatform/open-market/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 //fetch market data ,from db to es

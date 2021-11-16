@@ -1,8 +1,8 @@
 package http
 
 import (
-	"go-common/app/admin/main/space/model"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/space/model"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func notice(c *bm.Context) {

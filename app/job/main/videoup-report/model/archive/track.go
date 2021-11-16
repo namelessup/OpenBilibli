@@ -1,7 +1,7 @@
 package archive
 
 import (
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 //Track archive track info

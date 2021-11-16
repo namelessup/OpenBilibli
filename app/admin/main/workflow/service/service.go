@@ -5,10 +5,10 @@ import (
 	"sync"
 	"time"
 
-	"go-common/app/admin/main/workflow/dao"
-	"go-common/app/admin/main/workflow/model"
-	"go-common/library/conf/paladin"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/workflow/dao"
+	"github.com/namelessup/bilibili/app/admin/main/workflow/model"
+	"github.com/namelessup/bilibili/library/conf/paladin"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Service is service.

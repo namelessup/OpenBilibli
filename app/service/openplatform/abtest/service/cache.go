@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/service/openplatform/abtest/model"
+	"github.com/namelessup/bilibili/app/service/openplatform/abtest/model"
 )
 
 //setGroupCache 使用src重置分组缓存

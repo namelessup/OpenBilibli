@@ -27,7 +27,7 @@ go_library(
         "sms.go",
         "telecom.go",
     ],
-    importpath = "go-common/app/interface/main/app-wall/dao/telecom",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-wall/dao/telecom",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -1,10 +1,10 @@
 package http
 
 import (
-	"go-common/app/interface/main/account/model"
-	cardv1 "go-common/app/service/main/card/api/grpc/v1"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/interface/main/account/model"
+	cardv1 "github.com/namelessup/bilibili/app/service/main/card/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func userCard(c *bm.Context) {

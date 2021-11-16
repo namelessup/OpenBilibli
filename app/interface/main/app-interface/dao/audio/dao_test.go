@@ -3,9 +3,9 @@ package audio
 import (
 	"context"
 	"flag"
-	"go-common/app/interface/main/app-interface/conf"
-	"go-common/app/interface/main/app-interface/model/audio"
-	"go-common/library/net/ip"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/conf"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/model/audio"
+	"github.com/namelessup/bilibili/library/net/ip"
 	"path/filepath"
 	"reflect"
 	"testing"

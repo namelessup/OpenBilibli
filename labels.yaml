@@ -475,7 +475,7 @@ default:
     name: area/chore
     target: both
 repos:
-  platform/go-common:
+  platform/github.com/namelessup/bilibili:
     labels:
     - addedBy: anyone
       color: 0052cc

@@ -3,11 +3,11 @@ package http
 import (
 	"encoding/json"
 
-	"go-common/app/service/main/search/dao"
-	"go-common/app/service/main/search/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/service/main/search/dao"
+	"github.com/namelessup/bilibili/app/service/main/search/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // dmUpdate .

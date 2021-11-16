@@ -1,9 +1,9 @@
 package http
 
 import (
-	"go-common/app/admin/main/dm/model"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/binding"
+	"github.com/namelessup/bilibili/app/admin/main/dm/model"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/binding"
 )
 
 // subtitleList 字幕后台管理搜索

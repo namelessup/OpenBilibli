@@ -5,9 +5,9 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/admin/main/feed/model/common"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/queue/databus/report"
+	"github.com/namelessup/bilibili/app/admin/main/feed/model/common"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/queue/databus/report"
 )
 
 //AddLog add action log

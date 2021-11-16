@@ -5,10 +5,10 @@ import (
 	"log"
 	"os"
 
-	"go-common/app/service/main/dapper/collector"
-	"go-common/app/service/main/dapper/conf"
-	"go-common/app/service/main/dapper/pkg/util"
-	xlog "go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/dapper/collector"
+	"github.com/namelessup/bilibili/app/service/main/dapper/conf"
+	"github.com/namelessup/bilibili/app/service/main/dapper/pkg/util"
+	xlog "github.com/namelessup/bilibili/library/log"
 )
 
 func main() {

@@ -2,10 +2,10 @@ package data
 
 import (
 	"context"
-	"go-common/app/admin/main/up/dao/data"
-	"go-common/app/admin/main/up/model/datamodel"
-	"go-common/app/admin/main/up/util"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/up/dao/data"
+	"github.com/namelessup/bilibili/app/admin/main/up/model/datamodel"
+	"github.com/namelessup/bilibili/app/admin/main/up/util"
+	"github.com/namelessup/bilibili/library/log"
 	"sort"
 	"strconv"
 )

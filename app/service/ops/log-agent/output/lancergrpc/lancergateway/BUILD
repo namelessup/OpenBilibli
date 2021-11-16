@@ -20,7 +20,7 @@ proto_library(
 go_proto_library(
     name = "StreamEvent_go_proto",
     compilers = ["@io_bazel_rules_go//proto:gogofast_grpc"],
-    importpath = "go-common/app/service/ops/log-agent/output/lancergrpc/lancergateway",
+    importpath = "github.com/namelessup/bilibili/app/service/ops/log-agent/output/lancergrpc/lancergateway",
     proto = ":StreamEvent_proto",
     tags = ["automanaged"],
     deps = ["@com_github_gogo_protobuf//gogoproto:go_default_library"],
@@ -30,7 +30,7 @@ go_library(
     name = "go_default_library",
     srcs = ["client.go"],
     embed = [":StreamEvent_go_proto"],
-    importpath = "go-common/app/service/ops/log-agent/output/lancergrpc/lancergateway",
+    importpath = "github.com/namelessup/bilibili/app/service/ops/log-agent/output/lancergrpc/lancergateway",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

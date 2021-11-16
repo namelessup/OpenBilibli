@@ -1,8 +1,8 @@
 package pub
 
 import (
-	"go-common/app/job/main/favorite/conf"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/job/main/favorite/conf"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 // Dao stat dao.

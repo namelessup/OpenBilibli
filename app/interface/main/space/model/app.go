@@ -1,8 +1,8 @@
 package model
 
 import (
-	accwar "go-common/app/service/main/account/api"
-	"go-common/app/service/main/account/model"
+	accwar "github.com/namelessup/bilibili/app/service/main/account/api"
+	"github.com/namelessup/bilibili/app/service/main/account/model"
 )
 
 // AppAccInfo app acc info struct.

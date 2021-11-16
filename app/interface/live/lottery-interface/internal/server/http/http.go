@@ -3,17 +3,17 @@ package http
 import (
 	"net/http"
 
-	"go-common/app/interface/live/lottery-interface/internal/conf"
-	"go-common/app/interface/live/lottery-interface/internal/service"
-	v1 "go-common/app/interface/live/lottery-interface/internal/service/v1"
-	risk "go-common/app/service/live/live_riskcontrol/api/grpc/v1"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/auth"
-	"go-common/library/net/http/blademaster/middleware/verify"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/live/lottery-interface/internal/conf"
+	"github.com/namelessup/bilibili/app/interface/live/lottery-interface/internal/service"
+	v1 "github.com/namelessup/bilibili/app/interface/live/lottery-interface/internal/service/v1"
+	risk "github.com/namelessup/bilibili/app/service/live/live_riskcontrol/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/auth"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/verify"
+	"github.com/namelessup/bilibili/library/net/metadata"
 
-	"go-common/library/net/http/blademaster/render"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/render"
 )
 
 var (

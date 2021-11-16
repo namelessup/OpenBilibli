@@ -4,8 +4,8 @@ import (
 	"context"
 	xsql "database/sql"
 
-	"go-common/app/service/main/vip/model"
-	"go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/service/main/vip/model"
+	"github.com/namelessup/bilibili/library/database/sql"
 
 	"github.com/pkg/errors"
 )

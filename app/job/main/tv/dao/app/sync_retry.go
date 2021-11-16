@@ -4,9 +4,9 @@ import (
 	"context"
 	"encoding/json"
 
-	"go-common/app/job/main/tv/model/common"
-	"go-common/library/cache/memcache"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/tv/model/common"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // SetRetry save retry model to memcache

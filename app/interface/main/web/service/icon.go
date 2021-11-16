@@ -7,9 +7,9 @@ import (
 	"sync"
 	"time"
 
-	"go-common/app/interface/main/web/model"
-	resmdl "go-common/app/service/main/resource/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/web/model"
+	resmdl "github.com/namelessup/bilibili/app/service/main/resource/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

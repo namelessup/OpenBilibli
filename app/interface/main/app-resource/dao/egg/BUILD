@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["egg.go"],
-    importpath = "go-common/app/interface/main/app-resource/dao/egg",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-resource/dao/egg",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

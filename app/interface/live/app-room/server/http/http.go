@@ -1,15 +1,15 @@
 package http
 
 import (
-	"go-common/app/interface/live/app-room/api/http/v1"
-	"go-common/app/interface/live/app-room/conf"
-	"go-common/app/interface/live/app-room/service"
-	resSrv "go-common/app/interface/live/app-room/service/v1"
-	v1Svc "go-common/app/interface/live/app-room/service/v1"
-	dm "go-common/app/interface/live/app-room/service/v1/dm"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/auth"
+	"github.com/namelessup/bilibili/app/interface/live/app-room/api/http/v1"
+	"github.com/namelessup/bilibili/app/interface/live/app-room/conf"
+	"github.com/namelessup/bilibili/app/interface/live/app-room/service"
+	resSrv "github.com/namelessup/bilibili/app/interface/live/app-room/service/v1"
+	v1Svc "github.com/namelessup/bilibili/app/interface/live/app-room/service/v1"
+	dm "github.com/namelessup/bilibili/app/interface/live/app-room/service/v1/dm"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/auth"
 )
 
 var (

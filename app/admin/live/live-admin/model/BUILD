@@ -11,7 +11,7 @@ go_library(
         "model.go",
         "upload.go",
     ],
-    importpath = "go-common/app/admin/live/live-admin/model",
+    importpath = "github.com/namelessup/bilibili/app/admin/live/live-admin/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/database/bfs:go_default_library"],

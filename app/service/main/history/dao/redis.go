@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"strconv"
 
-	pb "go-common/app/service/main/history/api/grpc"
-	"go-common/app/service/main/history/model"
-	"go-common/library/cache/redis"
-	"go-common/library/log"
+	pb "github.com/namelessup/bilibili/app/service/main/history/api/grpc"
+	"github.com/namelessup/bilibili/app/service/main/history/model"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

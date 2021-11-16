@@ -19,8 +19,8 @@ go_library(
         "credit_score_conf.toml",
         "upcredit-service.toml",
     ],
-    importmap = "go-common/app/service/main/upcredit/cmd",
-    importpath = "go-common/app/service/main/upcredit/cmd",
+    importmap = "github.com/namelessup/bilibili/app/service/main/upcredit/cmd",
+    importpath = "github.com/namelessup/bilibili/app/service/main/upcredit/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

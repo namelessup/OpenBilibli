@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/service/main/passport-game/model"
+	"github.com/namelessup/bilibili/app/service/main/passport-game/model"
 )
 
 const (

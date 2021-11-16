@@ -32,7 +32,7 @@ go_library(
         "service.go",
         "tab.go",
     ],
-    importpath = "go-common/app/interface/main/app-channel/service/channel",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-channel/service/channel",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

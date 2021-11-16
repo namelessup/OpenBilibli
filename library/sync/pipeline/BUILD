@@ -21,7 +21,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["pipeline.go"],
-    importpath = "go-common/library/sync/pipeline",
+    importpath = "github.com/namelessup/bilibili/library/sync/pipeline",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

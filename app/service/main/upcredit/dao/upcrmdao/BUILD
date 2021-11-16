@@ -31,8 +31,8 @@ go_library(
         "scoresection.go",
         "up_base_info.go",
     ],
-    importmap = "go-common/app/service/main/upcredit/dao/upcrmdao",
-    importpath = "go-common/app/service/main/upcredit/dao/upcrmdao",
+    importmap = "github.com/namelessup/bilibili/app/service/main/upcredit/dao/upcrmdao",
+    importpath = "github.com/namelessup/bilibili/app/service/main/upcredit/dao/upcrmdao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

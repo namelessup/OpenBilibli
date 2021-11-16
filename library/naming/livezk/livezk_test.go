@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"go-common/library/naming"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/library/naming"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 var appdID = "main.arch.test6"

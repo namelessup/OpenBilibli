@@ -1,6 +1,6 @@
 package model
 
-import "go-common/app/service/main/archive/api"
+import "github.com/namelessup/bilibili/app/service/main/archive/api"
 
 const (
 	TypeForView  = "view"

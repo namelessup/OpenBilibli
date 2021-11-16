@@ -3,10 +3,10 @@ package account
 import (
 	"context"
 
-	accapi "go-common/app/service/main/account/api"
-	relaMdl "go-common/app/service/main/relation/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	accapi "github.com/namelessup/bilibili/app/service/main/account/api"
+	relaMdl "github.com/namelessup/bilibili/app/service/main/relation/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Profile get profile from rpc

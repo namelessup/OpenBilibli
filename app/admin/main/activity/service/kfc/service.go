@@ -3,10 +3,10 @@ package kfc
 import (
 	"context"
 
-	"go-common/app/admin/main/activity/conf"
-	kfcDao "go-common/app/admin/main/activity/dao/kfc"
-	kfcmdl "go-common/app/admin/main/activity/model/kfc"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/activity/conf"
+	kfcDao "github.com/namelessup/bilibili/app/admin/main/activity/dao/kfc"
+	kfcmdl "github.com/namelessup/bilibili/app/admin/main/activity/model/kfc"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Service struct

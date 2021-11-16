@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/interface/openplatform/article/conf"
-	"go-common/library/cache/redis"
+	"github.com/namelessup/bilibili/app/interface/openplatform/article/conf"
+	"github.com/namelessup/bilibili/library/cache/redis"
 
 	"github.com/golang/mock/gomock"
 	. "github.com/smartystreets/goconvey/convey"

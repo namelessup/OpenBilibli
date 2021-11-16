@@ -7,10 +7,10 @@ import (
 	"net/url"
 	"time"
 
-	"go-common/app/service/main/broadcast/model"
-	identify "go-common/app/service/main/identify/api/grpc"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/broadcast/model"
+	identify "github.com/namelessup/bilibili/app/service/main/identify/api/grpc"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/zhenjl/cityhash"
 )

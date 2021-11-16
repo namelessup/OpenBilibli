@@ -2,7 +2,7 @@ package dao
 
 import (
 	"context"
-	"go-common/app/service/main/ugcpay/model"
+	"github.com/namelessup/bilibili/app/service/main/ugcpay/model"
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"

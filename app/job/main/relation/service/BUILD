@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["service.go"],
-    importpath = "go-common/app/job/main/relation/service",
+    importpath = "github.com/namelessup/bilibili/app/job/main/relation/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

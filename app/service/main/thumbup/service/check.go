@@ -1,8 +1,8 @@
 package service
 
 import (
-	"go-common/app/service/main/thumbup/model"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/service/main/thumbup/model"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 // CheckBusiness check if exist the business id.

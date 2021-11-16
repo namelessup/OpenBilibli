@@ -11,10 +11,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	cmcd "go-common/library/ecode"
-	"go-common/library/log"
-	xhttp "go-common/library/net/http/blademaster"
-	xtime "go-common/library/time"
+	cmcd "github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	xhttp "github.com/namelessup/bilibili/library/net/http/blademaster"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 const (

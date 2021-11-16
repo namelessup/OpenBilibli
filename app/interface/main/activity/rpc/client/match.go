@@ -3,8 +3,8 @@ package client
 import (
 	"context"
 
-	matmdl "go-common/app/interface/main/activity/model/like"
-	"go-common/library/net/rpc"
+	matmdl "github.com/namelessup/bilibili/app/interface/main/activity/model/like"
+	"github.com/namelessup/bilibili/library/net/rpc"
 )
 
 const (

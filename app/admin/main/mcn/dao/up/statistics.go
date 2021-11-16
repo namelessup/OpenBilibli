@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"net/url"
 
-	"go-common/app/admin/main/mcn/model"
-	dtmdl "go-common/app/interface/main/mcn/model/datamodel"
-	ifmdl "go-common/app/interface/main/mcn/model/mcnmodel"
-	xsql "go-common/library/database/sql"
-	"go-common/library/ecode"
-	"go-common/library/net/metadata"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/admin/main/mcn/model"
+	dtmdl "github.com/namelessup/bilibili/app/interface/main/mcn/model/datamodel"
+	ifmdl "github.com/namelessup/bilibili/app/interface/main/mcn/model/mcnmodel"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	"github.com/pkg/errors"
 )

@@ -5,9 +5,9 @@ import (
 	"flag"
 	"testing"
 
-	foo "go-common/app/interface/live/live-demo/api/http/v2"
-	"go-common/app/interface/live/live-demo/conf"
-	"go-common/app/interface/live/live-demo/dao"
+	foo "github.com/namelessup/bilibili/app/interface/live/live-demo/api/http/v2"
+	"github.com/namelessup/bilibili/app/interface/live/live-demo/conf"
+	"github.com/namelessup/bilibili/app/interface/live/live-demo/dao"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

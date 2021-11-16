@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/service/openplatform/anti-fraud/conf"
-	"go-common/app/service/openplatform/anti-fraud/model"
+	"github.com/namelessup/bilibili/app/service/openplatform/anti-fraud/conf"
+	"github.com/namelessup/bilibili/app/service/openplatform/anti-fraud/model"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	adminmodel "go-common/app/admin/main/mcn/model"
-	"go-common/app/interface/main/mcn/model"
-	"go-common/app/interface/main/mcn/model/mcnmodel"
+	adminmodel "github.com/namelessup/bilibili/app/admin/main/mcn/model"
+	"github.com/namelessup/bilibili/app/interface/main/mcn/model"
+	"github.com/namelessup/bilibili/app/interface/main/mcn/model/mcnmodel"
 
 	"github.com/smartystreets/goconvey/convey"
 )

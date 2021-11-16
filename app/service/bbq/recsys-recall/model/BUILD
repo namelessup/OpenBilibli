@@ -9,7 +9,7 @@ go_library(
         "model.go",
         "tuple.go",
     ],
-    importpath = "go-common/app/service/bbq/recsys-recall/model",
+    importpath = "github.com/namelessup/bilibili/app/service/bbq/recsys-recall/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

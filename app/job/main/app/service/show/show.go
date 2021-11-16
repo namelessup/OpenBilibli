@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/job/main/app/conf"
-	showdao "go-common/app/job/main/app/dao/show"
-	"go-common/app/job/main/app/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/app/conf"
+	showdao "github.com/namelessup/bilibili/app/job/main/app/dao/show"
+	"github.com/namelessup/bilibili/app/job/main/app/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Service is show service.

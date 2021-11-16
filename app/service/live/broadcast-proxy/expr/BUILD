@@ -21,7 +21,7 @@ go_library(
         "eval.go",
         "expr.go",
     ],
-    importpath = "go-common/app/service/live/broadcast-proxy/expr",
+    importpath = "github.com/namelessup/bilibili/app/service/live/broadcast-proxy/expr",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

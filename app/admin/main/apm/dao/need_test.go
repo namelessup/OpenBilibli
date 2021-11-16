@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"go-common/app/admin/main/apm/model/need"
+	"github.com/namelessup/bilibili/app/admin/main/apm/model/need"
 
 	"github.com/bouk/monkey"
 	"github.com/jinzhu/gorm"

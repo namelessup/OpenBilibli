@@ -1,9 +1,9 @@
 package http
 
 import (
-	"go-common/app/interface/main/broadcast/conf"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/interface/main/broadcast/conf"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // Init init http.

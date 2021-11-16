@@ -7,11 +7,11 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/app/job/main/ugcpay/conf"
-	"go-common/app/job/main/ugcpay/server/http"
-	"go-common/app/job/main/ugcpay/service"
-	ecode "go-common/library/ecode/tip"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/ugcpay/conf"
+	"github.com/namelessup/bilibili/app/job/main/ugcpay/server/http"
+	"github.com/namelessup/bilibili/app/job/main/ugcpay/service"
+	ecode "github.com/namelessup/bilibili/library/ecode/tip"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func main() {

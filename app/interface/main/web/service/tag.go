@@ -3,12 +3,12 @@ package service
 import (
 	"context"
 
-	tag "go-common/app/interface/main/tag/model"
-	"go-common/app/interface/main/web/model"
-	arcmdl "go-common/app/service/main/archive/api"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	tag "github.com/namelessup/bilibili/app/interface/main/tag/model"
+	"github.com/namelessup/bilibili/app/interface/main/web/model"
+	arcmdl "github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 // TagAids gets avids by tagID from bigdata or backup cache,

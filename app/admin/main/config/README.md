@@ -1,4 +1,4 @@
-# go-common/app/admin/config
+# github.com/namelessup/bilibili/app/admin/config
 
 ##### 项目简介
 > 1. sven配置中心模块接口

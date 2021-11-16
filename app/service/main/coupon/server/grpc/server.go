@@ -4,10 +4,10 @@ package server
 import (
 	"context"
 
-	v1 "go-common/app/service/main/coupon/api"
-	"go-common/app/service/main/coupon/model"
-	"go-common/app/service/main/coupon/service"
-	"go-common/library/net/rpc/warden"
+	v1 "github.com/namelessup/bilibili/app/service/main/coupon/api"
+	"github.com/namelessup/bilibili/app/service/main/coupon/model"
+	"github.com/namelessup/bilibili/app/service/main/coupon/service"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 )
 
 // New VipInfo warden rpc server

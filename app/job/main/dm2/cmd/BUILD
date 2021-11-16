@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["dm2-job.toml"],
-    importpath = "go-common/app/job/main/dm2/cmd",
+    importpath = "github.com/namelessup/bilibili/app/job/main/dm2/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

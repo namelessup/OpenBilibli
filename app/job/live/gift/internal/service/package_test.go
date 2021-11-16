@@ -2,7 +2,7 @@ package service
 
 import (
 	"context"
-	"go-common/app/job/live/gift/internal/model"
+	"github.com/namelessup/bilibili/app/job/live/gift/internal/model"
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"

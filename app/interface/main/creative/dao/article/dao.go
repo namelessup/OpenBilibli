@@ -1,8 +1,8 @@
 package article
 
 import (
-	"go-common/app/interface/main/creative/conf"
-	article "go-common/app/interface/openplatform/article/rpc/client"
+	"github.com/namelessup/bilibili/app/interface/main/creative/conf"
+	article "github.com/namelessup/bilibili/app/interface/openplatform/article/rpc/client"
 )
 
 // Dao is archive dao.

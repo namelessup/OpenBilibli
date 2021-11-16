@@ -36,7 +36,7 @@ go_library(
         "redis.go",
         "type.go",
     ],
-    importpath = "go-common/app/interface/main/videoup/dao/archive",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/videoup/dao/archive",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

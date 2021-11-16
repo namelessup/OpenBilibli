@@ -6,12 +6,12 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"go-common/app/admin/ep/melloi/conf"
-	"go-common/library/cache/memcache"
-	"go-common/library/database/orm"
-	"go-common/library/log"
-	xhttp "go-common/library/net/http/blademaster"
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/app/admin/ep/melloi/conf"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/database/orm"
+	"github.com/namelessup/bilibili/library/log"
+	xhttp "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/stat/prom"
 
 	"github.com/jinzhu/gorm"
 	"gopkg.in/gomail.v2"

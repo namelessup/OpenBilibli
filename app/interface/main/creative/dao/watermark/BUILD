@@ -13,7 +13,7 @@ go_library(
         "dao.go",
         "watermark.go",
     ],
-    importpath = "go-common/app/interface/main/creative/dao/watermark",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/creative/dao/watermark",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -8,10 +8,10 @@ import (
 	"strings"
 	"time"
 
-	v1pb "go-common/app/service/live/dao-anchor/api/grpc/v1"
-	"go-common/library/cache/redis"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	v1pb "github.com/namelessup/bilibili/app/service/live/dao-anchor/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 //实时消费缓存设计，异步落地

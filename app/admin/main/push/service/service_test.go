@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/admin/main/push/conf"
-	"go-common/app/admin/main/push/model"
-	pushmdl "go-common/app/service/main/push/model"
+	"github.com/namelessup/bilibili/app/admin/main/push/conf"
+	"github.com/namelessup/bilibili/app/admin/main/push/model"
+	pushmdl "github.com/namelessup/bilibili/app/service/main/push/model"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

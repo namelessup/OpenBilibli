@@ -2,10 +2,10 @@ package calculator
 
 import (
 	"fmt"
-	"go-common/app/service/main/upcredit/common/fsm"
-	"go-common/app/service/main/upcredit/conf"
-	"go-common/app/service/main/upcredit/model/upcrmmodel"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/upcredit/common/fsm"
+	"github.com/namelessup/bilibili/app/service/main/upcredit/conf"
+	"github.com/namelessup/bilibili/app/service/main/upcredit/model/upcrmmodel"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 //Rule rule function

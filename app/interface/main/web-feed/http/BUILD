@@ -11,7 +11,7 @@ go_library(
         "feed.go",
         "http.go",
     ],
-    importpath = "go-common/app/interface/main/web-feed/http",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/web-feed/http",
     tags = ["automanaged"],
     deps = [
         "//app/interface/main/web-feed/conf:go_default_library",

@@ -20,7 +20,7 @@ proto_library(
 go_proto_library(
     name = "model_go_proto",
     compilers = ["@io_bazel_rules_go//proto:gogofast_proto"],
-    importpath = "go-common/app/service/main/member/model",
+    importpath = "github.com/namelessup/bilibili/app/service/main/member/model",
     proto = ":model_proto",
     tags = ["automanaged"],
     deps = [
@@ -44,7 +44,7 @@ go_library(
         "user_flag.go",
     ],
     embed = [":model_go_proto"],
-    importpath = "go-common/app/service/main/member/model",
+    importpath = "github.com/namelessup/bilibili/app/service/main/member/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

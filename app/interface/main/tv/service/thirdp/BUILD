@@ -30,7 +30,7 @@ go_library(
         "mango_recom.go",
         "service.go",
     ],
-    importpath = "go-common/app/interface/main/tv/service/thirdp",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/tv/service/thirdp",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

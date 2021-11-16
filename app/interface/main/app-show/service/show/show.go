@@ -8,15 +8,15 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/interface/main/app-show/conf"
-	"go-common/app/interface/main/app-show/model"
-	"go-common/app/interface/main/app-show/model/show"
-	"go-common/app/service/main/archive/api"
-	"go-common/app/service/main/archive/model/archive"
-	resource "go-common/app/service/main/resource/model"
-	seasongrpc "go-common/app/service/openplatform/pgc-season/api/grpc/season/v1"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/conf"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/model/show"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	resource "github.com/namelessup/bilibili/app/service/main/resource/model"
+	seasongrpc "github.com/namelessup/bilibili/app/service/openplatform/pgc-season/api/grpc/season/v1"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 const (

@@ -56,13 +56,13 @@ message Profile {
       [(gogoproto.jsontag) = "official", (gogoproto.nullable) = false];
   int64 birthday = 18 [
     (gogoproto.jsontag) = "birthday",
-    (gogoproto.casttype) = "go-common/library/time.Time"
+    (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"
   ];
   int32 is_tourist = 19 [(gogoproto.jsontag) = "is_tourist"];
 }
 
 // +bili:deepcopy-gen=true
-// +bili:deepcopy-gen:structs=go-common/app/service/main/member/model.LevelInfo
+// +bili:deepcopy-gen:structs=github.com/namelessup/bilibili/app/service/main/member/model.LevelInfo
 message LevelInfo {
   int32 cur = 1 [(gogoproto.jsontag) = "current_level"];
   int32 min = 2 [(gogoproto.jsontag) = "current_min"];
@@ -95,7 +95,7 @@ message NameplateInfo {
 }
 
 // +bili:deepcopy-gen=true
-// +bili:deepcopy-gen:structs=go-common/app/service/main/member/model.OfficialInfo
+// +bili:deepcopy-gen:structs=github.com/namelessup/bilibili/app/service/main/member/model.OfficialInfo
 message OfficialInfo {
   int32 role = 1 [(gogoproto.jsontag) = "role", (gogoproto.casttype) = "int8"];
   string title = 2 [(gogoproto.jsontag) = "title"];
@@ -205,7 +205,7 @@ message RichRelationsReply {
 }
 
 // +bili:deepcopy-gen=true
-// +bili:deepcopy-gen:structs=go-common/app/service/main/account/api.VipInfo
+// +bili:deepcopy-gen:structs=github.com/namelessup/bilibili/app/service/main/account/api.VipInfo
 message VipReply {
   int32 type = 1;
   int32 status = 2;

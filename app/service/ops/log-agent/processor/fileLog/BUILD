@@ -11,7 +11,7 @@ go_library(
         "config.go",
         "fileLog.go",
     ],
-    importpath = "go-common/app/service/ops/log-agent/processor/fileLog",
+    importpath = "github.com/namelessup/bilibili/app/service/ops/log-agent/processor/fileLog",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

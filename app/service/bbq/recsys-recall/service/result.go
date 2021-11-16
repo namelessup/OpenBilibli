@@ -3,7 +3,7 @@ package service
 import (
 	"encoding/binary"
 	"errors"
-	"go-common/app/service/bbq/recsys-recall/model"
+	"github.com/namelessup/bilibili/app/service/bbq/recsys-recall/model"
 )
 
 // Result .

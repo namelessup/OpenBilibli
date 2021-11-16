@@ -7,15 +7,15 @@ import (
 	"sync/atomic"
 	"time"
 
-	tagmdl "go-common/app/interface/main/tag/model"
-	"go-common/app/interface/main/web-goblin/dao/web"
-	webmdl "go-common/app/interface/main/web-goblin/model/web"
-	"go-common/app/service/main/archive/api"
-	"go-common/app/service/main/archive/model/archive"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
-	"go-common/library/sync/errgroup"
+	tagmdl "github.com/namelessup/bilibili/app/interface/main/tag/model"
+	"github.com/namelessup/bilibili/app/interface/main/web-goblin/dao/web"
+	webmdl "github.com/namelessup/bilibili/app/interface/main/web-goblin/model/web"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 var (

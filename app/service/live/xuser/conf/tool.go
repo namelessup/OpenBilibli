@@ -1,7 +1,7 @@
 package conf
 
 import (
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 	"time"
 )
 

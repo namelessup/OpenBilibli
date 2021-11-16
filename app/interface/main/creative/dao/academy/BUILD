@@ -36,7 +36,7 @@ go_library(
         "skill.go",
         "tag.go",
     ],
-    importpath = "go-common/app/interface/main/creative/dao/academy",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/creative/dao/academy",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

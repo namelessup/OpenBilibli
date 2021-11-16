@@ -3,9 +3,9 @@ package grpc
 import (
 	"context"
 
-	v1 "go-common/app/service/main/tag/api"
-	"go-common/app/service/main/tag/model"
-	"go-common/library/ecode"
+	v1 "github.com/namelessup/bilibili/app/service/main/tag/api"
+	"github.com/namelessup/bilibili/app/service/main/tag/model"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 func (s *grpcServer) TagMap(c context.Context, arg *v1.TagMapByIDReq) (res *v1.TagMapByIDReply, err error) {

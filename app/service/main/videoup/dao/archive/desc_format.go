@@ -3,8 +3,8 @@ package archive
 import (
 	"context"
 
-	"go-common/app/service/main/videoup/model/archive"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/videoup/model/archive"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

@@ -3,7 +3,7 @@ package offlineactivity
 import (
 	"encoding/csv"
 	"fmt"
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/library/time"
 	"math"
 	"strconv"
 	time2 "time"

@@ -2,10 +2,10 @@ package http
 
 import (
 	"encoding/json"
-	"go-common/app/service/main/videoup/model/archive"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/service/main/videoup/model/archive"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 	"io/ioutil"
 )
 

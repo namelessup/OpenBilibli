@@ -5,7 +5,7 @@ import (
 	"context"
 	"fmt"
 	"github.com/pkg/errors"
-	"go-common/library/conf/env"
+	"github.com/namelessup/bilibili/library/conf/env"
 	"net/http"
 	"net/url"
 )

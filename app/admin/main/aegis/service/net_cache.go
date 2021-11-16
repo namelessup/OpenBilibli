@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"time"
 
-	"go-common/app/admin/main/aegis/model/common"
-	"go-common/app/admin/main/aegis/model/net"
-	"go-common/library/log"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model/common"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model/net"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 const netCacheNull = "{null}"

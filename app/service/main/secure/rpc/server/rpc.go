@@ -1,11 +1,11 @@
 package rpc
 
 import (
-	"go-common/app/service/main/secure/conf"
-	model "go-common/app/service/main/secure/model"
-	"go-common/app/service/main/secure/service"
-	"go-common/library/net/rpc"
-	"go-common/library/net/rpc/context"
+	"github.com/namelessup/bilibili/app/service/main/secure/conf"
+	model "github.com/namelessup/bilibili/app/service/main/secure/model"
+	"github.com/namelessup/bilibili/app/service/main/secure/service"
+	"github.com/namelessup/bilibili/library/net/rpc"
+	"github.com/namelessup/bilibili/library/net/rpc/context"
 )
 
 // RPC rpc service.

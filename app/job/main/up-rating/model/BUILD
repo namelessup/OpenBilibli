@@ -11,7 +11,7 @@ go_library(
         "rating.go",
         "statistics.go",
     ],
-    importpath = "go-common/app/job/main/up-rating/model",
+    importpath = "github.com/namelessup/bilibili/app/job/main/up-rating/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/time:go_default_library"],

@@ -13,7 +13,7 @@ go_library(
         "mc.go",
         "mysql.go",
     ],
-    importpath = "go-common/app/service/main/passport-game/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/main/passport-game/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

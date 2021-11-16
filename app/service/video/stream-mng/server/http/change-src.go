@@ -3,9 +3,9 @@ package http
 import (
 	"encoding/json"
 	"fmt"
-	"go-common/app/service/video/stream-mng/common"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/service/video/stream-mng/common"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 	"io/ioutil"
 	"strconv"
 )

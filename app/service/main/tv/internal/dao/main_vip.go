@@ -5,10 +5,10 @@ import (
 	"net/url"
 	"strconv"
 
-	"go-common/app/service/main/tv/internal/model"
-	mvip "go-common/app/service/main/vipinfo/api"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/tv/internal/model"
+	mvip "github.com/namelessup/bilibili/app/service/main/vipinfo/api"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

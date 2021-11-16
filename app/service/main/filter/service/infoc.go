@@ -5,9 +5,9 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 
-	"go-common/app/service/main/filter/model/actriearea"
+	"github.com/namelessup/bilibili/app/service/main/filter/model/actriearea"
 )
 
 func (s *Service) repostHitLog(c context.Context, resArea, msg string, mh []*actriearea.MatchHits, hitType string) {

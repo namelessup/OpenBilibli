@@ -4,8 +4,8 @@ import (
 	"context"
 	"strconv"
 
-	"go-common/app/admin/main/usersuit/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/usersuit/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) accNotify(c context.Context, uid int64, action string) (err error) {

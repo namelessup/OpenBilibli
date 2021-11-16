@@ -6,10 +6,10 @@ import (
 	"os/signal"
 	"syscall"
 
-	"go-common/app/job/main/relation/conf"
-	"go-common/app/job/main/relation/http"
-	"go-common/app/job/main/relation/service"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/relation/conf"
+	"github.com/namelessup/bilibili/app/job/main/relation/http"
+	"github.com/namelessup/bilibili/app/job/main/relation/service"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 var (
@@ -24,7 +24,7 @@ func main() {
 	}
 	log.Init(conf.Conf.Xlog)
 	defer log.Close()
-	log.Info("go-common/app/job/main/relation start")
+	log.Info("github.com/namelessup/bilibili/app/job/main/relation start")
 	srv = service.New(conf.Conf)
 	http.Init(conf.Conf, srv)
 	signalHandler()

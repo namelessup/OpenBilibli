@@ -3,9 +3,9 @@ package dao
 import (
 	"context"
 
-	"go-common/app/interface/main/ugcpay/conf"
-	archive "go-common/app/service/main/archive/api"
-	ugcpay "go-common/app/service/main/ugcpay/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/interface/main/ugcpay/conf"
+	archive "github.com/namelessup/bilibili/app/service/main/archive/api"
+	ugcpay "github.com/namelessup/bilibili/app/service/main/ugcpay/api/grpc/v1"
 )
 
 // Dao dao

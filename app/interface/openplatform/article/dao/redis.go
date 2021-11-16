@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"strconv"
 
-	"go-common/app/interface/openplatform/article/model"
-	"go-common/library/cache/redis"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/app/interface/main/activity/model/kfc"
+	"github.com/namelessup/bilibili/app/interface/main/activity/model/kfc"
 )
 
 func kfcKey(id int64) string {
@@ -15,13 +15,13 @@ func kfcCodeKey(code string) string {
 	return fmt.Sprintf("b_kfc_code_%s", code)
 }
 
-//go:generate $GOPATH/src/go-common/app/tool/cache/gen
+//go:generate $GOPATH/src/github.com/namelessup/bilibili/app/tool/cache/gen
 type _cache interface {
 	// cache: -sync=true
 	KfcCoupon(c context.Context, id int64) (*kfc.BnjKfcCoupon, error)
 }
 
-//go:generate $GOPATH/src/go-common/app/tool/cache/mc
+//go:generate $GOPATH/src/github.com/namelessup/bilibili/app/tool/cache/mc
 type _mc interface {
 	// mc: -key=kfcKey
 	CacheKfcCoupon(c context.Context, id int64) (*kfc.BnjKfcCoupon, error)

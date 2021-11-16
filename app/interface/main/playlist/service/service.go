@@ -3,17 +3,17 @@ package service
 import (
 	"context"
 
-	"go-common/app/interface/main/playlist/conf"
-	"go-common/app/interface/main/playlist/dao"
-	accclient "go-common/app/service/main/account/api"
-	accwarden "go-common/app/service/main/account/api"
-	accrpc "go-common/app/service/main/account/rpc/client"
-	arcrpc "go-common/app/service/main/archive/api/gorpc"
-	arcclient "go-common/app/service/main/archive/api"
-	favrpc "go-common/app/service/main/favorite/api/gorpc"
-	"go-common/app/service/main/filter/rpc/client"
-	"go-common/library/cache"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/playlist/conf"
+	"github.com/namelessup/bilibili/app/interface/main/playlist/dao"
+	accclient "github.com/namelessup/bilibili/app/service/main/account/api"
+	accwarden "github.com/namelessup/bilibili/app/service/main/account/api"
+	accrpc "github.com/namelessup/bilibili/app/service/main/account/rpc/client"
+	arcrpc "github.com/namelessup/bilibili/app/service/main/archive/api/gorpc"
+	arcclient "github.com/namelessup/bilibili/app/service/main/archive/api"
+	favrpc "github.com/namelessup/bilibili/app/service/main/favorite/api/gorpc"
+	"github.com/namelessup/bilibili/app/service/main/filter/rpc/client"
+	"github.com/namelessup/bilibili/library/cache"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Service service struct.

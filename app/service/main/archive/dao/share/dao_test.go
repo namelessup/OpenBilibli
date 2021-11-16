@@ -2,7 +2,7 @@ package share
 
 import (
 	"flag"
-	"go-common/app/service/main/archive/conf"
+	"github.com/namelessup/bilibili/app/service/main/archive/conf"
 	"os"
 	"testing"
 )

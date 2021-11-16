@@ -3,11 +3,11 @@ package service
 import (
 	"context"
 
-	"go-common/app/service/live/dao-anchor/conf"
-	"go-common/app/service/live/dao-anchor/dao"
-	consumerV1 "go-common/app/service/live/dao-anchor/service/consumer/v1"
-	"go-common/app/service/live/dao-anchor/service/v0"
-	"go-common/app/service/live/dao-anchor/service/v1"
+	"github.com/namelessup/bilibili/app/service/live/dao-anchor/conf"
+	"github.com/namelessup/bilibili/app/service/live/dao-anchor/dao"
+	consumerV1 "github.com/namelessup/bilibili/app/service/live/dao-anchor/service/consumer/v1"
+	"github.com/namelessup/bilibili/app/service/live/dao-anchor/service/v0"
+	"github.com/namelessup/bilibili/app/service/live/dao-anchor/service/v1"
 )
 
 // Service struct

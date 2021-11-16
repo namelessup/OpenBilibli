@@ -13,8 +13,8 @@ message ChannelCategory {
     string name = 2 [(gogoproto.jsontag) = "name"];
     int32 state = 3 [(gogoproto.jsontag) = "state"];
     int32 int_shield = 4 [(gogoproto.jsontag) = "int_shield"]; //International Shield. 国际版是否屏蔽
-    int64 ctime = 5 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "go-common/library/time.Time"];
-    int64 mtime = 6 [(gogoproto.jsontag) = "-", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int64 ctime = 5 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
+    int64 mtime = 6 [(gogoproto.jsontag) = "-", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
 }
 
 message Channel {
@@ -32,16 +32,16 @@ message Channel {
     int32 activity = 12 [(gogoproto.jsontag) = "activity"];
     int32 int_shield = 13 [(gogoproto.jsontag) = "int_shield"]; //International Shield. 国际版是否屏蔽
     int32 state = 14 [(gogoproto.jsontag) = "state"];
-    int64 ctime = 15 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "go-common/library/time.Time"];
-    int64 mtime = 16 [(gogoproto.jsontag) = "-", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int64 ctime = 15 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
+    int64 mtime = 16 [(gogoproto.jsontag) = "-", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
 }
 
 message ChannelSynonym {
     int64 id = 1 [(gogoproto.jsontag) = "id"];
     string name = 2 [(gogoproto.jsontag) = "name"];
     string alias = 3 [(gogoproto.jsontag) = "alias"];
-    int64 ctime = 4 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "go-common/library/time.Time"];
-    int64 mtime = 5 [(gogoproto.jsontag) = "-", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int64 ctime = 4 [(gogoproto.jsontag) = "ctime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
+    int64 mtime = 5 [(gogoproto.jsontag) = "-", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
 }
 
 message ChannelSquare {

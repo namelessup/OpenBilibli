@@ -2,9 +2,9 @@ package dao
 
 import (
 	"context"
-	"go-common/app/service/live/captcha/api/liverpc/v0"
-	"go-common/app/service/live/captcha/api/liverpc/v1"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/live/captcha/api/liverpc/v0"
+	"github.com/namelessup/bilibili/app/service/live/captcha/api/liverpc/v1"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // LiveCreate call liveRpc for create captcha

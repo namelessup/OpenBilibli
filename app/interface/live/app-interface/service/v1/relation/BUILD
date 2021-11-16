@@ -13,7 +13,7 @@ go_library(
         "Tools.go",
         "rpcWraper.go",
     ],
-    importpath = "go-common/app/interface/live/app-interface/service/v1/relation",
+    importpath = "github.com/namelessup/bilibili/app/interface/live/app-interface/service/v1/relation",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

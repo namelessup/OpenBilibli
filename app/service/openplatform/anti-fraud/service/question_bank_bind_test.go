@@ -4,10 +4,10 @@ import (
 	"flag"
 	"fmt"
 	. "github.com/smartystreets/goconvey/convey"
-	"go-common/app/service/openplatform/anti-fraud/conf"
+	"github.com/namelessup/bilibili/app/service/openplatform/anti-fraud/conf"
 
 	"context"
-	"go-common/app/service/openplatform/anti-fraud/model"
+	"github.com/namelessup/bilibili/app/service/openplatform/anti-fraud/model"
 	"testing"
 )
 

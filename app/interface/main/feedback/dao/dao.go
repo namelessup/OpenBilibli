@@ -3,8 +3,8 @@ package dao
 import (
 	"context"
 
-	"go-common/app/interface/main/feedback/conf"
-	"go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/interface/main/feedback/conf"
+	"github.com/namelessup/bilibili/library/database/sql"
 	"net/http"
 )
 

@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	model "go-common/app/service/main/secure/model"
+	model "github.com/namelessup/bilibili/app/service/main/secure/model"
 )
 
 var s *Service

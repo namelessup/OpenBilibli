@@ -28,7 +28,7 @@ go_library(
         "dao.go",
         "sobot.go",
     ],
-    importpath = "go-common/app/service/main/workflow/dao/sobot",
+    importpath = "github.com/namelessup/bilibili/app/service/main/workflow/dao/sobot",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

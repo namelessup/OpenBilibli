@@ -7,13 +7,13 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/app/admin/main/aegis/conf"
-	"go-common/app/admin/main/aegis/server/http"
-	"go-common/app/admin/main/aegis/service"
-	ecode "go-common/library/ecode/tip"
-	"go-common/library/log"
-	"go-common/library/net/trace"
-	"go-common/library/queue/databus/report"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/conf"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/server/http"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/service"
+	ecode "github.com/namelessup/bilibili/library/ecode/tip"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
+	"github.com/namelessup/bilibili/library/queue/databus/report"
 )
 
 func main() {

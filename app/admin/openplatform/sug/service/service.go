@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"go-common/app/admin/openplatform/sug/conf"
-	"go-common/app/admin/openplatform/sug/dao"
+	"github.com/namelessup/bilibili/app/admin/openplatform/sug/conf"
+	"github.com/namelessup/bilibili/app/admin/openplatform/sug/dao"
 )
 
 // Service struct

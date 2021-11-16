@@ -1,7 +1,7 @@
 package dao
 
 import (
-	"go-common/app/service/bbq/recsys/dao/parallel"
+	"github.com/namelessup/bilibili/app/service/bbq/recsys/dao/parallel"
 
 	"github.com/Dai0522/workpool"
 )

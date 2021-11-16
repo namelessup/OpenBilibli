@@ -2,7 +2,7 @@ package assist
 
 import (
 	"context"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // LiveStatus get user assist rights about liveRoom

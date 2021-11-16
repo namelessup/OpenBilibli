@@ -1,12 +1,12 @@
 package server
 
 import (
-	"go-common/app/interface/main/activity/conf"
-	matmdl "go-common/app/interface/main/activity/model/like"
-	match "go-common/app/interface/main/activity/service/like"
-	"go-common/library/net/rpc"
-	"go-common/library/net/rpc/context"
-	"go-common/library/net/rpc/interceptor"
+	"github.com/namelessup/bilibili/app/interface/main/activity/conf"
+	matmdl "github.com/namelessup/bilibili/app/interface/main/activity/model/like"
+	match "github.com/namelessup/bilibili/app/interface/main/activity/service/like"
+	"github.com/namelessup/bilibili/library/net/rpc"
+	"github.com/namelessup/bilibili/library/net/rpc/context"
+	"github.com/namelessup/bilibili/library/net/rpc/interceptor"
 )
 
 // RPC struct info.

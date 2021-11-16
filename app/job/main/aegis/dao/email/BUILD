@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["dao.go"],
-    importpath = "go-common/app/job/main/aegis/dao/email",
+    importpath = "github.com/namelessup/bilibili/app/job/main/aegis/dao/email",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

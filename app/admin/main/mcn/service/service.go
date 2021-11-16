@@ -3,16 +3,16 @@ package service
 import (
 	"context"
 
-	"go-common/app/admin/main/mcn/conf"
-	bfs "go-common/app/admin/main/mcn/dao/bfs"
-	msg "go-common/app/admin/main/mcn/dao/msg"
-	dao "go-common/app/admin/main/mcn/dao/up"
-	videoup "go-common/app/admin/main/mcn/dao/videoup"
-	"go-common/app/admin/main/mcn/model"
-	"go-common/app/interface/main/mcn/tool/worker"
-	accgrpc "go-common/app/service/main/account/api"
-	arcgrpc "go-common/app/service/main/archive/api"
-	memgrpc "go-common/app/service/main/member/api"
+	"github.com/namelessup/bilibili/app/admin/main/mcn/conf"
+	bfs "github.com/namelessup/bilibili/app/admin/main/mcn/dao/bfs"
+	msg "github.com/namelessup/bilibili/app/admin/main/mcn/dao/msg"
+	dao "github.com/namelessup/bilibili/app/admin/main/mcn/dao/up"
+	videoup "github.com/namelessup/bilibili/app/admin/main/mcn/dao/videoup"
+	"github.com/namelessup/bilibili/app/admin/main/mcn/model"
+	"github.com/namelessup/bilibili/app/interface/main/mcn/tool/worker"
+	accgrpc "github.com/namelessup/bilibili/app/service/main/account/api"
+	arcgrpc "github.com/namelessup/bilibili/app/service/main/archive/api"
+	memgrpc "github.com/namelessup/bilibili/app/service/main/member/api"
 
 	"github.com/pkg/errors"
 )

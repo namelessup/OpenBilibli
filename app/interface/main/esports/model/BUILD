@@ -13,7 +13,7 @@ go_library(
         "pointdata.go",
         "search.go",
     ],
-    importpath = "go-common/app/interface/main/esports/model",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/esports/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

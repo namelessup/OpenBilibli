@@ -3,10 +3,10 @@ package weeklyhonor
 import (
 	"context"
 
-	"go-common/app/service/main/archive/model/archive"
-	upgrpc "go-common/app/service/main/up/api/v1"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	upgrpc "github.com/namelessup/bilibili/app/service/main/up/api/v1"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const fromWeeklyHonor = 1

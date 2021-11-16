@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"strconv"
 
-	"go-common/app/service/main/resource/model"
-	"go-common/library/database/sql"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/resource/model"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) arcChan(action string, nwMsg []byte, oldMsg []byte) {

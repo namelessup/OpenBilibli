@@ -2,7 +2,7 @@ package anchorReward
 
 import (
 	"flag"
-	"go-common/app/service/live/xrewardcenter/conf"
+	"github.com/namelessup/bilibili/app/service/live/xrewardcenter/conf"
 	"os"
 	"testing"
 )

@@ -27,7 +27,7 @@ go_library(
         "dao.go",
         "video_types.go",
     ],
-    importpath = "go-common/app/admin/main/mcn/dao/videoup",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/mcn/dao/videoup",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

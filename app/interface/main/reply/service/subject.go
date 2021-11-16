@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 
-	model "go-common/app/interface/main/reply/model/reply"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	model "github.com/namelessup/bilibili/app/interface/main/reply/model/reply"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) subject(c context.Context, oid int64, tp int8) (sub *model.Subject, err error) {

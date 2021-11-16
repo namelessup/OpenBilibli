@@ -3,8 +3,8 @@ package http
 import (
 	"testing"
 
-	"go-common/app/admin/main/mcn/model"
-	"go-common/library/net/http/blademaster/binding"
+	"github.com/namelessup/bilibili/app/admin/main/mcn/model"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/binding"
 )
 
 func TestValidater(t *testing.T) {

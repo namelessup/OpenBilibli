@@ -4,9 +4,9 @@ import (
 	"context"
 	"flag"
 	"fmt"
-	"go-common/app/service/main/filter/api/grpc/v1"
-	"go-common/library/net/rpc/warden"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/service/main/filter/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
+	xtime "github.com/namelessup/bilibili/library/time"
 	"log"
 	"time"
 )

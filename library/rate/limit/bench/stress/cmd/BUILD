@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["stress-test.toml"],
-    importpath = "go-common/library/rate/limit/bench/stress/cmd",
+    importpath = "github.com/namelessup/bilibili/library/rate/limit/bench/stress/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

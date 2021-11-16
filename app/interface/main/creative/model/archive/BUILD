@@ -18,7 +18,7 @@ go_library(
         "viewpoint.go",
         "whitelist.go",
     ],
-    importpath = "go-common/app/interface/main/creative/model/archive",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/creative/model/archive",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

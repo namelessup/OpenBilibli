@@ -23,7 +23,7 @@ go_library(
         "token.go",
         "transition.go",
     ],
-    importpath = "go-common/app/admin/main/aegis/server/http",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/aegis/server/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

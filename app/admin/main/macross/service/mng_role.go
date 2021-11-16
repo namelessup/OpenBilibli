@@ -4,9 +4,9 @@ import (
 	"context"
 	"sort"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 
-	model "go-common/app/admin/main/macross/model/manager"
+	model "github.com/namelessup/bilibili/app/admin/main/macross/model/manager"
 )
 
 // Role get role.

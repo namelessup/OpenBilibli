@@ -3,7 +3,7 @@ package account
 import (
 	"context"
 	"flag"
-	"go-common/app/interface/main/app-intl/conf"
+	"github.com/namelessup/bilibili/app/interface/main/app-intl/conf"
 	"os"
 	"testing"
 

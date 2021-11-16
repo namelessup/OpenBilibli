@@ -3,13 +3,13 @@ package http
 import (
 	"net/http"
 
-	"go-common/app/interface/main/account/model"
-	idtv1 "go-common/app/service/main/identify/api/grpc"
-	vipmol "go-common/app/service/main/vip/model"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/auth"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/main/account/model"
+	idtv1 "github.com/namelessup/bilibili/app/service/main/identify/api/grpc"
+	vipmol "github.com/namelessup/bilibili/app/service/main/vip/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/auth"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 //

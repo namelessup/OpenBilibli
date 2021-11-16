@@ -2,14 +2,14 @@ package service
 
 import (
 	"context"
-	"go-common/app/interface/bbq/app-bbq/conf"
-	"go-common/app/interface/bbq/app-bbq/dao"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/bbq/app-bbq/conf"
+	"github.com/namelessup/bilibili/app/interface/bbq/app-bbq/dao"
+	"github.com/namelessup/bilibili/library/log"
 
-	topic "go-common/app/service/bbq/topic/api"
-	video_v1 "go-common/app/service/bbq/video/api/grpc/v1"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/rpc/warden"
+	topic "github.com/namelessup/bilibili/app/service/bbq/topic/api"
+	video_v1 "github.com/namelessup/bilibili/app/service/bbq/video/api/grpc/v1"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 )
 
 // Service struct

@@ -7,10 +7,10 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/app/job/main/identify/conf"
-	"go-common/app/job/main/identify/http"
-	"go-common/app/job/main/identify/service"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/identify/conf"
+	"github.com/namelessup/bilibili/app/job/main/identify/http"
+	"github.com/namelessup/bilibili/app/job/main/identify/service"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func main() {

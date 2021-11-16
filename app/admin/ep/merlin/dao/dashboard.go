@@ -3,8 +3,8 @@ package dao
 import (
 	"context"
 
-	"go-common/app/admin/ep/merlin/model"
-	"go-common/library/cache/memcache"
+	"github.com/namelessup/bilibili/app/admin/ep/merlin/model"
+	"github.com/namelessup/bilibili/library/cache/memcache"
 )
 
 //QueryMachineUsageSummaryFromCache Machine Usage Summary In Cache.

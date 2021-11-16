@@ -12,7 +12,7 @@ go_library(
         "article.go",
         "data.go",
     ],
-    importpath = "go-common/app/interface/main/creative/model/data",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/creative/model/data",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

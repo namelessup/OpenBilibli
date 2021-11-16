@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"go-common/app/job/main/member/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/member/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) checkExpAdd(c context.Context, mid int64, event string, now time.Time) (exp *model.NewExp, eo *model.ExpOper, added, ok bool, err error) {

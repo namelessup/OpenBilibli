@@ -13,7 +13,7 @@ go_library(
         "pwd.go",
         "rpc.go",
     ],
-    importpath = "go-common/app/service/main/passport/model",
+    importpath = "github.com/namelessup/bilibili/app/service/main/passport/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

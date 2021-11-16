@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/job/main/activity/conf"
-	l "go-common/app/job/main/activity/model/like"
+	"github.com/namelessup/bilibili/app/job/main/activity/conf"
+	l "github.com/namelessup/bilibili/app/job/main/activity/model/like"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

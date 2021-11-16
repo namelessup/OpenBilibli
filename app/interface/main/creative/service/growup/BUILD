@@ -25,7 +25,7 @@ go_library(
         "growup.go",
         "service.go",
     ],
-    importpath = "go-common/app/interface/main/creative/service/growup",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/creative/service/growup",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

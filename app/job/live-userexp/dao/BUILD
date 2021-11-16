@@ -10,7 +10,7 @@ go_library(
         "dao.go",
         "mc_level.go",
     ],
-    importpath = "go-common/app/job/live-userexp/dao",
+    importpath = "github.com/namelessup/bilibili/app/job/live-userexp/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

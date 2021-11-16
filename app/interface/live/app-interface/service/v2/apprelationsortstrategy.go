@@ -2,8 +2,8 @@ package v2
 
 import (
 	"context"
-	v2pb "go-common/app/interface/live/app-interface/api/http/v2"
-	"go-common/library/log"
+	v2pb "github.com/namelessup/bilibili/app/interface/live/app-interface/api/http/v2"
+	"github.com/namelessup/bilibili/library/log"
 	"sort"
 )
 

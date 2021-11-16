@@ -1,6 +1,6 @@
 package model
 
-import xtime "go-common/library/time"
+import xtime "github.com/namelessup/bilibili/library/time"
 
 // TableName is used to identify table name in gorm
 func (ra *RoomAdmin) TableName() string {

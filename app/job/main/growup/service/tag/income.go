@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	model "go-common/app/job/main/growup/model/tag"
-	"go-common/library/log"
+	model "github.com/namelessup/bilibili/app/job/main/growup/model/tag"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // updateTagIncome update tag_income

@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["vip-service-test.toml"],
-    importpath = "go-common/app/service/main/vip/cmd",
+    importpath = "github.com/namelessup/bilibili/app/service/main/vip/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

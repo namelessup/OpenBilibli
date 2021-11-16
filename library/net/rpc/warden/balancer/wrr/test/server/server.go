@@ -10,10 +10,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/rpc/warden"
-	pb "go-common/library/net/rpc/warden/proto/testproto"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
+	pb "github.com/namelessup/bilibili/library/net/rpc/warden/proto/testproto"
 )
 
 var (
@@ -67,7 +67,7 @@ func (s *helloServer) SayHello(ctx context.Context, in *pb.HelloRequest) (*pb.He
 	time.Sleep(time.Millisecond * time.Duration(in.Age))
 	time.Sleep(sleep)
 	for i := 0; i < cpu+rand.Intn(cpu); i++ {
-		crc32.Checksum([]byte(`testasdwfwfsddsfgwddcscschttp://git.bilibili.co/platform/go-common/merge_requests/new?merge_request%5Bsource_branch%5D=stress%2Fcodel`), crc32.IEEETable)
+		crc32.Checksum([]byte(`testasdwfwfsddsfgwddcscschttp://git.bilibili.co/platform/github.com/namelessup/bilibili/merge_requests/new?merge_request%5Bsource_branch%5D=stress%2Fcodel`), crc32.IEEETable)
 	}
 	return &pb.HelloReply{Message: "Hello " + in.Name, Success: true}, nil
 }

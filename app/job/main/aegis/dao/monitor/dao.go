@@ -2,10 +2,10 @@ package monitor
 
 import (
 	"context"
-	"go-common/app/job/main/aegis/conf"
-	"go-common/library/cache/redis"
-	xsql "go-common/library/database/sql"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/job/main/aegis/conf"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 type Dao struct {

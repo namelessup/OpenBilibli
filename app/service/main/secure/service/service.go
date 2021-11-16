@@ -7,12 +7,12 @@ import (
 	"strings"
 	"time"
 
-	location "go-common/app/service/main/location/rpc/client"
-	"go-common/app/service/main/secure/conf"
-	"go-common/app/service/main/secure/dao"
-	"go-common/app/service/main/secure/model"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
+	location "github.com/namelessup/bilibili/app/service/main/location/rpc/client"
+	"github.com/namelessup/bilibili/app/service/main/secure/conf"
+	"github.com/namelessup/bilibili/app/service/main/secure/dao"
+	"github.com/namelessup/bilibili/app/service/main/secure/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 const (

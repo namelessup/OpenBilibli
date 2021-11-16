@@ -12,7 +12,7 @@ go_library(
         "blacklist.go",
         "dao.go",
     ],
-    importpath = "go-common/app/admin/main/space/dao",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/space/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

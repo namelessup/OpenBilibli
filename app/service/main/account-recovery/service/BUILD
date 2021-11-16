@@ -14,7 +14,7 @@ go_library(
         "send_email.go",
         "service.go",
     ],
-    importpath = "go-common/app/service/main/account-recovery/service",
+    importpath = "github.com/namelessup/bilibili/app/service/main/account-recovery/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

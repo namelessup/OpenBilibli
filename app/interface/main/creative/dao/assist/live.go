@@ -7,10 +7,10 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/interface/main/creative/model/assist"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	gtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/assist"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	gtime "github.com/namelessup/bilibili/library/time"
 )
 
 const (

@@ -3,9 +3,9 @@ package service
 import (
 	"time"
 
-	"go-common/app/service/bbq/push/conf"
-	"go-common/app/service/bbq/push/dao"
-	"go-common/library/log/infoc"
+	"github.com/namelessup/bilibili/app/service/bbq/push/conf"
+	"github.com/namelessup/bilibili/app/service/bbq/push/dao"
+	"github.com/namelessup/bilibili/library/log/infoc"
 
 	"github.com/Dai0522/workpool"
 )

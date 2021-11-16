@@ -35,7 +35,7 @@ go_library(
         "search_sug.go",
         "wild.go",
     ],
-    importpath = "go-common/app/interface/main/tv/dao/search",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/tv/dao/search",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

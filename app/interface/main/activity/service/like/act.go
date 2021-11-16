@@ -5,8 +5,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go-common/app/interface/main/activity/model/like"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/activity/model/like"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // RedDot get hot dot.

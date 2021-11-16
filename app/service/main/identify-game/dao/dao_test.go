@@ -2,7 +2,7 @@ package dao
 
 import (
 	"flag"
-	"go-common/app/service/main/identify-game/conf"
+	"github.com/namelessup/bilibili/app/service/main/identify-game/conf"
 	"os"
 	"testing"
 

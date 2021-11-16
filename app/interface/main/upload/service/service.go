@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/interface/main/upload/conf"
-	"go-common/app/interface/main/upload/dao"
-	"go-common/app/interface/main/upload/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/upload/conf"
+	"github.com/namelessup/bilibili/app/interface/main/upload/dao"
+	"github.com/namelessup/bilibili/app/interface/main/upload/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Service .

@@ -11,6 +11,6 @@ RUN mv /etc/apt/sources.list /etc/apt/sources.list.bak \
 
 RUN apt-get update && apt-get install openjdk-8-jdk -y
 
-ADD ./ /go/src/go-common/
+ADD ./ /go/src/github.com/namelessup/bilibili/
 
-RUN cd /go/src/go-common/app/tool/kratos && go install
+RUN cd /go/src/github.com/namelessup/bilibili/app/tool/kratos && go install

@@ -24,7 +24,7 @@ go_library(
         "audit.go",
         "rank.go",
     ],
-    importpath = "go-common/app/interface/main/app-show/service/rank",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-show/service/rank",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

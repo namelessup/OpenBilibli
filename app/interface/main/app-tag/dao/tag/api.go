@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/interface/main/app-tag/model/tag"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/app-tag/model/tag"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

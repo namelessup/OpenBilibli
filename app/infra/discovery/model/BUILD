@@ -12,7 +12,7 @@ go_library(
         "node.go",
         "param.go",
     ],
-    importpath = "go-common/app/infra/discovery/model",
+    importpath = "github.com/namelessup/bilibili/app/infra/discovery/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["coupon-service.toml"],
-    importpath = "go-common/app/service/main/coupon/cmd",
+    importpath = "github.com/namelessup/bilibili/app/service/main/coupon/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -6,11 +6,11 @@ import (
 	"sync"
 	"time"
 
-	"go-common/app/job/main/coupon/conf"
-	"go-common/app/job/main/coupon/dao"
-	"go-common/app/job/main/coupon/model"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/job/main/coupon/conf"
+	"github.com/namelessup/bilibili/app/job/main/coupon/dao"
+	"github.com/namelessup/bilibili/app/job/main/coupon/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
 
 	"github.com/robfig/cron"
 )

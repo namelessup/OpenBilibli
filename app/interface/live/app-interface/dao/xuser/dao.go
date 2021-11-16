@@ -3,8 +3,8 @@ package xuser
 import (
 	"context"
 
-	"go-common/app/interface/live/app-interface/conf"
-	xuser "go-common/app/service/live/xuser/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/interface/live/app-interface/conf"
+	xuser "github.com/namelessup/bilibili/app/service/live/xuser/api/grpc/v1"
 )
 
 // Dao dao

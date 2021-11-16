@@ -3,11 +3,11 @@ package grpc
 import (
 	"time"
 
-	v0pb "go-common/app/service/live/dao-anchor/api/grpc/v0"
-	v1pb "go-common/app/service/live/dao-anchor/api/grpc/v1"
-	"go-common/app/service/live/dao-anchor/service"
-	"go-common/library/net/rpc/warden"
-	xtime "go-common/library/time"
+	v0pb "github.com/namelessup/bilibili/app/service/live/dao-anchor/api/grpc/v0"
+	v1pb "github.com/namelessup/bilibili/app/service/live/dao-anchor/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/live/dao-anchor/service"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	"google.golang.org/grpc"
 )

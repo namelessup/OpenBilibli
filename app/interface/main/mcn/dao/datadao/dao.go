@@ -1,12 +1,12 @@
 package datadao
 
 import (
-	"go-common/app/interface/main/mcn/conf"
-	"go-common/app/interface/main/mcn/dao/global"
-	"go-common/app/interface/main/mcn/tool/cache"
-	"go-common/app/interface/main/mcn/tool/datacenter"
-	"go-common/library/cache/memcache"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/interface/main/mcn/conf"
+	"github.com/namelessup/bilibili/app/interface/main/mcn/dao/global"
+	"github.com/namelessup/bilibili/app/interface/main/mcn/tool/cache"
+	"github.com/namelessup/bilibili/app/interface/main/mcn/tool/datacenter"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 //Dao data dao

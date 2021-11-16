@@ -7,14 +7,14 @@ import (
 	"strconv"
 	"strings"
 
-	"go-common/app/service/main/push/dao/huawei"
-	"go-common/app/service/main/push/dao/jpush"
-	"go-common/app/service/main/push/dao/mi"
-	"go-common/app/service/main/push/dao/oppo"
-	pushmdl "go-common/app/service/main/push/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/service/main/push/dao/huawei"
+	"github.com/namelessup/bilibili/app/service/main/push/dao/jpush"
+	"github.com/namelessup/bilibili/app/service/main/push/dao/mi"
+	"github.com/namelessup/bilibili/app/service/main/push/dao/oppo"
+	pushmdl "github.com/namelessup/bilibili/app/service/main/push/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 var mobis = map[string]int{

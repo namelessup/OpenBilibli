@@ -12,7 +12,7 @@ go_library(
         "reply.go",
         "xints.go",
     ],
-    importpath = "go-common/app/interface/main/creative/model/reply",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/creative/model/reply",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

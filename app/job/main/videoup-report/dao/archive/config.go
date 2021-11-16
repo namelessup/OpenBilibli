@@ -5,9 +5,9 @@ import (
 	"database/sql"
 	"encoding/json"
 
-	"go-common/app/job/main/videoup-report/model/task"
-	"go-common/library/log"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/job/main/videoup-report/model/task"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 const (

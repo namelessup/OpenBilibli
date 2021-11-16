@@ -2,12 +2,12 @@ package service
 
 import (
 	"encoding/json"
-	"go-common/app/job/live/push-search/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/live/push-search/model"
+	"github.com/namelessup/bilibili/library/log"
 
 	"context"
-	roomV1 "go-common/app/service/live/room/api/liverpc/v1"
-	"go-common/library/sync/errgroup"
+	roomV1 "github.com/namelessup/bilibili/app/service/live/room/api/liverpc/v1"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 	"strconv"
 )
 

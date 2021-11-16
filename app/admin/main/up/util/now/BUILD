@@ -20,7 +20,7 @@ go_library(
         "main.go",
         "now.go",
     ],
-    importpath = "go-common/app/admin/main/up/util/now",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/up/util/now",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

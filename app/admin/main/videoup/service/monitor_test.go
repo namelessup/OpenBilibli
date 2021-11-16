@@ -3,7 +3,7 @@ package service
 import (
 	"context"
 	. "github.com/smartystreets/goconvey/convey"
-	"go-common/app/admin/main/videoup/model/monitor"
+	"github.com/namelessup/bilibili/app/admin/main/videoup/model/monitor"
 	"testing"
 )
 

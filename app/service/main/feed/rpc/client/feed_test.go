@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	model "go-common/app/service/main/feed/model"
+	model "github.com/namelessup/bilibili/app/service/main/feed/model"
 )
 
 func TestFeed(t *testing.T) {

@@ -4,7 +4,7 @@ import (
 	"context"
 	"encoding/json"
 	"github.com/bouk/monkey"
-	"go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster"
 	"net/url"
 	"reflect"
 	"testing"

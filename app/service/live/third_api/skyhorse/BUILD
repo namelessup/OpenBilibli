@@ -11,7 +11,7 @@ go_library(
         "client.go",
         "rec.go",
     ],
-    importpath = "go-common/app/service/live/third_api/skyhorse",
+    importpath = "github.com/namelessup/bilibili/app/service/live/third_api/skyhorse",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

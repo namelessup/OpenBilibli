@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["message.go"],
-    importpath = "go-common/app/job/main/videoup/model/message",
+    importpath = "github.com/namelessup/bilibili/app/job/main/videoup/model/message",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//app/job/main/videoup/model/archive:go_default_library"],

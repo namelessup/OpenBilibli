@@ -5,8 +5,8 @@ import (
 	"os"
 	"testing"
 
-	"go-common/app/service/main/bns/agent/backend"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/bns/agent/backend"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func init() {

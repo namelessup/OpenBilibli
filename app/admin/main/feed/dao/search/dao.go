@@ -3,9 +3,9 @@ package search
 import (
 	"context"
 
-	"go-common/app/admin/main/feed/conf"
-	"go-common/library/cache/memcache"
-	"go-common/library/database/orm"
+	"github.com/namelessup/bilibili/app/admin/main/feed/conf"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/database/orm"
 
 	"github.com/jinzhu/gorm"
 )

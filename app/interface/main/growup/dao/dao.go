@@ -4,16 +4,16 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/interface/main/growup/conf"
-	article "go-common/app/interface/openplatform/article/rpc/client"
-	account "go-common/app/service/main/account/rpc/client"
-	vip "go-common/app/service/main/vip/rpc/client"
+	"github.com/namelessup/bilibili/app/interface/main/growup/conf"
+	article "github.com/namelessup/bilibili/app/interface/openplatform/article/rpc/client"
+	account "github.com/namelessup/bilibili/app/service/main/account/rpc/client"
+	vip "github.com/namelessup/bilibili/app/service/main/vip/rpc/client"
 
-	"go-common/library/cache/redis"
-	"go-common/library/database/hbase.v2"
-	"go-common/library/database/sql"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/database/hbase.v2"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // Dao def dao struct

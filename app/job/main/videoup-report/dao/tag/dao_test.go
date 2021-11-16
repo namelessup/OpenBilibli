@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/job/main/videoup-report/conf"
+	"github.com/namelessup/bilibili/app/job/main/videoup-report/conf"
 )
 
 var (

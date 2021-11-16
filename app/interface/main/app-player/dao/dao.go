@@ -7,11 +7,11 @@ import (
 	"net/url"
 	"strconv"
 
-	"go-common/app/interface/main/app-player/conf"
-	"go-common/app/interface/main/app-player/model"
-	"go-common/library/log"
-	httpx "go-common/library/net/http/blademaster"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/main/app-player/conf"
+	"github.com/namelessup/bilibili/app/interface/main/app-player/model"
+	"github.com/namelessup/bilibili/library/log"
+	httpx "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/metadata"
 
 	"github.com/pkg/errors"
 )

@@ -33,7 +33,7 @@ go_library(
         "service.go",
         "show.go",
     ],
-    importpath = "go-common/app/interface/main/app-show/service/region",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-show/service/region",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -3,9 +3,9 @@ package http
 import (
 	"encoding/json"
 
-	"go-common/app/interface/main/app-card/model/card/ai"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/interface/main/app-card/model/card/ai"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func upRcmd(c *bm.Context) {

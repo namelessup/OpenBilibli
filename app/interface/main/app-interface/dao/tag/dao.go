@@ -5,14 +5,14 @@ import (
 	"net/url"
 	"strconv"
 
-	"go-common/app/interface/main/app-interface/conf"
-	tagmdl "go-common/app/interface/main/app-interface/model/tag"
-	tag "go-common/app/interface/main/tag/model"
-	tagrpc "go-common/app/interface/main/tag/rpc/client"
-	"go-common/library/ecode"
-	httpx "go-common/library/net/http/blademaster"
-	"go-common/library/net/metadata"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/conf"
+	tagmdl "github.com/namelessup/bilibili/app/interface/main/app-interface/model/tag"
+	tag "github.com/namelessup/bilibili/app/interface/main/tag/model"
+	tagrpc "github.com/namelessup/bilibili/app/interface/main/tag/rpc/client"
+	"github.com/namelessup/bilibili/library/ecode"
+	httpx "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/xstr"
 
 	"github.com/pkg/errors"
 )

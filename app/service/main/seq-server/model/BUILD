@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["model.go"],
-    importpath = "go-common/app/service/main/seq-server/model",
+    importpath = "github.com/namelessup/bilibili/app/service/main/seq-server/model",
     tags = ["automanaged"],
     deps = ["//library/time:go_default_library"],
 )

@@ -3,15 +3,15 @@ package tag
 import (
 	"time"
 
-	"go-common/app/interface/main/app-tag/conf"
-	arcdao "go-common/app/interface/main/app-tag/dao/archive"
-	bgmdao "go-common/app/interface/main/app-tag/dao/bangumi"
-	rcmdao "go-common/app/interface/main/app-tag/dao/recommend"
-	rgdao "go-common/app/interface/main/app-tag/dao/region"
-	tagdao "go-common/app/interface/main/app-tag/dao/tag"
-	"go-common/app/interface/main/app-tag/model/region"
-	"go-common/app/interface/main/app-tag/model/tag"
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/app/interface/main/app-tag/conf"
+	arcdao "github.com/namelessup/bilibili/app/interface/main/app-tag/dao/archive"
+	bgmdao "github.com/namelessup/bilibili/app/interface/main/app-tag/dao/bangumi"
+	rcmdao "github.com/namelessup/bilibili/app/interface/main/app-tag/dao/recommend"
+	rgdao "github.com/namelessup/bilibili/app/interface/main/app-tag/dao/region"
+	tagdao "github.com/namelessup/bilibili/app/interface/main/app-tag/dao/tag"
+	"github.com/namelessup/bilibili/app/interface/main/app-tag/model/region"
+	"github.com/namelessup/bilibili/app/interface/main/app-tag/model/tag"
+	"github.com/namelessup/bilibili/library/stat/prom"
 )
 
 const (

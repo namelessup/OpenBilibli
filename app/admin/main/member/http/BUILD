@@ -24,7 +24,7 @@ go_library(
         "realname.go",
         "review.go",
     ],
-    importpath = "go-common/app/admin/main/member/http",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/member/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

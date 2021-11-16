@@ -3,8 +3,8 @@ package dao
 import (
 	"context"
 
-	"go-common/app/service/main/rank/conf"
-	xsql "go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/service/main/rank/conf"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
 )
 
 // Dao dao

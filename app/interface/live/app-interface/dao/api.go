@@ -1,20 +1,20 @@
 package dao
 
 import (
-	"go-common/app/interface/live/app-interface/conf"
-	avApi "go-common/app/service/live/av/api/liverpc"
-	fansMedalApi "go-common/app/service/live/fans_medal/api/liverpc"
-	liveDataApi "go-common/app/service/live/live_data/api/liverpc"
-	liveUserApi "go-common/app/service/live/live_user/api/liverpc"
-	rankdbApi "go-common/app/service/live/rankdb/api/liverpc"
-	relationApi "go-common/app/service/live/relation/api/liverpc"
-	roomApi "go-common/app/service/live/room/api/liverpc"
-	roomExApi "go-common/app/service/live/room_ex/api/liverpc"
-	bvcApi "go-common/app/service/live/third_api/bvc"
-	skyHorseApi "go-common/app/service/live/third_api/skyhorse"
-	userExtApi "go-common/app/service/live/userext/api/liverpc"
-	xuserApi "go-common/app/service/live/xuser/api/grpc/v1"
-	"go-common/library/net/rpc/liverpc"
+	"github.com/namelessup/bilibili/app/interface/live/app-interface/conf"
+	avApi "github.com/namelessup/bilibili/app/service/live/av/api/liverpc"
+	fansMedalApi "github.com/namelessup/bilibili/app/service/live/fans_medal/api/liverpc"
+	liveDataApi "github.com/namelessup/bilibili/app/service/live/live_data/api/liverpc"
+	liveUserApi "github.com/namelessup/bilibili/app/service/live/live_user/api/liverpc"
+	rankdbApi "github.com/namelessup/bilibili/app/service/live/rankdb/api/liverpc"
+	relationApi "github.com/namelessup/bilibili/app/service/live/relation/api/liverpc"
+	roomApi "github.com/namelessup/bilibili/app/service/live/room/api/liverpc"
+	roomExApi "github.com/namelessup/bilibili/app/service/live/room_ex/api/liverpc"
+	bvcApi "github.com/namelessup/bilibili/app/service/live/third_api/bvc"
+	skyHorseApi "github.com/namelessup/bilibili/app/service/live/third_api/skyhorse"
+	userExtApi "github.com/namelessup/bilibili/app/service/live/userext/api/liverpc"
+	xuserApi "github.com/namelessup/bilibili/app/service/live/xuser/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/net/rpc/liverpc"
 )
 
 // RoomApi liveRpc room-service api

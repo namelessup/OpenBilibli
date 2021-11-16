@@ -14,7 +14,7 @@ go_library(
         "msg.go",
         "service.go",
     ],
-    importpath = "go-common/app/service/main/member/service/block",
+    importpath = "github.com/namelessup/bilibili/app/service/main/member/service/block",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

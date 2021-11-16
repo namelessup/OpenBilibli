@@ -369,7 +369,7 @@
 > 2.PGC 编辑稿件删除分P发delete_video消息  
 
 ##### Version 1.10.0
-> 1.更新go-common,使用log-agent  
+> 1.更新github.com/namelessup/bilibili,使用log-agent  
 
 ##### Version 1.9.6
 > 1.去掉一些海外的分区id  

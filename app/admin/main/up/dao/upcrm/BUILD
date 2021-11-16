@@ -47,7 +47,7 @@ go_library(
         "up_scores_history.go",
         "up_stats_history.go",
     ],
-    importpath = "go-common/app/admin/main/up/dao/upcrm",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/up/dao/upcrm",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

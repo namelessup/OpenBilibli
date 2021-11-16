@@ -21,7 +21,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["discovery.go"],
-    importpath = "go-common/app/service/main/bns/agent/backend/discovery",
+    importpath = "github.com/namelessup/bilibili/app/service/main/bns/agent/backend/discovery",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -18,7 +18,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["realname.go"],
-    importpath = "go-common/app/service/main/member/service/crypto",
+    importpath = "github.com/namelessup/bilibili/app/service/main/member/service/crypto",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//vendor/github.com/pkg/errors:go_default_library"],

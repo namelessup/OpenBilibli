@@ -6,10 +6,10 @@ import (
 	"os/signal"
 	"syscall"
 
-	"go-common/app/job/main/credit-timer/conf"
-	"go-common/app/job/main/credit-timer/http"
-	"go-common/app/job/main/credit-timer/service"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/credit-timer/conf"
+	"github.com/namelessup/bilibili/app/job/main/credit-timer/http"
+	"github.com/namelessup/bilibili/app/job/main/credit-timer/service"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 var (

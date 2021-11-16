@@ -39,7 +39,7 @@ go_library(
         "transform.go",
         "trie_mgr.go",
     ],
-    importpath = "go-common/app/service/main/antispam/service",
+    importpath = "github.com/namelessup/bilibili/app/service/main/antispam/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

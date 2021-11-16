@@ -1,6 +1,6 @@
 presubmits:
-  platform/go-common:
-  - name: go-common-build-common
+  platform/github.com/namelessup/bilibili:
+  - name: github.com/namelessup/bilibili-build-common
     always_run: true 
     namespace: default
     run_pr_pushed: true
@@ -10,7 +10,7 @@ presubmits:
     spec:
       containers:
       - image: bazel_build
-        name: go-common-build-common
+        name: github.com/namelessup/bilibili-build-common
         imagePullPolicy: IfNotPresent
         args:
         - --id=$(BUILD_ID)
@@ -20,7 +20,7 @@ presubmits:
         - --command
         - make 
         - ci-bazel-build-common
-  - name: go-common-build-infra
+  - name: github.com/namelessup/bilibili-build-infra
     always_run: true 
     namespace: default
     run_pr_pushed: true
@@ -30,7 +30,7 @@ presubmits:
     spec:
       containers:
       - image: bazel_build
-        name: go-common-build-infra
+        name: github.com/namelessup/bilibili-build-infra
         imagePullPolicy: IfNotPresent
         args:
         - --id=$(BUILD_ID)
@@ -40,7 +40,7 @@ presubmits:
         - --command
         - make 
         - ci-bazel-build-infra  
-  - name: go-common-build-tool
+  - name: github.com/namelessup/bilibili-build-tool
     always_run: true 
     namespace: default
     run_pr_pushed: true
@@ -50,7 +50,7 @@ presubmits:
     spec:
       containers:
       - image: bazel_build
-        name: go-common-build-tool
+        name: github.com/namelessup/bilibili-build-tool
         imagePullPolicy: IfNotPresent
         args:
         - --id=$(BUILD_ID)
@@ -60,7 +60,7 @@ presubmits:
         - --command
         - make 
         - ci-bazel-build-tool
-  - name: go-common-build-live
+  - name: github.com/namelessup/bilibili-build-live
     always_run: true 
     namespace: default
     run_pr_pushed: true
@@ -70,7 +70,7 @@ presubmits:
     spec:
       containers:
       - image: bazel_build
-        name: go-common-build-live
+        name: github.com/namelessup/bilibili-build-live
         imagePullPolicy: IfNotPresent
         args:
         - --id=$(BUILD_ID)
@@ -80,7 +80,7 @@ presubmits:
         - --command
         - make 
         - ci-bazel-build-live
-  - name: go-common-build-ep
+  - name: github.com/namelessup/bilibili-build-ep
     always_run: true 
     namespace: default
     run_pr_pushed: true
@@ -90,7 +90,7 @@ presubmits:
     spec:
       containers:
       - image: bazel_build
-        name: go-common-build-ep
+        name: github.com/namelessup/bilibili-build-ep
         imagePullPolicy: IfNotPresent
         args:
         - --id=$(BUILD_ID)
@@ -100,7 +100,7 @@ presubmits:
         - --command
         - make 
         - ci-bazel-build-ep
-  - name: go-common-build-openplatform
+  - name: github.com/namelessup/bilibili-build-openplatform
     always_run: true 
     namespace: default
     run_pr_pushed: true
@@ -110,7 +110,7 @@ presubmits:
     spec:
       containers:
       - image: bazel_build
-        name: go-common-build-openplatform
+        name: github.com/namelessup/bilibili-build-openplatform
         imagePullPolicy: IfNotPresent
         args:
         - --id=$(BUILD_ID)
@@ -120,7 +120,7 @@ presubmits:
         - --command
         - make 
         - ci-bazel-build-openplatform
-  - name: go-common-build-bbq
+  - name: github.com/namelessup/bilibili-build-bbq
     always_run: true 
     namespace: default
     run_pr_pushed: true
@@ -130,7 +130,7 @@ presubmits:
     spec:
       containers:
       - image: bazel_build
-        name: go-common-build-bbq
+        name: github.com/namelessup/bilibili-build-bbq
         imagePullPolicy: IfNotPresent
         args:
         - --id=$(BUILD_ID)
@@ -140,7 +140,7 @@ presubmits:
         - --command
         - make 
         - ci-bazel-build-bbq
-  - name: go-common-build-video
+  - name: github.com/namelessup/bilibili-build-video
     always_run: true 
     namespace: default
     run_pr_pushed: true
@@ -150,7 +150,7 @@ presubmits:
     spec:
       containers:
       - image: bazel_build
-        name: go-common-build-video
+        name: github.com/namelessup/bilibili-build-video
         imagePullPolicy: IfNotPresent
         args:
         - --id=$(BUILD_ID)
@@ -160,7 +160,7 @@ presubmits:
         - --command
         - make 
         - ci-bazel-build-video
-  - name: go-common-build-ops
+  - name: github.com/namelessup/bilibili-build-ops
     always_run: true 
     namespace: default
     run_pr_pushed: true
@@ -170,7 +170,7 @@ presubmits:
     spec:
       containers:
       - image: bazel_build
-        name: go-common-build-ops
+        name: github.com/namelessup/bilibili-build-ops
         imagePullPolicy: IfNotPresent
         args:
         - --id=$(BUILD_ID)
@@ -180,7 +180,7 @@ presubmits:
         - --command
         - make 
         - ci-bazel-build-ops
-  - name: go-common-build-library
+  - name: github.com/namelessup/bilibili-build-library
     always_run: true 
     namespace: default
     run_pr_pushed: true
@@ -190,7 +190,7 @@ presubmits:
     spec:
       containers:
       - image: bazel_build
-        name: go-common-build-library
+        name: github.com/namelessup/bilibili-build-library
         imagePullPolicy: IfNotPresent
         args:
         - --id=$(BUILD_ID)
@@ -200,7 +200,7 @@ presubmits:
         - --command
         - make 
         - ci-bazel-build-library
-  - name: go-common-build-service-main
+  - name: github.com/namelessup/bilibili-build-service-main
     always_run: true 
     namespace: default
     run_pr_pushed: true
@@ -210,7 +210,7 @@ presubmits:
     spec:
       containers:
       - image: bazel_build
-        name: go-common-build-service-main
+        name: github.com/namelessup/bilibili-build-service-main
         imagePullPolicy: IfNotPresent
         args:
         - --id=$(BUILD_ID)
@@ -220,7 +220,7 @@ presubmits:
         - --command
         - make 
         - ci-bazel-build-service-main
-  - name: go-common-build-interface-main
+  - name: github.com/namelessup/bilibili-build-interface-main
     always_run: true 
     namespace: default
     run_pr_pushed: true
@@ -230,7 +230,7 @@ presubmits:
     spec:
       containers:
       - image: bazel_build
-        name: go-common-build-interface-main
+        name: github.com/namelessup/bilibili-build-interface-main
         imagePullPolicy: IfNotPresent
         args:
         - --id=$(BUILD_ID)
@@ -240,7 +240,7 @@ presubmits:
         - --command
         - make 
         - ci-bazel-build-interface-main
-  - name: go-common-build-job-main
+  - name: github.com/namelessup/bilibili-build-job-main
     always_run: true 
     namespace: default
     run_pr_pushed: true
@@ -250,7 +250,7 @@ presubmits:
     spec:
       containers:
       - image: bazel_build
-        name: go-common-build-job-main
+        name: github.com/namelessup/bilibili-build-job-main
         imagePullPolicy: IfNotPresent
         args:
         - --id=$(BUILD_ID)
@@ -260,7 +260,7 @@ presubmits:
         - --command
         - make 
         - ci-bazel-build-job-main
-  - name: go-common-build-admin-main
+  - name: github.com/namelessup/bilibili-build-admin-main
     always_run: true 
     namespace: default
     run_pr_pushed: true
@@ -270,7 +270,7 @@ presubmits:
     spec:
       containers:
       - image: bazel_build
-        name: go-common-build-admin-main
+        name: github.com/namelessup/bilibili-build-admin-main
         imagePullPolicy: IfNotPresent
         args:
         - --id=$(BUILD_ID)

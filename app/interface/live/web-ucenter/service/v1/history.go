@@ -5,14 +5,14 @@ import (
 
 	"github.com/pkg/errors"
 
-	historypb "go-common/app/interface/live/web-ucenter/api/http/v1"
-	"go-common/app/interface/live/web-ucenter/conf"
-	"go-common/app/interface/live/web-ucenter/dao"
-	historydao "go-common/app/interface/live/web-ucenter/dao/history"
-	"go-common/app/service/live/room/api/liverpc/v2"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	historypb "github.com/namelessup/bilibili/app/interface/live/web-ucenter/api/http/v1"
+	"github.com/namelessup/bilibili/app/interface/live/web-ucenter/conf"
+	"github.com/namelessup/bilibili/app/interface/live/web-ucenter/dao"
+	historydao "github.com/namelessup/bilibili/app/interface/live/web-ucenter/dao/history"
+	"github.com/namelessup/bilibili/app/service/live/room/api/liverpc/v2"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 // Service struct

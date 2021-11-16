@@ -27,7 +27,7 @@ go_library(
         "reply.go",
         "service.go",
     ],
-    importpath = "go-common/app/interface/main/creative/service/reply",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/creative/service/reply",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

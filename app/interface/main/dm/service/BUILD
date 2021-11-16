@@ -41,7 +41,7 @@ go_library(
         "service.go",
         "subject.go",
     ],
-    importpath = "go-common/app/interface/main/dm/service",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/dm/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

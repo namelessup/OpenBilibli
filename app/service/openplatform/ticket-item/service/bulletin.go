@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 
-	item "go-common/app/service/openplatform/ticket-item/api/grpc/v1"
-	"go-common/app/service/openplatform/ticket-item/model"
-	"go-common/library/log"
+	item "github.com/namelessup/bilibili/app/service/openplatform/ticket-item/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-item/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // GetBulletins 获取公告信息 测试用

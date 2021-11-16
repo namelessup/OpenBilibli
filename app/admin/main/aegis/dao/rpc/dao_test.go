@@ -7,10 +7,10 @@ import (
 	"os"
 	"testing"
 
-	"go-common/app/admin/main/aegis/conf"
-	api "go-common/app/service/main/account/api"
-	relmod "go-common/app/service/main/relation/model"
-	uprpc "go-common/app/service/main/up/api/v1"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/conf"
+	api "github.com/namelessup/bilibili/app/service/main/account/api"
+	relmod "github.com/namelessup/bilibili/app/service/main/relation/model"
+	uprpc "github.com/namelessup/bilibili/app/service/main/up/api/v1"
 
 	"github.com/golang/mock/gomock"
 )

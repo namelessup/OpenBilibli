@@ -3,8 +3,8 @@ package redis
 import (
 	"context"
 
-	"go-common/app/admin/main/aegis/conf"
-	"go-common/library/cache/redis"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/conf"
+	"github.com/namelessup/bilibili/library/cache/redis"
 )
 
 // Dao dao

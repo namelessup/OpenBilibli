@@ -31,7 +31,7 @@ go_library(
         "retry.go",
         "service.go",
     ],
-    importpath = "go-common/app/job/main/app-wall/service/offer",
+    importpath = "github.com/namelessup/bilibili/app/job/main/app-wall/service/offer",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

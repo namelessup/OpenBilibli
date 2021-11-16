@@ -3,7 +3,7 @@ package log_test
 import (
 	"context"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // This example will logging a text to log file.

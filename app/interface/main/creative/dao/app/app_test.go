@@ -2,8 +2,8 @@ package app
 
 import (
 	"context"
-	"go-common/app/interface/main/creative/model/app"
-	xsql "go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/app"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
 	"reflect"
 	"testing"
 

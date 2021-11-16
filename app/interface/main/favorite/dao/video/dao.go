@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/interface/main/favorite/conf"
-	xredis "go-common/library/cache/redis"
+	"github.com/namelessup/bilibili/app/interface/main/favorite/conf"
+	xredis "github.com/namelessup/bilibili/library/cache/redis"
 )
 
 // Dao defeine fav Dao

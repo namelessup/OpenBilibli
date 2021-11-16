@@ -1,7 +1,7 @@
 package canal
 
 import (
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 //type and explanation

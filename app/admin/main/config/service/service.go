@@ -3,11 +3,11 @@ package service
 import (
 	"sync"
 
-	"go-common/app/admin/main/config/conf"
-	"go-common/app/admin/main/config/dao"
-	confrpc "go-common/app/infra/config/rpc/client"
+	"github.com/namelessup/bilibili/app/admin/main/config/conf"
+	"github.com/namelessup/bilibili/app/admin/main/config/dao"
+	confrpc "github.com/namelessup/bilibili/app/infra/config/rpc/client"
 
-	"go-common/app/admin/main/config/model"
+	"github.com/namelessup/bilibili/app/admin/main/config/model"
 
 	"github.com/jinzhu/gorm"
 )

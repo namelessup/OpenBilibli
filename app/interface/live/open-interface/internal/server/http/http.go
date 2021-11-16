@@ -3,12 +3,12 @@ package http
 import (
 	"net/http"
 
-	dmv1pb "go-common/app/interface/live/open-interface/api/http/v1"
-	"go-common/app/interface/live/open-interface/internal/service"
-	"go-common/library/conf/paladin"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/verify"
+	dmv1pb "github.com/namelessup/bilibili/app/interface/live/open-interface/api/http/v1"
+	"github.com/namelessup/bilibili/app/interface/live/open-interface/internal/service"
+	"github.com/namelessup/bilibili/library/conf/paladin"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/verify"
 )
 
 var (

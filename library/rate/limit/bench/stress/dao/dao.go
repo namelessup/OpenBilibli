@@ -3,10 +3,10 @@ package dao
 import (
 	"context"
 
-	"go-common/library/cache/memcache"
-	"go-common/library/cache/redis"
-	xsql "go-common/library/database/sql"
-	"go-common/library/rate/limit/bench/stress/conf"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/rate/limit/bench/stress/conf"
 )
 
 // Dao dao

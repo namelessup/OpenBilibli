@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	pb "go-common/app/service/bbq/comment/api"
-	"go-common/app/service/bbq/comment/internal/dao"
-	"go-common/library/conf/paladin"
+	pb "github.com/namelessup/bilibili/app/service/bbq/comment/api"
+	"github.com/namelessup/bilibili/app/service/bbq/comment/internal/dao"
+	"github.com/namelessup/bilibili/library/conf/paladin"
 
 	"github.com/golang/protobuf/ptypes/empty"
 )

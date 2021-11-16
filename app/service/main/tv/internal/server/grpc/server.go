@@ -2,12 +2,12 @@ package grpc
 
 import (
 	"context"
-	pb "go-common/app/service/main/tv/api"
-	"go-common/app/service/main/tv/internal/model"
-	"go-common/app/service/main/tv/internal/service"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/rpc/warden"
+	pb "github.com/namelessup/bilibili/app/service/main/tv/api"
+	"github.com/namelessup/bilibili/app/service/main/tv/internal/model"
+	"github.com/namelessup/bilibili/app/service/main/tv/internal/service"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 )
 
 // New new warden rpc server

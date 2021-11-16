@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["unicom.go"],
-    importpath = "go-common/app/job/main/app-wall/model/unicom",
+    importpath = "github.com/namelessup/bilibili/app/job/main/app-wall/model/unicom",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

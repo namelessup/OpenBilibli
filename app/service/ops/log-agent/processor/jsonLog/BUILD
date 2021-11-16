@@ -11,7 +11,7 @@ go_library(
         "conf.go",
         "jsonLog.go",
     ],
-    importpath = "go-common/app/service/ops/log-agent/processor/jsonLog",
+    importpath = "github.com/namelessup/bilibili/app/service/ops/log-agent/processor/jsonLog",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

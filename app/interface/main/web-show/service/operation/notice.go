@@ -3,7 +3,7 @@ package operation
 import (
 	"context"
 
-	opmdl "go-common/app/interface/main/web-show/model/operation"
+	opmdl "github.com/namelessup/bilibili/app/interface/main/web-show/model/operation"
 )
 
 // Notice Service

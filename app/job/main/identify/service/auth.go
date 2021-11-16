@@ -6,10 +6,10 @@ import (
 	"encoding/json"
 	"strings"
 
-	"go-common/app/job/main/identify/model"
-	mdl "go-common/app/service/main/identify/model"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/job/main/identify/model"
+	mdl "github.com/namelessup/bilibili/app/service/main/identify/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 func (s *Service) new(msg *databus.Message) (interface{}, error) {

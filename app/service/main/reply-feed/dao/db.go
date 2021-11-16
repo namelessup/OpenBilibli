@@ -6,9 +6,9 @@ import (
 	"errors"
 	"fmt"
 
-	"go-common/app/service/main/reply-feed/model"
-	"go-common/library/log"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/service/main/reply-feed/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 const (

@@ -2,7 +2,7 @@ package dao
 
 import (
 	"flag"
-	"go-common/app/service/main/antispam/conf"
+	"github.com/namelessup/bilibili/app/service/main/antispam/conf"
 	"os"
 	"testing"
 )

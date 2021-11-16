@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["sports.go"],
-    importpath = "go-common/app/interface/main/activity/service/sports",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/activity/service/sports",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

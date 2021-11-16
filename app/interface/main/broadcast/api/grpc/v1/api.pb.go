@@ -23,7 +23,7 @@ package v1
 import proto "github.com/gogo/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import push_service_broadcast_model "go-common/app/service/main/broadcast/model"
+import push_service_broadcast_model "github.com/namelessup/bilibili/app/service/main/broadcast/model"
 import _ "github.com/gogo/protobuf/gogoproto"
 
 import context "golang.org/x/net/context"

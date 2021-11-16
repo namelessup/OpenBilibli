@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/job/main/figure/conf"
-	"go-common/library/cache/redis"
-	"go-common/library/database/hbase.v2"
-	"go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/job/main/figure/conf"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/database/hbase.v2"
+	"github.com/namelessup/bilibili/library/database/sql"
 )
 
 // Dao figure job dao

@@ -3,7 +3,7 @@ package service
 import (
 	"context"
 
-	"go-common/app/admin/main/reply/model"
+	"github.com/namelessup/bilibili/app/admin/main/reply/model"
 )
 
 // ListBusiness return all business

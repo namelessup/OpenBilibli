@@ -1,9 +1,9 @@
 package grpc
 
 import (
-	pb "go-common/app/interface/main/tag/api"
-	"go-common/app/interface/main/tag/service"
-	"go-common/library/net/rpc/warden"
+	pb "github.com/namelessup/bilibili/app/interface/main/tag/api"
+	"github.com/namelessup/bilibili/app/interface/main/tag/service"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 )
 
 type grpcServer struct {

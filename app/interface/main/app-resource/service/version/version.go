@@ -4,12 +4,12 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/interface/main/app-resource/conf"
-	verdao "go-common/app/interface/main/app-resource/dao/version"
-	"go-common/app/interface/main/app-resource/model"
-	"go-common/app/interface/main/app-resource/model/version"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/app-resource/conf"
+	verdao "github.com/namelessup/bilibili/app/interface/main/app-resource/dao/version"
+	"github.com/namelessup/bilibili/app/interface/main/app-resource/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-resource/model/version"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 
 	farm "github.com/dgryski/go-farm"
 )

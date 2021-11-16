@@ -9,15 +9,15 @@ import (
 	"sync"
 	"time"
 
-	v12 "go-common/app/service/live/rc/api/liverpc/v1"
+	v12 "github.com/namelessup/bilibili/app/service/live/rc/api/liverpc/v1"
 
 	"github.com/pkg/errors"
 
-	"go-common/app/service/live/xlottery/api/grpc/v1"
-	"go-common/library/cache/redis"
-	"go-common/library/database/sql"
-	"go-common/library/log"
-	"go-common/library/queue/databus/report"
+	"github.com/namelessup/bilibili/app/service/live/xlottery/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus/report"
 )
 
 const (

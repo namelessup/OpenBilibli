@@ -2,10 +2,10 @@ package article
 
 import (
 	"context"
-	artMdl "go-common/app/interface/main/creative/model/article"
-	"go-common/app/interface/openplatform/article/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	artMdl "github.com/namelessup/bilibili/app/interface/main/creative/model/article"
+	"github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 	"strconv"
 	"strings"
 )

@@ -22,7 +22,7 @@ go_library(
         "upload.go",
         "user.go",
     ],
-    importpath = "go-common/app/interface/bbq/app-bbq/api/http/v1",
+    importpath = "github.com/namelessup/bilibili/app/interface/bbq/app-bbq/api/http/v1",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

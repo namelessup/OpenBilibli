@@ -29,7 +29,7 @@ go_library(
         "log.go",
         "record.go",
     ],
-    importpath = "go-common/app/interface/main/reply/dao/search",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/reply/dao/search",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

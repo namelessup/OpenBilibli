@@ -3,12 +3,12 @@ package share
 import (
 	"context"
 
-	"go-common/app/interface/main/web-goblin/conf"
-	"go-common/app/interface/main/web-goblin/dao/share"
-	accrpc "go-common/app/service/main/account/rpc/client"
-	suitrpc "go-common/app/service/main/usersuit/rpc/client"
-	"go-common/library/cache"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/web-goblin/conf"
+	"github.com/namelessup/bilibili/app/interface/main/web-goblin/dao/share"
+	accrpc "github.com/namelessup/bilibili/app/service/main/account/rpc/client"
+	suitrpc "github.com/namelessup/bilibili/app/service/main/usersuit/rpc/client"
+	"github.com/namelessup/bilibili/library/cache"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Service service struct.

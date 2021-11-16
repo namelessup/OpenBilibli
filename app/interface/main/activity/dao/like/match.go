@@ -5,10 +5,10 @@ import (
 	"database/sql"
 	"fmt"
 
-	match "go-common/app/interface/main/activity/model/like"
-	xsql "go-common/library/database/sql"
-	"go-common/library/log"
-	"go-common/library/xstr"
+	match "github.com/namelessup/bilibili/app/interface/main/activity/model/like"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 const (

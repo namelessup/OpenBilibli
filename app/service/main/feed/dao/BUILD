@@ -35,7 +35,7 @@ go_library(
         "memcache.go",
         "redis.go",
     ],
-    importpath = "go-common/app/service/main/feed/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/main/feed/dao",
     tags = ["automanaged"],
     deps = [
         "//app/interface/openplatform/article/model:go_default_library",

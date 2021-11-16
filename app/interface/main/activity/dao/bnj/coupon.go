@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"strings"
 
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/library/ecode"
 
 	"github.com/pkg/errors"
 )

@@ -6,9 +6,9 @@ import (
 	"log"
 	"testing"
 
-	"go-common/app/infra/notify/conf"
-	"go-common/app/infra/notify/model"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/infra/notify/conf"
+	"github.com/namelessup/bilibili/app/infra/notify/model"
+	"github.com/namelessup/bilibili/library/ecode"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

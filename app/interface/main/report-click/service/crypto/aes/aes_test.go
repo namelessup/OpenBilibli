@@ -3,7 +3,7 @@ package aes
 import (
 	"testing"
 
-	"go-common/app/interface/main/report-click/service/crypto/padding"
+	"github.com/namelessup/bilibili/app/interface/main/report-click/service/crypto/padding"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

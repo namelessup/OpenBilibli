@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["anti-fraud.toml"],
-    importpath = "go-common/app/service/openplatform/anti-fraud/cmd",
+    importpath = "github.com/namelessup/bilibili/app/service/openplatform/anti-fraud/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -1,12 +1,12 @@
 package http
 
 import (
-	"go-common/app/admin/main/growup/conf"
-	"go-common/app/admin/main/growup/service"
-	"go-common/app/admin/main/growup/service/income"
+	"github.com/namelessup/bilibili/app/admin/main/growup/conf"
+	"github.com/namelessup/bilibili/app/admin/main/growup/service"
+	"github.com/namelessup/bilibili/app/admin/main/growup/service/income"
 
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 var (

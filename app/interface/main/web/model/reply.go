@@ -3,7 +3,7 @@ package model
 import (
 	"encoding/json"
 
-	rplmdl "go-common/app/interface/main/reply/model/reply"
+	rplmdl "github.com/namelessup/bilibili/app/interface/main/reply/model/reply"
 )
 
 // ReplyHot reply hot

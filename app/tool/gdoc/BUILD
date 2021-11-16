@@ -25,7 +25,7 @@ go_library(
         "gdoc.go",
         "swagger.go",
     ],
-    importpath = "go-common/app/tool/gdoc",
+    importpath = "github.com/namelessup/bilibili/app/tool/gdoc",
     tags = ["automanaged"],
 )
 

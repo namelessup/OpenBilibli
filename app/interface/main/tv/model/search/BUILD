@@ -14,7 +14,7 @@ go_library(
         "sug.go",
         "wild.go",
     ],
-    importpath = "go-common/app/interface/main/tv/model/search",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/tv/model/search",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

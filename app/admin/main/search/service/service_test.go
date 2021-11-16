@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"go-common/app/admin/main/search/conf"
+	"github.com/namelessup/bilibili/app/admin/main/search/conf"
 )
 
 var (

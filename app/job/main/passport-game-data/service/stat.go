@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/job/main/passport-game-data/model"
+	"github.com/namelessup/bilibili/app/job/main/passport-game-data/model"
 )
 
 // CompareProcStat get actual compare proc stat.

@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 
-	"go-common/app/admin/ep/saga/conf"
-	"go-common/app/admin/ep/saga/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/ep/saga/conf"
+	"github.com/namelessup/bilibili/app/admin/ep/saga/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // QueryProjectStatus ...

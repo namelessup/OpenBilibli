@@ -1,10 +1,10 @@
 package rank
 
 import (
-	recsys "go-common/app/service/bbq/recsys/api/grpc/v1"
+	recsys "github.com/namelessup/bilibili/app/service/bbq/recsys/api/grpc/v1"
 
 	"fmt"
-	"go-common/app/service/bbq/recsys/model"
+	"github.com/namelessup/bilibili/app/service/bbq/recsys/model"
 	"strings"
 )
 

@@ -5,11 +5,11 @@ import (
 	"sort"
 	"time"
 
-	"go-common/app/interface/main/mcn/conf"
-	"go-common/app/interface/main/mcn/dao/cache"
-	"go-common/app/interface/main/mcn/dao/global"
-	"go-common/app/interface/main/mcn/model/mcnmodel"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/mcn/conf"
+	"github.com/namelessup/bilibili/app/interface/main/mcn/dao/cache"
+	"github.com/namelessup/bilibili/app/interface/main/mcn/dao/global"
+	"github.com/namelessup/bilibili/app/interface/main/mcn/model/mcnmodel"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/bluele/gcache"
 )

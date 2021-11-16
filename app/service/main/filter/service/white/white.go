@@ -5,11 +5,11 @@ import (
 	"strings"
 	"sync"
 
-	"go-common/app/service/main/filter/model"
-	"go-common/app/service/main/filter/model/actriearea"
-	"go-common/app/service/main/filter/service/area"
-	"go-common/app/service/main/filter/service/regexp"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/filter/model"
+	"github.com/namelessup/bilibili/app/service/main/filter/model/actriearea"
+	"github.com/namelessup/bilibili/app/service/main/filter/service/area"
+	"github.com/namelessup/bilibili/app/service/main/filter/service/regexp"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 type WhiteAreas func(c context.Context, area string) (fs []*model.WhiteAreaInfo, err error)

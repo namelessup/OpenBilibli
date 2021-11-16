@@ -7,15 +7,15 @@ import (
 	"sync"
 	"time"
 
-	"go-common/app/job/main/stat/conf"
-	"go-common/app/job/main/stat/dao"
-	"go-common/app/job/main/stat/model"
-	arcmdl "go-common/app/service/main/archive/api"
-	archive "go-common/app/service/main/archive/api/gorpc"
-	"go-common/library/cache/memcache"
-	"go-common/library/conf/env"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/job/main/stat/conf"
+	"github.com/namelessup/bilibili/app/job/main/stat/dao"
+	"github.com/namelessup/bilibili/app/job/main/stat/model"
+	arcmdl "github.com/namelessup/bilibili/app/service/main/archive/api"
+	archive "github.com/namelessup/bilibili/app/service/main/archive/api/gorpc"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/conf/env"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 const (

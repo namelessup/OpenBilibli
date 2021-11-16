@@ -3,10 +3,10 @@ package income
 import (
 	"context"
 
-	"go-common/app/admin/main/growup/conf"
-	upD "go-common/app/admin/main/growup/dao"
-	incomeD "go-common/app/admin/main/growup/dao/income"
-	"go-common/app/admin/main/growup/dao/message"
+	"github.com/namelessup/bilibili/app/admin/main/growup/conf"
+	upD "github.com/namelessup/bilibili/app/admin/main/growup/dao"
+	incomeD "github.com/namelessup/bilibili/app/admin/main/growup/dao/income"
+	"github.com/namelessup/bilibili/app/admin/main/growup/dao/message"
 )
 
 // Service struct

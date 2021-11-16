@@ -16,7 +16,7 @@ go_library(
         "summary.go",
         "up.go",
     ],
-    importpath = "go-common/app/job/main/mcn/service",
+    importpath = "github.com/namelessup/bilibili/app/job/main/mcn/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

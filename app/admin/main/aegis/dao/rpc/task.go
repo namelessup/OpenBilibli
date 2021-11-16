@@ -4,12 +4,12 @@ import (
 	"context"
 	"errors"
 
-	"go-common/app/admin/main/aegis/model"
-	acc "go-common/app/service/main/account/api"
-	relmod "go-common/app/service/main/relation/model"
-	uprpc "go-common/app/service/main/up/api/v1"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model"
+	acc "github.com/namelessup/bilibili/app/service/main/account/api"
+	relmod "github.com/namelessup/bilibili/app/service/main/relation/model"
+	uprpc "github.com/namelessup/bilibili/app/service/main/up/api/v1"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 
 	terrors "github.com/pkg/errors"
 )

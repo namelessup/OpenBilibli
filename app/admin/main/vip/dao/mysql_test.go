@@ -3,7 +3,7 @@ package dao
 import (
 	"context"
 	"fmt"
-	"go-common/app/admin/main/vip/model"
+	"github.com/namelessup/bilibili/app/admin/main/vip/model"
 	"testing"
 	"time"
 

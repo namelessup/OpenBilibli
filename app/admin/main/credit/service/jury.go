@@ -9,16 +9,16 @@ import (
 	"strconv"
 	"time"
 
-	creditMDL "go-common/app/admin/main/credit/model"
-	"go-common/app/admin/main/credit/model/blocked"
-	account "go-common/app/service/main/account/api"
-	relationmdl "go-common/app/service/main/relation/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
-	"go-common/library/sync/errgroup"
-	xtime "go-common/library/time"
-	"go-common/library/xstr"
+	creditMDL "github.com/namelessup/bilibili/app/admin/main/credit/model"
+	"github.com/namelessup/bilibili/app/admin/main/credit/model/blocked"
+	account "github.com/namelessup/bilibili/app/service/main/account/api"
+	relationmdl "github.com/namelessup/bilibili/app/service/main/relation/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
+	xtime "github.com/namelessup/bilibili/library/time"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 // AddJury add jury to admin

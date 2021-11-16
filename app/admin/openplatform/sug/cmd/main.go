@@ -6,12 +6,12 @@ import (
 	"os/signal"
 	"syscall"
 
-	"go-common/app/admin/openplatform/sug/conf"
-	"go-common/app/admin/openplatform/sug/http"
-	"go-common/app/admin/openplatform/sug/service"
-	ecode "go-common/library/ecode/tip"
-	"go-common/library/log"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/app/admin/openplatform/sug/conf"
+	"github.com/namelessup/bilibili/app/admin/openplatform/sug/http"
+	"github.com/namelessup/bilibili/app/admin/openplatform/sug/service"
+	ecode "github.com/namelessup/bilibili/library/ecode/tip"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
 )
 
 func main() {

@@ -11,7 +11,7 @@ go_library(
         "conf.go",
         "credit_conf.go",
     ],
-    importpath = "go-common/app/service/main/upcredit/conf",
+    importpath = "github.com/namelessup/bilibili/app/service/main/upcredit/conf",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

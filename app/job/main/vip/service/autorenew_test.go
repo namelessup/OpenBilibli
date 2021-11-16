@@ -3,7 +3,7 @@ package service
 import (
 	"testing"
 
-	"go-common/app/job/main/vip/model"
+	"github.com/namelessup/bilibili/app/job/main/vip/model"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

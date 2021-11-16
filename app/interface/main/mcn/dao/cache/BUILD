@@ -13,7 +13,7 @@ go_library(
         "tag.go",
         "video_types.go",
     ],
-    importpath = "go-common/app/interface/main/mcn/dao/cache",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/mcn/dao/cache",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

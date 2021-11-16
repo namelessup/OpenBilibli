@@ -12,7 +12,7 @@ go_library(
         "panel.go",
         "rpc.go",
     ],
-    importpath = "go-common/app/service/main/vip/rpc/client",
+    importpath = "github.com/namelessup/bilibili/app/service/main/vip/rpc/client",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

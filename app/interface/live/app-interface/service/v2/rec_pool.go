@@ -4,15 +4,15 @@ import (
 	"math"
 	"strconv"
 
-	v2pb "go-common/app/interface/live/app-interface/api/http/v2"
-	"go-common/app/interface/live/app-interface/dao"
-	xrf "go-common/app/service/live/xroom-feed/api"
-	"go-common/library/sync/errgroup"
-	"go-common/library/xstr"
+	v2pb "github.com/namelessup/bilibili/app/interface/live/app-interface/api/http/v2"
+	"github.com/namelessup/bilibili/app/interface/live/app-interface/dao"
+	xrf "github.com/namelessup/bilibili/app/service/live/xroom-feed/api"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
+	"github.com/namelessup/bilibili/library/xstr"
 
 	"context"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const _appModuleType = 1

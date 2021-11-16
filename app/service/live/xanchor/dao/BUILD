@@ -12,7 +12,7 @@ go_library(
         "mysql.go",
         "redisKey.go",
     ],
-    importpath = "go-common/app/service/live/xanchor/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/live/xanchor/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

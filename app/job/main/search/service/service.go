@@ -4,10 +4,10 @@ import (
 	"context"
 	"sync"
 
-	"go-common/app/job/main/search/conf"
-	"go-common/app/job/main/search/dao/base"
-	"go-common/app/job/main/search/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/search/conf"
+	"github.com/namelessup/bilibili/app/job/main/search/dao/base"
+	"github.com/namelessup/bilibili/app/job/main/search/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 var (

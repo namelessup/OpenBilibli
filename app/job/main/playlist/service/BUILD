@@ -24,7 +24,7 @@ go_library(
         "service.go",
         "stat.go",
     ],
-    importpath = "go-common/app/job/main/playlist/service",
+    importpath = "github.com/namelessup/bilibili/app/job/main/playlist/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

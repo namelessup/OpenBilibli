@@ -3,10 +3,10 @@ package service
 import (
 	"context"
 
-	"go-common/app/admin/main/aegis/model/business"
-	"go-common/app/admin/main/aegis/model/common"
-	"go-common/app/admin/main/aegis/model/task"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model/business"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model/common"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model/task"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // GetRole .

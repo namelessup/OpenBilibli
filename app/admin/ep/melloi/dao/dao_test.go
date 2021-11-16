@@ -5,7 +5,7 @@ import (
 	"flag"
 	"path/filepath"
 
-	"go-common/app/admin/ep/melloi/conf"
+	"github.com/namelessup/bilibili/app/admin/ep/melloi/conf"
 
 	_ "github.com/go-sql-driver/mysql"
 	"gopkg.in/h2non/gock.v1"

@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/job/main/aegis/conf"
-	"go-common/app/job/main/aegis/model"
+	"github.com/namelessup/bilibili/app/job/main/aegis/conf"
+	"github.com/namelessup/bilibili/app/job/main/aegis/model"
 )
 
 var (

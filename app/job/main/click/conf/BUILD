@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["conf.go"],
-    importpath = "go-common/app/job/main/click/conf",
+    importpath = "github.com/namelessup/bilibili/app/job/main/click/conf",
     tags = ["automanaged"],
     deps = [
         "//library/cache/redis:go_default_library",

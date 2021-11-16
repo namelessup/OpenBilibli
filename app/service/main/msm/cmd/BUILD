@@ -24,7 +24,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["msm-service-example.toml"],
-    importpath = "go-common/app/service/main/msm/cmd",
+    importpath = "github.com/namelessup/bilibili/app/service/main/msm/cmd",
     tags = ["automanaged"],
     deps = [
         "//app/service/main/msm/conf:go_default_library",

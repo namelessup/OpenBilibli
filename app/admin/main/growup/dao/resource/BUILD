@@ -15,7 +15,7 @@ go_library(
         "video_category.go",
         "vip.go",
     ],
-    importpath = "go-common/app/admin/main/growup/dao/resource",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/growup/dao/resource",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -3,10 +3,10 @@ package service
 import (
 	"context"
 
-	"go-common/app/interface/main/mcn/dao/mcndao"
-	"go-common/app/interface/main/mcn/model/datamodel"
-	"go-common/app/interface/main/mcn/model/mcnmodel"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/mcn/dao/mcndao"
+	"github.com/namelessup/bilibili/app/interface/main/mcn/model/datamodel"
+	"github.com/namelessup/bilibili/app/interface/main/mcn/model/mcnmodel"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // McnGetRankArchiveLikesAPI get rank archive likes

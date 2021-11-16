@@ -13,7 +13,7 @@ go_library(
         "dao.go",
         "draft.go",
     ],
-    importpath = "go-common/app/interface/main/creative/dao/article",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/creative/dao/article",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

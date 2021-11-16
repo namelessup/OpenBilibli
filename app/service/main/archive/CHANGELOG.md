@@ -443,10 +443,10 @@
 > 2.添加获取长简介的http和rpc接口  
 
 ##### Version 6.9.0
-> 1.升级go-common
+> 1.升级github.com/namelessup/bilibili
 
 ##### Version 6.8.0
-> 1.升级go-common  
+> 1.升级github.com/namelessup/bilibili  
 > 2.迁移model到项目中  
 
 ##### Version 6.7.0
@@ -462,7 +462,7 @@
 > 1.增加点赞相关RPC接口  
 
 ##### Version 6.4.0
-> 1.升级go-common&go-business  
+> 1.升级github.com/namelessup/bilibili&go-business  
 > 2.videoshot rpc 增加aid参数  
 
 ##### Version 6.3.0
@@ -483,7 +483,7 @@
 
 ##### Version 6.2.0
 > 1.所有稿件&视频走新archive_result数据库  
-> 2.升级go-common&go-business  
+> 2.升级github.com/namelessup/bilibili&go-business  
 
 ##### Version 6.1.21
 > 1.删除SetStatCache2接口  
@@ -520,10 +520,10 @@
 ##### Version 6.1.11
 > 1.分区表走新分区  
 > 2.增加RPC获取所有type的方法   
-> 3.升级go-common和go-business  
+> 3.升级github.com/namelessup/bilibili和go-business  
 
 ##### Version 6.1.10
-> 1.升级go-common和go-business  
+> 1.升级github.com/namelessup/bilibili和go-business  
 > 2.修改prom写法  
 
 ##### Version 6.1.9
@@ -640,7 +640,7 @@
 > 3.去除hbase  
 
 ##### Version 5.6.4
-> 1.升级go-common  
+> 1.升级github.com/namelessup/bilibili  
 
 ##### Version 5.6.3
 > 1.rpc接口支持缓存的修改  
@@ -667,7 +667,7 @@
 > 1.RPC增加一级分区最新视频与数量接口  
 > 2.RPC增加Upcount方法 获取用户投稿总数  
 > 3.内部http接口改名  
-> 4.升级go-common  
+> 4.升级github.com/namelessup/bilibili  
 
 ##### Version 5.3.5
 > 1.PGC只查status=开放的  
@@ -701,7 +701,7 @@
 ##### Version 5.2.6
 > 1.增加RPC方法,根据mids获取最新投稿
 > 2.支持attribute参数,在列表中去除展示
-> 3.升级go-common
+> 3.升级github.com/namelessup/bilibili
 
 ##### Version 5.2.5
 > 1.增加RPC方法,根据aids获取archive聚合信息  
@@ -721,7 +721,7 @@
 
 ##### Version 5.2.0
 
-> 1.升级go-common新版本  
+> 1.升级github.com/namelessup/bilibili新版本  
 > 2.fix view接口，多次查单个请求改为批量请求  
 > 3.conf支持优先从本地加载配置  
 
@@ -802,7 +802,7 @@
 ##### Version 4.0.0
 
 > 1.go vendor支持  
-> 2.go-common/business换成go-business包  
+> 2.github.com/namelessup/bilibili/business换成go-business包  
 > 3.获取本机ip注册到zk  
 > 4.memcache批量获取支持多连接并发  
 > 5.新增rpc日志  
@@ -919,7 +919,7 @@
 
 ##### Version 1.1.0  
 
-> 1.基于go-common重构  
+> 1.基于github.com/namelessup/bilibili重构  
 
 ##### Version 1.0.0  
 

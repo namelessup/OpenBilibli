@@ -6,13 +6,13 @@ import (
 	"sync"
 	"time"
 
-	"go-common/app/job/main/feed/conf"
-	"go-common/app/job/main/feed/dao"
-	"go-common/app/job/main/feed/model"
-	feed "go-common/app/service/main/feed/rpc/client"
-	"go-common/library/conf/env"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/job/main/feed/conf"
+	"github.com/namelessup/bilibili/app/job/main/feed/dao"
+	"github.com/namelessup/bilibili/app/job/main/feed/model"
+	feed "github.com/namelessup/bilibili/app/service/main/feed/rpc/client"
+	"github.com/namelessup/bilibili/library/conf/env"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 type Service struct {

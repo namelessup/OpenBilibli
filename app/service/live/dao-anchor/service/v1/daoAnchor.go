@@ -3,9 +3,9 @@ package v1
 import (
 	"context"
 
-	v1pb "go-common/app/service/live/dao-anchor/api/grpc/v1"
-	"go-common/app/service/live/dao-anchor/conf"
-	"go-common/app/service/live/dao-anchor/dao"
+	v1pb "github.com/namelessup/bilibili/app/service/live/dao-anchor/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/live/dao-anchor/conf"
+	"github.com/namelessup/bilibili/app/service/live/dao-anchor/dao"
 )
 
 // DaoAnchorService struct

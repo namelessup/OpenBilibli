@@ -4,16 +4,16 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/service/main/coin/conf"
-	"go-common/app/service/main/coin/model"
-	"go-common/library/cache/memcache"
-	"go-common/library/cache/redis"
-	"go-common/library/database/elastic"
-	"go-common/library/database/sql"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/queue/databus"
-	"go-common/library/stat/prom"
-	"go-common/library/sync/pipeline/fanout"
+	"github.com/namelessup/bilibili/app/service/main/coin/conf"
+	"github.com/namelessup/bilibili/app/service/main/coin/model"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/database/elastic"
+	"github.com/namelessup/bilibili/library/database/sql"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/queue/databus"
+	"github.com/namelessup/bilibili/library/stat/prom"
+	"github.com/namelessup/bilibili/library/sync/pipeline/fanout"
 )
 
 // Dao dao config.

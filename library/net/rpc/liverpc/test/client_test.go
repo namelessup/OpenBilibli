@@ -10,10 +10,10 @@ import (
 	"testing"
 	"time"
 
-	"go-common/library/net/rpc/liverpc"
-	"go-common/library/net/rpc/liverpc/testdata"
-	v1 "go-common/library/net/rpc/liverpc/testdata/v1"
-	v2 "go-common/library/net/rpc/liverpc/testdata/v2"
+	"github.com/namelessup/bilibili/library/net/rpc/liverpc"
+	"github.com/namelessup/bilibili/library/net/rpc/liverpc/testdata"
+	v1 "github.com/namelessup/bilibili/library/net/rpc/liverpc/testdata/v1"
+	v2 "github.com/namelessup/bilibili/library/net/rpc/liverpc/testdata/v2"
 
 	"github.com/pkg/errors"
 )

@@ -6,11 +6,11 @@ import (
 	"os/signal"
 	"syscall"
 
-	"go-common/app/interface/main/kvo/conf"
-	"go-common/app/interface/main/kvo/http"
+	"github.com/namelessup/bilibili/app/interface/main/kvo/conf"
+	"github.com/namelessup/bilibili/app/interface/main/kvo/http"
 
-	"go-common/library/log"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
 )
 
 func main() {

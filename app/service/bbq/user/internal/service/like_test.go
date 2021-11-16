@@ -2,7 +2,7 @@ package service
 
 import (
 	"context"
-	"go-common/app/service/bbq/user/api"
+	"github.com/namelessup/bilibili/app/service/bbq/user/api"
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"

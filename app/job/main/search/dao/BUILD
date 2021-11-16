@@ -41,7 +41,7 @@ go_library(
         "hbase.go",
         "sms.go",
     ],
-    importpath = "go-common/app/job/main/search/dao",
+    importpath = "github.com/namelessup/bilibili/app/job/main/search/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

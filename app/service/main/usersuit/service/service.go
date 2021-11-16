@@ -4,16 +4,16 @@ import (
 	"context"
 	"time"
 
-	coinrpc "go-common/app/service/main/coin/api/gorpc"
-	memrpc "go-common/app/service/main/member/api/gorpc"
-	pointrpc "go-common/app/service/main/point/rpc/client"
-	"go-common/app/service/main/usersuit/conf"
-	inviteDao "go-common/app/service/main/usersuit/dao/invite"
-	medalDao "go-common/app/service/main/usersuit/dao/medal"
-	pendantDao "go-common/app/service/main/usersuit/dao/pendant"
-	"go-common/app/service/main/usersuit/model"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
+	coinrpc "github.com/namelessup/bilibili/app/service/main/coin/api/gorpc"
+	memrpc "github.com/namelessup/bilibili/app/service/main/member/api/gorpc"
+	pointrpc "github.com/namelessup/bilibili/app/service/main/point/rpc/client"
+	"github.com/namelessup/bilibili/app/service/main/usersuit/conf"
+	inviteDao "github.com/namelessup/bilibili/app/service/main/usersuit/dao/invite"
+	medalDao "github.com/namelessup/bilibili/app/service/main/usersuit/dao/medal"
+	pendantDao "github.com/namelessup/bilibili/app/service/main/usersuit/dao/pendant"
+	"github.com/namelessup/bilibili/app/service/main/usersuit/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 // Service struct of service.

@@ -9,13 +9,13 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/admin/main/aegis/model/business"
-	"go-common/app/admin/main/aegis/model/common"
-	taskmod "go-common/app/admin/main/aegis/model/task"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	libtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model/business"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model/common"
+	taskmod "github.com/namelessup/bilibili/app/admin/main/aegis/model/task"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	libtime "github.com/namelessup/bilibili/library/time"
 )
 
 func taskDelay(c *bm.Context) {

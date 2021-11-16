@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 	"errors"
-	"go-common/app/admin/main/aegis/model/monitor"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model/monitor"
+	"github.com/namelessup/bilibili/library/log"
 	"time"
 )
 

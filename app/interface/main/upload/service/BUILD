@@ -29,7 +29,7 @@ go_library(
         "record.go",
         "service.go",
     ],
-    importpath = "go-common/app/interface/main/upload/service",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/upload/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

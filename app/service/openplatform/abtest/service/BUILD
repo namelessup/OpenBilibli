@@ -32,7 +32,7 @@ go_library(
         "group.go",
         "service.go",
     ],
-    importpath = "go-common/app/service/openplatform/abtest/service",
+    importpath = "github.com/namelessup/bilibili/app/service/openplatform/abtest/service",
     tags = ["automanaged"],
     deps = [
         "//app/service/openplatform/abtest/conf:go_default_library",

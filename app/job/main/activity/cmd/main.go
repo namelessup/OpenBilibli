@@ -7,10 +7,10 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/app/job/main/activity/conf"
-	"go-common/app/job/main/activity/http"
-	"go-common/app/job/main/activity/service"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/activity/conf"
+	"github.com/namelessup/bilibili/app/job/main/activity/http"
+	"github.com/namelessup/bilibili/app/job/main/activity/service"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 var (

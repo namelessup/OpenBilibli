@@ -3,7 +3,7 @@ package view
 import (
 	"time"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) emptyArcproc() {

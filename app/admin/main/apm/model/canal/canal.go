@@ -1,7 +1,7 @@
 package canal
 
 import (
-	xtime "go-common/library/time"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // TableName case tablename

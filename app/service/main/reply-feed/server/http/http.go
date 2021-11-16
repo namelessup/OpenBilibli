@@ -6,13 +6,13 @@ import (
 	"strconv"
 	"strings"
 
-	"go-common/app/service/main/reply-feed/conf"
-	"go-common/app/service/main/reply-feed/model"
-	"go-common/app/service/main/reply-feed/service"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/verify"
+	"github.com/namelessup/bilibili/app/service/main/reply-feed/conf"
+	"github.com/namelessup/bilibili/app/service/main/reply-feed/model"
+	"github.com/namelessup/bilibili/app/service/main/reply-feed/service"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/verify"
 )
 
 var (

@@ -8,9 +8,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"go-common/app/service/main/archive/conf"
-	"go-common/app/service/main/archive/service"
-	ghttp "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/service/main/archive/conf"
+	"github.com/namelessup/bilibili/app/service/main/archive/service"
+	ghttp "github.com/namelessup/bilibili/library/net/http/blademaster"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

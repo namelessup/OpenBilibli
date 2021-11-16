@@ -6,8 +6,8 @@ import (
 
 	"github.com/json-iterator/go"
 
-	"go-common/app/interface/bbq/app-bbq/api/http/v1"
-	"go-common/app/interface/bbq/app-bbq/conf"
+	"github.com/namelessup/bilibili/app/interface/bbq/app-bbq/api/http/v1"
+	"github.com/namelessup/bilibili/app/interface/bbq/app-bbq/conf"
 )
 
 // AppSetting .

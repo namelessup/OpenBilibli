@@ -4,7 +4,7 @@ import (
 	"flag"
 	"testing"
 
-	"go-common/app/tool/saga/conf"
+	"github.com/namelessup/bilibili/app/tool/saga/conf"
 
 	. "github.com/smartystreets/goconvey/convey"
 )
@@ -18,7 +18,7 @@ func init() {
 		err error
 	)
 	g = New("http://gitlab.bilibili.co/api/v4", "z3nN4s4BVX5oNYXKbEPL")
-	flag.Set("conf", "/Users/bilibili/go/src/go-common/app/tool/saga/cmd/saga-test.toml")
+	flag.Set("conf", "/Users/bilibili/go/src/github.com/namelessup/bilibili/app/tool/saga/cmd/saga-test.toml")
 	if err = conf.Init(); err != nil {
 		panic(err)
 	}
@@ -122,7 +122,7 @@ func TestProjectID(t *testing.T) {
 			projID int
 			err    error
 		)
-		projID, err = g.ProjectID("git@gitlab.bilibili.co:platform/go-common.git")
+		projID, err = g.ProjectID("git@gitlab.bilibili.co:platform/github.com/namelessup/bilibili.git")
 		So(err, ShouldBeNil)
 		So(projID, ShouldEqual, 23)
 	})

@@ -4,9 +4,9 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/admin/main/growup/model"
-	"go-common/library/ecode"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/admin/main/growup/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	"github.com/jinzhu/gorm"
 )

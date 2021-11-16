@@ -1,6 +1,6 @@
 package manager
 
-import "go-common/app/admin/main/workflow/model"
+import "github.com/namelessup/bilibili/app/admin/main/workflow/model"
 
 // Meta business meta
 // http://info.bilibili.co/pages/viewpage.action?pageId=9846887

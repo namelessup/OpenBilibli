@@ -11,7 +11,7 @@ go_library(
         "base.go",
         "const.go",
     ],
-    importpath = "go-common/app/interface/bbq/common/model",
+    importpath = "github.com/namelessup/bilibili/app/interface/bbq/common/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

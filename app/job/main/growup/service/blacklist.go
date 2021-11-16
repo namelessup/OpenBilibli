@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/job/main/growup/model"
-	"go-common/library/log"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/job/main/growup/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 // add to blacklist reason

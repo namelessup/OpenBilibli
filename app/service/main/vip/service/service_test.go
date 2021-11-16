@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/service/main/vip/conf"
-	"go-common/app/service/main/vip/model"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/service/main/vip/conf"
+	"github.com/namelessup/bilibili/app/service/main/vip/model"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	"math/rand"
 

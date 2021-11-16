@@ -2,7 +2,7 @@ package like
 
 import (
 	"context"
-	likemdl "go-common/app/interface/main/activity/model/like"
+	likemdl "github.com/namelessup/bilibili/app/interface/main/activity/model/like"
 	"testing"
 
 	"fmt"

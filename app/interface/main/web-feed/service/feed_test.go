@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"go-common/app/interface/main/web-feed/conf"
-	"go-common/app/interface/main/web-feed/model"
+	"github.com/namelessup/bilibili/app/interface/main/web-feed/conf"
+	"github.com/namelessup/bilibili/app/interface/main/web-feed/model"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

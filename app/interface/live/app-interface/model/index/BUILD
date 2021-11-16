@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["room.go"],
-    importpath = "go-common/app/interface/live/app-interface/model/index",
+    importpath = "github.com/namelessup/bilibili/app/interface/live/app-interface/model/index",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

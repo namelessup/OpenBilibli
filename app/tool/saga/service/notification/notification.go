@@ -7,11 +7,11 @@ import (
 	"strconv"
 	"strings"
 
-	"go-common/app/tool/saga/dao"
-	"go-common/app/tool/saga/model"
-	"go-common/app/tool/saga/service/mail"
-	"go-common/app/tool/saga/service/wechat"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/tool/saga/dao"
+	"github.com/namelessup/bilibili/app/tool/saga/model"
+	"github.com/namelessup/bilibili/app/tool/saga/service/mail"
+	"github.com/namelessup/bilibili/app/tool/saga/service/wechat"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // WechatAuthor send wechat message to original author

@@ -3,9 +3,9 @@ package http
 import (
 	"strconv"
 
-	"go-common/app/interface/main/app-interface/model/favorite"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/model/favorite"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // folder get folder.

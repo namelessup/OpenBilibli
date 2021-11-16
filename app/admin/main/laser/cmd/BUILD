@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["laser-admin.toml"],
-    importpath = "go-common/app/admin/main/laser/cmd",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/laser/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

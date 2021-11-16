@@ -3,8 +3,8 @@ package archive
 import (
 	"context"
 
-	arcmdl "go-common/app/service/main/archive/model/archive"
-	"go-common/library/log"
+	arcmdl "github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

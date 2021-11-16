@@ -4,8 +4,8 @@ import (
 	"context"
 	"strconv"
 
-	"go-common/app/interface/main/app-wall/model/unicom"
-	log "go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/app-wall/model/unicom"
+	log "github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) addUserBindState(u *unicom.UserBindInfo) {

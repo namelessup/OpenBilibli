@@ -1,13 +1,13 @@
 package http
 
 import (
-	v1pb "go-common/app/service/live/rtc/api/v1"
-	"go-common/app/service/live/rtc/internal/conf"
-	"go-common/app/service/live/rtc/internal/service"
-	v1srv "go-common/app/service/live/rtc/internal/service/v1"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/verify"
+	v1pb "github.com/namelessup/bilibili/app/service/live/rtc/api/v1"
+	"github.com/namelessup/bilibili/app/service/live/rtc/internal/conf"
+	"github.com/namelessup/bilibili/app/service/live/rtc/internal/service"
+	v1srv "github.com/namelessup/bilibili/app/service/live/rtc/internal/service/v1"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/verify"
 	"net/http"
 )
 

@@ -2,9 +2,9 @@ package up
 
 import (
 	"context"
-	"go-common/app/interface/main/creative/model/up"
-	upmdl "go-common/app/service/main/up/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/up"
+	upmdl "github.com/namelessup/bilibili/app/service/main/up/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

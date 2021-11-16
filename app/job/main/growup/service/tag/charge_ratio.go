@@ -5,7 +5,7 @@ import (
 	"context"
 	"strconv"
 
-	model "go-common/app/job/main/growup/model/tag"
+	model "github.com/namelessup/bilibili/app/job/main/growup/model/tag"
 )
 
 func (s *Service) delArchiveRatio(c context.Context, ctype int) (err error) {

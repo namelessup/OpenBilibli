@@ -28,7 +28,7 @@ go_library(
         "dao.go",
         "tag.go",
     ],
-    importpath = "go-common/app/job/main/videoup-report/dao/tag",
+    importpath = "github.com/namelessup/bilibili/app/job/main/videoup-report/dao/tag",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

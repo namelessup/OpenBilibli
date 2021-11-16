@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/infra/discovery/model"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/infra/discovery/model"
+	"github.com/namelessup/bilibili/library/ecode"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

@@ -13,7 +13,7 @@ go_library(
         "overlord.go",
         "tree.go",
     ],
-    importpath = "go-common/app/admin/main/cache/model",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/cache/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

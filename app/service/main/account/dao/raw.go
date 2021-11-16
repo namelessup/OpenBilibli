@@ -3,14 +3,14 @@ package dao
 import (
 	"context"
 
-	v1 "go-common/app/service/main/account/api"
-	"go-common/app/service/main/account/model"
-	mml "go-common/app/service/main/member/model"
-	bml "go-common/app/service/main/member/model/block"
-	sml "go-common/app/service/main/usersuit/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
+	v1 "github.com/namelessup/bilibili/app/service/main/account/api"
+	"github.com/namelessup/bilibili/app/service/main/account/model"
+	mml "github.com/namelessup/bilibili/app/service/main/member/model"
+	bml "github.com/namelessup/bilibili/app/service/main/member/model/block"
+	sml "github.com/namelessup/bilibili/app/service/main/usersuit/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 
 	"github.com/pkg/errors"
 )

@@ -1,8 +1,8 @@
 package model
 
 import (
-	"go-common/app/interface/main/tag/model"
-	v1 "go-common/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/app/interface/main/tag/model"
+	v1 "github.com/namelessup/bilibili/app/service/main/archive/api"
 )
 
 const (

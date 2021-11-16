@@ -45,7 +45,7 @@ go_library(
         "rpc.go",
         "white.go",
     ],
-    importpath = "go-common/app/service/main/filter/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/main/filter/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

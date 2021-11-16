@@ -32,7 +32,7 @@ var (
 		Paths:          make(map[string]*Item),
 		SwaggerVersion: "2.0",
 		Infos: Information{
-			Title:       "go-common api",
+			Title:       "github.com/namelessup/bilibili api",
 			Description: "api",
 			Version:     "1.0",
 			Contact: Contact{

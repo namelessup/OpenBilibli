@@ -12,7 +12,7 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"go-common/app/tool/gorpc/model"
+	"github.com/namelessup/bilibili/app/tool/gorpc/model"
 )
 
 // ErrEmptyFile represents an empty file error.

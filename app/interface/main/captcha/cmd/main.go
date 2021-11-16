@@ -8,12 +8,12 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/app/interface/main/captcha/conf"
-	"go-common/app/interface/main/captcha/http"
-	"go-common/app/interface/main/captcha/service"
-	ecode "go-common/library/ecode/tip"
-	"go-common/library/log"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/app/interface/main/captcha/conf"
+	"github.com/namelessup/bilibili/app/interface/main/captcha/http"
+	"github.com/namelessup/bilibili/app/interface/main/captcha/service"
+	ecode "github.com/namelessup/bilibili/library/ecode/tip"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
 )
 
 func main() {

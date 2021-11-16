@@ -2,7 +2,7 @@ package dao
 
 import (
 	"fmt"
-	"go-common/app/admin/main/filter/model"
+	"github.com/namelessup/bilibili/app/admin/main/filter/model"
 	"testing"
 
 	. "github.com/smartystreets/goconvey/convey"

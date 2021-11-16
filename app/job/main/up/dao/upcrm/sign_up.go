@@ -3,11 +3,11 @@ package upcrm
 import (
 	"time"
 
-	"go-common/app/admin/main/up/util/now"
-	"go-common/app/job/main/up/model/signmodel"
-	"go-common/app/job/main/up/model/upcrmmodel"
-	"go-common/library/log"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/admin/main/up/util/now"
+	"github.com/namelessup/bilibili/app/job/main/up/model/signmodel"
+	"github.com/namelessup/bilibili/app/job/main/up/model/upcrmmodel"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	"github.com/jinzhu/gorm"
 )

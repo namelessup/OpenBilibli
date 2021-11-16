@@ -4,11 +4,11 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"go-common/app/service/video/stream-mng/common"
-	"go-common/app/service/video/stream-mng/model"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/service/video/stream-mng/common"
+	"github.com/namelessup/bilibili/app/service/video/stream-mng/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 // RawStreamFullInfo 直接从数据库中查询流信息，可传入流名， 也可传入rid

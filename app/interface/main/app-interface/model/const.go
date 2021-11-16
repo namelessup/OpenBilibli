@@ -3,9 +3,9 @@ package model
 import (
 	"fmt"
 
-	livemdl "go-common/app/interface/main/app-interface/model/live"
-	"go-common/app/service/main/archive/model/archive"
-	"go-common/library/conf/env"
+	livemdl "github.com/namelessup/bilibili/app/interface/main/app-interface/model/live"
+	"github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/library/conf/env"
 )
 
 // app-interface const

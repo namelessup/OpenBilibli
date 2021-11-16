@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"go-common/app/job/main/dm/conf"
+	"github.com/namelessup/bilibili/app/job/main/dm/conf"
 )
 
 func TestDuration(t *testing.T) {

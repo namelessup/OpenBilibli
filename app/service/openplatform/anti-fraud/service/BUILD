@@ -35,7 +35,7 @@ go_library(
         "risk.go",
         "service.go",
     ],
-    importpath = "go-common/app/service/openplatform/anti-fraud/service",
+    importpath = "github.com/namelessup/bilibili/app/service/openplatform/anti-fraud/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

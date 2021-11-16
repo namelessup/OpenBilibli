@@ -2,10 +2,10 @@ package archive
 
 import (
 	"context"
-	"go-common/app/job/main/videoup/conf"
-	xredis "go-common/library/cache/redis"
-	xsql "go-common/library/database/sql"
-	xhttp "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/job/main/videoup/conf"
+	xredis "github.com/namelessup/bilibili/library/cache/redis"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	xhttp "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // Dao is redis dao.

@@ -1,7 +1,7 @@
 GOFILES=$(shell find . -name "*.go" -type f)
 EXAMPLE_HELLOWORLD_DIR=examples/helloworld
 PROTO_FILE=$(EXAMPLE_HELLOWORLD_DIR)/api/helloworld.proto
-VENDOR_DIR=$(shell echo $$GOPATH | cut -d':' -f1)/src/go-common/vendor
+VENDOR_DIR=$(shell echo $$GOPATH | cut -d':' -f1)/src/github.com/namelessup/bilibili/vendor
 
 protoc-gen-bm: $(GOFILES)
 	go install .

@@ -28,7 +28,7 @@ go_library(
         "chaodian.go",
         "dao.go",
     ],
-    importpath = "go-common/app/interface/main/creative/dao/order",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/creative/dao/order",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

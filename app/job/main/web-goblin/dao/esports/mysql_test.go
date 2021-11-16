@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	mdlesp "go-common/app/job/main/web-goblin/model/esports"
-	arcmdl "go-common/app/service/main/archive/api"
+	mdlesp "github.com/namelessup/bilibili/app/job/main/web-goblin/model/esports"
+	arcmdl "github.com/namelessup/bilibili/app/service/main/archive/api"
 
 	"github.com/smartystreets/goconvey/convey"
 )

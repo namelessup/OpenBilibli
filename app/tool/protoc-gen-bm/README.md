@@ -1,4 +1,4 @@
-# Deprecated: 请大佬移步 [https://git.bilibili.co/platform/go-common/tree/master/app/tool/bmproto](https://git.bilibili.co/platform/go-common/tree/master/app/tool/bmproto) 生成的代码不一样但是功能一致, 可以无缝迁移!
+# Deprecated: 请大佬移步 [https://git.bilibili.co/platform/github.com/namelessup/bilibili/tree/master/app/tool/bmproto](https://git.bilibili.co/platform/github.com/namelessup/bilibili/tree/master/app/tool/bmproto) 生成的代码不一样但是功能一致, 可以无缝迁移!
 
 # protoc-gen-bm
 
@@ -7,7 +7,7 @@
 ### 安装
 
 ```bash
-go install go-common/app/tool/protoc-gen-bm
+go install github.com/namelessup/bilibili/app/tool/protoc-gen-bm
 ```
 
 ### 如何生成 bm server 代码 （example）
@@ -132,7 +132,7 @@ message PB {
  go_proto_library(
 @@ -22,14 +22,14 @@ go_proto_library(
      compilers = ["@io_bazel_rules_go//proto:go_grpc"],
-     importpath = "go-common/app/tool/protoc-gen-bm/examples/helloworld/api/v1",
+     importpath = "github.com/namelessup/bilibili/app/tool/protoc-gen-bm/examples/helloworld/api/v1",
      proto = ":v1_proto",
 -    tags = ["automanaged"],
 -    deps = ["google/api/annotations.proto"],
@@ -145,7 +145,7 @@ message PB {
      srcs = ["helloworld.pb.bm.go"],
 -    embed = ["v1_go_proto"],
 +    embed = [":v1_go_proto"],
-     importpath = "go-common/app/tool/protoc-gen-bm/examples/helloworld/api/v1",
+     importpath = "github.com/namelessup/bilibili/app/tool/protoc-gen-bm/examples/helloworld/api/v1",
      tags = ["automanaged"],
      visibility = ["//visibility:public"],
 ```

@@ -24,7 +24,7 @@ go_library(
         "config.go",
         "hbase.go",
     ],
-    importpath = "go-common/library/database/hbase.v2",
+    importpath = "github.com/namelessup/bilibili/library/database/hbase.v2",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

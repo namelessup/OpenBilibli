@@ -4,12 +4,12 @@ import (
 	"context"
 	"encoding/json"
 
-	v1pb "go-common/app/service/live/dao-anchor/api/grpc/v1"
-	"go-common/app/service/live/dao-anchor/dao"
-	"go-common/app/service/live/dao-anchor/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
+	v1pb "github.com/namelessup/bilibili/app/service/live/dao-anchor/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/live/dao-anchor/dao"
+	"github.com/namelessup/bilibili/app/service/live/dao-anchor/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 //PopularityStatistics  离线人气相关统计，同步落地

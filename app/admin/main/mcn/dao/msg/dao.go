@@ -1,8 +1,8 @@
 package msg
 
 import (
-	"go-common/app/admin/main/mcn/conf"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/mcn/conf"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 const (

@@ -13,7 +13,7 @@ go_library(
         "dao.go",
         "db.go",
     ],
-    importpath = "go-common/app/job/main/creative/dao/newcomer",
+    importpath = "github.com/namelessup/bilibili/app/job/main/creative/dao/newcomer",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

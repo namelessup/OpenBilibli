@@ -3,9 +3,9 @@ package ugc
 import (
 	"context"
 	"fmt"
-	ugcmdl "go-common/app/job/main/tv/model/ugc"
-	"go-common/library/database/sql"
-	"go-common/library/log"
+	ugcmdl "github.com/namelessup/bilibili/app/job/main/tv/model/ugc"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 	"time"
 )
 

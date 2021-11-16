@@ -42,7 +42,7 @@ go_library(
         "region.go",
         "zone.go",
     ],
-    importpath = "go-common/app/interface/main/tv/dao/app",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/tv/dao/app",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

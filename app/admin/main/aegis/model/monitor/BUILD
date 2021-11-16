@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["monitor.go"],
-    importpath = "go-common/app/admin/main/aegis/model/monitor",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/aegis/model/monitor",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

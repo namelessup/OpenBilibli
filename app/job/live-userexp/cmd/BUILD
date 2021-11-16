@@ -8,7 +8,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["live-userexp-job-example.toml"],
-    importpath = "go-common/app/job/live-userexp/cmd",
+    importpath = "github.com/namelessup/bilibili/app/job/live-userexp/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:private"],
     deps = [

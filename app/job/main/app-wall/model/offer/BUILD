@@ -11,7 +11,7 @@ go_library(
         "message.go",
         "retry.go",
     ],
-    importpath = "go-common/app/job/main/app-wall/model/offer",
+    importpath = "github.com/namelessup/bilibili/app/job/main/app-wall/model/offer",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

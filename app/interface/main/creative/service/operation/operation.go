@@ -3,9 +3,9 @@ package operation
 import (
 	"context"
 	"encoding/json"
-	operMdl "go-common/app/interface/main/creative/model/operation"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	operMdl "github.com/namelessup/bilibili/app/interface/main/creative/model/operation"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 	"strconv"
 	"strings"
 	"time"

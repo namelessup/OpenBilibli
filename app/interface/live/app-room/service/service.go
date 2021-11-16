@@ -1,7 +1,7 @@
 package service
 
 import (
-	"go-common/app/interface/live/app-room/conf"
+	"github.com/namelessup/bilibili/app/interface/live/app-room/conf"
 )
 
 // Service struct

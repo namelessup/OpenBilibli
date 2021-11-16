@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"encoding/json"
-	"go-common/app/job/live/wallet/conf"
-	"go-common/app/job/live/wallet/model"
+	"github.com/namelessup/bilibili/app/job/live/wallet/conf"
+	"github.com/namelessup/bilibili/app/job/live/wallet/model"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

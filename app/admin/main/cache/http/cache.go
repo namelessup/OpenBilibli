@@ -6,9 +6,9 @@ import (
 	"strconv"
 	"strings"
 
-	"go-common/app/admin/main/cache/model"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/cache/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 
 	yaml "gopkg.in/yaml.v2"
 )

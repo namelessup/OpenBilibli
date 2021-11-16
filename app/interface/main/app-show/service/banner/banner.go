@@ -5,14 +5,14 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/interface/main/app-show/conf"
-	resdao "go-common/app/interface/main/app-show/dao/resource"
-	"go-common/app/interface/main/app-show/model"
-	"go-common/app/interface/main/app-show/model/banner"
-	resource "go-common/app/service/main/resource/model"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/conf"
+	resdao "github.com/namelessup/bilibili/app/interface/main/app-show/dao/resource"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/model/banner"
+	resource "github.com/namelessup/bilibili/app/service/main/resource/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/stat/prom"
 )
 
 var (

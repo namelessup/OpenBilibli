@@ -12,7 +12,7 @@ go_library(
         "contact.go",
         "wechat.go",
     ],
-    importpath = "go-common/app/tool/saga/service/wechat",
+    importpath = "github.com/namelessup/bilibili/app/tool/saga/service/wechat",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

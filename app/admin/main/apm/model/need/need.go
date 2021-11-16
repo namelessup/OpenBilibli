@@ -1,6 +1,6 @@
 package need
 
-import "go-common/library/time"
+import "github.com/namelessup/bilibili/library/time"
 
 // type and states
 const (

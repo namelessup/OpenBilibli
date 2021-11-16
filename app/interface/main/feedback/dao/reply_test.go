@@ -7,8 +7,8 @@ import (
 	"reflect"
 	"testing"
 
-	"go-common/app/interface/main/feedback/model"
-	"go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/interface/main/feedback/model"
+	"github.com/namelessup/bilibili/library/database/sql"
 
 	"github.com/bouk/monkey"
 	"github.com/smartystreets/goconvey/convey"

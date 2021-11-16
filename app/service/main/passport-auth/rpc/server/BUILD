@@ -24,7 +24,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["rpc.go"],
-    importpath = "go-common/app/service/main/passport-auth/rpc/server",
+    importpath = "github.com/namelessup/bilibili/app/service/main/passport-auth/rpc/server",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

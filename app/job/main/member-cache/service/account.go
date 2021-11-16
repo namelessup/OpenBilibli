@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/app/job/main/member-cache/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/member-cache/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func notifyKey(mid int64) string {

@@ -3,10 +3,10 @@ package http
 import (
 	"strings"
 
-	"go-common/app/admin/main/aegis/model/business"
-	"go-common/app/admin/main/aegis/model/common"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model/business"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model/common"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func preBusinss(b *business.Business) (invalid bool) {

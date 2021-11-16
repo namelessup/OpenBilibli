@@ -8,7 +8,7 @@ import (
 	"time"
 
 	. "github.com/smartystreets/goconvey/convey"
-	"go-common/app/service/live/userexp/conf"
+	"github.com/namelessup/bilibili/app/service/live/userexp/conf"
 )
 
 var (

@@ -2,7 +2,7 @@ package service
 
 import (
 	"context"
-	"go-common/app/interface/openplatform/article/conf"
+	"github.com/namelessup/bilibili/app/interface/openplatform/article/conf"
 )
 
 var _sentinel = &conf.Sentinel{

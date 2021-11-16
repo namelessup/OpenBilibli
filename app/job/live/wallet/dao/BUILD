@@ -30,7 +30,7 @@ go_library(
         "mc_wallet.go",
         "wallet.go",
     ],
-    importpath = "go-common/app/job/live/wallet/dao",
+    importpath = "github.com/namelessup/bilibili/app/job/live/wallet/dao",
     tags = ["automanaged"],
     deps = [
         "//app/job/live/wallet/conf:go_default_library",

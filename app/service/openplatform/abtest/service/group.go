@@ -3,7 +3,7 @@ package service
 import (
 	"context"
 
-	"go-common/app/service/openplatform/abtest/model"
+	"github.com/namelessup/bilibili/app/service/openplatform/abtest/model"
 )
 
 //AddGroup add a new group

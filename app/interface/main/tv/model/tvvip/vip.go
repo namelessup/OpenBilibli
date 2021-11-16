@@ -1,7 +1,7 @@
 package model
 
 import (
-	pb "go-common/app/service/main/tv/api"
+	pb "github.com/namelessup/bilibili/app/service/main/tv/api"
 )
 
 type CreateQrReq struct {

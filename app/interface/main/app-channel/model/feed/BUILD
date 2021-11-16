@@ -11,7 +11,7 @@ go_library(
         "feed.go",
         "feed2.go",
     ],
-    importpath = "go-common/app/interface/main/app-channel/model/feed",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-channel/model/feed",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

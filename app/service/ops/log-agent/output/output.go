@@ -3,8 +3,8 @@ package output
 import (
 	"fmt"
 	"context"
-	"go-common/app/service/ops/log-agent/event"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/ops/log-agent/event"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/BurntSushi/toml"
 )

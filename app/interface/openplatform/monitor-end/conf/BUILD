@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["conf.go"],
-    importpath = "go-common/app/interface/openplatform/monitor-end/conf",
+    importpath = "github.com/namelessup/bilibili/app/interface/openplatform/monitor-end/conf",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["conf.go"],
-    importpath = "go-common/app/interface/live/web-room/conf",
+    importpath = "github.com/namelessup/bilibili/app/interface/live/web-room/conf",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

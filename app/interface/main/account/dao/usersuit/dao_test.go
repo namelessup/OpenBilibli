@@ -3,7 +3,7 @@ package usersuit
 import (
 	"flag"
 
-	"go-common/app/interface/main/account/conf"
+	"github.com/namelessup/bilibili/app/interface/main/account/conf"
 )
 
 var d *Dao

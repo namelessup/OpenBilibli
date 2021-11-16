@@ -15,8 +15,8 @@ message Tag {
     int64 id = 1 [(gogoproto.jsontag) = "id"];
     string name = 2 [(gogoproto.jsontag) = "name"];
     int64 status = 3 [(gogoproto.jsontag) = "status"];
-    int64 ctime = 4 [(gogoproto.jsontag) = "-", (gogoproto.casttype) = "go-common/library/time.Time", (gogoproto.customname) = "CTime"];
-    int64 mtime = 5 [(gogoproto.jsontag) = "mtime", (gogoproto.casttype) = "go-common/library/time.Time", (gogoproto.customname) = "MTime"];
+    int64 ctime = 4 [(gogoproto.jsontag) = "-", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time", (gogoproto.customname) = "CTime"];
+    int64 mtime = 5 [(gogoproto.jsontag) = "mtime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time", (gogoproto.customname) = "MTime"];
 }
 message Tags {
    map<int64,Tag>  tags= 1 ;
@@ -24,8 +24,8 @@ message Tags {
 message TagUser {
     int64 fid = 1 [(gogoproto.jsontag) = "fid"];
     repeated int64 tag = 2 [(gogoproto.jsontag) = "tag"];
-    int64 ctime = 3 [(gogoproto.jsontag) = "-", (gogoproto.casttype) = "go-common/library/time.Time", (gogoproto.customname) = "CTime"];
-    int64 mtime = 4 [(gogoproto.jsontag) = "mtime", (gogoproto.casttype) = "go-common/library/time.Time", (gogoproto.customname) = "MTime"];
+    int64 ctime = 3 [(gogoproto.jsontag) = "-", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time", (gogoproto.customname) = "CTime"];
+    int64 mtime = 4 [(gogoproto.jsontag) = "mtime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time", (gogoproto.customname) = "MTime"];
 }
 
 message TagCount {
@@ -42,8 +42,8 @@ message Following {
     int64 mid = 1 [(gogoproto.jsontag) = "mid"];
     uint32 attribute = 2 [(gogoproto.jsontag) = "attribute"];
     uint32 source = 3 [(gogoproto.jsontag) = "-"];
-    int64 ctime = 4 [(gogoproto.jsontag) = "-", (gogoproto.casttype) = "go-common/library/time.Time", (gogoproto.customname) = "CTime"];
-    int64 mtime = 5 [(gogoproto.jsontag) = "mtime", (gogoproto.casttype) = "go-common/library/time.Time", (gogoproto.customname) = "MTime"];
+    int64 ctime = 4 [(gogoproto.jsontag) = "-", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time", (gogoproto.customname) = "CTime"];
+    int64 mtime = 5 [(gogoproto.jsontag) = "mtime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time", (gogoproto.customname) = "MTime"];
     repeated int64 tag = 6 [(gogoproto.jsontag) = "tag"];
     int32 special = 7 [(gogoproto.jsontag) = "special"];
 }
@@ -57,13 +57,13 @@ message Stat {
     int64 whisper = 3 [(gogoproto.jsontag) = "whisper"];
     int64 black = 4 [(gogoproto.jsontag) = "black"];
     int64 follower = 5 [(gogoproto.jsontag) = "follower"];
-    int64 ctime = 6 [(gogoproto.jsontag) = "-", (gogoproto.casttype) = "go-common/library/time.Time", (gogoproto.customname) = "CTime"];
-    int64 mtime = 7 [(gogoproto.jsontag) = "-", (gogoproto.casttype) = "go-common/library/time.Time", (gogoproto.customname) = "MTime"];
+    int64 ctime = 6 [(gogoproto.jsontag) = "-", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time", (gogoproto.customname) = "CTime"];
+    int64 mtime = 7 [(gogoproto.jsontag) = "-", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time", (gogoproto.customname) = "MTime"];
 }
 
 message FollowingTags {
     uint32 attr = 1 [(gogoproto.jsontag) = "attr"];
-    int64 ts = 2 [(gogoproto.jsontag) = "ts", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int64 ts = 2 [(gogoproto.jsontag) = "ts", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
     repeated int64 tag_ids = 3 [(gogoproto.jsontag) = "tag"];
     int32 special =4 [(gogoproto.jsontag) = "special"];
 }

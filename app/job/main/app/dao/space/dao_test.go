@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/job/main/app/conf"
+	"github.com/namelessup/bilibili/app/job/main/app/conf"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

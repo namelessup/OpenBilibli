@@ -21,7 +21,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["aids.go"],
-    importpath = "go-common/app/admin/main/app/service/aids",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/app/service/aids",
     tags = ["automanaged"],
     deps = [
         "//app/admin/main/app/conf:go_default_library",

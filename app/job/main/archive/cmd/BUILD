@@ -19,7 +19,7 @@ go_library(
         "archive-job-example.toml",
         "archive-job-test.toml",
     ],
-    importpath = "go-common/app/job/main/archive/cmd",
+    importpath = "github.com/namelessup/bilibili/app/job/main/archive/cmd",
     tags = ["automanaged"],
     deps = [
         "//app/job/main/archive/conf:go_default_library",

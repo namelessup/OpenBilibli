@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	gmc "go-common/library/cache/memcache"
+	gmc "github.com/namelessup/bilibili/library/cache/memcache"
 )
 
 const (

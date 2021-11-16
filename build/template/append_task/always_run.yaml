@@ -1,13 +1,13 @@
 presubmits:
-  platform/go-common:
-  - name: go-common-make-update
+  platform/github.com/namelessup/bilibili:
+  - name: github.com/namelessup/bilibili-make-update
     always_run: true 
     run_pr_pushed: true
     namespace: default
     spec:
       containers:
       - image: go_lint
-        name: go-common-make-update
+        name: github.com/namelessup/bilibili-make-update
         imagePullPolicy: IfNotPresent
         args:
         - --id=$(BUILD_ID)

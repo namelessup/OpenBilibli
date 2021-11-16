@@ -33,7 +33,7 @@ go_library(
         "field.go",
         "hbase.go",
     ],
-    importpath = "go-common/app/service/main/up/dao/data",
+    importpath = "github.com/namelessup/bilibili/app/service/main/up/dao/data",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

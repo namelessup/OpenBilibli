@@ -3,10 +3,10 @@ package bws
 import (
 	"context"
 
-	bwsmdl "go-common/app/interface/main/activity/model/bws"
-	accapi "go-common/app/service/main/account/api"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	bwsmdl "github.com/namelessup/bilibili/app/interface/main/activity/model/bws"
+	accapi "github.com/namelessup/bilibili/app/service/main/account/api"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Lottery get lottery account.

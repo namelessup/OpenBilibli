@@ -3,7 +3,7 @@ package dao
 import (
 	"testing"
 
-	"go-common/app/admin/ep/melloi/model"
+	"github.com/namelessup/bilibili/app/admin/ep/melloi/model"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

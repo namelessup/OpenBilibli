@@ -17,7 +17,7 @@ go_library(
         "rpc.go",
         "tag.go",
     ],
-    importpath = "go-common/app/infra/config/model",
+    importpath = "github.com/namelessup/bilibili/app/infra/config/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/time:go_default_library"],

@@ -4,16 +4,16 @@ import (
 	"context"
 	"sync"
 
-	"go-common/app/job/main/sms/conf"
-	"go-common/app/job/main/sms/dao"
-	"go-common/app/job/main/sms/dao/chuanglan"
-	"go-common/app/job/main/sms/dao/mengwang"
-	"go-common/app/job/main/sms/model"
-	smsgrpc "go-common/app/service/main/sms/api"
-	smsmdl "go-common/app/service/main/sms/model"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
-	"go-common/library/sync/pipeline/fanout"
+	"github.com/namelessup/bilibili/app/job/main/sms/conf"
+	"github.com/namelessup/bilibili/app/job/main/sms/dao"
+	"github.com/namelessup/bilibili/app/job/main/sms/dao/chuanglan"
+	"github.com/namelessup/bilibili/app/job/main/sms/dao/mengwang"
+	"github.com/namelessup/bilibili/app/job/main/sms/model"
+	smsgrpc "github.com/namelessup/bilibili/app/service/main/sms/api"
+	smsmdl "github.com/namelessup/bilibili/app/service/main/sms/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
+	"github.com/namelessup/bilibili/library/sync/pipeline/fanout"
 )
 
 // Service struct of service.

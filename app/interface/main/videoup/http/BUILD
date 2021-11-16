@@ -16,7 +16,7 @@ go_library(
         "web.go",
         "web_v2.go",
     ],
-    importpath = "go-common/app/interface/main/videoup/http",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/videoup/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

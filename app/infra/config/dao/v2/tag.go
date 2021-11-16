@@ -2,10 +2,10 @@ package v2
 
 import (
 	"database/sql"
-	"go-common/app/infra/config/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/infra/config/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 //Tags get builds by app id.

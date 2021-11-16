@@ -3,11 +3,11 @@ package grpc
 import (
 	"context"
 
-	v1 "go-common/app/interface/main/creative/api"
-	newcMdl "go-common/app/interface/main/creative/model/newcomer"
-	"go-common/app/interface/main/creative/service/archive"
-	"go-common/app/interface/main/creative/service/newcomer"
-	"go-common/library/net/rpc/warden"
+	v1 "github.com/namelessup/bilibili/app/interface/main/creative/api"
+	newcMdl "github.com/namelessup/bilibili/app/interface/main/creative/model/newcomer"
+	"github.com/namelessup/bilibili/app/interface/main/creative/service/archive"
+	"github.com/namelessup/bilibili/app/interface/main/creative/service/newcomer"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 )
 
 // New boradcast grpc server.

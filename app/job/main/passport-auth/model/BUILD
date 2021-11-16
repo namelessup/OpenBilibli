@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["token.go"],
-    importpath = "go-common/app/job/main/passport-auth/model",
+    importpath = "github.com/namelessup/bilibili/app/job/main/passport-auth/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/time:go_default_library"],

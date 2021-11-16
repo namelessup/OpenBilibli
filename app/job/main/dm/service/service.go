@@ -6,12 +6,12 @@ import (
 	"errors"
 	"regexp"
 
-	"go-common/app/job/main/dm/conf"
-	"go-common/app/job/main/dm/dao"
-	"go-common/app/job/main/dm/model"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
-	"go-common/library/sync/pipeline/fanout"
+	"github.com/namelessup/bilibili/app/job/main/dm/conf"
+	"github.com/namelessup/bilibili/app/job/main/dm/dao"
+	"github.com/namelessup/bilibili/app/job/main/dm/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
+	"github.com/namelessup/bilibili/library/sync/pipeline/fanout"
 )
 
 var (

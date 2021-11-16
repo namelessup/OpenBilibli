@@ -3,7 +3,7 @@ package dao
 import (
 	"context"
 	. "github.com/smartystreets/goconvey/convey"
-	"go-common/app/interface/live/app-room/model"
+	"github.com/namelessup/bilibili/app/interface/live/app-room/model"
 	"math/rand"
 	"testing"
 	"time"

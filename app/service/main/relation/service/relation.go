@@ -3,7 +3,7 @@ package service
 import (
 	"context"
 
-	"go-common/app/service/main/relation/model"
+	"github.com/namelessup/bilibili/app/service/main/relation/model"
 )
 
 // Relation get relation of mid -> fid.

@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/service/main/location/model"
+	"github.com/namelessup/bilibili/app/service/main/location/model"
 )
 
 const (

@@ -2,7 +2,7 @@ package block
 
 import (
 	"context"
-	model "go-common/app/admin/main/member/model/block"
+	model "github.com/namelessup/bilibili/app/admin/main/member/model/block"
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"

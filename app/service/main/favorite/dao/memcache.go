@@ -3,10 +3,10 @@ package dao
 import (
 	"context"
 	"fmt"
-	"go-common/app/service/main/favorite/model"
-	"go-common/library/cache/memcache"
-	"go-common/library/log"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/service/main/favorite/model"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/xstr"
 	"strconv"
 )
 

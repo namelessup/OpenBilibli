@@ -2,7 +2,7 @@ package dao
 
 import (
 	"flag"
-	"go-common/app/admin/main/usersuit/conf"
+	"github.com/namelessup/bilibili/app/admin/main/usersuit/conf"
 	"os"
 	"strings"
 	"testing"

@@ -33,7 +33,7 @@ go_library(
         "incr.go",
         "service.go",
     ],
-    importpath = "go-common/app/service/main/rank/service",
+    importpath = "github.com/namelessup/bilibili/app/service/main/rank/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

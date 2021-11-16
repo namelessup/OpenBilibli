@@ -4,7 +4,7 @@ import (
 	"flag"
 	"path/filepath"
 
-	"go-common/app/interface/main/shorturl/conf"
+	"github.com/namelessup/bilibili/app/interface/main/shorturl/conf"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

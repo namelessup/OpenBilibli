@@ -14,7 +14,7 @@ go_library(
         "rule.go",
         "suspicious.go",
     ],
-    importpath = "go-common/app/service/main/antispam/model",
+    importpath = "github.com/namelessup/bilibili/app/service/main/antispam/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//app/service/main/antispam/util:go_default_library"],

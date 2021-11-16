@@ -11,7 +11,7 @@ go_library(
         "history.go",
         "http.go",
     ],
-    importpath = "go-common/app/service/main/history/server/http",
+    importpath = "github.com/namelessup/bilibili/app/service/main/history/server/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

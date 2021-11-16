@@ -9,10 +9,10 @@ import (
 	"strings"
 	"time"
 
-	location "go-common/app/service/main/location/model"
-	"go-common/app/service/main/secure/model"
-	"go-common/library/log"
-	xtime "go-common/library/time"
+	location "github.com/namelessup/bilibili/app/service/main/location/model"
+	"github.com/namelessup/bilibili/app/service/main/secure/model"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 var (

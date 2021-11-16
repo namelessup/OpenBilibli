@@ -2,7 +2,7 @@ package tools
 
 import (
 	"fmt"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 	"os"
 	"path/filepath"
 	"time"

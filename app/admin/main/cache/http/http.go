@@ -3,10 +3,10 @@ package http
 import (
 	"net/http"
 
-	"go-common/app/admin/main/cache/conf"
-	"go-common/app/admin/main/cache/service"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/cache/conf"
+	"github.com/namelessup/bilibili/app/admin/main/cache/service"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 var (

@@ -1,7 +1,7 @@
 package feed
 
 import (
-	cdm "go-common/app/interface/main/app-card/model"
+	cdm "github.com/namelessup/bilibili/app/interface/main/app-card/model"
 )
 
 // IndexParam struct

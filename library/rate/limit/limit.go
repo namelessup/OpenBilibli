@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	"go-common/library/container/queue/aqm"
-	"go-common/library/log"
-	"go-common/library/rate"
-	"go-common/library/rate/vegas"
+	"github.com/namelessup/bilibili/library/container/queue/aqm"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/rate"
+	"github.com/namelessup/bilibili/library/rate/vegas"
 )
 
 var _ rate.Limiter = &Limiter{}

@@ -3,10 +3,10 @@ package http
 import (
 	"time"
 
-	"go-common/app/admin/main/app/model"
-	"go-common/app/admin/main/app/model/notice"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/app/model"
+	"github.com/namelessup/bilibili/app/admin/main/app/model/notice"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // notices select notice all

@@ -3,11 +3,11 @@ package service
 import (
 	"context"
 
-	"go-common/app/admin/main/esports/model"
-	accwarden "go-common/app/service/main/account/api"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/admin/main/esports/model"
+	accwarden "github.com/namelessup/bilibili/app/service/main/account/api"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 
 	"github.com/jinzhu/gorm"
 )

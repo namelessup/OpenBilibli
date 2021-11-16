@@ -12,7 +12,7 @@ go_library(
         "dao.go",
         "mysql.go",
     ],
-    importpath = "go-common/app/infra/canal/dao",
+    importpath = "github.com/namelessup/bilibili/app/infra/canal/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

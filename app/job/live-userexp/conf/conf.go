@@ -4,12 +4,12 @@ import (
 	"errors"
 	"flag"
 
-	"go-common/library/cache/memcache"
-	"go-common/library/conf"
-	"go-common/library/database/sql"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/conf"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
+	"github.com/namelessup/bilibili/library/time"
 
 	"github.com/BurntSushi/toml"
 )

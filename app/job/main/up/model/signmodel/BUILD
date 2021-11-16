@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["sign_up.go"],
-    importpath = "go-common/app/job/main/up/model/signmodel",
+    importpath = "github.com/namelessup/bilibili/app/job/main/up/model/signmodel",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

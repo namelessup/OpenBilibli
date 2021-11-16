@@ -11,7 +11,7 @@ go_library(
         "bnj.go",
         "view.go",
     ],
-    importpath = "go-common/app/interface/main/app-view/model/view",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-view/model/view",
     tags = ["automanaged"],
     deps = [
         "//app/interface/main/app-view/model:go_default_library",

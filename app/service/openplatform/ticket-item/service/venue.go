@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 
-	item "go-common/app/service/openplatform/ticket-item/api/grpc/v1"
-	"go-common/app/service/openplatform/ticket-item/model"
-	"go-common/library/ecode"
+	item "github.com/namelessup/bilibili/app/service/openplatform/ticket-item/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-item/model"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 // VenueSearch 场馆搜索

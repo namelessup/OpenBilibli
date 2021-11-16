@@ -6,13 +6,13 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/admin/main/videoup-task/dao"
-	"go-common/app/admin/main/videoup-task/model"
-	accmdl "go-common/app/service/main/account/model"
-	"go-common/library/database/sql"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/queue/databus/report"
+	"github.com/namelessup/bilibili/app/admin/main/videoup-task/dao"
+	"github.com/namelessup/bilibili/app/admin/main/videoup-task/model"
+	accmdl "github.com/namelessup/bilibili/app/service/main/account/model"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus/report"
 )
 
 //GetVideoList list qa video tasks

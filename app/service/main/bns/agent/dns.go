@@ -9,11 +9,11 @@ import (
 
 	"github.com/miekg/dns"
 
-	"go-common/app/service/main/bns/conf"
-	"go-common/app/service/main/bns/lib/resolvconf"
-	"go-common/app/service/main/bns/lib/shuffle"
-	"go-common/library/log"
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/app/service/main/bns/conf"
+	"github.com/namelessup/bilibili/app/service/main/bns/lib/resolvconf"
+	"github.com/namelessup/bilibili/app/service/main/bns/lib/shuffle"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/stat/prom"
 )
 
 const (

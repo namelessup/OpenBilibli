@@ -1,6 +1,6 @@
 package model
 
-import "go-common/library/conf/env"
+import "github.com/namelessup/bilibili/library/conf/env"
 
 const (
 	GotoAv      = "av"

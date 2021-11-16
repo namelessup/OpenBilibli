@@ -4,7 +4,7 @@ import (
 	"flag"
 	"path/filepath"
 
-	"go-common/app/interface/main/web-show/conf"
+	"github.com/namelessup/bilibili/app/interface/main/web-show/conf"
 )
 
 var d *Dao

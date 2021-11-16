@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	xtime "go-common/library/time"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	"github.com/satori/go.uuid"
 )

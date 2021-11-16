@@ -26,7 +26,7 @@ go_library(
         "rpc.go",
         "settings.go",
     ],
-    importpath = "go-common/app/service/main/push/model",
+    importpath = "github.com/namelessup/bilibili/app/service/main/push/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

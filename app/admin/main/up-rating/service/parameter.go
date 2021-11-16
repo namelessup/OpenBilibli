@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/app/admin/main/up-rating/model"
+	"github.com/namelessup/bilibili/app/admin/main/up-rating/model"
 )
 
 // InsertParameter insert parameter

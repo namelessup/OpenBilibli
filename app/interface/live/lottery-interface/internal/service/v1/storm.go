@@ -1,16 +1,16 @@
 package v1
 
 import (
-	"go-common/app/interface/live/lottery-interface/internal/service"
-	xlottery "go-common/app/service/live/xlottery/api/grpc/v1"
-	"go-common/library/log"
-	"go-common/library/log/infoc"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/live/lottery-interface/internal/service"
+	xlottery "github.com/namelessup/bilibili/app/service/live/xlottery/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/log/infoc"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/metadata"
 	"net/http"
 	"time"
 
-	"go-common/library/net/http/blademaster/render"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/render"
 )
 
 //StormJoin  StormJoin

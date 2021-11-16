@@ -2,8 +2,8 @@ package dao
 
 import (
 	"context"
-	"go-common/app/job/main/vip/model"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/job/main/vip/model"
+	xtime "github.com/namelessup/bilibili/library/time"
 	"testing"
 	"time"
 

@@ -21,7 +21,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["offer.go"],
-    importpath = "go-common/app/interface/main/app-wall/dao/offer",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-wall/dao/offer",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

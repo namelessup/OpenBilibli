@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 	"flag"
-	"go-common/app/service/bbq/video/api/grpc/v1"
-	"go-common/app/service/bbq/video/conf"
+	"github.com/namelessup/bilibili/app/service/bbq/video/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/bbq/video/conf"
 	"os"
 	"testing"
 )

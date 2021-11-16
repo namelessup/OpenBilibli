@@ -1,10 +1,10 @@
 package model
 
 import (
-	"go-common/app/service/main/broadcast/libs/bufio"
-	"go-common/app/service/main/broadcast/libs/bytes"
-	"go-common/app/service/main/broadcast/libs/encoding/binary"
-	"go-common/app/service/main/broadcast/libs/websocket"
+	"github.com/namelessup/bilibili/app/service/main/broadcast/libs/bufio"
+	"github.com/namelessup/bilibili/app/service/main/broadcast/libs/bytes"
+	"github.com/namelessup/bilibili/app/service/main/broadcast/libs/encoding/binary"
+	"github.com/namelessup/bilibili/app/service/main/broadcast/libs/websocket"
 )
 
 const (

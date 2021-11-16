@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["feedback.go"],
-    importpath = "go-common/app/interface/main/creative/model/feedback",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/creative/model/feedback",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/time:go_default_library"],

@@ -1,8 +1,8 @@
 package mcndao
 
 import (
-	"go-common/app/interface/main/mcn/model/mcnmodel"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/mcn/model/mcnmodel"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 //GetActiveTid get tid from crm database

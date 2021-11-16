@@ -3,8 +3,8 @@ package archive
 import (
 	"context"
 
-	"go-common/app/job/main/archive/model/archive"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/archive/model/archive"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

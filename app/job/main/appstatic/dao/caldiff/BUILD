@@ -32,7 +32,7 @@ go_library(
         "download.go",
         "upbfs.go",
     ],
-    importpath = "go-common/app/job/main/appstatic/dao/caldiff",
+    importpath = "github.com/namelessup/bilibili/app/job/main/appstatic/dao/caldiff",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

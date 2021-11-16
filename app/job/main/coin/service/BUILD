@@ -28,7 +28,7 @@ go_library(
         "service.go",
         "settle.go",
     ],
-    importpath = "go-common/app/job/main/coin/service",
+    importpath = "github.com/namelessup/bilibili/app/job/main/coin/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

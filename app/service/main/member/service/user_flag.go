@@ -3,7 +3,7 @@ package service
 import (
 	"context"
 
-	"go-common/app/service/main/member/model"
+	"github.com/namelessup/bilibili/app/service/main/member/model"
 )
 
 // NickUpdated get nickUpdated.

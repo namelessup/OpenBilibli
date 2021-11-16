@@ -24,7 +24,7 @@ go_library(
         "orm.go",
         "timestamp.go",
     ],
-    importpath = "go-common/library/database/orm",
+    importpath = "github.com/namelessup/bilibili/library/database/orm",
     tags = ["automanaged"],
     deps = [
         "//library/ecode:go_default_library",

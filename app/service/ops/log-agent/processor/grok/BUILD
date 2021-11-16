@@ -11,7 +11,7 @@ go_library(
         "conf.go",
         "grok.go",
     ],
-    importpath = "go-common/app/service/ops/log-agent/processor/grok",
+    importpath = "github.com/namelessup/bilibili/app/service/ops/log-agent/processor/grok",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

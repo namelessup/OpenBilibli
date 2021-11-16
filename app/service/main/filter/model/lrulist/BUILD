@@ -17,7 +17,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["list.go"],
-    importpath = "go-common/app/service/main/filter/model/lrulist",
+    importpath = "github.com/namelessup/bilibili/app/service/main/filter/model/lrulist",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

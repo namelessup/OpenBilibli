@@ -4,9 +4,9 @@ import (
 	"context"
 	"encoding/json"
 
-	"go-common/app/service/main/workflow/model/sobot"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/workflow/model/sobot"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // SobotTicketInfo get ticket info

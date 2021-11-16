@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"math/rand"
 
-	"go-common/app/infra/discovery/conf"
-	"go-common/app/infra/discovery/model"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/infra/discovery/conf"
+	"github.com/namelessup/bilibili/app/infra/discovery/model"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 // Nodes is helper to manage lifecycle of a collection of Nodes.

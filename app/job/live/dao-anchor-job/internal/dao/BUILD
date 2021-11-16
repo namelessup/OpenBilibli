@@ -14,7 +14,7 @@ go_library(
         "daoAnchor.go",
         "video.go",
     ],
-    importpath = "go-common/app/job/live/dao-anchor-job/internal/dao",
+    importpath = "github.com/namelessup/bilibili/app/job/live/dao-anchor-job/internal/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

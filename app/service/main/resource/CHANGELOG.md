@@ -317,7 +317,7 @@
 
 ### Version 2.0.0 - 2017.07.21
 ##### Features
-> 1.更新go-common v7    
+> 1.更新github.com/namelessup/bilibili v7    
 > 2.去掉go-business依赖  
 
 ### Version 1.0.0

@@ -4,10 +4,10 @@ import (
 	"context"
 	"sync"
 
-	"go-common/app/infra/config/conf"
-	"go-common/app/infra/config/dao/v2"
-	"go-common/app/infra/config/model"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/infra/config/conf"
+	"github.com/namelessup/bilibili/app/infra/config/dao/v2"
+	"github.com/namelessup/bilibili/app/infra/config/model"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // Service service.

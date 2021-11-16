@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/job/main/credit-timer/conf"
-	"go-common/app/job/main/credit-timer/dao"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/credit-timer/conf"
+	"github.com/namelessup/bilibili/app/job/main/credit-timer/dao"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Service struct of service.

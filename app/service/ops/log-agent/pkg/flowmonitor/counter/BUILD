@@ -22,7 +22,7 @@ go_library(
         "value.go",
         "vec.go",
     ],
-    importpath = "go-common/app/service/ops/log-agent/pkg/flowmonitor/counter",
+    importpath = "github.com/namelessup/bilibili/app/service/ops/log-agent/pkg/flowmonitor/counter",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

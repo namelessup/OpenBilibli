@@ -1,12 +1,12 @@
 package space
 
 import (
-	"go-common/app/interface/main/app-interface/model"
-	"go-common/app/interface/main/app-interface/model/audio"
-	"go-common/app/interface/main/app-interface/model/bplus"
-	article "go-common/app/interface/openplatform/article/model"
-	"go-common/app/service/main/archive/api"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/model/audio"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/model/bplus"
+	article "github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	"strconv"
 )

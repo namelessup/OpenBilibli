@@ -11,7 +11,7 @@ go_library(
         "extension.go",
         "model.go",
     ],
-    importpath = "go-common/app/service/bbq/topic/internal/model",
+    importpath = "github.com/namelessup/bilibili/app/service/bbq/topic/internal/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

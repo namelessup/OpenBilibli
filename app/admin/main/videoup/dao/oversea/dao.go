@@ -4,8 +4,8 @@ import (
 	"context"
 
 	"github.com/jinzhu/gorm"
-	"go-common/app/admin/main/videoup/conf"
-	"go-common/library/database/orm"
+	"github.com/namelessup/bilibili/app/admin/main/videoup/conf"
+	"github.com/namelessup/bilibili/library/database/orm"
 )
 
 // Dao is redis dao.

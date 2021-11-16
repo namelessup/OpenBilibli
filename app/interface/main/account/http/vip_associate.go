@@ -1,12 +1,12 @@
 package http
 
 import (
-	"go-common/app/interface/main/account/model"
-	v1 "go-common/app/service/main/vip/api"
-	vipmol "go-common/app/service/main/vip/model"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/main/account/model"
+	v1 "github.com/namelessup/bilibili/app/service/main/vip/api"
+	vipmol "github.com/namelessup/bilibili/app/service/main/vip/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 func bindInfoByMid(c *bm.Context) {

@@ -18,7 +18,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["anticheat.go"],
-    importpath = "go-common/library/log/anticheat",
+    importpath = "github.com/namelessup/bilibili/library/log/anticheat",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

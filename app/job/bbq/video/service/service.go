@@ -4,16 +4,16 @@ import (
 	"context"
 	"flag"
 	"fmt"
-	"go-common/library/conf/env"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/library/conf/env"
+	"github.com/namelessup/bilibili/library/queue/databus"
 	"reflect"
 	"time"
 
-	"go-common/app/job/bbq/video/conf"
-	"go-common/app/job/bbq/video/dao"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/bbq/video/conf"
+	"github.com/namelessup/bilibili/app/job/bbq/video/dao"
+	"github.com/namelessup/bilibili/library/log"
 
-	topic "go-common/app/service/bbq/topic/api"
+	topic "github.com/namelessup/bilibili/app/service/bbq/topic/api"
 
 	"github.com/robfig/cron"
 )

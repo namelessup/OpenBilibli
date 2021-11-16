@@ -10,9 +10,9 @@ import (
 	"errors"
 	"os"
 
-	"go-common/app/service/ops/log-agent/event"
-	"go-common/app/service/ops/log-agent/input"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/ops/log-agent/event"
+	"github.com/namelessup/bilibili/app/service/ops/log-agent/input"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 type File struct {

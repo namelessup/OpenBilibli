@@ -15,7 +15,7 @@ go_binary(
 go_library(
     name = "go_default_library",
     srcs = ["main.go"],
-    importpath = "go-common/app/tool/liverpc/liverpcgen",
+    importpath = "github.com/namelessup/bilibili/app/tool/liverpc/liverpcgen",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

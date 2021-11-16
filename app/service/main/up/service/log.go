@@ -4,13 +4,13 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/admin/main/videoup/model/archive"
-	accgrpc "go-common/app/service/main/account/api"
-	"go-common/app/service/main/up/dao/global"
-	"go-common/app/service/main/up/model"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
-	"go-common/library/queue/databus/report"
+	"github.com/namelessup/bilibili/app/admin/main/videoup/model/archive"
+	accgrpc "github.com/namelessup/bilibili/app/service/main/account/api"
+	"github.com/namelessup/bilibili/app/service/main/up/dao/global"
+	"github.com/namelessup/bilibili/app/service/main/up/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/queue/databus/report"
 )
 
 const (

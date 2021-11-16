@@ -2,13 +2,13 @@ package v1
 
 import (
 	"context"
-	"go-common/app/common/live/library/mengde"
-	v1pb "go-common/app/service/live/zeus/api/v1"
-	"go-common/app/service/live/zeus/expr"
-	"go-common/app/service/live/zeus/internal/conf"
-	"go-common/app/service/live/zeus/internal/service"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/common/live/library/mengde"
+	v1pb "github.com/namelessup/bilibili/app/service/live/zeus/api/v1"
+	"github.com/namelessup/bilibili/app/service/live/zeus/expr"
+	"github.com/namelessup/bilibili/app/service/live/zeus/internal/conf"
+	"github.com/namelessup/bilibili/app/service/live/zeus/internal/service"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // ZeusService struct

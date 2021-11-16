@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"time"
 
-	"go-common/app/job/main/app-wall/model/offer"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/app-wall/model/offer"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

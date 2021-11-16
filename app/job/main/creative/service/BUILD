@@ -33,7 +33,7 @@ go_library(
         "task.go",
         "weeklyhonor.go",
     ],
-    importpath = "go-common/app/job/main/creative/service",
+    importpath = "github.com/namelessup/bilibili/app/job/main/creative/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

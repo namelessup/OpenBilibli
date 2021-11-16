@@ -3,9 +3,9 @@ package v1
 import (
 	"context"
 	"flag"
-	"go-common/app/interface/live/app-ucenter/api/http/v1"
-	"go-common/app/interface/live/app-ucenter/conf"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/live/app-ucenter/api/http/v1"
+	"github.com/namelessup/bilibili/app/interface/live/app-ucenter/conf"
+	"github.com/namelessup/bilibili/library/net/metadata"
 	"testing"
 
 	. "github.com/smartystreets/goconvey/convey"

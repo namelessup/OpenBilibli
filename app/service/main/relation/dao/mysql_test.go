@@ -2,8 +2,8 @@ package dao
 
 import (
 	"context"
-	"go-common/app/service/main/relation/model"
-	"go-common/app/service/main/relation/model/i64b"
+	"github.com/namelessup/bilibili/app/service/main/relation/model"
+	"github.com/namelessup/bilibili/app/service/main/relation/model/i64b"
 	"math/rand"
 	"testing"
 	"time"

@@ -3,7 +3,7 @@ package service
 import (
 	"context"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // kfcActionDeal.

@@ -4,7 +4,7 @@ import (
 	"context"
 	"strconv"
 
-	v2pb "go-common/app/interface/live/app-interface/api/http/v2"
+	v2pb "github.com/namelessup/bilibili/app/interface/live/app-interface/api/http/v2"
 )
 
 // 首页banner

@@ -4,8 +4,8 @@ import (
 	"context"
 	"sync"
 
-	"go-common/app/service/main/filter/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/filter/model"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/pkg/errors"
 )

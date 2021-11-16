@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strconv"
 
-	model "go-common/app/admin/main/growup/model/income"
+	model "github.com/namelessup/bilibili/app/admin/main/growup/model/income"
 )
 
 func formatUpWithdraw(ups []*model.UpWithdrawRes, isDeleted int) (data [][]string) {

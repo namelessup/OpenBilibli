@@ -15,7 +15,7 @@ go_library(
         "option.go",
         "payload.go",
     ],
-    importpath = "go-common/app/service/bbq/push/dao/jpush",
+    importpath = "github.com/namelessup/bilibili/app/service/bbq/push/dao/jpush",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

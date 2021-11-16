@@ -21,7 +21,7 @@ go_library(
         "uniquecheck.go",
         "upload.go",
     ],
-    importpath = "go-common/app/interface/main/mcn/service",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/mcn/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

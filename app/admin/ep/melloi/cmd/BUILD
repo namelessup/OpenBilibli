@@ -19,7 +19,7 @@ go_library(
         "convey-test.toml",
         "melloi-test.toml",
     ],
-    importpath = "go-common/app/admin/ep/melloi/cmd",
+    importpath = "github.com/namelessup/bilibili/app/admin/ep/melloi/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

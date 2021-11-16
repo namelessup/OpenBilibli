@@ -10,7 +10,7 @@ go_library(
         "remotelogin.go",
         "service.go",
     ],
-    importpath = "go-common/app/service/main/secure/service",
+    importpath = "github.com/namelessup/bilibili/app/service/main/secure/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

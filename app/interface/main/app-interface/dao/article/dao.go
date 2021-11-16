@@ -3,10 +3,10 @@ package article
 import (
 	"context"
 
-	"go-common/app/interface/main/app-interface/conf"
-	article "go-common/app/interface/openplatform/article/model"
-	artrpc "go-common/app/interface/openplatform/article/rpc/client"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/conf"
+	article "github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	artrpc "github.com/namelessup/bilibili/app/interface/openplatform/article/rpc/client"
+	"github.com/namelessup/bilibili/library/net/metadata"
 
 	"github.com/pkg/errors"
 )

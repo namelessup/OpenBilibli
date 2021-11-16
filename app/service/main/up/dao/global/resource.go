@@ -3,11 +3,11 @@ package global
 import (
 	"runtime"
 
-	accgrpc "go-common/app/service/main/account/api"
-	arcgrpc "go-common/app/service/main/archive/api"
-	"go-common/app/service/main/up/conf"
-	"go-common/library/database/sql"
-	"go-common/library/sync/pipeline/fanout"
+	accgrpc "github.com/namelessup/bilibili/app/service/main/account/api"
+	arcgrpc "github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/app/service/main/up/conf"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/sync/pipeline/fanout"
 
 	"github.com/pkg/errors"
 )

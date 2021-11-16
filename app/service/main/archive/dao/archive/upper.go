@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/library/log"
-	"go-common/library/time"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/time"
+	"github.com/namelessup/bilibili/library/xstr"
 
 	"github.com/pkg/errors"
 )

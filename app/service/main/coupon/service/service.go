@@ -7,12 +7,12 @@ import (
 
 	"github.com/pkg/errors"
 
-	"go-common/app/service/main/coupon/conf"
-	"go-common/app/service/main/coupon/dao"
-	"go-common/app/service/main/coupon/model"
-	v1 "go-common/app/service/main/vipinfo/api"
-	"go-common/library/log"
-	"go-common/library/sync/pipeline/fanout"
+	"github.com/namelessup/bilibili/app/service/main/coupon/conf"
+	"github.com/namelessup/bilibili/app/service/main/coupon/dao"
+	"github.com/namelessup/bilibili/app/service/main/coupon/model"
+	v1 "github.com/namelessup/bilibili/app/service/main/vipinfo/api"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/pipeline/fanout"
 )
 
 var (

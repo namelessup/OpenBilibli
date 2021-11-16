@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["http.go"],
-    importpath = "go-common/app/job/main/playlist/http",
+    importpath = "github.com/namelessup/bilibili/app/job/main/playlist/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

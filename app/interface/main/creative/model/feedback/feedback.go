@@ -1,6 +1,6 @@
 package feedback
 
-import "go-common/library/time"
+import "github.com/namelessup/bilibili/library/time"
 
 // Feedback feedback session.
 type Feedback struct {

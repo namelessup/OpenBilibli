@@ -5,14 +5,14 @@ import (
 	"encoding/json"
 	"time"
 
-	article "go-common/app/interface/openplatform/article/model"
-	"go-common/app/job/main/app/model"
-	"go-common/app/job/main/app/model/space"
-	"go-common/app/service/main/archive/api"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
-	"go-common/library/sync/errgroup"
-	xtime "go-common/library/time"
+	article "github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	"github.com/namelessup/bilibili/app/job/main/app/model"
+	"github.com/namelessup/bilibili/app/job/main/app/model/space"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 const _sleep = 100 * time.Millisecond

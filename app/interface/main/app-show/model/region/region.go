@@ -4,15 +4,15 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/interface/main/app-show/model"
-	"go-common/app/interface/main/app-show/model/activity"
-	"go-common/app/interface/main/app-show/model/banner"
-	"go-common/app/interface/main/app-show/model/recommend"
-	"go-common/app/interface/main/app-show/model/tag"
-	accv1 "go-common/app/service/main/account/api"
-	"go-common/app/service/main/archive/api"
-	seasongrpc "go-common/app/service/openplatform/pgc-season/api/grpc/season/v1"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/model/activity"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/model/banner"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/model/recommend"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/model/tag"
+	accv1 "github.com/namelessup/bilibili/app/service/main/account/api"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	seasongrpc "github.com/namelessup/bilibili/app/service/openplatform/pgc-season/api/grpc/season/v1"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 const (

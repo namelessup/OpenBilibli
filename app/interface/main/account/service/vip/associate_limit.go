@@ -3,8 +3,8 @@ package vip
 import (
 	"time"
 
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // ActivityTimeLimit activity time limit.

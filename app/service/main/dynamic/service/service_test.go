@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"go-common/app/service/main/dynamic/conf"
+	"github.com/namelessup/bilibili/app/service/main/dynamic/conf"
 )
 
 var (

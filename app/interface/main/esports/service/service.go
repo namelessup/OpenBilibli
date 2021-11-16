@@ -9,13 +9,13 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/interface/main/esports/conf"
-	"go-common/app/interface/main/esports/dao"
-	"go-common/app/interface/main/esports/model"
-	arcclient "go-common/app/service/main/archive/api"
-	favrpc "go-common/app/service/main/favorite/api/gorpc"
-	"go-common/library/log"
-	"go-common/library/sync/pipeline/fanout"
+	"github.com/namelessup/bilibili/app/interface/main/esports/conf"
+	"github.com/namelessup/bilibili/app/interface/main/esports/dao"
+	"github.com/namelessup/bilibili/app/interface/main/esports/model"
+	arcclient "github.com/namelessup/bilibili/app/service/main/archive/api"
+	favrpc "github.com/namelessup/bilibili/app/service/main/favorite/api/gorpc"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/pipeline/fanout"
 
 	"github.com/robfig/cron"
 )

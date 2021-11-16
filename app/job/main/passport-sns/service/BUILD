@@ -12,7 +12,7 @@ go_library(
         "sns_log.go",
         "sync_sns.go",
     ],
-    importpath = "go-common/app/job/main/passport-sns/service",
+    importpath = "github.com/namelessup/bilibili/app/job/main/passport-sns/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

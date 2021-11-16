@@ -5,10 +5,10 @@ import (
 	"strconv"
 	"time"
 
-	artmdl "go-common/app/interface/openplatform/article/model"
-	"go-common/app/job/openplatform/article/dao"
-	"go-common/app/job/openplatform/article/model"
-	"go-common/library/log"
+	artmdl "github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	"github.com/namelessup/bilibili/app/job/openplatform/article/dao"
+	"github.com/namelessup/bilibili/app/job/openplatform/article/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) statproc(i int64) {

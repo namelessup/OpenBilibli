@@ -23,7 +23,7 @@ go_library(
         "redis.go",
         "template.go",
     ],
-    importpath = "go-common/app/job/main/videoup-report/model/email",
+    importpath = "github.com/namelessup/bilibili/app/job/main/videoup-report/model/email",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

@@ -3,12 +3,12 @@ package dao
 import (
 	"context"
 
-	"go-common/app/service/main/workflow/conf"
-	"go-common/app/service/main/workflow/model"
-	"go-common/library/database/elastic"
-	"go-common/library/database/orm"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/service/main/workflow/conf"
+	"github.com/namelessup/bilibili/app/service/main/workflow/model"
+	"github.com/namelessup/bilibili/library/database/elastic"
+	"github.com/namelessup/bilibili/library/database/orm"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 
 	"github.com/jinzhu/gorm"
 )

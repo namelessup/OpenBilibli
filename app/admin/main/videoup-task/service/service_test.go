@@ -3,7 +3,7 @@ package service
 import (
 	"flag"
 
-	"go-common/app/admin/main/videoup-task/conf"
+	"github.com/namelessup/bilibili/app/admin/main/videoup-task/conf"
 )
 
 var s *Service

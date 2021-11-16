@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	dtmdl "go-common/app/interface/main/mcn/model/datamodel"
-	xtime "go-common/library/time"
+	dtmdl "github.com/namelessup/bilibili/app/interface/main/mcn/model/datamodel"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // Permits .

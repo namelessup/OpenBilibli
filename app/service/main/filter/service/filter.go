@@ -8,12 +8,12 @@ import (
 	"sort"
 	"sync"
 
-	"go-common/app/service/main/filter/conf"
-	"go-common/app/service/main/filter/model"
-	"go-common/app/service/main/filter/model/actriearea"
-	rpcmodel "go-common/app/service/main/filter/model/rpc"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/filter/conf"
+	"github.com/namelessup/bilibili/app/service/main/filter/model"
+	"github.com/namelessup/bilibili/app/service/main/filter/model/actriearea"
+	rpcmodel "github.com/namelessup/bilibili/app/service/main/filter/model/rpc"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Filter 单个过滤

@@ -3,16 +3,16 @@ package v1
 import (
 	"context"
 	"encoding/json"
-	v1pb "go-common/app/service/live/gift/api/grpc/v1"
-	"go-common/app/service/live/gift/model"
-	"go-common/app/service/live/resource/sdk"
-	"go-common/library/log"
+	v1pb "github.com/namelessup/bilibili/app/service/live/gift/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/live/gift/model"
+	"github.com/namelessup/bilibili/app/service/live/resource/sdk"
+	"github.com/namelessup/bilibili/library/log"
 	"strconv"
 	"strings"
 	"sync/atomic"
 	"time"
-	//"go-common/library/log"
-	"go-common/library/sync/errgroup"
+	//"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 var privilegeGift = []int64{30047}

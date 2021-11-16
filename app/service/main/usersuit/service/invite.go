@@ -10,15 +10,15 @@ import (
 	"sort"
 	"time"
 
-	coinmdl "go-common/app/service/main/coin/model"
-	memmdl "go-common/app/service/main/member/model"
-	blkmdl "go-common/app/service/main/member/model/block"
-	"go-common/app/service/main/usersuit/model"
-	xsql "go-common/library/database/sql"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
-	xtime "go-common/library/time"
+	coinmdl "github.com/namelessup/bilibili/app/service/main/coin/model"
+	memmdl "github.com/namelessup/bilibili/app/service/main/member/model"
+	blkmdl "github.com/namelessup/bilibili/app/service/main/member/model/block"
+	"github.com/namelessup/bilibili/app/service/main/usersuit/model"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 var (

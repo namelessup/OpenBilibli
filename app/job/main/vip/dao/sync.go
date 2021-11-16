@@ -4,7 +4,7 @@ import (
 	"context"
 	xsql "database/sql"
 
-	"go-common/app/job/main/vip/model"
+	"github.com/namelessup/bilibili/app/job/main/vip/model"
 
 	"github.com/pkg/errors"
 )

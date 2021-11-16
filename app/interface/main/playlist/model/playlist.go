@@ -1,11 +1,11 @@
 package model
 
 import (
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/library/time"
 
-	arcmdl "go-common/app/service/main/archive/api"
-	favmdl "go-common/app/service/main/favorite/model"
-	xtime "go-common/library/time"
+	arcmdl "github.com/namelessup/bilibili/app/service/main/archive/api"
+	favmdl "github.com/namelessup/bilibili/app/service/main/favorite/model"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // PlDBusType databus type playlist

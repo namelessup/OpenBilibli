@@ -1,11 +1,11 @@
 package rpc
 
 import (
-	"go-common/app/service/main/favorite/conf"
-	"go-common/app/service/main/favorite/model"
-	"go-common/app/service/main/favorite/service"
-	"go-common/library/net/rpc"
-	"go-common/library/net/rpc/context"
+	"github.com/namelessup/bilibili/app/service/main/favorite/conf"
+	"github.com/namelessup/bilibili/app/service/main/favorite/model"
+	"github.com/namelessup/bilibili/app/service/main/favorite/service"
+	"github.com/namelessup/bilibili/library/net/rpc"
+	"github.com/namelessup/bilibili/library/net/rpc/context"
 )
 
 // RPC favorite rpc.

@@ -1,10 +1,10 @@
 package block
 
 import (
-	"go-common/app/service/main/member/conf"
-	"go-common/app/service/main/member/dao/block"
-	"go-common/library/log"
-	"go-common/library/sync/pipeline/fanout"
+	"github.com/namelessup/bilibili/app/service/main/member/conf"
+	"github.com/namelessup/bilibili/app/service/main/member/dao/block"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/pipeline/fanout"
 
 	"runtime/debug"
 )

@@ -5,8 +5,8 @@ import (
 	"flag"
 	"testing"
 
-	"go-common/app/service/openplatform/ticket-sales/conf"
-	"go-common/library/conf/paladin"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/conf"
+	"github.com/namelessup/bilibili/library/conf/paladin"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

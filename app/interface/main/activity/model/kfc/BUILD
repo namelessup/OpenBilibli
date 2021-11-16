@@ -20,7 +20,7 @@ proto_library(
 go_proto_library(
     name = "kfc_go_proto",
     compilers = ["@io_bazel_rules_go//proto:gogofast_proto"],
-    importpath = "go-common/app/interface/main/activity/model/kfc",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/activity/model/kfc",
     proto = ":kfc_proto",
     tags = ["automanaged"],
     deps = [
@@ -33,7 +33,7 @@ go_library(
     name = "go_default_library",
     srcs = [],
     embed = [":kfc_go_proto"],
-    importpath = "go-common/app/interface/main/activity/model/kfc",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/activity/model/kfc",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -53,7 +53,7 @@
 1. 推送服务切换到push-service
 
 ### v1.2.1
-1. 使用 go-common/env
+1. 使用 github.com/namelessup/bilibili/env
 
 ### v1.2.0
 1. 接bm
@@ -92,7 +92,7 @@
 
 ### v1.0.15
 1. 不外理新版本的老的上报数据
-2. 更改prom为go-common中的对象
+2. 更改prom为github.com/namelessup/bilibili中的对象
 
 ### v1.0.14
 1. fix kafka consume

@@ -11,7 +11,7 @@ go_library(
         "conf.go",
         "lancermonitor.go",
     ],
-    importpath = "go-common/app/service/ops/log-agent/pkg/lancermonitor",
+    importpath = "github.com/namelessup/bilibili/app/service/ops/log-agent/pkg/lancermonitor",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/log:go_default_library"],

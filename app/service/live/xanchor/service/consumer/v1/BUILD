@@ -12,7 +12,7 @@ go_library(
         "ConsumerGift.go",
         "dataBusNotify.go",
     ],
-    importpath = "go-common/app/service/live/xanchor/service/consumer/v1",
+    importpath = "github.com/namelessup/bilibili/app/service/live/xanchor/service/consumer/v1",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

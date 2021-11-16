@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/job/main/ugcpay/model"
-	// "go-common/app/service/main/ugcpay-rank/internal/service/rank"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/ugcpay/model"
+	// "github.com/namelessup/bilibili/app/service/main/ugcpay-rank/internal/service/rank"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/pkg/errors"
 )

@@ -5,10 +5,10 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"go-common/app/interface/main/esports/model"
-	arcmdl "go-common/app/service/main/archive/api"
-	"go-common/library/cache/redis"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/esports/model"
+	arcmdl "github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

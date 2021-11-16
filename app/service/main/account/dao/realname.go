@@ -3,7 +3,7 @@ package dao
 import (
 	"context"
 
-	member "go-common/app/service/main/member/model"
+	member "github.com/namelessup/bilibili/app/service/main/member/model"
 )
 
 // RealnameDetail is.

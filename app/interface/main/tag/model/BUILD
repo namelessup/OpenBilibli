@@ -26,7 +26,7 @@ go_library(
         "workflow.go",
     ],
     embed = [":model_go_proto"],
-    importpath = "go-common/app/interface/main/tag/model",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/tag/model",
     tags = ["automanaged"],
     deps = [
         "//app/service/main/archive/api:go_default_library",
@@ -60,7 +60,7 @@ proto_library(
 go_proto_library(
     name = "model_go_proto",
     compilers = ["@io_bazel_rules_go//proto:gogofast_proto"],
-    importpath = "go-common/app/interface/main/tag/model",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/tag/model",
     proto = ":model_proto",
     tags = ["automanaged"],
     deps = [

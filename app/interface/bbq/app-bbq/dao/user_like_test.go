@@ -4,7 +4,7 @@ import (
 	"context"
 	"flag"
 	"fmt"
-	"go-common/app/interface/bbq/app-bbq/conf"
+	"github.com/namelessup/bilibili/app/interface/bbq/app-bbq/conf"
 	"testing"
 )
 

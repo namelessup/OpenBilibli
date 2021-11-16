@@ -2,7 +2,7 @@ package client
 
 import (
 	"context"
-	"go-common/app/service/main/usersuit/model"
+	"github.com/namelessup/bilibili/app/service/main/usersuit/model"
 )
 
 const (

@@ -3,13 +3,13 @@ package v1
 import (
 	"context"
 	"github.com/pkg/errors"
-	pb "go-common/app/interface/live/web-ucenter/api/http"
-	"go-common/app/interface/live/web-ucenter/conf"
-	"go-common/app/interface/live/web-ucenter/dao/user"
-	"go-common/app/interface/live/web-ucenter/model"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
-	"go-common/library/sync/errgroup"
+	pb "github.com/namelessup/bilibili/app/interface/live/web-ucenter/api/http"
+	"github.com/namelessup/bilibili/app/interface/live/web-ucenter/conf"
+	"github.com/namelessup/bilibili/app/interface/live/web-ucenter/dao/user"
+	"github.com/namelessup/bilibili/app/interface/live/web-ucenter/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 	"strings"
 )
 

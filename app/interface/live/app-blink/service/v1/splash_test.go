@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"testing"
 
-	"go-common/app/interface/live/app-blink/conf"
-	rspb "go-common/app/service/live/resource/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/interface/live/app-blink/conf"
+	rspb "github.com/namelessup/bilibili/app/service/live/resource/api/grpc/v1"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

@@ -2,7 +2,7 @@ package v2
 
 import (
 	"flag"
-	"go-common/app/interface/live/app-interface/conf"
+	"github.com/namelessup/bilibili/app/interface/live/app-interface/conf"
 )
 
 var (

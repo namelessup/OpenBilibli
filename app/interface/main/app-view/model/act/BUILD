@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["act.go"],
-    importpath = "go-common/app/interface/main/app-view/model/act",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-view/model/act",
     tags = ["automanaged"],
 )
 

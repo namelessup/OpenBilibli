@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/smartystreets/goconvey/convey"
-	"go-common/app/admin/main/search/model"
+	"github.com/namelessup/bilibili/app/admin/main/search/model"
 )
 
 func TestDaoNewLog(t *testing.T) {

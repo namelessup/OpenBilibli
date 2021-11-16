@@ -11,7 +11,7 @@ go_library(
         "http.go",
         "relation.go",
     ],
-    importpath = "go-common/app/admin/main/relation/http",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/relation/http",
     tags = ["automanaged"],
     deps = [
         "//app/admin/main/relation/conf:go_default_library",

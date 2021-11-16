@@ -8,7 +8,7 @@ import fmt "fmt"
 import math "math"
 import _ "github.com/gogo/protobuf/gogoproto"
 
-import go_common_library_time "go-common/library/time"
+import go_common_library_time "github.com/namelessup/bilibili/library/time"
 
 import io "io"
 
@@ -24,9 +24,9 @@ type SignUp struct {
 	// State 签约状态
 	State int32 `protobuf:"varint,2,opt,name=State,proto3" json:"state"`
 	// BeginDate 经纪签约开始时间
-	BeginDate go_common_library_time.Time `protobuf:"varint,3,opt,name=BeginDate,proto3,casttype=go-common/library/time.Time" json:"begin_date"`
+	BeginDate go_common_library_time.Time `protobuf:"varint,3,opt,name=BeginDate,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"begin_date"`
 	// EndDate 经纪签约结束时间
-	EndDate go_common_library_time.Time `protobuf:"varint,4,opt,name=EndDate,proto3,casttype=go-common/library/time.Time" json:"end_date"`
+	EndDate go_common_library_time.Time `protobuf:"varint,4,opt,name=EndDate,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"end_date"`
 }
 
 func (m *SignUp) Reset()                    { *m = SignUp{} }

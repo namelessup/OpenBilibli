@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const _mask = "/dl/api/masks/v1"

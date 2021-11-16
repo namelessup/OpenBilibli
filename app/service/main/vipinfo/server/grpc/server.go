@@ -4,9 +4,9 @@ package server
 import (
 	"context"
 
-	v1 "go-common/app/service/main/vipinfo/api"
-	service "go-common/app/service/main/vipinfo/service"
-	"go-common/library/net/rpc/warden"
+	v1 "github.com/namelessup/bilibili/app/service/main/vipinfo/api"
+	service "github.com/namelessup/bilibili/app/service/main/vipinfo/service"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 )
 
 // New VipInfo warden rpc server

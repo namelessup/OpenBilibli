@@ -3,8 +3,8 @@ package http
 import (
 	"net/http"
 
-	log "go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	log "github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // ping check server ok.

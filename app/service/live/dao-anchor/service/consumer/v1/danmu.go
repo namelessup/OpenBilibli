@@ -4,11 +4,11 @@ import (
 	"context"
 	"encoding/json"
 
-	"go-common/app/service/live/dao-anchor/dao"
+	"github.com/namelessup/bilibili/app/service/live/dao-anchor/dao"
 
-	"go-common/app/service/live/dao-anchor/model"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/service/live/dao-anchor/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 //消费弹幕消息的业务逻辑

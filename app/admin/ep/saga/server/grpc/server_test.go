@@ -4,10 +4,10 @@ import (
 	"context"
 	"testing"
 
-	"go-common/app/admin/ep/saga/api/grpc/v1"
-	"go-common/library/net/rpc/warden"
-	"go-common/library/net/rpc/warden/resolver"
-	"go-common/library/net/rpc/warden/resolver/direct"
+	"github.com/namelessup/bilibili/app/admin/ep/saga/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
+	"github.com/namelessup/bilibili/library/net/rpc/warden/resolver"
+	"github.com/namelessup/bilibili/library/net/rpc/warden/resolver/direct"
 )
 
 func TestGRPC(t *testing.T) {

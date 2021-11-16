@@ -3,10 +3,10 @@ package dao
 import (
 	"time"
 
-	"go-common/app/admin/main/answer/conf"
-	"go-common/library/cache/redis"
-	"go-common/library/database/elastic"
-	"go-common/library/database/orm"
+	"github.com/namelessup/bilibili/app/admin/main/answer/conf"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/database/elastic"
+	"github.com/namelessup/bilibili/library/database/orm"
 
 	"github.com/jinzhu/gorm"
 )

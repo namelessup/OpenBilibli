@@ -2,7 +2,7 @@ package dao
 
 import (
 	"context"
-	itemv1 "go-common/app/service/openplatform/ticket-item/api/grpc/v1"
+	itemv1 "github.com/namelessup/bilibili/app/service/openplatform/ticket-item/api/grpc/v1"
 )
 
 //ItemBillInfo 获取商品信息

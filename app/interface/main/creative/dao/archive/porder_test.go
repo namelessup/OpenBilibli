@@ -2,8 +2,8 @@ package archive
 
 import (
 	"context"
-	"go-common/app/interface/main/creative/model/archive"
-	xsql "go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/archive"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
 	"reflect"
 	"testing"
 

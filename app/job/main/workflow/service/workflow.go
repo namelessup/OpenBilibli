@@ -6,9 +6,9 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/job/main/workflow/model"
-	srvmodel "go-common/app/service/main/workflow/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/workflow/model"
+	srvmodel "github.com/namelessup/bilibili/app/service/main/workflow/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // searchParams .

@@ -8,9 +8,9 @@ import (
 	"strconv"
 	"strings"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 
-	"go-common/app/interface/main/creative/model/version"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/version"
 )
 
 const (

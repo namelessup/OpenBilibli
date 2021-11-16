@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["portal.toml"],
-    importpath = "go-common/app/interface/video/portal/cmd",
+    importpath = "github.com/namelessup/bilibili/app/interface/video/portal/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

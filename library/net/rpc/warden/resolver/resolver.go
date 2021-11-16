@@ -9,10 +9,10 @@ import (
 	"strings"
 	"sync"
 
-	"go-common/library/conf/env"
-	"go-common/library/log"
-	"go-common/library/naming"
-	wmeta "go-common/library/net/rpc/warden/metadata"
+	"github.com/namelessup/bilibili/library/conf/env"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/naming"
+	wmeta "github.com/namelessup/bilibili/library/net/rpc/warden/metadata"
 
 	"github.com/dgryski/go-farm"
 	"github.com/pkg/errors"

@@ -5,9 +5,9 @@ import (
 	"regexp"
 	"strings"
 
-	"go-common/app/admin/main/filter/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/filter/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) checkArea(ctx context.Context, areas []string) (err error) {

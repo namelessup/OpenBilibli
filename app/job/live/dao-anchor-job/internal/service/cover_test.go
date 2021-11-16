@@ -6,7 +6,7 @@ import (
 
 	. "github.com/smartystreets/goconvey/convey"
 
-	"go-common/app/job/live/dao-anchor-job/internal/conf"
+	"github.com/namelessup/bilibili/app/job/live/dao-anchor-job/internal/conf"
 )
 
 var s *Service

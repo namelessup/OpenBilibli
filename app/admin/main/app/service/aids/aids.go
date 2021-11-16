@@ -5,10 +5,10 @@ import (
 	"strconv"
 	"strings"
 
-	"go-common/app/admin/main/app/conf"
-	aidsdao "go-common/app/admin/main/app/dao/aids"
-	"go-common/app/admin/main/app/model/aids"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/admin/main/app/conf"
+	aidsdao "github.com/namelessup/bilibili/app/admin/main/app/dao/aids"
+	"github.com/namelessup/bilibili/app/admin/main/app/model/aids"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 // Service aids

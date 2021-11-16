@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	model "go-common/app/interface/main/creative/model/archive"
-	"go-common/library/log"
+	model "github.com/namelessup/bilibili/app/interface/main/creative/model/archive"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // BIZsByTime list bizs by time and type

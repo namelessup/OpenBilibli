@@ -7,10 +7,10 @@ import (
 	"testing"
 	"time"
 
-	"go-common/library/conf/env"
-	"go-common/library/naming"
-	"go-common/library/naming/discovery"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/library/conf/env"
+	"github.com/namelessup/bilibili/library/naming"
+	"github.com/namelessup/bilibili/library/naming/discovery"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

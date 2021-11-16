@@ -28,7 +28,7 @@ go_library(
         "dao.go",
         "load_upper.go",
     ],
-    importpath = "go-common/app/interface/main/tv/dao/upper",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/tv/dao/upper",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

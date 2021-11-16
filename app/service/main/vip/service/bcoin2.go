@@ -6,11 +6,11 @@ import (
 	"strconv"
 	"time"
 
-	memmdl "go-common/app/service/main/member/model"
-	"go-common/app/service/main/vip/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	xtime "go-common/library/time"
+	memmdl "github.com/namelessup/bilibili/app/service/main/member/model"
+	"github.com/namelessup/bilibili/app/service/main/vip/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 //ProcesserHandler def.

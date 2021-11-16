@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["passport-login-interface.toml"],
-    importpath = "go-common/app/interface/main/passport-login/cmd",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/passport-login/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

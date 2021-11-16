@@ -19,7 +19,7 @@ import fmt "fmt"
 import math "math"
 import _ "github.com/gogo/protobuf/gogoproto"
 
-import go_common_library_time "go-common/library/time"
+import go_common_library_time "github.com/namelessup/bilibili/library/time"
 
 import io "io"
 
@@ -34,7 +34,7 @@ var _ = math.Inf
 // proto package needs to be updated.
 const _ = proto.ProtoPackageIsVersion2 // please upgrade the proto package
 
-// +bili:deepcopy-gen:structs=go-common/app/tool/gengo/cmd/deepcopy-gen/examples/model.MemberBase
+// +bili:deepcopy-gen:structs=github.com/namelessup/bilibili/app/tool/gengo/cmd/deepcopy-gen/examples/model.MemberBase
 type BaseInfoReply struct {
 	Mid      int64                       `protobuf:"varint,1,opt,name=mid,proto3" json:"mid"`
 	Name     string                      `protobuf:"bytes,2,opt,name=name,proto3" json:"name"`
@@ -42,7 +42,7 @@ type BaseInfoReply struct {
 	Face     string                      `protobuf:"bytes,4,opt,name=face,proto3" json:"face"`
 	Sign     string                      `protobuf:"bytes,5,opt,name=sign,proto3" json:"sign"`
 	Rank     int64                       `protobuf:"varint,6,opt,name=rank,proto3" json:"rank"`
-	Birthday go_common_library_time.Time `protobuf:"varint,7,opt,name=birthday,proto3,casttype=go-common/library/time.Time" json:"birthday"`
+	Birthday go_common_library_time.Time `protobuf:"varint,7,opt,name=birthday,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"birthday"`
 }
 
 func (m *BaseInfoReply) Reset()                    { *m = BaseInfoReply{} }
@@ -99,7 +99,7 @@ func (m *BaseInfoReply) GetBirthday() go_common_library_time.Time {
 	return 0
 }
 
-// +bili:deepcopy-gen:structs=go-common/app/tool/gengo/cmd/deepcopy-gen/examples/model.Names
+// +bili:deepcopy-gen:structs=github.com/namelessup/bilibili/app/tool/gengo/cmd/deepcopy-gen/examples/model.Names
 type NamesReply struct {
 	Names map[int64]string `protobuf:"bytes,1,rep,name=names" json:"names,omitempty" protobuf_key:"varint,1,opt,name=key,proto3" protobuf_val:"bytes,2,opt,name=value,proto3"`
 }
@@ -116,7 +116,7 @@ func (m *NamesReply) GetNames() map[int64]string {
 	return nil
 }
 
-// +bili:deepcopy-gen:structs=go-common/app/tool/gengo/cmd/deepcopy-gen/examples/model.Mids
+// +bili:deepcopy-gen:structs=github.com/namelessup/bilibili/app/tool/gengo/cmd/deepcopy-gen/examples/model.Mids
 type MidsReply struct {
 	Mids []int64 `protobuf:"varint,1,rep,packed,name=mids" json:"mids,omitempty"`
 }

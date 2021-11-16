@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"testing"
 
-	"go-common/app/interface/main/app-interface/model/favorite"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/model/favorite"
 
 	"github.com/smartystreets/goconvey/convey"
 )

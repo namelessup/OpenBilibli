@@ -3,12 +3,12 @@ package retrieve
 import (
 	"context"
 	"fmt"
-	"go-common/app/service/main/relation/api"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/relation/api"
+	"github.com/namelessup/bilibili/library/log"
 
-	recallv1 "go-common/app/service/bbq/recsys-recall/api/grpc/v1"
-	recsys "go-common/app/service/bbq/recsys/api/grpc/v1"
-	"go-common/app/service/bbq/recsys/model"
+	recallv1 "github.com/namelessup/bilibili/app/service/bbq/recsys-recall/api/grpc/v1"
+	recsys "github.com/namelessup/bilibili/app/service/bbq/recsys/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/bbq/recsys/model"
 )
 
 const BiliFollowsRecall = "BiliFollowsRecall"

@@ -2,9 +2,9 @@ package dao
 
 import (
 	"context"
-	"go-common/app/job/main/feed/conf"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/app/job/main/feed/conf"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/stat/prom"
 )
 
 var (

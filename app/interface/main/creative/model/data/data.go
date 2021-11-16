@@ -1,9 +1,9 @@
 package data
 
 import (
-	xtime "go-common/library/time"
+	xtime "github.com/namelessup/bilibili/library/time"
 
-	"go-common/app/interface/main/creative/model/medal"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/medal"
 )
 
 // Stat info

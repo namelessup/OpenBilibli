@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["broadcast.go"],
-    importpath = "go-common/app/interface/main/app-resource/model/broadcast",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-resource/model/broadcast",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//app/service/main/broadcast/api/grpc/v1:go_default_library"],

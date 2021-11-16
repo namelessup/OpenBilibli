@@ -3,10 +3,10 @@ package server
 import (
 	"log"
 
-	"go-common/app/service/main/antispam/conf"
-	"go-common/app/service/main/antispam/service"
+	"github.com/namelessup/bilibili/app/service/main/antispam/conf"
+	"github.com/namelessup/bilibili/app/service/main/antispam/service"
 
-	"go-common/library/net/rpc"
+	"github.com/namelessup/bilibili/library/net/rpc"
 )
 
 // New .

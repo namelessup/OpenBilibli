@@ -1,8 +1,8 @@
 package http
 
 import (
-	pb "go-common/app/service/main/sms/api"
-	bm "go-common/library/net/http/blademaster"
+	pb "github.com/namelessup/bilibili/app/service/main/sms/api"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func send(ctx *bm.Context) {

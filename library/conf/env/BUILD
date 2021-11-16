@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["env.go"],
-    importpath = "go-common/library/conf/env",
+    importpath = "github.com/namelessup/bilibili/library/conf/env",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

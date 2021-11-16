@@ -1,8 +1,8 @@
 package service
 
 import (
-	"go-common/app/admin/main/config/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/config/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // CreateTeam create App.

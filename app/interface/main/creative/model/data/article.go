@@ -1,6 +1,6 @@
 package data
 
-import xtime "go-common/library/time"
+import xtime "github.com/namelessup/bilibili/library/time"
 
 const (
 	_ byte = iota

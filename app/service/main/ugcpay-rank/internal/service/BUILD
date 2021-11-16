@@ -12,7 +12,7 @@ go_library(
         "rank.go",
         "service.go",
     ],
-    importpath = "go-common/app/service/main/ugcpay-rank/internal/service",
+    importpath = "github.com/namelessup/bilibili/app/service/main/ugcpay-rank/internal/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

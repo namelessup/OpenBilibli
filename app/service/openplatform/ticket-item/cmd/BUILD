@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["item.toml"],
-    importpath = "go-common/app/service/openplatform/ticket-item/cmd",
+    importpath = "github.com/namelessup/bilibili/app/service/openplatform/ticket-item/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

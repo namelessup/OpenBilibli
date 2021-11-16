@@ -5,8 +5,8 @@ import (
 	"database/sql"
 	"fmt"
 
-	"go-common/app/admin/main/search/model"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/admin/main/search/model"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 // BusinessAllV2 .

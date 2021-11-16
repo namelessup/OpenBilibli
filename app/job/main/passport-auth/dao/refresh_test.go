@@ -2,7 +2,7 @@ package dao
 
 import (
 	"context"
-	"go-common/app/job/main/passport-auth/model"
+	"github.com/namelessup/bilibili/app/job/main/passport-auth/model"
 	"testing"
 	"time"
 

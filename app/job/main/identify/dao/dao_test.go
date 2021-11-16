@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"testing"
 
-	"go-common/app/job/main/identify/conf"
-	"go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/job/main/identify/conf"
+	"github.com/namelessup/bilibili/library/database/sql"
 
 	"github.com/bouk/monkey"
 	"github.com/smartystreets/goconvey/convey"

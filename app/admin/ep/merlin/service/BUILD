@@ -25,7 +25,7 @@ go_library(
         "tree.go",
         "user.go",
     ],
-    importpath = "go-common/app/admin/ep/merlin/service",
+    importpath = "github.com/namelessup/bilibili/app/admin/ep/merlin/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

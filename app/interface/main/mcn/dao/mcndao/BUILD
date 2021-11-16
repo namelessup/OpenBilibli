@@ -19,7 +19,7 @@ go_library(
         "recommend_pool.go",
         "sign.go",
     ],
-    importpath = "go-common/app/interface/main/mcn/dao/mcndao",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/mcn/dao/mcndao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

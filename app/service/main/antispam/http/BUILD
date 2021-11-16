@@ -17,7 +17,7 @@ go_library(
         "regexp.go",
         "rule.go",
     ],
-    importpath = "go-common/app/service/main/antispam/http",
+    importpath = "github.com/namelessup/bilibili/app/service/main/antispam/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

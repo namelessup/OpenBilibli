@@ -21,7 +21,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["area.go"],
-    importpath = "go-common/app/service/main/filter/service/area",
+    importpath = "github.com/namelessup/bilibili/app/service/main/filter/service/area",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

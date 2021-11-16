@@ -57,7 +57,7 @@ go_library(
         "video.go",
         "video_track.go",
     ],
-    importpath = "go-common/app/job/main/videoup-report/dao/archive",
+    importpath = "github.com/namelessup/bilibili/app/job/main/videoup-report/dao/archive",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

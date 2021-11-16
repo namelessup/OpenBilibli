@@ -1,6 +1,6 @@
 package http
 
-import bm "go-common/library/net/http/blademaster"
+import bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 
 // walls get GetWall
 func walls(c *bm.Context) {

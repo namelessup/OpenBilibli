@@ -12,7 +12,7 @@ go_library(
         "dao.go",
         "material.go",
     ],
-    importpath = "go-common/app/interface/main/creative/dao/material",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/creative/dao/material",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

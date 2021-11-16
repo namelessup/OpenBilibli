@@ -5,16 +5,16 @@ package http
 import (
 	"net/http"
 
-	pb "go-common/app/interface/live/live-demo/api/http"
-	v2pb "go-common/app/interface/live/live-demo/api/http/v2"
-	"go-common/app/interface/live/live-demo/conf"
-	"go-common/app/interface/live/live-demo/dao"
-	svc "go-common/app/interface/live/live-demo/service"
-	"go-common/app/interface/live/live-demo/service/v2"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/auth"
-	"go-common/library/net/http/blademaster/middleware/verify"
+	pb "github.com/namelessup/bilibili/app/interface/live/live-demo/api/http"
+	v2pb "github.com/namelessup/bilibili/app/interface/live/live-demo/api/http/v2"
+	"github.com/namelessup/bilibili/app/interface/live/live-demo/conf"
+	"github.com/namelessup/bilibili/app/interface/live/live-demo/dao"
+	svc "github.com/namelessup/bilibili/app/interface/live/live-demo/service"
+	"github.com/namelessup/bilibili/app/interface/live/live-demo/service/v2"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/auth"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/verify"
 )
 
 var (

@@ -5,13 +5,13 @@ import (
 	"html/template"
 	"math"
 
-	musicmdl "go-common/app/interface/main/favorite/model"
-	"go-common/app/service/main/archive/api"
-	pb "go-common/app/service/main/favorite/api"
-	"go-common/app/service/main/favorite/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	musicmdl "github.com/namelessup/bilibili/app/interface/main/favorite/model"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	pb "github.com/namelessup/bilibili/app/service/main/favorite/api"
+	"github.com/namelessup/bilibili/app/service/main/favorite/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 var (

@@ -19,7 +19,7 @@ go_library(
         "tidb_instance.go",
         "tidb_proc.go",
     ],
-    importpath = "go-common/app/infra/canal/service",
+    importpath = "github.com/namelessup/bilibili/app/infra/canal/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

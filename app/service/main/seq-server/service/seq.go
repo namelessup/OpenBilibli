@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/app/service/main/seq-server/model"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/service/main/seq-server/model"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 const _nextStepRetry = 3

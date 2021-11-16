@@ -3,7 +3,7 @@ package collector
 import (
 	"testing"
 
-	"go-common/app/service/main/dapper/model"
+	"github.com/namelessup/bilibili/app/service/main/dapper/model"
 )
 
 func TestPeerServiceDetect(t *testing.T) {

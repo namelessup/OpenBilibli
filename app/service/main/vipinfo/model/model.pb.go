@@ -17,7 +17,7 @@ import fmt "fmt"
 import math "math"
 import _ "github.com/gogo/protobuf/gogoproto"
 
-import go_common_library_time "go-common/library/time"
+import go_common_library_time "github.com/namelessup/bilibili/library/time"
 
 import io "io"
 
@@ -39,13 +39,13 @@ type VipUserInfo struct {
 	VipPayType           int32                       `protobuf:"varint,4,opt,name=VipPayType,proto3" json:"vip_pay_type"`
 	PayChannelID         int32                       `protobuf:"varint,5,opt,name=PayChannelID,proto3" json:"pay_channel_id"`
 	VipStatus            int32                       `protobuf:"varint,6,opt,name=VipStatus,proto3" json:"vip_status"`
-	VipStartTime         go_common_library_time.Time `protobuf:"varint,7,opt,name=VipStartTime,proto3,casttype=go-common/library/time.Time" json:"vip_start_time"`
-	VipRecentTime        go_common_library_time.Time `protobuf:"varint,8,opt,name=VipRecentTime,proto3,casttype=go-common/library/time.Time" json:"vip_recent_time"`
-	VipOverdueTime       go_common_library_time.Time `protobuf:"varint,9,opt,name=VipOverdueTime,proto3,casttype=go-common/library/time.Time" json:"vip_overdue_time"`
-	AnnualVipOverdueTime go_common_library_time.Time `protobuf:"varint,10,opt,name=AnnualVipOverdueTime,proto3,casttype=go-common/library/time.Time" json:"annual_vip_overdue_time"`
-	Ctime                go_common_library_time.Time `protobuf:"varint,11,opt,name=Ctime,proto3,casttype=go-common/library/time.Time" json:"ctime"`
-	Mtime                go_common_library_time.Time `protobuf:"varint,12,opt,name=Mtime,proto3,casttype=go-common/library/time.Time" json:"mtime"`
-	IosOverdueTime       go_common_library_time.Time `protobuf:"varint,13,opt,name=IosOverdueTime,proto3,casttype=go-common/library/time.Time" json:"ios_overdue_time"`
+	VipStartTime         go_common_library_time.Time `protobuf:"varint,7,opt,name=VipStartTime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"vip_start_time"`
+	VipRecentTime        go_common_library_time.Time `protobuf:"varint,8,opt,name=VipRecentTime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"vip_recent_time"`
+	VipOverdueTime       go_common_library_time.Time `protobuf:"varint,9,opt,name=VipOverdueTime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"vip_overdue_time"`
+	AnnualVipOverdueTime go_common_library_time.Time `protobuf:"varint,10,opt,name=AnnualVipOverdueTime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"annual_vip_overdue_time"`
+	Ctime                go_common_library_time.Time `protobuf:"varint,11,opt,name=Ctime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"ctime"`
+	Mtime                go_common_library_time.Time `protobuf:"varint,12,opt,name=Mtime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"mtime"`
+	IosOverdueTime       go_common_library_time.Time `protobuf:"varint,13,opt,name=IosOverdueTime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"ios_overdue_time"`
 	Ver                  int64                       `protobuf:"varint,14,opt,name=Ver,proto3" json:"ver"`
 }
 

@@ -2,8 +2,8 @@ package reply
 
 import (
 	"context"
-	httpx "go-common/library/net/http/blademaster"
-	xtime "go-common/library/time"
+	httpx "github.com/namelessup/bilibili/library/net/http/blademaster"
+	xtime "github.com/namelessup/bilibili/library/time"
 	"testing"
 	"time"
 

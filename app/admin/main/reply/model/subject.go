@@ -3,8 +3,8 @@ package model
 import (
 	"encoding/json"
 	"fmt"
-	"go-common/library/ecode"
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 const (

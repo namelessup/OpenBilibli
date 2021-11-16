@@ -4,17 +4,17 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/interface/main/space/model"
-	artmdl "go-common/app/interface/openplatform/article/model"
-	accwar "go-common/app/service/main/account/api"
-	blkmdl "go-common/app/service/main/member/model/block"
-	relmdl "go-common/app/service/main/relation/model"
-	upmdl "go-common/app/service/main/up/api/v1"
-	"go-common/library/conf/env"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/interface/main/space/model"
+	artmdl "github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	accwar "github.com/namelessup/bilibili/app/service/main/account/api"
+	blkmdl "github.com/namelessup/bilibili/app/service/main/member/model/block"
+	relmdl "github.com/namelessup/bilibili/app/service/main/relation/model"
+	upmdl "github.com/namelessup/bilibili/app/service/main/up/api/v1"
+	"github.com/namelessup/bilibili/library/conf/env"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 const (

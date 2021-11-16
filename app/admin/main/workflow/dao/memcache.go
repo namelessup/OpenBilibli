@@ -3,12 +3,12 @@ package dao
 import (
 	"context"
 	"encoding/json"
-	"go-common/library/conf/paladin"
+	"github.com/namelessup/bilibili/library/conf/paladin"
 	"time"
 
-	"go-common/app/admin/main/workflow/model/search"
-	"go-common/library/cache/memcache"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/workflow/model/search"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"go-common/app/service/video/stream-mng/common"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/service/video/stream-mng/common"
+	"github.com/namelessup/bilibili/library/net/metadata"
 	"net/http"
 	"strings"
 )

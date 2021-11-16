@@ -14,7 +14,7 @@ go_library(
         "model.go",
         "util.go",
     ],
-    importpath = "go-common/app/service/bbq/video/model",
+    importpath = "github.com/namelessup/bilibili/app/service/bbq/video/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/time:go_default_library"],

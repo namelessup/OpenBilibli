@@ -2,12 +2,12 @@ package v1
 
 import (
 	"context"
-	v1pb "go-common/app/admin/live/live-admin/api/http/v1"
-	"go-common/app/admin/live/live-admin/conf"
-	"go-common/app/admin/live/live-admin/dao"
-	v0av "go-common/app/service/live/av/api/liverpc/v0"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	v1pb "github.com/namelessup/bilibili/app/admin/live/live-admin/api/http/v1"
+	"github.com/namelessup/bilibili/app/admin/live/live-admin/conf"
+	"github.com/namelessup/bilibili/app/admin/live/live-admin/dao"
+	v0av "github.com/namelessup/bilibili/app/service/live/av/api/liverpc/v0"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // PayGoodsService struct

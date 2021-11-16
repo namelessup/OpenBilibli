@@ -16,7 +16,7 @@ go_library(
         "mc.cache.go",
         "point.go",
     ],
-    importpath = "go-common/app/interface/main/activity/dao/bws",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/activity/dao/bws",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

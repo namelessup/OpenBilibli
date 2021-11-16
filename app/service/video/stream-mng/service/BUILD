@@ -28,7 +28,7 @@ go_library(
         "upstream-rtmp.go",
         "upstream-summary.go",
     ],
-    importpath = "go-common/app/service/video/stream-mng/service",
+    importpath = "github.com/namelessup/bilibili/app/service/video/stream-mng/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

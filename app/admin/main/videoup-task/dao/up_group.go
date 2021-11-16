@@ -4,9 +4,9 @@ import (
 	"context"
 	"net/url"
 
-	"go-common/app/admin/main/videoup-task/model"
-	"go-common/library/log"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/admin/main/videoup-task/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 //UPGroups get all the up groups

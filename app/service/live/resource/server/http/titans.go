@@ -2,9 +2,9 @@ package http
 
 import (
 	"context"
-	"go-common/app/service/live/resource/api/http/v1"
-	"go-common/library/ecode"
-	"go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/service/live/resource/api/http/v1"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/net/http/blademaster"
 	"time"
 )
 

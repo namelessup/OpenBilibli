@@ -4,12 +4,12 @@ import (
 	"context"
 	"time"
 
-	tagrpc "go-common/app/interface/main/tag/rpc/client"
-	"go-common/app/interface/main/web-goblin/conf"
-	"go-common/app/interface/main/web-goblin/dao/web"
-	webmdl "go-common/app/interface/main/web-goblin/model/web"
-	arcrpc "go-common/app/service/main/archive/api/gorpc"
-	"go-common/library/log"
+	tagrpc "github.com/namelessup/bilibili/app/interface/main/tag/rpc/client"
+	"github.com/namelessup/bilibili/app/interface/main/web-goblin/conf"
+	"github.com/namelessup/bilibili/app/interface/main/web-goblin/dao/web"
+	webmdl "github.com/namelessup/bilibili/app/interface/main/web-goblin/model/web"
+	arcrpc "github.com/namelessup/bilibili/app/service/main/archive/api/gorpc"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const _chCardTypeAv = "av"

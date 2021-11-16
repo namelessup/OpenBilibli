@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	model "go-common/app/interface/main/reply/model/reply"
+	model "github.com/namelessup/bilibili/app/interface/main/reply/model/reply"
 )
 
 func TestRemove(t *testing.T) {

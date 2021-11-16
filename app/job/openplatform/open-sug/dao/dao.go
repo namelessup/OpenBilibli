@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"time"
 
-	"go-common/app/job/openplatform/open-sug/conf"
-	"go-common/library/cache/redis"
-	xsql "go-common/library/database/sql"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/openplatform/open-sug/conf"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 
 	"gopkg.in/olivere/elastic.v5"
 )

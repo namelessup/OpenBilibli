@@ -3,8 +3,8 @@ package global
 import (
 	"context"
 
-	accmdl "go-common/app/service/main/account/model"
-	"go-common/library/log"
+	accmdl "github.com/namelessup/bilibili/app/service/main/account/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // MID gets mid by nickname

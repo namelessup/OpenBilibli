@@ -29,8 +29,8 @@ go_library(
         "logcredit.go",
         "service.go",
     ],
-    importmap = "go-common/app/service/main/upcredit/service",
-    importpath = "go-common/app/service/main/upcredit/service",
+    importmap = "github.com/namelessup/bilibili/app/service/main/upcredit/service",
+    importpath = "github.com/namelessup/bilibili/app/service/main/upcredit/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

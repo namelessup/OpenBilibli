@@ -7,9 +7,9 @@ import (
 	"math"
 	"time"
 
-	"go-common/library/log"
-	"go-common/library/queue/databus"
-	"go-common/library/queue/databus/report"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
+	"github.com/namelessup/bilibili/library/queue/databus/report"
 )
 
 // aiReq is a producer send file data to eroticism inspect serve

@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"go-common/app/admin/main/tag/model"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/admin/main/tag/model"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 // ResourceByOid ResourceByOid.

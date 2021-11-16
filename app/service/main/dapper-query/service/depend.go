@@ -5,10 +5,10 @@ import (
 	"sync"
 	"time"
 
-	"go-common/app/service/main/dapper-query/dao"
-	"go-common/app/service/main/dapper-query/model"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/service/main/dapper-query/dao"
+	"github.com/namelessup/bilibili/app/service/main/dapper-query/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 // timeOffset secode

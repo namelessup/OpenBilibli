@@ -6,10 +6,10 @@ import (
 	"reflect"
 	"testing"
 
-	"go-common/app/service/main/point/dao"
-	"go-common/app/service/main/point/model"
-	xsql "go-common/library/database/sql"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/service/main/point/dao"
+	"github.com/namelessup/bilibili/app/service/main/point/model"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	"github.com/bouk/monkey"
 	"github.com/smartystreets/goconvey/convey"

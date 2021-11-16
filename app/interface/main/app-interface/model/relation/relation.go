@@ -1,8 +1,8 @@
 package relation
 
 import (
-	accv1 "go-common/app/service/main/account/api"
-	relation "go-common/app/service/main/relation/model"
+	accv1 "github.com/namelessup/bilibili/app/service/main/account/api"
+	relation "github.com/namelessup/bilibili/app/service/main/relation/model"
 )
 
 type Vip struct {

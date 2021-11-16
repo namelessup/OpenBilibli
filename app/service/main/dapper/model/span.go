@@ -6,10 +6,10 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	protogen "go-common/library/net/trace/proto"
+	protogen "github.com/namelessup/bilibili/library/net/trace/proto"
 )
 
-// ProtoSpan alias to tgo-common/library/net/trace/proto.Span
+// ProtoSpan alias to tgithub.com/namelessup/bilibili/library/net/trace/proto.Span
 type ProtoSpan protogen.Span
 
 // RefType Kind

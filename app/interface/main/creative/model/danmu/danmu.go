@@ -1,7 +1,7 @@
 package danmu
 
 import (
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 // AdvanceDanmu str

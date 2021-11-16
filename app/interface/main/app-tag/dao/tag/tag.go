@@ -3,12 +3,12 @@ package tag
 import (
 	"context"
 
-	"go-common/app/interface/main/app-tag/conf"
-	tag "go-common/app/interface/main/tag/model"
-	tagrpc "go-common/app/interface/main/tag/rpc/client"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	httpx "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/interface/main/app-tag/conf"
+	tag "github.com/namelessup/bilibili/app/interface/main/tag/model"
+	tagrpc "github.com/namelessup/bilibili/app/interface/main/tag/rpc/client"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	httpx "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 type Dao struct {

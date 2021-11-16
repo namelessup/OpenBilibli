@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["validate.go"],
-    importpath = "go-common/app/interface/main/mcn/tool/validate",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/mcn/tool/validate",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

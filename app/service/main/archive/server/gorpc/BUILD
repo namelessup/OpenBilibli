@@ -12,7 +12,7 @@ go_library(
         "rpc2.go",
         "rpc3.go",
     ],
-    importpath = "go-common/app/service/main/archive/server/gorpc",
+    importpath = "github.com/namelessup/bilibili/app/service/main/archive/server/gorpc",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

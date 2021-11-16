@@ -5,11 +5,11 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/interface/main/playlist/model"
-	pjmdl "go-common/app/job/main/playlist/model"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/interface/main/playlist/model"
+	pjmdl "github.com/namelessup/bilibili/app/job/main/playlist/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 var _defaultAdd = int64(1)

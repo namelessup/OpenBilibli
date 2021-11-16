@@ -20,7 +20,7 @@ go_library(
         "overview_mc.go",
         "table.go",
     ],
-    importpath = "go-common/app/interface/main/creative/dao/data",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/creative/dao/data",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

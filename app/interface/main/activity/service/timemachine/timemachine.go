@@ -7,16 +7,16 @@ import (
 	"strings"
 	"time"
 
-	model "go-common/app/interface/main/activity/model/timemachine"
-	tagmdl "go-common/app/interface/main/tag/api"
-	artmdl "go-common/app/interface/openplatform/article/model"
-	accmdl "go-common/app/service/main/account/api"
-	arcmdl "go-common/app/service/main/archive/api"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	model "github.com/namelessup/bilibili/app/interface/main/activity/model/timemachine"
+	tagmdl "github.com/namelessup/bilibili/app/interface/main/tag/api"
+	artmdl "github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	accmdl "github.com/namelessup/bilibili/app/service/main/account/api"
+	arcmdl "github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 
-	"go-common/library/sync/errgroup.v2"
+	"github.com/namelessup/bilibili/library/sync/errgroup.v2"
 )
 
 // StartTmproc start tm proc.

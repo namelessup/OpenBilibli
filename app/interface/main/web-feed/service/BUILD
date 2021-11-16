@@ -25,7 +25,7 @@ go_library(
         "feed.go",
         "service.go",
     ],
-    importpath = "go-common/app/interface/main/web-feed/service",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/web-feed/service",
     tags = ["automanaged"],
     deps = [
         "//app/interface/main/web-feed/conf:go_default_library",

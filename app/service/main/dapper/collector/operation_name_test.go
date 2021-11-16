@@ -3,8 +3,8 @@ package collector
 import (
 	"testing"
 
-	"go-common/app/service/main/dapper/model"
-	protogen "go-common/library/net/trace/proto"
+	"github.com/namelessup/bilibili/app/service/main/dapper/model"
+	protogen "github.com/namelessup/bilibili/library/net/trace/proto"
 )
 
 func TestOperationNameProcess(t *testing.T) {

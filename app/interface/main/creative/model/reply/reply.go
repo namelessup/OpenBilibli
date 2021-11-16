@@ -1,8 +1,8 @@
 package reply
 
 import (
-	"go-common/app/interface/main/reply/model/reply"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/interface/main/reply/model/reply"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // Reply str

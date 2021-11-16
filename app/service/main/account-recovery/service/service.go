@@ -5,10 +5,10 @@ import (
 	"sync"
 	"time"
 
-	"go-common/app/service/main/account-recovery/conf"
-	"go-common/app/service/main/account-recovery/dao"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/service/main/account-recovery/conf"
+	"github.com/namelessup/bilibili/app/service/main/account-recovery/dao"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 // Service struct

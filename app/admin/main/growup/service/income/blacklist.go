@@ -5,9 +5,9 @@ import (
 	"context"
 	"strconv"
 
-	model "go-common/app/admin/main/growup/model/income"
-	"go-common/library/database/sql"
-	"go-common/library/log"
+	model "github.com/namelessup/bilibili/app/admin/main/growup/model/income"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // ArchiveBlack stop archives income, add archive into av_black_list

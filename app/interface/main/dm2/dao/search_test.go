@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"go-common/app/interface/main/dm2/model"
+	"github.com/namelessup/bilibili/app/interface/main/dm2/model"
 	"time"
 
 	. "github.com/smartystreets/goconvey/convey"

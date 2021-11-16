@@ -1,16 +1,16 @@
 package http
 
 import (
-	"go-common/app/interface/main/app-view/conf"
-	"go-common/app/interface/main/app-view/service/report"
-	"go-common/app/interface/main/app-view/service/view"
-	"go-common/library/log"
-	"go-common/library/log/anticheat"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/auth"
-	"go-common/library/net/http/blademaster/middleware/proxy"
-	"go-common/library/net/http/blademaster/middleware/verify"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/interface/main/app-view/conf"
+	"github.com/namelessup/bilibili/app/interface/main/app-view/service/report"
+	"github.com/namelessup/bilibili/app/interface/main/app-view/service/view"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/log/anticheat"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/auth"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/proxy"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/verify"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 var (

@@ -1,6 +1,6 @@
 package service
 
-import "go-common/app/admin/ep/saga/model"
+import "github.com/namelessup/bilibili/app/admin/ep/saga/model"
 
 // UserInfo get username and email.
 func (s *Service) UserInfo(userName string) (userInfo *model.User) {

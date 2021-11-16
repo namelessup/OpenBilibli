@@ -12,7 +12,7 @@ go_library(
         "reply.go",
         "request.go",
     ],
-    importpath = "go-common/app/job/main/up/model",
+    importpath = "github.com/namelessup/bilibili/app/job/main/up/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"go-common/app/interface/main/videoup/model/archive"
+	"github.com/namelessup/bilibili/app/interface/main/videoup/model/archive"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

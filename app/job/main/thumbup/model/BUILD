@@ -11,7 +11,7 @@ go_library(
         "model.go",
         "thumbup.go",
     ],
-    importpath = "go-common/app/job/main/thumbup/model",
+    importpath = "github.com/namelessup/bilibili/app/job/main/thumbup/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/time:go_default_library"],

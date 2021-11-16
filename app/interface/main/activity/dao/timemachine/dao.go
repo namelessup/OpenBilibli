@@ -3,11 +3,11 @@ package timemachine
 import (
 	"time"
 
-	"go-common/app/interface/main/activity/conf"
-	"go-common/library/cache/memcache"
-	"go-common/library/sync/pipeline/fanout"
+	"github.com/namelessup/bilibili/app/interface/main/activity/conf"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/sync/pipeline/fanout"
 
-	"go-common/library/database/hbase.v2"
+	"github.com/namelessup/bilibili/library/database/hbase.v2"
 )
 
 // Dao .

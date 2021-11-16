@@ -1,9 +1,9 @@
 package http
 
 import (
-	"go-common/app/admin/ep/saga/model"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/binding"
+	"github.com/namelessup/bilibili/app/admin/ep/saga/model"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/binding"
 )
 
 // @params EmptyReq

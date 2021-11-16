@@ -1,9 +1,9 @@
 package tag
 
 import (
-	tagClient "go-common/app/interface/main/tag/rpc/client"
-	"go-common/app/job/main/videoup-report/conf"
-	bm "go-common/library/net/http/blademaster"
+	tagClient "github.com/namelessup/bilibili/app/interface/main/tag/rpc/client"
+	"github.com/namelessup/bilibili/app/job/main/videoup-report/conf"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 //Dao tag dao

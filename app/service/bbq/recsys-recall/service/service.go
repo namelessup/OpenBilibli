@@ -7,12 +7,12 @@ import (
 
 	"github.com/json-iterator/go"
 
-	"go-common/app/job/bbq/recall/proto"
-	"go-common/app/service/bbq/recsys-recall/api/grpc/v1"
-	"go-common/app/service/bbq/recsys-recall/conf"
-	"go-common/app/service/bbq/recsys-recall/dao"
-	"go-common/app/service/bbq/recsys-recall/service/index"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/bbq/recall/proto"
+	"github.com/namelessup/bilibili/app/service/bbq/recsys-recall/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/bbq/recsys-recall/conf"
+	"github.com/namelessup/bilibili/app/service/bbq/recsys-recall/dao"
+	"github.com/namelessup/bilibili/app/service/bbq/recsys-recall/service/index"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/Dai0522/workpool"
 	empty "github.com/golang/protobuf/ptypes/empty"

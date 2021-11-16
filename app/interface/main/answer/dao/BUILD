@@ -16,7 +16,7 @@ go_library(
         "mysql.go",
         "redis.go",
     ],
-    importpath = "go-common/app/interface/main/answer/dao",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/answer/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

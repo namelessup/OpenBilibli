@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/service/main/figure/model"
+	"github.com/namelessup/bilibili/app/service/main/figure/model"
 )
 
 var (

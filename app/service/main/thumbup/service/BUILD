@@ -36,7 +36,7 @@ go_library(
         "stats.go",
         "user_likes.go",
     ],
-    importpath = "go-common/app/service/main/thumbup/service",
+    importpath = "github.com/namelessup/bilibili/app/service/main/thumbup/service",
     tags = ["automanaged"],
     deps = [
         "//app/service/main/thumbup/api:go_default_library",

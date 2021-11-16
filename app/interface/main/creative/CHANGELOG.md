@@ -1601,7 +1601,7 @@
 > 2.删除已经无用的分区配置文件
 
 #### Version 1.15.4
-> 1.升级go-common到v6.17.1和go-businessv2.24.1， 为logagent做准备  
+> 1.升级github.com/namelessup/bilibili到v6.17.1和go-businessv2.24.1， 为logagent做准备  
 > 2.重构Prom监控的接入方式
 
 #### Version 1.15.3
@@ -1632,7 +1632,7 @@
 > 1.新增稿件列表接口
 
 #### Version 1.13.5  
-> 1.update go-common with tag v6.12.1, fix db transaction bug
+> 1.update github.com/namelessup/bilibili with tag v6.12.1, fix db transaction bug
 
 #### Version 1.13.4  
 > 1.prometheus监控代码植入

@@ -12,7 +12,7 @@ go_library(
         "material.go",
         "music.go",
     ],
-    importpath = "go-common/app/admin/main/creative/model/music",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/creative/model/music",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/time:go_default_library"],

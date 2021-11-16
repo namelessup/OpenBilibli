@@ -5,12 +5,12 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/interface/main/app-show/conf"
-	"go-common/app/interface/main/app-show/model"
-	"go-common/app/interface/main/app-show/model/feed"
-	"go-common/app/interface/main/app-show/model/show"
-	"go-common/library/log"
-	binfoc "go-common/library/log/infoc"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/conf"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/model/feed"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/model/show"
+	"github.com/namelessup/bilibili/library/log"
+	binfoc "github.com/namelessup/bilibili/library/log/infoc"
 )
 
 type infoc struct {

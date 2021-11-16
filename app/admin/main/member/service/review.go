@@ -5,14 +5,14 @@ import (
 	"fmt"
 	"time"
 
-	"go-common/app/admin/main/member/model"
-	"go-common/app/admin/main/member/model/block"
-	relation "go-common/app/service/main/relation/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
-	"go-common/library/queue/databus/report"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/admin/main/member/model"
+	"github.com/namelessup/bilibili/app/admin/main/member/model/block"
+	relation "github.com/namelessup/bilibili/app/service/main/relation/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/queue/databus/report"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 const (

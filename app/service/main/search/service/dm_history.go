@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/app/service/main/search/dao"
-	"go-common/app/service/main/search/model"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/service/main/search/dao"
+	"github.com/namelessup/bilibili/app/service/main/search/model"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 // DMHistory .

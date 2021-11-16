@@ -23,7 +23,7 @@ go_library(
         "user.go",
         "vip.go",
     ],
-    importpath = "go-common/app/service/main/vip/http",
+    importpath = "github.com/namelessup/bilibili/app/service/main/vip/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -3,10 +3,10 @@ package service
 import (
 	"context"
 
-	dav1 "go-common/app/service/live/dao-anchor/api/grpc/v1"
-	pb "go-common/app/service/live/xroom/api"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	dav1 "github.com/namelessup/bilibili/app/service/live/dao-anchor/api/grpc/v1"
+	pb "github.com/namelessup/bilibili/app/service/live/xroom/api"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 type fieldInfo struct {

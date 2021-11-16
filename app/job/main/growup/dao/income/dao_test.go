@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"go-common/app/job/main/growup/conf"
+	"github.com/namelessup/bilibili/app/job/main/growup/conf"
 )
 
 var (

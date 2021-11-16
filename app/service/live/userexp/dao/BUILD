@@ -12,7 +12,7 @@ go_library(
         "exp_log.go",
         "mc_level.go",
     ],
-    importpath = "go-common/app/service/live/userexp/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/live/userexp/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -1,12 +1,12 @@
 package server
 
 import (
-	"go-common/app/service/main/filter/conf"
-	rpcmodel "go-common/app/service/main/filter/model/rpc"
-	"go-common/app/service/main/filter/service"
-	"go-common/library/log"
-	"go-common/library/net/rpc"
-	"go-common/library/net/rpc/context"
+	"github.com/namelessup/bilibili/app/service/main/filter/conf"
+	rpcmodel "github.com/namelessup/bilibili/app/service/main/filter/model/rpc"
+	"github.com/namelessup/bilibili/app/service/main/filter/service"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/rpc"
+	"github.com/namelessup/bilibili/library/net/rpc/context"
 )
 
 // RPC represent rpc server

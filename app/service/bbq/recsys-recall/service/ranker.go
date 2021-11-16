@@ -1,8 +1,8 @@
 package service
 
 import (
-	"go-common/app/service/bbq/recsys-recall/dao"
-	"go-common/app/service/bbq/recsys-recall/model"
+	"github.com/namelessup/bilibili/app/service/bbq/recsys-recall/dao"
+	"github.com/namelessup/bilibili/app/service/bbq/recsys-recall/model"
 )
 
 // Ranker interface

@@ -3,9 +3,9 @@ package upcrm
 import (
 	"time"
 
-	"go-common/app/admin/main/up/model/upcrmmodel"
-	"go-common/library/log"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/admin/main/up/model/upcrmmodel"
+	"github.com/namelessup/bilibili/library/log"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 //StartTask start task

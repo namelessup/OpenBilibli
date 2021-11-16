@@ -5,11 +5,11 @@ import (
 	"errors"
 	"time"
 
-	tmod "go-common/app/job/main/videoup-report/model/task"
-	account "go-common/app/service/main/account/api"
-	upsrpc "go-common/app/service/main/up/api/v1"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
+	tmod "github.com/namelessup/bilibili/app/job/main/videoup-report/model/task"
+	account "github.com/namelessup/bilibili/app/service/main/account/api"
+	upsrpc "github.com/namelessup/bilibili/app/service/main/up/api/v1"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 
 	"fmt"
 	"math"

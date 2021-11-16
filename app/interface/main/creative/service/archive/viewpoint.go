@@ -2,9 +2,9 @@ package archive
 
 import (
 	"context"
-	"go-common/app/interface/main/creative/model/archive"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/archive"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // VideoPoints 获取视频最新生效的高能看点

@@ -5,10 +5,10 @@ import (
 	"database/sql"
 	"encoding/json"
 
-	"go-common/app/common/openplatform/encoding"
-	"go-common/app/service/openplatform/ticket-sales/api/grpc/type"
-	rpc "go-common/app/service/openplatform/ticket-sales/api/grpc/v1"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/common/openplatform/encoding"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/api/grpc/type"
+	rpc "github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

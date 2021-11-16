@@ -1,8 +1,8 @@
 package hbase
 
 import (
-	"go-common/app/job/main/videoup-report/conf"
-	"go-common/library/database/hbase.v2"
+	"github.com/namelessup/bilibili/app/job/main/videoup-report/conf"
+	"github.com/namelessup/bilibili/library/database/hbase.v2"
 )
 
 // Dao is redis dao.

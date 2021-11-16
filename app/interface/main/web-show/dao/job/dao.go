@@ -3,10 +3,10 @@ package job
 import (
 	"context"
 
-	"go-common/app/interface/main/web-show/conf"
-	xsql "go-common/library/database/sql"
-	"go-common/library/log"
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/app/interface/main/web-show/conf"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/stat/prom"
 )
 
 // Dao struct

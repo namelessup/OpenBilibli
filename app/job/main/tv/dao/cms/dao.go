@@ -1,9 +1,9 @@
 package cms
 
 import (
-	"go-common/app/job/main/tv/conf"
-	"go-common/library/database/sql"
-	httpx "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/job/main/tv/conf"
+	"github.com/namelessup/bilibili/library/database/sql"
+	httpx "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // Dao dao.

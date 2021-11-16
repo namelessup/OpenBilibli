@@ -6,12 +6,12 @@ import (
 	"os/signal"
 	"syscall"
 
-	"go-common/app/job/main/search/conf"
-	"go-common/app/job/main/search/http"
-	_ "go-common/app/job/main/search/model"
-	"go-common/app/job/main/search/service"
-	"go-common/library/log"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/app/job/main/search/conf"
+	"github.com/namelessup/bilibili/app/job/main/search/http"
+	_ "github.com/namelessup/bilibili/app/job/main/search/model"
+	"github.com/namelessup/bilibili/app/job/main/search/service"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
 )
 
 func main() {

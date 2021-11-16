@@ -12,7 +12,7 @@ message SignUp {
   // State 签约状态
   int32 State = 2 [(gogoproto.jsontag) = "state"];
   // BeginDate 经纪签约开始时间
-  int64 BeginDate = 3 [(gogoproto.jsontag) = "begin_date", (gogoproto.casttype) = "go-common/library/time.Time"];
+  int64 BeginDate = 3 [(gogoproto.jsontag) = "begin_date", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
   // EndDate 经纪签约结束时间
-  int64 EndDate = 4 [(gogoproto.jsontag) = "end_date", (gogoproto.casttype) = "go-common/library/time.Time"];
+  int64 EndDate = 4 [(gogoproto.jsontag) = "end_date", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
 }

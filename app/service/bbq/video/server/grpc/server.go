@@ -2,9 +2,9 @@ package grpc
 
 import (
 	"context"
-	v1 "go-common/app/service/bbq/video/api/grpc/v1"
-	"go-common/app/service/bbq/video/service"
-	"go-common/library/net/rpc/warden"
+	v1 "github.com/namelessup/bilibili/app/service/bbq/video/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/bbq/video/service"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 
 	"google.golang.org/grpc"
 )

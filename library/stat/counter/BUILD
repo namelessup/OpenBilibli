@@ -25,7 +25,7 @@ go_library(
         "gauge.go",
         "rolling.go",
     ],
-    importpath = "go-common/library/stat/counter",
+    importpath = "github.com/namelessup/bilibili/library/stat/counter",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

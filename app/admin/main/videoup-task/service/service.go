@@ -5,14 +5,14 @@ import (
 	"sync"
 	"time"
 
-	"go-common/app/admin/main/videoup-task/conf"
-	"go-common/app/admin/main/videoup-task/dao"
-	"go-common/app/admin/main/videoup-task/model"
-	account "go-common/app/service/main/account/api"
-	upsrpc "go-common/app/service/main/up/api/v1"
-	"go-common/library/database/elastic"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/videoup-task/conf"
+	"github.com/namelessup/bilibili/app/admin/main/videoup-task/dao"
+	"github.com/namelessup/bilibili/app/admin/main/videoup-task/model"
+	account "github.com/namelessup/bilibili/app/service/main/account/api"
+	upsrpc "github.com/namelessup/bilibili/app/service/main/up/api/v1"
+	"github.com/namelessup/bilibili/library/database/elastic"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // MemberCache .

@@ -1,10 +1,10 @@
 package server
 
 import (
-	"go-common/app/service/main/upcredit/conf"
-	"go-common/app/service/main/upcredit/service"
-	"go-common/library/net/rpc"
-	"go-common/library/net/rpc/context"
+	"github.com/namelessup/bilibili/app/service/main/upcredit/conf"
+	"github.com/namelessup/bilibili/app/service/main/upcredit/service"
+	"github.com/namelessup/bilibili/library/net/rpc"
+	"github.com/namelessup/bilibili/library/net/rpc/context"
 )
 
 //RPC rpc server

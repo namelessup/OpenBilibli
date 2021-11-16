@@ -3,7 +3,7 @@ package client
 import (
 	"context"
 
-	"go-common/app/service/main/vip/model"
+	"github.com/namelessup/bilibili/app/service/main/vip/model"
 )
 
 const (

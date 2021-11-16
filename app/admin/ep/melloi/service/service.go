@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"go-common/app/admin/ep/melloi/conf"
-	"go-common/app/admin/ep/melloi/dao"
+	"github.com/namelessup/bilibili/app/admin/ep/melloi/conf"
+	"github.com/namelessup/bilibili/app/admin/ep/melloi/dao"
 
 	"github.com/jinzhu/gorm"
 	"github.com/robfig/cron"

@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"testing"
 
-	"go-common/app/service/live/dao-anchor/api/grpc/v0"
+	"github.com/namelessup/bilibili/app/service/live/dao-anchor/api/grpc/v0"
 
-	"go-common/app/service/live/dao-anchor/conf"
-	"go-common/app/service/live/dao-anchor/dao"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/service/live/dao-anchor/conf"
+	"github.com/namelessup/bilibili/app/service/live/dao-anchor/dao"
+	"github.com/namelessup/bilibili/library/net/metadata"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

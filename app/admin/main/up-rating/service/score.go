@@ -6,11 +6,11 @@ import (
 	"sort"
 	"time"
 
-	"go-common/app/admin/main/up-rating/dao/global"
-	"go-common/app/admin/main/up-rating/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/admin/main/up-rating/dao/global"
+	"github.com/namelessup/bilibili/app/admin/main/up-rating/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 // RatingList returns rating info list

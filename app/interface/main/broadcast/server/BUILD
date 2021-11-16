@@ -25,7 +25,7 @@ go_library(
         "server_websocket_v1.go",
         "whitelist.go",
     ],
-    importpath = "go-common/app/interface/main/broadcast/server",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/broadcast/server",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

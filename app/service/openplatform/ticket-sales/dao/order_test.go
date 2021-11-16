@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/service/openplatform/ticket-sales/api/grpc/type"
-	"go-common/app/service/openplatform/ticket-sales/model"
-	"go-common/app/service/openplatform/ticket-sales/model/consts"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/api/grpc/type"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/model"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/model/consts"
 
 	"github.com/smartystreets/goconvey/convey"
 )

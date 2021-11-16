@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["model.go"],
-    importpath = "go-common/app/service/live/live_riskcontrol/internal/model",
+    importpath = "github.com/namelessup/bilibili/app/service/live/live_riskcontrol/internal/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

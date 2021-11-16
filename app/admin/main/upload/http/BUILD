@@ -15,7 +15,7 @@ go_library(
         "sniff.go",
         "upload.go",
     ],
-    importpath = "go-common/app/admin/main/upload/http",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/upload/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -3,8 +3,8 @@ package http
 import (
 	"time"
 
-	webmdl "go-common/app/interface/main/web-goblin/model/web"
-	bm "go-common/library/net/http/blademaster"
+	webmdl "github.com/namelessup/bilibili/app/interface/main/web-goblin/model/web"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 const (

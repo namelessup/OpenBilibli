@@ -2,7 +2,7 @@ package grpc
 
 import (
 	"context"
-	"go-common/app/service/main/member/api"
+	"github.com/namelessup/bilibili/app/service/main/member/api"
 )
 
 // Moral Get member moral info

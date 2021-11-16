@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 
-	"go-common/library/database/hbase.v2"
+	"github.com/namelessup/bilibili/library/database/hbase.v2"
 
 	"github.com/tsuna/gohbase/hrpc"
 )

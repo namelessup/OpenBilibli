@@ -1,7 +1,7 @@
 package service
 
 import (
-	bm "go-common/library/net/http/blademaster"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"

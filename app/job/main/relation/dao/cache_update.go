@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"strconv"
 
-	"go-common/app/service/main/relation/model"
-	gmc "go-common/library/cache/memcache"
-	"go-common/library/cache/redis"
-	"go-common/library/log"
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/app/service/main/relation/model"
+	gmc "github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 const (

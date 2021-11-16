@@ -4,13 +4,13 @@ import (
 	"context"
 	"time"
 
-	antispam "go-common/app/service/main/antispam/rpc/client"
-	"go-common/app/service/main/filter/conf"
-	"go-common/library/cache/memcache"
-	"go-common/library/database/hbase.v2"
-	"go-common/library/database/sql"
+	antispam "github.com/namelessup/bilibili/app/service/main/antispam/rpc/client"
+	"github.com/namelessup/bilibili/app/service/main/filter/conf"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/database/hbase.v2"
+	"github.com/namelessup/bilibili/library/database/sql"
 
-	bm "go-common/library/net/http/blademaster"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // Dao struct .

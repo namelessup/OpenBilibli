@@ -2,9 +2,9 @@ package dao
 
 import (
 	"context"
-	"go-common/app/service/bbq/video/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/bbq/video/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

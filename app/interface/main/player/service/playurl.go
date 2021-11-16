@@ -3,13 +3,13 @@ package service
 import (
 	"context"
 
-	"go-common/app/interface/main/player/model"
-	accmdl "go-common/app/service/main/account/api"
-	arcmdl "go-common/app/service/main/archive/api"
-	"go-common/app/service/main/archive/model/archive"
-	ugcmdl "go-common/app/service/main/ugcpay/api/grpc/v1"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/player/model"
+	accmdl "github.com/namelessup/bilibili/app/service/main/account/api"
+	arcmdl "github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	ugcmdl "github.com/namelessup/bilibili/app/service/main/ugcpay/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

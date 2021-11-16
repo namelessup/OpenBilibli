@@ -1,10 +1,10 @@
 package account
 
 import (
-	"go-common/app/interface/main/account/conf"
-	"go-common/library/cache/memcache"
-	"go-common/library/cache/redis"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/interface/main/account/conf"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 	xhttp "net/http"
 	"time"
 )

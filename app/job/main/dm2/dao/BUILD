@@ -62,7 +62,7 @@ go_library(
         "transfer.go",
         "videoup.go",
     ],
-    importpath = "go-common/app/job/main/dm2/dao",
+    importpath = "github.com/namelessup/bilibili/app/job/main/dm2/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -8,10 +8,10 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/interface/main/app-tag/conf"
-	"go-common/app/interface/main/app-tag/model/bangumi"
-	"go-common/library/log"
-	httpx "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/interface/main/app-tag/conf"
+	"github.com/namelessup/bilibili/app/interface/main/app-tag/model/bangumi"
+	"github.com/namelessup/bilibili/library/log"
+	httpx "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 const (

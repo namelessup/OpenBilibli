@@ -11,7 +11,7 @@ go_library(
         "http.go",
         "user_act_log.go",
     ],
-    importpath = "go-common/app/admin/main/passport/http",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/passport/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

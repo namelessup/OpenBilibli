@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["rank.go"],
-    importpath = "go-common/app/service/main/rank/api/gorpc",
+    importpath = "github.com/namelessup/bilibili/app/service/main/rank/api/gorpc",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -1,8 +1,8 @@
 package dao
 
 import (
-	"go-common/app/job/main/account-recovery/conf"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/job/main/account-recovery/conf"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // Dao dao

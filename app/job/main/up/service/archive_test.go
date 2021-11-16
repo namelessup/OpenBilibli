@@ -3,7 +3,7 @@ package service
 import (
 	"testing"
 
-	"go-common/app/job/main/up/model/archivemodel"
+	"github.com/namelessup/bilibili/app/job/main/up/model/archivemodel"
 )
 
 func Test_archiveStateChange(t *testing.T) {

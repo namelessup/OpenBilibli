@@ -6,9 +6,9 @@ import (
 	"os/signal"
 	"syscall"
 
-	"go-common/app/job/main/app-player/conf"
-	"go-common/app/job/main/app-player/http"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/app-player/conf"
+	"github.com/namelessup/bilibili/app/job/main/app-player/http"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func main() {

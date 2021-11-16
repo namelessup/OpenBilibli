@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/app/service/main/figure/model"
-	xsql "go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/service/main/figure/model"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
 
 	"github.com/pkg/errors"
 )

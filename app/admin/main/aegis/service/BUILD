@@ -70,7 +70,7 @@ go_library(
         "token_bind.go",
         "transition.go",
     ],
-    importpath = "go-common/app/admin/main/aegis/service",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/aegis/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

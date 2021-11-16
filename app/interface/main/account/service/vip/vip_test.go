@@ -5,10 +5,10 @@ import (
 	"flag"
 	"testing"
 
-	"go-common/app/interface/main/account/conf"
-	"go-common/app/interface/main/account/model"
+	"github.com/namelessup/bilibili/app/interface/main/account/conf"
+	"github.com/namelessup/bilibili/app/interface/main/account/model"
 
-	vipmod "go-common/app/service/main/vip/model"
+	vipmod "github.com/namelessup/bilibili/app/service/main/vip/model"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

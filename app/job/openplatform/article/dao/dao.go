@@ -4,13 +4,13 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/job/openplatform/article/conf"
-	"go-common/library/cache"
-	"go-common/library/cache/redis"
-	xsql "go-common/library/database/sql"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/queue/databus"
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/app/job/openplatform/article/conf"
+	"github.com/namelessup/bilibili/library/cache"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/queue/databus"
+	"github.com/namelessup/bilibili/library/stat/prom"
 )
 
 // Dao .
@@ -80,7 +80,7 @@ func New(c *conf.Config) (d *Dao) {
 	return
 }
 
-//go:generate $GOPATH/src/go-common/app/tool/cache/gen
+//go:generate $GOPATH/src/github.com/namelessup/bilibili/app/tool/cache/gen
 type _cache interface {
 	GameList(c context.Context) (res []int64, err error)
 }

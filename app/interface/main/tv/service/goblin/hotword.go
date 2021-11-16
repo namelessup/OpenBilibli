@@ -3,7 +3,7 @@ package goblin
 import (
 	"time"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // reload hotword data from MC

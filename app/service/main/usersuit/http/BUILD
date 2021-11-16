@@ -12,7 +12,7 @@ go_library(
         "medal.go",
         "pendant.go",
     ],
-    importpath = "go-common/app/service/main/usersuit/http",
+    importpath = "github.com/namelessup/bilibili/app/service/main/usersuit/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

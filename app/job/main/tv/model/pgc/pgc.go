@@ -1,7 +1,7 @@
 package pgc
 
 import (
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 // TVEpContent reprensents the content table

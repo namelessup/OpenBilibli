@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["tree.go"],
-    importpath = "go-common/app/admin/main/apm/model/tree",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/apm/model/tree",
     tags = ["automanaged"],
 )
 

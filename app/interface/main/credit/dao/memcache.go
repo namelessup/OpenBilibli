@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strconv"
 
-	model "go-common/app/interface/main/credit/model"
-	gmc "go-common/library/cache/memcache"
-	"go-common/library/log"
+	model "github.com/namelessup/bilibili/app/interface/main/credit/model"
+	gmc "github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

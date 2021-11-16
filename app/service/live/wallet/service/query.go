@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 	"database/sql"
-	"go-common/app/service/live/wallet/model"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/service/live/wallet/model"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 const TX_STATUS_SUCC = 0   //事务执行成功

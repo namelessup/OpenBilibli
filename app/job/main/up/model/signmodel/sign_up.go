@@ -1,8 +1,8 @@
 package signmodel
 
 import (
-	"go-common/app/admin/main/up/util"
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/app/admin/main/up/util"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 const (

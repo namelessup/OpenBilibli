@@ -15,7 +15,7 @@ go_binary(
 go_library(
     name = "go_default_library",
     srcs = ["tapd.go"],
-    importpath = "go-common/app/service/ep/footman/cmd/tapd",
+    importpath = "github.com/namelessup/bilibili/app/service/ep/footman/cmd/tapd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

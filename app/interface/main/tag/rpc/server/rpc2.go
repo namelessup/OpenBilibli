@@ -1,9 +1,9 @@
 package rpc
 
 import (
-	"go-common/app/interface/main/tag/model"
-	"go-common/library/log"
-	"go-common/library/net/rpc/context"
+	"github.com/namelessup/bilibili/app/interface/main/tag/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/rpc/context"
 )
 
 // UpBind .

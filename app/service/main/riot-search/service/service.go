@@ -4,9 +4,9 @@ import (
 	"context"
 	"runtime"
 
-	"go-common/app/service/main/riot-search/conf"
-	"go-common/app/service/main/riot-search/dao"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/service/main/riot-search/conf"
+	"github.com/namelessup/bilibili/app/service/main/riot-search/dao"
+	"github.com/namelessup/bilibili/library/queue/databus"
 
 	"github.com/ivpusic/grpool"
 )

@@ -20,7 +20,7 @@ go_library(
         "user.go",
         "video.go",
     ],
-    importpath = "go-common/app/job/bbq/video/service",
+    importpath = "github.com/namelessup/bilibili/app/job/bbq/video/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

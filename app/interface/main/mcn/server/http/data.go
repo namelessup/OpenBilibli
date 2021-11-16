@@ -2,8 +2,8 @@ package http
 
 import (
 	"context"
-	"go-common/app/interface/main/mcn/model/mcnmodel"
-	"go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/interface/main/mcn/model/mcnmodel"
+	"github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func mcnGetMcnGetIndexInc(c *blademaster.Context) {

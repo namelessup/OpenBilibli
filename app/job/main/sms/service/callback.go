@@ -5,11 +5,11 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/job/main/sms/dao/chuanglan"
-	"go-common/app/job/main/sms/dao/mengwang"
-	smsmdl "go-common/app/service/main/sms/model"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/job/main/sms/dao/chuanglan"
+	"github.com/namelessup/bilibili/app/job/main/sms/dao/mengwang"
+	smsmdl "github.com/namelessup/bilibili/app/service/main/sms/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 const (

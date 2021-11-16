@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["live.go"],
-    importpath = "go-common/app/interface/main/app-view/model/live",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-view/model/live",
     tags = ["automanaged"],
     deps = ["//app/interface/main/app-view/model:go_default_library"],
 )

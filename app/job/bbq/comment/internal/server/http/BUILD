@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["http.go"],
-    importpath = "go-common/app/job/bbq/comment/internal/server/http",
+    importpath = "github.com/namelessup/bilibili/app/job/bbq/comment/internal/server/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

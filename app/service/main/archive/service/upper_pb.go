@@ -3,12 +3,12 @@ package service
 import (
 	"context"
 
-	"go-common/app/service/main/archive/api"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/time"
 
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 // UpperReommend from archive_recommend by aid

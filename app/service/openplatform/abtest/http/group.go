@@ -1,9 +1,9 @@
 package http
 
 import (
-	"go-common/app/service/openplatform/abtest/model"
-	"go-common/app/service/openplatform/abtest/model/validator"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/service/openplatform/abtest/model"
+	"github.com/namelessup/bilibili/app/service/openplatform/abtest/model/validator"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 //add group

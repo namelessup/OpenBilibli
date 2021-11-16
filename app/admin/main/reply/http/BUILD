@@ -35,7 +35,7 @@ go_library(
         "report.go",
         "subject.go",
     ],
-    importpath = "go-common/app/admin/main/reply/http",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/reply/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

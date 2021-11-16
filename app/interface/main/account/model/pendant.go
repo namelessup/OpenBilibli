@@ -3,7 +3,7 @@ package model
 import (
 	"strconv"
 
-	usmdl "go-common/app/service/main/usersuit/model"
+	usmdl "github.com/namelessup/bilibili/app/service/main/usersuit/model"
 )
 
 // EquipPHP struct.

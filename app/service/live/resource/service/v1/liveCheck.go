@@ -4,11 +4,11 @@ import (
 	"context"
 	"encoding/json"
 
-	v1pb "go-common/app/service/live/resource/api/grpc/v1"
-	"go-common/app/service/live/resource/conf"
-	"go-common/app/service/live/resource/dao"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	v1pb "github.com/namelessup/bilibili/app/service/live/resource/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/live/resource/conf"
+	"github.com/namelessup/bilibili/app/service/live/resource/dao"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // LiveCheckService struct

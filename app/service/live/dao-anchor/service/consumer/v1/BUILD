@@ -18,7 +18,7 @@ go_library(
         "roomTag.go",
         "validDays.go",
     ],
-    importpath = "go-common/app/service/live/dao-anchor/service/consumer/v1",
+    importpath = "github.com/namelessup/bilibili/app/service/live/dao-anchor/service/consumer/v1",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

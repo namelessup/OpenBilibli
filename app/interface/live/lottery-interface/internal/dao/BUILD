@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["dao.go"],
-    importpath = "go-common/app/interface/live/lottery-interface/internal/dao",
+    importpath = "github.com/namelessup/bilibili/app/interface/live/lottery-interface/internal/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

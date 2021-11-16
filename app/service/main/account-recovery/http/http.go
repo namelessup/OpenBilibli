@@ -3,12 +3,12 @@ package http
 import (
 	"net/http"
 
-	"go-common/app/service/main/account-recovery/conf"
-	"go-common/app/service/main/account-recovery/service"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/permit"
-	"go-common/library/net/http/blademaster/middleware/verify"
+	"github.com/namelessup/bilibili/app/service/main/account-recovery/conf"
+	"github.com/namelessup/bilibili/app/service/main/account-recovery/service"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/permit"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/verify"
 )
 
 var (

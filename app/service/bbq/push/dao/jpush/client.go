@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"time"
 
-	"go-common/library/stat"
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/library/stat"
+	"github.com/namelessup/bilibili/library/stat/prom"
 )
 
 const (

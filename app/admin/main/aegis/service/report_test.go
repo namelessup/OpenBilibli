@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"
-	"go-common/app/admin/main/aegis/model"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model"
 )
 
 func TestService_ReportTaskSubmit(t *testing.T) {

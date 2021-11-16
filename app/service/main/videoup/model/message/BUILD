@@ -11,7 +11,7 @@ go_library(
         "message.go",
         "message_staff.go",
     ],
-    importpath = "go-common/app/service/main/videoup/model/message",
+    importpath = "github.com/namelessup/bilibili/app/service/main/videoup/model/message",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

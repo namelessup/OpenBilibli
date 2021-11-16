@@ -4,8 +4,8 @@ import (
 	"context"
 	"net/url"
 
-	"go-common/app/job/main/videoup/conf"
-	xhttp "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/job/main/videoup/conf"
+	xhttp "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // Dao is message dao.

@@ -36,7 +36,7 @@ go_library(
         "go_naming.go",
         "main.go",
     ],
-    importpath = "go-common/app/tool/liverpc/protoc-gen-liverpc",
+    importpath = "github.com/namelessup/bilibili/app/tool/liverpc/protoc-gen-liverpc",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -39,7 +39,7 @@ go_library(
         "redis.go",
         "vip.go",
     ],
-    importpath = "go-common/app/service/main/usersuit/dao/pendant",
+    importpath = "github.com/namelessup/bilibili/app/service/main/usersuit/dao/pendant",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

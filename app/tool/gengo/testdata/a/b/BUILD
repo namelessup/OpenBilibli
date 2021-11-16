@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["b.go"],
-    importpath = "go-common/app/tool/gengo/testdata/a/b",
+    importpath = "github.com/namelessup/bilibili/app/tool/gengo/testdata/a/b",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

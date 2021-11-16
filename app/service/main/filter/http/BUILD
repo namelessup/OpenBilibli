@@ -27,7 +27,7 @@ go_library(
         "filter.go",
         "http.go",
     ],
-    importpath = "go-common/app/service/main/filter/http",
+    importpath = "github.com/namelessup/bilibili/app/service/main/filter/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -3,10 +3,10 @@ package service
 import (
 	"context"
 
-	"go-common/app/service/main/card/conf"
-	"go-common/app/service/main/card/dao"
-	"go-common/app/service/main/card/model"
-	viprpc "go-common/app/service/main/vip/rpc/client"
+	"github.com/namelessup/bilibili/app/service/main/card/conf"
+	"github.com/namelessup/bilibili/app/service/main/card/dao"
+	"github.com/namelessup/bilibili/app/service/main/card/model"
+	viprpc "github.com/namelessup/bilibili/app/service/main/vip/rpc/client"
 )
 
 // Service struct

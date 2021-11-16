@@ -5,14 +5,14 @@ import (
 	"encoding/json"
 	"time"
 
-	jobmdl "go-common/app/job/main/archive/model/databus"
-	"go-common/app/job/main/archive/model/result"
-	accgrpc "go-common/app/service/main/account/api"
-	"go-common/app/service/main/archive/api"
-	arcmdl "go-common/app/service/main/archive/model/archive"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
+	jobmdl "github.com/namelessup/bilibili/app/job/main/archive/model/databus"
+	"github.com/namelessup/bilibili/app/job/main/archive/model/result"
+	accgrpc "github.com/namelessup/bilibili/app/service/main/account/api"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	arcmdl "github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 const (

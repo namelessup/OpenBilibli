@@ -18,7 +18,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["dsn.go"],
-    importpath = "go-common/app/infra/databus/dsn",
+    importpath = "github.com/namelessup/bilibili/app/infra/databus/dsn",
     tags = ["automanaged"],
 )
 

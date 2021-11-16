@@ -25,7 +25,7 @@ go_library(
         "dao.go",
         "rpc.go",
     ],
-    importpath = "go-common/app/job/main/up/dao/account",
+    importpath = "github.com/namelessup/bilibili/app/job/main/up/dao/account",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

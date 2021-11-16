@@ -29,7 +29,7 @@ go_library(
         "review.go",
         "search.go",
     ],
-    importpath = "go-common/app/admin/main/member/model",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/member/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -8,10 +8,10 @@ import (
 	"strconv"
 	"time"
 
-	bwsmdl "go-common/app/interface/main/activity/model/bws"
-	"go-common/library/cache/redis"
-	xsql "go-common/library/database/sql"
-	"go-common/library/log"
+	bwsmdl "github.com/namelessup/bilibili/app/interface/main/activity/model/bws"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

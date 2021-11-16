@@ -9,7 +9,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["dao.go"],
-    importpath = "go-common/app/interface/main/creative/dao/resource",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/creative/dao/resource",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

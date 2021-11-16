@@ -13,7 +13,7 @@ go_library(
         "http.go",
         "player.go",
     ],
-    importpath = "go-common/app/interface/main/report-click/http",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/report-click/http",
     tags = ["automanaged"],
     deps = [
         "//app/interface/main/report-click/conf:go_default_library",

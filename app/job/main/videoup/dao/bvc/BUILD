@@ -21,7 +21,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["dao.go"],
-    importpath = "go-common/app/job/main/videoup/dao/bvc",
+    importpath = "github.com/namelessup/bilibili/app/job/main/videoup/dao/bvc",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

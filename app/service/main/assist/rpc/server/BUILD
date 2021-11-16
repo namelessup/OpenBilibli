@@ -27,7 +27,7 @@ go_library(
         "rpc_assist.go",
         "rpc_log.go",
     ],
-    importpath = "go-common/app/service/main/assist/rpc/server",
+    importpath = "github.com/namelessup/bilibili/app/service/main/assist/rpc/server",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

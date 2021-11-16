@@ -5,20 +5,20 @@ import (
 	"runtime"
 	"time"
 
-	"go-common/app/interface/main/app-view/conf"
-	"go-common/app/interface/main/app-view/model/view"
-	"go-common/app/service/main/archive/api"
-	"go-common/app/service/main/archive/model/archive"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/interface/main/app-view/conf"
+	"github.com/namelessup/bilibili/app/interface/main/app-view/model/view"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 
-	history "go-common/app/interface/main/history/model"
-	hisrpc "go-common/app/interface/main/history/rpc/client"
-	arcrpc "go-common/app/service/main/archive/api/gorpc"
+	history "github.com/namelessup/bilibili/app/interface/main/history/model"
+	hisrpc "github.com/namelessup/bilibili/app/interface/main/history/rpc/client"
+	arcrpc "github.com/namelessup/bilibili/app/service/main/archive/api/gorpc"
 
-	"go-common/library/cache/memcache"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/metadata"
 
 	"github.com/pkg/errors"
 )

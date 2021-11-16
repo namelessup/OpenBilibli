@@ -12,7 +12,7 @@ go_library(
         "service.go",
         "ugc.go",
     ],
-    importpath = "go-common/app/job/main/web-goblin/service/web",
+    importpath = "github.com/namelessup/bilibili/app/job/main/web-goblin/service/web",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

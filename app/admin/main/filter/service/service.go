@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/admin/main/filter/conf"
-	"go-common/app/admin/main/filter/dao"
-	"go-common/app/admin/main/filter/dao/search"
-	"go-common/library/cache"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/filter/conf"
+	"github.com/namelessup/bilibili/app/admin/main/filter/dao"
+	"github.com/namelessup/bilibili/app/admin/main/filter/dao/search"
+	"github.com/namelessup/bilibili/library/cache"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Service struct.

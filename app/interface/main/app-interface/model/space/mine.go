@@ -1,8 +1,8 @@
 package space
 
 import (
-	accv1 "go-common/app/service/main/account/api"
-	accmdl "go-common/app/service/main/account/model"
+	accv1 "github.com/namelessup/bilibili/app/service/main/account/api"
+	accmdl "github.com/namelessup/bilibili/app/service/main/account/model"
 )
 
 // Mine my center struct

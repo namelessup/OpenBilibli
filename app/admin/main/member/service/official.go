@@ -6,13 +6,13 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/admin/main/member/model"
-	"go-common/app/service/main/member/model/block"
-	spymodel "go-common/app/service/main/spy/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/queue/databus/report"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/admin/main/member/model"
+	"github.com/namelessup/bilibili/app/service/main/member/model/block"
+	spymodel "github.com/namelessup/bilibili/app/service/main/spy/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus/report"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	"github.com/pkg/errors"
 )

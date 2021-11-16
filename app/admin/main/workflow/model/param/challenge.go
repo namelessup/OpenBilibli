@@ -4,7 +4,7 @@ import (
 	"net/url"
 	"strconv"
 
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 // ChallengeListCommonParam .

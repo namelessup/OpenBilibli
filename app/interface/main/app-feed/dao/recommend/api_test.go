@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	cdm "go-common/app/interface/main/app-card/model"
+	cdm "github.com/namelessup/bilibili/app/interface/main/app-card/model"
 
 	"github.com/smartystreets/goconvey/convey"
 )

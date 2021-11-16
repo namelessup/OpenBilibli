@@ -22,7 +22,7 @@ go_library(
         "task_info.go",
         "up_base_info.go",
     ],
-    importpath = "go-common/app/job/main/up/dao/upcrm",
+    importpath = "github.com/namelessup/bilibili/app/job/main/up/dao/upcrm",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

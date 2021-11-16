@@ -1,16 +1,16 @@
 package http
 
 import (
-	"go-common/app/interface/main/web-show/conf"
-	"go-common/app/interface/main/web-show/service/job"
-	"go-common/app/interface/main/web-show/service/operation"
-	res "go-common/app/interface/main/web-show/service/resource"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/auth"
-	"go-common/library/net/http/blademaster/middleware/cache"
-	"go-common/library/net/http/blademaster/middleware/cache/store"
-	"go-common/library/net/http/blademaster/middleware/verify"
+	"github.com/namelessup/bilibili/app/interface/main/web-show/conf"
+	"github.com/namelessup/bilibili/app/interface/main/web-show/service/job"
+	"github.com/namelessup/bilibili/app/interface/main/web-show/service/operation"
+	res "github.com/namelessup/bilibili/app/interface/main/web-show/service/resource"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/auth"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/cache"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/cache/store"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/verify"
 )
 
 var (

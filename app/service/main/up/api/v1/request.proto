@@ -126,7 +126,7 @@ message UpStatReq {
   // date 获取计数时间范围
   int64 date = 2 [
     (gogoproto.moretags) = "form:\"date\"",
-    (gogoproto.casttype) = "go-common/library/time.Time"
+    (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"
   ];
 }
 

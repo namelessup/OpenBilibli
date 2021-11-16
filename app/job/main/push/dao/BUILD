@@ -33,7 +33,7 @@ go_library(
         "mysql_task.go",
         "wechat.go",
     ],
-    importpath = "go-common/app/job/main/push/dao",
+    importpath = "github.com/namelessup/bilibili/app/job/main/push/dao",
     tags = ["automanaged"],
     deps = [
         "//app/admin/main/push/model:go_default_library",

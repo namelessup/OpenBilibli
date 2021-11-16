@@ -3,8 +3,8 @@ package http
 import (
 	"net/http"
 
-	"go-common/app/admin/ep/merlin/model"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/ep/merlin/model"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func userTree(c *bm.Context) {

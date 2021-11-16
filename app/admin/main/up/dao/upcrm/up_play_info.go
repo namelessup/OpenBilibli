@@ -1,6 +1,6 @@
 package upcrm
 
-import "go-common/app/admin/main/up/model/upcrmmodel"
+import "github.com/namelessup/bilibili/app/admin/main/up/model/upcrmmodel"
 
 //QueryPlayInfo query db
 func (d *Dao) QueryPlayInfo(mid int64, busiType []int) (result []upcrmmodel.UpPlayInfo, err error) {

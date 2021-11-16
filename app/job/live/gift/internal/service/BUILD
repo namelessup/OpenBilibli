@@ -13,7 +13,7 @@ go_library(
         "package.go",
         "service.go",
     ],
-    importpath = "go-common/app/job/live/gift/internal/service",
+    importpath = "github.com/namelessup/bilibili/app/job/live/gift/internal/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

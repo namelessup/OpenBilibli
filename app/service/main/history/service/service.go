@@ -4,12 +4,12 @@ import (
 	"context"
 	"errors"
 
-	"go-common/app/service/main/history/conf"
-	"go-common/app/service/main/history/dao"
-	"go-common/app/service/main/history/model"
-	"go-common/library/ecode"
-	"go-common/library/sync/pipeline"
-	"go-common/library/sync/pipeline/fanout"
+	"github.com/namelessup/bilibili/app/service/main/history/conf"
+	"github.com/namelessup/bilibili/app/service/main/history/dao"
+	"github.com/namelessup/bilibili/app/service/main/history/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/sync/pipeline"
+	"github.com/namelessup/bilibili/library/sync/pipeline/fanout"
 )
 
 const asyncProcNum = 100

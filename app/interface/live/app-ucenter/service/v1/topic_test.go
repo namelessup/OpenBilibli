@@ -6,12 +6,12 @@ import (
 	"fmt"
 	"testing"
 
-	"go-common/app/interface/live/app-ucenter/api/http/v1"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/live/app-ucenter/api/http/v1"
+	"github.com/namelessup/bilibili/library/net/metadata"
 
 	. "github.com/smartystreets/goconvey/convey"
 
-	"go-common/app/interface/live/app-ucenter/conf"
+	"github.com/namelessup/bilibili/app/interface/live/app-ucenter/conf"
 )
 
 var topic *TopicService

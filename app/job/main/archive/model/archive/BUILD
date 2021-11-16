@@ -13,7 +13,7 @@ go_library(
         "track.go",
         "video.go",
     ],
-    importpath = "go-common/app/job/main/archive/model/archive",
+    importpath = "github.com/namelessup/bilibili/app/job/main/archive/model/archive",
     tags = ["automanaged"],
     deps = ["//library/time:go_default_library"],
 )

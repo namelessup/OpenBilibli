@@ -7,9 +7,9 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/app/interface/main/laser/conf"
-	"go-common/app/interface/main/laser/http"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/laser/conf"
+	"github.com/namelessup/bilibili/app/interface/main/laser/http"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func main() {

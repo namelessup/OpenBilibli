@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"testing"
 
-	"go-common/app/interface/main/tv/model/thirdp"
+	"github.com/namelessup/bilibili/app/interface/main/tv/model/thirdp"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

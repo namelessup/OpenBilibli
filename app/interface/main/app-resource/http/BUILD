@@ -26,7 +26,7 @@ go_library(
         "version.go",
         "white.go",
     ],
-    importpath = "go-common/app/interface/main/app-resource/http",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-resource/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

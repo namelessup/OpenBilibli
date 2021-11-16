@@ -90,7 +90,7 @@
 
 #### 1.1.0
 > 1.启用新的统一的手机验证实名制限制策略   
-> 2.更新govendor包， go-business和go-common
+> 2.更新govendor包， go-business和github.com/namelessup/bilibili
 > 3.添加任命和卸载协管的时候，发【站内消息-系统通知】的内容
 
 #### 1.0.8
@@ -116,7 +116,7 @@
 > 3.添加协管的RPC接口:RPC.AssistIDs  
 
 #### 1.0.2
-> 1.go-common升级到6.17.0
+> 1.github.com/namelessup/bilibili升级到6.17.0
 > 2.为log-agent做准备
 > 3.重构prom的接入方式
 

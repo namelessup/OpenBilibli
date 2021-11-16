@@ -2,19 +2,19 @@ package http
 
 import (
 	"fmt"
-	"go-common/library/ecode"
-	"go-common/library/net/http/blademaster/middleware/antispam"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/antispam"
 	"net/http"
 
-	"go-common/app/interface/bbq/app-bbq/api/http/v1"
-	"go-common/app/interface/bbq/app-bbq/conf"
-	"go-common/app/interface/bbq/app-bbq/service"
-	xauth "go-common/app/interface/bbq/common/auth"
-	chttp "go-common/app/interface/bbq/common/http"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/verify"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/app/interface/bbq/app-bbq/api/http/v1"
+	"github.com/namelessup/bilibili/app/interface/bbq/app-bbq/conf"
+	"github.com/namelessup/bilibili/app/interface/bbq/app-bbq/service"
+	xauth "github.com/namelessup/bilibili/app/interface/bbq/common/auth"
+	chttp "github.com/namelessup/bilibili/app/interface/bbq/common/http"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/verify"
+	"github.com/namelessup/bilibili/library/net/trace"
 )
 
 var (

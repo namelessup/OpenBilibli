@@ -1,6 +1,6 @@
 package mcnmodel
 
-import "go-common/app/interface/main/mcn/model"
+import "github.com/namelessup/bilibili/app/interface/main/mcn/model"
 
 //isUpBindable
 // up主为未绑定，已驳回，已解除，已申请的up主可被申请，up主拒绝后可重复申请，

@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"go-common/app/admin/main/videoup-task/conf"
+	"github.com/namelessup/bilibili/app/admin/main/videoup-task/conf"
 
 	"gopkg.in/h2non/gock.v1"
 )

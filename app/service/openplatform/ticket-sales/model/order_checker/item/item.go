@@ -6,14 +6,14 @@ import (
 	"strings"
 	"time"
 
-	acc "go-common/app/service/main/account/model"
-	vip "go-common/app/service/main/vip/model"
-	itm "go-common/app/service/openplatform/ticket-item/api/grpc/v1"
-	rpc "go-common/app/service/openplatform/ticket-sales/api/grpc/v1"
-	"go-common/app/service/openplatform/ticket-sales/dao"
-	"go-common/app/service/openplatform/ticket-sales/model/consts"
-	"go-common/app/service/openplatform/ticket-sales/model/order_checker/account"
-	"go-common/library/ecode"
+	acc "github.com/namelessup/bilibili/app/service/main/account/model"
+	vip "github.com/namelessup/bilibili/app/service/main/vip/model"
+	itm "github.com/namelessup/bilibili/app/service/openplatform/ticket-item/api/grpc/v1"
+	rpc "github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/dao"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/model/consts"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/model/order_checker/account"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 //Checker 检查商品信息

@@ -3,9 +3,9 @@ package ugc
 import (
 	"context"
 
-	arccli "go-common/app/service/main/archive/api"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	arccli "github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // viewCache distinguishes the archive's license status,

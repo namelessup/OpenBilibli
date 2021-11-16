@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 
-	"go-common/app/interface/main/feedback/conf"
-	"go-common/app/interface/main/feedback/dao"
-	locrpc "go-common/app/service/main/location/rpc/client"
+	"github.com/namelessup/bilibili/app/interface/main/feedback/conf"
+	"github.com/namelessup/bilibili/app/interface/main/feedback/dao"
+	locrpc "github.com/namelessup/bilibili/app/service/main/location/rpc/client"
 )
 
 // Service struct.

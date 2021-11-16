@@ -9,12 +9,12 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/interface/main/app-wall/dao/padding"
-	"go-common/app/interface/main/app-wall/model"
-	"go-common/library/ecode"
-	log "go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/main/app-wall/dao/padding"
+	"github.com/namelessup/bilibili/app/interface/main/app-wall/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	log "github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 // wallShikeClick

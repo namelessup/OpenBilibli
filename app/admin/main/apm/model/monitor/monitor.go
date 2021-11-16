@@ -1,7 +1,7 @@
 package monitor
 
 import (
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 // TableName define table name

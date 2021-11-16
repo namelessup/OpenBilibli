@@ -21,7 +21,7 @@ proto_library(
 go_proto_library(
     name = "api_go_proto",
     compilers = ["@io_bazel_rules_go//proto:gogofast_grpc"],
-    importpath = "go-common/app/service/main/archive/api",
+    importpath = "github.com/namelessup/bilibili/app/service/main/archive/api",
     proto = ":api_proto",
     tags = ["automanaged"],
     deps = [
@@ -48,7 +48,7 @@ go_library(
         "model.go",
     ],
     embed = [":api_go_proto"],
-    importpath = "go-common/app/service/main/archive/api",
+    importpath = "github.com/namelessup/bilibili/app/service/main/archive/api",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

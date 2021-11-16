@@ -10,7 +10,7 @@ go_library(
         "doc.go",
         "group.go",
     ],
-    importpath = "go-common/library/queue/databus/databusutil",
+    importpath = "github.com/namelessup/bilibili/library/queue/databus/databusutil",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

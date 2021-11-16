@@ -5,7 +5,7 @@ import (
 	"net/url"
 	"testing"
 
-	"go-common/app/admin/main/apm/model/canal"
+	"github.com/namelessup/bilibili/app/admin/main/apm/model/canal"
 
 	"github.com/BurntSushi/toml"
 	. "github.com/smartystreets/goconvey/convey"

@@ -7,7 +7,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["infoc.go"],
-    importpath = "go-common/library/log/infoc",
+    importpath = "github.com/namelessup/bilibili/library/log/infoc",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

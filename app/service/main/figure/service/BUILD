@@ -25,7 +25,7 @@ go_library(
         "rank.go",
         "service.go",
     ],
-    importpath = "go-common/app/service/main/figure/service",
+    importpath = "github.com/namelessup/bilibili/app/service/main/figure/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

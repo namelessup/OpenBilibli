@@ -12,9 +12,9 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/admin/main/creative/conf"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/creative/conf"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // bfs info

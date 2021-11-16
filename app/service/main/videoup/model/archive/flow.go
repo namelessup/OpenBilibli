@@ -2,7 +2,7 @@ package archive
 
 import (
 	"encoding/json"
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 // pool .

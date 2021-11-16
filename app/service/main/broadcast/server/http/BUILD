@@ -14,7 +14,7 @@ go_library(
         "push.go",
         "server.go",
     ],
-    importpath = "go-common/app/service/main/broadcast/server/http",
+    importpath = "github.com/namelessup/bilibili/app/service/main/broadcast/server/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"go-common/app/admin/main/growup/conf"
+	"github.com/namelessup/bilibili/app/admin/main/growup/conf"
 )
 
 func TestMain(m *testing.M) {

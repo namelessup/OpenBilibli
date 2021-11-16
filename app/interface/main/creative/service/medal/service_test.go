@@ -3,13 +3,13 @@ package medal
 import (
 	"context"
 	"flag"
-	"go-common/app/interface/main/creative/conf"
-	mdMdl "go-common/app/interface/main/creative/model/medal"
+	"github.com/namelessup/bilibili/app/interface/main/creative/conf"
+	mdMdl "github.com/namelessup/bilibili/app/interface/main/creative/model/medal"
 	"path/filepath"
 	"testing"
 	"time"
 
-	"go-common/app/interface/main/creative/service"
+	"github.com/namelessup/bilibili/app/interface/main/creative/service"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

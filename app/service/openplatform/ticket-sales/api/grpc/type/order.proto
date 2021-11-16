@@ -20,8 +20,8 @@ message OrderSKU {
     repeated int64 seat_ids = 6 [(gogoproto.jsontag) = "seat_ids", (gogoproto.customname) = "SeatIDs"];
     int32 ticket_type = 7 [(gogoproto.jsontag) = "ticket_type", (gogoproto.casttype) = "int16"];
     OrderSKUDiscounts discounts = 8 [(gogoproto.jsontag) = "discounts"];
-    int64 ctime = 9 [(gogoproto.jsontag) = "-", (gogoproto.customname) = "CTime", (gogoproto.casttype) = "go-common/library/time.Time"];
-    int64 mtime = 10 [(gogoproto.jsontag) = "-", (gogoproto.customname) = "MTime", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int64 ctime = 9 [(gogoproto.jsontag) = "-", (gogoproto.customname) = "CTime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
+    int64 mtime = 10 [(gogoproto.jsontag) = "-", (gogoproto.customname) = "MTime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
 }
 
 //OrderPayCharge 订单支付信息
@@ -32,8 +32,8 @@ message OrderPayCharge {
     int32 paid = 4 [(gogoproto.jsontag) = "paid", (gogoproto.casttype) = "int16"];
     int32 refunded = 5 [(gogoproto.jsontag) = "refunded", (gogoproto.casttype) = "int16"];
     int64 pay_time = 6 [(gogoproto.jsontag) = "-"];
-    int64 ctime = 7 [(gogoproto.jsontag) = "-", (gogoproto.customname) = "CTime", (gogoproto.casttype) = "go-common/library/time.Time"];
-    int64 mtime = 8 [(gogoproto.jsontag) = "-", (gogoproto.customname) = "MTime", (gogoproto.casttype) = "go-common/library/time.Time"];
+    int64 ctime = 7 [(gogoproto.jsontag) = "-", (gogoproto.customname) = "CTime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
+    int64 mtime = 8 [(gogoproto.jsontag) = "-", (gogoproto.customname) = "MTime", (gogoproto.casttype) = "github.com/namelessup/bilibili/library/time.Time"];
 }
 
 //OrderItemInfo 订单中的商品快照

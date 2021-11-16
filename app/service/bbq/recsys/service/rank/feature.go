@@ -1,11 +1,11 @@
 package rank
 
 import (
-	recsys "go-common/app/service/bbq/recsys/api/grpc/v1"
-	"go-common/app/service/bbq/recsys/model"
-	"go-common/app/service/bbq/recsys/service/retrieve"
-	"go-common/app/service/bbq/recsys/service/util"
-	"go-common/library/log"
+	recsys "github.com/namelessup/bilibili/app/service/bbq/recsys/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/bbq/recsys/model"
+	"github.com/namelessup/bilibili/app/service/bbq/recsys/service/retrieve"
+	"github.com/namelessup/bilibili/app/service/bbq/recsys/service/util"
+	"github.com/namelessup/bilibili/library/log"
 	"math"
 	"strconv"
 	"strings"

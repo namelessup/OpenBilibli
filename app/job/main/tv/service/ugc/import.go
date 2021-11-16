@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"time"
 
-	appDao "go-common/app/job/main/tv/dao/app"
-	ugcmdl "go-common/app/job/main/tv/model/ugc"
-	arccli "go-common/app/service/main/archive/api"
-	arcmdl "go-common/app/service/main/archive/model/archive"
-	"go-common/library/database/sql"
-	"go-common/library/log"
+	appDao "github.com/namelessup/bilibili/app/job/main/tv/dao/app"
+	ugcmdl "github.com/namelessup/bilibili/app/job/main/tv/model/ugc"
+	arccli "github.com/namelessup/bilibili/app/service/main/archive/api"
+	arcmdl "github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

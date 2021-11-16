@@ -3,8 +3,8 @@ package dao
 import (
 	"database/sql"
 
-	"go-common/app/admin/ep/marthe/model"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/admin/ep/marthe/model"
+	"github.com/namelessup/bilibili/library/ecode"
 
 	pkgerr "github.com/pkg/errors"
 )

@@ -3,7 +3,7 @@ package thumbup
 import (
 	"context"
 	"flag"
-	"go-common/app/interface/main/app-view/conf"
+	"github.com/namelessup/bilibili/app/interface/main/app-view/conf"
 	"os"
 	"testing"
 

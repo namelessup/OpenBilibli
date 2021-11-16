@@ -13,7 +13,7 @@ go_library(
         "login_log.go",
         "pwd.go",
     ],
-    importpath = "go-common/app/service/main/passport/http",
+    importpath = "github.com/namelessup/bilibili/app/service/main/passport/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

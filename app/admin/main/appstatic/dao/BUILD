@@ -29,7 +29,7 @@ go_library(
         "up_nas.go",
         "upbfs.go",
     ],
-    importpath = "go-common/app/admin/main/appstatic/dao",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/appstatic/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

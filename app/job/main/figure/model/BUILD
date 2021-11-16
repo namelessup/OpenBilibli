@@ -13,7 +13,7 @@ go_library(
         "msg.go",
         "reply.go",
     ],
-    importpath = "go-common/app/job/main/figure/model",
+    importpath = "github.com/namelessup/bilibili/app/job/main/figure/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

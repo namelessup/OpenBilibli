@@ -22,7 +22,7 @@ import fmt "fmt"
 import math "math"
 import _ "github.com/gogo/protobuf/gogoproto"
 
-import go_common_library_time "go-common/library/time"
+import go_common_library_time "github.com/namelessup/bilibili/library/time"
 
 import binary "encoding/binary"
 
@@ -53,8 +53,8 @@ type CouponInfo struct {
 	Oid         int64                       `protobuf:"varint,11,opt,name=Oid,proto3" json:"oid"`
 	Remark      string                      `protobuf:"bytes,12,opt,name=Remark,proto3" json:"remark"`
 	UseVer      int64                       `protobuf:"varint,13,opt,name=UseVer,proto3" json:"use_ver"`
-	CTime       go_common_library_time.Time `protobuf:"varint,14,opt,name=CTime,proto3,casttype=go-common/library/time.Time" json:"-"`
-	MTime       go_common_library_time.Time `protobuf:"varint,15,opt,name=MTime,proto3,casttype=go-common/library/time.Time" json:"-"`
+	CTime       go_common_library_time.Time `protobuf:"varint,14,opt,name=CTime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"-"`
+	MTime       go_common_library_time.Time `protobuf:"varint,15,opt,name=MTime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"-"`
 	BatchToken  string                      `protobuf:"bytes,16,opt,name=BatchToken,proto3" json:"batch_token"`
 }
 
@@ -82,8 +82,8 @@ type CouponBalanceInfo struct {
 	Origin     int64                       `protobuf:"varint,7,opt,name=Origin,proto3" json:"origin"`
 	CouponType int64                       `protobuf:"varint,8,opt,name=CouponType,proto3" json:"coupon_type"`
 	Ver        int64                       `protobuf:"varint,9,opt,name=Ver,proto3" json:"ver"`
-	CTime      go_common_library_time.Time `protobuf:"varint,10,opt,name=CTime,proto3,casttype=go-common/library/time.Time" json:"-"`
-	MTime      go_common_library_time.Time `protobuf:"varint,11,opt,name=MTime,proto3,casttype=go-common/library/time.Time" json:"-"`
+	CTime      go_common_library_time.Time `protobuf:"varint,10,opt,name=CTime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"-"`
+	MTime      go_common_library_time.Time `protobuf:"varint,11,opt,name=MTime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"-"`
 }
 
 func (m *CouponBalanceInfo) Reset()                    { *m = CouponBalanceInfo{} }
@@ -111,8 +111,8 @@ type CouponAllowanceInfo struct {
 	OrderNO     string                      `protobuf:"bytes,8,opt,name=OrderNO,proto3" json:"order_no"`
 	Ver         int64                       `protobuf:"varint,9,opt,name=Ver,proto3" json:"ver"`
 	Remark      string                      `protobuf:"bytes,10,opt,name=Remark,proto3" json:"remark"`
-	CTime       go_common_library_time.Time `protobuf:"varint,11,opt,name=CTime,proto3,casttype=go-common/library/time.Time" json:"-"`
-	MTime       go_common_library_time.Time `protobuf:"varint,12,opt,name=MTime,proto3,casttype=go-common/library/time.Time" json:"-"`
+	CTime       go_common_library_time.Time `protobuf:"varint,11,opt,name=CTime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"-"`
+	MTime       go_common_library_time.Time `protobuf:"varint,12,opt,name=MTime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"-"`
 	BatchToken  string                      `protobuf:"bytes,13,opt,name=BatchToken,proto3" json:"batch_token"`
 	Amount      float64                     `protobuf:"fixed64,14,opt,name=Amount,proto3" json:"amount"`
 	FullAmount  float64                     `protobuf:"fixed64,15,opt,name=FullAmount,proto3" json:"full_amount"`

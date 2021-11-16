@@ -7,6 +7,6 @@
 > 请只用golang v1.8.x以上版本编译执行。
 
 #### 依赖包
-> 1.公共包go-common
+> 1.公共包github.com/namelessup/bilibili
 
 #### 特别说明

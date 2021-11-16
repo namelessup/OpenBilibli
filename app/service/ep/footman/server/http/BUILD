@@ -13,7 +13,7 @@ go_library(
         "http.go",
         "tapd.go",
     ],
-    importpath = "go-common/app/service/ep/footman/server/http",
+    importpath = "github.com/namelessup/bilibili/app/service/ep/footman/server/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

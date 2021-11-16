@@ -21,7 +21,7 @@ go_library(
         "achive.go",
         "service.go",
     ],
-    importpath = "go-common/app/job/main/feed/service",
+    importpath = "github.com/namelessup/bilibili/app/job/main/feed/service",
     tags = ["automanaged"],
     deps = [
         "//app/job/main/feed/conf:go_default_library",

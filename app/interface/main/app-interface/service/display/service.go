@@ -1,8 +1,8 @@
 package display
 
 import (
-	"go-common/app/interface/main/app-interface/conf"
-	locdao "go-common/app/interface/main/app-interface/dao/location"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/conf"
+	locdao "github.com/namelessup/bilibili/app/interface/main/app-interface/dao/location"
 )
 
 // Service is zone service.

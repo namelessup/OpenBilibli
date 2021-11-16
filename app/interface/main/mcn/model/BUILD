@@ -12,7 +12,7 @@ go_library(
         "model.go",
         "request_base.go",
     ],
-    importpath = "go-common/app/interface/main/mcn/model",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/mcn/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

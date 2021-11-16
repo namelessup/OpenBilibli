@@ -3,8 +3,8 @@ package http
 /**import (
 	"github.com/pkg/errors"
 
-	"go-common/app/service/openplatform/ticket-item/model"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-item/model"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // @params ParamID

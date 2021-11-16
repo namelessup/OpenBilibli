@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"go-common/app/interface/main/web-goblin/model/wechat"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/interface/main/web-goblin/model/wechat"
+	"github.com/namelessup/bilibili/library/ecode"
 
 	"github.com/smartystreets/goconvey/convey"
 )

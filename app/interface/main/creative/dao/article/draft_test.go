@@ -5,8 +5,8 @@ import (
 
 	"testing"
 
-	artMdl "go-common/app/interface/main/creative/model/article"
-	"go-common/library/ecode"
+	artMdl "github.com/namelessup/bilibili/app/interface/main/creative/model/article"
+	"github.com/namelessup/bilibili/library/ecode"
 
 	"github.com/smartystreets/goconvey/convey"
 )

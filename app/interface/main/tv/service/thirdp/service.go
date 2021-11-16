@@ -3,12 +3,12 @@ package thirdp
 import (
 	"context"
 
-	"go-common/app/interface/main/tv/conf"
-	"go-common/app/interface/main/tv/dao/archive"
-	cmsDao "go-common/app/interface/main/tv/dao/cms"
-	"go-common/app/interface/main/tv/dao/thirdp"
-	tpMdl "go-common/app/interface/main/tv/model/thirdp"
-	xcache "go-common/library/cache"
+	"github.com/namelessup/bilibili/app/interface/main/tv/conf"
+	"github.com/namelessup/bilibili/app/interface/main/tv/dao/archive"
+	cmsDao "github.com/namelessup/bilibili/app/interface/main/tv/dao/cms"
+	"github.com/namelessup/bilibili/app/interface/main/tv/dao/thirdp"
+	tpMdl "github.com/namelessup/bilibili/app/interface/main/tv/model/thirdp"
+	xcache "github.com/namelessup/bilibili/library/cache"
 )
 
 var (

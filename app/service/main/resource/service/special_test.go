@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"testing"
 
-	pb "go-common/app/service/main/resource/api/v1"
+	pb "github.com/namelessup/bilibili/app/service/main/resource/api/v1"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

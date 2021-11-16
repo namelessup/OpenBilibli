@@ -13,7 +13,7 @@ go_library(
         "http.go",
         "main.go",
     ],
-    importpath = "go-common/app/tool/grpc-http-proxy",
+    importpath = "github.com/namelessup/bilibili/app/tool/grpc-http-proxy",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

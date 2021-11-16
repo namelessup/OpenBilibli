@@ -15,7 +15,7 @@ go_binary(
 go_library(
     name = "go_default_library",
     srcs = ["main.go"],
-    importpath = "go-common/app/admin/main/cache/script",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/cache/script",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//vendor/gopkg.in/yaml.v2:go_default_library"],

@@ -4,10 +4,10 @@ import (
 	"context"
 	"crypto/sha1"
 	"fmt"
-	"go-common/app/interface/bbq/wechat/dao"
-	"go-common/app/interface/bbq/wechat/internal/conf"
-	"go-common/app/interface/bbq/wechat/internal/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/bbq/wechat/dao"
+	"github.com/namelessup/bilibili/app/interface/bbq/wechat/internal/conf"
+	"github.com/namelessup/bilibili/app/interface/bbq/wechat/internal/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Service struct

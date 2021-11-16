@@ -5,8 +5,8 @@ import (
 	"net/url"
 	"strconv"
 
-	"go-common/library/ecode"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 const _onlineCountURI = "/x/internal/chat/num/ol"

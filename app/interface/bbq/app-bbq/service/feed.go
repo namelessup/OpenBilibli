@@ -4,18 +4,18 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"go-common/app/service/bbq/common"
+	"github.com/namelessup/bilibili/app/service/bbq/common"
 	"time"
 
-	v1 "go-common/app/interface/bbq/app-bbq/api/http/v1"
-	"go-common/app/interface/bbq/app-bbq/model"
+	v1 "github.com/namelessup/bilibili/app/interface/bbq/app-bbq/api/http/v1"
+	"github.com/namelessup/bilibili/app/interface/bbq/app-bbq/model"
 
-	video "go-common/app/service/bbq/video/api/grpc/v1"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/trace"
-	xtime "go-common/library/time"
+	video "github.com/namelessup/bilibili/app/service/bbq/video/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/trace"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // FeedUpdateNum 关注页红点

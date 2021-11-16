@@ -12,7 +12,7 @@ go_library(
         "income.go",
         "trade.go",
     ],
-    importpath = "go-common/app/interface/main/ugcpay/server/http",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/ugcpay/server/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -6,16 +6,16 @@ import (
 	"sync"
 	"time"
 
-	"go-common/app/job/main/app/conf"
-	monitordao "go-common/app/job/main/app/dao/monitor"
-	spacedao "go-common/app/job/main/app/dao/space"
-	viewdao "go-common/app/job/main/app/dao/view"
-	"go-common/app/job/main/app/model"
-	accapi "go-common/app/service/main/account/api"
-	arcrpc "go-common/app/service/main/archive/api/gorpc"
-	resmdl "go-common/app/service/main/resource/model"
-	resrpc "go-common/app/service/main/resource/rpc/client"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/job/main/app/conf"
+	monitordao "github.com/namelessup/bilibili/app/job/main/app/dao/monitor"
+	spacedao "github.com/namelessup/bilibili/app/job/main/app/dao/space"
+	viewdao "github.com/namelessup/bilibili/app/job/main/app/dao/view"
+	"github.com/namelessup/bilibili/app/job/main/app/model"
+	accapi "github.com/namelessup/bilibili/app/service/main/account/api"
+	arcrpc "github.com/namelessup/bilibili/app/service/main/archive/api/gorpc"
+	resmdl "github.com/namelessup/bilibili/app/service/main/resource/model"
+	resrpc "github.com/namelessup/bilibili/app/service/main/resource/rpc/client"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 // Service is service.

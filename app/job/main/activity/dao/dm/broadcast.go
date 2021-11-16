@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"time"
 
-	model "go-common/app/job/main/activity/model/dm"
-	"go-common/library/log"
+	model "github.com/namelessup/bilibili/app/job/main/activity/model/dm"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Broadcast dm broadcast.

@@ -3,7 +3,7 @@ package metadata
 import (
 	"context"
 
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 // FromContext get metadata from context.

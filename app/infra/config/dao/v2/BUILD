@@ -39,7 +39,7 @@ go_library(
         "redis.go",
         "tag.go",
     ],
-    importpath = "go-common/app/infra/config/dao/v2",
+    importpath = "github.com/namelessup/bilibili/app/infra/config/dao/v2",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

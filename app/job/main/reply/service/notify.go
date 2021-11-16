@@ -7,13 +7,13 @@ import (
 	"net/url"
 	"strconv"
 
-	artmdl "go-common/app/interface/openplatform/article/model"
-	model "go-common/app/job/main/reply/model/reply"
-	accmdl "go-common/app/service/main/account/api"
-	"go-common/app/service/main/archive/api"
-	arcmdl "go-common/app/service/main/archive/model/archive"
-	epmdl "go-common/app/service/openplatform/pgc-season/api/grpc/episode/v1"
-	"go-common/library/log"
+	artmdl "github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	model "github.com/namelessup/bilibili/app/job/main/reply/model/reply"
+	accmdl "github.com/namelessup/bilibili/app/service/main/account/api"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	arcmdl "github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	epmdl "github.com/namelessup/bilibili/app/service/openplatform/pgc-season/api/grpc/episode/v1"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

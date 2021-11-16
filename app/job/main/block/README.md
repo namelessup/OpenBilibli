@@ -7,6 +7,6 @@
 golang > 1.8
 
 # 依赖包
-go-common
+github.com/namelessup/bilibili
 
 # 编译执行

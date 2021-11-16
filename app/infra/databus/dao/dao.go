@@ -3,8 +3,8 @@ package dao
 import (
 	"context"
 
-	"go-common/app/infra/databus/conf"
-	"go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/infra/databus/conf"
+	"github.com/namelessup/bilibili/library/database/sql"
 )
 
 // Dao mysql struct

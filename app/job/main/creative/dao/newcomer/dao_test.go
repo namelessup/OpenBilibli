@@ -2,7 +2,7 @@ package newcomer
 
 import (
 	"flag"
-	"go-common/app/job/main/creative/conf"
+	"github.com/namelessup/bilibili/app/job/main/creative/conf"
 	"os"
 	"testing"
 )

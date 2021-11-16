@@ -2,9 +2,9 @@ package search
 
 import (
 	"context"
-	"go-common/app/interface/main/creative/conf"
-	"go-common/library/database/elastic"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/interface/main/creative/conf"
+	"github.com/namelessup/bilibili/library/database/elastic"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // Dao is search dao.

@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 // audit related consts

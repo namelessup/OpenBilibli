@@ -3,12 +3,12 @@ package data
 import (
 	"context"
 	"encoding/binary"
-	"go-common/app/interface/main/creative/model/data"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/data"
+	"github.com/namelessup/bilibili/library/ecode"
 	"reflect"
 	"testing"
 
-	hbase "go-common/library/database/hbase.v2"
+	hbase "github.com/namelessup/bilibili/library/database/hbase.v2"
 
 	"github.com/bouk/monkey"
 	"github.com/smartystreets/goconvey/convey"

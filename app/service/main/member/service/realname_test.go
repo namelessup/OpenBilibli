@@ -9,8 +9,8 @@ import (
 
 	"github.com/bouk/monkey"
 
-	"go-common/app/service/main/member/dao"
-	"go-common/app/service/main/member/model"
+	"github.com/namelessup/bilibili/app/service/main/member/dao"
+	"github.com/namelessup/bilibili/app/service/main/member/model"
 
 	"github.com/smartystreets/goconvey/convey"
 )

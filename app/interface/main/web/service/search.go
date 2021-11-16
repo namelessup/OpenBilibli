@@ -3,12 +3,12 @@ package service
 import (
 	"context"
 
-	"go-common/app/interface/main/web/model"
-	accmdl "go-common/app/service/main/account/api"
-	relmdl "go-common/app/service/main/relation/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/interface/main/web/model"
+	accmdl "github.com/namelessup/bilibili/app/service/main/account/api"
+	relmdl "github.com/namelessup/bilibili/app/service/main/relation/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 const _searchEggWebPlat = 6

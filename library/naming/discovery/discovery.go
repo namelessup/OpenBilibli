@@ -13,16 +13,16 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go-common/library/conf/env"
-	"go-common/library/ecode"
-	"go-common/library/exp/feature"
-	"go-common/library/log"
-	"go-common/library/naming"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/netutil"
-	"go-common/library/net/netutil/breaker"
-	xtime "go-common/library/time"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/library/conf/env"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/exp/feature"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/naming"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/netutil"
+	"github.com/namelessup/bilibili/library/net/netutil/breaker"
+	xtime "github.com/namelessup/bilibili/library/time"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 const (

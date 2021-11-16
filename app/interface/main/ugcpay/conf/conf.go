@@ -4,12 +4,12 @@ import (
 	"errors"
 	"flag"
 
-	"go-common/library/conf"
-	ecode "go-common/library/ecode/tip"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/antispam"
-	"go-common/library/net/http/blademaster/middleware/auth"
+	"github.com/namelessup/bilibili/library/conf"
+	ecode "github.com/namelessup/bilibili/library/ecode/tip"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/antispam"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/auth"
 
 	"github.com/BurntSushi/toml"
 )

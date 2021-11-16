@@ -15,7 +15,7 @@ go_library(
         "redis.go",
         "search.go",
     ],
-    importpath = "go-common/app/job/main/workflow/dao",
+    importpath = "github.com/namelessup/bilibili/app/job/main/workflow/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -45,7 +45,7 @@ go_library(
         "redis.go",
         "search.go",
     ],
-    importpath = "go-common/app/interface/main/dm/dao",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/dm/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

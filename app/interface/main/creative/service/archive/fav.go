@@ -5,7 +5,7 @@ import (
 	"sort"
 	"strconv"
 
-	"go-common/app/interface/main/creative/model/archive"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/archive"
 )
 
 // get max 5 fav types

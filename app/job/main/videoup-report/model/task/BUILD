@@ -12,7 +12,7 @@ go_library(
         "task_dispatch.go",
         "task_weight.go",
     ],
-    importpath = "go-common/app/job/main/videoup-report/model/task",
+    importpath = "github.com/namelessup/bilibili/app/job/main/videoup-report/model/task",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//app/job/main/videoup-report/model/utils:go_default_library"],

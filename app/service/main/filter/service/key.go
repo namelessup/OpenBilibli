@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"regexp"
 
-	"go-common/app/service/main/filter/model"
-	"go-common/app/service/main/filter/model/actriearea"
-	"go-common/app/service/main/filter/model/actriekey"
-	"go-common/app/service/main/filter/model/lrulist"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/filter/model"
+	"github.com/namelessup/bilibili/app/service/main/filter/model/actriearea"
+	"github.com/namelessup/bilibili/app/service/main/filter/model/actriekey"
+	"github.com/namelessup/bilibili/app/service/main/filter/model/lrulist"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // todo 替换*号规则和业务过滤一致

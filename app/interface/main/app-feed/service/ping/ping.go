@@ -3,9 +3,9 @@ package ping
 import (
 	"context"
 
-	"go-common/app/interface/main/app-feed/conf"
-	arcdao "go-common/app/interface/main/app-feed/dao/archive"
-	adtdao "go-common/app/interface/main/app-feed/dao/audit"
+	"github.com/namelessup/bilibili/app/interface/main/app-feed/conf"
+	arcdao "github.com/namelessup/bilibili/app/interface/main/app-feed/dao/archive"
+	adtdao "github.com/namelessup/bilibili/app/interface/main/app-feed/dao/audit"
 )
 
 type Service struct {

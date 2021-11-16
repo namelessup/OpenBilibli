@@ -11,7 +11,7 @@ go_library(
         "reply.go",
         "sql.go",
     ],
-    importpath = "go-common/app/job/main/reply/model/reply",
+    importpath = "github.com/namelessup/bilibili/app/job/main/reply/model/reply",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

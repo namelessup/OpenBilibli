@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["coin-service-test.toml"],
-    importpath = "go-common/app/service/main/coin/cmd",
+    importpath = "github.com/namelessup/bilibili/app/service/main/coin/cmd",
     tags = ["automanaged"],
     deps = [
         "//app/service/main/coin/conf:go_default_library",

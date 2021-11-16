@@ -11,7 +11,7 @@ go_library(
         "mock.go",
         "thumbup.go",
     ],
-    importpath = "go-common/app/service/main/thumbup/rpc/client",
+    importpath = "github.com/namelessup/bilibili/app/service/main/thumbup/rpc/client",
     tags = ["automanaged"],
     deps = [
         "//app/service/main/thumbup/model:go_default_library",

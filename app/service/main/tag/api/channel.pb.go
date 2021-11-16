@@ -7,7 +7,7 @@ import (
 	fmt "fmt"
 	_ "github.com/gogo/protobuf/gogoproto"
 	proto "github.com/gogo/protobuf/proto"
-	go_common_library_time "go-common/library/time"
+	go_common_library_time "github.com/namelessup/bilibili/library/time"
 	io "io"
 	math "math"
 )
@@ -30,8 +30,8 @@ type Channel struct {
 	Operator             string                      `protobuf:"bytes,4,opt,name=operator,proto3" json:"-"`
 	Attr                 int32                       `protobuf:"varint,5,opt,name=attr,proto3" json:"attr"`
 	State                int32                       `protobuf:"varint,6,opt,name=state,proto3" json:"state"`
-	Ctime                go_common_library_time.Time `protobuf:"varint,7,opt,name=ctime,proto3,casttype=go-common/library/time.Time" json:"ctime"`
-	Mtime                go_common_library_time.Time `protobuf:"varint,8,opt,name=mtime,proto3,casttype=go-common/library/time.Time" json:"-"`
+	Ctime                go_common_library_time.Time `protobuf:"varint,7,opt,name=ctime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"ctime"`
+	Mtime                go_common_library_time.Time `protobuf:"varint,8,opt,name=mtime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"-"`
 	TopRank              int32                       `protobuf:"varint,9,opt,name=top_rank,json=topRank,proto3" json:"top_rank"`
 	XXX_NoUnkeyedLiteral struct{}                    `json:"-"`
 	XXX_unrecognized     []byte                      `json:"-"`
@@ -138,8 +138,8 @@ type ChannelCategory struct {
 	Id                   int64                       `protobuf:"varint,1,opt,name=id,proto3" json:"id"`
 	Name                 string                      `protobuf:"bytes,2,opt,name=name,proto3" json:"name"`
 	State                int32                       `protobuf:"varint,3,opt,name=state,proto3" json:"-"`
-	Ctime                go_common_library_time.Time `protobuf:"varint,4,opt,name=ctime,proto3,casttype=go-common/library/time.Time" json:"ctime"`
-	Mtime                go_common_library_time.Time `protobuf:"varint,5,opt,name=mtime,proto3,casttype=go-common/library/time.Time" json:"-"`
+	Ctime                go_common_library_time.Time `protobuf:"varint,4,opt,name=ctime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"ctime"`
+	Mtime                go_common_library_time.Time `protobuf:"varint,5,opt,name=mtime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"-"`
 	Order                int32                       `protobuf:"varint,6,opt,name=order,proto3" json:"order"`
 	IntShield            int32                       `protobuf:"varint,7,opt,name=int_shield,json=intShield,proto3" json:"int_shield"`
 	XXX_NoUnkeyedLiteral struct{}                    `json:"-"`
@@ -315,8 +315,8 @@ type ChannelGroup struct {
 	Tname                string                      `protobuf:"bytes,4,opt,name=tname,proto3" json:"tname"`
 	Alias                string                      `protobuf:"bytes,5,opt,name=alias,proto3" json:"alias"`
 	Rank                 string                      `protobuf:"bytes,6,opt,name=rank,proto3" json:"rank"`
-	CTime                go_common_library_time.Time `protobuf:"varint,7,opt,name=CTime,proto3,casttype=go-common/library/time.Time" json:"ctime"`
-	MTime                go_common_library_time.Time `protobuf:"varint,8,opt,name=MTime,proto3,casttype=go-common/library/time.Time" json:"-"`
+	CTime                go_common_library_time.Time `protobuf:"varint,7,opt,name=CTime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"ctime"`
+	MTime                go_common_library_time.Time `protobuf:"varint,8,opt,name=MTime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"-"`
 	XXX_NoUnkeyedLiteral struct{}                    `json:"-"`
 	XXX_unrecognized     []byte                      `json:"-"`
 	XXX_sizecache        int32                       `json:"-"`

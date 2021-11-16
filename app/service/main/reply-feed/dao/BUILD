@@ -13,7 +13,7 @@ go_library(
         "db.go",
         "redis.go",
     ],
-    importpath = "go-common/app/service/main/reply-feed/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/main/reply-feed/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

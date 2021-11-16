@@ -11,7 +11,7 @@ go_library(
         "dao.cache.go",
         "dao.go",
     ],
-    importpath = "go-common/app/service/bbq/sys-msg/internal/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/bbq/sys-msg/internal/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

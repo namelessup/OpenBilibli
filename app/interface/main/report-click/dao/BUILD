@@ -27,7 +27,7 @@ go_library(
         "dao.go",
         "databus.go",
     ],
-    importpath = "go-common/app/interface/main/report-click/dao",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/report-click/dao",
     tags = ["automanaged"],
     deps = [
         "//app/interface/main/report-click/conf:go_default_library",

@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"go-common/app/job/main/tag/conf"
+	"github.com/namelessup/bilibili/app/job/main/tag/conf"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

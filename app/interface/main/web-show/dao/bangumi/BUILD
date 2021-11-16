@@ -21,7 +21,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["bangumi.go"],
-    importpath = "go-common/app/interface/main/web-show/dao/bangumi",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/web-show/dao/bangumi",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

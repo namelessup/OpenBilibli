@@ -2,8 +2,8 @@ package fav
 
 import (
 	"context"
-	favmdl "go-common/app/service/main/favorite/model"
-	xtime "go-common/library/time"
+	favmdl "github.com/namelessup/bilibili/app/service/main/favorite/model"
+	xtime "github.com/namelessup/bilibili/library/time"
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"

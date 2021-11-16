@@ -26,7 +26,7 @@ go_library(
         "progress.go",
         "service.go",
     ],
-    importpath = "go-common/app/job/main/history/service",
+    importpath = "github.com/namelessup/bilibili/app/job/main/history/service",
     tags = ["automanaged"],
     deps = [
         "//app/interface/main/history/model:go_default_library",

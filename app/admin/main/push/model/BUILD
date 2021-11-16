@@ -20,7 +20,7 @@ go_library(
         "dataplatform.go",
         "model.go",
     ],
-    importpath = "go-common/app/admin/main/push/model",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/push/model",
     tags = ["automanaged"],
 )
 

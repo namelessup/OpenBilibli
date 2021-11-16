@@ -11,14 +11,14 @@ import (
 	"strconv"
 	"strings"
 
-	"go-common/app/admin/main/apm/conf"
-	cml "go-common/app/admin/main/apm/model/canal"
-	"go-common/app/admin/main/apm/model/user"
-	cgm "go-common/app/admin/main/config/model"
-	"go-common/library/conf/env"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/apm/conf"
+	cml "github.com/namelessup/bilibili/app/admin/main/apm/model/canal"
+	"github.com/namelessup/bilibili/app/admin/main/apm/model/user"
+	cgm "github.com/namelessup/bilibili/app/admin/main/config/model"
+	"github.com/namelessup/bilibili/library/conf/env"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 
 	"github.com/BurntSushi/toml"
 )

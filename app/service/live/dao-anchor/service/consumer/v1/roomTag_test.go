@@ -7,11 +7,11 @@ import (
 
 	. "github.com/smartystreets/goconvey/convey"
 
-	v1pb "go-common/app/service/live/dao-anchor/api/grpc/v1"
-	"go-common/app/service/live/dao-anchor/conf"
-	"go-common/app/service/live/dao-anchor/dao"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
+	v1pb "github.com/namelessup/bilibili/app/service/live/dao-anchor/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/live/dao-anchor/conf"
+	"github.com/namelessup/bilibili/app/service/live/dao-anchor/dao"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 func TestLiveRoomTag(t *testing.T) {

@@ -3,7 +3,7 @@ package service
 import (
 	"testing"
 
-	"go-common/app/interface/openplatform/monitor-end/model"
+	"github.com/namelessup/bilibili/app/interface/openplatform/monitor-end/model"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

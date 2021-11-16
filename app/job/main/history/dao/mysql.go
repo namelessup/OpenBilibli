@@ -5,9 +5,9 @@ import (
 	"database/sql"
 	"time"
 
-	"go-common/app/service/main/history/model"
-	"go-common/library/database/tidb"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/history/model"
+	"github.com/namelessup/bilibili/library/database/tidb"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 var (

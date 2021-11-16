@@ -11,7 +11,7 @@ go_library(
         "service.go",
         "timemachine.go",
     ],
-    importpath = "go-common/app/interface/main/activity/service/timemachine",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/activity/service/timemachine",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

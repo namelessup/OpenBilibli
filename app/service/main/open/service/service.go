@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"go-common/app/service/main/open/conf"
-	"go-common/app/service/main/open/dao"
+	"github.com/namelessup/bilibili/app/service/main/open/conf"
+	"github.com/namelessup/bilibili/app/service/main/open/dao"
 )
 
 // Service biz service def.

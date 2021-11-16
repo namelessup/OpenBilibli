@@ -1,10 +1,10 @@
 package pgc
 
 import (
-	"go-common/app/admin/main/feed/conf"
-	epgrpc "go-common/app/service/openplatform/pgc-season/api/grpc/episode/v1"
-	seasongrpc "go-common/app/service/openplatform/pgc-season/api/grpc/season/v1"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/feed/conf"
+	epgrpc "github.com/namelessup/bilibili/app/service/openplatform/pgc-season/api/grpc/episode/v1"
+	seasongrpc "github.com/namelessup/bilibili/app/service/openplatform/pgc-season/api/grpc/season/v1"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Dao is show dao.

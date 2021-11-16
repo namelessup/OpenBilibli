@@ -45,7 +45,7 @@ filegroup(
 go_library(
     name = "go_default_library",
     srcs = ["base.go"],
-    importpath = "go-common/library/net/rpc/warden/balancer/wrr/test",
+    importpath = "github.com/namelessup/bilibili/library/net/rpc/warden/balancer/wrr/test",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

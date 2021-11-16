@@ -12,7 +12,7 @@ go_library(
         "forbid.go",
         "message.go",
     ],
-    importpath = "go-common/app/job/main/click/model",
+    importpath = "github.com/namelessup/bilibili/app/job/main/click/model",
     tags = ["automanaged"],
 )
 

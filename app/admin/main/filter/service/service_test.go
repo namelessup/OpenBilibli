@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/admin/main/filter/conf"
-	"go-common/app/admin/main/filter/model"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/admin/main/filter/conf"
+	"github.com/namelessup/bilibili/app/admin/main/filter/model"
+	"github.com/namelessup/bilibili/library/ecode"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

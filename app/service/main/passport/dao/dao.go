@@ -3,8 +3,8 @@ package dao
 import (
 	"context"
 
-	"go-common/app/service/main/passport/conf"
-	"go-common/library/database/hbase.v2"
+	"github.com/namelessup/bilibili/app/service/main/passport/conf"
+	"github.com/namelessup/bilibili/library/database/hbase.v2"
 )
 
 // Dao struct answer history of Dao

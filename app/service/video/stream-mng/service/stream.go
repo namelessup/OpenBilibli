@@ -2,8 +2,8 @@ package service
 
 import (
 	"context"
-	"go-common/app/service/video/stream-mng/common"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/video/stream-mng/common"
+	"github.com/namelessup/bilibili/library/log"
 	"net/http"
 	"net/url"
 )

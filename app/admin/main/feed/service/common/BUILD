@@ -13,7 +13,7 @@ go_library(
         "common.go",
         "log.go",
     ],
-    importpath = "go-common/app/admin/main/feed/service/common",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/feed/service/common",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -8,11 +8,11 @@ import (
 	"testing"
 	"time"
 
-	"go-common/library/conf/env"
-	"go-common/library/ecode"
-	"go-common/library/exp/feature"
-	"go-common/library/naming"
-	"go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/conf/env"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/exp/feature"
+	"github.com/namelessup/bilibili/library/naming"
+	"github.com/namelessup/bilibili/library/net/http/blademaster"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

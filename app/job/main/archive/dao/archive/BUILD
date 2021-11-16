@@ -43,7 +43,7 @@ go_library(
         "video.go",
         "video_track.go",
     ],
-    importpath = "go-common/app/job/main/archive/dao/archive",
+    importpath = "github.com/namelessup/bilibili/app/job/main/archive/dao/archive",
     tags = ["automanaged"],
     deps = [
         "//app/job/main/archive/conf:go_default_library",

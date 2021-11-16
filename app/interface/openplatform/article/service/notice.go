@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	artmdl "go-common/app/interface/openplatform/article/model"
+	artmdl "github.com/namelessup/bilibili/app/interface/openplatform/article/model"
 )
 
 const (

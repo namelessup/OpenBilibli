@@ -1,19 +1,19 @@
 package dao
 
 import (
-	activityService "go-common/app/service/live/activity/api/liverpc"
-	avService "go-common/app/service/live/av/api/liverpc"
-	bannedService "go-common/app/service/live/banned_service/api/liverpc"
-	fansMedalService "go-common/app/service/live/fans_medal/api/liverpc"
-	"go-common/app/service/live/live-dm/conf"
-	liveUserService "go-common/app/service/live/live_user/api/liverpc"
-	rankdbService "go-common/app/service/live/rankdb/api/liverpc"
-	rcService "go-common/app/service/live/rc/api/liverpc"
-	roomService "go-common/app/service/live/room/api/liverpc"
-	liveBroadCast "go-common/app/service/live/third_api/liveBroadcast"
-	userService "go-common/app/service/live/user/api/liverpc"
-	userextService "go-common/app/service/live/userext/api/liverpc"
-	"go-common/library/net/rpc/liverpc"
+	activityService "github.com/namelessup/bilibili/app/service/live/activity/api/liverpc"
+	avService "github.com/namelessup/bilibili/app/service/live/av/api/liverpc"
+	bannedService "github.com/namelessup/bilibili/app/service/live/banned_service/api/liverpc"
+	fansMedalService "github.com/namelessup/bilibili/app/service/live/fans_medal/api/liverpc"
+	"github.com/namelessup/bilibili/app/service/live/live-dm/conf"
+	liveUserService "github.com/namelessup/bilibili/app/service/live/live_user/api/liverpc"
+	rankdbService "github.com/namelessup/bilibili/app/service/live/rankdb/api/liverpc"
+	rcService "github.com/namelessup/bilibili/app/service/live/rc/api/liverpc"
+	roomService "github.com/namelessup/bilibili/app/service/live/room/api/liverpc"
+	liveBroadCast "github.com/namelessup/bilibili/app/service/live/third_api/liveBroadcast"
+	userService "github.com/namelessup/bilibili/app/service/live/user/api/liverpc"
+	userextService "github.com/namelessup/bilibili/app/service/live/userext/api/liverpc"
+	"github.com/namelessup/bilibili/library/net/rpc/liverpc"
 )
 
 var (

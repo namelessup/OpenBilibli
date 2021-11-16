@@ -1,7 +1,7 @@
 package v1
 
 import (
-	expm "go-common/app/service/live/xuser/model/exp"
+	expm "github.com/namelessup/bilibili/app/service/live/xuser/model/exp"
 )
 
 const (

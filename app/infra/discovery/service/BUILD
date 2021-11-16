@@ -30,7 +30,7 @@ go_library(
         "service.go",
         "syncup.go",
     ],
-    importpath = "go-common/app/infra/discovery/service",
+    importpath = "github.com/namelessup/bilibili/app/infra/discovery/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

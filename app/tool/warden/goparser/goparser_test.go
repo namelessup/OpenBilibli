@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-var dpath = "/Users/weicheng/Go/src/go-common/app/service/account/service"
+var dpath = "/Users/weicheng/Go/src/github.com/namelessup/bilibili/app/service/account/service"
 
 //var dpath = "/Users/weicheng/Go/src/playground/testgen/service"
 

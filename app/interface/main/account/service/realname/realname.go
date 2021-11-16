@@ -4,13 +4,13 @@ import (
 	"context"
 	"strings"
 
-	"go-common/app/interface/main/account/conf"
-	"go-common/app/interface/main/account/dao/realname"
-	"go-common/app/interface/main/account/model"
-	"go-common/app/interface/main/account/service/realname/crypto"
-	memrpc "go-common/app/service/main/member/api/gorpc"
-	memmodel "go-common/app/service/main/member/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/account/conf"
+	"github.com/namelessup/bilibili/app/interface/main/account/dao/realname"
+	"github.com/namelessup/bilibili/app/interface/main/account/model"
+	"github.com/namelessup/bilibili/app/interface/main/account/service/realname/crypto"
+	memrpc "github.com/namelessup/bilibili/app/service/main/member/api/gorpc"
+	memmodel "github.com/namelessup/bilibili/app/service/main/member/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Service is

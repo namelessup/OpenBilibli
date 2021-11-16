@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["mobile.go"],
-    importpath = "go-common/app/interface/main/app-wall/model/mobile",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-wall/model/mobile",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

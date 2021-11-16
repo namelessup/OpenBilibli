@@ -4,12 +4,12 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/interface/openplatform/article/conf"
-	artmdl "go-common/app/interface/openplatform/article/model"
-	"go-common/library/ecode"
-	"go-common/library/log/infoc"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/openplatform/article/conf"
+	artmdl "github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log/infoc"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 func view(c *bm.Context) {

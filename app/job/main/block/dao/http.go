@@ -6,8 +6,8 @@ import (
 	"net/url"
 	"strings"
 
-	"go-common/app/job/main/block/conf"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/job/main/block/conf"
+	"github.com/namelessup/bilibili/library/ecode"
 
 	"github.com/pkg/errors"
 )

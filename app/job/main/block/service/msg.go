@@ -1,7 +1,7 @@
 package service
 
 import (
-	"go-common/app/job/main/block/conf"
+	"github.com/namelessup/bilibili/app/job/main/block/conf"
 )
 
 // MSGRemoveInfo get msg info

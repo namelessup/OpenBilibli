@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"go-common/app/job/main/app-wall/model/offer"
+	"github.com/namelessup/bilibili/app/job/main/app-wall/model/offer"
 )
 
 func TestService_activeConsumer(t *testing.T) {

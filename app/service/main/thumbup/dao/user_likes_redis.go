@@ -4,12 +4,12 @@ import (
 	"context"
 	"fmt"
 
-	pb "go-common/app/service/main/thumbup/api"
-	"go-common/app/service/main/thumbup/model"
-	"go-common/library/cache/redis"
-	"go-common/library/log"
-	"go-common/library/stat/prom"
-	xtime "go-common/library/time"
+	pb "github.com/namelessup/bilibili/app/service/main/thumbup/api"
+	"github.com/namelessup/bilibili/app/service/main/thumbup/model"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/stat/prom"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	pkgerr "github.com/pkg/errors"
 )

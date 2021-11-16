@@ -2,11 +2,11 @@ package music
 
 import (
 	"encoding/json"
-	"go-common/app/interface/main/creative/model/activity"
-	"go-common/app/interface/main/creative/model/app"
-	accMdl "go-common/app/service/main/account/model"
-	"go-common/app/service/main/archive/api"
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/activity"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/app"
+	accMdl "github.com/namelessup/bilibili/app/service/main/account/model"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 var (

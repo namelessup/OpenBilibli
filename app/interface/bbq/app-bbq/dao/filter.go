@@ -3,8 +3,8 @@ package dao
 import (
 	"context"
 
-	filter "go-common/app/service/main/filter/api/grpc/v1"
-	"go-common/library/log"
+	filter "github.com/namelessup/bilibili/app/service/main/filter/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // 用于filter

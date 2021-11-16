@@ -38,7 +38,7 @@ go_library(
         "mysql.go",
         "stat.go",
     ],
-    importpath = "go-common/app/job/main/relation/dao",
+    importpath = "github.com/namelessup/bilibili/app/job/main/relation/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

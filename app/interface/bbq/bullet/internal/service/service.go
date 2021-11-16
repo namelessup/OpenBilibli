@@ -4,12 +4,12 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/app/interface/bbq/bullet/api"
-	"go-common/app/interface/bbq/bullet/internal/conf"
-	"go-common/app/interface/bbq/bullet/internal/dao"
-	video "go-common/app/service/bbq/video/api/grpc/v1"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/bbq/bullet/api"
+	"github.com/namelessup/bilibili/app/interface/bbq/bullet/internal/conf"
+	"github.com/namelessup/bilibili/app/interface/bbq/bullet/internal/dao"
+	video "github.com/namelessup/bilibili/app/service/bbq/video/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Service struct

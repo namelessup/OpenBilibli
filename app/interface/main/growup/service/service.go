@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"go-common/app/interface/main/growup/conf"
-	"go-common/app/interface/main/growup/dao"
+	"github.com/namelessup/bilibili/app/interface/main/growup/conf"
+	"github.com/namelessup/bilibili/app/interface/main/growup/dao"
 )
 
 // Service is growup service

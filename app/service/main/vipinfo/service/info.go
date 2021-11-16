@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	v1 "go-common/app/service/main/vipinfo/api"
-	"go-common/app/service/main/vipinfo/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	v1 "github.com/namelessup/bilibili/app/service/main/vipinfo/api"
+	"github.com/namelessup/bilibili/app/service/main/vipinfo/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Info get vipinfo by mid.

@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["reply.go"],
-    importpath = "go-common/app/interface/main/reply/conf",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/reply/conf",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

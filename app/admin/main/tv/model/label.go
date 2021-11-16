@@ -5,8 +5,8 @@ import (
 	"fmt"
 	xtime "time"
 
-	arccli "go-common/app/service/main/archive/api"
-	"go-common/library/time"
+	arccli "github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/library/time"
 
 	"github.com/siddontang/go-mysql/mysql"
 )

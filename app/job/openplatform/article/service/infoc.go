@@ -1,9 +1,9 @@
 package service
 
 import (
-	"go-common/library/log"
-	binfoc "go-common/library/log/infoc"
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/library/log"
+	binfoc "github.com/namelessup/bilibili/library/log/infoc"
+	"github.com/namelessup/bilibili/library/stat/prom"
 )
 
 // 用户阅读专栏时长上报

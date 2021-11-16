@@ -4,11 +4,11 @@ import (
 	"flag"
 	"os"
 
-	"go-common/app/admin/main/laser/conf"
-	"go-common/app/admin/main/laser/http"
-	"go-common/library/log"
-	"go-common/library/os/signal"
-	"go-common/library/syscall"
+	"github.com/namelessup/bilibili/app/admin/main/laser/conf"
+	"github.com/namelessup/bilibili/app/admin/main/laser/http"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/os/signal"
+	"github.com/namelessup/bilibili/library/syscall"
 )
 
 func main() {

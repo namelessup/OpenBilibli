@@ -3,13 +3,13 @@ package dao
 import (
 	"context"
 
-	"go-common/app/admin/main/block/conf"
-	rpcaccount "go-common/app/service/main/account/rpc/client"
-	rpcfigure "go-common/app/service/main/figure/rpc/client"
-	rpcspy "go-common/app/service/main/spy/rpc/client"
-	"go-common/library/cache/memcache"
-	xsql "go-common/library/database/sql"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/block/conf"
+	rpcaccount "github.com/namelessup/bilibili/app/service/main/account/rpc/client"
+	rpcfigure "github.com/namelessup/bilibili/app/service/main/figure/rpc/client"
+	rpcspy "github.com/namelessup/bilibili/app/service/main/spy/rpc/client"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 
 	"github.com/pkg/errors"
 )

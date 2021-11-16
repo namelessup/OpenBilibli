@@ -4,10 +4,10 @@ package grpc
 import (
 	"context"
 
-	pb "go-common/app/interface/main/history/api/grpc"
-	"go-common/app/interface/main/history/model"
-	service "go-common/app/interface/main/history/service"
-	"go-common/library/net/rpc/warden"
+	pb "github.com/namelessup/bilibili/app/interface/main/history/api/grpc"
+	"github.com/namelessup/bilibili/app/interface/main/history/model"
+	service "github.com/namelessup/bilibili/app/interface/main/history/service"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 )
 
 // New History warden rpc server

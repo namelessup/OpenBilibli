@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"sync"
 
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 const (

@@ -6,7 +6,7 @@
 > 1. 增加databus获取消费者地址接口  
 
 ##### Version 1.23.5
-> 1. go-common/library包加入ut检验
+> 1. github.com/namelessup/bilibili/library包加入ut检验
 
 ##### Version 1.23.4
 > 1. 去掉 ut_app log 中 has_ut 字段.

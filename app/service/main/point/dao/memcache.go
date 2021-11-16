@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/app/service/main/point/model"
-	gmc "go-common/library/cache/memcache"
+	"github.com/namelessup/bilibili/app/service/main/point/model"
+	gmc "github.com/namelessup/bilibili/library/cache/memcache"
 
 	"github.com/pkg/errors"
 )

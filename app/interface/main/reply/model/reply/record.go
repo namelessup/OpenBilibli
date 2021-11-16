@@ -1,8 +1,8 @@
 package reply
 
 import (
-	accmdl "go-common/app/service/main/account/model"
-	"go-common/library/xstr"
+	accmdl "github.com/namelessup/bilibili/app/service/main/account/model"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 // time layout

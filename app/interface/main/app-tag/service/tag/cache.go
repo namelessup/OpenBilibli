@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"time"
 
-	"go-common/app/interface/main/app-tag/model"
-	"go-common/app/interface/main/app-tag/model/region"
-	"go-common/app/interface/main/app-tag/model/tag"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/app-tag/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-tag/model/region"
+	"github.com/namelessup/bilibili/app/interface/main/app-tag/model/tag"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // loadSimilar

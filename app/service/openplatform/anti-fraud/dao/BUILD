@@ -36,7 +36,7 @@ go_library(
         "question_bank_bind.go",
         "risk.go",
     ],
-    importpath = "go-common/app/service/openplatform/anti-fraud/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/openplatform/anti-fraud/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

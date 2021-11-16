@@ -29,7 +29,7 @@ go_library(
         "broadcast.go",
         "dao.go",
     ],
-    importpath = "go-common/app/job/main/activity/dao/dm",
+    importpath = "github.com/namelessup/bilibili/app/job/main/activity/dao/dm",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

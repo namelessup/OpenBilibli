@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["color.go"],
-    importpath = "go-common/app/tool/bgr/log/color",
+    importpath = "github.com/namelessup/bilibili/app/tool/bgr/log/color",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

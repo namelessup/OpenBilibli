@@ -3,7 +3,7 @@ package service
 import (
 	"context"
 	. "github.com/smartystreets/goconvey/convey"
-	"go-common/app/job/main/videoup-report/model/archive"
+	"github.com/namelessup/bilibili/app/job/main/videoup-report/model/archive"
 	"testing"
 )
 

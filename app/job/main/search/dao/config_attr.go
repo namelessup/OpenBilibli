@@ -8,9 +8,9 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/job/main/search/model"
-	"go-common/library/database/sql"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/search/model"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

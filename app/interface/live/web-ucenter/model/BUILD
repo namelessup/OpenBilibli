@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["model.go"],
-    importpath = "go-common/app/interface/live/web-ucenter/model",
+    importpath = "github.com/namelessup/bilibili/app/interface/live/web-ucenter/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

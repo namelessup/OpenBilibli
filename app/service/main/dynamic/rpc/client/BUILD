@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["dynamic.go"],
-    importpath = "go-common/app/service/main/dynamic/rpc/client",
+    importpath = "github.com/namelessup/bilibili/app/service/main/dynamic/rpc/client",
     tags = ["automanaged"],
     deps = [
         "//app/service/main/archive/api:go_default_library",

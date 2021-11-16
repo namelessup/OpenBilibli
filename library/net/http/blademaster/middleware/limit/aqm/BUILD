@@ -21,7 +21,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["aqm.go"],
-    importpath = "go-common/library/net/http/blademaster/middleware/limit/aqm",
+    importpath = "github.com/namelessup/bilibili/library/net/http/blademaster/middleware/limit/aqm",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

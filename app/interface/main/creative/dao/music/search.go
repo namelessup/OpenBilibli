@@ -2,11 +2,11 @@ package music
 
 import (
 	"context"
-	"go-common/app/interface/main/creative/dao/tool"
-	"go-common/app/interface/main/creative/model/search"
-	"go-common/library/database/elastic"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/creative/dao/tool"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/search"
+	"github.com/namelessup/bilibili/library/database/elastic"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // SearchBgmSIDs fn

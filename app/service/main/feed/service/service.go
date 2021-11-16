@@ -3,16 +3,16 @@ package service
 import (
 	"context"
 
-	artmdl "go-common/app/interface/openplatform/article/model"
-	artrpc "go-common/app/interface/openplatform/article/rpc/client"
-	account "go-common/app/service/main/account/model"
-	accrpc "go-common/app/service/main/account/rpc/client"
-	"go-common/app/service/main/archive/api"
-	arcrpc "go-common/app/service/main/archive/api/gorpc"
-	"go-common/app/service/main/archive/model/archive"
-	"go-common/app/service/main/feed/conf"
-	"go-common/app/service/main/feed/dao"
-	feedmdl "go-common/app/service/main/feed/model"
+	artmdl "github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	artrpc "github.com/namelessup/bilibili/app/interface/openplatform/article/rpc/client"
+	account "github.com/namelessup/bilibili/app/service/main/account/model"
+	accrpc "github.com/namelessup/bilibili/app/service/main/account/rpc/client"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	arcrpc "github.com/namelessup/bilibili/app/service/main/archive/api/gorpc"
+	"github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/app/service/main/feed/conf"
+	"github.com/namelessup/bilibili/app/service/main/feed/dao"
+	feedmdl "github.com/namelessup/bilibili/app/service/main/feed/model"
 )
 
 // Service struct info.

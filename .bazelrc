@@ -9,7 +9,7 @@ build --experimental_repository_cache_hardlinks
 build --experimental_guard_against_concurrent_changes
 build --experimental_strict_action_env
 build --announce_rc
-build --remote_http_cache=http://bazel-cache.bilibili.co/go-common  --remote_local_fallback 
+build --remote_http_cache=http://bazel-cache.bilibili.co/github.com/namelessup/bilibili  --remote_local_fallback
 build --remote_max_connections=0
 build:ci --genrule_strategy=standalone --spawn_strategy=standalone
 build:office --genrule_strategy=sandboxed --spawn_strategy=sandboxed

@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"go-common/app/admin/main/aegis/model/common"
-	taskmod "go-common/app/admin/main/aegis/model/task"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model/common"
+	taskmod "github.com/namelessup/bilibili/app/admin/main/aegis/model/task"
 
 	"github.com/smartystreets/goconvey/convey"
 )

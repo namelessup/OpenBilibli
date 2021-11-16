@@ -11,7 +11,7 @@ go_library(
         "hook.go",
         "service.go",
     ],
-    importpath = "go-common/app/admin/ep/tapd/service",
+    importpath = "github.com/namelessup/bilibili/app/admin/ep/tapd/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

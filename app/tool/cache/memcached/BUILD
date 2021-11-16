@@ -21,7 +21,7 @@ go_library(
         "none_template.go",
         "single_template.go",
     ],
-    importpath = "go-common/app/tool/cache/memcached",
+    importpath = "github.com/namelessup/bilibili/app/tool/cache/memcached",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//app/tool/cache/common:go_default_library"],

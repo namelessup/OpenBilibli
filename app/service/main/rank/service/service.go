@@ -11,11 +11,11 @@ import (
 	"sync"
 	"time"
 
-	"go-common/app/service/main/rank/conf"
-	"go-common/app/service/main/rank/dao"
-	"go-common/app/service/main/rank/model"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/service/main/rank/conf"
+	"github.com/namelessup/bilibili/app/service/main/rank/dao"
+	"github.com/namelessup/bilibili/app/service/main/rank/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 const (

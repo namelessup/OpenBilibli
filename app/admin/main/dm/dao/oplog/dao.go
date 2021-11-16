@@ -1,8 +1,8 @@
 package oplog
 
 import (
-	"go-common/app/admin/main/dm/conf"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/dm/conf"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // Dao dao struct for querying infoc data storing in hbase

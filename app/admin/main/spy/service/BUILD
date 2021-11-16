@@ -30,7 +30,7 @@ go_library(
         "stat.go",
         "user.go",
     ],
-    importpath = "go-common/app/admin/main/spy/service",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/spy/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

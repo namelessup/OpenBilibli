@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 
-	"go-common/app/job/main/aegis/model"
-	"go-common/library/queue/databus"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/job/main/aegis/model"
+	"github.com/namelessup/bilibili/library/queue/databus"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 type baseTaskHandler struct {

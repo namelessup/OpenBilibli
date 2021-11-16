@@ -12,7 +12,7 @@ go_library(
         "letter.go",
         "service.go",
     ],
-    importpath = "go-common/app/interface/main/growup/service/newbie",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/growup/service/newbie",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -2,8 +2,8 @@ package reply
 
 import (
 	"context"
-	"go-common/app/interface/main/reply/model/reply"
-	"go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/interface/main/reply/model/reply"
+	"github.com/namelessup/bilibili/library/database/sql"
 )
 
 const (

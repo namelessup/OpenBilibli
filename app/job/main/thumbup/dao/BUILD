@@ -17,7 +17,7 @@ go_library(
         "tidb.go",
         "user_likes_redis.go",
     ],
-    importpath = "go-common/app/job/main/thumbup/dao",
+    importpath = "github.com/namelessup/bilibili/app/job/main/thumbup/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

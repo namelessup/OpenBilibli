@@ -3,8 +3,8 @@ package foo
 import (
 	"context"
 
-	"go-common/app/interface/live/live-demo/conf"
-	"go-common/library/cache/redis"
+	"github.com/namelessup/bilibili/app/interface/live/live-demo/conf"
+	"github.com/namelessup/bilibili/library/cache/redis"
 )
 
 // Dao dao

@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"go-common/app/service/live/grpc-demo/conf"
-	"go-common/app/service/live/grpc-demo/dao"
+	"github.com/namelessup/bilibili/app/service/live/grpc-demo/conf"
+	"github.com/namelessup/bilibili/app/service/live/grpc-demo/dao"
 )
 
 // Service struct

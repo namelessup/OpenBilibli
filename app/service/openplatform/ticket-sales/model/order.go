@@ -3,10 +3,10 @@ package model
 import (
 	"encoding/json"
 
-	"go-common/app/common/openplatform/encoding"
-	"go-common/app/service/openplatform/ticket-sales/api/grpc/type"
-	"go-common/app/service/openplatform/ticket-sales/api/grpc/v1"
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/app/common/openplatform/encoding"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/api/grpc/type"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/time"
 
 	"github.com/gogo/protobuf/types"
 )

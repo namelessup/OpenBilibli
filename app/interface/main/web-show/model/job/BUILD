@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["job.go"],
-    importpath = "go-common/app/interface/main/web-show/model/job",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/web-show/model/job",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 
-	"go-common/app/interface/main/web/model"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/main/web/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 const _firstPage = 1

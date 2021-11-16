@@ -4,8 +4,8 @@ import (
 	"context"
 	"database/sql"
 
-	"go-common/app/admin/main/push/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/push/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

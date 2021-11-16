@@ -3,7 +3,7 @@ package paladin
 import (
 	"context"
 	"flag"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 var (

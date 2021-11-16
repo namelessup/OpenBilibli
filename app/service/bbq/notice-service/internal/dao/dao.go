@@ -4,13 +4,13 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/app/service/bbq/notice-service/api/v1"
-	"go-common/app/service/bbq/notice-service/internal/conf"
-	push "go-common/app/service/bbq/push/api/grpc/v1"
-	"go-common/library/cache/redis"
-	xsql "go-common/library/database/sql"
-	"go-common/library/log"
-	"go-common/library/net/rpc/warden"
+	"github.com/namelessup/bilibili/app/service/bbq/notice-service/api/v1"
+	"github.com/namelessup/bilibili/app/service/bbq/notice-service/internal/conf"
+	push "github.com/namelessup/bilibili/app/service/bbq/push/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 )
 
 const (

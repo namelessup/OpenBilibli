@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"go-common/app/admin/main/apm/conf"
+	"github.com/namelessup/bilibili/app/admin/main/apm/conf"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

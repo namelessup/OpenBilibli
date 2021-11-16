@@ -2,7 +2,7 @@ package dao
 
 import (
 	"context"
-	"go-common/app/service/video/stream-mng/model"
+	"github.com/namelessup/bilibili/app/service/video/stream-mng/model"
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"

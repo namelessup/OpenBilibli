@@ -7,11 +7,11 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/app/admin/ep/tapd/conf"
-	"go-common/app/admin/ep/tapd/http"
-	"go-common/app/admin/ep/tapd/service"
-	ecode "go-common/library/ecode/tip"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/ep/tapd/conf"
+	"github.com/namelessup/bilibili/app/admin/ep/tapd/http"
+	"github.com/namelessup/bilibili/app/admin/ep/tapd/service"
+	ecode "github.com/namelessup/bilibili/library/ecode/tip"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

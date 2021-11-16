@@ -4,11 +4,11 @@ import (
 	"net/http"
 	"time"
 
-	"go-common/app/admin/main/tv/conf"
-	"go-common/library/cache/memcache"
-	"go-common/library/database/elastic"
-	"go-common/library/database/orm"
-	httpx "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/tv/conf"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/database/elastic"
+	"github.com/namelessup/bilibili/library/database/orm"
+	httpx "github.com/namelessup/bilibili/library/net/http/blademaster"
 
 	"github.com/jinzhu/gorm"
 )

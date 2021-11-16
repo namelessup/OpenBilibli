@@ -7,7 +7,7 @@ package client
 import (
 	context "context"
 	gomock "github.com/golang/mock/gomock"
-	model "go-common/app/interface/openplatform/article/model"
+	model "github.com/namelessup/bilibili/app/interface/openplatform/article/model"
 	reflect "reflect"
 )
 

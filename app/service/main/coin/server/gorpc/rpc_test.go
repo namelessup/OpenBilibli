@@ -4,7 +4,7 @@ import (
 	"net/rpc"
 	"testing"
 
-	coidel "go-common/app/service/main/coin/model"
+	coidel "github.com/namelessup/bilibili/app/service/main/coin/model"
 )
 
 const (

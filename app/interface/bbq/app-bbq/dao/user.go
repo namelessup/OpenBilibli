@@ -2,12 +2,12 @@ package dao
 
 import (
 	"context"
-	"go-common/app/interface/bbq/app-bbq/api/http/v1"
-	"go-common/app/interface/bbq/app-bbq/model"
-	user "go-common/app/service/bbq/user/api"
-	accountv1 "go-common/app/service/main/account/api"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/bbq/app-bbq/api/http/v1"
+	"github.com/namelessup/bilibili/app/interface/bbq/app-bbq/model"
+	user "github.com/namelessup/bilibili/app/service/bbq/user/api"
+	accountv1 "github.com/namelessup/bilibili/app/service/main/account/api"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 //GetUserBProfile 获取用户全量b站信息

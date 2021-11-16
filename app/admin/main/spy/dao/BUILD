@@ -29,7 +29,7 @@ go_library(
         "mysql.go",
         "rpc.go",
     ],
-    importpath = "go-common/app/admin/main/spy/dao",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/spy/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

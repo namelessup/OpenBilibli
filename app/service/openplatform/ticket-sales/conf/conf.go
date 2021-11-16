@@ -1,15 +1,15 @@
 package conf
 
 import (
-	"go-common/app/common/openplatform/encoding"
-	"go-common/library/cache/redis"
-	"go-common/library/database/sql"
-	"go-common/library/log"
-	"go-common/library/net/http/blademaster"
-	"go-common/library/net/rpc/warden"
-	"go-common/library/net/trace"
-	"go-common/library/queue/databus"
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/app/common/openplatform/encoding"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
+	"github.com/namelessup/bilibili/library/net/trace"
+	"github.com/namelessup/bilibili/library/queue/databus"
+	"github.com/namelessup/bilibili/library/time"
 
 	"github.com/BurntSushi/toml"
 )

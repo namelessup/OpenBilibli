@@ -22,7 +22,7 @@ import fmt "fmt"
 import math "math"
 import _ "github.com/gogo/protobuf/gogoproto"
 
-import go_common_library_time "go-common/library/time"
+import go_common_library_time "github.com/namelessup/bilibili/library/time"
 
 import io "io"
 
@@ -44,9 +44,9 @@ type UpSpecial struct {
 	GroupTag  string                      `protobuf:"bytes,4,opt,name=GroupTag,proto3" json:"group_tag"`
 	Mid       int64                       `protobuf:"varint,5,opt,name=Mid,proto3" json:"mid"`
 	Note      string                      `protobuf:"bytes,6,opt,name=Note,proto3" json:"note"`
-	CTime     go_common_library_time.Time `protobuf:"varint,7,opt,name=CTime,proto3,casttype=go-common/library/time.Time" json:"ctime"`
+	CTime     go_common_library_time.Time `protobuf:"varint,7,opt,name=CTime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"ctime"`
 	UID       int64                       `protobuf:"varint,8,opt,name=UID,proto3" json:"uid"`
-	MTime     go_common_library_time.Time `protobuf:"varint,9,opt,name=MTime,proto3,casttype=go-common/library/time.Time" json:"mtime"`
+	MTime     go_common_library_time.Time `protobuf:"varint,9,opt,name=MTime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"mtime"`
 	FontColor string                      `protobuf:"bytes,10,opt,name=FontColor,proto3" json:"font_color"`
 	BgColor   string                      `protobuf:"bytes,11,opt,name=BgColor,proto3" json:"bg_color"`
 }

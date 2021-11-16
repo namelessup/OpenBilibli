@@ -2,9 +2,9 @@ package service
 
 import (
 	"context"
-	"go-common/app/service/live/xuserex/service/v1"
+	"github.com/namelessup/bilibili/app/service/live/xuserex/service/v1"
 
-	"go-common/app/service/live/xuserex/conf"
+	"github.com/namelessup/bilibili/app/service/live/xuserex/conf"
 )
 
 // Service struct

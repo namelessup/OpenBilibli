@@ -7,12 +7,12 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/app/service/main/dynamic/conf"
-	"go-common/app/service/main/dynamic/http"
-	rpc "go-common/app/service/main/dynamic/rpc/server"
-	"go-common/app/service/main/dynamic/service"
-	"go-common/library/log"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/app/service/main/dynamic/conf"
+	"github.com/namelessup/bilibili/app/service/main/dynamic/http"
+	rpc "github.com/namelessup/bilibili/app/service/main/dynamic/rpc/server"
+	"github.com/namelessup/bilibili/app/service/main/dynamic/service"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
 )
 
 func main() {

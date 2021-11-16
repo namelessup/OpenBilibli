@@ -5,11 +5,11 @@ import (
 	"io/ioutil"
 	"path/filepath"
 
-	"go-common/app/service/main/account-recovery/model"
-	"go-common/library/database/bfs"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/service/main/account-recovery/model"
+	"github.com/namelessup/bilibili/library/database/bfs"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 
 	"github.com/google/uuid"
 	"github.com/pkg/errors"

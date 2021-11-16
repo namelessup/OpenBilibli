@@ -15,7 +15,7 @@ go_library(
         "msg.go",
         "rpc.go",
     ],
-    importpath = "go-common/app/admin/main/up/model",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/up/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

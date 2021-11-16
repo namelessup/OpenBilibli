@@ -3,10 +3,10 @@ package service
 import (
 	"context"
 	"encoding/json"
-	item "go-common/app/service/openplatform/ticket-item/api/grpc/v1"
-	"go-common/app/service/openplatform/ticket-item/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	item "github.com/namelessup/bilibili/app/service/openplatform/ticket-item/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-item/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 	"strings"
 
 	"github.com/jinzhu/gorm"

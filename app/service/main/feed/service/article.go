@@ -4,12 +4,12 @@ import (
 	"context"
 	"sync"
 
-	artmdl "go-common/app/interface/openplatform/article/model"
-	accmdl "go-common/app/service/main/account/model"
-	"go-common/app/service/main/feed/dao"
-	"go-common/library/log"
+	artmdl "github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	accmdl "github.com/namelessup/bilibili/app/service/main/account/model"
+	"github.com/namelessup/bilibili/app/service/main/feed/dao"
+	"github.com/namelessup/bilibili/library/log"
 
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 const _upsArtBulkSize = 50

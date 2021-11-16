@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/app/interface/main/app-view/conf"
-	"go-common/app/interface/main/app-view/model/view"
-	ugcpayrpc "go-common/app/service/main/ugcpay/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/interface/main/app-view/conf"
+	"github.com/namelessup/bilibili/app/interface/main/app-view/model/view"
+	ugcpayrpc "github.com/namelessup/bilibili/app/service/main/ugcpay/api/grpc/v1"
 
 	"github.com/pkg/errors"
 )

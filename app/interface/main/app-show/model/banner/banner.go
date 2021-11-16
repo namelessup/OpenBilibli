@@ -2,12 +2,12 @@ package banner
 
 import (
 	"encoding/json"
-	xtime "go-common/library/time"
+	xtime "github.com/namelessup/bilibili/library/time"
 	"strconv"
 
-	"go-common/app/interface/main/app-show/model"
-	"go-common/app/interface/main/app-show/model/bangumi"
-	resource "go-common/app/service/main/resource/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/model/bangumi"
+	resource "github.com/namelessup/bilibili/app/service/main/resource/model"
 )
 
 // Banner struct

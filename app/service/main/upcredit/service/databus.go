@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 	"encoding/json"
-	"go-common/app/service/main/upcredit/model/canal"
-	"go-common/app/service/main/upcredit/model/upcrmmodel"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/upcredit/model/canal"
+	"github.com/namelessup/bilibili/app/service/main/upcredit/model/upcrmmodel"
+	"github.com/namelessup/bilibili/library/log"
 	"strings"
 )
 

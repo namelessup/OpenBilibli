@@ -1,15 +1,15 @@
 package http
 
 import (
-	newbieService "go-common/app/interface/main/growup/service/newbie"
+	newbieService "github.com/namelessup/bilibili/app/interface/main/growup/service/newbie"
 	"net/http"
 
-	"go-common/app/interface/main/growup/conf"
-	"go-common/app/interface/main/growup/service"
+	"github.com/namelessup/bilibili/app/interface/main/growup/conf"
+	"github.com/namelessup/bilibili/app/interface/main/growup/service"
 
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/auth"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/auth"
 )
 
 var (

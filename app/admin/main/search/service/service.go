@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 
-	"go-common/app/admin/main/search/conf"
-	"go-common/app/admin/main/search/dao"
-	"go-common/app/admin/main/search/model"
+	"github.com/namelessup/bilibili/app/admin/main/search/conf"
+	"github.com/namelessup/bilibili/app/admin/main/search/dao"
+	"github.com/namelessup/bilibili/app/admin/main/search/model"
 )
 
 // Service struct of service.

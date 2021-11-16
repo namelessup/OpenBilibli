@@ -23,8 +23,8 @@ go_library(
         "visitor.go",
         "walk.go",
     ],
-    importmap = "go-common/vendor/github.com/emicklei/proto",
-    importpath = "go-common/app/admin/ep/melloi/service/proto",
+    importmap = "github.com/namelessup/bilibili/vendor/github.com/emicklei/proto",
+    importpath = "github.com/namelessup/bilibili/app/admin/ep/melloi/service/proto",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

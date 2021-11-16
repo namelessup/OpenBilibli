@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"go-common/app/interface/main/up-rating/conf"
-	"go-common/app/interface/main/up-rating/dao"
+	"github.com/namelessup/bilibili/app/interface/main/up-rating/conf"
+	"github.com/namelessup/bilibili/app/interface/main/up-rating/dao"
 )
 
 // Service is up-dao service

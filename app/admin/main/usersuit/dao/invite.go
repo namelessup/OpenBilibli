@@ -5,9 +5,9 @@ import (
 	"database/sql"
 	"time"
 
-	"go-common/app/admin/main/usersuit/model"
-	xsql "go-common/library/database/sql"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/usersuit/model"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

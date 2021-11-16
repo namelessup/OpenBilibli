@@ -3,10 +3,10 @@ package music
 import (
 	"context"
 
-	"go-common/app/interface/main/creative/conf"
-	"go-common/library/database/elastic"
-	"go-common/library/database/sql"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/interface/main/creative/conf"
+	"github.com/namelessup/bilibili/library/database/elastic"
+	"github.com/namelessup/bilibili/library/database/sql"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // Dao is archive dao.

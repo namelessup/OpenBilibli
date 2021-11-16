@@ -6,9 +6,9 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/service/main/antispam/util"
-	"go-common/library/database/sql"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/antispam/util"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

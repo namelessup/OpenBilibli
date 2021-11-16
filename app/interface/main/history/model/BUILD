@@ -12,7 +12,7 @@ go_library(
         "rpc.go",
         "toview.go",
     ],
-    importpath = "go-common/app/interface/main/history/model",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/history/model",
     tags = ["automanaged"],
     deps = [
         "//app/service/main/archive/model/archive:go_default_library",

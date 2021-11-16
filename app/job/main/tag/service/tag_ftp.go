@@ -12,9 +12,9 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/app/job/main/tag/model"
-	"go-common/library/log"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/job/main/tag/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/xstr"
 
 	ftp "github.com/ftp-master"
 )

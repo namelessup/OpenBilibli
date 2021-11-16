@@ -8,12 +8,12 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/app/service/bbq/topic/internal/server/grpc"
-	"go-common/app/service/bbq/topic/internal/server/http"
-	"go-common/app/service/bbq/topic/internal/service"
-	"go-common/library/conf/paladin"
-	ecode "go-common/library/ecode/tip"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/bbq/topic/internal/server/grpc"
+	"github.com/namelessup/bilibili/app/service/bbq/topic/internal/server/http"
+	"github.com/namelessup/bilibili/app/service/bbq/topic/internal/service"
+	"github.com/namelessup/bilibili/library/conf/paladin"
+	ecode "github.com/namelessup/bilibili/library/ecode/tip"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func main() {

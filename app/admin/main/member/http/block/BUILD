@@ -24,7 +24,7 @@ go_library(
         "block.go",
         "http.go",
     ],
-    importpath = "go-common/app/admin/main/member/http/block",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/member/http/block",
     tags = ["automanaged"],
     deps = [
         "//app/admin/main/member/model/block:go_default_library",

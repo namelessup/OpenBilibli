@@ -2,18 +2,18 @@ package dao
 
 import (
 	"context"
-	"go-common/app/service/live/gift/conf"
-	"go-common/library/cache/memcache"
-	"go-common/library/cache/redis"
-	xsql "go-common/library/database/sql"
-	"go-common/library/net/rpc/liverpc"
+	"github.com/namelessup/bilibili/app/service/live/gift/conf"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/net/rpc/liverpc"
 
-	activity "go-common/app/service/live/activity/api/liverpc"
-	fans_medal "go-common/app/service/live/fans_medal/api/liverpc"
-	live_user "go-common/app/service/live/live_user/api/liverpc"
-	room "go-common/app/service/live/room/api/liverpc"
-	user "go-common/app/service/live/user/api/liverpc"
-	xuser "go-common/app/service/live/xuser/api/grpc/v1"
+	activity "github.com/namelessup/bilibili/app/service/live/activity/api/liverpc"
+	fans_medal "github.com/namelessup/bilibili/app/service/live/fans_medal/api/liverpc"
+	live_user "github.com/namelessup/bilibili/app/service/live/live_user/api/liverpc"
+	room "github.com/namelessup/bilibili/app/service/live/room/api/liverpc"
+	user "github.com/namelessup/bilibili/app/service/live/user/api/liverpc"
+	xuser "github.com/namelessup/bilibili/app/service/live/xuser/api/grpc/v1"
 )
 
 // Dao dao

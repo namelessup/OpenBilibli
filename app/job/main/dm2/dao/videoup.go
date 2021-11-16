@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"net/url"
 
-	"go-common/app/job/main/dm2/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/dm2/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

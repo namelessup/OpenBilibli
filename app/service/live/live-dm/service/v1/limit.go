@@ -2,8 +2,8 @@ package v1
 
 import (
 	"context"
-	"go-common/app/service/live/live-dm/dao"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/service/live/live-dm/dao"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 func rateLimit(ctx context.Context, dm *SendMsg) error {

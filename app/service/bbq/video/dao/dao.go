@@ -4,20 +4,20 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"go-common/app/service/bbq/video/api/grpc/v1"
-	"go-common/app/service/bbq/video/conf"
-	"go-common/app/service/bbq/video/model/grpc"
-	account "go-common/app/service/main/account/api"
-	archive "go-common/app/service/main/archive/api"
-	"go-common/library/cache/redis"
-	"go-common/library/conf/env"
-	xsql "go-common/library/database/sql"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/rpc/warden"
-	"go-common/library/queue/databus"
-	"go-common/library/sync/pipeline/fanout"
+	"github.com/namelessup/bilibili/app/service/bbq/video/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/bbq/video/conf"
+	"github.com/namelessup/bilibili/app/service/bbq/video/model/grpc"
+	account "github.com/namelessup/bilibili/app/service/main/account/api"
+	archive "github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/conf/env"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
+	"github.com/namelessup/bilibili/library/queue/databus"
+	"github.com/namelessup/bilibili/library/sync/pipeline/fanout"
 	"net/url"
 	"reflect"
 	"strconv"
@@ -25,7 +25,7 @@ import (
 	jsoniter "github.com/json-iterator/go"
 )
 
-//go:generate $GOPATH/src/go-common/app/tool/cache/gen
+//go:generate $GOPATH/src/github.com/namelessup/bilibili/app/tool/cache/gen
 type _cache interface {
 	// cache: -batch_err=break -nullcache=&v1.VideoBase{Svid:-1} -check_null_code=$==nil||$.Svid==-1
 	VideoBase(c context.Context, svid []int64) (map[int64]*v1.VideoBase, error)

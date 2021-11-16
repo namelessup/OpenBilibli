@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/service/main/push/dao"
-	"go-common/app/service/main/push/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/push/dao"
+	"github.com/namelessup/bilibili/app/service/main/push/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) loadBusinessproc() {

@@ -3,11 +3,11 @@ package http
 import (
 	"strconv"
 
-	"go-common/app/interface/main/creative/model/article"
-	"go-common/app/interface/openplatform/article/model"
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/article"
+	"github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 func creatorArticlePre(c *bm.Context) {

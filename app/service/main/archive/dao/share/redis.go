@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	"go-common/library/cache/redis"
-	"go-common/library/log"
-	xip "go-common/library/net/ip"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/log"
+	xip "github.com/namelessup/bilibili/library/net/ip"
 )
 
 const (

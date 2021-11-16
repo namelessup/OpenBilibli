@@ -1,6 +1,6 @@
 package databus
 
-import "go-common/library/time"
+import "github.com/namelessup/bilibili/library/time"
 
 // TableName case tablename
 func (*OldApp) TableName() string {

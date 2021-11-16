@@ -1,6 +1,6 @@
 package account
 
-import "go-common/library/time"
+import "github.com/namelessup/bilibili/library/time"
 
 // MyInfo get user info  for pre archive.
 type MyInfo struct {

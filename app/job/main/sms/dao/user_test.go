@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"go-common/app/job/main/sms/conf"
+	"github.com/namelessup/bilibili/app/job/main/sms/conf"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

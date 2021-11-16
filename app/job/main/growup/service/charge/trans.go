@@ -1,7 +1,7 @@
 package charge
 
 import (
-	model "go-common/app/job/main/growup/model/charge"
+	model "github.com/namelessup/bilibili/app/job/main/growup/model/charge"
 )
 
 func transAv2Archive(avs []*model.AvCharge) (archs []*model.Archive) {

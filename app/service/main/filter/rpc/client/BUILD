@@ -22,7 +22,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["filter.go"],
-    importpath = "go-common/app/service/main/filter/rpc/client",
+    importpath = "github.com/namelessup/bilibili/app/service/main/filter/rpc/client",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

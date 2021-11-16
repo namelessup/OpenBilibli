@@ -5,17 +5,17 @@ import (
 	"fmt"
 	"time"
 
-	"go-common/app/interface/main/app-interface/conf"
-	accdao "go-common/app/interface/main/app-interface/dao/account"
-	audiodao "go-common/app/interface/main/app-interface/dao/audio"
-	bplusdao "go-common/app/interface/main/app-interface/dao/bplus"
-	memberdao "go-common/app/interface/main/app-interface/dao/member"
-	paydao "go-common/app/interface/main/app-interface/dao/pay"
-	reldao "go-common/app/interface/main/app-interface/dao/relation"
-	sidedao "go-common/app/interface/main/app-interface/dao/sidebar"
-	"go-common/app/interface/main/app-interface/model"
-	resmodel "go-common/app/service/main/resource/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/conf"
+	accdao "github.com/namelessup/bilibili/app/interface/main/app-interface/dao/account"
+	audiodao "github.com/namelessup/bilibili/app/interface/main/app-interface/dao/audio"
+	bplusdao "github.com/namelessup/bilibili/app/interface/main/app-interface/dao/bplus"
+	memberdao "github.com/namelessup/bilibili/app/interface/main/app-interface/dao/member"
+	paydao "github.com/namelessup/bilibili/app/interface/main/app-interface/dao/pay"
+	reldao "github.com/namelessup/bilibili/app/interface/main/app-interface/dao/relation"
+	sidedao "github.com/namelessup/bilibili/app/interface/main/app-interface/dao/sidebar"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/model"
+	resmodel "github.com/namelessup/bilibili/app/service/main/resource/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Service is space service

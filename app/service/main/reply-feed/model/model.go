@@ -1,7 +1,7 @@
 package model
 
 import (
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/library/ecode"
 	"sort"
 )
 

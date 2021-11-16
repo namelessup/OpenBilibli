@@ -12,14 +12,14 @@ import (
 	"strings"
 	"time"
 
-	v1pb "go-common/app/admin/live/live-admin/api/http/v1"
-	"go-common/app/admin/live/live-admin/conf"
-	"go-common/app/admin/live/live-admin/dao"
-	"go-common/app/admin/live/live-admin/model"
-	"go-common/library/database/bfs"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/http/blademaster"
+	v1pb "github.com/namelessup/bilibili/app/admin/live/live-admin/api/http/v1"
+	"github.com/namelessup/bilibili/app/admin/live/live-admin/conf"
+	"github.com/namelessup/bilibili/app/admin/live/live-admin/dao"
+	"github.com/namelessup/bilibili/app/admin/live/live-admin/model"
+	"github.com/namelessup/bilibili/library/database/bfs"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // UploadService struct

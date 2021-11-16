@@ -10,9 +10,9 @@ import (
 	"time"
 
 	"github.com/smartystreets/goconvey/convey"
-	"go-common/app/admin/main/aegis/model/common"
-	"go-common/app/admin/main/aegis/model/resource"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model/common"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/model/resource"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 func Test_SubmitOption(t *testing.T) {

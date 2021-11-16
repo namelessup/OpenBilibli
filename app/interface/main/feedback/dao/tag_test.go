@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"testing"
 
-	xsql "go-common/library/database/sql"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
 
 	"github.com/bouk/monkey"
 	"github.com/smartystreets/goconvey/convey"

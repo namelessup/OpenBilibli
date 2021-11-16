@@ -27,7 +27,7 @@ go_library(
         "service.go",
         "short.go",
     ],
-    importpath = "go-common/app/interface/main/shorturl/service",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/shorturl/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

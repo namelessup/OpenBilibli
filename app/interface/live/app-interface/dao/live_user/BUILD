@@ -12,7 +12,7 @@ go_library(
         "dao.go",
         "get_tag.go",
     ],
-    importpath = "go-common/app/interface/live/app-interface/dao/live_user",
+    importpath = "github.com/namelessup/bilibili/app/interface/live/app-interface/dao/live_user",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

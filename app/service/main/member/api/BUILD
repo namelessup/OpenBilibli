@@ -35,7 +35,7 @@ proto_library(
 go_proto_library(
     name = "api_go_proto",
     compilers = ["@io_bazel_rules_go//proto:gogofast_grpc"],
-    importpath = "go-common/app/service/main/member/api",
+    importpath = "github.com/namelessup/bilibili/app/service/main/member/api",
     proto = ":api_proto",
     tags = ["automanaged"],
     deps = [
@@ -51,7 +51,7 @@ go_library(
         "copy.go",
     ],
     embed = [":api_go_proto"],
-    importpath = "go-common/app/service/main/member/api",
+    importpath = "github.com/namelessup/bilibili/app/service/main/member/api",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

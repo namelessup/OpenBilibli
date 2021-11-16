@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
-	account "go-common/app/service/main/account/model"
-	"go-common/library/log"
+	account "github.com/namelessup/bilibili/app/service/main/account/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 var (

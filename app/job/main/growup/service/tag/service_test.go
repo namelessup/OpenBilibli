@@ -5,8 +5,8 @@ import (
 	"path/filepath"
 	"time"
 
-	"go-common/app/job/main/growup/conf"
-	"go-common/app/job/main/growup/service/ctrl"
+	"github.com/namelessup/bilibili/app/job/main/growup/conf"
+	"github.com/namelessup/bilibili/app/job/main/growup/service/ctrl"
 )
 
 var (

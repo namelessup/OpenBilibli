@@ -6,9 +6,9 @@ import (
 	"net/url"
 	"strconv"
 
-	"go-common/app/job/main/videoup-report/model/archive"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/videoup-report/model/archive"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // OpenReply change subject state to open

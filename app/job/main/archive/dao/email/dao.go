@@ -3,7 +3,7 @@ package email
 import (
 	gomail "gopkg.in/gomail.v2"
 
-	"go-common/app/job/main/archive/conf"
+	"github.com/namelessup/bilibili/app/job/main/archive/conf"
 )
 
 // Dao is redis dao.

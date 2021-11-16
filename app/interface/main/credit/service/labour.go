@@ -5,15 +5,15 @@ import (
 	"encoding/json"
 	"time"
 
-	model "go-common/app/interface/main/credit/model"
-	"go-common/app/service/main/archive/api"
-	arcMDL "go-common/app/service/main/archive/model/archive"
-	blkmdl "go-common/app/service/main/member/model/block"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
-	xtime "go-common/library/time"
-	"go-common/library/xstr"
+	model "github.com/namelessup/bilibili/app/interface/main/credit/model"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	arcMDL "github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	blkmdl "github.com/namelessup/bilibili/app/service/main/member/model/block"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	xtime "github.com/namelessup/bilibili/library/time"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 // AddQs add labour question.

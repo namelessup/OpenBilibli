@@ -12,7 +12,7 @@ go_library(
         "coupon.go",
         "http.go",
     ],
-    importpath = "go-common/app/service/main/coupon/http",
+    importpath = "github.com/namelessup/bilibili/app/service/main/coupon/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -44,7 +44,7 @@ idleTimeout = "10s"
 expire = "24h"
 
 [redis]
-name = "go-common/app/job/main/relation"
+name = "github.com/namelessup/bilibili/app/job/main/relation"
 proto = "tcp"
 addr = "127.0.0.1:32769"
 idle = 100
@@ -101,7 +101,7 @@ topic = "Relation-T"
 action = "sub"
 offset = "old"
 buffer = 2048
-name = "go-common/app/job/main/relation/databus"
+name = "github.com/namelessup/bilibili/app/job/main/relation/databus"
 proto = "tcp"
 addr = "172.16.33.158:6205"
 idle = 100

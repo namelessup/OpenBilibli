@@ -6,9 +6,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"go-common/app/interface/openplatform/article/conf"
-	artmdl "go-common/app/interface/openplatform/article/model"
-	"go-common/library/cache/redis"
+	"github.com/namelessup/bilibili/app/interface/openplatform/article/conf"
+	artmdl "github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	"github.com/namelessup/bilibili/library/cache/redis"
 
 	_ "github.com/go-sql-driver/mysql"
 	. "github.com/smartystreets/goconvey/convey"

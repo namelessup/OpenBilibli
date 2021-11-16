@@ -1,10 +1,10 @@
 package grpc
 
 import (
-	v1pb "go-common/app/service/live/xuser/api/grpc/v1"
-	"go-common/app/service/live/xuser/dao"
-	"go-common/app/service/live/xuser/service"
-	"go-common/library/net/rpc/warden"
+	v1pb "github.com/namelessup/bilibili/app/service/live/xuser/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/live/xuser/dao"
+	"github.com/namelessup/bilibili/app/service/live/xuser/service"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 )
 
 // New new grpc server

@@ -3,7 +3,7 @@ package ugc
 import (
 	"time"
 
-	arcmdl "go-common/app/service/main/archive/api"
+	arcmdl "github.com/namelessup/bilibili/app/service/main/archive/api"
 )
 
 // ArcMsg reprensents the archive Notify-T message structure

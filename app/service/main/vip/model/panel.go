@@ -5,9 +5,9 @@ import (
 	"math"
 	"strconv"
 
-	colapi "go-common/app/service/main/coupon/api"
-	col "go-common/app/service/main/coupon/model"
-	"go-common/library/time"
+	colapi "github.com/namelessup/bilibili/app/service/main/coupon/api"
+	col "github.com/namelessup/bilibili/app/service/main/coupon/model"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 // vip_price_config suit_type

@@ -6,17 +6,17 @@ import (
 
 	"sync"
 
-	"go-common/app/interface/main/creative/conf"
-	"go-common/app/interface/main/creative/dao/account"
-	"go-common/app/interface/main/creative/dao/bfs"
-	"go-common/app/interface/main/creative/dao/drawimg"
-	"go-common/app/interface/main/creative/dao/monitor"
-	"go-common/app/interface/main/creative/dao/watermark"
-	wmMDL "go-common/app/interface/main/creative/model/watermark"
+	"github.com/namelessup/bilibili/app/interface/main/creative/conf"
+	"github.com/namelessup/bilibili/app/interface/main/creative/dao/account"
+	"github.com/namelessup/bilibili/app/interface/main/creative/dao/bfs"
+	"github.com/namelessup/bilibili/app/interface/main/creative/dao/drawimg"
+	"github.com/namelessup/bilibili/app/interface/main/creative/dao/monitor"
+	"github.com/namelessup/bilibili/app/interface/main/creative/dao/watermark"
+	wmMDL "github.com/namelessup/bilibili/app/interface/main/creative/model/watermark"
 
-	"go-common/app/interface/main/creative/service"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/interface/main/creative/service"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 //Service struct

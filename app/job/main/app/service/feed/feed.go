@@ -5,12 +5,12 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/job/main/app/conf"
-	feeddao "go-common/app/job/main/app/dao/feed"
-	"go-common/app/job/main/app/model/feed"
-	"go-common/app/service/main/archive/api"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/job/main/app/conf"
+	feeddao "github.com/namelessup/bilibili/app/job/main/app/dao/feed"
+	"github.com/namelessup/bilibili/app/job/main/app/model/feed"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 // Service is show service.

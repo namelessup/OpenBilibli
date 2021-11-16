@@ -48,7 +48,7 @@ go_library(
         "redis.go",
         "reply.go",
     ],
-    importpath = "go-common/app/job/main/credit/dao",
+    importpath = "github.com/namelessup/bilibili/app/job/main/credit/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

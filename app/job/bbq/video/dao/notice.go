@@ -2,9 +2,9 @@ package dao
 
 import (
 	"context"
-	notice "go-common/app/service/bbq/notice-service/api/v1"
-	msg "go-common/app/service/bbq/sys-msg/api/v1"
-	"go-common/library/log"
+	notice "github.com/namelessup/bilibili/app/service/bbq/notice-service/api/v1"
+	msg "github.com/namelessup/bilibili/app/service/bbq/sys-msg/api/v1"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // 通知的业务类型

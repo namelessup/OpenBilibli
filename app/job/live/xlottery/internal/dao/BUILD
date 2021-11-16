@@ -13,7 +13,7 @@ go_library(
         "capsule.go",
         "dao.go",
     ],
-    importpath = "go-common/app/job/live/xlottery/internal/dao",
+    importpath = "github.com/namelessup/bilibili/app/job/live/xlottery/internal/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

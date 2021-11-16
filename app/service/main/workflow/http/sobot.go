@@ -3,10 +3,10 @@ package http
 import (
 	"encoding/json"
 
-	"go-common/app/service/main/workflow/model/account"
-	"go-common/app/service/main/workflow/model/sobot"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/binding"
+	"github.com/namelessup/bilibili/app/service/main/workflow/model/account"
+	"github.com/namelessup/bilibili/app/service/main/workflow/model/sobot"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/binding"
 )
 
 func sobotFetchUser(c *bm.Context) {

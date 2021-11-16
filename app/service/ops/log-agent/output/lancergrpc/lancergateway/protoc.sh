@@ -1,7 +1,7 @@
 #!/bin/bash
 DEFAULT_PROTOC_GEN="gogofast"
 DEFAULT_PROTOC="protoc"
-GO_COMMON_DIR_NAME="go-common"
+GO_COMMON_DIR_NAME="github.com/namelessup/bilibili"
 USR_INCLUDE_DIR="/usr/local/include"
 
 function _install_protoc() {
@@ -64,9 +64,9 @@ function _fix_pb_file() {
     for file in $pb_files; do
         echo "fix pb file $file"
         if [[ $(uname -s) == 'Darwin' ]]; then
-            sed -i "" -e "s/^import \(.*\) \"app\/\(.*\)\"/import \1 \"go-common\/app\/\2\"/g" $file
+            sed -i "" -e "s/^import \(.*\) \"app\/\(.*\)\"/import \1 \"github.com/namelessup/bilibili\/app\/\2\"/g" $file
         else
-            sed -i"" -E "s/^import\s*(.*)\s*\"app\/(.*)\"/import\1\"go-common\/app\/\2\"/g" $file
+            sed -i"" -E "s/^import\s*(.*)\s*\"app\/(.*)\"/import\1\"github.com/namelessup/bilibili\/app\/\2\"/g" $file
         fi
     done
 }
@@ -103,7 +103,7 @@ fi
 
 GO_COMMON_DIR=$(_find_go_common_dir $GO_COMMON_DIR_NAME)
 if [[ "$?" != "0" ]]; then
-    echo "can't find go-common directoy"
+    echo "can't find github.com/namelessup/bilibili directoy"
     exit 1
 fi
 

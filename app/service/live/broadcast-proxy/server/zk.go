@@ -2,7 +2,7 @@ package server
 
 import (
 	"github.com/samuel/go-zookeeper/zk"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 	"strings"
 	"time"
 )

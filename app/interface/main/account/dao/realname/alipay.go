@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"net/url"
 
-	"go-common/app/interface/main/account/conf"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/account/conf"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/pkg/errors"
 )

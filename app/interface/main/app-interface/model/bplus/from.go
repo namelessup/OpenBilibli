@@ -1,6 +1,6 @@
 package bplus
 
-import "go-common/library/time"
+import "github.com/namelessup/bilibili/library/time"
 
 type Clips struct {
 	List     []*ClipList `json:"list,omitempty"`

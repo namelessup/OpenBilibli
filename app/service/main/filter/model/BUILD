@@ -18,7 +18,7 @@ go_library(
         "model.go",
         "white.go",
     ],
-    importpath = "go-common/app/service/main/filter/model",
+    importpath = "github.com/namelessup/bilibili/app/service/main/filter/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

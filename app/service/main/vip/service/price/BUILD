@@ -21,7 +21,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["price.go"],
-    importpath = "go-common/app/service/main/vip/service/price",
+    importpath = "github.com/namelessup/bilibili/app/service/main/vip/service/price",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//app/service/main/vip/model:go_default_library"],

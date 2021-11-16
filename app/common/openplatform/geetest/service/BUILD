@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["geetest.go"],
-    importpath = "go-common/app/common/openplatform/geetest/service",
+    importpath = "github.com/namelessup/bilibili/app/common/openplatform/geetest/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

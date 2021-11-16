@@ -6,9 +6,9 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/interface/openplatform/monitor-end/conf"
-	"go-common/app/interface/openplatform/monitor-end/model/kafka"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/openplatform/monitor-end/conf"
+	"github.com/namelessup/bilibili/app/interface/openplatform/monitor-end/model/kafka"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/Shopify/sarama"
 	cluster "github.com/bsm/sarama-cluster"

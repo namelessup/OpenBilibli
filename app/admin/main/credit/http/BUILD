@@ -16,7 +16,7 @@ go_library(
         "labour.go",
         "upload.go",
     ],
-    importpath = "go-common/app/admin/main/credit/http",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/credit/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

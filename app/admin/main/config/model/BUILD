@@ -17,7 +17,7 @@ go_library(
         "tag.go",
         "team.go",
     ],
-    importpath = "go-common/app/admin/main/config/model",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/config/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/time:go_default_library"],

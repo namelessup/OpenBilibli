@@ -3,9 +3,9 @@ package like
 import (
 	"context"
 
-	match "go-common/app/interface/main/activity/model/like"
+	match "github.com/namelessup/bilibili/app/interface/main/activity/model/like"
 
-	xtime "go-common/library/time"
+	xtime "github.com/namelessup/bilibili/library/time"
 	"testing"
 
 	"time"

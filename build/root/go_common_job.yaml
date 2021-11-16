@@ -18,7 +18,7 @@ owners_dir_blacklist:
   repos: null
 plank: {}
 presubmits:
-  platform/go-common:
+  platform/github.com/namelessup/bilibili:
   - agent: kubernetes
     always_run: true
     cluster: default
@@ -25580,10 +25580,10 @@ presubmits:
   - agent: kubernetes
     always_run: true
     cluster: default
-    context: go-common-make-update
-    name: go-common-make-update
+    context: github.com/namelessup/bilibili-make-update
+    name: github.com/namelessup/bilibili-make-update
     namespace: default
-    rerun_command: +test go-common-make-update
+    rerun_command: +test github.com/namelessup/bilibili-make-update
     run_pr_pushed: true
     spec:
       containers:
@@ -25596,16 +25596,16 @@ presubmits:
         - ./build/update-bazel.sh
         image: hub.bilibili.co/k8s-prow/golint:v20190123123017-77f54bb27
         imagePullPolicy: IfNotPresent
-        name: go-common-make-update
+        name: github.com/namelessup/bilibili-make-update
         resources: {}
-    trigger: (?m)^\+test( | .* )go-common-make-update,?($|\s.*)
+    trigger: (?m)^\+test( | .* )github.com/namelessup/bilibili-make-update,?($|\s.*)
   - agent: kubernetes
     always_run: true
     cluster: default
-    context: go-common-build-common
-    name: go-common-build-common
+    context: github.com/namelessup/bilibili-build-common
+    name: github.com/namelessup/bilibili-build-common
     namespace: default
-    rerun_command: +test go-common-build-common
+    rerun_command: +test github.com/namelessup/bilibili-build-common
     run_pr_pushed: true
     spec:
       containers:
@@ -25619,19 +25619,19 @@ presubmits:
         - ci-bazel-build-common
         image: hub.bilibili.co/k8s-prow/bazelbuild:v20190123123430-77f54bb27
         imagePullPolicy: IfNotPresent
-        name: go-common-build-common
+        name: github.com/namelessup/bilibili-build-common
         resources: {}
-    trigger: (?m)^\+test( | .* )go-common-build-common,?($|\s.*)
+    trigger: (?m)^\+test( | .* )github.com/namelessup/bilibili-build-common,?($|\s.*)
     trusted_labels:
     - library
     - new-project
   - agent: kubernetes
     always_run: true
     cluster: default
-    context: go-common-build-infra
-    name: go-common-build-infra
+    context: github.com/namelessup/bilibili-build-infra
+    name: github.com/namelessup/bilibili-build-infra
     namespace: default
-    rerun_command: +test go-common-build-infra
+    rerun_command: +test github.com/namelessup/bilibili-build-infra
     run_pr_pushed: true
     spec:
       containers:
@@ -25645,19 +25645,19 @@ presubmits:
         - ci-bazel-build-infra
         image: hub.bilibili.co/k8s-prow/bazelbuild:v20190123123430-77f54bb27
         imagePullPolicy: IfNotPresent
-        name: go-common-build-infra
+        name: github.com/namelessup/bilibili-build-infra
         resources: {}
-    trigger: (?m)^\+test( | .* )go-common-build-infra,?($|\s.*)
+    trigger: (?m)^\+test( | .* )github.com/namelessup/bilibili-build-infra,?($|\s.*)
     trusted_labels:
     - library
     - new-project
   - agent: kubernetes
     always_run: true
     cluster: default
-    context: go-common-build-tool
-    name: go-common-build-tool
+    context: github.com/namelessup/bilibili-build-tool
+    name: github.com/namelessup/bilibili-build-tool
     namespace: default
-    rerun_command: +test go-common-build-tool
+    rerun_command: +test github.com/namelessup/bilibili-build-tool
     run_pr_pushed: true
     spec:
       containers:
@@ -25671,19 +25671,19 @@ presubmits:
         - ci-bazel-build-tool
         image: hub.bilibili.co/k8s-prow/bazelbuild:v20190123123430-77f54bb27
         imagePullPolicy: IfNotPresent
-        name: go-common-build-tool
+        name: github.com/namelessup/bilibili-build-tool
         resources: {}
-    trigger: (?m)^\+test( | .* )go-common-build-tool,?($|\s.*)
+    trigger: (?m)^\+test( | .* )github.com/namelessup/bilibili-build-tool,?($|\s.*)
     trusted_labels:
     - library
     - new-project
   - agent: kubernetes
     always_run: true
     cluster: default
-    context: go-common-build-live
-    name: go-common-build-live
+    context: github.com/namelessup/bilibili-build-live
+    name: github.com/namelessup/bilibili-build-live
     namespace: default
-    rerun_command: +test go-common-build-live
+    rerun_command: +test github.com/namelessup/bilibili-build-live
     run_pr_pushed: true
     spec:
       containers:
@@ -25697,19 +25697,19 @@ presubmits:
         - ci-bazel-build-live
         image: hub.bilibili.co/k8s-prow/bazelbuild:v20190123123430-77f54bb27
         imagePullPolicy: IfNotPresent
-        name: go-common-build-live
+        name: github.com/namelessup/bilibili-build-live
         resources: {}
-    trigger: (?m)^\+test( | .* )go-common-build-live,?($|\s.*)
+    trigger: (?m)^\+test( | .* )github.com/namelessup/bilibili-build-live,?($|\s.*)
     trusted_labels:
     - library
     - new-project
   - agent: kubernetes
     always_run: true
     cluster: default
-    context: go-common-build-ep
-    name: go-common-build-ep
+    context: github.com/namelessup/bilibili-build-ep
+    name: github.com/namelessup/bilibili-build-ep
     namespace: default
-    rerun_command: +test go-common-build-ep
+    rerun_command: +test github.com/namelessup/bilibili-build-ep
     run_pr_pushed: true
     spec:
       containers:
@@ -25723,19 +25723,19 @@ presubmits:
         - ci-bazel-build-ep
         image: hub.bilibili.co/k8s-prow/bazelbuild:v20190123123430-77f54bb27
         imagePullPolicy: IfNotPresent
-        name: go-common-build-ep
+        name: github.com/namelessup/bilibili-build-ep
         resources: {}
-    trigger: (?m)^\+test( | .* )go-common-build-ep,?($|\s.*)
+    trigger: (?m)^\+test( | .* )github.com/namelessup/bilibili-build-ep,?($|\s.*)
     trusted_labels:
     - library
     - new-project
   - agent: kubernetes
     always_run: true
     cluster: default
-    context: go-common-build-openplatform
-    name: go-common-build-openplatform
+    context: github.com/namelessup/bilibili-build-openplatform
+    name: github.com/namelessup/bilibili-build-openplatform
     namespace: default
-    rerun_command: +test go-common-build-openplatform
+    rerun_command: +test github.com/namelessup/bilibili-build-openplatform
     run_pr_pushed: true
     spec:
       containers:
@@ -25749,19 +25749,19 @@ presubmits:
         - ci-bazel-build-openplatform
         image: hub.bilibili.co/k8s-prow/bazelbuild:v20190123123430-77f54bb27
         imagePullPolicy: IfNotPresent
-        name: go-common-build-openplatform
+        name: github.com/namelessup/bilibili-build-openplatform
         resources: {}
-    trigger: (?m)^\+test( | .* )go-common-build-openplatform,?($|\s.*)
+    trigger: (?m)^\+test( | .* )github.com/namelessup/bilibili-build-openplatform,?($|\s.*)
     trusted_labels:
     - library
     - new-project
   - agent: kubernetes
     always_run: true
     cluster: default
-    context: go-common-build-bbq
-    name: go-common-build-bbq
+    context: github.com/namelessup/bilibili-build-bbq
+    name: github.com/namelessup/bilibili-build-bbq
     namespace: default
-    rerun_command: +test go-common-build-bbq
+    rerun_command: +test github.com/namelessup/bilibili-build-bbq
     run_pr_pushed: true
     spec:
       containers:
@@ -25775,19 +25775,19 @@ presubmits:
         - ci-bazel-build-bbq
         image: hub.bilibili.co/k8s-prow/bazelbuild:v20190123123430-77f54bb27
         imagePullPolicy: IfNotPresent
-        name: go-common-build-bbq
+        name: github.com/namelessup/bilibili-build-bbq
         resources: {}
-    trigger: (?m)^\+test( | .* )go-common-build-bbq,?($|\s.*)
+    trigger: (?m)^\+test( | .* )github.com/namelessup/bilibili-build-bbq,?($|\s.*)
     trusted_labels:
     - library
     - new-project
   - agent: kubernetes
     always_run: true
     cluster: default
-    context: go-common-build-video
-    name: go-common-build-video
+    context: github.com/namelessup/bilibili-build-video
+    name: github.com/namelessup/bilibili-build-video
     namespace: default
-    rerun_command: +test go-common-build-video
+    rerun_command: +test github.com/namelessup/bilibili-build-video
     run_pr_pushed: true
     spec:
       containers:
@@ -25801,19 +25801,19 @@ presubmits:
         - ci-bazel-build-video
         image: hub.bilibili.co/k8s-prow/bazelbuild:v20190123123430-77f54bb27
         imagePullPolicy: IfNotPresent
-        name: go-common-build-video
+        name: github.com/namelessup/bilibili-build-video
         resources: {}
-    trigger: (?m)^\+test( | .* )go-common-build-video,?($|\s.*)
+    trigger: (?m)^\+test( | .* )github.com/namelessup/bilibili-build-video,?($|\s.*)
     trusted_labels:
     - library
     - new-project
   - agent: kubernetes
     always_run: true
     cluster: default
-    context: go-common-build-ops
-    name: go-common-build-ops
+    context: github.com/namelessup/bilibili-build-ops
+    name: github.com/namelessup/bilibili-build-ops
     namespace: default
-    rerun_command: +test go-common-build-ops
+    rerun_command: +test github.com/namelessup/bilibili-build-ops
     run_pr_pushed: true
     spec:
       containers:
@@ -25827,19 +25827,19 @@ presubmits:
         - ci-bazel-build-ops
         image: hub.bilibili.co/k8s-prow/bazelbuild:v20190123123430-77f54bb27
         imagePullPolicy: IfNotPresent
-        name: go-common-build-ops
+        name: github.com/namelessup/bilibili-build-ops
         resources: {}
-    trigger: (?m)^\+test( | .* )go-common-build-ops,?($|\s.*)
+    trigger: (?m)^\+test( | .* )github.com/namelessup/bilibili-build-ops,?($|\s.*)
     trusted_labels:
     - library
     - new-project
   - agent: kubernetes
     always_run: true
     cluster: default
-    context: go-common-build-library
-    name: go-common-build-library
+    context: github.com/namelessup/bilibili-build-library
+    name: github.com/namelessup/bilibili-build-library
     namespace: default
-    rerun_command: +test go-common-build-library
+    rerun_command: +test github.com/namelessup/bilibili-build-library
     run_pr_pushed: true
     spec:
       containers:
@@ -25853,19 +25853,19 @@ presubmits:
         - ci-bazel-build-library
         image: hub.bilibili.co/k8s-prow/bazelbuild:v20190123123430-77f54bb27
         imagePullPolicy: IfNotPresent
-        name: go-common-build-library
+        name: github.com/namelessup/bilibili-build-library
         resources: {}
-    trigger: (?m)^\+test( | .* )go-common-build-library,?($|\s.*)
+    trigger: (?m)^\+test( | .* )github.com/namelessup/bilibili-build-library,?($|\s.*)
     trusted_labels:
     - library
     - new-project
   - agent: kubernetes
     always_run: true
     cluster: default
-    context: go-common-build-service-main
-    name: go-common-build-service-main
+    context: github.com/namelessup/bilibili-build-service-main
+    name: github.com/namelessup/bilibili-build-service-main
     namespace: default
-    rerun_command: +test go-common-build-service-main
+    rerun_command: +test github.com/namelessup/bilibili-build-service-main
     run_pr_pushed: true
     spec:
       containers:
@@ -25879,19 +25879,19 @@ presubmits:
         - ci-bazel-build-service-main
         image: hub.bilibili.co/k8s-prow/bazelbuild:v20190123123430-77f54bb27
         imagePullPolicy: IfNotPresent
-        name: go-common-build-service-main
+        name: github.com/namelessup/bilibili-build-service-main
         resources: {}
-    trigger: (?m)^\+test( | .* )go-common-build-service-main,?($|\s.*)
+    trigger: (?m)^\+test( | .* )github.com/namelessup/bilibili-build-service-main,?($|\s.*)
     trusted_labels:
     - library
     - new-service-main-project
   - agent: kubernetes
     always_run: true
     cluster: default
-    context: go-common-build-interface-main
-    name: go-common-build-interface-main
+    context: github.com/namelessup/bilibili-build-interface-main
+    name: github.com/namelessup/bilibili-build-interface-main
     namespace: default
-    rerun_command: +test go-common-build-interface-main
+    rerun_command: +test github.com/namelessup/bilibili-build-interface-main
     run_pr_pushed: true
     spec:
       containers:
@@ -25905,19 +25905,19 @@ presubmits:
         - ci-bazel-build-interface-main
         image: hub.bilibili.co/k8s-prow/bazelbuild:v20190123123430-77f54bb27
         imagePullPolicy: IfNotPresent
-        name: go-common-build-interface-main
+        name: github.com/namelessup/bilibili-build-interface-main
         resources: {}
-    trigger: (?m)^\+test( | .* )go-common-build-interface-main,?($|\s.*)
+    trigger: (?m)^\+test( | .* )github.com/namelessup/bilibili-build-interface-main,?($|\s.*)
     trusted_labels:
     - library
     - new-interface-main-project
   - agent: kubernetes
     always_run: true
     cluster: default
-    context: go-common-build-job-main
-    name: go-common-build-job-main
+    context: github.com/namelessup/bilibili-build-job-main
+    name: github.com/namelessup/bilibili-build-job-main
     namespace: default
-    rerun_command: +test go-common-build-job-main
+    rerun_command: +test github.com/namelessup/bilibili-build-job-main
     run_pr_pushed: true
     spec:
       containers:
@@ -25931,19 +25931,19 @@ presubmits:
         - ci-bazel-build-job-main
         image: hub.bilibili.co/k8s-prow/bazelbuild:v20190123123430-77f54bb27
         imagePullPolicy: IfNotPresent
-        name: go-common-build-job-main
+        name: github.com/namelessup/bilibili-build-job-main
         resources: {}
-    trigger: (?m)^\+test( | .* )go-common-build-job-main,?($|\s.*)
+    trigger: (?m)^\+test( | .* )github.com/namelessup/bilibili-build-job-main,?($|\s.*)
     trusted_labels:
     - library
     - new-job-main-project
   - agent: kubernetes
     always_run: true
     cluster: default
-    context: go-common-build-admin-main
-    name: go-common-build-admin-main
+    context: github.com/namelessup/bilibili-build-admin-main
+    name: github.com/namelessup/bilibili-build-admin-main
     namespace: default
-    rerun_command: +test go-common-build-admin-main
+    rerun_command: +test github.com/namelessup/bilibili-build-admin-main
     run_pr_pushed: true
     spec:
       containers:
@@ -25957,9 +25957,9 @@ presubmits:
         - ci-bazel-build-admin-main
         image: hub.bilibili.co/k8s-prow/bazelbuild:v20190123123430-77f54bb27
         imagePullPolicy: IfNotPresent
-        name: go-common-build-admin-main
+        name: github.com/namelessup/bilibili-build-admin-main
         resources: {}
-    trigger: (?m)^\+test( | .* )go-common-build-admin-main,?($|\s.*)
+    trigger: (?m)^\+test( | .* )github.com/namelessup/bilibili-build-admin-main,?($|\s.*)
     trusted_labels:
     - library
     - new-admin-main-project

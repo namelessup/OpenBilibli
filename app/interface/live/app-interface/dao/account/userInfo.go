@@ -3,11 +3,11 @@ package account
 import (
     "context"
     "github.com/pkg/errors"
-	"go-common/app/service/main/account/api"
-	accountM "go-common/app/service/main/account/model"
-    actmdl "go-common/app/service/main/account/model"
-    "go-common/library/ecode"
-    "go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/account/api"
+	accountM "github.com/namelessup/bilibili/app/service/main/account/model"
+    actmdl "github.com/namelessup/bilibili/app/service/main/account/model"
+    "github.com/namelessup/bilibili/library/ecode"
+    "github.com/namelessup/bilibili/library/log"
 )
 
 // GetUserInfoData ...

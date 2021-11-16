@@ -5,9 +5,9 @@ import (
 	"sync"
 	"testing"
 
-	"go-common/app/interface/main/account/conf"
-	mrl "go-common/app/service/main/relation/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/account/conf"
+	mrl "github.com/namelessup/bilibili/app/service/main/relation/model"
+	"github.com/namelessup/bilibili/library/log"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

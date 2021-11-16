@@ -1,7 +1,7 @@
 package http
 
 import (
-	bm "go-common/library/net/http/blademaster"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // staffConfig 获取联合投稿配置

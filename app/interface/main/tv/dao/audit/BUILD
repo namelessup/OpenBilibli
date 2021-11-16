@@ -13,7 +13,7 @@ go_library(
         "dao.go",
         "transcode.go",
     ],
-    importpath = "go-common/app/interface/main/tv/dao/audit",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/tv/dao/audit",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -25,7 +25,7 @@ go_library(
         "ip.go",
         "zone.go",
     ],
-    importpath = "go-common/library/net/ip",
+    importpath = "github.com/namelessup/bilibili/library/net/ip",
     tags = ["automanaged"],
 )
 

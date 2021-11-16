@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 
-	"go-common/app/service/ep/footman/conf"
-	"go-common/app/service/ep/footman/dao"
-	"go-common/library/cache"
+	"github.com/namelessup/bilibili/app/service/ep/footman/conf"
+	"github.com/namelessup/bilibili/app/service/ep/footman/dao"
+	"github.com/namelessup/bilibili/library/cache"
 
 	"github.com/robfig/cron"
 )

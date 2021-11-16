@@ -5,9 +5,9 @@ import (
 	"encoding/json"
 	"time"
 
-	"go-common/app/job/main/archive-shjd/model"
-	"go-common/library/cache/redis"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/archive-shjd/model"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/pkg/errors"
 )

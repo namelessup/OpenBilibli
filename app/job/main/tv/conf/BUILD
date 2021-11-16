@@ -12,7 +12,7 @@ go_library(
         "license.go",
         "ugc.go",
     ],
-    importpath = "go-common/app/job/main/tv/conf",
+    importpath = "github.com/namelessup/bilibili/app/job/main/tv/conf",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -12,7 +12,7 @@ go_library(
         "feedback.go",
         "tag.go",
     ],
-    importpath = "go-common/app/interface/main/feedback/model",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/feedback/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/time:go_default_library"],

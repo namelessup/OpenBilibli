@@ -3,7 +3,7 @@ package service
 import (
 	"testing"
 
-	"go-common/app/service/main/antispam/conf"
+	"github.com/namelessup/bilibili/app/service/main/antispam/conf"
 )
 
 func TestNewOption(t *testing.T) {

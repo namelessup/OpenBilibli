@@ -39,7 +39,7 @@ go_library(
         "spy.go",
         "stat.go",
     ],
-    importpath = "go-common/app/service/main/spy/service",
+    importpath = "github.com/namelessup/bilibili/app/service/main/spy/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

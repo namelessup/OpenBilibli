@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"time"
 
-	"go-common/app/admin/main/videoup-task/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/videoup-task/model"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/tsuna/gohbase/hrpc"
 )

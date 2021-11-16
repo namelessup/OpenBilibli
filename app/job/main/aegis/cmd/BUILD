@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["aegis-job.toml"],
-    importpath = "go-common/app/job/main/aegis/cmd",
+    importpath = "github.com/namelessup/bilibili/app/job/main/aegis/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

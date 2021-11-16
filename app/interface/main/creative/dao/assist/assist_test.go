@@ -2,7 +2,7 @@ package assist
 
 import (
 	"context"
-	"go-common/app/interface/main/creative/model/assist"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/assist"
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"

@@ -1,7 +1,7 @@
 package dao
 
 import (
-	"go-common/app/admin/main/tv/model"
+	"github.com/namelessup/bilibili/app/admin/main/tv/model"
 	"testing"
 
 	"time"

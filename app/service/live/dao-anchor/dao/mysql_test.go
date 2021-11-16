@@ -6,8 +6,8 @@ import (
 
 	"github.com/smartystreets/goconvey/convey"
 
-	"go-common/app/service/live/dao-anchor/api/grpc/v1"
-	"go-common/app/service/live/dao-anchor/model"
+	"github.com/namelessup/bilibili/app/service/live/dao-anchor/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/live/dao-anchor/model"
 )
 
 func TestDaoNormalizeRoomIDs(t *testing.T) {

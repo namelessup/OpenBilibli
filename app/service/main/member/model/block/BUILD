@@ -14,7 +14,7 @@ go_library(
         "notify.go",
         "rpc.go",
     ],
-    importpath = "go-common/app/service/main/member/model/block",
+    importpath = "github.com/namelessup/bilibili/app/service/main/member/model/block",
     tags = ["automanaged"],
 )
 

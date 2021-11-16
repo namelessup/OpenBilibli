@@ -1,8 +1,8 @@
 package http
 
 import (
-	"go-common/library/ecode"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/ecode"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 const maxMsgSize = 1024 * 1024 * 8

@@ -3,8 +3,8 @@ package ping
 import (
 	"context"
 
-	"go-common/app/interface/main/app-tag/conf"
-	regiondao "go-common/app/interface/main/app-tag/dao/region"
+	"github.com/namelessup/bilibili/app/interface/main/app-tag/conf"
+	regiondao "github.com/namelessup/bilibili/app/interface/main/app-tag/dao/region"
 )
 
 type Service struct {

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"go-common/app/service/openplatform/ticket-item/conf"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-item/conf"
 )
 
 func init() {

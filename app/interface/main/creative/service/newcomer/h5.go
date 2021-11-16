@@ -3,9 +3,9 @@ package newcomer
 import (
 	"context"
 	"fmt"
-	"go-common/app/interface/main/creative/model/newcomer"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/newcomer"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // H5TaskList for H5 detail task list

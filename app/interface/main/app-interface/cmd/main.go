@@ -2,11 +2,11 @@ package main
 
 import (
 	"flag"
-	"go-common/app/interface/main/app-interface/conf"
-	"go-common/app/interface/main/app-interface/http"
-	ecode "go-common/library/ecode/tip"
-	"go-common/library/log"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/conf"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/http"
+	ecode "github.com/namelessup/bilibili/library/ecode/tip"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
 	"os"
 	"os/signal"
 	"syscall"

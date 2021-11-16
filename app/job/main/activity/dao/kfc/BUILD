@@ -26,7 +26,7 @@ go_library(
         "dao.go",
         "kfc.go",
     ],
-    importpath = "go-common/app/job/main/activity/dao/kfc",
+    importpath = "github.com/namelessup/bilibili/app/job/main/activity/dao/kfc",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

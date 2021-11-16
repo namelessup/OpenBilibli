@@ -7,8 +7,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"go-common/app/service/main/dapper/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/dapper/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 var (

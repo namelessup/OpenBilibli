@@ -5,13 +5,13 @@ import (
 	"sync"
 	"time"
 
-	filterrpc "go-common/app/service/main/filter/rpc/client"
-	"go-common/app/service/main/push-strategy/conf"
-	"go-common/app/service/main/push-strategy/dao"
-	"go-common/app/service/main/push-strategy/model"
-	pushmdl "go-common/app/service/main/push/model"
-	"go-common/library/cache"
-	"go-common/library/log"
+	filterrpc "github.com/namelessup/bilibili/app/service/main/filter/rpc/client"
+	"github.com/namelessup/bilibili/app/service/main/push-strategy/conf"
+	"github.com/namelessup/bilibili/app/service/main/push-strategy/dao"
+	"github.com/namelessup/bilibili/app/service/main/push-strategy/model"
+	pushmdl "github.com/namelessup/bilibili/app/service/main/push/model"
+	"github.com/namelessup/bilibili/library/cache"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Service is service.

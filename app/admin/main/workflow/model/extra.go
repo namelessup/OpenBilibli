@@ -3,7 +3,7 @@ package model
 import (
 	"net/url"
 
-	xtime "go-common/library/time"
+	xtime "github.com/namelessup/bilibili/library/time"
 )
 
 // ChannelInfoResult .

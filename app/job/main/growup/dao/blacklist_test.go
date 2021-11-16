@@ -7,7 +7,7 @@ import (
 
 	"github.com/smartystreets/goconvey/convey"
 
-	"go-common/app/job/main/growup/model"
+	"github.com/namelessup/bilibili/app/job/main/growup/model"
 )
 
 func TestDaoListBlacklist(t *testing.T) {

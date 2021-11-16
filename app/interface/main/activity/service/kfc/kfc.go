@@ -3,12 +3,12 @@ package kfc
 import (
 	"context"
 
-	"go-common/app/interface/main/activity/conf"
-	"go-common/app/interface/main/activity/dao/kfc"
-	kfcmdl "go-common/app/interface/main/activity/model/kfc"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/sync/pipeline/fanout"
+	"github.com/namelessup/bilibili/app/interface/main/activity/conf"
+	"github.com/namelessup/bilibili/app/interface/main/activity/dao/kfc"
+	kfcmdl "github.com/namelessup/bilibili/app/interface/main/activity/model/kfc"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/pipeline/fanout"
 )
 
 // Service struct

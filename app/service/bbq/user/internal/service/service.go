@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 
-	"go-common/app/service/bbq/user/internal/conf"
-	"go-common/app/service/bbq/user/internal/dao"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/service/bbq/user/internal/conf"
+	"github.com/namelessup/bilibili/app/service/bbq/user/internal/dao"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 // Service struct

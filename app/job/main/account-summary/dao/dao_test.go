@@ -2,7 +2,7 @@ package dao
 
 import (
 	"flag"
-	"go-common/app/job/main/account-summary/conf"
+	"github.com/namelessup/bilibili/app/job/main/account-summary/conf"
 	"os"
 	"testing"
 )

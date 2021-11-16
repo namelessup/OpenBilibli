@@ -3,8 +3,8 @@ package mc
 import (
 	"context"
 
-	"go-common/app/admin/main/aegis/conf"
-	"go-common/library/cache/memcache"
+	"github.com/namelessup/bilibili/app/admin/main/aegis/conf"
+	"github.com/namelessup/bilibili/library/cache/memcache"
 )
 
 // Dao dao

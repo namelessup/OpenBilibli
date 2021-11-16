@@ -32,7 +32,7 @@ go_library(
         "rotate.go",
         "service.go",
     ],
-    importpath = "go-common/app/interface/main/captcha/service",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/captcha/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

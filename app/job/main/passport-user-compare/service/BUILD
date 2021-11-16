@@ -17,7 +17,7 @@ go_library(
         "service.go",
         "utils.go",
     ],
-    importpath = "go-common/app/job/main/passport-user-compare/service",
+    importpath = "github.com/namelessup/bilibili/app/job/main/passport-user-compare/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -1,7 +1,7 @@
 package model
 
 import (
-	repmol "go-common/app/job/main/reply/model/reply"
+	repmol "github.com/namelessup/bilibili/app/job/main/reply/model/reply"
 )
 
 // ReplyEvent reply event

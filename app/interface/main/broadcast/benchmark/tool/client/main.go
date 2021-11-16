@@ -7,9 +7,9 @@ import (
 	"net"
 	"time"
 
-	"go-common/app/service/main/broadcast/libs/bufio"
-	"go-common/app/service/main/broadcast/model"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/service/main/broadcast/libs/bufio"
+	"github.com/namelessup/bilibili/app/service/main/broadcast/model"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 var (

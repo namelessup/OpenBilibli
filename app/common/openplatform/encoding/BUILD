@@ -18,7 +18,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["encoding.go"],
-    importpath = "go-common/app/common/openplatform/encoding",
+    importpath = "github.com/namelessup/bilibili/app/common/openplatform/encoding",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

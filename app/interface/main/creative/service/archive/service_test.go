@@ -10,11 +10,11 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 
-	"go-common/app/interface/main/creative/conf"
-	arcmdl "go-common/app/interface/main/creative/model/archive"
-	"go-common/app/interface/main/creative/model/order"
+	"github.com/namelessup/bilibili/app/interface/main/creative/conf"
+	arcmdl "github.com/namelessup/bilibili/app/interface/main/creative/model/archive"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/order"
 
-	"go-common/app/interface/main/creative/service"
+	"github.com/namelessup/bilibili/app/interface/main/creative/service"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

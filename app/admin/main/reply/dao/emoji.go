@@ -5,8 +5,8 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/admin/main/reply/model"
-	xsql "go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/admin/main/reply/model"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
 )
 
 const (

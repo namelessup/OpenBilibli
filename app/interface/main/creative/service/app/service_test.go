@@ -3,13 +3,13 @@ package app
 import (
 	"context"
 	"flag"
-	"go-common/app/interface/main/creative/conf"
-	"go-common/app/interface/main/creative/model/app"
+	"github.com/namelessup/bilibili/app/interface/main/creative/conf"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/app"
 	"path/filepath"
 	"testing"
 	"time"
 
-	"go-common/app/interface/main/creative/service"
+	"github.com/namelessup/bilibili/app/interface/main/creative/service"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

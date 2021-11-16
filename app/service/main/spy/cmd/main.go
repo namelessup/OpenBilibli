@@ -5,17 +5,17 @@ import (
 	"os"
 	"time"
 
-	"go-common/app/service/main/spy/conf"
-	rpc "go-common/app/service/main/spy/rpc/server"
-	grpc "go-common/app/service/main/spy/server/grpc"
-	"go-common/app/service/main/spy/server/http"
-	"go-common/app/service/main/spy/service"
-	"go-common/library/log"
-	xrpc "go-common/library/net/rpc"
-	"go-common/library/net/rpc/warden"
-	"go-common/library/net/trace"
-	"go-common/library/os/signal"
-	"go-common/library/syscall"
+	"github.com/namelessup/bilibili/app/service/main/spy/conf"
+	rpc "github.com/namelessup/bilibili/app/service/main/spy/rpc/server"
+	grpc "github.com/namelessup/bilibili/app/service/main/spy/server/grpc"
+	"github.com/namelessup/bilibili/app/service/main/spy/server/http"
+	"github.com/namelessup/bilibili/app/service/main/spy/service"
+	"github.com/namelessup/bilibili/library/log"
+	xrpc "github.com/namelessup/bilibili/library/net/rpc"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
+	"github.com/namelessup/bilibili/library/net/trace"
+	"github.com/namelessup/bilibili/library/os/signal"
+	"github.com/namelessup/bilibili/library/syscall"
 )
 
 var (

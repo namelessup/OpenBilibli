@@ -28,7 +28,7 @@ go_library(
         "report.go",
         "up.go",
     ],
-    importpath = "go-common/app/interface/main/dm/http",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/dm/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

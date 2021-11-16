@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/service/bbq/push/api/grpc/v1"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/bbq/push/api/grpc/v1"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/Dai0522/workpool"
 	"github.com/json-iterator/go"

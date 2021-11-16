@@ -4,10 +4,10 @@ import (
 	"context"
 	"strconv"
 
-	"go-common/app/interface/main/creative/model/data"
-	artmdl "go-common/app/interface/openplatform/article/model"
-	"go-common/library/cache/memcache"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/creative/model/data"
+	artmdl "github.com/namelessup/bilibili/app/interface/openplatform/article/model"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

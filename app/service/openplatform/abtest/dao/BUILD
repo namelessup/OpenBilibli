@@ -33,7 +33,7 @@ go_library(
         "group.go",
         "redis.go",
     ],
-    importpath = "go-common/app/service/openplatform/abtest/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/openplatform/abtest/dao",
     tags = ["automanaged"],
     deps = [
         "//app/service/openplatform/abtest/conf:go_default_library",

@@ -12,7 +12,7 @@ go_library(
         "log_hash.go",
         "tool.go",
     ],
-    importpath = "go-common/app/service/live/xuser/conf",
+    importpath = "github.com/namelessup/bilibili/app/service/live/xuser/conf",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

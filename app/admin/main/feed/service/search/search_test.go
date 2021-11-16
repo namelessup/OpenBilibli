@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/admin/main/feed/conf"
-	searchModel "go-common/app/admin/main/feed/model/search"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/feed/conf"
+	searchModel "github.com/namelessup/bilibili/app/admin/main/feed/model/search"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/smartystreets/goconvey/convey"
 )

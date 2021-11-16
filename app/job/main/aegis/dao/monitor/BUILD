@@ -14,7 +14,7 @@ go_library(
         "db.go",
         "redis.go",
     ],
-    importpath = "go-common/app/job/main/aegis/dao/monitor",
+    importpath = "github.com/namelessup/bilibili/app/job/main/aegis/dao/monitor",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

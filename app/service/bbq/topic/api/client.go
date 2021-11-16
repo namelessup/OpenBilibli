@@ -2,7 +2,7 @@ package api
 
 import (
 	"context"
-	"go-common/library/net/rpc/warden"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
 	"google.golang.org/grpc"
 )
 

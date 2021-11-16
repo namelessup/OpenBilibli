@@ -21,7 +21,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["dao.go"],
-    importpath = "go-common/app/service/main/dapper/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/main/dapper/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

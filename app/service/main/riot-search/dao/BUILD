@@ -13,7 +13,7 @@ go_library(
         "indexer.go",
         "searcher.go",
     ],
-    importpath = "go-common/app/service/main/riot-search/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/main/riot-search/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

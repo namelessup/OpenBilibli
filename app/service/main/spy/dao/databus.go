@@ -4,7 +4,7 @@ import (
 	"context"
 	"strconv"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // PubScoreChange pub spy score change msg into databus.

@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 
-	"go-common/app/job/main/reply-feed/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/reply-feed/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) updateStat(ctx context.Context, rpID int64, stat *model.ReplyStat) {

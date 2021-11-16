@@ -3,10 +3,10 @@ package dao
 import (
 	"context"
 
-	eleclient "go-common/app/service/main/vip/dao/ele-api-client"
-	"go-common/app/service/main/vip/model"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	eleclient "github.com/namelessup/bilibili/app/service/main/vip/dao/ele-api-client"
+	"github.com/namelessup/bilibili/app/service/main/vip/model"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // api name

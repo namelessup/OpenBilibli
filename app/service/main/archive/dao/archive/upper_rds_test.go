@@ -2,7 +2,7 @@ package archive
 
 import (
 	"context"
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/library/time"
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"

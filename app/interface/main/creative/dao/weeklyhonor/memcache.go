@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	model "go-common/app/interface/main/creative/model/weeklyhonor"
-	"go-common/library/cache/memcache"
-	"go-common/library/log"
+	model "github.com/namelessup/bilibili/app/interface/main/creative/model/weeklyhonor"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

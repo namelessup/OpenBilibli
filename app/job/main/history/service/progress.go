@@ -4,8 +4,8 @@ import (
 	"context"
 	"encoding/json"
 
-	"go-common/app/interface/main/history/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/history/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) subproc() {

@@ -3,9 +3,9 @@ package region
 import (
 	"context"
 
-	"go-common/app/interface/main/app-intl/conf"
-	"go-common/app/interface/main/app-intl/model/region"
-	xsql "go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/interface/main/app-intl/conf"
+	"github.com/namelessup/bilibili/app/interface/main/app-intl/model/region"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
 )
 
 const (

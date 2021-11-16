@@ -7,14 +7,14 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go-common/app/job/main/push/conf"
-	"go-common/app/job/main/push/dao"
-	pushrpc "go-common/app/service/main/push/api/grpc/v1"
-	pushmdl "go-common/app/service/main/push/model"
-	"go-common/library/cache"
-	"go-common/library/conf/env"
-	"go-common/library/log"
-	"go-common/library/queue/databus"
+	"github.com/namelessup/bilibili/app/job/main/push/conf"
+	"github.com/namelessup/bilibili/app/job/main/push/dao"
+	pushrpc "github.com/namelessup/bilibili/app/service/main/push/api/grpc/v1"
+	pushmdl "github.com/namelessup/bilibili/app/service/main/push/model"
+	"github.com/namelessup/bilibili/library/cache"
+	"github.com/namelessup/bilibili/library/conf/env"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/queue/databus"
 )
 
 const (

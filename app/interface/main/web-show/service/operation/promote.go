@@ -5,11 +5,11 @@ import (
 	"regexp"
 	"strconv"
 
-	opmdl "go-common/app/interface/main/web-show/model/operation"
-	"go-common/app/service/main/archive/api"
-	comarcmdl "go-common/app/service/main/archive/model/archive"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	opmdl "github.com/namelessup/bilibili/app/interface/main/web-show/model/operation"
+	"github.com/namelessup/bilibili/app/service/main/archive/api"
+	comarcmdl "github.com/namelessup/bilibili/app/service/main/archive/model/archive"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 var (

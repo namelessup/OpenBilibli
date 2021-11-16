@@ -1,7 +1,7 @@
 # kratos
 
 ## 项目简介
-go-common 工具
+github.com/namelessup/bilibili 工具
 
 ## 使用说明
 

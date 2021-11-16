@@ -1,8 +1,8 @@
 package http
 
 import (
-	"go-common/app/interface/main/esports/model"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/interface/main/esports/model"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 func game(c *bm.Context) {

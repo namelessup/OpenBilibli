@@ -1,18 +1,18 @@
 package http
 
 import (
-	"go-common/app/admin/main/app/conf"
-	aidssvr "go-common/app/admin/main/app/service/aids"
-	auditsvr "go-common/app/admin/main/app/service/audit"
-	bfssvr "go-common/app/admin/main/app/service/bfs"
-	bottomsvr "go-common/app/admin/main/app/service/bottom"
-	langsvr "go-common/app/admin/main/app/service/language"
-	noticesvr "go-common/app/admin/main/app/service/notice"
-	pingsvr "go-common/app/admin/main/app/service/ping"
-	wallsvr "go-common/app/admin/main/app/service/wall"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/permit"
+	"github.com/namelessup/bilibili/app/admin/main/app/conf"
+	aidssvr "github.com/namelessup/bilibili/app/admin/main/app/service/aids"
+	auditsvr "github.com/namelessup/bilibili/app/admin/main/app/service/audit"
+	bfssvr "github.com/namelessup/bilibili/app/admin/main/app/service/bfs"
+	bottomsvr "github.com/namelessup/bilibili/app/admin/main/app/service/bottom"
+	langsvr "github.com/namelessup/bilibili/app/admin/main/app/service/language"
+	noticesvr "github.com/namelessup/bilibili/app/admin/main/app/service/notice"
+	pingsvr "github.com/namelessup/bilibili/app/admin/main/app/service/ping"
+	wallsvr "github.com/namelessup/bilibili/app/admin/main/app/service/wall"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/permit"
 )
 
 var (

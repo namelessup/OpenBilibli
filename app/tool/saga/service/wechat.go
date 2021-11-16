@@ -4,11 +4,11 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/app/tool/saga/conf"
-	"go-common/app/tool/saga/model"
-	"go-common/app/tool/saga/service/mail"
-	"go-common/app/tool/saga/service/wechat"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/tool/saga/conf"
+	"github.com/namelessup/bilibili/app/tool/saga/model"
+	"github.com/namelessup/bilibili/app/tool/saga/service/mail"
+	"github.com/namelessup/bilibili/app/tool/saga/service/wechat"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/pkg/errors"
 )

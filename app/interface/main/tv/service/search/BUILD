@@ -13,7 +13,7 @@ go_library(
         "service.go",
         "wild.go",
     ],
-    importpath = "go-common/app/interface/main/tv/service/search",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/tv/service/search",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

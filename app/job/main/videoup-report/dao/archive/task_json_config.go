@@ -5,11 +5,11 @@ import (
 	"encoding/json"
 	"fmt"
 
-	tmod "go-common/app/job/main/videoup-report/model/task"
-	"go-common/app/job/main/videoup-report/model/utils"
-	"go-common/library/database/sql"
-	"go-common/library/log"
-	"go-common/library/xstr"
+	tmod "github.com/namelessup/bilibili/app/job/main/videoup-report/model/task"
+	"github.com/namelessup/bilibili/app/job/main/videoup-report/model/utils"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 const (

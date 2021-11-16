@@ -3,7 +3,7 @@ package model
 import (
 	"time"
 
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 // Order perf order model

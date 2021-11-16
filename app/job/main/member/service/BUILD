@@ -34,7 +34,7 @@ go_library(
         "service.go",
         "subproc.go",
     ],
-    importpath = "go-common/app/job/main/member/service",
+    importpath = "github.com/namelessup/bilibili/app/job/main/member/service",
     tags = ["automanaged"],
     deps = [
         "//app/interface/main/account/service/realname/crypto:go_default_library",

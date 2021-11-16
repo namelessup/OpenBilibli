@@ -3,7 +3,7 @@ package upcrm
 import (
 	"time"
 
-	"go-common/app/admin/main/up/model/upcrmmodel"
+	"github.com/namelessup/bilibili/app/admin/main/up/model/upcrmmodel"
 )
 
 //QueryUpRank query up rank

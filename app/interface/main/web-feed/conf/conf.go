@@ -4,14 +4,14 @@ import (
 	"errors"
 	"flag"
 
-	"go-common/library/cache/memcache"
-	"go-common/library/conf"
-	xlog "go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
-	"go-common/library/net/http/blademaster/middleware/auth"
-	"go-common/library/net/rpc"
-	"go-common/library/net/trace"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/conf"
+	xlog "github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/http/blademaster/middleware/auth"
+	"github.com/namelessup/bilibili/library/net/rpc"
+	"github.com/namelessup/bilibili/library/net/trace"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	"github.com/BurntSushi/toml"
 )
@@ -22,7 +22,7 @@ type Config struct {
 	Env string
 	// App
 	App *bm.App
-	// Xlog is go-common log.
+	// Xlog is github.com/namelessup/bilibili log.
 	Xlog *xlog.Config
 	// rpc
 	FeedRPC    *rpc.ClientConfig

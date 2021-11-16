@@ -15,7 +15,7 @@ go_binary(
 go_library(
     name = "go_default_library",
     srcs = ["client.go"],
-    importpath = "go-common/library/net/rpc/warden/balancer/wrr/test/client",
+    importpath = "github.com/namelessup/bilibili/library/net/rpc/warden/balancer/wrr/test/client",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

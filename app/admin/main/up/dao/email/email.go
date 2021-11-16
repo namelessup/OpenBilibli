@@ -3,8 +3,8 @@ package email
 import (
 	"os"
 
-	"go-common/app/admin/main/up/conf"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/admin/main/up/conf"
+	"github.com/namelessup/bilibili/library/log"
 
 	"gopkg.in/gomail.v2"
 )

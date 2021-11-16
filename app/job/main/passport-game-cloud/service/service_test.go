@@ -4,7 +4,7 @@ import (
 	"sync"
 	"testing"
 
-	"go-common/app/job/main/passport-game-cloud/conf"
+	"github.com/namelessup/bilibili/app/job/main/passport-game-cloud/conf"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

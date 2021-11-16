@@ -5,8 +5,8 @@ import (
 	"math/rand"
 	"testing"
 
-	"go-common/app/admin/main/vip/model"
-	xsql "go-common/library/database/sql"
+	"github.com/namelessup/bilibili/app/admin/main/vip/model"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
 
 	"github.com/smartystreets/goconvey/convey"
 )

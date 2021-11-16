@@ -2,12 +2,12 @@ package service
 
 import (
 	"context"
-	"go-common/app/admin/main/apm/conf"
-	"go-common/app/admin/main/apm/dao"
-	"go-common/app/admin/main/apm/model/tree"
-	"go-common/app/admin/main/apm/model/ut"
-	"go-common/app/tool/saga/service/gitlab"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/apm/conf"
+	"github.com/namelessup/bilibili/app/admin/main/apm/dao"
+	"github.com/namelessup/bilibili/app/admin/main/apm/model/tree"
+	"github.com/namelessup/bilibili/app/admin/main/apm/model/ut"
+	"github.com/namelessup/bilibili/app/tool/saga/service/gitlab"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 	"sync"
 
 	"github.com/jinzhu/gorm"

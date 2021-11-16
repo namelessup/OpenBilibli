@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	tag "go-common/app/interface/main/tag/model"
+	tag "github.com/namelessup/bilibili/app/interface/main/tag/model"
 )
 
 var (

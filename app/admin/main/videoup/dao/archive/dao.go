@@ -3,11 +3,11 @@ package archive
 import (
 	"context"
 
-	"go-common/app/admin/main/videoup/conf"
-	"go-common/library/cache/redis"
-	"go-common/library/database/hbase.v2"
-	"go-common/library/database/sql"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/admin/main/videoup/conf"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/database/hbase.v2"
+	"github.com/namelessup/bilibili/library/database/sql"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 // Dao is redis dao.

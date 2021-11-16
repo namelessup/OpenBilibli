@@ -4,12 +4,12 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/job/main/activity/conf"
-	"go-common/library/cache/memcache"
-	"go-common/library/cache/redis"
-	"go-common/library/database/elastic"
-	"go-common/library/database/sql"
-	"go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/job/main/activity/conf"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/cache/redis"
+	"github.com/namelessup/bilibili/library/database/elastic"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/net/http/blademaster"
 )
 
 const _activity = "activity"

@@ -1,7 +1,7 @@
 package medal
 
 import (
-	"go-common/app/service/main/usersuit/model"
+	"github.com/namelessup/bilibili/app/service/main/usersuit/model"
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"

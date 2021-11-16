@@ -2,8 +2,8 @@ package rpc
 
 import (
 	"context"
-	favmdl "go-common/app/service/main/favorite/model"
-	favsrv "go-common/app/service/main/favorite/api/gorpc"
+	favmdl "github.com/namelessup/bilibili/app/service/main/favorite/model"
+	favsrv "github.com/namelessup/bilibili/app/service/main/favorite/api/gorpc"
 	"testing"
 	"time"
 

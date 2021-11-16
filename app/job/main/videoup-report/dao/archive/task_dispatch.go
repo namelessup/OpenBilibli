@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/job/main/videoup-report/model/task"
-	"go-common/library/database/sql"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/videoup-report/model/task"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

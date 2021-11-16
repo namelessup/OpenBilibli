@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"go-common/app/admin/main/apm/model/ut"
+	"github.com/namelessup/bilibili/app/admin/main/apm/model/ut"
 
 	"github.com/smartystreets/goconvey/convey"
 )
@@ -40,7 +40,7 @@ func TestServiceDashGraphDetail(t *testing.T) {
 			req      = &ut.PCurveReq{
 				StartTime: 1536508800,
 				EndTime:   1541779200,
-				Path:      "go-common/app/admin/main/apm",
+				Path:      "github.com/namelessup/bilibili/app/admin/main/apm",
 			}
 		)
 		ctx.Convey("When everything goes positive", func(ctx convey.C) {
@@ -84,7 +84,7 @@ func TestServiceDashPkgs(t *testing.T) {
 	convey.Convey("DashboardPkgs", t, func(ctx convey.C) {
 		var (
 			c        = context.Background()
-			path     = "go-common/app/"
+			path     = "github.com/namelessup/bilibili/app/"
 			username = "zhaobingqing"
 		)
 		ctx.Convey("When path is none", func(ctx convey.C) {
@@ -96,7 +96,7 @@ func TestServiceDashPkgs(t *testing.T) {
 			})
 		})
 		// ctx.Convey("When path is not none", func(ctx convey.C) {
-		// 	path = "go-common/app/service/main/block"
+		// 	path = "github.com/namelessup/bilibili/app/service/main/block"
 		// 	val, err := svr.GetPersonalPkgs(c, path, username)
 		// 	ctx.Convey("Error should be nil, pkgs should not be nil", func(ctx convey.C) {
 		// 		ctx.So(err, convey.ShouldBeNil)

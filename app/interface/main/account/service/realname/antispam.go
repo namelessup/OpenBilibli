@@ -3,9 +3,9 @@ package realname
 import (
 	"context"
 
-	"go-common/app/interface/main/account/conf"
-	dao "go-common/app/interface/main/account/dao/realname"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/account/conf"
+	dao "github.com/namelessup/bilibili/app/interface/main/account/dao/realname"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) alipayAntispamCheck(c context.Context, mid int64) bool {

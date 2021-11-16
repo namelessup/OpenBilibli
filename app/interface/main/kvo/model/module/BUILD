@@ -12,7 +12,7 @@ go_library(
         "player.go",
         "web_player.go",
     ],
-    importpath = "go-common/app/interface/main/kvo/model/module",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/kvo/model/module",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

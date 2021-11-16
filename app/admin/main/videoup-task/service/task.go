@@ -6,9 +6,9 @@ import (
 	"sync"
 	"time"
 
-	"go-common/app/admin/main/videoup-task/model"
-	"go-common/library/log"
-	"go-common/library/sync/errgroup"
+	"github.com/namelessup/bilibili/app/admin/main/videoup-task/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/sync/errgroup"
 )
 
 // GetStats .

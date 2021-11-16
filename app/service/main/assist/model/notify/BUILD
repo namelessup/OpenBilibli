@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["notify.go"],
-    importpath = "go-common/app/service/main/assist/model/notify",
+    importpath = "github.com/namelessup/bilibili/app/service/main/assist/model/notify",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

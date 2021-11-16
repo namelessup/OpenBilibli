@@ -17,7 +17,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["actrie.go"],
-    importpath = "go-common/app/service/main/filter/model/actriearea",
+    importpath = "github.com/namelessup/bilibili/app/service/main/filter/model/actriearea",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

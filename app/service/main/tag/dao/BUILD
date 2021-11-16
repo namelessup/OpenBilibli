@@ -60,7 +60,7 @@ go_library(
         "tag.go",
         "tag_mc.go",
     ],
-    importpath = "go-common/app/service/main/tag/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/main/tag/dao",
     tags = ["automanaged"],
     deps = [
         "//app/service/main/tag/conf:go_default_library",

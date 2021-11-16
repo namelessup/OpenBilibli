@@ -1,11 +1,11 @@
 package http
 
 import (
-	"go-common/app/interface/bbq/wechat/internal/conf"
-	"go-common/app/interface/bbq/wechat/internal/model"
-	"go-common/app/interface/bbq/wechat/internal/service"
-	"go-common/library/log"
-	bm "go-common/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/app/interface/bbq/wechat/internal/conf"
+	"github.com/namelessup/bilibili/app/interface/bbq/wechat/internal/model"
+	"github.com/namelessup/bilibili/app/interface/bbq/wechat/internal/service"
+	"github.com/namelessup/bilibili/library/log"
+	bm "github.com/namelessup/bilibili/library/net/http/blademaster"
 	"net/http"
 
 	"github.com/pkg/errors"

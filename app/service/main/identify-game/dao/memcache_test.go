@@ -2,7 +2,7 @@ package dao
 
 import (
 	"context"
-	"go-common/app/service/main/identify-game/model"
+	"github.com/namelessup/bilibili/app/service/main/identify-game/model"
 	"testing"
 
 	"github.com/smartystreets/goconvey/convey"

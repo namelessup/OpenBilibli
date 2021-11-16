@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"testing"
 
-	"go-common/library/database/sql"
+	"github.com/namelessup/bilibili/library/database/sql"
 
 	"github.com/bouk/monkey"
 	"github.com/smartystreets/goconvey/convey"

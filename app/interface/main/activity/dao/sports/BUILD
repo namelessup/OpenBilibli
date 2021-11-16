@@ -12,7 +12,7 @@ go_library(
         "memcached.go",
         "sports.go",
     ],
-    importpath = "go-common/app/interface/main/activity/dao/sports",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/activity/dao/sports",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

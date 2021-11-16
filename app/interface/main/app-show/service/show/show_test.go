@@ -3,8 +3,8 @@ package show
 import (
 	"context"
 	"flag"
-	"go-common/app/interface/main/app-show/conf"
-	"go-common/app/interface/main/app-show/model"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/conf"
+	"github.com/namelessup/bilibili/app/interface/main/app-show/model"
 	"path/filepath"
 	"testing"
 	"time"

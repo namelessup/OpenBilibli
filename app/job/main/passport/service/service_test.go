@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"go-common/app/job/main/passport/conf"
-	idfgmdl "go-common/app/service/main/identify-game/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/passport/conf"
+	idfgmdl "github.com/namelessup/bilibili/app/service/main/identify-game/model"
+	"github.com/namelessup/bilibili/library/log"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

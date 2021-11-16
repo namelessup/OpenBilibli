@@ -3,7 +3,7 @@ package manager
 import (
 	"context"
 
-	pb "go-common/app/service/main/resource/api/v1"
+	pb "github.com/namelessup/bilibili/app/service/main/resource/api/v1"
 )
 
 const (

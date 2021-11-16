@@ -3,9 +3,9 @@ package dao
 import (
 	"context"
 
-	"go-common/app/job/main/app-player/conf"
-	"go-common/library/cache/memcache"
-	"go-common/library/cache/redis"
+	"github.com/namelessup/bilibili/app/job/main/app-player/conf"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/cache/redis"
 )
 
 // Dao is dao.

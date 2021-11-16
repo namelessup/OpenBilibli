@@ -20,7 +20,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["api.go"],
-    importpath = "go-common/app/service/live/xuser/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/live/xuser/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -6,10 +6,10 @@ import (
 	"sync"
 	"time"
 
-	"go-common/app/interface/main/captcha/conf"
-	"go-common/app/interface/main/captcha/dao"
-	"go-common/library/cache"
-	"go-common/library/ecode"
+	"github.com/namelessup/bilibili/app/interface/main/captcha/conf"
+	"github.com/namelessup/bilibili/app/interface/main/captcha/dao"
+	"github.com/namelessup/bilibili/library/cache"
+	"github.com/namelessup/bilibili/library/ecode"
 
 	"github.com/golang/freetype/truetype"
 )

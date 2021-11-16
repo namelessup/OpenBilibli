@@ -5,10 +5,10 @@ import (
 	"net/url"
 	"strconv"
 
-	"go-common/app/interface/main/app-interface/conf"
-	"go-common/app/interface/main/app-interface/model/sp"
-	httpx "go-common/library/net/http/blademaster"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/conf"
+	"github.com/namelessup/bilibili/app/interface/main/app-interface/model/sp"
+	httpx "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/metadata"
 )
 
 const (

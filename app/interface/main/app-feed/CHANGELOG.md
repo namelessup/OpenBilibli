@@ -1073,7 +1073,7 @@
 ##### Version 1.9.7
 
 >1.过滤重复banner
->2.升级go-common
+>2.升级github.com/namelessup/bilibili
 
 ##### Version 1.9.6
 
@@ -1444,7 +1444,7 @@
 
 ##### Version 1.0.3
 
-> 1.升级vendor的golang，go-business，go-common依赖包
+> 1.升级vendor的golang，go-business，github.com/namelessup/bilibili依赖包
 > 2.去除upper推荐的黑名单
 > 3.kafka和databus双写
 > 4.修复修复upper推荐数组越界风险

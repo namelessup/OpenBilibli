@@ -14,7 +14,7 @@ go_library(
         "notice.go",
         "res.go",
     ],
-    importpath = "go-common/app/interface/main/web-show/http",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/web-show/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

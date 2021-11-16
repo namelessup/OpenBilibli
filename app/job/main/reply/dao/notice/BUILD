@@ -41,7 +41,7 @@ go_library(
         "live.go",
         "topic.go",
     ],
-    importpath = "go-common/app/job/main/reply/dao/notice",
+    importpath = "github.com/namelessup/bilibili/app/job/main/reply/dao/notice",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

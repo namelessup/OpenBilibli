@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	plmdl "go-common/app/interface/main/playlist/model"
-	"go-common/app/job/main/playlist/model"
-	xtime "go-common/library/time"
+	plmdl "github.com/namelessup/bilibili/app/interface/main/playlist/model"
+	"github.com/namelessup/bilibili/app/job/main/playlist/model"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

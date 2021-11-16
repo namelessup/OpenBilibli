@@ -10,7 +10,7 @@ go_library(
         "dao.go",
         "util.go",
     ],
-    importpath = "go-common/app/service/main/dapper-query/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/main/dapper-query/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

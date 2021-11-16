@@ -8,7 +8,7 @@ import fmt "fmt"
 import math "math"
 import _ "github.com/gogo/protobuf/gogoproto"
 
-import go_common_library_time "go-common/library/time"
+import go_common_library_time "github.com/namelessup/bilibili/library/time"
 
 import io "io"
 
@@ -28,20 +28,20 @@ type SubjectItem struct {
 	Oid                  int64                       `protobuf:"varint,2,opt,name=Oid,proto3" json:"oid"`
 	Type                 int64                       `protobuf:"varint,3,opt,name=Type,proto3" json:"type"`
 	State                int64                       `protobuf:"varint,4,opt,name=State,proto3" json:"state"`
-	Stime                go_common_library_time.Time `protobuf:"varint,5,opt,name=Stime,proto3,casttype=go-common/library/time.Time" json:"stime"`
-	Etime                go_common_library_time.Time `protobuf:"varint,6,opt,name=Etime,proto3,casttype=go-common/library/time.Time" json:"etime"`
-	Ctime                go_common_library_time.Time `protobuf:"varint,7,opt,name=Ctime,proto3,casttype=go-common/library/time.Time" json:"ctime"`
-	Mtime                go_common_library_time.Time `protobuf:"varint,8,opt,name=Mtime,proto3,casttype=go-common/library/time.Time" json:"mtime"`
+	Stime                go_common_library_time.Time `protobuf:"varint,5,opt,name=Stime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"stime"`
+	Etime                go_common_library_time.Time `protobuf:"varint,6,opt,name=Etime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"etime"`
+	Ctime                go_common_library_time.Time `protobuf:"varint,7,opt,name=Ctime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"ctime"`
+	Mtime                go_common_library_time.Time `protobuf:"varint,8,opt,name=Mtime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"mtime"`
 	Name                 string                      `protobuf:"bytes,9,opt,name=Name,proto3" json:"name"`
 	Author               string                      `protobuf:"bytes,10,opt,name=Author,proto3" json:"author"`
 	ActURL               string                      `protobuf:"bytes,11,opt,name=ActURL,proto3" json:"act_url"`
-	Lstime               go_common_library_time.Time `protobuf:"varint,12,opt,name=Lstime,proto3,casttype=go-common/library/time.Time" json:"lstime"`
-	Letime               go_common_library_time.Time `protobuf:"varint,13,opt,name=Letime,proto3,casttype=go-common/library/time.Time" json:"letime"`
+	Lstime               go_common_library_time.Time `protobuf:"varint,12,opt,name=Lstime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"lstime"`
+	Letime               go_common_library_time.Time `protobuf:"varint,13,opt,name=Letime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"letime"`
 	Cover                string                      `protobuf:"bytes,14,opt,name=Cover,proto3" json:"cover"`
 	Dic                  string                      `protobuf:"bytes,15,opt,name=Dic,proto3" json:"dic"`
 	Flag                 int64                       `protobuf:"varint,16,opt,name=Flag,proto3" json:"flag"`
-	Uetime               go_common_library_time.Time `protobuf:"varint,17,opt,name=Uetime,proto3,casttype=go-common/library/time.Time" json:"uetime"`
-	Ustime               go_common_library_time.Time `protobuf:"varint,18,opt,name=Ustime,proto3,casttype=go-common/library/time.Time" json:"ustime"`
+	Uetime               go_common_library_time.Time `protobuf:"varint,17,opt,name=Uetime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"uetime"`
+	Ustime               go_common_library_time.Time `protobuf:"varint,18,opt,name=Ustime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"ustime"`
 	Level                int64                       `protobuf:"varint,19,opt,name=Level,proto3" json:"level"`
 	H5Cover              string                      `protobuf:"bytes,20,opt,name=H5_cover,json=H5Cover,proto3" json:"h5_cover"`
 	Rank                 int64                       `protobuf:"varint,21,opt,name=Rank,proto3" json:"rank"`
@@ -94,8 +94,8 @@ type LikeContent struct {
 	IP                   int64                       `protobuf:"varint,3,opt,name=IP,proto3" json:"ip"`
 	Plat                 int64                       `protobuf:"varint,4,opt,name=Plat,proto3" json:"plat"`
 	Device               int64                       `protobuf:"varint,5,opt,name=Device,proto3" json:"device"`
-	Ctime                go_common_library_time.Time `protobuf:"varint,6,opt,name=Ctime,proto3,casttype=go-common/library/time.Time" json:"ctime"`
-	Mtime                go_common_library_time.Time `protobuf:"varint,7,opt,name=Mtime,proto3,casttype=go-common/library/time.Time" json:"mtime"`
+	Ctime                go_common_library_time.Time `protobuf:"varint,6,opt,name=Ctime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"ctime"`
+	Mtime                go_common_library_time.Time `protobuf:"varint,7,opt,name=Mtime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"mtime"`
 	Image                string                      `protobuf:"bytes,8,opt,name=Image,proto3" json:"image"`
 	Reply                string                      `protobuf:"bytes,9,opt,name=Reply,proto3" json:"reply"`
 	Link                 string                      `protobuf:"bytes,10,opt,name=Link,proto3" json:"link"`
@@ -142,13 +142,13 @@ type ActSubjectProtocol struct {
 	ID                   int64                       `protobuf:"varint,1,opt,name=ID,proto3" json:"id"`
 	Sid                  int64                       `protobuf:"varint,2,opt,name=Sid,proto3" json:"sid"`
 	Protocol             string                      `protobuf:"bytes,3,opt,name=Protocol,proto3" json:"protocol"`
-	Mtime                go_common_library_time.Time `protobuf:"varint,4,opt,name=Mtime,proto3,casttype=go-common/library/time.Time" json:"mtime"`
-	Ctime                go_common_library_time.Time `protobuf:"varint,5,opt,name=Ctime,proto3,casttype=go-common/library/time.Time" json:"ctime"`
+	Mtime                go_common_library_time.Time `protobuf:"varint,4,opt,name=Mtime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"mtime"`
+	Ctime                go_common_library_time.Time `protobuf:"varint,5,opt,name=Ctime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"ctime"`
 	Types                string                      `protobuf:"bytes,6,opt,name=Types,proto3" json:"types"`
 	Tags                 string                      `protobuf:"bytes,7,opt,name=Tags,proto3" json:"tags"`
-	Pubtime              go_common_library_time.Time `protobuf:"varint,8,opt,name=Pubtime,proto3,casttype=go-common/library/time.Time" json:"pubtime"`
-	Deltime              go_common_library_time.Time `protobuf:"varint,9,opt,name=Deltime,proto3,casttype=go-common/library/time.Time" json:"deltime"`
-	Editime              go_common_library_time.Time `protobuf:"varint,10,opt,name=Editime,proto3,casttype=go-common/library/time.Time" json:"editime"`
+	Pubtime              go_common_library_time.Time `protobuf:"varint,8,opt,name=Pubtime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"pubtime"`
+	Deltime              go_common_library_time.Time `protobuf:"varint,9,opt,name=Deltime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"deltime"`
+	Editime              go_common_library_time.Time `protobuf:"varint,10,opt,name=Editime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"editime"`
 	Hot                  int64                       `protobuf:"varint,11,opt,name=Hot,proto3" json:"hot"`
 	BgmID                int64                       `protobuf:"varint,12,opt,name=BgmID,proto3" json:"bgm_id"`
 	PasterID             int64                       `protobuf:"varint,13,opt,name=PasterID,proto3" json:"paster_id"`

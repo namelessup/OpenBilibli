@@ -42,7 +42,7 @@ go_library(
         "zone.go",
         "zone_index.go",
     ],
-    importpath = "go-common/app/interface/main/tv/service/app",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/tv/service/app",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

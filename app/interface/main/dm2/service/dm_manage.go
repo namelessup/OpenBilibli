@@ -6,12 +6,12 @@ import (
 	"strconv"
 	"time"
 
-	"go-common/app/interface/main/dm2/model"
-	"go-common/app/interface/main/dm2/model/oplog"
-	account "go-common/app/service/main/account/api"
-	assmdl "go-common/app/service/main/assist/model/assist"
-	"go-common/library/ecode"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/dm2/model"
+	"github.com/namelessup/bilibili/app/interface/main/dm2/model/oplog"
+	account "github.com/namelessup/bilibili/app/service/main/account/api"
+	assmdl "github.com/namelessup/bilibili/app/service/main/assist/model/assist"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

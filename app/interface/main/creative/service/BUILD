@@ -25,7 +25,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["public.go"],
-    importpath = "go-common/app/interface/main/creative/service",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/creative/service",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"go-common/app/tool/gengo/types"
+	"github.com/namelessup/bilibili/app/tool/gengo/types"
 )
 
 func Test_isRootedUnder(t *testing.T) {

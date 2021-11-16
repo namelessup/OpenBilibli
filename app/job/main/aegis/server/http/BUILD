@@ -11,7 +11,7 @@ go_library(
         "debug.go",
         "http.go",
     ],
-    importpath = "go-common/app/job/main/aegis/server/http",
+    importpath = "github.com/namelessup/bilibili/app/job/main/aegis/server/http",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

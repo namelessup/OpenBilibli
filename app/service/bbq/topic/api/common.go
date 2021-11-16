@@ -3,7 +3,7 @@ package api
 import (
 	"context"
 	"encoding/json"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // Transform2Interface 转换成interface

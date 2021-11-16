@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"strings"
 
-	"go-common/app/service/main/passport/model"
+	"github.com/namelessup/bilibili/app/service/main/passport/model"
 )
 
 // HistoryPwdCheck history pwd check

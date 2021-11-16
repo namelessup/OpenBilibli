@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["generator.go"],
-    importpath = "go-common/app/tool/protoc-gen-bm/codegenerator",
+    importpath = "github.com/namelessup/bilibili/app/tool/protoc-gen-bm/codegenerator",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

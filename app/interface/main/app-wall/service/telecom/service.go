@@ -3,11 +3,11 @@ package telecom
 import (
 	"fmt"
 
-	"go-common/app/interface/main/app-wall/conf"
-	seqDao "go-common/app/interface/main/app-wall/dao/seq"
-	telecomDao "go-common/app/interface/main/app-wall/dao/telecom"
-	"go-common/library/log"
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/app/interface/main/app-wall/conf"
+	seqDao "github.com/namelessup/bilibili/app/interface/main/app-wall/dao/seq"
+	telecomDao "github.com/namelessup/bilibili/app/interface/main/app-wall/dao/telecom"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/stat/prom"
 )
 
 const (

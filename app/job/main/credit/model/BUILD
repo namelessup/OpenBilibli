@@ -17,7 +17,7 @@ go_library(
         "message.go",
         "reply.go",
     ],
-    importpath = "go-common/app/job/main/credit/model",
+    importpath = "github.com/namelessup/bilibili/app/job/main/credit/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/time:go_default_library"],

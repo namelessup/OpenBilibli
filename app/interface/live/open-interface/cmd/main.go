@@ -8,11 +8,11 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/app/interface/live/open-interface/internal/server/http"
-	"go-common/app/interface/live/open-interface/internal/service"
-	"go-common/library/conf/paladin"
-	ecode "go-common/library/ecode/tip"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/live/open-interface/internal/server/http"
+	"github.com/namelessup/bilibili/app/interface/live/open-interface/internal/service"
+	"github.com/namelessup/bilibili/library/conf/paladin"
+	ecode "github.com/namelessup/bilibili/library/ecode/tip"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func main() {

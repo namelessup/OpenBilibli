@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["push-archive-test.toml"],
-    importpath = "go-common/app/interface/main/push-archive/cmd",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/push-archive/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

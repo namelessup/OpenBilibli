@@ -5,8 +5,8 @@ import (
 	"testing"
 	xtime "time"
 
-	"go-common/app/interface/main/web/model"
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/app/interface/main/web/model"
+	"github.com/namelessup/bilibili/library/time"
 
 	"github.com/smartystreets/goconvey/convey"
 	"gopkg.in/h2non/gock.v1"

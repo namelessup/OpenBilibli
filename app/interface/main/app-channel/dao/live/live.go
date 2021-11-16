@@ -6,13 +6,13 @@ import (
 	"net/url"
 	"strconv"
 
-	cardlive "go-common/app/interface/main/app-card/model/card/live"
-	"go-common/app/interface/main/app-channel/conf"
-	"go-common/app/interface/main/app-channel/model/live"
-	"go-common/library/ecode"
-	httpx "go-common/library/net/http/blademaster"
-	"go-common/library/net/metadata"
-	"go-common/library/xstr"
+	cardlive "github.com/namelessup/bilibili/app/interface/main/app-card/model/card/live"
+	"github.com/namelessup/bilibili/app/interface/main/app-channel/conf"
+	"github.com/namelessup/bilibili/app/interface/main/app-channel/model/live"
+	"github.com/namelessup/bilibili/library/ecode"
+	httpx "github.com/namelessup/bilibili/library/net/http/blademaster"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/xstr"
 
 	"github.com/pkg/errors"
 )

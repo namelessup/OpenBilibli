@@ -34,7 +34,7 @@ go_library(
         "refresh.go",
         "token.go",
     ],
-    importpath = "go-common/app/service/main/passport-auth/dao",
+    importpath = "github.com/namelessup/bilibili/app/service/main/passport-auth/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

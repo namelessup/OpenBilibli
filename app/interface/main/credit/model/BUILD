@@ -19,7 +19,7 @@ go_library(
         "param.go",
         "rpc.go",
     ],
-    importpath = "go-common/app/interface/main/credit/model",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/credit/model",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

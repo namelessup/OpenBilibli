@@ -112,7 +112,7 @@
 
 #### Version 2.0.0
 ###### Features
-> 1.更新go-common v7.0.0  
+> 1.更新github.com/namelessup/bilibili v7.0.0  
 > 2.去掉go-business 依赖  
 > 3.添加rpc方法Info2和Infos2（查询IP信息并返回完整zoned_id组）  
 
@@ -161,12 +161,12 @@
 
 #### Version 1.3.1
 ###### Features
-> 1.升级go-common v6.2.4,go-business v2.4.3, golang v2.9.1 
+> 1.升级github.com/namelessup/bilibili v6.2.4,go-business v2.4.3, golang v2.9.1 
 
 #### Version 1.3.0
 ###### Features
 > 1.增加zone 接口代替check接口.  
-> 2.升级go-common v5.2.2,go-business location, golang v2.6.0  
+> 2.升级github.com/namelessup/bilibili v5.2.2,go-business location, golang v2.6.0  
 
 #### Version 1.2.0
 ###### Features
@@ -174,17 +174,17 @@
 
 #### Version 1.1.0
 ###### Features
-> 1.升级go-common v5.0.0,golang v2.6.0,go-business v2.2.1  
+> 1.升级github.com/namelessup/bilibili v5.0.0,golang v2.6.0,go-business v2.2.1  
 
 #### Version 1.0.0
 ###### Features
-> 1.升级go-common v4.4.1,golang v2.5.3,go-business v2.1.0  
+> 1.升级github.com/namelessup/bilibili v4.4.1,golang v2.5.3,go-business v2.1.0  
 > 2.增加下载IP库
 
 #### Version 0.1.0
 ###### Features
 > 1.接入配置中心  
-> 2.go-common develop分支  
+> 2.github.com/namelessup/bilibili develop分支  
 
 ###### Bug Fixes
 > 1.修复查找算法  

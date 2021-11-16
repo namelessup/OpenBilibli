@@ -20,7 +20,7 @@ go_library(
         "token.go",
         "upload.go",
     ],
-    importpath = "go-common/app/admin/live/live-admin/service/v1",
+    importpath = "github.com/namelessup/bilibili/app/admin/live/live-admin/service/v1",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

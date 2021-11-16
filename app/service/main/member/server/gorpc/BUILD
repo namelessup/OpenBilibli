@@ -30,7 +30,7 @@ go_library(
         "realname.go",
         "rpc.go",
     ],
-    importpath = "go-common/app/service/main/member/server/gorpc",
+    importpath = "github.com/namelessup/bilibili/app/service/main/member/server/gorpc",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

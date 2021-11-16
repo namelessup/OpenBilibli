@@ -3,10 +3,10 @@ package dao
 import (
 	"context"
 
-	"go-common/app/interface/main/esports/model"
+	"github.com/namelessup/bilibili/app/interface/main/esports/model"
 )
 
-//go:generate $GOPATH/src/go-common/app/tool/cache/gen
+//go:generate $GOPATH/src/github.com/namelessup/bilibili/app/tool/cache/gen
 type _cache interface {
 	// cache
 	EpContests(c context.Context, ids []int64) (map[int64]*model.Contest, error)

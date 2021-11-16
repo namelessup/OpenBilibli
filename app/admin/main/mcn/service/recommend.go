@@ -4,13 +4,13 @@ import (
 	"context"
 	"fmt"
 
-	"go-common/app/admin/main/mcn/model"
-	accgrpc "go-common/app/service/main/account/api"
-	memgrpc "go-common/app/service/main/member/api"
-	blkmdl "go-common/app/service/main/member/model/block"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/xstr"
+	"github.com/namelessup/bilibili/app/admin/main/mcn/model"
+	accgrpc "github.com/namelessup/bilibili/app/service/main/account/api"
+	memgrpc "github.com/namelessup/bilibili/app/service/main/member/api"
+	blkmdl "github.com/namelessup/bilibili/app/service/main/member/model/block"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/xstr"
 )
 
 // RecommendAdd .

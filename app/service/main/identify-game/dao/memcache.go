@@ -3,9 +3,9 @@ package dao
 import (
 	"context"
 
-	"go-common/app/service/main/identify-game/model"
-	"go-common/library/cache/memcache"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/identify-game/model"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // SetAccessCache .

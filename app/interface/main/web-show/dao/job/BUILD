@@ -27,7 +27,7 @@ go_library(
         "dao.go",
         "jobs.go",
     ],
-    importpath = "go-common/app/interface/main/web-show/dao/job",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/web-show/dao/job",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"go-common/app/job/main/passport-game-data/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/main/passport-game-data/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 func (s *Service) batchQueryLocalNonMiss(c context.Context, mids []int64, batchSize, batchMissRetryCount int) (res []*model.OriginAsoAccount) {

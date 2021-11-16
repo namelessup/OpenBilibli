@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["history.go"],
-    importpath = "go-common/app/interface/main/tv/model/history",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/tv/model/history",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

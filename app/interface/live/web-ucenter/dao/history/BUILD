@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["dao.go"],
-    importpath = "go-common/app/interface/live/web-ucenter/dao/history",
+    importpath = "github.com/namelessup/bilibili/app/interface/live/web-ucenter/dao/history",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

@@ -3,8 +3,8 @@ package dao
 import (
 	"context"
 	"fmt"
-	mc "go-common/library/cache/memcache"
-	"go-common/library/log"
+	mc "github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

@@ -1,5 +1,5 @@
 {
-	"GoPrefix": "go-common",
+	"GoPrefix": "github.com/namelessup/bilibili",
 	"SkippedPaths": [
 		"^release",
 		"^//release",

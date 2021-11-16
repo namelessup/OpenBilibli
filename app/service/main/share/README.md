@@ -1,4 +1,4 @@
-# go-common/app/service/share
+# github.com/namelessup/bilibili/app/service/share
 
 ##### 项目简介
 > 1. 提供分享计数功能

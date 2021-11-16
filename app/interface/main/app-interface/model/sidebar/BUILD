@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["sidebar.go"],
-    importpath = "go-common/app/interface/main/app-interface/model/sidebar",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-interface/model/sidebar",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/time:go_default_library"],

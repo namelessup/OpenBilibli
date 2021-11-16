@@ -9,7 +9,7 @@ import math "math"
 import _ "github.com/gogo/protobuf/gogoproto"
 import empty "github.com/golang/protobuf/ptypes/empty"
 
-import go_common_library_time "go-common/library/time"
+import go_common_library_time "github.com/namelessup/bilibili/library/time"
 
 import (
 	context "golang.org/x/net/context"
@@ -119,7 +119,7 @@ type SysMsg struct {
 	JumpUrl              string                      `protobuf:"bytes,5,opt,name=jump_url,json=jumpUrl,proto3" json:"jump_url" form:"jump_url"`
 	Text                 string                      `protobuf:"bytes,6,opt,name=text,proto3" json:"text" form:"text" validate:"required"`
 	State                int32                       `protobuf:"varint,7,opt,name=state,proto3" json:"state" form:"state"`
-	Ctime                go_common_library_time.Time `protobuf:"varint,8,opt,name=ctime,proto3,casttype=go-common/library/time.Time" json:"ctime"`
+	Ctime                go_common_library_time.Time `protobuf:"varint,8,opt,name=ctime,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"ctime"`
 	XXX_NoUnkeyedLiteral struct{}                    `json:"-"`
 	XXX_unrecognized     []byte                      `json:"-"`
 	XXX_sizecache        int32                       `json:"-"`

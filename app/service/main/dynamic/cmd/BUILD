@@ -19,7 +19,7 @@ go_library(
         "dynamic-service-example.toml",
         "dynamic-service-test.toml",
     ],
-    importpath = "go-common/app/service/main/dynamic/cmd",
+    importpath = "github.com/namelessup/bilibili/app/service/main/dynamic/cmd",
     tags = ["automanaged"],
     deps = [
         "//app/service/main/dynamic/conf:go_default_library",

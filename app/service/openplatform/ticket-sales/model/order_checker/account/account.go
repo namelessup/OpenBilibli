@@ -4,12 +4,12 @@ import (
 	"context"
 	"time"
 
-	acc "go-common/app/service/main/account/api"
-	mAcc "go-common/app/service/main/account/model"
-	vip "go-common/app/service/main/vip/model"
-	rpc "go-common/app/service/openplatform/ticket-sales/api/grpc/v1"
-	"go-common/app/service/openplatform/ticket-sales/dao"
-	"go-common/library/ecode"
+	acc "github.com/namelessup/bilibili/app/service/main/account/api"
+	mAcc "github.com/namelessup/bilibili/app/service/main/account/model"
+	vip "github.com/namelessup/bilibili/app/service/main/vip/model"
+	rpc "github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/dao"
+	"github.com/namelessup/bilibili/library/ecode"
 )
 
 //Checker 检查用户信息

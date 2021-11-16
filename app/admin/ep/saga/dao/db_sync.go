@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/admin/ep/saga/model"
+	"github.com/namelessup/bilibili/app/admin/ep/saga/model"
 
 	pkgerr "github.com/pkg/errors"
 )

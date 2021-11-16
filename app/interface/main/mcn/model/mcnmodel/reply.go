@@ -3,12 +3,12 @@ package mcnmodel
 import (
 	"sort"
 
-	mcnadminmodel "go-common/app/admin/main/mcn/model"
-	"go-common/app/interface/main/mcn/model"
-	"go-common/app/interface/main/mcn/model/datamodel"
-	arcgrpc "go-common/app/service/main/archive/api"
+	mcnadminmodel "github.com/namelessup/bilibili/app/admin/main/mcn/model"
+	"github.com/namelessup/bilibili/app/interface/main/mcn/model"
+	"github.com/namelessup/bilibili/app/interface/main/mcn/model/datamodel"
+	arcgrpc "github.com/namelessup/bilibili/app/service/main/archive/api"
 
-	"go-common/library/time"
+	"github.com/namelessup/bilibili/library/time"
 )
 
 // McnGetStateReply .

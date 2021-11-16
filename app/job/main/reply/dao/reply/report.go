@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	model "go-common/app/job/main/reply/model/reply"
-	"go-common/library/database/sql"
-	"go-common/library/log"
+	model "github.com/namelessup/bilibili/app/job/main/reply/model/reply"
+	"github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

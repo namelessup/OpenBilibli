@@ -22,7 +22,7 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["ele_client.go"],
-    importpath = "go-common/app/service/main/vip/dao/ele-api-client",
+    importpath = "github.com/namelessup/bilibili/app/service/main/vip/dao/ele-api-client",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

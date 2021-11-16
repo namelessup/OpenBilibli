@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 
-	"go-common/app/admin/ep/merlin/conf"
-	"go-common/app/admin/ep/merlin/dao"
-	"go-common/library/sync/pipeline/fanout"
+	"github.com/namelessup/bilibili/app/admin/ep/merlin/conf"
+	"github.com/namelessup/bilibili/app/admin/ep/merlin/dao"
+	"github.com/namelessup/bilibili/library/sync/pipeline/fanout"
 
 	"github.com/robfig/cron"
 )

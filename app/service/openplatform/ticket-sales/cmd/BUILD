@@ -8,7 +8,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["ticket-sales.toml"],
-    importpath = "go-common/app/service/openplatform/ticket-sales/cmd",
+    importpath = "github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:private"],
     deps = [

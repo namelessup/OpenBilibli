@@ -4,7 +4,7 @@ import (
 	"context"
 	"net/url"
 
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/library/log"
 
 	"github.com/pkg/errors"
 )

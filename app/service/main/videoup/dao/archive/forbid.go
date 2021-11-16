@@ -1,9 +1,9 @@
 package archive
 
 import (
-	"go-common/app/service/main/videoup/model/archive"
-	xsql "go-common/library/database/sql"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/main/videoup/model/archive"
+	xsql "github.com/namelessup/bilibili/library/database/sql"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 const (

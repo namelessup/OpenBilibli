@@ -11,7 +11,7 @@ go_library(
         "article.go",
         "mock.go",
     ],
-    importpath = "go-common/app/interface/openplatform/article/rpc/client",
+    importpath = "github.com/namelessup/bilibili/app/interface/openplatform/article/rpc/client",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

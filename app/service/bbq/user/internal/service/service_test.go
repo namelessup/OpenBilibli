@@ -2,9 +2,9 @@ package service
 
 import (
 	"flag"
-	"go-common/app/service/bbq/user/internal/conf"
-	"go-common/library/conf/paladin"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/service/bbq/user/internal/conf"
+	"github.com/namelessup/bilibili/library/conf/paladin"
+	"github.com/namelessup/bilibili/library/log"
 	"os"
 	"testing"
 )

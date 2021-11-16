@@ -3,9 +3,9 @@ package dao
 import (
 	"context"
 
-	"go-common/library/database/elastic"
+	"github.com/namelessup/bilibili/library/database/elastic"
 
-	"go-common/app/admin/main/passport/conf"
+	"github.com/namelessup/bilibili/app/admin/main/passport/conf"
 )
 
 // Dao dao

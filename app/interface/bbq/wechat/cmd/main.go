@@ -7,12 +7,12 @@ import (
 	"syscall"
 	"time"
 
-	"go-common/app/interface/bbq/wechat/internal/conf"
-	"go-common/app/interface/bbq/wechat/internal/server/http"
-	"go-common/app/interface/bbq/wechat/internal/service"
-	ecode "go-common/library/ecode/tip"
-	"go-common/library/log"
-	"go-common/library/net/trace"
+	"github.com/namelessup/bilibili/app/interface/bbq/wechat/internal/conf"
+	"github.com/namelessup/bilibili/app/interface/bbq/wechat/internal/server/http"
+	"github.com/namelessup/bilibili/app/interface/bbq/wechat/internal/service"
+	ecode "github.com/namelessup/bilibili/library/ecode/tip"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/trace"
 )
 
 func main() {

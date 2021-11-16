@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"context"
 	"fmt"
-	"go-common/app/interface/bbq/app-bbq/model"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
+	"github.com/namelessup/bilibili/app/interface/bbq/app-bbq/model"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
 	"strings"
 
 	jsoniter "github.com/json-iterator/go"

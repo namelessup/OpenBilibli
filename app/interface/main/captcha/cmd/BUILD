@@ -16,7 +16,7 @@ go_library(
     name = "go_default_library",
     srcs = ["main.go"],
     data = ["captcha-test.toml"],
-    importpath = "go-common/app/interface/main/captcha/cmd",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/captcha/cmd",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

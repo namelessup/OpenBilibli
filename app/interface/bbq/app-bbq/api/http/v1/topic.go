@@ -1,6 +1,6 @@
 package v1
 
-import topic "go-common/app/service/bbq/topic/api"
+import topic "github.com/namelessup/bilibili/app/service/bbq/topic/api"
 
 // TopicVideo 话题视频的结构
 type TopicVideo struct {

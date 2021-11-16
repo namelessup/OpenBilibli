@@ -29,7 +29,7 @@ go_library(
         "gift.go",
         "roomNotice.go",
     ],
-    importpath = "go-common/app/interface/live/app-room/service/v1",
+    importpath = "github.com/namelessup/bilibili/app/interface/live/app-room/service/v1",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

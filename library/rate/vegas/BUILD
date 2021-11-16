@@ -21,7 +21,7 @@ go_library(
         "sample.go",
         "vegas.go",
     ],
-    importpath = "go-common/library/rate/vegas",
+    importpath = "github.com/namelessup/bilibili/library/rate/vegas",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = ["//library/rate:go_default_library"],

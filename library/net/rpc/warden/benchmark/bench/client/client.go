@@ -8,10 +8,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go-common/library/net/netutil/breaker"
-	"go-common/library/net/rpc/warden"
-	"go-common/library/net/rpc/warden/benchmark/bench/proto"
-	xtime "go-common/library/time"
+	"github.com/namelessup/bilibili/library/net/netutil/breaker"
+	"github.com/namelessup/bilibili/library/net/rpc/warden"
+	"github.com/namelessup/bilibili/library/net/rpc/warden/benchmark/bench/proto"
+	xtime "github.com/namelessup/bilibili/library/time"
 
 	goproto "github.com/gogo/protobuf/proto"
 	"github.com/montanaflynn/stats"

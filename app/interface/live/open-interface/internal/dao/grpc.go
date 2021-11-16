@@ -1,7 +1,7 @@
 package dao
 
 import (
-	broadcasrtService "go-common/app/service/live/broadcast-proxy/api/v1"
+	broadcasrtService "github.com/namelessup/bilibili/app/service/live/broadcast-proxy/api/v1"
 )
 
 var (

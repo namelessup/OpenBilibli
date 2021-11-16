@@ -28,7 +28,7 @@ go_library(
         ["*.go"],
         exclude = ["*_test.go"],
     ),
-    importpath = "go-common/library/net/trace",
+    importpath = "github.com/namelessup/bilibili/library/net/trace",
     tags = ["manual"],
     deps = [
         "//library/conf/dsn:go_default_library",

@@ -23,8 +23,8 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["dao.go"],
-    importmap = "go-common/app/admin/main/up/dao/manager",
-    importpath = "go-common/app/admin/main/up/dao/manager",
+    importmap = "github.com/namelessup/bilibili/app/admin/main/up/dao/manager",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/up/dao/manager",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

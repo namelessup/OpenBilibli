@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["shopping.go"],
-    importpath = "go-common/app/interface/main/app-channel/model/shopping",
+    importpath = "github.com/namelessup/bilibili/app/interface/main/app-channel/model/shopping",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

@@ -12,7 +12,7 @@ go_library(
         "dao.go",
         "relation.go",
     ],
-    importpath = "go-common/app/job/main/relation-cache/dao",
+    importpath = "github.com/namelessup/bilibili/app/job/main/relation-cache/dao",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

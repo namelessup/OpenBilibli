@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	amodel "go-common/app/admin/openplatform/sug/model"
-	"go-common/app/job/openplatform/open-sug/model"
-	"go-common/library/cache/redis"
+	amodel "github.com/namelessup/bilibili/app/admin/openplatform/sug/model"
+	"github.com/namelessup/bilibili/app/job/openplatform/open-sug/model"
+	"github.com/namelessup/bilibili/library/cache/redis"
 	"strconv"
 )
 

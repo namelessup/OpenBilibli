@@ -5,11 +5,11 @@ import (
 	"os"
 	"os/signal"
 
-	"go-common/app/job/main/figure-timer/conf"
-	"go-common/app/job/main/figure-timer/http"
-	"go-common/app/job/main/figure-timer/service"
-	"go-common/library/log"
-	"go-common/library/syscall"
+	"github.com/namelessup/bilibili/app/job/main/figure-timer/conf"
+	"github.com/namelessup/bilibili/app/job/main/figure-timer/http"
+	"github.com/namelessup/bilibili/app/job/main/figure-timer/service"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/syscall"
 )
 
 var (

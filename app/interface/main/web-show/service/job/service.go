@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	"go-common/app/interface/main/web-show/conf"
-	"go-common/app/interface/main/web-show/dao/job"
-	jobmdl "go-common/app/interface/main/web-show/model/job"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/web-show/conf"
+	"github.com/namelessup/bilibili/app/interface/main/web-show/dao/job"
+	jobmdl "github.com/namelessup/bilibili/app/interface/main/web-show/model/job"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 var (

@@ -3,11 +3,11 @@ package cache
 import (
 	"context"
 	"fmt"
-	"go-common/library/cache"
-	"go-common/library/cache/memcache"
-	"go-common/library/log"
-	"go-common/library/net/metadata"
-	"go-common/library/stat/prom"
+	"github.com/namelessup/bilibili/library/cache"
+	"github.com/namelessup/bilibili/library/cache/memcache"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/metadata"
+	"github.com/namelessup/bilibili/library/stat/prom"
 	"time"
 )
 

@@ -4,10 +4,10 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"go-common/app/job/bbq/video/model"
-	"go-common/app/service/bbq/common"
-	topic "go-common/app/service/bbq/topic/api"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/job/bbq/video/model"
+	"github.com/namelessup/bilibili/app/service/bbq/common"
+	topic "github.com/namelessup/bilibili/app/service/bbq/topic/api"
+	"github.com/namelessup/bilibili/library/log"
 	"strconv"
 )
 

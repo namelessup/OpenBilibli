@@ -27,7 +27,7 @@ go_library(
         "dao.go",
         "email.go",
     ],
-    importpath = "go-common/app/admin/main/up/dao/email",
+    importpath = "github.com/namelessup/bilibili/app/admin/main/up/dao/email",
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
     deps = [

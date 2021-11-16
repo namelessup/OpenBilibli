@@ -7,12 +7,12 @@ import (
 	"path/filepath"
 	"testing"
 
-	sales "go-common/app/service/openplatform/ticket-sales/api/grpc/v1"
-	"go-common/app/service/openplatform/ticket-sales/conf"
-	"go-common/app/service/openplatform/ticket-sales/service"
+	sales "github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/api/grpc/v1"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/conf"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/service"
 
-	"go-common/app/service/openplatform/ticket-sales/api/grpc/type"
-	"go-common/library/conf/paladin"
+	"github.com/namelessup/bilibili/app/service/openplatform/ticket-sales/api/grpc/type"
+	"github.com/namelessup/bilibili/library/conf/paladin"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

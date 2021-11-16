@@ -8,7 +8,7 @@ import fmt "fmt"
 import math "math"
 import _ "github.com/gogo/protobuf/gogoproto"
 
-import go_common_library_time "go-common/library/time"
+import go_common_library_time "github.com/namelessup/bilibili/library/time"
 
 import io "io"
 
@@ -22,7 +22,7 @@ type AidPubTime struct {
 	// aid 稿件aid
 	Aid int64 `protobuf:"varint,1,opt,name=aid,proto3" json:"aid"`
 	// pub_date 发布时间
-	PubDate go_common_library_time.Time `protobuf:"varint,2,opt,name=pub_date,json=pubDate,proto3,casttype=go-common/library/time.Time" json:"pubdate"`
+	PubDate go_common_library_time.Time `protobuf:"varint,2,opt,name=pub_date,json=pubDate,proto3,casttype=github.com/namelessup/bilibili/library/time.Time" json:"pubdate"`
 	// copyright 版权来源
 	Copyright int32 `protobuf:"varint,3,opt,name=copyright,proto3" json:"copyright"`
 }

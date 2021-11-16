@@ -9,9 +9,9 @@ import (
 	"strings"
 	"time"
 
-	"go-common/app/interface/main/push-archive/conf"
-	"go-common/app/interface/main/push-archive/model"
-	"go-common/library/log"
+	"github.com/namelessup/bilibili/app/interface/main/push-archive/conf"
+	"github.com/namelessup/bilibili/app/interface/main/push-archive/model"
+	"github.com/namelessup/bilibili/library/log"
 )
 
 // FanGroup 粉丝分组

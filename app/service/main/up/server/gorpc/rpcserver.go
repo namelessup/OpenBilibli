@@ -3,13 +3,13 @@ package gorpc
 import (
 	"time"
 
-	"go-common/app/service/main/up/conf"
-	"go-common/app/service/main/up/model"
-	"go-common/app/service/main/up/service"
-	"go-common/library/ecode"
-	"go-common/library/log"
-	"go-common/library/net/rpc"
-	"go-common/library/net/rpc/context"
+	"github.com/namelessup/bilibili/app/service/main/up/conf"
+	"github.com/namelessup/bilibili/app/service/main/up/model"
+	"github.com/namelessup/bilibili/app/service/main/up/service"
+	"github.com/namelessup/bilibili/library/ecode"
+	"github.com/namelessup/bilibili/library/log"
+	"github.com/namelessup/bilibili/library/net/rpc"
+	"github.com/namelessup/bilibili/library/net/rpc/context"
 )
 
 //RPC rpc server
